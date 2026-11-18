@@ -428,6 +428,26 @@ def post(cfg, profile, video, title, caption, yt_title, yt_desc, tags, idem, pri
     return r.json()
 
 
+def check_posts(state):
+    """Ask upload-post what happened to recent uploads (they are processed in the background)."""
+    key = os.environ.get("UPLOAD_POST_KEY")
+    for cid, v in state["posted"].items():
+        if not key or not v.get("ok") or not v.get("request_id") or v.get("result") or age_hours(v["at"]) > 6 \
+                or age_hours(v["at"]) < 0.05:
+            continue
+        try:
+            r = requests.get("https://api.upload-post.com/api/uploadposts/status", timeout=30,
+                             params={"request_id": v["request_id"]}, headers={"Authorization": "Apikey " + key})
+            log(f"upload status {v.get('login')} {cid[-12:]}: {r.status_code} {r.text[:700]}")
+            j = r.json() if r.ok else {}
+            if str(j.get("status", "")).lower() in ("completed", "finished", "done", "failed", "error"):
+                v["result"] = [{k: x.get(k) for k in ("platform", "success", "url", "post_url", "error", "message")
+                                if x.get(k) is not None} for x in j.get("results") or [] if isinstance(x, dict)] \
+                              or str(j.get("status"))
+        except Exception as e:  # noqa
+            log("   WARN upload status check failed:", repr(e)[:200])
+
+
 def texts(c, g):
     name, login = c["name"], c["login"]
     ru = g.get("language") == "ru"
@@ -787,6 +807,7 @@ def main():
             + (", so nothing will be approved" if jc.get("required", True) else ""))
 
     state = load_state()
+    check_posts(state)
     publish_due(cfg, state, dry)   # a slot may already be open: do not make it wait for the listening
     new = []
     try:
