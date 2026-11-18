@@ -2,6 +2,7 @@
 
   review   - frames + transcript of every candidate that waits for the editor's verdict
   previews - contact sheets and report.json of the latest run
+  posted   - covers and contact sheets of published clips, the newest 40 files, kept across runs
 
 Each branch is a single commit that is replaced on every run, so the repository does not grow.
 """
@@ -10,6 +11,7 @@ import os
 import shutil
 import subprocess
 import tempfile
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -34,6 +36,23 @@ def push(src, branch):
     print(f"pushed {len(list(Path(src).iterdir()))} file(s) to branch {branch}")
 
 
+def keep_posted(prev):
+    """Covers and sheets of published clips survive later runs on the `posted` branch (newest 40 files)."""
+    new = sorted(p for p in Path(prev).glob("*.jpg") if p.name.startswith(("POST_", "COVER_")))
+    if not new:
+        return
+    stamp = time.strftime("%Y%m%d-%H%M", time.gmtime())
+    with tempfile.TemporaryDirectory() as keep, tempfile.TemporaryDirectory() as old:
+        if git("clone", "-q", "--depth", "1", "--branch", "posted", URL, old, cwd=ROOT, check=False).returncode == 0:
+            for p in Path(old).glob("*.jpg"):
+                shutil.copy(p, Path(keep) / p.name)
+        for p in new:
+            shutil.copy(p, Path(keep) / f"{stamp}_{p.name}")
+        for p in sorted(Path(keep).glob("*.jpg"))[:-40]:
+            p.unlink()
+        push(keep, "posted")
+
+
 def main():
     review = ROOT / "out" / "review"
     plist = review / "pending.json"
@@ -50,6 +69,10 @@ def main():
     prev = ROOT / "out" / "previews"
     if prev.exists() and any(prev.iterdir()):
         push(prev, "previews")
+        try:
+            keep_posted(prev)
+        except (Exception, SystemExit) as e:  # noqa: BLE001 - never fail the run over review material
+            print("WARN posted branch not updated:", str(e)[:200])
 
 
 if __name__ == "__main__":
