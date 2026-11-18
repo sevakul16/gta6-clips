@@ -18,6 +18,7 @@ import argparse
 import datetime as dt
 import json
 import os
+import re
 import subprocess
 import sys
 import tempfile
@@ -315,6 +316,22 @@ def detect_cam(path, override=None):
 
 
 # ---------------------------------------------------------------- subtitles
+# Swear words and slurs are starred out in the burned-in text: platforms cut the reach of videos that show them.
+_BAD = re.compile(
+    r"(?<![а-яёa-z])(?:"
+    r"(?:на|по|за|не|ни|до|от|о|а|при|рас|раз|вы|у)?ху[йяеёию][а-яё]*|хули"
+    r"|[а-яё]*пизд[а-яё]*"
+    r"|бля(?:ть|дь|д[а-яё]+|т[а-яё]+|ха)?"
+    r"|(?:за|на|вы|до|по|у|про|при|пере|недо|долбо|разъ|подъ|объ|отъ|съ|въ|изъ)?[её]б[а-яё]*"
+    r"|[а-яё]*(?:пид[оа]р|педик)[а-яё]*|ниг+ер[а-яё]*|хач(?:и|а|ей|ик|ики)?|чурк[а-яё]*"
+    r"|[a-z]*fuck[a-z]*|[a-z]*shit[a-z]*|bitch[a-z]*|nigg[a-z]*|cunt[a-z]*|fagg?ot[a-z]*|retard[a-z]*"
+    r")(?![а-яёa-z])", re.I)
+
+
+def clean(text):
+    return _BAD.sub(lambda m: m.group(0)[0] + "*" * min(len(m.group(0)) - 1, 5), text)
+
+
 def ass_time(t):
     cs = int(round(t * 100))
     return f"{cs // 360000}:{cs // 6000 % 60:02d}:{cs // 100 % 60:02d}.{cs % 100:02d}"
@@ -350,7 +367,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     for i, ch in enumerate(chunks):
         st = ch[0]["start"]
         en = chunks[i + 1][0]["start"] if i + 1 < len(chunks) and chunks[i + 1][0]["start"] - ch[-1]["end"] < 0.4 else ch[-1]["end"]
-        text = " ".join(w["word"].strip() for w in ch).upper().replace("{", "").replace("}", "")
+        text = clean(" ".join(w["word"].strip() for w in ch)).upper().replace("{", "").replace("}", "")
         ev.append(f"Dialogue: 0,{ass_time(st)},{ass_time(en)},Sub,,0,0,0,,{{\\pos({W // 2},{sub_y})\\fad(40,0)}}{text}")
     Path(path).write_text(head + "\n".join(ev) + "\n", encoding="utf-8")
 
