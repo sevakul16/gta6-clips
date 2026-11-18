@@ -64,6 +64,22 @@ jobs:
         with:
           path: ~/.cache/huggingface
           key: whisper-small-v1
+      - name: Cache cover font
+        uses: actions/cache@v4
+        with:
+          path: ~/fonts
+          key: cover-font-v1
+      - name: Cover font (open licence, falls back to DejaVu when the download fails)
+        run: |
+          mkdir -p ~/fonts
+          if [ ! -s ~/fonts/cover.ttf ]; then
+            for u in \
+              https://github.com/google/fonts/raw/main/ofl/firasansextracondensed/FiraSansExtraCondensed-Black.ttf \
+              https://github.com/google/fonts/raw/main/ofl/russoone/RussoOne-Regular.ttf; do
+              if curl -fsSL --retry 2 -o ~/fonts/cover.ttf "$u"; then break; else rm -f ~/fonts/cover.ttf; fi
+            done
+          fi
+          ls -la ~/fonts || true
       - run: pip install -q -r requirements.txt
       - name: Run clipper
         env:

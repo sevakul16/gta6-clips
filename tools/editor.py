@@ -2,7 +2,8 @@
 
   python tools/editor.py pending DIR        fetch the review branch into DIR, list candidates without a verdict
   python tools/editor.py set ID --score 7 --what "..." --caption "..." [--keep 4 31] [--no-gameplay]
-                                [--gambling] [--cam 0.0 0.6 0.25 0.4]
+                                [--gambling] [--cam 0.0 0.6 0.25 0.4] [--hook "2-4 WORDS"] [--cover-at 18.5]
+  python tools/editor.py amend ID [--hook "..."] [--cover-at 18.5] [--caption "..."]   change an existing verdict
   python tools/editor.py push               commit state/verdicts.json and push it to main
 
 Rubric (same as judge.py): worth posting only when GTA 6 gameplay or an in-game cutscene is clearly on
@@ -11,6 +12,11 @@ strong genuine reaction to what is on screen). 1-3 nothing happens, 4-5 would be
 6-7 a clear moment, 8-10 a standout. Be strict. Nudity or sexual scenes (strip club, sex scenes): 1-2,
 the platforms remove them. Caption: short truthful hook in the streamer's language,
 at most 80 characters, no hashtags, no handle, at most one emoji.
+
+Every approved clip also gets a cover: --hook is its headline (2-4 words, at most ~24 characters, the
+streamer's language, no emoji, catchy but true to what happens) and --cover-at is the second of the clip
+(as in frame_times) with the strongest picture: the crash, the arrest, the punch, the face. It must lie
+inside the kept part. Without --cover-at the frame with the most motion is taken.
 """
 import argparse
 import datetime as dt
@@ -45,6 +51,13 @@ def main():
     s.add_argument("--no-gameplay", action="store_true")
     s.add_argument("--gambling", action="store_true")
     s.add_argument("--cam", type=float, nargs=4, help="webcam box as fractions of the frame: x y w h")
+    s.add_argument("--hook", help="cover headline, 2-4 words")
+    s.add_argument("--cover-at", type=float, help="second of the clip for the cover frame")
+    m = sub.add_parser("amend")
+    m.add_argument("id")
+    m.add_argument("--hook")
+    m.add_argument("--cover-at", type=float)
+    m.add_argument("--caption")
     sub.add_parser("push")
     a = ap.parse_args()
 
@@ -72,8 +85,21 @@ def main():
             v[a.id].update(keep_start=a.keep[0], keep_end=a.keep[1])
         if a.cam:
             v[a.id]["cam"] = a.cam
+        if a.hook:
+            v[a.id]["hook"] = a.hook
+        if a.cover_at is not None:
+            v[a.id]["cover_at"] = a.cover_at
         VERDICTS.write_text(json.dumps(v, ensure_ascii=False, indent=1))
         print("saved", a.id, v[a.id])
+    elif a.cmd == "amend":
+        v = load()
+        if a.id not in v:
+            sys.exit(f"no verdict for {a.id}")
+        for k, val in (("hook", a.hook), ("cover_at", a.cover_at), ("caption", a.caption)):
+            if val is not None:
+                v[a.id][k] = val
+        VERDICTS.write_text(json.dumps(v, ensure_ascii=False, indent=1))
+        print("amended", a.id, v[a.id])
     elif a.cmd == "push":
         git("add", "state/verdicts.json")
         if git("diff", "--cached", "--quiet", check=False).returncode == 0:

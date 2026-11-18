@@ -43,5 +43,11 @@ are 5 or lower, and a wrong approval costs more than a missed clip.
 Nudity and sexual scenes (strip club dances, sex scenes) score 1-2 whatever the reaction: TikTok and YouTube
 Shorts restrict or remove them, and a strike on a new account costs more than any clip.
 
+Every approved clip also gets a cover. `--hook` is its headline: 2-4 words, at most about 24 characters, in the
+streamer's language, no emoji, catchy but true to what happens ("СДАЛСЯ КОПАМ", "SPARE OR KILL?"). `--cover-at` is the
+second of the clip (as in `frame_times`) with the strongest picture: the crash, the arrest, the punch, the face. It has
+to lie inside the kept part. Without it the frame with the most motion is used. `python tools/editor.py amend ID
+--hook ... --cover-at ...` changes a verdict that is already recorded, also for a clip waiting in the pool.
+
 The caption is the on-platform text: a short hook that says what happens, truthful, in the streamer's language
 (`language` in the json), at most 80 characters, no hashtags, no streamer handle, at most one emoji.

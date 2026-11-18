@@ -373,16 +373,8 @@ def transcribe(path, model, lang):
 
 
 # ---------------------------------------------------------------- render
-def render(src, dst, cam, label, words, keep=None):
-    vw, vh, dur = probe(src)
-    t0 = 0.0
-    if keep:
-        t0, t1 = max(0.0, keep[0]), min(dur, keep[1])
-        dur = t1 - t0
-        words = [{"word": w["word"], "start": w["start"] - t0, "end": w["end"] - t0}
-                 for w in words if w["start"] >= t0 and w["end"] <= t1 + 0.3]
-    tmp = tempfile.mkdtemp()
-    ass = Path(tmp) / "subs.ass"
+def layout(cam, vw, vh):
+    """ffmpeg graph that turns the source frame into the vertical picture [v0]; second value: subtitle height."""
     if cam:
         cx, cy, cw, ch = cam
         # gameplay: centre crop with the aspect of the bottom part
@@ -393,15 +385,134 @@ def render(src, dst, cam, label, words, keep=None):
               f"[0:v]crop={gw}:{vh}:{gx}:0,scale={W}:{GAME_H}:force_original_aspect_ratio=increase,"
               f"crop={W}:{GAME_H},setsar=1[game];"
               f"[cam][game]vstack=inputs=2,drawbox=y={CAM_H - 3}:w=iw:h=6:color=black@0.9:t=fill[v0]")
-        sub_y = CAM_H + 150
-    else:
-        fc = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=30:5,"
-              f"eq=brightness=-0.15[bg];"
-              f"[0:v]scale={W}:-2[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,setsar=1[v0]")
-        sub_y = int(H * 0.30)
+        return fc, CAM_H + 150
+    fc = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=30:5,"
+          f"eq=brightness=-0.15[bg];"
+          f"[0:v]scale={W}:-2[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,setsar=1[v0]")
+    return fc, int(H * 0.30)
+
+
+def peak_time(src, cam, t0, t1):
+    """Second of the source where the gameplay moves the most for a while: the default cover frame."""
+    import numpy as np
+    import quality
+    vw, vh, _ = probe(src)
+    f = quality._frames(src)
+    if len(f) < 12:
+        return (t0 + t1) / 2
+    mask = np.ones(f.shape[1:], bool)
+    if cam:
+        x, y, w, h = cam
+        mask[int(y / vh * quality.SH):int((y + h) / vh * quality.SH) + 1,
+             int(x / vw * quality.SW):int((x + w) / vw * quality.SW) + 1] = False
+    d = (np.abs(f[1:] - f[:-1]) > 10)[:, mask].mean(axis=1)
+    win = int(quality.FPS * 1.5)
+    sm = np.convolve(d, np.ones(win) / win, mode="same")
+    a = int((t0 + (t1 - t0) * 0.15) * quality.FPS)
+    b = max(a + 1, int((t1 - 1.0) * quality.FPS))
+    return (a + int(np.argmax(sm[a:b]))) / quality.FPS
+
+
+COVER_FONTS = [os.environ.get("COVER_FONT", ""), str(Path.home() / "fonts" / "cover.ttf"),
+               "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"]
+
+
+def cover_lines(hook, max_lines=3):
+    """Headline -> up to 3 short upper-case lines of similar length."""
+    words = "".join(ch for ch in hook.upper() if ord(ch) < 0x2000 and ch not in "{}").split()
+    if not words:
+        return []
+    n = 1 if len(" ".join(words)) <= 11 or len(words) == 1 else 2 if len(" ".join(words)) <= 26 or len(words) == 2 \
+        else max_lines
+    best = None
+    # every way to cut the words into n consecutive groups; keep the one with the shortest longest line
+    def cuts(k, start):
+        if k == 1:
+            yield [words[start:]]
+            return
+        for i in range(start + 1, len(words) - k + 2):
+            for rest in cuts(k - 1, i):
+                yield [words[start:i]] + rest
+    for groups in cuts(min(n, len(words)), 0):
+        lines = [" ".join(g) for g in groups]
+        if best is None or max(map(len, lines)) < max(map(len, best)):
+            best = lines
+    return best
+
+
+def make_cover(src, t, cam, hook, label, dst):
+    """Thumbnail: the frame at second t in the vertical layout, punchier colours, big headline on the seam."""
+    from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
+    vw, vh, _ = probe(src)
+    fc, _ = layout(cam, vw, vh)
+    raw = Path(tempfile.mkdtemp()) / "frame.png"
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", f"{max(0.0, t):.2f}", "-i", str(src), "-filter_complex", fc,
+                    "-map", "[v0]", "-frames:v", "1", str(raw)], check=True)
+    im = Image.open(raw).convert("RGB")
+    im = ImageEnhance.Color(im).enhance(1.35)
+    im = ImageEnhance.Contrast(im).enhance(1.12)
+    im = im.filter(ImageFilter.UnsharpMask(radius=3, percent=60))
+    font_file = next((f for f in COVER_FONTS if f and Path(f).exists()), None)
+    lines = cover_lines(hook or "")
+    if lines and font_file:
+        size = 230
+        while size > 80:
+            font = ImageFont.truetype(font_file, size)
+            if max(font.getlength(ln) for ln in lines) <= W * 0.90:
+                break
+            size -= 6
+        stroke = max(8, size // 9)
+        lh = int(size * 1.08)
+        bw, bh = W, lh * len(lines) + stroke * 4
+        layer = Image.new("RGBA", (bw, bh), (0, 0, 0, 0))
+        d = ImageDraw.Draw(layer)
+        for i, ln in enumerate(lines):
+            colour = (255, 230, 0) if i == len(lines) - 1 and len(lines) > 1 else (255, 255, 255)
+            d.text((bw // 2, stroke * 2 + lh * i + lh // 2), ln, font=font, fill=colour, anchor="mm",
+                   stroke_width=stroke, stroke_fill=(0, 0, 0))
+        shadow = Image.new("RGBA", layer.size, (0, 0, 0, 0))
+        shadow.paste((0, 0, 0, 150), mask=layer.split()[3])
+        shadow = shadow.filter(ImageFilter.GaussianBlur(14))
+        block = Image.alpha_composite(shadow, layer).rotate(3, resample=Image.BICUBIC, expand=True)
+        cy = (CAM_H if cam else int(H * 0.30)) + 40          # on the seam between the webcam and the game
+        y = min(max(20, cy - block.height // 2), H - block.height - 20)
+        # darken the band behind the text a little so it reads on bright frames
+        band = Image.new("RGBA", (W, block.height), (0, 0, 0, 0))
+        ImageDraw.Draw(band).rectangle([0, int(block.height * 0.12), W, int(block.height * 0.88)], fill=(0, 0, 0, 70))
+        im = im.convert("RGBA")
+        im.alpha_composite(band.filter(ImageFilter.GaussianBlur(40)), (0, y))
+        im.alpha_composite(block, ((W - block.width) // 2, y))
+        im = im.convert("RGB")
+    if label and font_file:
+        d = ImageDraw.Draw(im)
+        f2 = ImageFont.truetype(font_file, 44)
+        tw = int(f2.getlength(label))
+        d.rounded_rectangle([20, 20, 20 + tw + 36, 20 + 70], radius=12, fill=(0, 0, 0))
+        d.text((38, 55), label, font=f2, fill=(255, 255, 255), anchor="lm")
+    im.save(dst, quality=92)
+    return dst
+
+
+def render(src, dst, cam, label, words, keep=None, cover=None, cover_secs=0.5):
+    vw, vh, dur = probe(src)
+    t0 = 0.0
+    if keep:
+        t0, t1 = max(0.0, keep[0]), min(dur, keep[1])
+        dur = t1 - t0
+        words = [{"word": w["word"], "start": w["start"] - t0, "end": w["end"] - t0}
+                 for w in words if w["start"] >= t0 and w["end"] <= t1 + 0.3]
+    tmp = tempfile.mkdtemp()
+    ass = Path(tmp) / "subs.ass"
+    fc, sub_y = layout(cam, vw, vh)
     make_ass(ass, words, label, dur, sub_y)
-    fc += f";[v0]subtitles='{ass}'[v]"
-    subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", f"{t0:.2f}", "-t", f"{dur:.2f}", "-i", str(src),
+    inputs = ["-ss", f"{t0:.2f}", "-t", f"{dur:.2f}", "-i", str(src)]
+    if cover:       # the cover is the first frames of the video: platforms pick it, viewers see the headline at once
+        inputs += ["-i", str(cover)]
+        fc += (f";[v0]subtitles='{ass}'[vs];[1:v]scale={W}:{H},setsar=1[cv];"
+               f"[vs][cv]overlay=0:0:enable='lt(t,{cover_secs})'[v]")
+    else:
+        fc += f";[v0]subtitles='{ass}'[v]"
+    subprocess.run(["ffmpeg", "-y", "-v", "error", *inputs,
                     "-filter_complex", fc,
                     "-map", "[v]", "-map", "0:a?", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
                     "-r", "30", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart",
@@ -410,7 +521,8 @@ def render(src, dst, cam, label, words, keep=None):
 
 
 # ---------------------------------------------------------------- posting
-def post(cfg, profile, video, title, caption, yt_title, yt_desc, tags, idem, private=False):
+def post(cfg, profile, video, title, caption, yt_title, yt_desc, tags, idem, private=False, cover=None,
+         cover_ms=None):
     data = [("user", profile), ("title", title), ("tiktok_title", caption),
             ("youtube_title", yt_title), ("youtube_description", yt_desc),
             ("privacy_level", "SELF_ONLY" if private else "PUBLIC_TO_EVERYONE"),
@@ -418,14 +530,32 @@ def post(cfg, profile, video, title, caption, yt_title, yt_desc, tags, idem, pri
             ("categoryId", "20"), ("selfDeclaredMadeForKids", "false"), ("async_upload", "true")]
     data += [("platform[]", p) for p in cfg["platforms"]]
     data += [("tags[]", t) for t in tags]
-    with open(video, "rb") as f:
-        r = requests.post("https://api.upload-post.com/api/upload",
-                          headers={"Authorization": "Apikey " + os.environ["UPLOAD_POST_KEY"],
-                                   "Idempotency-Key": idem},
-                          data=data, files={"video": (Path(video).name, f, "video/mp4")}, timeout=600)
+    if cover_ms is not None:
+        data.append(("cover_timestamp", str(int(cover_ms))))      # TikTok: which frame is the cover
+    thumb = cover if cover and "youtube" in cfg["platforms"] and (cfg.get("covers") or {}).get(
+        "youtube_thumbnail", True) else None
+
+    def send(with_thumb, key):
+        files = {"video": (Path(video).name, open(video, "rb"), "video/mp4")}
+        if with_thumb:
+            files["thumbnail"] = (Path(thumb).name, open(thumb, "rb"), "image/jpeg")
+        try:
+            return requests.post("https://api.upload-post.com/api/upload",
+                                 headers={"Authorization": "Apikey " + os.environ["UPLOAD_POST_KEY"],
+                                          "Idempotency-Key": key},
+                                 data=data, files=files, timeout=600)
+        finally:
+            for f in files.values():
+                f[1].close()
+
+    r = send(bool(thumb), idem)
+    if thumb and 400 <= r.status_code < 500:        # never lose a post because of its thumbnail
+        log("   WARN upload with a thumbnail was refused:", r.status_code, "- sending without it")
+        r = send(False, idem + "-nothumb")
     r.raise_for_status()
     j = r.json()
-    log("upload-post:", r.status_code, {k: j.get(k) for k in ("success", "message", "request_id", "total_platforms")})
+    log("upload-post:", r.status_code, {k: j.get(k) for k in ("success", "message", "request_id", "total_platforms")},
+        "thumbnail sent" if thumb else "")
     return j
 
 
@@ -443,9 +573,12 @@ def check_posts(state):
             # the raw answer carries account details: log only what is needed
             log(f"upload status {v.get('login')} {cid[-12:]}: {r.status_code} {j.get('status')} " + ", ".join(
                 f"{x.get('platform')} {'ok' if x.get('success') else 'FAILED ' + str(x.get('error_message'))[:120]}"
+                + "".join(f" {k}={str(x[k])[:140]}" for k in ("thumbnail_set", "thumbnail_pending", "thumbnail_note",
+                                                              "thumbnail_error", "warnings") if x.get(k) is not None)
                 for x in j.get("results") or [] if isinstance(x, dict)))
             if str(j.get("status", "")).lower() in ("completed", "finished", "done", "failed", "error"):
-                v["result"] = [{k: x.get(k) for k in ("platform", "success", "post_url", "error_message")
+                v["result"] = [{k: x.get(k) for k in ("platform", "success", "post_url", "error_message",
+                                                       "thumbnail_set", "thumbnail_pending", "thumbnail_error")
                                 if x.get(k) is not None} for x in j.get("results") or [] if isinstance(x, dict)] \
                               or str(j.get("status"))
         except Exception as e:  # noqa
@@ -582,6 +715,9 @@ def apply_verdict(cfg, state, c, v, dur):
         if 0 <= k0 < k1 <= dur + 1 and k1 - k0 >= 12 and dur - (k1 - k0) >= 3:
             keep = [round(k0, 1), round(min(k1, dur), 1)]
         c["caption"] = (v.get("caption") or "").strip()
+        for k in ("hook", "cover_at"):
+            if v.get(k) is not None:
+                c[k] = v[k]
     c.update({"at": now_utc().isoformat(), "score": score, "keep": keep})
     state["pool"][c["id"]] = c
     report(c, "approved", score=score, keep=keep, caption=c.get("caption"), metrics=m, editor=v)
@@ -599,14 +735,21 @@ def latest_verdicts():
         return VERDICTS_FILE.read_text() if VERDICTS_FILE.exists() else "{}"
 
 
-def apply_reviews(cfg, state):
+def load_verdicts():
+    try:
+        return json.loads(latest_verdicts())
+    except ValueError as e:
+        log("WARN state/verdicts.json is unreadable:", repr(e))
+        return None
+
+
+def apply_reviews(cfg, state, verdicts=None):
     """Pick up verdicts the editor wrote to state/verdicts.json for candidates waiting in 'pending'."""
     if not state["pending"]:
         return
-    try:
-        verdicts = json.loads(latest_verdicts())
-    except ValueError as e:
-        log("WARN state/verdicts.json is unreadable:", repr(e))
+    if verdicts is None:
+        verdicts = load_verdicts()
+    if verdicts is None:
         return
     n = 0
     for cid, v in verdicts.items():
@@ -620,6 +763,17 @@ def apply_reviews(cfg, state):
         except Exception as e:  # noqa
             log("   ERROR applying verdict:", repr(e)[:300])
     log(f"Editor verdicts applied: {n}; still waiting for a verdict: {len(state['pending'])}")
+
+
+def amend_pool(state, verdicts):
+    """The editor may add a headline, a cover frame or a better caption to a moment that is already approved."""
+    for cid, c in state["pool"].items():
+        v = (verdicts or {}).get(cid) or {}
+        for k in ("hook", "cover_at"):
+            if v.get(k) is not None:
+                c[k] = v[k]
+        if (v.get("caption") or "").strip():
+            c["caption"] = v["caption"].strip()
 
 
 def judge_mode(cfg):
@@ -715,6 +869,31 @@ def pick(state, profile_of, fresh_only=False):
     return best
 
 
+def build_cover(cfg, c, src, cam):
+    """Cover image for the clip and where TikTok finds it in the video (ms). (None, None) when covers are off."""
+    if not (cfg.get("covers") or {}).get("enabled", True):
+        return None, None
+    try:
+        from PIL import Image
+        _, _, sdur = probe(src)
+        k0, k1 = c.get("keep") or [0.0, sdur]
+        k1 = min(float(k1), sdur)
+        t = c.get("cover_at")
+        t = peak_time(src, cam, k0, k1) if t is None else float(t)
+        t = min(max(t, k0 + 0.2), k1 - 0.2)
+        cover = make_cover(src, t, cam, c.get("hook"), f"@{c['login']}",
+                           OUT_DIR / f"{c['login']}_{c['id'][-12:]}_cover.jpg")
+        if cover.stat().st_size > 1_900_000:            # YouTube takes thumbnails up to 2 MB
+            Image.open(cover).save(cover, quality=80)
+        PREV_DIR.mkdir(parents=True, exist_ok=True)
+        Image.open(cover).resize((540, 960)).save(PREV_DIR / f"COVER_{c['login']}_{c['id'][-12:]}.jpg", quality=85)
+        log(f"   cover: frame at {t:.1f}s, headline: {c.get('hook') or '(none)'}")
+        return cover, (200 if c.get("hook") else int((t - k0) * 1000))
+    except Exception as e:  # noqa  (a cover is a bonus, never a reason to skip the post)
+        log("   WARN cover failed:", repr(e)[:300])
+        return None, None
+
+
 def publish(cfg, state, c, dry):
     g = cfg["groups"][c["group"]]
     log(f"=> publishing [{c['kind']}] {c['login']} {c['score']}/10: {c.get('caption') or c['title']}")
@@ -726,8 +905,18 @@ def publish(cfg, state, c, dry):
         if ov and c.get("size") and c.get("cam_src") != "editor":   # the config knows this webcam better
             vw, vh = c["size"]
             c["cam"] = [int(ov[0] * vw), int(ov[1] * vh), int(ov[2] * vw), int(ov[3] * vh)]
-        render(src, out, tuple(c["cam"]) if c.get("cam") else None, f"@{c['login']}", c.get("words") or [],
-               c.get("keep"))
+        cam = tuple(c["cam"]) if c.get("cam") else None
+        cover, cover_ms = build_cover(cfg, c, src, cam)
+        # with a headline the cover is also the first half second of the video
+        try:
+            render(src, out, cam, f"@{c['login']}", c.get("words") or [], c.get("keep"),
+                   cover=cover if c.get("hook") else None)
+        except subprocess.CalledProcessError as e:
+            if not (cover and c.get("hook")):
+                raise
+            log("   WARN render with the cover failed, rendering without it:", repr(e)[:200])
+            render(src, out, cam, f"@{c['login']}", c.get("words") or [], c.get("keep"))
+            cover_ms = None
         sheet(out, f"POST_{c['login']}_{c['id'][-12:]}.jpg", n=6, width=270)
         base, caption, yt_title, yt_desc, tags = texts(c, g)
         if dry:
@@ -735,19 +924,22 @@ def publish(cfg, state, c, dry):
             c["previewed"] = True          # do not render the same preview again on the next dry run
             report(c, "would_post", caption=caption)
             return
-        res = post(cfg, g["profile"], out, base, caption, yt_title, yt_desc, tags, c["id"])
+        res = post(cfg, g["profile"], out, base, caption, yt_title, yt_desc, tags, c["id"], cover=cover,
+                   cover_ms=cover_ms)
         state["posted"][c["id"]] = {"at": now_utc().isoformat(), "ok": True, "profile": g["profile"],
                                     "login": c["login"], "group": c["group"], "url": c["url"], "kind": c["kind"],
                                     "score": c["score"],
                                     "caption": c.get("caption"), "vod": c.get("vod"), "vod_t": c.get("vod_t"),
-                                    "request_id": res.get("request_id")}
+                                    "hook": c.get("hook"), "request_id": res.get("request_id")}
         state["pool"].pop(c["id"], None)
         report(c, "posted", caption=caption)
 
 
 def publish_due(cfg, state, dry):
     """Apply fresh editor verdicts, then publish the best approved moment of every profile whose slot is open."""
-    apply_reviews(cfg, state)
+    verdicts = load_verdicts() if state["pending"] or state["pool"] else None
+    apply_reviews(cfg, state, verdicts)
+    amend_pool(state, verdicts)
     save_state(state)
     profile_of = {gname: g["profile"] for gname, g in cfg["groups"].items()}
     for prof, c in pick(state, profile_of, fresh_only=dry).items():
@@ -775,6 +967,8 @@ def main():
     ap.add_argument("--game", default=None, help="override game from config (for tests)")
     ap.add_argument("--url", help="test: evaluate and render one Twitch clip URL (nothing is posted)")
     ap.add_argument("--streamer", default="streamer")
+    ap.add_argument("--hook", default=None, help="test: headline for the cover")
+    ap.add_argument("--cover-at", type=float, default=None, help="test: second of the clip for the cover frame")
     a = ap.parse_args()
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
     if a.game:
@@ -789,8 +983,10 @@ def main():
         c = {"id": "test-" + a.url.rstrip("/").split("/")[-1][-24:], "url": a.url, "section": None, "kind": "clip",
              "views": 0, "title": "", "vod": None, "vod_t": None, "group": gname, "login": a.streamer,
              "name": a.streamer, "source": "Twitch clip made by a viewer (manual test)"}
+        test_extra = {k: v for k, v in (("hook", a.hook), ("cover_at", a.cover_at)) if v}
         with tempfile.TemporaryDirectory() as td:
             evaluate(cfg, state, c, td)
+        c.update(test_extra)
         if c["id"] in state["pool"]:
             publish(cfg, state, c, dry=True)
         elif c["id"] in state["pending"]:   # review mode: show the layout without waiting for the verdict
