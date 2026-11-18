@@ -23,7 +23,8 @@ Talking without gameplay, waiting, menus, loading screens, studio or IRL shots, 
 driving or walking are not worth posting, however popular the streamer is.
 
 moment_score, 1 to 10: 1-3 nothing happens; 4-5 mildly interesting but would be scrolled past; \
-6-7 a clear moment; 8-10 a standout moment people would share. Be strict: most candidates are 5 or lower.
+6-7 a clear moment; 8-10 a standout moment people would share. Be strict: most candidates are 5 or lower. \
+Nudity or sexual scenes (strip club dances, sex scenes) score 1-2: the platforms remove them.
 
 keep_start and keep_end are seconds within the clip. Keep the build-up, the moment itself and the reaction, \
 and cut dead time before and after. If the whole clip is needed, return 0 and the clip duration.

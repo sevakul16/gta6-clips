@@ -40,5 +40,8 @@ Score 1 to 10: 1-3 nothing happens; 4-5 mildly interesting but would be scrolled
 8-10 a standout moment people would share. Clips scored 6 or higher get published. Be strict: most candidates
 are 5 or lower, and a wrong approval costs more than a missed clip.
 
+Nudity and sexual scenes (strip club dances, sex scenes) score 1-2 whatever the reaction: TikTok and YouTube
+Shorts restrict or remove them, and a strike on a new account costs more than any clip.
+
 The caption is the on-platform text: a short hook that says what happens, truthful, in the streamer's language
 (`language` in the json), at most 80 characters, no hashtags, no streamer handle, at most one emoji.

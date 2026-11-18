@@ -8,7 +8,8 @@
 Rubric (same as judge.py): worth posting only when GTA 6 gameplay or an in-game cutscene is clearly on
 screen and something specific happens (crash, chase, shootout, glitch, fail, surprise, discovery, or a
 strong genuine reaction to what is on screen). 1-3 nothing happens, 4-5 would be scrolled past,
-6-7 a clear moment, 8-10 a standout. Be strict. Caption: short truthful hook in the streamer's language,
+6-7 a clear moment, 8-10 a standout. Be strict. Nudity or sexual scenes (strip club, sex scenes): 1-2,
+the platforms remove them. Caption: short truthful hook in the streamer's language,
 at most 80 characters, no hashtags, no handle, at most one emoji.
 """
 import argparse
