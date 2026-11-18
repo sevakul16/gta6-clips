@@ -423,9 +423,10 @@ def post(cfg, profile, video, title, caption, yt_title, yt_desc, tags, idem, pri
                           headers={"Authorization": "Apikey " + os.environ["UPLOAD_POST_KEY"],
                                    "Idempotency-Key": idem},
                           data=data, files={"video": (Path(video).name, f, "video/mp4")}, timeout=600)
-    log("upload-post:", r.status_code, r.text[:500])
     r.raise_for_status()
-    return r.json()
+    j = r.json()
+    log("upload-post:", r.status_code, {k: j.get(k) for k in ("success", "message", "request_id", "total_platforms")})
+    return j
 
 
 def check_posts(state):
@@ -438,10 +439,13 @@ def check_posts(state):
         try:
             r = requests.get("https://api.upload-post.com/api/uploadposts/status", timeout=30,
                              params={"request_id": v["request_id"]}, headers={"Authorization": "Apikey " + key})
-            log(f"upload status {v.get('login')} {cid[-12:]}: {r.status_code} {r.text[:700]}")
             j = r.json() if r.ok else {}
+            # the raw answer carries account details: log only what is needed
+            log(f"upload status {v.get('login')} {cid[-12:]}: {r.status_code} {j.get('status')} " + ", ".join(
+                f"{x.get('platform')} {'ok' if x.get('success') else 'FAILED ' + str(x.get('error_message'))[:120]}"
+                for x in j.get("results") or [] if isinstance(x, dict)))
             if str(j.get("status", "")).lower() in ("completed", "finished", "done", "failed", "error"):
-                v["result"] = [{k: x.get(k) for k in ("platform", "success", "url", "post_url", "error", "message")
+                v["result"] = [{k: x.get(k) for k in ("platform", "success", "post_url", "error_message")
                                 if x.get(k) is not None} for x in j.get("results") or [] if isinstance(x, dict)] \
                               or str(j.get("status"))
         except Exception as e:  # noqa
