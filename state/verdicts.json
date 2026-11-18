@@ -332,5 +332,67 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "chat-2931685068-1644": {
+  "at": "2026-11-18T18:14:55.842505+00:00",
+  "moment_score": 7,
+  "what_happens": "Refuels on his last money, a stranger at the pump starts a fire, the station blows up and he is wasted; chat explodes with laughter, streamer yells at the screen",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Хотел просто заправиться. GTA 6 решила иначе 💀",
+  "keep_start": 22.0,
+  "keep_end": 58.0,
+  "hook": "Сгорел на заправке",
+  "cover_at": 49.8
+ },
+ "chat-2932203927-555": {
+  "at": "2026-11-18T18:14:55.878275+00:00",
+  "moment_score": 3,
+  "what_happens": "Bedroom cutscene that fades to black and a wake-up; cutscene only, no gameplay event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2932305259-356": {
+  "at": "2026-11-18T18:14:55.916823+00:00",
+  "moment_score": 3,
+  "what_happens": "Couch cutscene and the intro screens of an in-game arcade title; nothing happens yet",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "CautiousRepleteWeaselOhMyDog-W5UdtWX7g8IFkRkL": {
+  "at": "2026-11-18T18:14:55.953073+00:00",
+  "moment_score": 1,
+  "what_happens": "Strip club lap dance with nudity through the whole clip",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "TubularAwkwardFrogPanicBasket-16J-tuUOS6Kxw8bS": {
+  "at": "2026-11-18T18:14:55.995731+00:00",
+  "moment_score": 2,
+  "what_happens": "Silent clip (no audio track level), a montage of unrelated scenes, no webcam box",
+  "gameplay_visible": false,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2932226282-547": {
+  "at": "2026-11-18T18:14:56.030376+00:00",
+  "moment_score": 6,
+  "what_happens": "Fails the plane landing over and over, crashes, mission FAILED, then deadpans that it was a pretty good landing; chat laughs. Streamer is an on-screen avatar, cam box set by hand",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "He called this a pretty good landing 💀",
+  "keep_start": 24.0,
+  "keep_end": 56.0,
+  "cam": [
+   0.135,
+   0.7,
+   0.22,
+   0.3
+  ],
+  "hook": "Worst landing ever",
+  "cover_at": 39.2
  }
 }
