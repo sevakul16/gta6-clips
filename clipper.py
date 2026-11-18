@@ -408,6 +408,9 @@ def main():
         log("::warning::TWITCH_CLIENT_ID / TWITCH_CLIENT_SECRET secrets are not set yet, skipping run")
         return
 
+    if not cfg.get("publish", True) and not a.dry_run:
+        log("::warning::publish is off in config.yaml, running as dry run")
+        a.dry_run = True
     if not a.dry_run and not os.environ.get("UPLOAD_POST_KEY"):
         log("::warning::UPLOAD_POST_KEY secret is not set yet, skipping run")
         return
