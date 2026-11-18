@@ -63,7 +63,7 @@ groups:
     hashtags: "#gta6 #гта6 #гта #стрим #твич #gaming"
     streamers: [buster, evelone2004, bratishkinoff, deepins02, zubarefff, koreshzy, t2x2, mazellovvv, strogo, recrent]
 
-platforms: [tiktok, youtube]
+platforms: [youtube]          # tiktok на паузе с 18.11 (новый аккаунт, 0 просмотров): вернуть [tiktok, youtube] после прогрева
 
 # Ручная разметка вебки, если автоопределение ошибается.
 # Доли кадра: x, y, ширина, высота (0..1). Пример:
