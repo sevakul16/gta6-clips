@@ -1,14 +1,19 @@
 name: clips
 
+# One run: listen to live chats, check candidates, publish the best approved moment.
+# With chain=true each run starts the next one, so the pipeline works as a loop;
+# watchdog.yml restarts the loop if it ever stops.
 on:
-  schedule:
-    - cron: "7,37 * * * *"      # every 30 min (off the :00 rush)
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "Only render, do not post"
+        description: "Do everything except posting"
         type: boolean
         default: true
+      chain:
+        description: "Start the next run when this one ends (the normal loop)"
+        type: boolean
+        default: false
       game:
         description: "Game override for tests, e.g. Grand Theft Auto V (empty = from config)"
         type: string
@@ -17,17 +22,14 @@ on:
         description: "Test: minutes to listen to chats (empty = from config)"
         type: string
         default: ""
-      private_post:
-        description: "Test: also post the first test_url clip PRIVATELY"
-        type: boolean
-        default: false
       test_url:
-        description: "Test: Twitch clips page or clip URL to render (no keys needed), e.g. https://www.twitch.tv/xqc/clips?range=7d"
+        description: "Test: one Twitch clip URL through the checks and the layout (nothing is posted)"
         type: string
         default: ""
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: clips
@@ -36,7 +38,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -57,25 +59,27 @@ jobs:
           fi
           echo "$HOME/ffmpeg/bin" >> "$GITHUB_PATH"
           ~/ffmpeg/bin/ffmpeg -version | head -1
-          fc-list | grep -i dejavu | head -1 || echo "no dejavu font"
       - name: Cache whisper model
         uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface
           key: whisper-small-v1
-      - run: pip install -r requirements.txt
+      - run: pip install -q -r requirements.txt
       - name: Run clipper
         env:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
           UPLOAD_POST_KEY: ${{ secrets.UPLOAD_POST_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CHAT_LISTEN_MINUTES: ${{ inputs.listen_minutes }}
+          DRY: ${{ inputs.dry_run }}
+          GAME: ${{ inputs.game }}
+          TEST_URL: ${{ inputs.test_url }}
         run: |
-          if [ -n "${{ inputs.test_url }}" ]; then
-            EXTRA=""; [ "${{ inputs.private_post }}" = "true" ] && EXTRA="--private-post"
-            python clipper.py --url "${{ inputs.test_url }}" --streamer "$(echo '${{ inputs.test_url }}' | cut -d/ -f4)" $EXTRA
-          elif [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
-            if [ -n "${{ inputs.game }}" ]; then python clipper.py --dry-run --game "${{ inputs.game }}"; else python clipper.py --dry-run; fi
+          if [ -n "$TEST_URL" ]; then
+            python clipper.py --url "$TEST_URL" --streamer "$(echo "$TEST_URL" | cut -d/ -f4)"
+          elif [ "$DRY" = "true" ]; then
+            python clipper.py --dry-run ${GAME:+--game "$GAME"}
           else
             python clipper.py
           fi
@@ -87,19 +91,27 @@ jobs:
           path: out/*.mp4
           retention-days: 3
           if-no-files-found: ignore
-      - name: Publish preview frames (test runs)
-        if: always() && github.event_name == 'workflow_dispatch'
-        run: |
-          mkdir -p /tmp/prev && for f in out/*.mp4; do [ -e "$f" ] || continue; b=$(basename "$f" .mp4)
-            for t in 2 6 10; do ffmpeg -v error -y -ss $t -i "$f" -frames:v 1 -vf scale=540:-2 "/tmp/prev/${b}_${t}s.jpg" || true; done; done
-          ls /tmp/prev | head -1 > /dev/null || exit 0
-          git config user.name "clips-bot"; git config user.email "clips-bot@users.noreply.github.com"
-          git switch --orphan previews && git rm -rfq --ignore-unmatch . && cp /tmp/prev/* . && git add -A && git commit -qm "previews ${{ github.run_id }}" && git push -f origin previews
-          git switch -q main
+      - name: Push review material (branches review and previews)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/push_branches.py
       - name: Save state
         if: always()
         run: |
           git config user.name "clips-bot"
           git config user.email "clips-bot@users.noreply.github.com"
           git add state/posted.json
-          git diff --cached --quiet || (git commit -m "state: update posted clips" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -qm "state: update"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done
+          exit 1
+      - name: Start the next run
+        if: ${{ !cancelled() && inputs.chain && inputs.test_url == '' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git pull -q --rebase || true
+          if grep -Eq '^autorun:\s*false' config.yaml; then echo "autorun is off, the loop stops here"; exit 0; fi
+          [ -f out/.listened ] || sleep 600    # nobody was live: wait before looking again
+          gh workflow run clips.yml --ref main -f dry_run=false -f chain=true

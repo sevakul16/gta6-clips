@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 """GTA 6 auto-clipper.
 
-Twitch top clips -> vertical 1080x1920 (streamer cam on top, gameplay below)
--> burned-in subtitles -> upload-post.com (TikTok + YouTube Shorts).
+Moments from live Twitch streams (chat spikes + viewer clips) -> free quality checks
+-> an editor scores each candidate -> the best approved one is rendered as a vertical
+1080x1920 video (streamer cam on top, gameplay below, burned-in subtitles) and posted
+through upload-post.com (TikTok + YouTube Shorts).
+
+The editor is either a reviewer who reads the `review` branch and writes
+state/verdicts.json (judge.mode: review), or the Claude API (judge.mode: api).
 
 Usage:
-  python clipper.py                 # normal run (find, render, post)
-  python clipper.py --dry-run       # find + render only, no posting
-  python clipper.py --input f.mp4 --streamer xqc --dry-run   # render a local file
+  python clipper.py                 # normal run
+  python clipper.py --dry-run       # everything except posting
+  python clipper.py --url <twitch clip url> --streamer xqc   # one clip through the checks
 """
 import argparse
 import datetime as dt
@@ -25,6 +30,9 @@ import yaml
 ROOT = Path(__file__).resolve().parent
 STATE_FILE = ROOT / "state" / "posted.json"
 OUT_DIR = ROOT / "out"
+PREV_DIR = OUT_DIR / "previews"
+REVIEW_DIR = OUT_DIR / "review"
+VERDICTS_FILE = ROOT / "state" / "verdicts.json"
 W, H = 1080, 1920
 CAM_H = 760            # height of the cam strip on top
 GAME_H = H - CAM_H     # gameplay part below
@@ -35,24 +43,39 @@ def log(*a):
 
 
 # ---------------------------------------------------------------- state
+def now_utc():
+    return dt.datetime.now(dt.timezone.utc)
+
+
+def age_hours(iso):
+    return (now_utc() - dt.datetime.fromisoformat(iso)).total_seconds() / 3600
+
+
 def load_state():
-    if STATE_FILE.exists():
-        return json.loads(STATE_FILE.read_text())
-    return {"posted": {}}
+    st = json.loads(STATE_FILE.read_text()) if STATE_FILE.exists() else {}
+    st.setdefault("posted", {})      # id -> what was published (or failed)
+    st.setdefault("rejected", {})    # id -> why a candidate was thrown away
+    st.setdefault("pending", {})     # id -> passed the free checks, waiting for the editor's verdict
+    st.setdefault("pool", {})        # id -> approved moments waiting for a publishing slot
+    return st
 
 
 def save_state(state):
+    state["rejected"] = {k: v for k, v in state["rejected"].items() if age_hours(v["at"]) < 72}
+    state["pending"] = {k: v for k, v in state["pending"].items() if age_hours(v["at"]) < 8}
+    state["pool"] = {k: v for k, v in state["pool"].items() if age_hours(v["at"]) < 12}
     STATE_FILE.parent.mkdir(exist_ok=True)
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=1))
 
 
 def posts_last_24h(state, profile):
-    since = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=24)
-    n = 0
-    for v in state["posted"].values():
-        if v.get("profile") == profile and v.get("ok") and dt.datetime.fromisoformat(v["at"]) > since:
-            n += 1
-    return n
+    return sum(1 for v in state["posted"].values()
+               if v.get("profile") == profile and v.get("ok") and age_hours(v["at"]) < 24)
+
+
+def minutes_since_last_post(state, profile):
+    ages = [age_hours(v["at"]) * 60 for v in state["posted"].values() if v.get("profile") == profile and v.get("ok")]
+    return min(ages) if ages else 10 ** 6
 
 
 # ---------------------------------------------------------------- twitch
@@ -112,19 +135,25 @@ def find_candidates(cfg, state):
                 top = ", ".join(f'{c["view_count"]}v/{c["duration"]:.0f}s' for c in tg[:3])
                 log(f"  {login}: {len(clips)} clips, games {dict(games.most_common(3))}, target {gid}: {len(tg)} [{top}]")
             for c in clips:
-                if c["game_id"] != gid or c["id"] in state["posted"]:
+                if c["game_id"] != gid or known(state, c["id"]):
                     continue
                 if c["view_count"] < cfg["min_views"]:
                     continue
                 if not (cfg["min_duration"] <= c["duration"] <= cfg["max_duration"]):
                     continue
-                c["_group"] = gname
-                c["_login"] = u["login"]
-                c["_name"] = u["display_name"]
-                cands.append(c)
-    cands.sort(key=lambda c: c["view_count"], reverse=True)
-    log(f"Found {len(cands)} candidate clips")
+                cands.append({"id": c["id"], "url": c["url"], "section": None, "kind": "clip",
+                              "views": c["view_count"], "title": c.get("title") or "",
+                              "vod": c.get("video_id") or None, "vod_t": c.get("vod_offset"),
+                              "group": gname, "login": u["login"], "name": u["display_name"],
+                              "source": f"Twitch clip made by a viewer, {c['view_count']} views, "
+                                        f"titled \"{c.get('title') or ''}\""})
+    cands.sort(key=lambda c: c["views"], reverse=True)
+    log(f"New viewer clips to check: {len(cands)}")
     return cands
+
+
+def known(state, cid):
+    return any(cid in state[k] for k in ("posted", "rejected", "pending", "pool"))
 
 
 def find_chat_moments(cfg, state):
@@ -139,35 +168,52 @@ def find_chat_moments(cfg, state):
     live = chatspikes.live_targets(tw, list(group_of), gid)
     # plus the biggest live streams in the game right now (discovery)
     lang_group = {g.get("language"): gname for gname, g in cfg["groups"].items()}
-    for st in tw.get("streams", {"game_id": gid, "first": cc.get("top_live", 0)}) if cc.get("top_live") else []:
-        grp = lang_group.get(st.get("language"))
-        if grp and st["user_login"].lower() not in live:
-            live[st["user_login"].lower()] = st
-            group_of[st["user_login"].lower()] = grp
+    if cc.get("top_live"):
+        found = 0
+        for st in tw.get("streams", {"game_id": gid, "first": 100}):
+            grp = lang_group.get(st.get("language"))
+            if grp and st["user_login"].lower() not in live and found < cc["top_live"]:
+                live[st["user_login"].lower()] = st
+                group_of[st["user_login"].lower()] = grp
+                found += 1
     log(f"Live in {cfg['game']}: {', '.join(live) or 'nobody'}")
     if not live:
         return []
     minutes = float(os.environ.get("CHAT_LISTEN_MINUTES") or cc.get("listen_minutes", 15))
-    spikes = chatspikes.listen(list(live), minutes * 60, log=log,
-                               ratio=cc.get("ratio", 3.0), min_msgs=cc.get("min_msgs", 25))
+    spikes, series = chatspikes.listen(list(live), minutes * 60, log=log, ratio=cc.get("ratio", 2.5),
+                                       min_msgs=cc.get("min_msgs", 20), z=cc.get("z", 6.0))
+    if minutes >= 5:
+        OUT_DIR.mkdir(exist_ok=True)
+        (OUT_DIR / ".listened").write_text("1")
+    PREV_DIR.mkdir(parents=True, exist_ok=True)
+    (PREV_DIR / "chat_series.json").write_text(json.dumps(
+        {"bucket_s": chatspikes.BUCKET, "series": series,
+         "spikes": [{**sp, "at": sp["at"].isoformat()} for sp in spikes]}))
     moments = []
     for sp in sorted(spikes, key=lambda x: x["score"], reverse=True):
         st = live[sp["login"]]
-        vod = chatspikes.vod_for(tw, st)
+        try:
+            vod = chatspikes.vod_for(tw, st)
+        except Exception as e:  # noqa
+            log("  WARN vod lookup", sp["login"], repr(e))
+            continue
         if not vod:
-            log("  no VOD for", sp["login"])
+            log("  no recording (VOD) for", sp["login"])
             continue
         vstart = dt.datetime.fromisoformat(vod["created_at"].replace("Z", "+00:00"))
         off = (sp["at"] - vstart).total_seconds()
         a0 = max(0, off - cc.get("before", 35))
         a1 = off + cc.get("after", 8)
-        mid = f"chat-{vod['id']}-{int(off // 30)}"
-        if mid in state["posted"]:
+        mid = f"chat-{vod['id']}-{int(off // 45)}"
+        if known(state, mid):
             continue
-        moments.append({"id": mid, "url": f"https://www.twitch.tv/videos/{vod['id']}", "section": (a0, a1),
-                        "view_count": sp["msgs"], "title": st.get("title", ""), "_group": group_of[sp["login"]],
-                        "_login": st["user_login"], "_name": st["user_name"], "_score": sp["score"]})
-    log(f"Chat moments: {len(moments)}")
+        moments.append({"id": mid, "url": f"https://www.twitch.tv/videos/{vod['id']}", "section": [a0, a1],
+                        "kind": "chat", "views": sp["msgs"], "title": "", "vod": vod["id"], "vod_t": a0,
+                        "group": group_of[sp["login"]], "login": st["user_login"], "name": st["user_name"],
+                        "chat_score": round(sp["score"], 2), "found_at": now_utc().isoformat(),
+                        "source": f"cut from the live stream at a chat spike: {sp['msgs']} chatters in 15 s, "
+                                  f"{sp['score']:.1f}x the usual pace; the spike is near the end of the clip"})
+    log(f"New chat moments: {len(moments)}")
     return moments
 
 
@@ -175,11 +221,11 @@ def download(url, dest, section=None):
     if section:
         a0, a1 = section
         subprocess.run([sys.executable, "-m", "yt_dlp", "-q", "-f", "best[height<=1080]/best",
-                        "--download-sections", f"*{a0:.0f}-{a1:.0f}", "--force-keyframes-at-cuts",
-                        "-o", str(dest), url], check=True)
+                        "--download-sections", f"*{a0:.0f}-{a1:.0f}", "-o", str(dest), url],
+                       check=True, timeout=600)
         return dest
     subprocess.run([sys.executable, "-m", "yt_dlp", "-q", "-f", "best[ext=mp4]/best",
-                    "-o", str(dest), url], check=True)
+                    "-o", str(dest), url], check=True, timeout=600)
     return dest
 
 
@@ -193,7 +239,7 @@ def probe(path):
 
 
 def detect_cam(path, override=None):
-    """Return cam box (x, y, w, h) in pixels or None.
+    """Return (cam box (x, y, w, h) in pixels or None, streamer_fills_screen).
 
     Webcam faces sit still while in-game faces move around, so we keep the
     face position that repeats in most sampled frames.
@@ -202,7 +248,7 @@ def detect_cam(path, override=None):
     vw, vh, dur = probe(path)
     if override:
         x, y, w, h = override
-        return int(x * vw), int(y * vh), int(w * vw), int(h * vh)
+        return (int(x * vw), int(y * vh), int(w * vw), int(h * vh)), False
     cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
     cap = cv2.VideoCapture(str(path))
     n = 16
@@ -222,13 +268,15 @@ def detect_cam(path, override=None):
                 continue
             hits.append((x, y, w, h))
     cap.release()
-    if big >= n * 0.35 or not hits:
-        return None
+    if big >= n * 0.35:
+        return None, True
+    if not hits:
+        return None, False
     grid = vw * 0.06
     key = lambda f: (round((f[0] + f[2] / 2) / grid), round((f[1] + f[3] / 2) / grid))
     (best, cnt), = Counter(key(f) for f in hits).most_common(1)
     if cnt < n * 0.35:
-        return None
+        return None, False
     fs = [f for f in hits if key(f) == best]
     fx = sorted(f[0] + f[2] / 2 for f in fs)[len(fs) // 2]
     fy = sorted(f[1] + f[3] / 2 for f in fs)[len(fs) // 2]
@@ -238,7 +286,7 @@ def detect_cam(path, override=None):
     bh = bw * CAM_H / W
     bx = min(max(0, fx - bw / 2), vw - bw)
     by = min(max(0, fy - bh * 0.45), vh - bh)
-    return int(bx), int(by), int(bw), int(bh)
+    return (int(bx), int(by), int(bw), int(bh)), False
 
 
 # ---------------------------------------------------------------- subtitles
@@ -295,12 +343,19 @@ def transcribe(path, model, lang):
                          capture_output=True, check=True).stdout
     audio = np.frombuffer(pcm, np.int16).astype(np.float32) / 32768.0
     segs, _ = _whisper.transcribe(audio, language=lang, word_timestamps=True, vad_filter=True)
-    return [{"word": w.word, "start": w.start, "end": w.end} for s in segs for w in (s.words or [])]
+    return [{"word": w.word, "start": round(w.start, 2), "end": round(w.end, 2)}
+            for s in segs for w in (s.words or [])], audio
 
 
 # ---------------------------------------------------------------- render
-def render(src, dst, cam, label, words):
+def render(src, dst, cam, label, words, keep=None):
     vw, vh, dur = probe(src)
+    t0 = 0.0
+    if keep:
+        t0, t1 = max(0.0, keep[0]), min(dur, keep[1])
+        dur = t1 - t0
+        words = [{"word": w["word"], "start": w["start"] - t0, "end": w["end"] - t0}
+                 for w in words if w["start"] >= t0 and w["end"] <= t1 + 0.3]
     tmp = tempfile.mkdtemp()
     ass = Path(tmp) / "subs.ass"
     if cam:
@@ -321,7 +376,8 @@ def render(src, dst, cam, label, words):
         sub_y = int(H * 0.30)
     make_ass(ass, words, label, dur, sub_y)
     fc += f";[v0]subtitles='{ass}'[v]"
-    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(src), "-filter_complex", fc,
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", f"{t0:.2f}", "-t", f"{dur:.2f}", "-i", str(src),
+                    "-filter_complex", fc,
                     "-map", "[v]", "-map", "0:a?", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
                     "-r", "30", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart",
                     "-pix_fmt", "yuv420p", str(dst)], check=True)
@@ -348,108 +404,373 @@ def post(cfg, profile, video, title, caption, yt_title, yt_desc, tags, idem, pri
 
 
 def texts(c, g):
-    name, login = c["_name"], c["_login"]
-    t = (c.get("title") or "").strip()
+    name, login = c["name"], c["login"]
     ru = g.get("language") == "ru"
-    base = t if t and len(t) < 80 else (f"{name} в GTA 6" if ru else f"{name} plays GTA 6")
+    base = (c.get("caption") or "").strip() or (f"{name} в GTA 6" if ru else f"{name} plays GTA 6")
     credit = f"🎥 twitch.tv/{login}"
-    caption = f"{base} 😳 {credit} {g['hashtags']}"[:2000]
-    yt_title = f"{base} | {name} GTA 6 #shorts"[:100]
-    yt_desc = f"{credit}\n\n{('Клип со стрима' if ru else 'Clip from the stream of')} {name}.\n{g['hashtags']}"
+    caption = f"{base} {credit} {g['hashtags']}"[:2000]
+    yt_title = f"{base} | {name} GTA 6 #shorts"
+    if len(yt_title) > 100:
+        yt_title = f"{base[:100 - len(' #shorts') - 1].rstrip()} #shorts"
+    yt_desc = f"{credit}\n\n{('Момент со стрима' if ru else 'A moment from the stream of')} {name}.\n{g['hashtags']}"
     tags = ["gta6", "gta 6", "gta vi", name, "twitch"]
     return base, caption, yt_title, yt_desc, tags
 
 
+# ---------------------------------------------------------------- previews
+def sheet(video, dst, n=5, width=384):
+    """Contact sheet: n frames of the video side by side (for reviewing runs without the mp4)."""
+    try:
+        _, _, dur = probe(video)
+        PREV_DIR.mkdir(parents=True, exist_ok=True)
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(video), "-vf",
+                        f"fps={n / max(dur, 1):.4f},scale={width}:-2,tile={n}x1", "-frames:v", "1", "-q:v", "5",
+                        str(PREV_DIR / dst)], check=True)
+    except Exception as e:  # noqa
+        log("  WARN preview failed:", repr(e))
+
+
+REPORT = []
+
+
+def report(c, verdict, **extra):
+    REPORT.append({"id": c["id"], "kind": c["kind"], "login": c["login"], "views": c.get("views"),
+                   "url": c["url"], "section": c.get("section"), "verdict": verdict, **extra})
+    PREV_DIR.mkdir(parents=True, exist_ok=True)
+    (PREV_DIR / "report.json").write_text(json.dumps(REPORT, ensure_ascii=False, indent=1))
+
+
+# ---------------------------------------------------------------- evaluate / publish
+def overlaps(a, b):
+    """Same stretch of the same stream recording (so a viewer clip and a chat cut don't double-post)."""
+    if not a.get("vod") or a.get("vod") != b.get("vod") or a.get("vod_t") is None or b.get("vod_t") is None:
+        return False
+    return abs(float(a["vod_t"]) - float(b["vod_t"])) < 60
+
+
+def reject(state, c, why, **extra):
+    log(f"   rejected: {why}")
+    state["rejected"][c["id"]] = {"at": now_utc().isoformat(), "why": why, "login": c["login"]}
+    report(c, "rejected", why=why, **extra)
+
+
+def crop_boxes(cam, vw, vh):
+    """Source-frame areas that end up in the vertical video: (cam box or None, gameplay box)."""
+    if not cam:
+        return None, (0, 0, vw, vh)
+    gw = min(vw, int(vh * W / GAME_H))
+    return tuple(cam), ((vw - gw) // 2, 0, gw, vh)
+
+
+def review_pack(c, src, dur, cam, words, m, lang):
+    """Frames + transcript of a candidate for the editor (pushed to the `review` branch)."""
+    import judge
+    REVIEW_DIR.mkdir(parents=True, exist_ok=True)
+    vw, vh, _ = probe(src)
+    n, cols, fw = 12, 3, 512
+    fh = int(fw * vh / vw / 2) * 2
+    k = fw / vw
+    cbox, gbox = crop_boxes(cam, vw, vh)
+    draw = ""
+    for box, color in ((gbox if cam else None, "yellow"), (cbox, "lime")):
+        if box:
+            draw += (f",drawbox=x={int(box[0] * k)}:y={int(box[1] * k)}:w={int(box[2] * k)}:h={int(box[3] * k)}"
+                     f":color={color}:t=2")
+    times = []
+    with tempfile.TemporaryDirectory() as td:
+        last = None
+        for i in range(n):
+            t = dur * (i + 0.5) / n
+            times.append(round(t, 1))
+            f = Path(td) / f"{i:02d}.jpg"
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{t:.2f}", "-i", str(src), "-frames:v", "1",
+                            "-vf", f"scale={fw}:{fh}{draw}", "-q:v", "4", str(f)])
+            if not f.exists() and last:
+                f.write_bytes(last.read_bytes())
+            if f.exists():
+                last = f
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"{td}/%02d.jpg", "-vf", f"tile={cols}x{n // cols}",
+                        "-frames:v", "1", "-q:v", "4", str(REVIEW_DIR / f"{c['id']}.jpg")], check=True)
+    (REVIEW_DIR / f"{c['id']}.json").write_text(json.dumps({
+        "id": c["id"], "kind": c["kind"], "login": c["login"], "name": c["name"], "language": lang,
+        "source": c["source"], "url": c["url"], "section": c.get("section"), "duration": round(dur, 1),
+        "frames": f"{cols} columns x {n // cols} rows, left to right then top to bottom",
+        "frame_times": times, "video_size": [vw, vh],
+        "boxes": "lime = webcam crop (top of the vertical video), yellow = gameplay crop (bottom)" if cam
+                 else "no webcam was detected: without a cam box from the editor the clip is rejected",
+        "cam_box": [round(cam[0] / vw, 3), round(cam[1] / vh, 3), round(cam[2] / vw, 3), round(cam[3] / vh, 3)]
+                   if cam else None,
+        "metrics": {a: round(b, 3) for a, b in m.items()}, "found_at": c.get("at"),
+        "transcript": judge.transcript(words)}, ensure_ascii=False, indent=1))
+
+
+def apply_verdict(cfg, state, c, v, dur):
+    """Editor's verdict -> approved (pool) or rejected. v=None: no editor configured, accept as 5/10."""
+    jc = cfg.get("judge") or {}
+    m = c.get("metrics") or {}
+    keep, score = None, 5
+    if v is not None:
+        score = int(v.get("moment_score", 0))
+        if v.get("cam") and c.get("size"):          # editor's webcam box: x, y, w, h as fractions of the frame
+            vw, vh = c["size"]
+            x, y, w, h = [min(max(float(a), 0.0), 1.0) for a in v["cam"]]
+            c["cam"] = [int(x * vw), int(y * vh), max(16, int(min(w, 1 - x) * vw)), max(16, int(min(h, 1 - y) * vh))]
+        why = None
+        if not v.get("gameplay_visible", True):
+            why = "editor: no gameplay on screen"
+        elif v.get("gambling_ad") and jc.get("block_gambling_ads", True):
+            why = "editor: betting/casino branding in the picture"
+        elif not c.get("cam") and (cfg.get("quality") or {}).get("require_cam", True):
+            why = "editor: no webcam in the picture"
+        elif score < jc.get("min_score", 6):
+            why = f"editor: {score}/10, {v.get('what_happens', '')}"
+        if why:
+            reject(state, c, why, metrics=m, editor=v)
+            return False
+        k0, k1 = float(v.get("keep_start") or 0), float(v.get("keep_end") or dur)
+        if 0 <= k0 < k1 <= dur + 1 and k1 - k0 >= 12 and dur - (k1 - k0) >= 3:
+            keep = [round(k0, 1), round(min(k1, dur), 1)]
+        c["caption"] = (v.get("caption") or "").strip()
+    c.update({"at": now_utc().isoformat(), "score": score, "keep": keep})
+    state["pool"][c["id"]] = c
+    report(c, "approved", score=score, keep=keep, caption=c.get("caption"), metrics=m, editor=v)
+    log(f"   approved with {score}/10, waiting for a publishing slot")
+    return True
+
+
+def apply_reviews(cfg, state):
+    """Pick up verdicts the editor wrote to state/verdicts.json for candidates waiting in 'pending'."""
+    if not VERDICTS_FILE.exists():
+        return
+    try:
+        verdicts = json.loads(VERDICTS_FILE.read_text())
+    except ValueError as e:
+        log("WARN state/verdicts.json is unreadable:", repr(e))
+        return
+    n = 0
+    for cid, v in verdicts.items():
+        c = state["pending"].pop(cid, None)
+        if not c:
+            continue
+        n += 1
+        log(f"-> editor's verdict for {c['login']} {cid}: {v.get('moment_score')}/10 {v.get('what_happens', '')}")
+        try:
+            apply_verdict(cfg, state, c, v, float(c.get("dur") or 0))
+        except Exception as e:  # noqa
+            log("   ERROR applying verdict:", repr(e)[:300])
+    log(f"Editor verdicts applied: {n}; still waiting for a verdict: {len(state['pending'])}")
+
+
+def judge_mode(cfg):
+    jc = cfg.get("judge") or {}
+    return jc.get("mode", "review") if jc.get("enabled", True) else "off"
+
+
+def evaluate(cfg, state, c, td):
+    """Download a candidate and run the free checks, then hand it to the editor.
+
+    review mode: frames + transcript go to the review branch, the candidate waits in 'pending'.
+    api mode: the Claude API gives the verdict right away. Approved candidates go to the pool.
+    """
+    import judge
+    import quality
+    g = cfg["groups"][c["group"]]
+    jc = cfg.get("judge") or {}
+    mode = judge_mode(cfg)
+    log(f"-> [{c['kind']}] {c['login']} ({c.get('views')}): {c['title']} {c['url']} {c.get('section') or ''}")
+    for other in list(state["posted"].values()) + list(state["pool"].values()) + list(state["pending"].values()):
+        if overlaps(c, other):
+            return reject(state, c, "same moment is already posted or queued")
+    src = Path(td) / f"{c['id']}.mp4"
+    try:
+        download(c["url"], src, c.get("section"))
+    except Exception as e:  # noqa
+        fresh = c["kind"] == "chat" and age_hours(c.get("found_at", now_utc().isoformat())) < 0.5
+        log("   download failed:", repr(e)[:300], "(will retry next run)" if fresh else "")
+        if not fresh:
+            reject(state, c, "download failed")
+        return
+    vw, vh, dur = probe(src)
+    cam, fullcam = detect_cam(src, cfg.get("cam_overrides", {}).get(c["login"].lower()))
+    m = quality.motion(src, cam, vw, vh)
+    tag = f"{c['login']}_{c['id'][-12:]}"
+    # in review mode the editor can still point at a webcam the detector missed
+    ok, why = quality.verdict(m, cam, fullcam, cfg, cam_required=mode != "review")
+    log(f"   {vw}x{vh} {dur:.0f}s, cam {cam}, motion {m['motion']:.2f} (p90 {m['motion_p90']:.2f}), "
+        f"static {m['static_share']:.0%}")
+    if not ok:
+        sheet(src, f"REJ_{tag}.jpg")
+        return reject(state, c, why, metrics=m)
+    words, pcm = transcribe(src, cfg["whisper_model"], g.get("language")) if cfg.get("subtitles") else ([], None)
+    if pcm is not None:
+        m.update(quality.loudness(pcm))
+    c.update({"at": now_utc().isoformat(), "cam": list(cam) if cam else None, "size": [vw, vh],
+              "dur": round(dur, 1), "words": words, "metrics": m})
+    if mode == "review":
+        review_pack(c, src, dur, cam, words, m, g.get("language", "en"))
+        state["pending"][c["id"]] = c
+        report(c, "pending", metrics=m)
+        log("   passed the free checks, sent to the editor")
+        return
+    v = None
+    if mode == "api":
+        v = judge.judge(src, dur, words, {"name": c["name"], "login": c["login"], "language": g.get("language", "en"),
+                                           "source": c["source"]}, cfg, log=log)
+        if v is None and jc.get("required", True):
+            log("   no verdict from the AI editor, leaving this one for a later run")
+            sheet(src, f"NOJUDGE_{tag}.jpg")
+            report(c, "no_verdict", metrics=m)
+            return
+        if v:
+            log(f"   editor: {v['moment_score']}/10, gameplay {v['gameplay_visible']}, gambling ad {v['gambling_ad']}: "
+                f"{v['what_happens']} | caption: {v['caption']} | tokens {v['_usage']}")
+    ok = apply_verdict(cfg, state, c, v, dur)
+    sheet(src, f"OK{c['score']}_{tag}.jpg" if ok else f"REJ_{tag}.jpg")
+
+
+def pick(state, profile_of, fresh_only=False):
+    """Best approved moment per profile: highest score, then freshest."""
+    best = {}
+    for c in state["pool"].values():
+        if fresh_only and c.get("previewed"):
+            continue
+        prof = profile_of[c["group"]]
+        key = (c["score"], c["at"])
+        if prof not in best or key > (best[prof]["score"], best[prof]["at"]):
+            best[prof] = c
+    return best
+
+
+def publish(cfg, state, c, dry):
+    g = cfg["groups"][c["group"]]
+    log(f"=> publishing [{c['kind']}] {c['login']} {c['score']}/10: {c.get('caption') or c['title']}")
+    with tempfile.TemporaryDirectory() as td:
+        src = download(c["url"], Path(td) / f"{c['id']}.mp4", c.get("section"))
+        OUT_DIR.mkdir(exist_ok=True)
+        out = OUT_DIR / f"{c['login']}_{c['id'][-12:]}_vertical.mp4"
+        render(src, out, tuple(c["cam"]) if c.get("cam") else None, f"@{c['login']}", c.get("words") or [],
+               c.get("keep"))
+        sheet(out, f"POST_{c['login']}_{c['id'][-12:]}.jpg", n=6, width=270)
+        base, caption, yt_title, yt_desc, tags = texts(c, g)
+        if dry:
+            log("   DRY RUN, not posting:", out.name, "|", caption)
+            c["previewed"] = True          # do not render the same preview again on the next dry run
+            report(c, "would_post", caption=caption)
+            return
+        res = post(cfg, g["profile"], out, base, caption, yt_title, yt_desc, tags, c["id"])
+        state["posted"][c["id"]] = {"at": now_utc().isoformat(), "ok": True, "profile": g["profile"],
+                                    "login": c["login"], "url": c["url"], "kind": c["kind"], "score": c["score"],
+                                    "caption": c.get("caption"), "vod": c.get("vod"), "vod_t": c.get("vod_t"),
+                                    "request_id": res.get("request_id")}
+        state["pool"].pop(c["id"], None)
+        report(c, "posted", caption=caption)
+
+
 # ---------------------------------------------------------------- main
-def process(cfg, src, login, group, words_lang):
-    over = cfg.get("cam_overrides", {}).get(login.lower())
-    cam = detect_cam(src, over)
-    log("cam box:", cam)
-    words = transcribe(src, cfg["whisper_model"], words_lang) if cfg.get("subtitles") else []
-    OUT_DIR.mkdir(exist_ok=True)
-    dst = OUT_DIR / (Path(src).stem + "_vertical.mp4")
-    return render(src, dst, cam, f"@{login}", words)
-
-
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
-    ap.add_argument("--input", help="render a local video instead of searching Twitch")
-    ap.add_argument("--streamer", default="streamer")
-    ap.add_argument("--lang", default=None)
     ap.add_argument("--game", default=None, help="override game from config (for tests)")
-    ap.add_argument("--url", help="test: render a Twitch clip URL or a channel clips page (first N clips)")
-    ap.add_argument("--n", type=int, default=2)
-    ap.add_argument("--private-post", action="store_true", help="test: post first rendered --url clip privately")
+    ap.add_argument("--url", help="test: evaluate and render one Twitch clip URL (nothing is posted)")
+    ap.add_argument("--streamer", default="streamer")
     a = ap.parse_args()
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
     if a.game:
         cfg["game"] = a.game
+    import judge
+    jc = cfg.get("judge") or {}
 
-    if a.input:
-        log("rendered:", process(cfg, a.input, a.streamer, None, a.lang))
-        return
-    if a.url:
-        td = Path(tempfile.mkdtemp())
-        subprocess.run([sys.executable, "-m", "yt_dlp", "-q", "-f", "best[ext=mp4]/best", "--playlist-items",
-                        f"1-{a.n}", "-o", str(td / "%(id)s.%(ext)s"), a.url], check=True)
-        for f in sorted(td.glob("*.mp4")):
-            out = process(cfg, f, a.streamer, None, a.lang)
-            log("rendered:", out)
-            if a.private_post:
-                g = next(iter(cfg["groups"].values()))
-                fake = {"_name": a.streamer, "_login": a.streamer, "title": "TEST private upload"}
-                base, caption, yt_title, yt_desc, tags = texts(fake, g)
-                post(cfg, g["profile"], out, base, caption, yt_title, yt_desc, tags, "test-" + f.stem, private=True)
-                a.private_post = False
+    if a.url:   # test mode: one clip through the whole pipeline, state untouched
+        state = load_state()
+        gname = next((n for n, g in cfg["groups"].items() if a.streamer.lower() in [x.lower() for x in g["streamers"]]),
+                     next(iter(cfg["groups"])))
+        c = {"id": "test-" + a.url.rstrip("/").split("/")[-1][-24:], "url": a.url, "section": None, "kind": "clip",
+             "views": 0, "title": "", "vod": None, "vod_t": None, "group": gname, "login": a.streamer,
+             "name": a.streamer, "source": "Twitch clip made by a viewer (manual test)"}
+        with tempfile.TemporaryDirectory() as td:
+            evaluate(cfg, state, c, td)
+        if c["id"] in state["pool"]:
+            publish(cfg, state, c, dry=True)
+        elif c["id"] in state["pending"]:   # review mode: show the layout without waiting for the verdict
+            c.update({"score": 0, "keep": None})
+            publish(cfg, state, c, dry=True)
+        for f in REVIEW_DIR.glob("test-*"):  # the review branch is for real candidates only
+            f.rename(PREV_DIR / ("REVIEW_" + f.name))
         return
 
     if not os.environ.get("TWITCH_CLIENT_ID") or not os.environ.get("TWITCH_CLIENT_SECRET"):
         log("::warning::TWITCH_CLIENT_ID / TWITCH_CLIENT_SECRET secrets are not set yet, skipping run")
         return
-
-    if not cfg.get("publish", True) and not a.dry_run:
-        log("::warning::publish is off in config.yaml, running as dry run")
-        a.dry_run = True
-    if not a.dry_run and not os.environ.get("UPLOAD_POST_KEY"):
+    dry = a.dry_run
+    if not cfg.get("publish", True) and not dry:
+        log("::warning::publish is off in config.yaml: moments are collected and rendered, nothing is posted")
+        dry = True
+    if not dry and not os.environ.get("UPLOAD_POST_KEY"):
         log("::warning::UPLOAD_POST_KEY secret is not set yet, skipping run")
         return
+    mode = judge_mode(cfg)
+    if mode == "api" and not judge.available(cfg):
+        log("::warning::ANTHROPIC_API_KEY secret is not set: the AI editor is off"
+            + (", so nothing will be approved" if jc.get("required", True) else ""))
 
     state = load_state()
-    cands = find_candidates(cfg, state)
+    apply_reviews(cfg, state)
+    new = []
     try:
-        cands = find_chat_moments(cfg, state) + cands   # fresh chat moments first
+        new += find_chat_moments(cfg, state)      # listens to live chats first (takes minutes)
     except Exception as e:  # noqa
         log("WARN chat moments failed:", repr(e))
-    done = 0
-    for c in cands:
-        if done >= cfg["posts_per_run"]:
+    try:
+        clips = find_candidates(cfg, state)
+    except Exception as e:  # noqa
+        log("WARN viewer clips failed:", repr(e))
+        clips = []
+    # interleave: chat moment, viewer clip, chat moment, ...
+    order = []
+    chat = list(new)
+    while chat or clips:
+        if chat:
+            order.append(chat.pop(0))
+        if clips:
+            order.append(clips.pop(0))
+    limit = int(jc.get("max_checked_per_run", 6))
+    checked = 0
+    for c in order:
+        if checked >= limit:
             break
-        g = cfg["groups"][c["_group"]]
-        if posts_last_24h(state, g["profile"]) >= cfg["max_posts_per_day"]:
-            log("daily cap reached for", g["profile"])
-            continue
-        log(f"-> {c['_login']} {c['view_count']} views: {c['title']} {c['url']}")
+        checked += 1
         try:
             with tempfile.TemporaryDirectory() as td:
-                src = download(c["url"], Path(td) / f"{c['id']}.mp4", c.get("section"))
-                out = process(cfg, src, c["_login"], c["_group"], g.get("language"))
-                base, caption, yt_title, yt_desc, tags = texts(c, g)
-                if a.dry_run:
-                    log("DRY RUN, not posting:", out, "|", caption)
-                    done += 1
-                    continue
-                res = post(cfg, g["profile"], out, base, caption, yt_title, yt_desc, tags, c["id"])
-                state["posted"][c["id"]] = {"at": dt.datetime.now(dt.timezone.utc).isoformat(), "ok": True,
-                                            "profile": g["profile"], "login": c["_login"], "url": c["url"],
-                                            "views": c["view_count"], "request_id": res.get("request_id")}
-                done += 1
+                evaluate(cfg, state, c, td)
         except Exception as e:  # noqa
-            log("ERROR", c["id"], repr(e))
-            state["posted"][c["id"]] = {"at": dt.datetime.now(dt.timezone.utc).isoformat(), "ok": False,
-                                        "error": repr(e)[:300], "login": c["_login"]}
+            log("   ERROR while checking:", repr(e)[:400])
         save_state(state)
-    log(f"done: {done} clip(s)")
+    log(f"Checked {checked} candidate(s); waiting for the editor: {len(state['pending'])}; "
+        f"approved and waiting for a slot: {len(state['pool'])}")
+    REVIEW_DIR.mkdir(parents=True, exist_ok=True)
+    (REVIEW_DIR / "pending.json").write_text(json.dumps(
+        {"updated": now_utc().isoformat(),
+         "pending": [{"id": k, "login": v["login"], "kind": v["kind"], "at": v["at"]}
+                     for k, v in state["pending"].items()]}, indent=1))
+
+    profile_of = {gname: g["profile"] for gname, g in cfg["groups"].items()}
+    for prof, c in pick(state, profile_of, fresh_only=dry).items():
+        if posts_last_24h(state, prof) >= cfg["max_posts_per_day"]:
+            log(f"{prof}: daily cap reached")
+            continue
+        gap = minutes_since_last_post(state, prof)
+        if gap < cfg.get("min_gap_minutes", 120) and not dry:
+            log(f"{prof}: last post {gap:.0f} min ago, next slot in {cfg.get('min_gap_minutes', 120) - gap:.0f} min")
+            continue
+        try:
+            publish(cfg, state, c, dry)
+        except Exception as e:  # noqa
+            log("   ERROR while publishing:", repr(e)[:400])
+            state["pool"].pop(c["id"], None)
+            state["posted"][c["id"]] = {"at": now_utc().isoformat(), "ok": False, "error": repr(e)[:300],
+                                        "login": c["login"]}
+        save_state(state)
+    save_state(state)
 
 
 if __name__ == "__main__":
