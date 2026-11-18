@@ -565,6 +565,7 @@ def apply_verdict(cfg, state, c, v, dur):
             vw, vh = c["size"]
             x, y, w, h = [min(max(float(a), 0.0), 1.0) for a in v["cam"]]
             c["cam"] = [int(x * vw), int(y * vh), max(16, int(min(w, 1 - x) * vw)), max(16, int(min(h, 1 - y) * vh))]
+            c["cam_src"] = "editor"
         why = None
         if not v.get("gameplay_visible", True):
             why = "editor: no gameplay on screen"
@@ -721,6 +722,10 @@ def publish(cfg, state, c, dry):
         src = download(c["url"], Path(td) / f"{c['id']}.mp4", c.get("section"))
         OUT_DIR.mkdir(exist_ok=True)
         out = OUT_DIR / f"{c['login']}_{c['id'][-12:]}_vertical.mp4"
+        ov = (cfg.get("cam_overrides") or {}).get(c["login"].lower())
+        if ov and c.get("size") and c.get("cam_src") != "editor":   # the config knows this webcam better
+            vw, vh = c["size"]
+            c["cam"] = [int(ov[0] * vw), int(ov[1] * vh), int(ov[2] * vw), int(ov[3] * vh)]
         render(src, out, tuple(c["cam"]) if c.get("cam") else None, f"@{c['login']}", c.get("words") or [],
                c.get("keep"))
         sheet(out, f"POST_{c['login']}_{c['id'][-12:]}.jpg", n=6, width=270)

@@ -71,6 +71,7 @@ platforms: [tiktok, youtube]
 #   xqc: [0.0, 0.62, 0.22, 0.38]
 cam_overrides:
   honeymad: [0.012, 0.51, 0.211, 0.208]
+  t2x2: [0.757, 0.646, 0.18, 0.225]      # без баннера букмекера на заднем плане
 
 # Субтитры (faster-whisper). Модель: tiny/base/small. small точнее, но медленнее.
 subtitles: true
