@@ -1,0 +1,44 @@
+# Настройки конвейера. Меняй и коммить — следующий запуск подхватит.
+
+# Игра, клипы которой берём (точное название в Twitch).
+# До релиза для теста можно поставить "Grand Theft Auto V".
+game: "Grand Theft Auto VI"
+
+# За сколько часов назад искать клипы
+lookback_hours: 24
+# Минимум просмотров клипа на Twitch, чтобы он считался «ярким моментом»
+min_views: 300
+# Длительность клипа (секунды)
+min_duration: 8
+max_duration: 60
+
+# Сколько роликов публиковать за один запуск и максимум в сутки на профиль
+posts_per_run: 1
+max_posts_per_day: 12
+
+# Профили upload-post. Каждый профиль — своя пара TikTok + YouTube.
+# Сейчас всё идёт в один профиль; чтобы разделить RU и EN — создай второй
+# профиль в upload-post и впиши его имя в profile у нужной группы.
+groups:
+  en:
+    profile: "gta6"
+    language: en
+    hashtags: "#gta6 #gta #gtavi #twitch #streamer #gaming"
+    streamers: [xqc, kaicenat, jynxzi, summit1g, buddha, lord_kebun, dasmehdi, penta]
+  ru:
+    profile: "gta6"
+    language: ru
+    hashtags: "#gta6 #гта6 #гта #стрим #твич #gaming"
+    streamers: [buster, evelone2004, bratishkinoff, deepins02, zubarefff, koreshzy, t2x2, mazellovvv, strogo, recrent]
+
+platforms: [tiktok, youtube]
+
+# Ручная разметка вебки, если автоопределение ошибается.
+# Доли кадра: x, y, ширина, высота (0..1). Пример:
+# cam_overrides:
+#   xqc: [0.0, 0.62, 0.22, 0.38]
+cam_overrides: {}
+
+# Субтитры (faster-whisper). Модель: tiny/base/small. small точнее, но медленнее.
+subtitles: true
+whisper_model: small
