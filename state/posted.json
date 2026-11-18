@@ -361,7 +361,592 @@
    "login": "evelone2004"
   }
  },
- "pending": {},
+ "pending": {
+  "chat-2932185383-793": {
+   "id": "chat-2932185383-793",
+   "url": "https://www.twitch.tv/videos/2932185383",
+   "section": [
+    35650.242147,
+    35706.242147
+   ],
+   "kind": "chat",
+   "views": 150,
+   "title": "",
+   "vod": "2932185383",
+   "vod_t": 35650.242147,
+   "group": "ru",
+   "login": "skywhywalker",
+   "name": "skywhywalker",
+   "viewers": 18054,
+   "chat_score": 6.82,
+   "found_at": "2026-11-18T19:48:16.874716+00:00",
+   "spike_at": "2026-11-18T19:44:19.242147+00:00",
+   "chat": [
+    "13x играл",
+    "13x э",
+    "9x sex",
+    "9x ((",
+    "4x 0",
+    "4x opa",
+    "4x а нам",
+    "4x сука",
+    "4x эээээ",
+    "3x ээ",
+    "3x ээээ",
+    "2x )))",
+    "СУКАъ",
+    "д сука",
+    "да",
+    "вы че ахуели(",
+    "ну сукаааааааааа",
+    "жду",
+    "э ((",
+    "Просто друзья"
+   ],
+   "source": "cut from the live stream at a chat spike: 150 chatters in 15 s, 6.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-18T19:48:45.538007+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " Ты",
+     "start": 0.0,
+     "end": 0.66
+    },
+    {
+     "word": " чё,",
+     "start": 0.66,
+     "end": 1.0
+    },
+    {
+     "word": " какого?",
+     "start": 1.1,
+     "end": 1.28
+    },
+    {
+     "word": " Коба",
+     "start": 1.5,
+     "end": 2.08
+    },
+    {
+     "word": " зачем,",
+     "start": 2.08,
+     "end": 2.34
+    },
+    {
+     "word": " блять?",
+     "start": 2.54,
+     "end": 2.7
+    },
+    {
+     "word": " На",
+     "start": 5.56,
+     "end": 6.16
+    },
+    {
+     "word": " хуя.",
+     "start": 6.16,
+     "end": 6.76
+    },
+    {
+     "word": " Бля,",
+     "start": 21.12,
+     "end": 21.72
+    },
+    {
+     "word": " если",
+     "start": 23.98,
+     "end": 23.98
+    },
+    {
+     "word": " чё?",
+     "start": 23.98,
+     "end": 24.9
+    },
+    {
+     "word": " А",
+     "start": 25.14,
+     "end": 25.34
+    },
+    {
+     "word": " она",
+     "start": 25.34,
+     "end": 26.48
+    },
+    {
+     "word": " убьёт",
+     "start": 29.62,
+     "end": 29.98
+    },
+    {
+     "word": " тебя.",
+     "start": 29.98,
+     "end": 30.22
+    },
+    {
+     "word": " Это",
+     "start": 31.28,
+     "end": 31.46
+    },
+    {
+     "word": " женщина.",
+     "start": 31.46,
+     "end": 32.02
+    },
+    {
+     "word": " Не,",
+     "start": 40.07,
+     "end": 40.23
+    },
+    {
+     "word": " он",
+     "start": 40.31,
+     "end": 40.39
+    },
+    {
+     "word": " просто",
+     "start": 40.39,
+     "end": 40.61
+    },
+    {
+     "word": " мета",
+     "start": 40.61,
+     "end": 40.91
+    },
+    {
+     "word": " кажется",
+     "start": 40.91,
+     "end": 41.21
+    },
+    {
+     "word": " по",
+     "start": 41.21,
+     "end": 41.49
+    },
+    {
+     "word": " игре.",
+     "start": 41.49,
+     "end": 42.23
+    },
+    {
+     "word": " Весь",
+     "start": 44.77,
+     "end": 45.17
+    },
+    {
+     "word": " цех",
+     "start": 45.17,
+     "end": 45.49
+    },
+    {
+     "word": " скипают.",
+     "start": 45.49,
+     "end": 46.77
+    },
+    {
+     "word": " Я",
+     "start": 46.79,
+     "end": 46.97
+    },
+    {
+     "word": " так",
+     "start": 46.97,
+     "end": 47.03
+    },
+    {
+     "word": " понимаю,",
+     "start": 47.03,
+     "end": 47.27
+    },
+    {
+     "word": " все",
+     "start": 47.47,
+     "end": 47.55
+    },
+    {
+     "word": " недовольны,",
+     "start": 47.55,
+     "end": 48.15
+    },
+    {
+     "word": " да?",
+     "start": 48.15,
+     "end": 48.25
+    },
+    {
+     "word": " Все",
+     "start": 48.75,
+     "end": 48.89
+    },
+    {
+     "word": " в",
+     "start": 48.89,
+     "end": 49.01
+    },
+    {
+     "word": " тилете.",
+     "start": 49.01,
+     "end": 49.31
+    },
+    {
+     "word": " Да,",
+     "start": 51.25,
+     "end": 51.65
+    },
+    {
+     "word": " вам",
+     "start": 51.73,
+     "end": 51.83
+    },
+    {
+     "word": " тут",
+     "start": 51.83,
+     "end": 51.97
+    },
+    {
+     "word": " и",
+     "start": 51.97,
+     "end": 52.15
+    },
+    {
+     "word": " так",
+     "start": 52.15,
+     "end": 52.29
+    },
+    {
+     "word": " 5",
+     "start": 52.29,
+     "end": 52.53
+    },
+    {
+     "word": " миллионов",
+     "start": 52.53,
+     "end": 53.07
+    },
+    {
+     "word": " долларов",
+     "start": 53.07,
+     "end": 53.35
+    },
+    {
+     "word": " в",
+     "start": 53.35,
+     "end": 53.55
+    },
+    {
+     "word": " жопу",
+     "start": 53.55,
+     "end": 53.75
+    },
+    {
+     "word": " вложили,",
+     "start": 53.75,
+     "end": 54.13
+    },
+    {
+     "word": " этого",
+     "start": 54.21,
+     "end": 54.39
+    },
+    {
+     "word": " хватит.",
+     "start": 54.39,
+     "end": 54.67
+    }
+   ],
+   "metrics": {
+    "motion": 0.23833333333333334,
+    "motion_p90": 0.4834305555555556,
+    "static_share": 0.04484304932735426,
+    "peak_db": 17.4011287689209,
+    "level_db": -41.608863830566406
+   }
+  },
+  "SpineyCaringGarageGOWSkull-hQKeTnQ_vzkqj3Gf": {
+   "id": "SpineyCaringGarageGOWSkull-hQKeTnQ_vzkqj3Gf",
+   "url": "https://www.twitch.tv/evelone2004/clip/SpineyCaringGarageGOWSkull-hQKeTnQ_vzkqj3Gf",
+   "section": null,
+   "kind": "clip",
+   "views": 3833,
+   "title": "возьня",
+   "vod": null,
+   "vod_t": null,
+   "group": "ru",
+   "login": "evelone2004",
+   "name": "evelone2004",
+   "source": "Twitch clip made by a viewer, 3833 views, titled \"возьня\"",
+   "at": "2026-11-18T19:49:14.856503+00:00",
+   "cam": [
+    0,
+    840,
+    373,
+    263
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 38.0,
+   "words": [
+    {
+     "word": " Держать!",
+     "start": 2.61,
+     "end": 3.43
+    },
+    {
+     "word": " Держать!",
+     "start": 3.51,
+     "end": 3.85
+    },
+    {
+     "word": " Нажми,",
+     "start": 3.97,
+     "end": 4.09
+    },
+    {
+     "word": " держать!",
+     "start": 4.21,
+     "end": 4.61
+    },
+    {
+     "word": " Вань,",
+     "start": 7.67,
+     "end": 8.15
+    },
+    {
+     "word": " держи!",
+     "start": 8.27,
+     "end": 8.63
+    },
+    {
+     "word": " Что,",
+     "start": 8.91,
+     "end": 9.11
+    },
+    {
+     "word": " началось",
+     "start": 9.29,
+     "end": 9.51
+    },
+    {
+     "word": "-то,",
+     "start": 9.51,
+     "end": 9.77
+    },
+    {
+     "word": " блядь?",
+     "start": 9.91,
+     "end": 10.21
+    },
+    {
+     "word": " Вань,",
+     "start": 10.61,
+     "end": 10.95
+    },
+    {
+     "word": " нажми,",
+     "start": 11.01,
+     "end": 11.21
+    },
+    {
+     "word": " держать!",
+     "start": 11.31,
+     "end": 11.77
+    },
+    {
+     "word": " Р2,",
+     "start": 12.29,
+     "end": 12.77
+    },
+    {
+     "word": " Р2!",
+     "start": 12.89,
+     "end": 13.19
+    },
+    {
+     "word": " Я",
+     "start": 14.15,
+     "end": 14.63
+    },
+    {
+     "word": " закрою",
+     "start": 14.63,
+     "end": 15.09
+    },
+    {
+     "word": " ей!",
+     "start": 15.09,
+     "end": 15.29
+    },
+    {
+     "word": " Никому",
+     "start": 16.21,
+     "end": 16.69
+    },
+    {
+     "word": " не",
+     "start": 16.69,
+     "end": 16.83
+    },
+    {
+     "word": " показывай!",
+     "start": 16.83,
+     "end": 17.49
+    },
+    {
+     "word": " Никому",
+     "start": 18.45,
+     "end": 18.93
+    },
+    {
+     "word": " не",
+     "start": 18.93,
+     "end": 19.11
+    },
+    {
+     "word": " показывай!",
+     "start": 19.11,
+     "end": 19.91
+    },
+    {
+     "word": " Ещё",
+     "start": 22.81,
+     "end": 23.29
+    },
+    {
+     "word": " чьи",
+     "start": 23.29,
+     "end": 23.49
+    },
+    {
+     "word": " выгодки?",
+     "start": 23.49,
+     "end": 23.91
+    },
+    {
+     "word": " Березнули",
+     "start": 26.92,
+     "end": 27.4
+    },
+    {
+     "word": " каблянское.",
+     "start": 27.4,
+     "end": 27.88
+    },
+    {
+     "word": " А,",
+     "start": 27.96,
+     "end": 28.1
+    },
+    {
+     "word": " она",
+     "start": 28.26,
+     "end": 28.4
+    },
+    {
+     "word": " всё?",
+     "start": 28.4,
+     "end": 28.64
+    },
+    {
+     "word": " А,",
+     "start": 29.36,
+     "end": 29.58
+    },
+    {
+     "word": " не,",
+     "start": 30.08,
+     "end": 30.48
+    },
+    {
+     "word": " погоди.",
+     "start": 30.54,
+     "end": 30.84
+    },
+    {
+     "word": " 50",
+     "start": 30.96,
+     "end": 31.16
+    },
+    {
+     "word": " долларов?",
+     "start": 31.16,
+     "end": 31.42
+    },
+    {
+     "word": " Слушай,",
+     "start": 31.56,
+     "end": 31.64
+    },
+    {
+     "word": " чё,",
+     "start": 31.76,
+     "end": 31.86
+    },
+    {
+     "word": " у",
+     "start": 31.86,
+     "end": 31.96
+    },
+    {
+     "word": " неё",
+     "start": 31.96,
+     "end": 32.04
+    },
+    {
+     "word": " в",
+     "start": 32.04,
+     "end": 32.16
+    },
+    {
+     "word": " жопе",
+     "start": 32.16,
+     "end": 32.34
+    },
+    {
+     "word": " ставлено,",
+     "start": 32.34,
+     "end": 32.76
+    },
+    {
+     "word": " я",
+     "start": 32.8,
+     "end": 32.9
+    },
+    {
+     "word": " не",
+     "start": 32.9,
+     "end": 32.96
+    },
+    {
+     "word": " понял.",
+     "start": 32.96,
+     "end": 33.44
+    },
+    {
+     "word": " Тихо,",
+     "start": 34.56,
+     "end": 34.56
+    },
+    {
+     "word": " тихо!",
+     "start": 34.56,
+     "end": 34.66
+    }
+   ],
+   "metrics": {
+    "motion": 0.06882504288164666,
+    "motion_p90": 0.15730417381360778,
+    "static_share": 0.0,
+    "peak_db": 9.17274284362793,
+    "level_db": -24.139141082763672
+   }
+  }
+ },
  "pool": {
   "WealthyNimbleHamsterDansGame-yrU7UShZomelh1Ke": {
    "id": "WealthyNimbleHamsterDansGame-yrU7UShZomelh1Ke",
