@@ -891,6 +891,420 @@
     "peak_db": 14.001105308532715,
     "level_db": -26.602615356445312
    }
+  },
+  "chat-2932185383-389": {
+   "id": "chat-2932185383-389",
+   "url": "https://www.twitch.tv/videos/2932185383",
+   "section": [
+    17473.237496,
+    17529.237496
+   ],
+   "kind": "chat",
+   "views": 147,
+   "title": "",
+   "vod": "2932185383",
+   "vod_t": 17473.237496,
+   "group": "ru",
+   "login": "skywhywalker",
+   "name": "skywhywalker",
+   "viewers": 19141,
+   "chat_score": 4.2,
+   "found_at": "2026-11-18T14:54:29.948345+00:00",
+   "spike_at": "2026-11-18T14:41:22.237496+00:00",
+   "chat": [
+    "9x 276",
+    "3x 145",
+    "3x )))",
+    "3x пиздец",
+    "3x я",
+    "2x xdd",
+    "2x гг",
+    "какой ты даун",
+    "аххвхахвхвхыхвхых",
+    "БОЖЕ Я НЕ МОГУ",
+    "МАШИНЫ НЕТ УЖЕ",
+    "ХВХААВХВАХАВХВАХВАХАВХВАХАВХАХАВ",
+    "АХАХАХАХАХАААХАХХАХА",
+    "Худший за рулём",
+    "МЯСО БЛЯ"
+   ],
+   "source": "cut from the live stream at a chat spike: 147 chatters in 15 s, 4.2x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-18T14:55:10.463660+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 59.0,
+   "words": [
+    {
+     "word": " Я",
+     "start": 0.88,
+     "end": 1.56
+    },
+    {
+     "word": " не",
+     "start": 1.56,
+     "end": 1.66
+    },
+    {
+     "word": " ожидал",
+     "start": 1.66,
+     "end": 1.92
+    },
+    {
+     "word": " такого.",
+     "start": 1.92,
+     "end": 2.26
+    },
+    {
+     "word": " Хорошо,",
+     "start": 4.39,
+     "end": 4.95
+    },
+    {
+     "word": " что",
+     "start": 5.09,
+     "end": 5.13
+    },
+    {
+     "word": " я",
+     "start": 5.13,
+     "end": 5.23
+    },
+    {
+     "word": " хорошо",
+     "start": 5.23,
+     "end": 5.47
+    },
+    {
+     "word": " управляю",
+     "start": 5.47,
+     "end": 5.81
+    },
+    {
+     "word": " машиной.",
+     "start": 5.81,
+     "end": 6.21
+    },
+    {
+     "word": " А,",
+     "start": 9.3,
+     "end": 9.78
+    },
+    {
+     "word": " мне",
+     "start": 9.9,
+     "end": 10.02
+    },
+    {
+     "word": " еще",
+     "start": 10.02,
+     "end": 10.26
+    },
+    {
+     "word": " въебет",
+     "start": 10.26,
+     "end": 10.64
+    },
+    {
+     "word": " кое",
+     "start": 10.64,
+     "end": 10.96
+    },
+    {
+     "word": "-чего.",
+     "start": 10.96,
+     "end": 11.12
+    },
+    {
+     "word": " На",
+     "start": 18.79,
+     "end": 19.47
+    },
+    {
+     "word": " хуй",
+     "start": 19.47,
+     "end": 19.65
+    },
+    {
+     "word": " зонтик.",
+     "start": 19.65,
+     "end": 20.07
+    },
+    {
+     "word": " Ну,",
+     "start": 21.71,
+     "end": 22.39
+    },
+    {
+     "word": " нет!",
+     "start": 22.55,
+     "end": 22.95
+    },
+    {
+     "word": " Блядство.",
+     "start": 25.35,
+     "end": 26.03
+    },
+    {
+     "word": " Я",
+     "start": 26.45,
+     "end": 26.63
+    },
+    {
+     "word": " въебал",
+     "start": 26.63,
+     "end": 27.01
+    },
+    {
+     "word": " по",
+     "start": 27.01,
+     "end": 27.23
+    },
+    {
+     "word": " коду.",
+     "start": 27.23,
+     "end": 27.45
+    },
+    {
+     "word": " А",
+     "start": 34.95,
+     "end": 35.63
+    },
+    {
+     "word": " я",
+     "start": 35.63,
+     "end": 35.71
+    },
+    {
+     "word": " еще",
+     "start": 35.71,
+     "end": 35.95
+    },
+    {
+     "word": " жду,",
+     "start": 35.95,
+     "end": 36.19
+    },
+    {
+     "word": " блять.",
+     "start": 36.29,
+     "end": 36.43
+    },
+    {
+     "word": " Да,",
+     "start": 39.95,
+     "end": 40.17
+    },
+    {
+     "word": " бля,",
+     "start": 40.27,
+     "end": 40.57
+    },
+    {
+     "word": " ну",
+     "start": 40.71,
+     "end": 40.83
+    },
+    {
+     "word": " кто",
+     "start": 40.83,
+     "end": 41.15
+    },
+    {
+     "word": " знал,",
+     "start": 41.15,
+     "end": 41.61
+    },
+    {
+     "word": " что",
+     "start": 41.63,
+     "end": 41.79
+    },
+    {
+     "word": " он",
+     "start": 41.79,
+     "end": 41.89
+    },
+    {
+     "word": " повернет",
+     "start": 41.89,
+     "end": 42.37
+    },
+    {
+     "word": " здесь",
+     "start": 42.37,
+     "end": 42.77
+    },
+    {
+     "word": " на",
+     "start": 42.77,
+     "end": 43.15
+    },
+    {
+     "word": " хуй?",
+     "start": 43.15,
+     "end": 43.61
+    },
+    {
+     "word": " Ёпаные,",
+     "start": 45.09,
+     "end": 45.53
+    },
+    {
+     "word": " кстати,",
+     "start": 45.67,
+     "end": 45.83
+    },
+    {
+     "word": " все,",
+     "start": 45.99,
+     "end": 46.09
+    },
+    {
+     "word": " говорят.",
+     "start": 46.17,
+     "end": 46.35
+    },
+    {
+     "word": " Ну,",
+     "start": 50.43,
+     "end": 50.87
+    },
+    {
+     "word": " это",
+     "start": 50.93,
+     "end": 51.03
+    },
+    {
+     "word": " не",
+     "start": 51.03,
+     "end": 51.17
+    },
+    {
+     "word": " моя",
+     "start": 51.17,
+     "end": 51.39
+    },
+    {
+     "word": " сильная",
+     "start": 51.39,
+     "end": 51.89
+    },
+    {
+     "word": " страна",
+     "start": 51.89,
+     "end": 52.35
+    },
+    {
+     "word": " гонки,",
+     "start": 52.35,
+     "end": 52.83
+    },
+    {
+     "word": " блять.",
+     "start": 52.91,
+     "end": 53.13
+    },
+    {
+     "word": " Он",
+     "start": 53.83,
+     "end": 54.27
+    },
+    {
+     "word": " не",
+     "start": 54.27,
+     "end": 54.47
+    },
+    {
+     "word": " едет",
+     "start": 54.47,
+     "end": 54.97
+    },
+    {
+     "word": " уже!",
+     "start": 54.97,
+     "end": 55.27
+    }
+   ],
+   "metrics": {
+    "motion": 0.4984722222222222,
+    "motion_p90": 0.65125,
+    "static_share": 0.0,
+    "peak_db": 12.486949920654297,
+    "level_db": -30.192384719848633
+   }
+  },
+  "ElegantSparklingRavenBigBrother-Wjzo9YZf7p-veV41": {
+   "id": "ElegantSparklingRavenBigBrother-Wjzo9YZf7p-veV41",
+   "url": "https://www.twitch.tv/strogo/clip/ElegantSparklingRavenBigBrother-Wjzo9YZf7p-veV41",
+   "section": null,
+   "kind": "clip",
+   "views": 2103,
+   "title": "ww",
+   "vod": "2931685068",
+   "vod_t": 63298,
+   "group": "ru",
+   "login": "strogo",
+   "name": "StRoGo",
+   "source": "Twitch clip made by a viewer, 2103 views, titled \"ww\"",
+   "at": "2026-11-18T14:55:40.661880+00:00",
+   "cam": [
+    2266,
+    1053,
+    294,
+    206
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 11.8,
+   "words": [
+    {
+     "word": " Не",
+     "start": 5.92,
+     "end": 6.48
+    },
+    {
+     "word": " дюхайся",
+     "start": 6.48,
+     "end": 6.94
+    },
+    {
+     "word": " на",
+     "start": 6.94,
+     "end": 7.06
+    },
+    {
+     "word": " резко,",
+     "start": 7.06,
+     "end": 7.4
+    },
+    {
+     "word": " слышно",
+     "start": 7.48,
+     "end": 7.76
+    },
+    {
+     "word": " без",
+     "start": 7.76,
+     "end": 7.92
+    },
+    {
+     "word": " предупреждения.",
+     "start": 7.92,
+     "end": 8.76
+    }
+   ],
+   "metrics": {
+    "motion": 0.14054761567850574,
+    "motion_p90": 0.45563888495825666,
+    "static_share": 0.0,
+    "peak_db": 18.45053482055664,
+    "level_db": -42.25851058959961
+   }
   }
  },
  "pool": {
