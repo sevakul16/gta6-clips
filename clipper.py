@@ -714,6 +714,29 @@ def publish(cfg, state, c, dry):
         report(c, "posted", caption=caption)
 
 
+def publish_due(cfg, state, dry):
+    """Apply fresh editor verdicts, then publish the best approved moment of every profile whose slot is open."""
+    apply_reviews(cfg, state)
+    save_state(state)
+    profile_of = {gname: g["profile"] for gname, g in cfg["groups"].items()}
+    for prof, c in pick(state, profile_of, fresh_only=dry).items():
+        if posts_last_24h(state, prof) >= cfg["max_posts_per_day"]:
+            log(f"{prof}: daily cap reached")
+            continue
+        gap = minutes_since_last_post(state, prof)
+        if gap < cfg.get("min_gap_minutes", 120) and not dry:
+            log(f"{prof}: last post {gap:.0f} min ago, next slot in {cfg.get('min_gap_minutes', 120) - gap:.0f} min")
+            continue
+        try:
+            publish(cfg, state, c, dry)
+        except Exception as e:  # noqa
+            log("   ERROR while publishing:", repr(e)[:400])
+            state["pool"].pop(c["id"], None)
+            state["posted"][c["id"]] = {"at": now_utc().isoformat(), "ok": False, "error": repr(e)[:300],
+                                        "login": c["login"]}
+        save_state(state)
+
+
 # ---------------------------------------------------------------- main
 def main():
     ap = argparse.ArgumentParser()
@@ -762,7 +785,7 @@ def main():
             + (", so nothing will be approved" if jc.get("required", True) else ""))
 
     state = load_state()
-    apply_reviews(cfg, state)
+    publish_due(cfg, state, dry)   # a slot may already be open: do not make it wait for the listening
     new = []
     try:
         new += find_chat_moments(cfg, state)      # listens to live chats first (takes minutes)
@@ -795,25 +818,7 @@ def main():
          "pending": [{"id": k, "login": v["login"], "kind": v["kind"], "at": v["at"]}
                      for k, v in state["pending"].items()]}, indent=1))
 
-    apply_reviews(cfg, state)      # verdicts that arrived while this run was listening and checking
-    save_state(state)
-    profile_of = {gname: g["profile"] for gname, g in cfg["groups"].items()}
-    for prof, c in pick(state, profile_of, fresh_only=dry).items():
-        if posts_last_24h(state, prof) >= cfg["max_posts_per_day"]:
-            log(f"{prof}: daily cap reached")
-            continue
-        gap = minutes_since_last_post(state, prof)
-        if gap < cfg.get("min_gap_minutes", 120) and not dry:
-            log(f"{prof}: last post {gap:.0f} min ago, next slot in {cfg.get('min_gap_minutes', 120) - gap:.0f} min")
-            continue
-        try:
-            publish(cfg, state, c, dry)
-        except Exception as e:  # noqa
-            log("   ERROR while publishing:", repr(e)[:400])
-            state["pool"].pop(c["id"], None)
-            state["posted"][c["id"]] = {"at": now_utc().isoformat(), "ok": False, "error": repr(e)[:300],
-                                        "login": c["login"]}
-        save_state(state)
+    publish_due(cfg, state, dry)   # verdicts that arrived while this run was listening and checking
     save_state(state)
 
 
