@@ -42,3 +42,15 @@ cam_overrides: {}
 # Субтитры (faster-whisper). Модель: tiny/base/small. small точнее, но медленнее.
 subtitles: true
 whisper_model: small
+
+# Поиск моментов по всплескам чата (живые стримы в целевой игре).
+# Каждый запуск слушает чаты listen_minutes минут; всплеск = в ratio раз
+# больше сообщений, чем обычно, и не меньше min_msgs за 15 секунд.
+# Вырезается кусок эфира: before секунд до всплеска и after после.
+chat:
+  enabled: true
+  listen_minutes: 15
+  ratio: 3.0
+  min_msgs: 25
+  before: 35
+  after: 8

@@ -127,7 +127,50 @@ def find_candidates(cfg, state):
     return cands
 
 
-def download(url, dest):
+def find_chat_moments(cfg, state):
+    """Listen to live chats of streamers playing the target game; return cut-able moments."""
+    import chatspikes
+    cc = cfg.get("chat") or {}
+    if not cc.get("enabled"):
+        return []
+    tw = Twitch(os.environ["TWITCH_CLIENT_ID"], os.environ["TWITCH_CLIENT_SECRET"])
+    gid = tw.game_id(cfg["game"])
+    group_of = {s.lower(): gname for gname, g in cfg["groups"].items() for s in g["streamers"]}
+    live = chatspikes.live_targets(tw, list(group_of), gid)
+    log(f"Live in {cfg['game']}: {', '.join(live) or 'nobody'}")
+    if not live:
+        return []
+    minutes = float(os.environ.get("CHAT_LISTEN_MINUTES") or cc.get("listen_minutes", 15))
+    spikes = chatspikes.listen(list(live), minutes * 60, log=log,
+                               ratio=cc.get("ratio", 3.0), min_msgs=cc.get("min_msgs", 25))
+    moments = []
+    for sp in sorted(spikes, key=lambda x: x["score"], reverse=True):
+        st = live[sp["login"]]
+        vod = chatspikes.vod_for(tw, st)
+        if not vod:
+            log("  no VOD for", sp["login"])
+            continue
+        vstart = dt.datetime.fromisoformat(vod["created_at"].replace("Z", "+00:00"))
+        off = (sp["at"] - vstart).total_seconds()
+        a0 = max(0, off - cc.get("before", 35))
+        a1 = off + cc.get("after", 8)
+        mid = f"chat-{vod['id']}-{int(off // 30)}"
+        if mid in state["posted"]:
+            continue
+        moments.append({"id": mid, "url": f"https://www.twitch.tv/videos/{vod['id']}", "section": (a0, a1),
+                        "view_count": sp["msgs"], "title": st.get("title", ""), "_group": group_of[sp["login"]],
+                        "_login": st["user_login"], "_name": st["user_name"], "_score": sp["score"]})
+    log(f"Chat moments: {len(moments)}")
+    return moments
+
+
+def download(url, dest, section=None):
+    if section:
+        a0, a1 = section
+        subprocess.run([sys.executable, "-m", "yt_dlp", "-q", "-f", "best[height<=1080]/best",
+                        "--download-sections", f"*{a0:.0f}-{a1:.0f}", "--force-keyframes-at-cuts",
+                        "-o", str(dest), url], check=True)
+        return dest
     subprocess.run([sys.executable, "-m", "yt_dlp", "-q", "-f", "best[ext=mp4]/best",
                     "-o", str(dest), url], check=True)
     return dest
@@ -361,6 +404,10 @@ def main():
 
     state = load_state()
     cands = find_candidates(cfg, state)
+    try:
+        cands = find_chat_moments(cfg, state) + cands   # fresh chat moments first
+    except Exception as e:  # noqa
+        log("WARN chat moments failed:", repr(e))
     done = 0
     for c in cands:
         if done >= cfg["posts_per_run"]:
@@ -372,7 +419,7 @@ def main():
         log(f"-> {c['_login']} {c['view_count']} views: {c['title']} {c['url']}")
         try:
             with tempfile.TemporaryDirectory() as td:
-                src = download(c["url"], Path(td) / f"{c['id']}.mp4")
+                src = download(c["url"], Path(td) / f"{c['id']}.mp4", c.get("section"))
                 out = process(cfg, src, c["_login"], c["_group"], g.get("language"))
                 base, caption, yt_title, yt_desc, tags = texts(c, g)
                 if a.dry_run:
