@@ -150,7 +150,7 @@ def find_candidates(cfg, state):
                                         f"titled \"{c.get('title') or ''}\""})
     cands.sort(key=lambda c: c["views"], reverse=True)
     log(f"New viewer clips to check: {len(cands)}")
-    return cands
+    return by_language(cands)
 
 
 def known(state, cid):
@@ -167,17 +167,21 @@ def find_chat_moments(cfg, state):
     gid = tw.game_id(cfg["game"])
     group_of = {s.lower(): gname for gname, g in cfg["groups"].items() for s in g["streamers"]}
     live = chatspikes.live_targets(tw, list(group_of), gid)
-    # plus the biggest live streams in the game right now (discovery)
-    lang_group = {g.get("language"): gname for gname, g in cfg["groups"].items()}
-    if cc.get("top_live"):
+    # plus the biggest live streams in the game right now, separately for each language
+    for lang, grp in ((g.get("language"), gname) for gname, g in cfg["groups"].items()):
         found = 0
-        for st in tw.get("streams", {"game_id": gid, "first": 100}):
-            grp = lang_group.get(st.get("language"))
-            if grp and st["user_login"].lower() not in live and found < cc["top_live"]:
-                live[st["user_login"].lower()] = st
-                group_of[st["user_login"].lower()] = grp
+        for st in tw.get("streams", {"game_id": gid, "language": lang, "first": 30}) if cc.get("top_live") else []:
+            login = st["user_login"].lower()
+            if found >= cc["top_live"] or st["viewer_count"] < cc.get("top_live_min_viewers", 0):
+                break                                    # the list is sorted by viewers
+            if login not in live:
+                live[login] = st
+                group_of[login] = grp
                 found += 1
-    log(f"Live in {cfg['game']}: {', '.join(live) or 'nobody'}")
+    by_size = sorted(live.values(), key=lambda st: st["viewer_count"], reverse=True)
+    log(f"Live in {cfg['game']}: " + (", ".join(
+        f"{st['user_login']} {group_of[st['user_login'].lower()]} {st['viewer_count'] / 1000:.1f}k" for st in by_size)
+        or "nobody"))
     if not live:
         return []
     minutes = float(os.environ.get("CHAT_LISTEN_MINUTES") or cc.get("listen_minutes", 15))
@@ -192,7 +196,8 @@ def find_chat_moments(cfg, state):
          "spikes": [{**sp, "at": sp["at"].isoformat()} for sp in spikes]}))
     moments = []
     import math
-    for sp in sorted(spikes, key=lambda x: x["score"] * math.log10(max(x["msgs"], 10)), reverse=True):
+    rank = lambda x: x["score"] * math.log10(max(live[x["login"]]["viewer_count"], 100))
+    for sp in sorted(spikes, key=rank, reverse=True):
         st = live[sp["login"]]
         try:
             vod = chatspikes.vod_for(tw, st)
@@ -212,13 +217,26 @@ def find_chat_moments(cfg, state):
         moments.append({"id": mid, "url": f"https://www.twitch.tv/videos/{vod['id']}", "section": [a0, a1],
                         "kind": "chat", "views": sp["msgs"], "title": "", "vod": vod["id"], "vod_t": a0,
                         "group": group_of[sp["login"]], "login": st["user_login"], "name": st["user_name"],
-                        "chat_score": round(sp["score"], 2), "found_at": now_utc().isoformat(),
+                        "viewers": st["viewer_count"], "chat_score": round(sp["score"], 2), "found_at": now_utc().isoformat(),
                         "spike_at": sp["at"].isoformat(), "chat": sp.get("chat") or [],
                         "source": f"cut from the live stream at a chat spike: {sp['msgs']} chatters in 15 s, "
                                   f"{sp['score']:.1f}x the usual pace; the chat reacted about {off - a0:.0f} s "
                                   f"into the clip, so the moment itself is usually 5-20 s before that"})
     log(f"New chat moments: {len(moments)}")
-    return moments
+    return by_language(moments)
+
+
+def by_language(items):
+    """Round-robin over the groups (ru, en, ...) so that every language gets checked, best first within each."""
+    queues = {}
+    for c in items:
+        queues.setdefault(c["group"], []).append(c)
+    out = []
+    while any(queues.values()):
+        for q in queues.values():
+            if q:
+                out.append(q.pop(0))
+    return out
 
 
 def download(url, dest, section=None):
@@ -649,15 +667,24 @@ def evaluate(cfg, state, c, td):
 
 
 def pick(state, profile_of, fresh_only=False):
-    """Best approved moment per profile: highest score, then freshest."""
+    """Best approved moment per profile: highest score, then the bigger stream, then the freshest.
+
+    Languages take turns: if the previous post was RU and an EN moment of about the same strength is
+    waiting, the EN one goes next (and the other way round)."""
+    last = {}
+    for v in sorted(state["posted"].values(), key=lambda v: v["at"]):
+        if v.get("ok") and v.get("group"):
+            last[v.get("profile")] = v["group"]
+    key = lambda c: (c["score"], c.get("viewers") or 0, c["at"])
     best = {}
-    for c in state["pool"].values():
-        if fresh_only and c.get("previewed"):
+    for prof in set(profile_of.values()):
+        cands = [c for c in state["pool"].values()
+                 if profile_of[c["group"]] == prof and not (fresh_only and c.get("previewed"))]
+        if not cands:
             continue
-        prof = profile_of[c["group"]]
-        key = (c["score"], c["at"])
-        if prof not in best or key > (best[prof]["score"], best[prof]["at"]):
-            best[prof] = c
+        top = max(cands, key=key)
+        other = [c for c in cands if c["group"] != last.get(prof) and c["score"] >= top["score"] - 1]
+        best[prof] = max(other, key=key) if prof in last and other else top
     return best
 
 
@@ -679,7 +706,8 @@ def publish(cfg, state, c, dry):
             return
         res = post(cfg, g["profile"], out, base, caption, yt_title, yt_desc, tags, c["id"])
         state["posted"][c["id"]] = {"at": now_utc().isoformat(), "ok": True, "profile": g["profile"],
-                                    "login": c["login"], "url": c["url"], "kind": c["kind"], "score": c["score"],
+                                    "login": c["login"], "group": c["group"], "url": c["url"], "kind": c["kind"],
+                                    "score": c["score"],
                                     "caption": c.get("caption"), "vod": c.get("vod"), "vod_t": c.get("vod_t"),
                                     "request_id": res.get("request_id")}
         state["pool"].pop(c["id"], None)

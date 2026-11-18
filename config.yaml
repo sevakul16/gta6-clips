@@ -80,8 +80,10 @@ whisper_model: small
 # Вырезается кусок эфира: before секунд до всплеска и after после.
 chat:
   enabled: true
-  # плюс N самых популярных живых стримов в игре (RU/EN), даже не из списка
-  top_live: 8
+  # плюс top_live самых крупных живых стримов игры на каждом языке (RU и EN отдельно),
+  # даже если их нет в списках выше; мельче top_live_min_viewers зрителей не берём
+  top_live: 6
+  top_live_min_viewers: 3000
   listen_minutes: 20
   ratio: 2.5
   min_msgs: 20

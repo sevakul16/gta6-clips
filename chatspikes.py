@@ -87,8 +87,10 @@ def listen(channels, seconds, log=print, **params):
                         server_hostname="irc.chat.twitch.tv")
     s.sendall(b"CAP REQ :twitch.tv/tags twitch.tv/commands\r\n")       # tags: gifted subs and raids arrive as USERNOTICE
     s.sendall(b"PASS SCHMOOPIIE\r\nNICK justinfan%d\r\n" % (int(time.time()) % 100000))
-    for i in range(0, len(channels), 10):
-        s.sendall(("JOIN " + ",".join("#" + c for c in channels[i:i + 10]) + "\r\n").encode())
+    for i in range(0, len(channels), 15):       # Twitch allows 20 joins per 10 seconds
+        if i:
+            time.sleep(11)
+        s.sendall(("JOIN " + ",".join("#" + c for c in channels[i:i + 15]) + "\r\n").encode())
     s.settimeout(1.0)
     start = time.time()
     seen = defaultdict(set)                       # chatters in the open bucket
