@@ -538,12 +538,22 @@ def apply_verdict(cfg, state, c, v, dur):
     return True
 
 
+def latest_verdicts():
+    """state/verdicts.json as it is on the main branch right now (the editor pushes while a run is going)."""
+    try:
+        subprocess.run(["git", "fetch", "-q", "--depth", "1", "origin", "main"], cwd=ROOT, check=True, timeout=60)
+        return subprocess.run(["git", "show", "FETCH_HEAD:state/verdicts.json"], cwd=ROOT, check=True,
+                              capture_output=True, text=True, timeout=30).stdout
+    except Exception:  # noqa  (no git, offline, file not there yet)
+        return VERDICTS_FILE.read_text() if VERDICTS_FILE.exists() else "{}"
+
+
 def apply_reviews(cfg, state):
     """Pick up verdicts the editor wrote to state/verdicts.json for candidates waiting in 'pending'."""
-    if not VERDICTS_FILE.exists():
+    if not state["pending"]:
         return
     try:
-        verdicts = json.loads(VERDICTS_FILE.read_text())
+        verdicts = json.loads(latest_verdicts())
     except ValueError as e:
         log("WARN state/verdicts.json is unreadable:", repr(e))
         return
@@ -753,6 +763,8 @@ def main():
          "pending": [{"id": k, "login": v["login"], "kind": v["kind"], "at": v["at"]}
                      for k, v in state["pending"].items()]}, indent=1))
 
+    apply_reviews(cfg, state)      # verdicts that arrived while this run was listening and checking
+    save_state(state)
     profile_of = {gname: g["profile"] for gname, g in cfg["groups"].items()}
     for prof, c in pick(state, profile_of, fresh_only=dry).items():
         if posts_last_24h(state, prof) >= cfg["max_posts_per_day"]:
