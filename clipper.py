@@ -137,6 +137,13 @@ def find_chat_moments(cfg, state):
     gid = tw.game_id(cfg["game"])
     group_of = {s.lower(): gname for gname, g in cfg["groups"].items() for s in g["streamers"]}
     live = chatspikes.live_targets(tw, list(group_of), gid)
+    # plus the biggest live streams in the game right now (discovery)
+    lang_group = {g.get("language"): gname for gname, g in cfg["groups"].items()}
+    for st in tw.get("streams", {"game_id": gid, "first": cc.get("top_live", 0)}) if cc.get("top_live") else []:
+        grp = lang_group.get(st.get("language"))
+        if grp and st["user_login"].lower() not in live:
+            live[st["user_login"].lower()] = st
+            group_of[st["user_login"].lower()] = grp
     log(f"Live in {cfg['game']}: {', '.join(live) or 'nobody'}")
     if not live:
         return []
@@ -200,6 +207,7 @@ def detect_cam(path, override=None):
     cap = cv2.VideoCapture(str(path))
     n = 16
     hits = []
+    big = 0
     for i in range(n):
         cap.set(cv2.CAP_PROP_POS_MSEC, (dur * (i + 0.5) / n) * 1000)
         ok, frame = cap.read()
@@ -207,12 +215,14 @@ def detect_cam(path, override=None):
             continue
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         faces = cascade.detectMultiScale(gray, 1.1, 6, minSize=(int(vh * 0.03), int(vh * 0.03)))
+        if any(h > vh * 0.2 for (x, y, w, h) in faces):
+            big += 1               # streamer fills the screen (just chatting / full cam)
         for (x, y, w, h) in faces:
-            if h > vh * 0.45:      # whole-screen face cam / just chatting -> ignore
+            if h > vh * 0.2:
                 continue
             hits.append((x, y, w, h))
     cap.release()
-    if not hits:
+    if big >= n * 0.35 or not hits:
         return None
     grid = vw * 0.06
     key = lambda f: (round((f[0] + f[2] / 2) / grid), round((f[1] + f[3] / 2) / grid))

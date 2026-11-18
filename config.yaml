@@ -49,6 +49,8 @@ whisper_model: small
 # Вырезается кусок эфира: before секунд до всплеска и after после.
 chat:
   enabled: true
+  # плюс N самых популярных живых стримов в игре (RU/EN), даже не из списка
+  top_live: 8
   listen_minutes: 15
   ratio: 3.0
   min_msgs: 25
