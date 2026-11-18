@@ -108,7 +108,9 @@ def find_candidates(cfg, state):
                 continue
             if clips:
                 games = Counter(c["game_id"] for c in clips)
-                log(f"  {login}: {len(clips)} clips, games {dict(games.most_common(3))}, target {gid}")
+                tg = [c for c in clips if c["game_id"] == gid]
+                top = ", ".join(f'{c["view_count"]}v/{c["duration"]:.0f}s' for c in tg[:3])
+                log(f"  {login}: {len(clips)} clips, games {dict(games.most_common(3))}, target {gid}: {len(tg)} [{top}]")
             for c in clips:
                 if c["game_id"] != gid or c["id"] in state["posted"]:
                     continue
