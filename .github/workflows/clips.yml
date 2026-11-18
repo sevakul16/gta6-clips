@@ -84,7 +84,7 @@ jobs:
             for t in 2 6 10; do ffmpeg -v error -y -ss $t -i "$f" -frames:v 1 -vf scale=540:-2 "/tmp/prev/${b}_${t}s.jpg" || true; done; done
           ls /tmp/prev | head -1 > /dev/null || exit 0
           git config user.name "clips-bot"; git config user.email "clips-bot@users.noreply.github.com"
-          git switch --orphan previews && git rm -rfq . && cp /tmp/prev/* . && git add -A && git commit -qm "previews ${{ github.run_id }}" && git push -f origin previews
+          git switch --orphan previews && git rm -rfq --ignore-unmatch . && cp /tmp/prev/* . && git add -A && git commit -qm "previews ${{ github.run_id }}" && git push -f origin previews
           git switch -q main
       - name: Save state
         if: always()
