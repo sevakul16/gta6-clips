@@ -21,6 +21,7 @@ import os
 import subprocess
 import sys
 import tempfile
+import time
 from collections import Counter
 from pathlib import Path
 
@@ -190,7 +191,8 @@ def find_chat_moments(cfg, state):
         {"bucket_s": chatspikes.BUCKET, "series": series,
          "spikes": [{**sp, "at": sp["at"].isoformat()} for sp in spikes]}))
     moments = []
-    for sp in sorted(spikes, key=lambda x: x["score"], reverse=True):
+    import math
+    for sp in sorted(spikes, key=lambda x: x["score"] * math.log10(max(x["msgs"], 10)), reverse=True):
         st = live[sp["login"]]
         try:
             vod = chatspikes.vod_for(tw, st)
@@ -211,8 +213,10 @@ def find_chat_moments(cfg, state):
                         "kind": "chat", "views": sp["msgs"], "title": "", "vod": vod["id"], "vod_t": a0,
                         "group": group_of[sp["login"]], "login": st["user_login"], "name": st["user_name"],
                         "chat_score": round(sp["score"], 2), "found_at": now_utc().isoformat(),
+                        "spike_at": sp["at"].isoformat(), "chat": sp.get("chat") or [],
                         "source": f"cut from the live stream at a chat spike: {sp['msgs']} chatters in 15 s, "
-                                  f"{sp['score']:.1f}x the usual pace; the spike is near the end of the clip"})
+                                  f"{sp['score']:.1f}x the usual pace; the chat reacted about {off - a0:.0f} s "
+                                  f"into the clip, so the moment itself is usually 5-20 s before that"})
     log(f"New chat moments: {len(moments)}")
     return moments
 
@@ -467,7 +471,7 @@ def review_pack(c, src, dur, cam, words, m, lang):
     import judge
     REVIEW_DIR.mkdir(parents=True, exist_ok=True)
     vw, vh, _ = probe(src)
-    n, cols, fw = 12, 3, 512
+    n, cols, fw = (15 if dur > 50 else 12), 3, 512
     fh = int(fw * vh / vw / 2) * 2
     k = fw / vw
     cbox, gbox = crop_boxes(cam, vw, vh)
@@ -501,6 +505,7 @@ def review_pack(c, src, dur, cam, words, m, lang):
         "cam_box": [round(cam[0] / vw, 3), round(cam[1] / vh, 3), round(cam[2] / vw, 3), round(cam[3] / vh, 3)]
                    if cam else None,
         "metrics": {a: round(b, 3) for a, b in m.items()}, "found_at": c.get("at"),
+        "chat_at_spike": c.get("chat") or None,
         "transcript": judge.transcript(words)}, ensure_ascii=False, indent=1))
 
 
@@ -592,6 +597,11 @@ def evaluate(cfg, state, c, td):
         if overlaps(c, other):
             return reject(state, c, "same moment is already posted or queued")
     src = Path(td) / f"{c['id']}.mp4"
+    if c.get("spike_at"):       # the recording lags behind the live stream: give it time to include the cut
+        lag = 120 - (now_utc() - dt.datetime.fromisoformat(c["spike_at"])).total_seconds()
+        if lag > 0:
+            log(f"   waiting {lag:.0f}s for the recording to catch up")
+            time.sleep(lag)
     try:
         download(c["url"], src, c.get("section"))
     except Exception as e:  # noqa
@@ -735,15 +745,9 @@ def main():
     except Exception as e:  # noqa
         log("WARN viewer clips failed:", repr(e))
         clips = []
-    # interleave: chat moment, viewer clip, chat moment, ...
-    order = []
-    chat = list(new)
-    while chat or clips:
-        if chat:
-            order.append(chat.pop(0))
-        if clips:
-            order.append(clips.pop(0))
-    limit = int(jc.get("max_checked_per_run", 6))
+    # chat moments first: a spike cannot be found again later, a viewer clip can wait for the next run
+    limit = int(jc.get("max_checked_per_run", 8))
+    order = new[:max(1, limit - 2)] + clips
     checked = 0
     for c in order:
         if checked >= limit:
