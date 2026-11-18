@@ -67,7 +67,8 @@ platforms: [tiktok, youtube]
 # Доли кадра: x, y, ширина, высота (0..1). Пример:
 # cam_overrides:
 #   xqc: [0.0, 0.62, 0.22, 0.38]
-cam_overrides: {}
+cam_overrides:
+  honeymad: [0.012, 0.51, 0.211, 0.208]
 
 # Субтитры (faster-whisper). Модель: tiny/base/small. small точнее, но медленнее.
 subtitles: true

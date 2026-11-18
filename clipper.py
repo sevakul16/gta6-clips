@@ -58,12 +58,14 @@ def load_state():
     st.setdefault("rejected", {})    # id -> why a candidate was thrown away
     st.setdefault("pending", {})     # id -> passed the free checks, waiting for the editor's verdict
     st.setdefault("pool", {})        # id -> approved moments waiting for a publishing slot
+    st.setdefault("no_vod", {})      # login -> channel whose recordings cannot be downloaded (subscribers only)
     return st
 
 
 def save_state(state):
     state["rejected"] = {k: v for k, v in state["rejected"].items() if age_hours(v["at"]) < 72}
     state["pending"] = {k: v for k, v in state["pending"].items() if age_hours(v["at"]) < 8}
+    state["no_vod"] = {k: v for k, v in state["no_vod"].items() if age_hours(v["at"]) < 24}
     state["pool"] = {k: v for k, v in state["pool"].items() if age_hours(v["at"]) < 12}
     STATE_FILE.parent.mkdir(exist_ok=True)
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=1))
@@ -174,10 +176,11 @@ def find_chat_moments(cfg, state):
             login = st["user_login"].lower()
             if found >= cc["top_live"] or st["viewer_count"] < cc.get("top_live_min_viewers", 0):
                 break                                    # the list is sorted by viewers
-            if login not in live:
+            if login not in live and login not in state["no_vod"]:
                 live[login] = st
                 group_of[login] = grp
                 found += 1
+    live = {k: v for k, v in live.items() if k not in state["no_vod"]}
     by_size = sorted(live.values(), key=lambda st: st["viewer_count"], reverse=True)
     log(f"Live in {cfg['game']}: " + (", ".join(
         f"{st['user_login']} {group_of[st['user_login'].lower()]} {st['viewer_count'] / 1000:.1f}k" for st in by_size)
@@ -240,14 +243,14 @@ def by_language(items):
 
 
 def download(url, dest, section=None):
+    cmd = [sys.executable, "-m", "yt_dlp", "-q", "--no-warnings", "-o", str(dest)]
     if section:
-        a0, a1 = section
-        subprocess.run([sys.executable, "-m", "yt_dlp", "-q", "-f", "best[height<=1080]/best",
-                        "--download-sections", f"*{a0:.0f}-{a1:.0f}", "-o", str(dest), url],
-                       check=True, timeout=600)
-        return dest
-    subprocess.run([sys.executable, "-m", "yt_dlp", "-q", "-f", "best[ext=mp4]/best",
-                    "-o", str(dest), url], check=True, timeout=600)
+        cmd += ["-f", "best[height<=1080]/best", "--download-sections", f"*{section[0]:.0f}-{section[1]:.0f}"]
+    else:
+        cmd += ["-f", "best[ext=mp4]/best"]
+    r = subprocess.run(cmd + [url], capture_output=True, text=True, timeout=600)
+    if r.returncode or not Path(dest).exists():
+        raise RuntimeError("yt-dlp: " + (r.stderr.strip() or "no file")[-300:])
     return dest
 
 
@@ -623,11 +626,10 @@ def evaluate(cfg, state, c, td):
     try:
         download(c["url"], src, c.get("section"))
     except Exception as e:  # noqa
-        fresh = c["kind"] == "chat" and age_hours(c.get("found_at", now_utc().isoformat())) < 0.5
-        log("   download failed:", repr(e)[:300], "(will retry next run)" if fresh else "")
-        if not fresh:
-            reject(state, c, "download failed")
-        return
+        log("   download failed:", repr(e)[:300])
+        if "subscriber-only" in repr(e):      # recordings of this channel are closed: stop listening to it for a day
+            state["no_vod"][c["login"].lower()] = {"at": now_utc().isoformat()}
+        return reject(state, c, "download failed")
     vw, vh, dur = probe(src)
     cam, fullcam = detect_cam(src, cfg.get("cam_overrides", {}).get(c["login"].lower()))
     m = quality.motion(src, cam, vw, vh)
