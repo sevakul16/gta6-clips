@@ -106,6 +106,9 @@ def find_candidates(cfg, state):
             except Exception as e:  # noqa
                 log("WARN clips", login, e)
                 continue
+            if clips:
+                games = Counter(c["game_id"] for c in clips)
+                log(f"  {login}: {len(clips)} clips, games {dict(games.most_common(3))}, target {gid}")
             for c in clips:
                 if c["game_id"] != gid or c["id"] in state["posted"]:
                     continue
