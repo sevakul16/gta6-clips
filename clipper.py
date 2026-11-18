@@ -163,7 +163,7 @@ def detect_cam(path, override=None):
         if not ok:
             continue
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        faces = cascade.detectMultiScale(gray, 1.1, 6, minSize=(int(vh * 0.05), int(vh * 0.05)))
+        faces = cascade.detectMultiScale(gray, 1.1, 6, minSize=(int(vh * 0.03), int(vh * 0.03)))
         for (x, y, w, h) in faces:
             if h > vh * 0.45:      # whole-screen face cam / just chatting -> ignore
                 continue
