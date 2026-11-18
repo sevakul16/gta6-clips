@@ -7,7 +7,8 @@
   "gambling_ad": false,
   "caption": "His first carjacking in GTA 6 does not go to plan 😂",
   "keep_start": 0.0,
-  "keep_end": 50.0
+  "keep_end": 50.0,
+  "hook": "First carjack fail"
  },
  "chat-2932185714-166": {
   "at": "2026-11-18T12:02:08.903112+00:00",
@@ -33,7 +34,8 @@
   "what_happens": "He discovers a basketball hoop mini-game in GTA 6, takes shots and scores, then walks back and finds his car wrecked and smoking: 'what happened to my car, bro?'",
   "gameplay_visible": true,
   "gambling_ad": false,
-  "caption": "He finds basketball in GTA 6, then sees what happened to his car 💀"
+  "caption": "He finds basketball in GTA 6, then sees what happened to his car 💀",
+  "hook": "Who wrecked my car?"
  },
  "chat-2932206711-115": {
   "at": "2026-11-18T12:10:17.503166+00:00",
@@ -83,7 +85,8 @@
   "gambling_ad": false,
   "caption": "Stole a truck at the gas station. GTA 6 had other plans 💀",
   "keep_start": 17.0,
-  "keep_end": 62.0
+  "keep_end": 62.0,
+  "hook": "Wasted in seconds"
  },
  "chat-2932226282-111": {
   "at": "2026-11-18T12:37:48.687819+00:00",
@@ -131,7 +134,8 @@
   "what_happens": "In bright daylight he walks up to a red sports car he calls 'Buster's Ferrari', drags the girl driver out with 'sorry, Darinochka', and drives off laughing",
   "gameplay_visible": true,
   "gambling_ad": false,
-  "caption": "Выкинул Дариночку из «феррари Бустера» и уехал 😂"
+  "caption": "Выкинул Дариночку из «феррари Бустера» и уехал 😂",
+  "hook": "Выкинул Дариночку"
  },
  "chat-2932185714-240": {
   "at": "2026-11-18T13:02:39.547765+00:00",
@@ -181,7 +185,9 @@
   "gambling_ad": false,
   "caption": "Spare or kill? GTA 6 makes you choose 😳",
   "keep_start": 14.0,
-  "keep_end": 62.0
+  "keep_end": 62.0,
+  "hook": "Spare or kill?",
+  "cover_at": 40.0
  },
  "DepressedConfidentRuffChocolateRain-FNEDQEnUaUTXvYxG": {
   "at": "2026-11-18T13:52:55.211507+00:00",
@@ -195,7 +201,9 @@
    0.0,
    0.256,
    0.253
-  ]
+  ],
+  "hook": "В Бустера въехали",
+  "cover_at": 18.5
  },
  "PiercingSlipperyTortoiseDuDudu-ShespqH5CNlosqhC": {
   "at": "2026-11-18T13:52:55.252462+00:00",
