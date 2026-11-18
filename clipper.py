@@ -315,6 +315,8 @@ def main():
     ap.add_argument("--streamer", default="streamer")
     ap.add_argument("--lang", default=None)
     ap.add_argument("--game", default=None, help="override game from config (for tests)")
+    ap.add_argument("--url", help="test: render a Twitch clip URL or a channel clips page (first N clips)")
+    ap.add_argument("--n", type=int, default=2)
     a = ap.parse_args()
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
     if a.game:
@@ -322,6 +324,17 @@ def main():
 
     if a.input:
         log("rendered:", process(cfg, a.input, a.streamer, None, a.lang))
+        return
+    if a.url:
+        td = Path(tempfile.mkdtemp())
+        subprocess.run([sys.executable, "-m", "yt_dlp", "-q", "-f", "best[ext=mp4]/best", "--playlist-items",
+                        f"1-{a.n}", "-o", str(td / "%(id)s.%(ext)s"), a.url], check=True)
+        for f in sorted(td.glob("*.mp4")):
+            log("rendered:", process(cfg, f, a.streamer, None, a.lang))
+        return
+
+    if not os.environ.get("TWITCH_CLIENT_ID") or not os.environ.get("TWITCH_CLIENT_SECRET"):
+        log("::warning::TWITCH_CLIENT_ID / TWITCH_CLIENT_SECRET secrets are not set yet, skipping run")
         return
 
     state = load_state()

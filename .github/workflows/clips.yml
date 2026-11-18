@@ -13,6 +13,10 @@ on:
         description: "Game override for tests, e.g. Grand Theft Auto V (empty = from config)"
         type: string
         default: ""
+      test_url:
+        description: "Test: Twitch clips page or clip URL to render (no keys needed), e.g. https://www.twitch.tv/xqc/clips?range=7d"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -45,7 +49,9 @@ jobs:
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
           UPLOAD_POST_KEY: ${{ secrets.UPLOAD_POST_KEY }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
+          if [ -n "${{ inputs.test_url }}" ]; then
+            python clipper.py --url "${{ inputs.test_url }}" --streamer "$(echo '${{ inputs.test_url }}' | cut -d/ -f4)"
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
             if [ -n "${{ inputs.game }}" ]; then python clipper.py --dry-run --game "${{ inputs.game }}"; else python clipper.py --dry-run; fi
           else
             python clipper.py
