@@ -581,8 +581,11 @@ def check_posts(state):
     """Ask upload-post what happened to recent uploads (they are processed in the background)."""
     key = os.environ.get("UPLOAD_POST_KEY")
     for cid, v in state["posted"].items():
-        if not key or not v.get("ok") or not v.get("request_id") or v.get("result") or age_hours(v["at"]) > 6 \
-                or age_hours(v["at"]) < 0.05:
+        # a finished upload is asked again while its thumbnail is still being set
+        waiting_thumb = isinstance(v.get("result"), list) and any(
+            isinstance(x, dict) and x.get("thumbnail_pending") for x in v["result"])
+        if not key or not v.get("ok") or not v.get("request_id") or (v.get("result") and not waiting_thumb) \
+                or age_hours(v["at"]) > 6 or age_hours(v["at"]) < 0.05:
             continue
         try:
             r = requests.get("https://api.upload-post.com/api/uploadposts/status", timeout=30,
