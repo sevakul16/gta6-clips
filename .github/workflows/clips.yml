@@ -13,6 +13,10 @@ on:
         description: "Game override for tests, e.g. Grand Theft Auto V (empty = from config)"
         type: string
         default: ""
+      private_post:
+        description: "Test: also post the first test_url clip PRIVATELY"
+        type: boolean
+        default: false
       test_url:
         description: "Test: Twitch clips page or clip URL to render (no keys needed), e.g. https://www.twitch.tv/xqc/clips?range=7d"
         type: string
@@ -63,7 +67,8 @@ jobs:
           UPLOAD_POST_KEY: ${{ secrets.UPLOAD_POST_KEY }}
         run: |
           if [ -n "${{ inputs.test_url }}" ]; then
-            python clipper.py --url "${{ inputs.test_url }}" --streamer "$(echo '${{ inputs.test_url }}' | cut -d/ -f4)"
+            EXTRA=""; [ "${{ inputs.private_post }}" = "true" ] && EXTRA="--private-post"
+            python clipper.py --url "${{ inputs.test_url }}" --streamer "$(echo '${{ inputs.test_url }}' | cut -d/ -f4)" $EXTRA
           elif [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
             if [ -n "${{ inputs.game }}" ]; then python clipper.py --dry-run --game "${{ inputs.game }}"; else python clipper.py --dry-run; fi
           else

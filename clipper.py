@@ -276,10 +276,11 @@ def render(src, dst, cam, label, words):
 
 
 # ---------------------------------------------------------------- posting
-def post(cfg, profile, video, title, caption, yt_title, yt_desc, tags, idem):
+def post(cfg, profile, video, title, caption, yt_title, yt_desc, tags, idem, private=False):
     data = [("user", profile), ("title", title), ("tiktok_title", caption),
             ("youtube_title", yt_title), ("youtube_description", yt_desc),
-            ("privacy_level", "PUBLIC_TO_EVERYONE"), ("privacyStatus", "public"),
+            ("privacy_level", "SELF_ONLY" if private else "PUBLIC_TO_EVERYONE"),
+            ("privacyStatus", "private" if private else "public"),
             ("categoryId", "20"), ("selfDeclaredMadeForKids", "false"), ("async_upload", "true")]
     data += [("platform[]", p) for p in cfg["platforms"]]
     data += [("tags[]", t) for t in tags]
@@ -326,6 +327,7 @@ def main():
     ap.add_argument("--game", default=None, help="override game from config (for tests)")
     ap.add_argument("--url", help="test: render a Twitch clip URL or a channel clips page (first N clips)")
     ap.add_argument("--n", type=int, default=2)
+    ap.add_argument("--private-post", action="store_true", help="test: post first rendered --url clip privately")
     a = ap.parse_args()
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
     if a.game:
@@ -339,7 +341,14 @@ def main():
         subprocess.run([sys.executable, "-m", "yt_dlp", "-q", "-f", "best[ext=mp4]/best", "--playlist-items",
                         f"1-{a.n}", "-o", str(td / "%(id)s.%(ext)s"), a.url], check=True)
         for f in sorted(td.glob("*.mp4")):
-            log("rendered:", process(cfg, f, a.streamer, None, a.lang))
+            out = process(cfg, f, a.streamer, None, a.lang)
+            log("rendered:", out)
+            if a.private_post:
+                g = next(iter(cfg["groups"].values()))
+                fake = {"_name": a.streamer, "_login": a.streamer, "title": "TEST private upload"}
+                base, caption, yt_title, yt_desc, tags = texts(fake, g)
+                post(cfg, g["profile"], out, base, caption, yt_title, yt_desc, tags, "test-" + f.stem, private=True)
+                a.private_post = False
         return
 
     if not os.environ.get("TWITCH_CLIENT_ID") or not os.environ.get("TWITCH_CLIENT_SECRET"):
