@@ -1434,6 +1434,478 @@
     "peak_db": 0.0,
     "level_db": -100.0
    }
+  },
+  "chat-2932226282-547": {
+   "id": "chat-2932226282-547",
+   "url": "https://www.twitch.tv/videos/2932226282",
+   "section": [
+    24599.917981,
+    24655.917981
+   ],
+   "kind": "chat",
+   "views": 137,
+   "title": "",
+   "vod": "2932226282",
+   "vod_t": 24599.917981,
+   "group": "en",
+   "login": "theburntpeanut",
+   "name": "TheBurntPeanut",
+   "viewers": 85010,
+   "chat_score": 3.51,
+   "found_at": "2026-11-18T17:57:04.492057+00:00",
+   "spike_at": "2026-11-18T17:54:01.917981+00:00",
+   "chat": [
+    "11x lol",
+    "6x LUL",
+    "6x KEKW",
+    "4x OMEGALUL",
+    "3x OMG",
+    "2x bro",
+    "2x good god",
+    "2x Lmao",
+    "2x SLOW DOWN",
+    "2x LMFAO",
+    "Ahahahaha",
+    "u suck",
+    "bro what are you doing",
+    "oh no",
+    "Hahahhaha",
+    "FAIL",
+    "buddy",
+    "are you slow"
+   ],
+   "source": "cut from the live stream at a chat spike: 137 chatters in 15 s, 3.5x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-18T17:57:27.318251+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " What'd",
+     "start": 0.0,
+     "end": 0.42
+    },
+    {
+     "word": " you",
+     "start": 0.42,
+     "end": 0.48
+    },
+    {
+     "word": " think?",
+     "start": 0.48,
+     "end": 0.66
+    },
+    {
+     "word": " Here,",
+     "start": 2.0,
+     "end": 2.28
+    },
+    {
+     "word": " what's",
+     "start": 2.28,
+     "end": 2.56
+    },
+    {
+     "word": " your",
+     "start": 2.56,
+     "end": 2.62
+    },
+    {
+     "word": " think",
+     "start": 2.62,
+     "end": 2.82
+    },
+    {
+     "word": " about",
+     "start": 2.82,
+     "end": 3.04
+    },
+    {
+     "word": " it?",
+     "start": 3.04,
+     "end": 3.22
+    },
+    {
+     "word": " Okay?",
+     "start": 3.44,
+     "end": 3.46
+    },
+    {
+     "word": " Oh!",
+     "start": 3.94,
+     "end": 4.08
+    },
+    {
+     "word": " Go",
+     "start": 5.5,
+     "end": 5.78
+    },
+    {
+     "word": " off.",
+     "start": 5.78,
+     "end": 6.02
+    },
+    {
+     "word": " Here.",
+     "start": 6.28,
+     "end": 6.34
+    },
+    {
+     "word": " Oh!",
+     "start": 7.2,
+     "end": 7.48
+    },
+    {
+     "word": " I",
+     "start": 7.96,
+     "end": 8.24
+    },
+    {
+     "word": " missed,",
+     "start": 8.24,
+     "end": 8.38
+    },
+    {
+     "word": " I",
+     "start": 8.48,
+     "end": 8.58
+    },
+    {
+     "word": " missed,",
+     "start": 8.58,
+     "end": 8.74
+    },
+    {
+     "word": " I",
+     "start": 8.82,
+     "end": 9.0
+    },
+    {
+     "word": " missed",
+     "start": 9.0,
+     "end": 9.14
+    },
+    {
+     "word": " the",
+     "start": 9.14,
+     "end": 9.28
+    },
+    {
+     "word": " landing,",
+     "start": 9.28,
+     "end": 9.42
+    },
+    {
+     "word": " I",
+     "start": 9.54,
+     "end": 9.58
+    },
+    {
+     "word": " missed",
+     "start": 9.58,
+     "end": 9.7
+    },
+    {
+     "word": " the",
+     "start": 9.7,
+     "end": 9.82
+    },
+    {
+     "word": " landing.",
+     "start": 9.82,
+     "end": 9.96
+    },
+    {
+     "word": " I",
+     "start": 10.72,
+     "end": 10.98
+    },
+    {
+     "word": " missed",
+     "start": 10.98,
+     "end": 11.12
+    },
+    {
+     "word": " the",
+     "start": 11.12,
+     "end": 11.2
+    },
+    {
+     "word": " landing.",
+     "start": 11.2,
+     "end": 11.34
+    },
+    {
+     "word": " That",
+     "start": 11.96,
+     "end": 12.2
+    },
+    {
+     "word": " was",
+     "start": 12.2,
+     "end": 12.3
+    },
+    {
+     "word": " too",
+     "start": 12.3,
+     "end": 12.4
+    },
+    {
+     "word": " short.",
+     "start": 12.4,
+     "end": 12.62
+    },
+    {
+     "word": " Wait,",
+     "start": 15.77,
+     "end": 15.91
+    },
+    {
+     "word": " do",
+     "start": 15.93,
+     "end": 15.99
+    },
+    {
+     "word": " we,",
+     "start": 15.99,
+     "end": 16.07
+    },
+    {
+     "word": " do",
+     "start": 16.09,
+     "end": 16.23
+    },
+    {
+     "word": " we",
+     "start": 16.23,
+     "end": 16.33
+    },
+    {
+     "word": " already",
+     "start": 16.33,
+     "end": 16.47
+    },
+    {
+     "word": " drop",
+     "start": 16.47,
+     "end": 16.63
+    },
+    {
+     "word": " it",
+     "start": 16.63,
+     "end": 16.73
+    },
+    {
+     "word": " off?",
+     "start": 16.73,
+     "end": 16.87
+    },
+    {
+     "word": " Are",
+     "start": 17.03,
+     "end": 17.09
+    },
+    {
+     "word": " we",
+     "start": 17.09,
+     "end": 17.17
+    },
+    {
+     "word": " good?",
+     "start": 17.17,
+     "end": 17.31
+    },
+    {
+     "word": " Oh",
+     "start": 18.37,
+     "end": 18.65
+    },
+    {
+     "word": " shit,",
+     "start": 18.65,
+     "end": 18.77
+    },
+    {
+     "word": " we're",
+     "start": 18.79,
+     "end": 18.89
+    },
+    {
+     "word": " good!",
+     "start": 18.89,
+     "end": 19.03
+    },
+    {
+     "word": " Oh",
+     "start": 20.25,
+     "end": 20.47
+    },
+    {
+     "word": " no,",
+     "start": 20.47,
+     "end": 20.55
+    },
+    {
+     "word": " we're",
+     "start": 20.67,
+     "end": 20.77
+    },
+    {
+     "word": " not",
+     "start": 20.77,
+     "end": 20.87
+    },
+    {
+     "word": " good.",
+     "start": 20.87,
+     "end": 21.01
+    },
+    {
+     "word": " Oh!",
+     "start": 22.27,
+     "end": 22.43
+    },
+    {
+     "word": " Oh!",
+     "start": 26.53,
+     "end": 26.79
+    },
+    {
+     "word": " What",
+     "start": 47.04,
+     "end": 47.32
+    },
+    {
+     "word": " the...",
+     "start": 47.32,
+     "end": 47.6
+    },
+    {
+     "word": " What",
+     "start": 49.75,
+     "end": 50.17
+    },
+    {
+     "word": " the",
+     "start": 50.17,
+     "end": 50.47
+    },
+    {
+     "word": " hell?",
+     "start": 50.47,
+     "end": 50.79
+    },
+    {
+     "word": " I",
+     "start": 51.01,
+     "end": 51.09
+    },
+    {
+     "word": " mean,",
+     "start": 51.09,
+     "end": 51.21
+    },
+    {
+     "word": " that",
+     "start": 51.25,
+     "end": 51.37
+    },
+    {
+     "word": " was",
+     "start": 51.37,
+     "end": 51.45
+    },
+    {
+     "word": " actually",
+     "start": 51.45,
+     "end": 51.67
+    },
+    {
+     "word": " like",
+     "start": 51.67,
+     "end": 51.85
+    },
+    {
+     "word": " pretty...",
+     "start": 51.85,
+     "end": 52.35
+    },
+    {
+     "word": " Yeah,",
+     "start": 52.35,
+     "end": 52.45
+    },
+    {
+     "word": " I",
+     "start": 52.55,
+     "end": 52.59
+    },
+    {
+     "word": " mean,",
+     "start": 52.59,
+     "end": 52.63
+    },
+    {
+     "word": " that",
+     "start": 52.97,
+     "end": 53.15
+    },
+    {
+     "word": " was",
+     "start": 53.15,
+     "end": 53.31
+    },
+    {
+     "word": " a",
+     "start": 53.31,
+     "end": 53.35
+    },
+    {
+     "word": " pretty",
+     "start": 53.35,
+     "end": 53.47
+    },
+    {
+     "word": " good",
+     "start": 53.47,
+     "end": 53.59
+    },
+    {
+     "word": " landing",
+     "start": 53.59,
+     "end": 53.81
+    },
+    {
+     "word": " right",
+     "start": 53.81,
+     "end": 54.05
+    },
+    {
+     "word": " there.",
+     "start": 54.05,
+     "end": 54.27
+    },
+    {
+     "word": " Who",
+     "start": 55.53,
+     "end": 55.81
+    },
+    {
+     "word": " cares?",
+     "start": 55.81,
+     "end": 55.87
+    }
+   ],
+   "metrics": {
+    "motion": 0.4304861111111111,
+    "motion_p90": 0.5778472222222223,
+    "static_share": 0.12556053811659193,
+    "peak_db": 9.734016418457031,
+    "level_db": -28.954294204711914
+   }
   }
  },
  "pool": {
