@@ -141,6 +141,21 @@
      "thumbnail_pending": true
     }
    ]
+  },
+  "chat-2932213364-655": {
+   "at": "2026-11-18T22:45:59.574350+00:00",
+   "ok": true,
+   "profile": "gta6",
+   "login": "recrent",
+   "group": "ru",
+   "url": "https://www.twitch.tv/videos/2932213364",
+   "kind": "chat",
+   "score": 7,
+   "caption": "Разбил самолёт, а потом умудрился в нём застрять 💀",
+   "vod": "2932213364",
+   "vod_t": 29446.788998,
+   "hook": "Два провала подряд",
+   "request_id": "07eba6901cbc42be997b28563f9e5d73"
   }
  },
  "rejected": {
@@ -629,6 +644,403 @@
     "static_share": 0.0,
     "peak_db": 8.638153076171875,
     "level_db": -30.309959411621094
+   }
+  },
+  "chat-2932305259-771": {
+   "id": "chat-2932305259-771",
+   "url": "https://www.twitch.tv/videos/2932305259",
+   "section": [
+    34675.284015,
+    34731.284015
+   ],
+   "kind": "chat",
+   "views": 162,
+   "title": "",
+   "vod": "2932305259",
+   "vod_t": 34675.284015,
+   "group": "en",
+   "login": "kaicenat",
+   "name": "KaiCenat",
+   "viewers": 77505,
+   "chat_score": 4.76,
+   "found_at": "2026-11-18T22:44:36.915819+00:00",
+   "spike_at": "2026-11-18T22:38:34.284015+00:00",
+   "chat": [
+    "106x me",
+    "4x Meee",
+    "3x GOT IT",
+    "2x have it already",
+    "2x have it",
+    "I need",
+    "I goon to kai",
+    "mee",
+    "Meeeeeeeeee",
+    "im waiting for pc version to come out because i cant afford a console",
+    "waiting for pc release",
+    "12am",
+    "At 11pm"
+   ],
+   "source": "cut from the live stream at a chat spike: 162 chatters in 15 s, 4.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-18T22:45:02.573489+00:00",
+   "cam": [
+    37,
+    467,
+    277,
+    195
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 61.0,
+   "words": [
+    {
+     "word": " Okay,",
+     "start": 3.57,
+     "end": 4.05
+    },
+    {
+     "word": " I'm",
+     "start": 4.05,
+     "end": 4.39
+    },
+    {
+     "word": " gonna",
+     "start": 4.39,
+     "end": 4.45
+    },
+    {
+     "word": " do",
+     "start": 4.45,
+     "end": 4.55
+    },
+    {
+     "word": " this",
+     "start": 4.55,
+     "end": 4.85
+    },
+    {
+     "word": " and",
+     "start": 4.85,
+     "end": 4.99
+    },
+    {
+     "word": " I'm",
+     "start": 4.99,
+     "end": 5.13
+    },
+    {
+     "word": " gonna",
+     "start": 5.13,
+     "end": 5.25
+    },
+    {
+     "word": " scum",
+     "start": 5.25,
+     "end": 5.61
+    },
+    {
+     "word": " a",
+     "start": 5.61,
+     "end": 5.85
+    },
+    {
+     "word": " and",
+     "start": 5.85,
+     "end": 6.51
+    },
+    {
+     "word": " I'm",
+     "start": 6.51,
+     "end": 6.67
+    },
+    {
+     "word": " gonna",
+     "start": 6.67,
+     "end": 6.75
+    },
+    {
+     "word": " go",
+     "start": 6.75,
+     "end": 6.83
+    },
+    {
+     "word": " right",
+     "start": 6.83,
+     "end": 6.95
+    },
+    {
+     "word": " back",
+     "start": 6.95,
+     "end": 7.09
+    },
+    {
+     "word": " to",
+     "start": 7.09,
+     "end": 7.21
+    },
+    {
+     "word": " me",
+     "start": 7.21,
+     "end": 7.37
+    },
+    {
+     "word": " a",
+     "start": 7.37,
+     "end": 7.53
+    },
+    {
+     "word": " story",
+     "start": 7.53,
+     "end": 7.63
+    },
+    {
+     "word": " for",
+     "start": 7.63,
+     "end": 7.83
+    },
+    {
+     "word": " a",
+     "start": 7.83,
+     "end": 7.93
+    },
+    {
+     "word": " couple",
+     "start": 7.93,
+     "end": 8.05
+    },
+    {
+     "word": " of",
+     "start": 8.05,
+     "end": 8.15
+    },
+    {
+     "word": " missions",
+     "start": 8.15,
+     "end": 8.41
+    },
+    {
+     "word": " I",
+     "start": 10.13,
+     "end": 10.41
+    },
+    {
+     "word": " got",
+     "start": 10.41,
+     "end": 10.57
+    },
+    {
+     "word": " you",
+     "start": 10.57,
+     "end": 10.79
+    },
+    {
+     "word": " guys",
+     "start": 10.79,
+     "end": 10.95
+    },
+    {
+     "word": " Yeah,",
+     "start": 40.2,
+     "end": 40.48
+    },
+    {
+     "word": " what's",
+     "start": 40.48,
+     "end": 40.76
+    },
+    {
+     "word": " up?",
+     "start": 40.76,
+     "end": 40.78
+    },
+    {
+     "word": " We",
+     "start": 40.92,
+     "end": 40.92
+    },
+    {
+     "word": " all",
+     "start": 40.92,
+     "end": 41.02
+    },
+    {
+     "word": " went",
+     "start": 41.02,
+     "end": 41.14
+    },
+    {
+     "word": " beyond",
+     "start": 41.14,
+     "end": 41.28
+    },
+    {
+     "word": " yesterday",
+     "start": 41.28,
+     "end": 41.46
+    },
+    {
+     "word": " come",
+     "start": 41.46,
+     "end": 41.74
+    },
+    {
+     "word": " out.",
+     "start": 41.74,
+     "end": 41.94
+    },
+    {
+     "word": " Oh,",
+     "start": 41.94,
+     "end": 42.08
+    },
+    {
+     "word": " yeah,",
+     "start": 42.1,
+     "end": 42.18
+    },
+    {
+     "word": " I",
+     "start": 42.22,
+     "end": 42.3
+    },
+    {
+     "word": " have",
+     "start": 42.3,
+     "end": 42.36
+    },
+    {
+     "word": " it",
+     "start": 42.36,
+     "end": 42.46
+    },
+    {
+     "word": " already",
+     "start": 42.46,
+     "end": 42.64
+    },
+    {
+     "word": " If",
+     "start": 42.64,
+     "end": 42.76
+    },
+    {
+     "word": " you",
+     "start": 42.76,
+     "end": 42.86
+    },
+    {
+     "word": " have",
+     "start": 42.86,
+     "end": 43.02
+    },
+    {
+     "word": " it",
+     "start": 43.02,
+     "end": 43.12
+    },
+    {
+     "word": " already",
+     "start": 43.12,
+     "end": 43.3
+    },
+    {
+     "word": " say",
+     "start": 43.3,
+     "end": 43.44
+    },
+    {
+     "word": " you",
+     "start": 43.44,
+     "end": 43.56
+    },
+    {
+     "word": " have",
+     "start": 43.56,
+     "end": 43.7
+    },
+    {
+     "word": " it",
+     "start": 43.7,
+     "end": 43.78
+    },
+    {
+     "word": " already",
+     "start": 43.78,
+     "end": 43.96
+    },
+    {
+     "word": " be",
+     "start": 43.96,
+     "end": 44.5
+    },
+    {
+     "word": " waiting",
+     "start": 44.5,
+     "end": 44.7
+    },
+    {
+     "word": " on",
+     "start": 44.7,
+     "end": 44.82
+    },
+    {
+     "word": " you",
+     "start": 44.82,
+     "end": 44.88
+    },
+    {
+     "word": " to",
+     "start": 44.88,
+     "end": 45.0
+    },
+    {
+     "word": " see",
+     "start": 45.0,
+     "end": 45.08
+    },
+    {
+     "word": " it",
+     "start": 45.08,
+     "end": 45.14
+    },
+    {
+     "word": " come",
+     "start": 45.14,
+     "end": 45.26
+    },
+    {
+     "word": " out",
+     "start": 45.26,
+     "end": 45.44
+    },
+    {
+     "word": " say",
+     "start": 45.44,
+     "end": 45.58
+    },
+    {
+     "word": " me",
+     "start": 45.58,
+     "end": 45.86
+    },
+    {
+     "word": " The",
+     "start": 59.96,
+     "end": 60.24
+    },
+    {
+     "word": " bomb",
+     "start": 60.24,
+     "end": 60.52
+    }
+   ],
+   "metrics": {
+    "motion": 0.3969788087056128,
+    "motion_p90": 0.7099083619702178,
+    "static_share": 0.0,
+    "peak_db": 3.699944496154785,
+    "level_db": -15.719890594482422
    }
   }
  },
@@ -2297,376 +2709,6 @@
    "cover_at": 8.8,
    "score": 6,
    "keep": null
-  },
-  "chat-2932213364-655": {
-   "id": "chat-2932213364-655",
-   "url": "https://www.twitch.tv/videos/2932213364",
-   "section": [
-    29446.788998,
-    29502.788998
-   ],
-   "kind": "chat",
-   "views": 130,
-   "title": "",
-   "vod": "2932213364",
-   "vod_t": 29446.788998,
-   "group": "ru",
-   "login": "recrent",
-   "name": "Recrent",
-   "viewers": 38636,
-   "chat_score": 8.67,
-   "found_at": "2026-11-18T19:03:31.460752+00:00",
-   "spike_at": "2026-11-18T19:02:53.788998+00:00",
-   "chat": [
-    "12x чвв",
-    "7x ♿️ОСТОРОЖНО♿️РЕКРЕНТ ЗА ШТУРВАЛОМ♿️ ♿️ОСТОРОЖНО♿️РЕКРЕНТ ЗА ШТУРВАЛОМ♿️ ♿️ОСТОРО",
-    "7x ♿️ОСТОРОЖНО♿️РЕКРЕНТ ЗА РУЛЕМ♿️ ♿️ОСТОРОЖНО♿️РЕКРЕНТ ЗА РУЛЕМ♿️ ♿️ОСТОРОЖНО♿️РЕК",
-    "5x LUL",
-    "4x ♿️ОСТОРОЖНО♿️РЕКРЕНТ ЗА РУЛЕМ♿️ ͏♿️ОСТОРОЖНО♿️РЕКРЕНТ ЗА РУЛЕМ♿️ ͏♿️ОСТОРОЖНО♿️Р",
-    "3x чвв ͏",
-    "2x как",
-    "2x хахахахаха",
-    "2x ))))",
-    "2x ахахаха",
-    "Ахахахахахххаххаххххх",
-    "КАКОЙ ТЫ БЛЯТЬ КРЕНДЕЛЬ",
-    "а димон в ирл водит?",
-    "лошара",
-    "ПХАПХАХПАХПХ",
-    "Ты колесиками сьехал и он сел @Recrent",
-    "тяжело",
-    "@rogalikyoutube братан если смотреть с телефона даже в 1080р то конечно, а так г"
-   ],
-   "source": "cut from the live stream at a chat spike: 130 chatters in 15 s, 8.7x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-18T19:27:14.104686+00:00",
-   "cam": [
-    46,
-    465,
-    310,
-    218
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 63.0,
-   "words": [
-    {
-     "word": " Девчонки,",
-     "start": 0.0,
-     "end": 0.46
-    },
-    {
-     "word": " ты",
-     "start": 0.7,
-     "end": 0.7
-    },
-    {
-     "word": " что,",
-     "start": 0.7,
-     "end": 0.7
-    },
-    {
-     "word": " не",
-     "start": 0.7,
-     "end": 1.12
-    },
-    {
-     "word": " волнуйся?",
-     "start": 1.12,
-     "end": 1.24
-    },
-    {
-     "word": " Не",
-     "start": 1.76,
-     "end": 2.4
-    },
-    {
-     "word": " волнуйся!",
-     "start": 2.4,
-     "end": 2.8
-    },
-    {
-     "word": " БЛЯТЬ!",
-     "start": 3.96,
-     "end": 4.28
-    },
-    {
-     "word": " Донни,",
-     "start": 17.23,
-     "end": 17.87
-    },
-    {
-     "word": " я",
-     "start": 18.49,
-     "end": 18.85
-    },
-    {
-     "word": " верю",
-     "start": 18.85,
-     "end": 19.33
-    },
-    {
-     "word": " в",
-     "start": 19.33,
-     "end": 19.59
-    },
-    {
-     "word": " тебя",
-     "start": 19.59,
-     "end": 19.67
-    },
-    {
-     "word": " на",
-     "start": 19.67,
-     "end": 20.01
-    },
-    {
-     "word": " это!",
-     "start": 20.01,
-     "end": 20.27
-    },
-    {
-     "word": " Да,",
-     "start": 20.59,
-     "end": 21.03
-    },
-    {
-     "word": " ты",
-     "start": 21.33,
-     "end": 21.55
-    },
-    {
-     "word": " уехал!",
-     "start": 21.55,
-     "end": 21.91
-    },
-    {
-     "word": " И",
-     "start": 22.09,
-     "end": 22.19
-    },
-    {
-     "word": " я...",
-     "start": 22.19,
-     "end": 22.77
-    },
-    {
-     "word": " я",
-     "start": 22.77,
-     "end": 23.09
-    },
-    {
-     "word": " очень",
-     "start": 23.09,
-     "end": 23.53
-    },
-    {
-     "word": " люблю",
-     "start": 23.53,
-     "end": 23.61
-    },
-    {
-     "word": " это,",
-     "start": 23.61,
-     "end": 24.07
-    },
-    {
-     "word": " но",
-     "start": 24.17,
-     "end": 24.39
-    },
-    {
-     "word": " я",
-     "start": 24.39,
-     "end": 24.65
-    },
-    {
-     "word": " реально",
-     "start": 24.65,
-     "end": 25.03
-    },
-    {
-     "word": " делаю!",
-     "start": 25.03,
-     "end": 25.67
-    },
-    {
-     "word": " Что",
-     "start": 25.83,
-     "end": 26.27
-    },
-    {
-     "word": " ты",
-     "start": 26.27,
-     "end": 26.37
-    },
-    {
-     "word": " ждешь,",
-     "start": 26.37,
-     "end": 26.59
-    },
-    {
-     "word": " Флад?",
-     "start": 26.85,
-     "end": 27.11
-    },
-    {
-     "word": " Ты",
-     "start": 27.53,
-     "end": 27.55
-    },
-    {
-     "word": " что,",
-     "start": 27.55,
-     "end": 27.67
-    },
-    {
-     "word": " уехал?",
-     "start": 27.67,
-     "end": 27.79
-    },
-    {
-     "word": " Каким",
-     "start": 42.93,
-     "end": 43.07
-    },
-    {
-     "word": " хуям",
-     "start": 43.07,
-     "end": 43.49
-    },
-    {
-     "word": " это",
-     "start": 43.49,
-     "end": 43.65
-    },
-    {
-     "word": " провал?",
-     "start": 43.65,
-     "end": 44.03
-    },
-    {
-     "word": " Самолёт",
-     "start": 44.33,
-     "end": 44.77
-    },
-    {
-     "word": " застрял?",
-     "start": 44.77,
-     "end": 45.39
-    },
-    {
-     "word": " Серьёзно?",
-     "start": 45.71,
-     "end": 46.31
-    },
-    {
-     "word": " Что",
-     "start": 49.67,
-     "end": 50.27
-    },
-    {
-     "word": " ты",
-     "start": 50.27,
-     "end": 50.35
-    },
-    {
-     "word": " сейчас",
-     "start": 50.35,
-     "end": 50.65
-    },
-    {
-     "word": " так?",
-     "start": 50.65,
-     "end": 50.75
-    },
-    {
-     "word": " Как",
-     "start": 54.37,
-     "end": 54.97
-    },
-    {
-     "word": " он,",
-     "start": 54.97,
-     "end": 55.57
-    },
-    {
-     "word": " блять,",
-     "start": 55.71,
-     "end": 55.85
-    },
-    {
-     "word": " застрял?",
-     "start": 55.99,
-     "end": 56.63
-    },
-    {
-     "word": " Шасси",
-     "start": 58.95,
-     "end": 59.55
-    },
-    {
-     "word": " ведь",
-     "start": 59.55,
-     "end": 59.63
-    },
-    {
-     "word": " не",
-     "start": 59.63,
-     "end": 59.79
-    },
-    {
-     "word": " застрял.",
-     "start": 59.79,
-     "end": 60.17
-    },
-    {
-     "word": " Да",
-     "start": 61.13,
-     "end": 61.37
-    },
-    {
-     "word": "-да",
-     "start": 61.37,
-     "end": 61.55
-    },
-    {
-     "word": "-да,",
-     "start": 61.55,
-     "end": 61.69
-    },
-    {
-     "word": " не",
-     "start": 61.79,
-     "end": 61.89
-    },
-    {
-     "word": " с",
-     "start": 61.89,
-     "end": 62.37
-    },
-    {
-     "word": " самым...",
-     "start": 62.37,
-     "end": 62.67
-    }
-   ],
-   "metrics": {
-    "motion": 0.19464247137610716,
-    "motion_p90": 0.6065384892345359,
-    "static_share": 0.2948207171314741,
-    "peak_db": 4.388689041137695,
-    "level_db": -27.863862991333008
-   },
-   "caption": "Разбил самолёт, а потом умудрился в нём застрять 💀",
-   "hook": "Два провала подряд",
-   "cover_at": 2.1,
-   "score": 7,
-   "keep": [
-    0.0,
-    58.0
-   ]
   },
   "chat-2932213364-889": {
    "id": "chat-2932213364-889",
