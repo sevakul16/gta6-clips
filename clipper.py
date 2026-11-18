@@ -820,8 +820,12 @@ def main():
         log("WARN viewer clips failed:", repr(e))
         clips = []
     # chat moments first: a spike cannot be found again later, a viewer clip can wait for the next run
-    limit = int(jc.get("max_checked_per_run", 8))
+    # the editor's time is the scarce resource: stop feeding the queue when enough is already waiting,
+    # but always look at the strongest fresh moment of the run
+    waiting = len(state["pending"]) + len(state["pool"])
+    limit = min(int(jc.get("max_checked_per_run", 8)), max(1, int(jc.get("queue_target", 10)) - waiting))
     order = new[:max(1, limit - 2)] + clips
+    log(f"Waiting for the editor or a slot: {waiting}; checking up to {limit} new candidate(s)")
     checked = 0
     for c in order:
         if checked >= limit:

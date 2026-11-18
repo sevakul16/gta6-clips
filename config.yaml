@@ -41,6 +41,8 @@ judge:
   min_score: 6
   block_gambling_ads: true
   max_checked_per_run: 8
+  # не набирать новых кандидатов, пока в очереди (у редактора и одобренных) уже столько
+  queue_target: 10
   required: true
   model: claude-opus-5-5
   effort: low
