@@ -488,5 +488,33 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "chat-2931256643-2904": {
+  "at": "2026-11-18T22:13:19.680651+00:00",
+  "moment_score": 1,
+  "what_happens": "Stream intermission screens and a chat dance floor, no gameplay",
+  "gameplay_visible": false,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "SucculentAmusedSalmonTooSpicy-IqzDRPpAM3KgQV7o": {
+  "at": "2026-11-18T22:13:19.718942+00:00",
+  "moment_score": 4,
+  "what_happens": "Ordinary shootout while the streamer praises auto-aim with heavy swearing; no standout event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2932213364-889": {
+  "at": "2026-11-18T22:13:19.756297+00:00",
+  "moment_score": 6,
+  "what_happens": "After a shootout he tries to drive out of a yard and keeps running over the bodies, saying 'oops' each time; chat laughs that he got rid of the witnesses",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Хотел аккуратно выехать. Не получилось 💀",
+  "keep_start": 26.0,
+  "keep_end": 58.0,
+  "hook": "Ой, одного переехал",
+  "cover_at": 44.8
  }
 }
