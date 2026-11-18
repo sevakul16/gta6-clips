@@ -1118,6 +1118,353 @@
     "peak_db": 10.588632583618164,
     "level_db": -34.10725021362305
    }
+  },
+  "chat-2931685068-2166": {
+   "id": "chat-2931685068-2166",
+   "url": "https://www.twitch.tv/videos/2931685068",
+   "section": [
+    97457.379979,
+    97513.379979
+   ],
+   "kind": "chat",
+   "views": 42,
+   "title": "",
+   "vod": "2931685068",
+   "vod_t": 97457.379979,
+   "group": "ru",
+   "login": "strogo",
+   "name": "StRoGo",
+   "viewers": 10658,
+   "chat_score": 7.0,
+   "found_at": "2026-11-18T23:50:03.013764+00:00",
+   "spike_at": "2026-11-18T23:33:00.379979+00:00",
+   "chat": [
+    "ЫВПХПХППВПЫЫВХЫХЫП",
+    "-=Щ0ПФЫУКЩ=0-ПУЫ0-=щЫуп+)рщ_ыпур0+_Щ",
+    "это че за терминатор был?",
+    "asdasdasdasdas",
+    "апзщпахщахпзщапх",
+    "АНРЕГА",
+    "СЗЗЗАЗАА",
+    "тышо долбоеб"
+   ],
+   "source": "cut from the live stream at a chat spike: 42 chatters in 15 s, 7.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-18T23:50:27.553493+00:00",
+   "cam": [
+    1705,
+    48,
+    214,
+    150
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 58.7,
+   "words": [
+    {
+     "word": " Эй,",
+     "start": 0.0,
+     "end": 0.16
+    },
+    {
+     "word": " ну,",
+     "start": 0.2,
+     "end": 0.2
+    },
+    {
+     "word": " она",
+     "start": 0.32,
+     "end": 0.4
+    },
+    {
+     "word": " рехнула!",
+     "start": 0.4,
+     "end": 1.7
+    },
+    {
+     "word": " А",
+     "start": 1.8,
+     "end": 1.98
+    },
+    {
+     "word": " ну,",
+     "start": 1.98,
+     "end": 2.1
+    },
+    {
+     "word": " она",
+     "start": 2.16,
+     "end": 2.18
+    },
+    {
+     "word": " рехнула!",
+     "start": 2.18,
+     "end": 2.68
+    },
+    {
+     "word": " Эй,",
+     "start": 2.78,
+     "end": 2.84
+    },
+    {
+     "word": " серьёзно",
+     "start": 2.84,
+     "end": 3.18
+    },
+    {
+     "word": " говори!",
+     "start": 3.18,
+     "end": 4.0
+    },
+    {
+     "word": " О,",
+     "start": 4.8,
+     "end": 5.12
+    },
+    {
+     "word": " почему",
+     "start": 23.27,
+     "end": 23.49
+    },
+    {
+     "word": " поцела",
+     "start": 23.49,
+     "end": 23.85
+    },
+    {
+     "word": " не",
+     "start": 23.85,
+     "end": 23.99
+    },
+    {
+     "word": " было?",
+     "start": 23.99,
+     "end": 24.19
+    },
+    {
+     "word": " На,",
+     "start": 43.33,
+     "end": 43.49
+    },
+    {
+     "word": " чё,",
+     "start": 43.57,
+     "end": 43.71
+    },
+    {
+     "word": " зомбекс?",
+     "start": 43.81,
+     "end": 44.05
+    },
+    {
+     "word": " Почему",
+     "start": 56.14,
+     "end": 56.46
+    },
+    {
+     "word": " такой",
+     "start": 56.46,
+     "end": 56.72
+    },
+    {
+     "word": " пешти,",
+     "start": 56.72,
+     "end": 57.1
+    },
+    {
+     "word": " я",
+     "start": 57.14,
+     "end": 57.26
+    },
+    {
+     "word": " происходит?",
+     "start": 57.26,
+     "end": 57.5
+    }
+   ],
+   "metrics": {
+    "motion": 0.2684949879994353,
+    "motion_p90": 0.49423972892842016,
+    "static_share": 0.01282051282051282,
+    "peak_db": 4.789999008178711,
+    "level_db": -36.500648498535156
+   }
+  },
+  "VivaciousPreciousMacaroniKappaClaus-kcyHxQwbJEXgwnLA": {
+   "id": "VivaciousPreciousMacaroniKappaClaus-kcyHxQwbJEXgwnLA",
+   "url": "https://www.twitch.tv/evelone2004/clip/VivaciousPreciousMacaroniKappaClaus-kcyHxQwbJEXgwnLA",
+   "section": null,
+   "kind": "clip",
+   "views": 4165,
+   "title": "хай",
+   "vod": "2932196917",
+   "vod_t": 27423,
+   "group": "ru",
+   "login": "evelone2004",
+   "name": "evelone2004",
+   "source": "Twitch clip made by a viewer, 4165 views, titled \"хай\"",
+   "at": "2026-11-18T23:50:47.205062+00:00",
+   "cam": [
+    78,
+    832,
+    369,
+    260
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 16.0,
+   "words": [
+    {
+     "word": " Бил",
+     "start": 0.0,
+     "end": 0.26
+    },
+    {
+     "word": " каждый",
+     "start": 0.26,
+     "end": 0.46
+    },
+    {
+     "word": " раз.",
+     "start": 0.46,
+     "end": 0.72
+    },
+    {
+     "word": " Я",
+     "start": 0.8,
+     "end": 0.92
+    },
+    {
+     "word": " ему",
+     "start": 0.92,
+     "end": 1.06
+    },
+    {
+     "word": " комплименты",
+     "start": 1.06,
+     "end": 1.66
+    },
+    {
+     "word": " даю,",
+     "start": 1.66,
+     "end": 1.9
+    },
+    {
+     "word": " у",
+     "start": 1.94,
+     "end": 1.96
+    },
+    {
+     "word": " меня",
+     "start": 1.96,
+     "end": 2.06
+    },
+    {
+     "word": " хуярень.",
+     "start": 2.06,
+     "end": 2.46
+    },
+    {
+     "word": " Хорошо,",
+     "start": 2.48,
+     "end": 2.58
+    },
+    {
+     "word": " это",
+     "start": 2.7,
+     "end": 2.8
+    },
+    {
+     "word": " не",
+     "start": 2.8,
+     "end": 2.96
+    },
+    {
+     "word": " этот.",
+     "start": 2.96,
+     "end": 3.2
+    },
+    {
+     "word": " Это",
+     "start": 5.24,
+     "end": 5.7
+    },
+    {
+     "word": " больно?",
+     "start": 5.7,
+     "end": 6.2
+    },
+    {
+     "word": " Ох,",
+     "start": 6.32,
+     "end": 6.78
+    },
+    {
+     "word": " нет,",
+     "start": 6.86,
+     "end": 7.1
+    },
+    {
+     "word": " нет.",
+     "start": 7.76,
+     "end": 7.76
+    },
+    {
+     "word": " Ой,",
+     "start": 9.3,
+     "end": 9.8
+    },
+    {
+     "word": " ой.",
+     "start": 9.8,
+     "end": 10.3
+    },
+    {
+     "word": " Хай.",
+     "start": 10.9,
+     "end": 11.4
+    },
+    {
+     "word": " Хай.",
+     "start": 11.84,
+     "end": 12.34
+    },
+    {
+     "word": " Хай.",
+     "start": 12.76,
+     "end": 13.26
+    },
+    {
+     "word": " Хай.",
+     "start": 13.46,
+     "end": 13.68
+    },
+    {
+     "word": " Хай.",
+     "start": 13.98,
+     "end": 14.3
+    },
+    {
+     "word": " Хай.",
+     "start": 14.78,
+     "end": 14.92
+    },
+    {
+     "word": " Хай.",
+     "start": 15.04,
+     "end": 15.34
+    }
+   ],
+   "metrics": {
+    "motion": 0.25816151202749144,
+    "motion_p90": 0.4718642611683849,
+    "static_share": 0.0,
+    "peak_db": 10.677579879760742,
+    "level_db": -28.166297912597656
+   }
   }
  },
  "pool": {
