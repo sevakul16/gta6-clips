@@ -890,5 +890,31 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "chat-2932167852-2097": {
+  "at": "2026-11-19T12:15:30.995209+00:00",
+  "moment_score": 6,
+  "what_happens": "Seaplane drug-drop mission: he flies right over the drop zone but never presses the drop button, asks how to drop it, and the mission fails on screen; clear fail with his reaction",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Идеально пролетел над точкой и забыл сбросить груз 💀",
+  "keep_start": 14.0,
+  "keep_end": 56.0,
+  "cam": [
+   0.01,
+   0.337,
+   0.24,
+   0.333
+  ],
+  "hook": "Не сбросил груз",
+  "cover_at": 20.5
+ },
+ "chat-2931685068-3146": {
+  "at": "2026-11-19T12:15:31.047534+00:00",
+  "moment_score": 5,
+  "what_happens": "Dirt bike race: a jump throws him high into the sky and he finishes last, then a long cutscene; he hardly speaks, the webcam was not found, half the clip is the cutscene",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
  }
 }
