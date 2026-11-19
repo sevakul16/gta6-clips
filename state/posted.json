@@ -546,6 +546,11 @@
    "at": "2026-11-19T02:24:53.671358+00:00",
    "why": "editor: 4/10, Story cutscene argument with a girlfriend in a bikini; dialogue only, source already has burnt-in captions",
    "login": "kaicenat"
+  },
+  "chat-2932753534-380": {
+   "at": "2026-11-19T02:45:58.594990+00:00",
+   "why": "picture is almost static (motion 0.01)",
+   "login": "summit1g"
   }
  },
  "pending": {
@@ -710,6 +715,266 @@
     "static_share": 0.07335907335907337,
     "peak_db": 10.64927864074707,
     "level_db": -36.371185302734375
+   }
+  },
+  "BoringWimpyKleeItsBoshyTime-hL8MjYyweIzttJt8": {
+   "id": "BoringWimpyKleeItsBoshyTime-hL8MjYyweIzttJt8",
+   "url": "https://www.twitch.tv/strogo/clip/BoringWimpyKleeItsBoshyTime-hL8MjYyweIzttJt8",
+   "section": null,
+   "kind": "clip",
+   "views": 3228,
+   "title": "сюжетку проходим",
+   "vod": "2931685068",
+   "vod_t": 63332,
+   "group": "ru",
+   "login": "strogo",
+   "name": "StRoGo",
+   "source": "Twitch clip made by a viewer, 3228 views, titled \"сюжетку проходим\"",
+   "at": "2026-11-19T02:46:32.256936+00:00",
+   "cam": [
+    2245,
+    64,
+    315,
+    221
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 60.0,
+   "words": [
+    {
+     "word": " че",
+     "start": 0.0,
+     "end": 0.16
+    },
+    {
+     "word": " ты",
+     "start": 0.16,
+     "end": 0.16
+    },
+    {
+     "word": " как?",
+     "start": 0.16,
+     "end": 0.32
+    },
+    {
+     "word": " 700",
+     "start": 1.2,
+     "end": 1.92
+    },
+    {
+     "word": " долларов?",
+     "start": 1.92,
+     "end": 2.36
+    },
+    {
+     "word": " у",
+     "start": 2.56,
+     "end": 2.56
+    },
+    {
+     "word": " меня",
+     "start": 2.56,
+     "end": 2.9
+    },
+    {
+     "word": " было",
+     "start": 2.9,
+     "end": 3.04
+    },
+    {
+     "word": " 3000",
+     "start": 3.04,
+     "end": 3.52
+    },
+    {
+     "word": " блять",
+     "start": 3.52,
+     "end": 4.02
+    },
+    {
+     "word": " пока",
+     "start": 4.02,
+     "end": 4.2
+    },
+    {
+     "word": " я",
+     "start": 4.2,
+     "end": 4.32
+    },
+    {
+     "word": " сюда",
+     "start": 4.32,
+     "end": 4.42
+    },
+    {
+     "word": " не",
+     "start": 4.42,
+     "end": 4.8
+    },
+    {
+     "word": " зашел",
+     "start": 4.8,
+     "end": 5.16
+    },
+    {
+     "word": " нахуй",
+     "start": 5.16,
+     "end": 5.48
+    },
+    {
+     "word": " джулье",
+     "start": 5.48,
+     "end": 5.88
+    },
+    {
+     "word": "-то",
+     "start": 5.88,
+     "end": 6.02
+    },
+    {
+     "word": " у",
+     "start": 6.02,
+     "end": 6.94
+    },
+    {
+     "word": " тебя",
+     "start": 20.35,
+     "end": 20.53
+    },
+    {
+     "word": " себе",
+     "start": 20.53,
+     "end": 20.81
+    },
+    {
+     "word": " нарезка",
+     "start": 20.81,
+     "end": 21.29
+    },
+    {
+     "word": " слышно",
+     "start": 21.29,
+     "end": 21.65
+    },
+    {
+     "word": " без",
+     "start": 21.65,
+     "end": 21.81
+    },
+    {
+     "word": " предупреждения",
+     "start": 21.81,
+     "end": 22.73
+    },
+    {
+     "word": " ну",
+     "start": 22.73,
+     "end": 23.81
+    },
+    {
+     "word": " я",
+     "start": 38.43,
+     "end": 39.83
+    },
+    {
+     "word": " думал",
+     "start": 39.83,
+     "end": 40.03
+    },
+    {
+     "word": " что",
+     "start": 40.03,
+     "end": 40.17
+    },
+    {
+     "word": "-то",
+     "start": 40.17,
+     "end": 40.53
+    },
+    {
+     "word": " еще",
+     "start": 40.53,
+     "end": 40.53
+    },
+    {
+     "word": " другое",
+     "start": 40.53,
+     "end": 41.15
+    },
+    {
+     "word": " будет",
+     "start": 41.15,
+     "end": 41.37
+    },
+    {
+     "word": " ты",
+     "start": 47.05,
+     "end": 47.41
+    },
+    {
+     "word": " на",
+     "start": 47.41,
+     "end": 47.67
+    },
+    {
+     "word": " шумахере",
+     "start": 47.67,
+     "end": 48.29
+    },
+    {
+     "word": " стой",
+     "start": 48.29,
+     "end": 49.37
+    },
+    {
+     "word": " дошли",
+     "start": 50.11,
+     "end": 50.83
+    },
+    {
+     "word": " заходят",
+     "start": 50.83,
+     "end": 51.11
+    },
+    {
+     "word": " так",
+     "start": 51.11,
+     "end": 51.21
+    },
+    {
+     "word": " сразу",
+     "start": 51.21,
+     "end": 51.41
+    },
+    {
+     "word": " мы",
+     "start": 55.29,
+     "end": 56.01
+    },
+    {
+     "word": " все",
+     "start": 56.01,
+     "end": 56.45
+    },
+    {
+     "word": " жадку",
+     "start": 56.45,
+     "end": 56.71
+    },
+    {
+     "word": " проходим",
+     "start": 56.71,
+     "end": 57.19
+    }
+   ],
+   "metrics": {
+    "motion": 0.13491501416430596,
+    "motion_p90": 0.4556515580736545,
+    "static_share": 0.05439330543933055,
+    "peak_db": 19.849285125732422,
+    "level_db": -42.32648468017578
    }
   }
  },
