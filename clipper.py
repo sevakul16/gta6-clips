@@ -67,7 +67,8 @@ def save_state(state):
     state["rejected"] = {k: v for k, v in state["rejected"].items() if age_hours(v["at"]) < 72}
     state["pending"] = {k: v for k, v in state["pending"].items() if age_hours(v["at"]) < 8}
     state["no_vod"] = {k: v for k, v in state["no_vod"].items() if age_hours(v["at"]) < 24}
-    state["pool"] = {k: v for k, v in state["pool"].items() if age_hours(v["at"]) < 12}
+    # approved moments wait for a slot (one post per min_gap_minutes): keep them long enough to get one
+    state["pool"] = {k: v for k, v in state["pool"].items() if age_hours(v["at"]) < 48}
     STATE_FILE.parent.mkdir(exist_ok=True)
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=1))
 
@@ -869,7 +870,7 @@ def evaluate(cfg, state, c, td):
 
 
 def pick(state, profile_of, fresh_only=False):
-    """Best approved moment per profile: highest score, then the bigger stream, then the freshest.
+    """Best approved moment per profile: highest score, then the bigger stream, then the one waiting longest.
 
     Languages take turns: if the previous post was RU and an EN moment of about the same strength is
     waiting, the EN one goes next (and the other way round)."""
@@ -877,7 +878,7 @@ def pick(state, profile_of, fresh_only=False):
     for v in sorted(state["posted"].values(), key=lambda v: v["at"]):
         if v.get("ok") and v.get("group"):
             last[v.get("profile")] = v["group"]
-    key = lambda c: (c["score"], c.get("viewers") or 0, c["at"])
+    key = lambda c: (c["score"], c.get("viewers") or 0, age_hours(c["at"]))
     best = {}
     for prof in set(profile_of.values()):
         cands = [c for c in state["pool"].values()
