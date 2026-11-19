@@ -2469,6 +2469,566 @@
     "level_db": -25.397377014160156
    },
    "silence": []
+  },
+  "chat-2932305259-2319": {
+   "id": "chat-2932305259-2319",
+   "url": "https://www.twitch.tv/videos/2932305259",
+   "section": [
+    104332.854053,
+    104388.854053
+   ],
+   "kind": "chat",
+   "views": 185,
+   "title": "",
+   "vod": "2932305259",
+   "vod_t": 104332.854053,
+   "group": "en",
+   "login": "kaicenat",
+   "name": "KaiCenat",
+   "viewers": 42157,
+   "chat_score": 4.62,
+   "found_at": "2026-11-19T18:02:59.430589+00:00",
+   "spike_at": "2026-11-19T17:59:31.854053+00:00",
+   "chat": [
+    "7x lol",
+    "7x lmao",
+    "5x LUL",
+    "4x Lmaooo",
+    "3x omg",
+    "3x W",
+    "3x LMFAO",
+    "3x hahahaha",
+    "3x 😂😂😂😂",
+    "2x BRUH",
+    "2x Lolol",
+    "2x LMFAOOOOOOO",
+    "YOU SEE IT",
+    "AT GTA %",
+    "So aff",
+    "LOOOOOOOOOOLLL",
+    "😂😂😂😂😂😂😂😂",
+    "LUL SeemsGood",
+    "hahahahahahaahahahahahahahz",
+    "dat was for my mom 🤣"
+   ],
+   "source": "cut from the live stream at a chat spike: 185 chatters in 15 s, 4.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-19T18:03:29.811179+00:00",
+   "cam": [
+    52,
+    465,
+    264,
+    186
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " Okay,",
+     "start": 0.0,
+     "end": 0.32
+    },
+    {
+     "word": " I'm",
+     "start": 0.4,
+     "end": 0.6
+    },
+    {
+     "word": " ass",
+     "start": 0.6,
+     "end": 0.92
+    },
+    {
+     "word": " right",
+     "start": 0.92,
+     "end": 1.22
+    },
+    {
+     "word": " But",
+     "start": 2.2,
+     "end": 2.8
+    },
+    {
+     "word": " I",
+     "start": 2.8,
+     "end": 2.92
+    },
+    {
+     "word": " know",
+     "start": 2.92,
+     "end": 3.24
+    },
+    {
+     "word": " your",
+     "start": 3.24,
+     "end": 3.42
+    },
+    {
+     "word": " mom",
+     "start": 3.42,
+     "end": 3.78
+    },
+    {
+     "word": " sucks",
+     "start": 3.78,
+     "end": 4.56
+    },
+    {
+     "word": " at",
+     "start": 4.56,
+     "end": 4.9
+    },
+    {
+     "word": " GTA",
+     "start": 4.9,
+     "end": 5.26
+    },
+    {
+     "word": " nigga",
+     "start": 5.26,
+     "end": 5.62
+    },
+    {
+     "word": " But",
+     "start": 6.46,
+     "end": 7.06
+    },
+    {
+     "word": " I",
+     "start": 7.06,
+     "end": 7.26
+    },
+    {
+     "word": " know",
+     "start": 7.26,
+     "end": 7.66
+    },
+    {
+     "word": " she's",
+     "start": 7.66,
+     "end": 8.06
+    },
+    {
+     "word": " fucking",
+     "start": 8.06,
+     "end": 8.34
+    },
+    {
+     "word": " trash",
+     "start": 8.34,
+     "end": 8.82
+    },
+    {
+     "word": " nigga",
+     "start": 8.82,
+     "end": 9.16
+    },
+    {
+     "word": " now",
+     "start": 9.16,
+     "end": 9.36
+    },
+    {
+     "word": " what",
+     "start": 9.36,
+     "end": 9.66
+    },
+    {
+     "word": " Now",
+     "start": 10.28,
+     "end": 10.88
+    },
+    {
+     "word": " what",
+     "start": 10.88,
+     "end": 11.2
+    },
+    {
+     "word": " now",
+     "start": 12.51,
+     "end": 13.41
+    },
+    {
+     "word": " what",
+     "start": 13.41,
+     "end": 13.85
+    },
+    {
+     "word": " I",
+     "start": 13.85,
+     "end": 14.29
+    },
+    {
+     "word": " know",
+     "start": 14.29,
+     "end": 14.51
+    },
+    {
+     "word": " that's",
+     "start": 14.51,
+     "end": 14.69
+    },
+    {
+     "word": " a",
+     "start": 14.69,
+     "end": 14.77
+    },
+    {
+     "word": " fact",
+     "start": 14.77,
+     "end": 15.09
+    },
+    {
+     "word": " bro.",
+     "start": 15.09,
+     "end": 15.39
+    },
+    {
+     "word": " So",
+     "start": 15.39,
+     "end": 15.93
+    },
+    {
+     "word": " now",
+     "start": 15.93,
+     "end": 16.09
+    },
+    {
+     "word": " what",
+     "start": 16.09,
+     "end": 16.35
+    },
+    {
+     "word": " so",
+     "start": 16.35,
+     "end": 17.27
+    },
+    {
+     "word": " tired",
+     "start": 23.45,
+     "end": 23.75
+    },
+    {
+     "word": " to",
+     "start": 23.75,
+     "end": 23.91
+    },
+    {
+     "word": " get",
+     "start": 23.91,
+     "end": 23.97
+    },
+    {
+     "word": " fucking",
+     "start": 23.97,
+     "end": 24.27
+    },
+    {
+     "word": " better,",
+     "start": 24.27,
+     "end": 24.63
+    },
+    {
+     "word": " buddy",
+     "start": 24.69,
+     "end": 24.89
+    },
+    {
+     "word": " Hey,",
+     "start": 28.5,
+     "end": 29.1
+    },
+    {
+     "word": " I",
+     "start": 29.1,
+     "end": 29.7
+    },
+    {
+     "word": " know",
+     "start": 29.7,
+     "end": 30.0
+    },
+    {
+     "word": " that",
+     "start": 30.0,
+     "end": 30.16
+    },
+    {
+     "word": " was",
+     "start": 30.16,
+     "end": 30.28
+    },
+    {
+     "word": " a",
+     "start": 30.28,
+     "end": 30.42
+    },
+    {
+     "word": " lot",
+     "start": 30.42,
+     "end": 30.58
+    },
+    {
+     "word": " It",
+     "start": 30.58,
+     "end": 31.54
+    },
+    {
+     "word": " just",
+     "start": 34.13,
+     "end": 34.43
+    },
+    {
+     "word": " happens",
+     "start": 34.43,
+     "end": 34.99
+    },
+    {
+     "word": " and",
+     "start": 34.99,
+     "end": 35.27
+    },
+    {
+     "word": " it",
+     "start": 35.27,
+     "end": 35.37
+    },
+    {
+     "word": " just",
+     "start": 35.37,
+     "end": 35.55
+    },
+    {
+     "word": " and",
+     "start": 35.55,
+     "end": 36.27
+    },
+    {
+     "word": " that's",
+     "start": 36.27,
+     "end": 36.61
+    },
+    {
+     "word": " what",
+     "start": 36.61,
+     "end": 36.71
+    },
+    {
+     "word": " I",
+     "start": 36.71,
+     "end": 36.83
+    },
+    {
+     "word": " get",
+     "start": 36.83,
+     "end": 37.09
+    },
+    {
+     "word": " and",
+     "start": 37.09,
+     "end": 37.43
+    },
+    {
+     "word": " that's",
+     "start": 37.43,
+     "end": 37.63
+    },
+    {
+     "word": " what",
+     "start": 37.63,
+     "end": 37.71
+    },
+    {
+     "word": " I",
+     "start": 37.71,
+     "end": 37.81
+    },
+    {
+     "word": " get",
+     "start": 37.81,
+     "end": 37.99
+    },
+    {
+     "word": " bro",
+     "start": 37.99,
+     "end": 38.27
+    },
+    {
+     "word": " for",
+     "start": 38.27,
+     "end": 38.49
+    },
+    {
+     "word": " talking",
+     "start": 38.49,
+     "end": 38.75
+    },
+    {
+     "word": " so",
+     "start": 38.75,
+     "end": 39.15
+    },
+    {
+     "word": " fucking",
+     "start": 39.15,
+     "end": 39.77
+    },
+    {
+     "word": " disrespectful",
+     "start": 39.77,
+     "end": 40.37
+    },
+    {
+     "word": " And",
+     "start": 41.01,
+     "end": 41.41
+    },
+    {
+     "word": " that's",
+     "start": 41.41,
+     "end": 41.81
+    },
+    {
+     "word": " the",
+     "start": 41.81,
+     "end": 41.91
+    },
+    {
+     "word": " fuck",
+     "start": 41.91,
+     "end": 42.23
+    },
+    {
+     "word": " I",
+     "start": 42.23,
+     "end": 42.43
+    },
+    {
+     "word": " get",
+     "start": 42.43,
+     "end": 42.69
+    },
+    {
+     "word": " bro.",
+     "start": 42.69,
+     "end": 43.01
+    },
+    {
+     "word": " That",
+     "start": 43.31,
+     "end": 43.71
+    },
+    {
+     "word": " is",
+     "start": 43.71,
+     "end": 43.87
+    },
+    {
+     "word": " what",
+     "start": 43.87,
+     "end": 43.99
+    },
+    {
+     "word": " I",
+     "start": 43.99,
+     "end": 44.11
+    },
+    {
+     "word": " get",
+     "start": 44.11,
+     "end": 44.23
+    },
+    {
+     "word": " right",
+     "start": 44.23,
+     "end": 44.41
+    },
+    {
+     "word": " there.",
+     "start": 44.41,
+     "end": 44.61
+    },
+    {
+     "word": " Like",
+     "start": 44.65,
+     "end": 44.81
+    },
+    {
+     "word": " I'm",
+     "start": 44.81,
+     "end": 45.05
+    },
+    {
+     "word": " like",
+     "start": 45.05,
+     "end": 45.25
+    },
+    {
+     "word": " bro.",
+     "start": 45.25,
+     "end": 45.55
+    },
+    {
+     "word": " I'm",
+     "start": 45.59,
+     "end": 45.75
+    },
+    {
+     "word": " never",
+     "start": 45.75,
+     "end": 45.95
+    },
+    {
+     "word": " to",
+     "start": 45.95,
+     "end": 46.15
+    },
+    {
+     "word": " oh",
+     "start": 46.15,
+     "end": 46.47
+    },
+    {
+     "word": " my",
+     "start": 46.47,
+     "end": 46.75
+    },
+    {
+     "word": " gosh",
+     "start": 46.75,
+     "end": 47.57
+    },
+    {
+     "word": " Oh",
+     "start": 48.99,
+     "end": 49.39
+    },
+    {
+     "word": " my",
+     "start": 49.39,
+     "end": 49.65
+    },
+    {
+     "word": " fucking",
+     "start": 49.65,
+     "end": 50.11
+    },
+    {
+     "word": " god",
+     "start": 50.11,
+     "end": 50.55
+    }
+   ],
+   "metrics": {
+    "motion": 0.3185095295881219,
+    "motion_p90": 0.6055964023127991,
+    "static_share": 0.09865470852017937,
+    "peak_db": 8.607667922973633,
+    "level_db": -19.88680648803711
+   },
+   "silence": []
   }
  },
  "pool": {
