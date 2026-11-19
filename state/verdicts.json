@@ -782,5 +782,33 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "chat-2932677749-801": {
+  "at": "2026-11-19T07:13:43.584461+00:00",
+  "moment_score": 8,
+  "what_happens": "Drives off in a stolen car and a cat that was inside jumps on him, clawing his face and sitting on the wheel while he yells; the game answers 'still taking the car'; chat spams meow and cheers for the cat",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Stole a car. There was a cat inside 💀",
+  "keep_start": 40.0,
+  "keep_end": 66.0,
+  "hook": "The cat fought back",
+  "cover_at": 50.6
+ },
+ "chat-2932226282-1532": {
+  "at": "2026-11-19T07:13:43.631268+00:00",
+  "moment_score": 4,
+  "what_happens": "Night drive with in-game dialogue, then the controller disconnects and the game pauses; chat jokes, nothing happens in the game",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2933227596-174": {
+  "at": "2026-11-19T07:13:43.682925+00:00",
+  "moment_score": 5,
+  "what_happens": "Starting the first mission he shows his desktop wallpaper with owls instead of the game for a few seconds; a stream slip, not a game moment, and the webcam box is off",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
  }
 }
