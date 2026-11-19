@@ -189,6 +189,21 @@
      "thumbnail_pending": true
     }
    ]
+  },
+  "SucculentSucculentSamosaDogFace-jSA8SVJL1zehHDic": {
+   "at": "2026-11-19T03:08:25.390602+00:00",
+   "ok": true,
+   "profile": "gta6",
+   "login": "t2x2",
+   "group": "ru",
+   "url": "https://www.twitch.tv/t2x2/clip/SucculentSucculentSamosaDogFace-jSA8SVJL1zehHDic",
+   "kind": "clip",
+   "score": 7,
+   "caption": "Выкинул Дариночку из «феррари Бустера» и уехал 😂",
+   "vod": "2932186798",
+   "vod_t": 8609,
+   "hook": "Выкинул Дариночку",
+   "request_id": "93912ec512a04c26a3f68e85a6b66b63"
   }
  },
  "rejected": {
@@ -976,128 +991,305 @@
     "peak_db": 19.849285125732422,
     "level_db": -42.32648468017578
    }
-  }
- },
- "pool": {
-  "SucculentSucculentSamosaDogFace-jSA8SVJL1zehHDic": {
-   "id": "SucculentSucculentSamosaDogFace-jSA8SVJL1zehHDic",
-   "url": "https://www.twitch.tv/t2x2/clip/SucculentSucculentSamosaDogFace-jSA8SVJL1zehHDic",
-   "section": null,
-   "kind": "clip",
-   "views": 681,
-   "title": "Т2х2  Дарину выбросил с тачки",
-   "vod": "2932186798",
-   "vod_t": 8609,
-   "group": "ru",
-   "login": "t2x2",
-   "name": "T2x2",
-   "source": "Twitch clip made by a viewer, 681 views, titled \"Т2х2  Дарину выбросил с тачки\"",
-   "at": "2026-11-18T13:23:20.208758+00:00",
-   "cam": [
-    1935,
-    909,
-    550,
-    387
+  },
+  "chat-2932753534-400": {
+   "id": "chat-2932753534-400",
+   "url": "https://www.twitch.tv/videos/2932753534",
+   "section": [
+    17982.254941,
+    18038.254941
    ],
+   "kind": "chat",
+   "views": 108,
+   "title": "",
+   "vod": "2932753534",
+   "vod_t": 17982.254941,
+   "group": "en",
+   "login": "summit1g",
+   "name": "summit1g",
+   "viewers": 16234,
+   "chat_score": 9.0,
+   "found_at": "2026-11-19T03:07:27.862933+00:00",
+   "spike_at": "2026-11-19T02:50:55.254941+00:00",
+   "chat": [
+    "27x LOL",
+    "11x LUL",
+    "6x LO",
+    "6x KEKW",
+    "5x o7",
+    "5x lmao",
+    "3x LMFAO",
+    "2x HAHAHAHA",
+    "2x wtf",
+    "nice",
+    "LOLOLOL",
+    "hahahahahaha",
+    "lmaoo",
+    "WutFace",
+    "CLassic",
+    "Clap",
+    "LOLOLOLOLOL"
+   ],
+   "source": "cut from the live stream at a chat spike: 108 chatters in 15 s, 9.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-19T03:07:54.006697+00:00",
+   "cam": null,
    "size": [
-    2560,
-    1440
+    1920,
+    1080
    ],
-   "dur": 15.9,
+   "dur": 58.0,
    "words": [
     {
-     "word": " Ну,",
-     "start": 0.53,
-     "end": 1.43
+     "word": " I",
+     "start": 1.23,
+     "end": 1.35
     },
     {
-     "word": " Феррари",
-     "start": 1.47,
-     "end": 1.83
+     "word": " think",
+     "start": 1.35,
+     "end": 1.35
     },
     {
-     "word": " Бустера,",
-     "start": 1.83,
+     "word": " he's",
+     "start": 1.35,
+     "end": 1.59
+    },
+    {
+     "word": " saying,",
+     "start": 1.59,
+     "end": 1.69
+    },
+    {
+     "word": " let's",
+     "start": 1.89,
+     "end": 2.15
+    },
+    {
+     "word": " go.",
+     "start": 2.15,
      "end": 2.23
     },
     {
-     "word": " блять.",
-     "start": 2.29,
-     "end": 2.59
+     "word": " Be",
+     "start": 7.85,
+     "end": 7.99
     },
     {
-     "word": " А",
-     "start": 3.09,
-     "end": 3.33
+     "word": " curious?",
+     "start": 7.99,
+     "end": 8.45
     },
     {
-     "word": " это,",
-     "start": 3.33,
-     "end": 4.05
+     "word": " I'll",
+     "start": 10.99,
+     "end": 11.25
     },
     {
-     "word": " видимо,",
-     "start": 4.09,
-     "end": 4.37
+     "word": " just",
+     "start": 11.25,
+     "end": 11.49
     },
     {
-     "word": " Дариночка,",
-     "start": 4.45,
-     "end": 4.99
+     "word": " watch",
+     "start": 11.49,
+     "end": 11.85
     },
     {
-     "word": " да?",
-     "start": 5.03,
-     "end": 5.09
+     "word": " and",
+     "start": 11.85,
+     "end": 12.11
     },
     {
-     "word": " Извините,",
-     "start": 5.59,
-     "end": 6.05
+     "word": " learn.",
+     "start": 12.11,
+     "end": 12.41
     },
     {
-     "word": " Дариночка.",
-     "start": 6.17,
-     "end": 6.89
+     "word": " Oh,",
+     "start": 12.63,
+     "end": 12.79
     },
     {
-     "word": " Сарян,",
-     "start": 9.25,
-     "end": 10.05
+     "word": " really?",
+     "start": 13.13,
+     "end": 13.35
     },
     {
-     "word": " Дариночка!",
-     "start": 10.05,
-     "end": 10.85
+     "word": " OK.",
+     "start": 13.59,
+     "end": 13.73
     },
     {
-     "word": " До",
-     "start": 13.0,
-     "end": 13.64
+     "word": " Shit.",
+     "start": 21.35,
+     "end": 21.87
     },
     {
-     "word": " свидосия,",
-     "start": 13.64,
-     "end": 14.36
+     "word": " Are",
+     "start": 22.89,
+     "end": 23.03
     },
     {
-     "word": " нахуй.",
-     "start": 14.38,
-     "end": 14.92
+     "word": " you",
+     "start": 23.03,
+     "end": 23.19
+    },
+    {
+     "word": " good?",
+     "start": 23.19,
+     "end": 23.37
+    },
+    {
+     "word": " I",
+     "start": 24.37,
+     "end": 24.89
+    },
+    {
+     "word": " love",
+     "start": 24.89,
+     "end": 25.13
+    },
+    {
+     "word": " it.",
+     "start": 25.13,
+     "end": 25.37
+    },
+    {
+     "word": " Look",
+     "start": 31.55,
+     "end": 31.85
+    },
+    {
+     "word": " at",
+     "start": 31.85,
+     "end": 31.99
+    },
+    {
+     "word": " that",
+     "start": 31.99,
+     "end": 32.17
+    },
+    {
+     "word": " view.",
+     "start": 32.17,
+     "end": 32.61
+    },
+    {
+     "word": " It's",
+     "start": 34.86,
+     "end": 35.0
+    },
+    {
+     "word": " not",
+     "start": 35.0,
+     "end": 35.16
+    },
+    {
+     "word": " bad,",
+     "start": 35.16,
+     "end": 35.4
+    },
+    {
+     "word": " huh?",
+     "start": 35.54,
+     "end": 35.66
+    },
+    {
+     "word": " So,",
+     "start": 36.66,
+     "end": 37.18
+    },
+    {
+     "word": " why",
+     "start": 38.22,
+     "end": 38.22
+    },
+    {
+     "word": " never",
+     "start": 38.22,
+     "end": 38.42
+    },
+    {
+     "word": " took",
+     "start": 38.42,
+     "end": 38.72
+    },
+    {
+     "word": " me",
+     "start": 38.72,
+     "end": 39.1
+    },
+    {
+     "word": " out",
+     "start": 39.1,
+     "end": 39.28
+    },
+    {
+     "word": " flying",
+     "start": 39.28,
+     "end": 39.58
+    },
+    {
+     "word": " before,",
+     "start": 39.58,
+     "end": 40.08
+    },
+    {
+     "word": " Mr.",
+     "start": 40.54,
+     "end": 40.78
+    },
+    {
+     "word": " Pilot",
+     "start": 41.06,
+     "end": 41.3
+    },
+    {
+     "word": " Man?",
+     "start": 41.3,
+     "end": 41.7
+    },
+    {
+     "word": " I",
+     "start": 42.34,
+     "end": 42.64
+    },
+    {
+     "word": " could",
+     "start": 42.64,
+     "end": 42.84
+    },
+    {
+     "word": " never",
+     "start": 42.84,
+     "end": 43.06
+    },
+    {
+     "word": " play.",
+     "start": 43.06,
+     "end": 43.36
+    },
+    {
+     "word": " Don't",
+     "start": 44.1,
+     "end": 44.4
+    },
+    {
+     "word": " worry.",
+     "start": 44.4,
+     "end": 44.58
     }
    ],
    "metrics": {
-    "motion": 0.43445484254307787,
-    "motion_p90": 0.658801247771836,
-    "static_share": 0.0,
-    "peak_db": 7.306754112243652,
-    "level_db": -18.9603328704834
-   },
-   "caption": "Выкинул Дариночку из «феррари Бустера» и уехал 😂",
-   "score": 7,
-   "keep": null,
-   "hook": "Выкинул Дариночку"
-  },
+    "motion": 0.21118055555555557,
+    "motion_p90": 0.5088888888888888,
+    "static_share": 0.09956709956709957,
+    "peak_db": 5.884477615356445,
+    "level_db": -35.00392532348633
+   }
+  }
+ },
+ "pool": {
   "DepressedConfidentRuffChocolateRain-FNEDQEnUaUTXvYxG": {
    "id": "DepressedConfidentRuffChocolateRain-FNEDQEnUaUTXvYxG",
    "url": "https://www.twitch.tv/buster/clip/DepressedConfidentRuffChocolateRain-FNEDQEnUaUTXvYxG",
