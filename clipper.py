@@ -25,12 +25,14 @@ import tempfile
 import time
 from collections import Counter
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import requests
 import yaml
 
 ROOT = Path(__file__).resolve().parent
 STATE_FILE = ROOT / "state" / "posted.json"
+REQUEUE_FILE = ROOT / "state" / "requeue.json"   # editor-owned: full candidates of refused posts made before retries existed
 OUT_DIR = ROOT / "out"
 PREV_DIR = OUT_DIR / "previews"
 REVIEW_DIR = OUT_DIR / "review"
@@ -69,13 +71,28 @@ def save_state(state):
     state["no_vod"] = {k: v for k, v in state["no_vod"].items() if age_hours(v["at"]) < 24}
     # approved moments wait for a slot (one post per min_gap_minutes): keep them long enough to get one
     state["pool"] = {k: v for k, v in state["pool"].items() if age_hours(v["at"]) < 48}
+    for v in state["posted"].values():      # the copy kept for a retry is only needed until the platforms answer
+        if age_hours(v["at"]) > 8:
+            v.pop("cand", None)
     STATE_FILE.parent.mkdir(exist_ok=True)
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=1))
 
 
-def posts_last_24h(state, profile):
+PLATFORM_DAY = ZoneInfo("America/Los_Angeles")   # YouTube counts a channel's daily uploads by Pacific time
+LIMIT_RE = re.compile(r"limit|quota|may upload|too many", re.I)
+
+
+def day_turn(t, days=0):
+    """Midnight Pacific of the day that holds t (days=1: the next one), as UTC."""
+    local = t.astimezone(PLATFORM_DAY) + dt.timedelta(days=days)
+    return local.replace(hour=0, minute=0, second=0, microsecond=0).astimezone(dt.timezone.utc)
+
+
+def posts_today(state, profile):
+    """Posts since the platforms' day began: their daily upload limits follow that day, not a rolling 24 hours."""
+    start = day_turn(now_utc())
     return sum(1 for v in state["posted"].values()
-               if v.get("profile") == profile and v.get("ok") and age_hours(v["at"]) < 24)
+               if v.get("profile") == profile and v.get("ok") and dt.datetime.fromisoformat(v["at"]) >= start)
 
 
 def minutes_since_last_post(state, profile):
@@ -605,6 +622,45 @@ def check_posts(state):
                               or str(j.get("status"))
         except Exception as e:  # noqa
             log("   WARN upload status check failed:", repr(e)[:200])
+    settle_failed(state)
+
+
+def settle_failed(state):
+    """A post that every platform refused goes back into the queue instead of being lost. A refusal over
+    a limit also holds the profile: until the platforms' day turns over, or 135 minutes, whichever is sooner
+    (upload-post itself pauses a channel for two hours after YouTube's daily limit)."""
+    try:
+        spare = json.loads(REQUEUE_FILE.read_text()) if REQUEUE_FILE.exists() else {}
+    except Exception:  # noqa
+        spare = {}
+    for cid, v in list(state["posted"].items()):
+        res = [x for x in v["result"] if isinstance(x, dict)] if isinstance(v.get("result"), list) else []
+        if isinstance(v.get("result"), str) and v["result"].lower() in ("failed", "error"):
+            res = [{"error_message": "upload " + v["result"]}]      # failed as a whole, no per-platform answer
+        failed = [x for x in res if not x.get("success")]
+        if not v.get("ok") or not failed:
+            if res:
+                v.pop("cand", None)
+            continue
+        why = "; ".join(str(x.get("error_message") or "")[:160] for x in failed)
+        at = dt.datetime.fromisoformat(v["at"])
+        if LIMIT_RE.search(why) and v.get("profile"):
+            until = min(day_turn(at, 1) + dt.timedelta(minutes=10), at + dt.timedelta(minutes=135))
+            if until > now_utc():
+                state.setdefault("hold", {})[v["profile"]] = {"until": until.isoformat(), "why": why[:200]}
+        if len(failed) < len(res):          # it is out on another platform: a second upload would double it there
+            v.pop("cand", None)
+            continue
+        cand = v.get("cand") or spare.get(cid)
+        if cand:
+            cand = {k: x for k, x in cand.items() if k != "previewed"}
+            cand["attempt"] = int(cand.get("attempt") or 0) + 1
+            state["pool"][cid] = cand
+            del state["posted"][cid]
+            log(f"   {v.get('login')} {cid[-12:]}: the post was refused ({why[:110]}), back in the queue")
+        else:
+            v["ok"], v["error"] = False, why[:300]
+            log(f"   {v.get('login')} {cid[-12:]}: the post was refused ({why[:110]}) and cannot be retried")
 
 
 def texts(c, g):
@@ -948,13 +1004,15 @@ def publish(cfg, state, c, dry):
             c["previewed"] = True          # do not render the same preview again on the next dry run
             report(c, "would_post", caption=caption)
             return
-        res = post(cfg, g["profile"], out, base, caption, yt_title, yt_desc, tags, c["id"], cover=cover,
+        idem = c["id"] + (f"-r{c['attempt']}" if c.get("attempt") else "")    # a retry must not replay the refusal
+        res = post(cfg, g["profile"], out, base, caption, yt_title, yt_desc, tags, idem, cover=cover,
                    cover_ms=cover_ms)
         state["posted"][c["id"]] = {"at": now_utc().isoformat(), "ok": True, "profile": g["profile"],
                                     "login": c["login"], "group": c["group"], "url": c["url"], "kind": c["kind"],
                                     "score": c["score"],
                                     "caption": c.get("caption"), "vod": c.get("vod"), "vod_t": c.get("vod_t"),
-                                    "hook": c.get("hook"), "request_id": res.get("request_id")}
+                                    "hook": c.get("hook"), "request_id": res.get("request_id"),
+                                    "cand": {k: x for k, x in c.items() if k != "previewed"}}
         state["pool"].pop(c["id"], None)
         report(c, "posted", caption=caption)
 
@@ -967,8 +1025,14 @@ def publish_due(cfg, state, dry):
     save_state(state)
     profile_of = {gname: g["profile"] for gname, g in cfg["groups"].items()}
     for prof, c in pick(state, profile_of, fresh_only=dry).items():
-        if posts_last_24h(state, prof) >= cfg["max_posts_per_day"]:
-            log(f"{prof}: daily cap reached")
+        hold = (state.get("hold") or {}).get(prof)
+        if hold and not dry:
+            if dt.datetime.fromisoformat(hold["until"]) > now_utc():
+                log(f"{prof}: on hold until {hold['until'][11:16]} UTC: {hold.get('why', '')[:120]}")
+                continue
+            state["hold"].pop(prof, None)
+        if posts_today(state, prof) >= cfg["max_posts_per_day"]:
+            log(f"{prof}: daily cap reached, next day starts {day_turn(now_utc(), 1).isoformat()[11:16]} UTC")
             continue
         gap = minutes_since_last_post(state, prof)
         if gap < cfg.get("min_gap_minutes", 120) and not dry:
