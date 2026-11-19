@@ -213,6 +213,527 @@
      "thumbnail_pending": true
     }
    ]
+  },
+  "chat-2932677749-801": {
+   "at": "2026-11-19T11:51:24.775834+00:00",
+   "ok": true,
+   "profile": "gta6",
+   "login": "penta",
+   "group": "en",
+   "url": "https://www.twitch.tv/videos/2932677749",
+   "kind": "chat",
+   "score": 8,
+   "caption": "Stole a car. There was a cat inside 💀",
+   "vod": "2932677749",
+   "vod_t": 36017.661257,
+   "hook": "The cat fought back",
+   "request_id": "3d67d58723c248c59a383f7d48ada0cd",
+   "cand": {
+    "id": "chat-2932677749-801",
+    "url": "https://www.twitch.tv/videos/2932677749",
+    "section": [
+     36017.661257,
+     36073.661257
+    ],
+    "kind": "chat",
+    "views": 53,
+    "title": "",
+    "vod": "2932677749",
+    "vod_t": 36017.661257,
+    "group": "en",
+    "login": "penta",
+    "name": "PENTA",
+    "viewers": 3220,
+    "chat_score": 10.6,
+    "found_at": "2026-11-19T06:47:42.271831+00:00",
+    "spike_at": "2026-11-19T06:30:19.661257+00:00",
+    "chat": [
+     "15x om",
+     "5x meow",
+     "2x ???",
+     "2x LOL",
+     "2x LUL",
+     "SPACE GET OFF HIM",
+     "LMAOOOOOOOOOO",
+     "LOLOLOL",
+     "L:MAOOOOOOOO",
+     "KEKW",
+     "FUCK HIM UP KITTY",
+     "moon2E",
+     "holy shit"
+    ],
+    "source": "cut from the live stream at a chat spike: 53 chatters in 15 s, 10.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+    "at": "2026-11-19T07:31:07.084800+00:00",
+    "cam": [
+     1416,
+     693,
+     504,
+     354
+    ],
+    "size": [
+     1920,
+     1080
+    ],
+    "dur": 66.0,
+    "words": [
+     {
+      "word": " I",
+      "start": 0.8,
+      "end": 1.2
+     },
+     {
+      "word": " didn't",
+      "start": 1.2,
+      "end": 1.32
+     },
+     {
+      "word": " think",
+      "start": 1.32,
+      "end": 1.52
+     },
+     {
+      "word": " so.",
+      "start": 1.52,
+      "end": 1.78
+     },
+     {
+      "word": " Get",
+      "start": 1.86,
+      "end": 1.92
+     },
+     {
+      "word": " the",
+      "start": 1.92,
+      "end": 2.06
+     },
+     {
+      "word": " fuck",
+      "start": 2.06,
+      "end": 2.26
+     },
+     {
+      "word": " out",
+      "start": 2.26,
+      "end": 2.56
+     },
+     {
+      "word": " of",
+      "start": 2.56,
+      "end": 2.66
+     },
+     {
+      "word": " here!",
+      "start": 2.66,
+      "end": 2.94
+     },
+     {
+      "word": " Out",
+      "start": 5.19,
+      "end": 5.47
+     },
+     {
+      "word": " of",
+      "start": 5.47,
+      "end": 5.61
+     },
+     {
+      "word": " here!",
+      "start": 5.61,
+      "end": 5.93
+     },
+     {
+      "word": " Oh,",
+      "start": 6.81,
+      "end": 7.21
+     },
+     {
+      "word": " you're",
+      "start": 7.23,
+      "end": 7.31
+     },
+     {
+      "word": " gonna",
+      "start": 7.31,
+      "end": 7.39
+     },
+     {
+      "word": " call",
+      "start": 7.39,
+      "end": 7.51
+     },
+     {
+      "word": " the",
+      "start": 7.51,
+      "end": 7.61
+     },
+     {
+      "word": " cops,",
+      "start": 7.61,
+      "end": 7.81
+     },
+     {
+      "word": " huh?",
+      "start": 7.93,
+      "end": 8.03
+     },
+     {
+      "word": " The",
+      "start": 9.15,
+      "end": 9.55
+     },
+     {
+      "word": " fuck",
+      "start": 9.55,
+      "end": 9.91
+     },
+     {
+      "word": " is",
+      "start": 9.91,
+      "end": 10.11
+     },
+     {
+      "word": " that?",
+      "start": 10.11,
+      "end": 10.33
+     },
+     {
+      "word": " Come",
+      "start": 11.85,
+      "end": 12.15
+     },
+     {
+      "word": " here.",
+      "start": 12.15,
+      "end": 12.37
+     },
+     {
+      "word": " Shit.",
+      "start": 15.35,
+      "end": 15.75
+     },
+     {
+      "word": " Oh,",
+      "start": 16.89,
+      "end": 17.29
+     },
+     {
+      "word": " fuck.",
+      "start": 18.81,
+      "end": 18.99
+     },
+     {
+      "word": " It's",
+      "start": 23.26,
+      "end": 23.66
+     },
+     {
+      "word": " fine,",
+      "start": 23.66,
+      "end": 23.82
+     },
+     {
+      "word": " we're",
+      "start": 23.94,
+      "end": 23.98
+     },
+     {
+      "word": " out",
+      "start": 23.98,
+      "end": 24.14
+     },
+     {
+      "word": " of",
+      "start": 24.14,
+      "end": 24.22
+     },
+     {
+      "word": " there.",
+      "start": 24.22,
+      "end": 24.42
+     },
+     {
+      "word": " I'm",
+      "start": 25.62,
+      "end": 25.74
+     },
+     {
+      "word": " dead",
+      "start": 25.74,
+      "end": 25.84
+     },
+     {
+      "word": " by",
+      "start": 25.84,
+      "end": 26.0
+     },
+     {
+      "word": " daylight,",
+      "start": 26.0,
+      "end": 26.18
+     },
+     {
+      "word": " you're",
+      "start": 26.36,
+      "end": 26.46
+     },
+     {
+      "word": " supposed",
+      "start": 26.46,
+      "end": 26.64
+     },
+     {
+      "word": " to",
+      "start": 26.64,
+      "end": 26.82
+     },
+     {
+      "word": " hang",
+      "start": 26.82,
+      "end": 26.92
+     },
+     {
+      "word": " the",
+      "start": 26.92,
+      "end": 27.02
+     },
+     {
+      "word": " bodies",
+      "start": 27.02,
+      "end": 27.22
+     },
+     {
+      "word": " on",
+      "start": 27.22,
+      "end": 27.42
+     },
+     {
+      "word": " a",
+      "start": 27.42,
+      "end": 27.52
+     },
+     {
+      "word": " hook.",
+      "start": 27.52,
+      "end": 27.66
+     },
+     {
+      "word": " No,",
+      "start": 27.96,
+      "end": 28.12
+     },
+     {
+      "word": " no,",
+      "start": 28.2,
+      "end": 28.28
+     },
+     {
+      "word": " I'm",
+      "start": 28.38,
+      "end": 28.5
+     },
+     {
+      "word": " playing",
+      "start": 28.5,
+      "end": 28.72
+     },
+     {
+      "word": " Grand",
+      "start": 28.72,
+      "end": 29.06
+     },
+     {
+      "word": " Theft",
+      "start": 29.06,
+      "end": 29.26
+     },
+     {
+      "word": " Auto",
+      "start": 29.26,
+      "end": 29.46
+     },
+     {
+      "word": " 6.",
+      "start": 29.46,
+      "end": 29.86
+     },
+     {
+      "word": " No,",
+      "start": 31.92,
+      "end": 32.32
+     },
+     {
+      "word": " no,",
+      "start": 32.36,
+      "end": 32.46
+     },
+     {
+      "word": " no,",
+      "start": 32.46,
+      "end": 32.64
+     },
+     {
+      "word": " no.",
+      "start": 32.64,
+      "end": 32.8
+     },
+     {
+      "word": " What",
+      "start": 46.39,
+      "end": 46.79
+     },
+     {
+      "word": " the",
+      "start": 46.79,
+      "end": 46.95
+     },
+     {
+      "word": " fuck",
+      "start": 46.95,
+      "end": 47.21
+     },
+     {
+      "word": " you",
+      "start": 47.21,
+      "end": 47.35
+     },
+     {
+      "word": "-",
+      "start": 47.35,
+      "end": 47.63
+     },
+     {
+      "word": " You're",
+      "start": 47.81,
+      "end": 47.81
+     },
+     {
+      "word": " just",
+      "start": 47.81,
+      "end": 48.77
+     },
+     {
+      "word": " gonna",
+      "start": 48.77,
+      "end": 49.01
+     },
+     {
+      "word": " get",
+      "start": 49.01,
+      "end": 49.11
+     },
+     {
+      "word": " the",
+      "start": 49.11,
+      "end": 49.31
+     },
+     {
+      "word": " hell",
+      "start": 49.31,
+      "end": 49.53
+     },
+     {
+      "word": " out",
+      "start": 49.53,
+      "end": 49.87
+     },
+     {
+      "word": " of",
+      "start": 49.87,
+      "end": 50.39
+     },
+     {
+      "word": " here.",
+      "start": 50.39,
+      "end": 50.63
+     },
+     {
+      "word": " What",
+      "start": 53.23,
+      "end": 53.71
+     },
+     {
+      "word": " the",
+      "start": 53.71,
+      "end": 53.93
+     },
+     {
+      "word": " fuck?",
+      "start": 53.93,
+      "end": 54.17
+     },
+     {
+      "word": " Still",
+      "start": 59.17,
+      "end": 59.65
+     },
+     {
+      "word": " taking",
+      "start": 59.65,
+      "end": 60.13
+     },
+     {
+      "word": " the",
+      "start": 60.13,
+      "end": 60.33
+     },
+     {
+      "word": " car,",
+      "start": 60.33,
+      "end": 60.57
+     },
+     {
+      "word": " asshole.",
+      "start": 60.71,
+      "end": 60.95
+     },
+     {
+      "word": " That's",
+      "start": 64.14,
+      "end": 64.56
+     },
+     {
+      "word": " awesome",
+      "start": 64.56,
+      "end": 64.84
+     },
+     {
+      "word": " that",
+      "start": 64.84,
+      "end": 65.02
+     },
+     {
+      "word": " that",
+      "start": 65.02,
+      "end": 65.18
+     },
+     {
+      "word": " could",
+      "start": 65.18,
+      "end": 65.3
+     },
+     {
+      "word": " happen.",
+      "start": 65.3,
+      "end": 65.62
+     }
+    ],
+    "metrics": {
+     "motion": 0.4653382195755077,
+     "motion_p90": 0.677126278821194,
+     "static_share": 0.1520912547528517,
+     "peak_db": 7.91560173034668,
+     "level_db": -31.786785125732422
+    },
+    "caption": "Stole a car. There was a cat inside 💀",
+    "hook": "The cat fought back",
+    "cover_at": 50.6,
+    "score": 8,
+    "keep": [
+     40.0,
+     66.0
+    ],
+    "attempt": 1
+   }
   }
  },
  "rejected": {
@@ -1001,6 +1522,89 @@
     "static_share": 0.06278026905829596,
     "peak_db": 6.07661247253418,
     "level_db": -23.678504943847656
+   }
+  },
+  "chat-2931685068-3146": {
+   "id": "chat-2931685068-3146",
+   "url": "https://www.twitch.tv/videos/2931685068",
+   "section": [
+    141571.723551,
+    141627.723551
+   ],
+   "kind": "chat",
+   "views": 54,
+   "title": "",
+   "vod": "2931685068",
+   "vod_t": 141571.723551,
+   "group": "ru",
+   "login": "strogo",
+   "name": "StRoGo",
+   "viewers": 6490,
+   "chat_score": 6.0,
+   "found_at": "2026-11-19T11:48:22.408226+00:00",
+   "spike_at": "2026-11-19T11:48:14.723551+00:00",
+   "chat": [
+    "5x ))",
+    "ХАХАХАХАХАХАХАХХАХАХА",
+    "АЪАЪАЪАЪХАХЪААЪАЪАХА",
+    "Лоутаб",
+    "Эаэаэаэаэхахаха",
+    "БОЖЕ БЛЯ",
+    "Проебал",
+    "Бот ахахахаххахахахаха",
+    ")))))))))"
+   ],
+   "source": "cut from the live stream at a chat spike: 54 chatters in 15 s, 6.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-19T11:50:37.429830+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 63.7,
+   "words": [
+    {
+     "word": " 4",
+     "start": 49.16,
+     "end": 50.56
+    },
+    {
+     "word": "-й",
+     "start": 50.56,
+     "end": 50.56
+    },
+    {
+     "word": " последний",
+     "start": 50.56,
+     "end": 50.62
+    },
+    {
+     "word": " Грызнулька,",
+     "start": 53.82,
+     "end": 54.52
+    },
+    {
+     "word": " в",
+     "start": 54.52,
+     "end": 54.92
+    },
+    {
+     "word": " прямом",
+     "start": 54.92,
+     "end": 55.18
+    },
+    {
+     "word": " смысле",
+     "start": 55.18,
+     "end": 55.96
+    }
+   ],
+   "metrics": {
+    "motion": 0.26184027777777774,
+    "motion_p90": 0.5748472222222223,
+    "static_share": 0.1968503937007874,
+    "peak_db": 4.489387512207031,
+    "level_db": -38.99803924560547
    }
   }
  },
@@ -3235,512 +3839,6 @@
    "keep": [
     30.0,
     59.0
-   ],
-   "attempt": 1
-  },
-  "chat-2932677749-801": {
-   "id": "chat-2932677749-801",
-   "url": "https://www.twitch.tv/videos/2932677749",
-   "section": [
-    36017.661257,
-    36073.661257
-   ],
-   "kind": "chat",
-   "views": 53,
-   "title": "",
-   "vod": "2932677749",
-   "vod_t": 36017.661257,
-   "group": "en",
-   "login": "penta",
-   "name": "PENTA",
-   "viewers": 3220,
-   "chat_score": 10.6,
-   "found_at": "2026-11-19T06:47:42.271831+00:00",
-   "spike_at": "2026-11-19T06:30:19.661257+00:00",
-   "chat": [
-    "15x om",
-    "5x meow",
-    "2x ???",
-    "2x LOL",
-    "2x LUL",
-    "SPACE GET OFF HIM",
-    "LMAOOOOOOOOOO",
-    "LOLOLOL",
-    "L:MAOOOOOOOO",
-    "KEKW",
-    "FUCK HIM UP KITTY",
-    "moon2E",
-    "holy shit"
-   ],
-   "source": "cut from the live stream at a chat spike: 53 chatters in 15 s, 10.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-19T07:31:07.084800+00:00",
-   "cam": [
-    1416,
-    693,
-    504,
-    354
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 66.0,
-   "words": [
-    {
-     "word": " I",
-     "start": 0.8,
-     "end": 1.2
-    },
-    {
-     "word": " didn't",
-     "start": 1.2,
-     "end": 1.32
-    },
-    {
-     "word": " think",
-     "start": 1.32,
-     "end": 1.52
-    },
-    {
-     "word": " so.",
-     "start": 1.52,
-     "end": 1.78
-    },
-    {
-     "word": " Get",
-     "start": 1.86,
-     "end": 1.92
-    },
-    {
-     "word": " the",
-     "start": 1.92,
-     "end": 2.06
-    },
-    {
-     "word": " fuck",
-     "start": 2.06,
-     "end": 2.26
-    },
-    {
-     "word": " out",
-     "start": 2.26,
-     "end": 2.56
-    },
-    {
-     "word": " of",
-     "start": 2.56,
-     "end": 2.66
-    },
-    {
-     "word": " here!",
-     "start": 2.66,
-     "end": 2.94
-    },
-    {
-     "word": " Out",
-     "start": 5.19,
-     "end": 5.47
-    },
-    {
-     "word": " of",
-     "start": 5.47,
-     "end": 5.61
-    },
-    {
-     "word": " here!",
-     "start": 5.61,
-     "end": 5.93
-    },
-    {
-     "word": " Oh,",
-     "start": 6.81,
-     "end": 7.21
-    },
-    {
-     "word": " you're",
-     "start": 7.23,
-     "end": 7.31
-    },
-    {
-     "word": " gonna",
-     "start": 7.31,
-     "end": 7.39
-    },
-    {
-     "word": " call",
-     "start": 7.39,
-     "end": 7.51
-    },
-    {
-     "word": " the",
-     "start": 7.51,
-     "end": 7.61
-    },
-    {
-     "word": " cops,",
-     "start": 7.61,
-     "end": 7.81
-    },
-    {
-     "word": " huh?",
-     "start": 7.93,
-     "end": 8.03
-    },
-    {
-     "word": " The",
-     "start": 9.15,
-     "end": 9.55
-    },
-    {
-     "word": " fuck",
-     "start": 9.55,
-     "end": 9.91
-    },
-    {
-     "word": " is",
-     "start": 9.91,
-     "end": 10.11
-    },
-    {
-     "word": " that?",
-     "start": 10.11,
-     "end": 10.33
-    },
-    {
-     "word": " Come",
-     "start": 11.85,
-     "end": 12.15
-    },
-    {
-     "word": " here.",
-     "start": 12.15,
-     "end": 12.37
-    },
-    {
-     "word": " Shit.",
-     "start": 15.35,
-     "end": 15.75
-    },
-    {
-     "word": " Oh,",
-     "start": 16.89,
-     "end": 17.29
-    },
-    {
-     "word": " fuck.",
-     "start": 18.81,
-     "end": 18.99
-    },
-    {
-     "word": " It's",
-     "start": 23.26,
-     "end": 23.66
-    },
-    {
-     "word": " fine,",
-     "start": 23.66,
-     "end": 23.82
-    },
-    {
-     "word": " we're",
-     "start": 23.94,
-     "end": 23.98
-    },
-    {
-     "word": " out",
-     "start": 23.98,
-     "end": 24.14
-    },
-    {
-     "word": " of",
-     "start": 24.14,
-     "end": 24.22
-    },
-    {
-     "word": " there.",
-     "start": 24.22,
-     "end": 24.42
-    },
-    {
-     "word": " I'm",
-     "start": 25.62,
-     "end": 25.74
-    },
-    {
-     "word": " dead",
-     "start": 25.74,
-     "end": 25.84
-    },
-    {
-     "word": " by",
-     "start": 25.84,
-     "end": 26.0
-    },
-    {
-     "word": " daylight,",
-     "start": 26.0,
-     "end": 26.18
-    },
-    {
-     "word": " you're",
-     "start": 26.36,
-     "end": 26.46
-    },
-    {
-     "word": " supposed",
-     "start": 26.46,
-     "end": 26.64
-    },
-    {
-     "word": " to",
-     "start": 26.64,
-     "end": 26.82
-    },
-    {
-     "word": " hang",
-     "start": 26.82,
-     "end": 26.92
-    },
-    {
-     "word": " the",
-     "start": 26.92,
-     "end": 27.02
-    },
-    {
-     "word": " bodies",
-     "start": 27.02,
-     "end": 27.22
-    },
-    {
-     "word": " on",
-     "start": 27.22,
-     "end": 27.42
-    },
-    {
-     "word": " a",
-     "start": 27.42,
-     "end": 27.52
-    },
-    {
-     "word": " hook.",
-     "start": 27.52,
-     "end": 27.66
-    },
-    {
-     "word": " No,",
-     "start": 27.96,
-     "end": 28.12
-    },
-    {
-     "word": " no,",
-     "start": 28.2,
-     "end": 28.28
-    },
-    {
-     "word": " I'm",
-     "start": 28.38,
-     "end": 28.5
-    },
-    {
-     "word": " playing",
-     "start": 28.5,
-     "end": 28.72
-    },
-    {
-     "word": " Grand",
-     "start": 28.72,
-     "end": 29.06
-    },
-    {
-     "word": " Theft",
-     "start": 29.06,
-     "end": 29.26
-    },
-    {
-     "word": " Auto",
-     "start": 29.26,
-     "end": 29.46
-    },
-    {
-     "word": " 6.",
-     "start": 29.46,
-     "end": 29.86
-    },
-    {
-     "word": " No,",
-     "start": 31.92,
-     "end": 32.32
-    },
-    {
-     "word": " no,",
-     "start": 32.36,
-     "end": 32.46
-    },
-    {
-     "word": " no,",
-     "start": 32.46,
-     "end": 32.64
-    },
-    {
-     "word": " no.",
-     "start": 32.64,
-     "end": 32.8
-    },
-    {
-     "word": " What",
-     "start": 46.39,
-     "end": 46.79
-    },
-    {
-     "word": " the",
-     "start": 46.79,
-     "end": 46.95
-    },
-    {
-     "word": " fuck",
-     "start": 46.95,
-     "end": 47.21
-    },
-    {
-     "word": " you",
-     "start": 47.21,
-     "end": 47.35
-    },
-    {
-     "word": "-",
-     "start": 47.35,
-     "end": 47.63
-    },
-    {
-     "word": " You're",
-     "start": 47.81,
-     "end": 47.81
-    },
-    {
-     "word": " just",
-     "start": 47.81,
-     "end": 48.77
-    },
-    {
-     "word": " gonna",
-     "start": 48.77,
-     "end": 49.01
-    },
-    {
-     "word": " get",
-     "start": 49.01,
-     "end": 49.11
-    },
-    {
-     "word": " the",
-     "start": 49.11,
-     "end": 49.31
-    },
-    {
-     "word": " hell",
-     "start": 49.31,
-     "end": 49.53
-    },
-    {
-     "word": " out",
-     "start": 49.53,
-     "end": 49.87
-    },
-    {
-     "word": " of",
-     "start": 49.87,
-     "end": 50.39
-    },
-    {
-     "word": " here.",
-     "start": 50.39,
-     "end": 50.63
-    },
-    {
-     "word": " What",
-     "start": 53.23,
-     "end": 53.71
-    },
-    {
-     "word": " the",
-     "start": 53.71,
-     "end": 53.93
-    },
-    {
-     "word": " fuck?",
-     "start": 53.93,
-     "end": 54.17
-    },
-    {
-     "word": " Still",
-     "start": 59.17,
-     "end": 59.65
-    },
-    {
-     "word": " taking",
-     "start": 59.65,
-     "end": 60.13
-    },
-    {
-     "word": " the",
-     "start": 60.13,
-     "end": 60.33
-    },
-    {
-     "word": " car,",
-     "start": 60.33,
-     "end": 60.57
-    },
-    {
-     "word": " asshole.",
-     "start": 60.71,
-     "end": 60.95
-    },
-    {
-     "word": " That's",
-     "start": 64.14,
-     "end": 64.56
-    },
-    {
-     "word": " awesome",
-     "start": 64.56,
-     "end": 64.84
-    },
-    {
-     "word": " that",
-     "start": 64.84,
-     "end": 65.02
-    },
-    {
-     "word": " that",
-     "start": 65.02,
-     "end": 65.18
-    },
-    {
-     "word": " could",
-     "start": 65.18,
-     "end": 65.3
-    },
-    {
-     "word": " happen.",
-     "start": 65.3,
-     "end": 65.62
-    }
-   ],
-   "metrics": {
-    "motion": 0.4653382195755077,
-    "motion_p90": 0.677126278821194,
-    "static_share": 0.1520912547528517,
-    "peak_db": 7.91560173034668,
-    "level_db": -31.786785125732422
-   },
-   "caption": "Stole a car. There was a cat inside 💀",
-   "hook": "The cat fought back",
-   "cover_at": 50.6,
-   "score": 8,
-   "keep": [
-    40.0,
-    66.0
    ],
    "attempt": 1
   }
