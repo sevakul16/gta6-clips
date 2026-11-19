@@ -1086,10 +1086,10 @@ def publish(cfg, state, c, dry):
             log("   WARN render with the cover failed, rendering without it:", repr(e)[:200])
             render(src, out, cam, f"@{c['login']}", words, c.get("keep"))
             cover_ms = None
-        why = muted(out)        # the file that goes out is checked itself, whatever happened on the way
-        if why:
-            raise RuntimeError(f"the rendered video has no sound ({why})")
-        log(f"   sound checked: mean volume {mean_volume(out)} dB")
+        why, vol = muted(out), mean_volume(out)     # the file that goes out is checked itself, whatever happened on the way
+        if why or vol is None or vol < -50:         # posts with normal sound measure about -15 to -30 dB
+            raise RuntimeError(f"the rendered video has no sound ({why or f'mean volume {vol} dB'})")
+        log(f"   sound checked: mean volume {vol} dB")
         sheet(out, f"POST_{c['login']}_{c['id'][-12:]}.jpg", n=6, width=270)
         base, caption, yt_title, yt_desc, tags = texts(c, g)
         if dry:
