@@ -1010,5 +1010,25 @@
   "gameplay_visible": true,
   "gambling_ad": true,
   "caption": ""
+ },
+ "chat-2933605288-425": {
+  "at": "2026-11-19T18:13:52.252321+00:00",
+  "moment_score": 2,
+  "what_happens": "Giveaway drawing on stream: a story cutscene, then the pause menu with a 'giveaway winner' overlay while he thanks viewers; chat congratulates the winner. Not a gameplay moment; webcam box is off the face, prediction-market sponsor logo on screen",
+  "gameplay_visible": false,
+  "gambling_ad": true,
+  "caption": ""
+ },
+ "chat-2932305259-2319": {
+  "at": "2026-11-19T18:13:52.306766+00:00",
+  "moment_score": 7,
+  "what_happens": "He trash-talks a chatter (your mom sucks at GTA, now what), takes a red car out of a parking garage and drives it straight into a canal; the car sinks, he swims out and says that is what he gets for talking so disrespectful. Chat laughs. Clear karma moment with the setup and payoff in one take",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Told chat \"your mom sucks at GTA\", then drove straight into the canal 💀",
+  "keep_start": 2.2,
+  "keep_end": 52.0,
+  "hook": "Instant karma",
+  "cover_at": 32.0
  }
 }
