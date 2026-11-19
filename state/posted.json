@@ -848,6 +848,11 @@
    "at": "2026-11-19T15:31:37.559099+00:00",
    "why": "editor: no gameplay on screen",
    "login": "ravshann"
+  },
+  "chat-2933650141-200": {
+   "at": "2026-11-19T15:53:07.284458+00:00",
+   "why": "no sound in the recording (4 s of 56 s are silent)",
+   "login": "nickmercs"
   }
  },
  "pending": {},
