@@ -67,7 +67,7 @@ groups:
     hashtags: "#gta6 #гта6 #гта #стрим #твич #gaming"
     streamers: [buster, evelone2004, bratishkinoff, deepins02, zubarefff, koreshzy, t2x2, mazellovvv, strogo, recrent]
 
-platforms: [youtube]  # TikTok: пробный ролик вышел 19.11 в 11:51 UTC (penta, кот в машине); включить обратно: [tiktok, youtube]
+platforms: [tiktok, youtube]  # TikTok снова включён 19.11: пробный ролик набрал 319 просмотров за 2 часа
 
 # Ручная разметка вебки, если автоопределение ошибается.
 # Доли кадра: x, y, ширина, высота (0..1). Пример:
