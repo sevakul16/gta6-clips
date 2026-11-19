@@ -994,5 +994,21 @@
   "keep_end": 56.0,
   "hook": "Выпрыгнула из самолёта",
   "cover_at": 43.0
+ },
+ "chat-2932167852-2521": {
+  "at": "2026-11-19T17:13:12.814821+00:00",
+  "moment_score": 3,
+  "what_happens": "Chat spike is about a personal announcement (he says he and Lera are a couple, chat congratulates), while he just drives to a strip club marked on the map and complains it is a women's one; a donation overlay covers part of the gameplay. No gameplay moment, strip club theme",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2933495403-623": {
+  "at": "2026-11-19T17:13:12.861081+00:00",
+  "moment_score": 2,
+  "what_happens": "Story phone call while he walks a pier, climbs a bamboo fence and lands on a nudist beach: naked NPCs fill the gameplay crop. Nudity rule applies; betting sponsor banners at the edges",
+  "gameplay_visible": true,
+  "gambling_ad": true,
+  "caption": ""
  }
 }
