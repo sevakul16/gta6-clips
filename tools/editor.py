@@ -3,7 +3,8 @@
   python tools/editor.py pending DIR        fetch the review branch into DIR, list candidates without a verdict
   python tools/editor.py set ID --score 7 --what "..." --caption "..." [--keep 4 31] [--no-gameplay]
                                 [--gambling] [--cam 0.0 0.6 0.25 0.4] [--hook "2-4 WORDS"] [--cover-at 18.5]
-  python tools/editor.py amend ID [--hook "..."] [--cover-at 18.5] [--caption "..."]   change an existing verdict
+                                [--no-subs]
+  python tools/editor.py amend ID [--hook "..."] [--cover-at 18.5] [--caption "..."] [--no-subs]   change a verdict
   python tools/editor.py push               commit state/verdicts.json and push it to main
 
 Rubric (same as judge.py): worth posting only when GTA 6 gameplay or an in-game cutscene is clearly on
@@ -17,6 +18,9 @@ Every approved clip also gets a cover: --hook is its headline (2-4 words, at mos
 streamer's language, no emoji, catchy but true to what happens) and --cover-at is the second of the clip
 (as in frame_times) with the strongest picture: the crash, the arrest, the punch, the face. It must lie
 inside the kept part. Without --cover-at the frame with the most motion is taken.
+
+--no-subs: the frames already show captions burned into the source (some Twitch clips carry them, white
+text with a purple marker near the bottom); our subtitles are then left out so the text is not doubled.
 """
 import argparse
 import datetime as dt
@@ -53,11 +57,13 @@ def main():
     s.add_argument("--cam", type=float, nargs=4, help="webcam box as fractions of the frame: x y w h")
     s.add_argument("--hook", help="cover headline, 2-4 words")
     s.add_argument("--cover-at", type=float, help="second of the clip for the cover frame")
+    s.add_argument("--no-subs", action="store_true", help="source already has burned-in captions")
     m = sub.add_parser("amend")
     m.add_argument("id")
     m.add_argument("--hook")
     m.add_argument("--cover-at", type=float)
     m.add_argument("--caption")
+    m.add_argument("--no-subs", action="store_true")
     sub.add_parser("push")
     a = ap.parse_args()
 
@@ -89,6 +95,8 @@ def main():
             v[a.id]["hook"] = a.hook
         if a.cover_at is not None:
             v[a.id]["cover_at"] = a.cover_at
+        if a.no_subs:
+            v[a.id]["no_subs"] = True
         VERDICTS.write_text(json.dumps(v, ensure_ascii=False, indent=1))
         print("saved", a.id, v[a.id])
     elif a.cmd == "amend":
@@ -98,6 +106,8 @@ def main():
         for k, val in (("hook", a.hook), ("cover_at", a.cover_at), ("caption", a.caption)):
             if val is not None:
                 v[a.id][k] = val
+        if a.no_subs:
+            v[a.id]["no_subs"] = True
         VERDICTS.write_text(json.dumps(v, ensure_ascii=False, indent=1))
         print("amended", a.id, v[a.id])
     elif a.cmd == "push":

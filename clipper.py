@@ -737,7 +737,7 @@ def apply_verdict(cfg, state, c, v, dur):
         if 0 <= k0 < k1 <= dur + 1 and k1 - k0 >= 12 and dur - (k1 - k0) >= 3:
             keep = [round(k0, 1), round(min(k1, dur), 1)]
         c["caption"] = (v.get("caption") or "").strip()
-        for k in ("hook", "cover_at"):
+        for k in ("hook", "cover_at", "no_subs"):
             if v.get(k) is not None:
                 c[k] = v[k]
     c.update({"at": now_utc().isoformat(), "score": score, "keep": keep})
@@ -791,7 +791,7 @@ def amend_pool(state, verdicts):
     """The editor may add a headline, a cover frame or a better caption to a moment that is already approved."""
     for cid, c in state["pool"].items():
         v = (verdicts or {}).get(cid) or {}
-        for k in ("hook", "cover_at"):
+        for k in ("hook", "cover_at", "no_subs"):
             if v.get(k) is not None:
                 c[k] = v[k]
         if (v.get("caption") or "").strip():
@@ -929,15 +929,17 @@ def publish(cfg, state, c, dry):
             c["cam"] = [int(ov[0] * vw), int(ov[1] * vh), int(ov[2] * vw), int(ov[3] * vh)]
         cam = tuple(c["cam"]) if c.get("cam") else None
         cover, cover_ms = build_cover(cfg, c, src, cam)
+        # no_subs: the editor saw captions already burned into the source, ours would double them
+        words = [] if c.get("no_subs") else (c.get("words") or [])
         # with a headline the cover is also the first half second of the video
         try:
-            render(src, out, cam, f"@{c['login']}", c.get("words") or [], c.get("keep"),
+            render(src, out, cam, f"@{c['login']}", words, c.get("keep"),
                    cover=cover if c.get("hook") else None)
         except subprocess.CalledProcessError as e:
             if not (cover and c.get("hook")):
                 raise
             log("   WARN render with the cover failed, rendering without it:", repr(e)[:200])
-            render(src, out, cam, f"@{c['login']}", c.get("words") or [], c.get("keep"))
+            render(src, out, cam, f"@{c['login']}", words, c.get("keep"))
             cover_ms = None
         sheet(out, f"POST_{c['login']}_{c['id'][-12:]}.jpg", n=6, width=270)
         base, caption, yt_title, yt_desc, tags = texts(c, g)
