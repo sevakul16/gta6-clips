@@ -655,6 +655,11 @@
    "at": "2026-11-19T05:20:56.743696+00:00",
    "why": "editor: 2/10, Driving a pickup to a meeting and a short cutscene while chat says hello; nothing happens",
    "login": "whoplohoyparen"
+  },
+  "ViscousCallousMuleRuleFive-HpdKHtraw_2ro91m": {
+   "at": "2026-11-19T05:44:04.040159+00:00",
+   "why": "picture is almost static (motion 0.03)",
+   "login": "kaicenat"
   }
  },
  "pending": {
@@ -915,6 +920,916 @@
     "static_share": 0.07623318385650224,
     "peak_db": 4.02641487121582,
     "level_db": -13.365169525146484
+   }
+  },
+  "chat-2932677749-720": {
+   "id": "chat-2932677749-720",
+   "url": "https://www.twitch.tv/videos/2932677749",
+   "section": [
+    32383.562433,
+    32439.562433
+   ],
+   "kind": "chat",
+   "views": 41,
+   "title": "",
+   "vod": "2932677749",
+   "vod_t": 32383.562433,
+   "group": "en",
+   "login": "penta",
+   "name": "PENTA",
+   "viewers": 3545,
+   "chat_score": 4.56,
+   "found_at": "2026-11-19T05:42:38.249814+00:00",
+   "spike_at": "2026-11-19T05:29:45.562433+00:00",
+   "chat": [
+    "4x MONKA",
+    "2x Evilge",
+    "2x om",
+    "2x holy",
+    "PVE",
+    "JESUS FUCK",
+    "monkaW",
+    "KEKW",
+    "OH MY GOD",
+    "worst ending PEPW",
+    "hahahahahha",
+    "florida kitty"
+   ],
+   "source": "cut from the live stream at a chat spike: 41 chatters in 15 s, 4.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-19T05:43:01.846271+00:00",
+   "cam": [
+    1453,
+    694,
+    466,
+    328
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 62.0,
+   "words": [
+    {
+     "word": " Burn",
+     "start": 3.28,
+     "end": 3.96
+    },
+    {
+     "word": " oh",
+     "start": 3.96,
+     "end": 5.36
+    },
+    {
+     "word": " shit",
+     "start": 5.36,
+     "end": 5.6
+    },
+    {
+     "word": " the",
+     "start": 5.6,
+     "end": 5.76
+    },
+    {
+     "word": " drugs",
+     "start": 5.76,
+     "end": 6.14
+    },
+    {
+     "word": " wait",
+     "start": 6.14,
+     "end": 6.88
+    },
+    {
+     "word": " a",
+     "start": 6.88,
+     "end": 7.02
+    },
+    {
+     "word": " minute",
+     "start": 7.02,
+     "end": 7.18
+    },
+    {
+     "word": " Shot",
+     "start": 24.69,
+     "end": 25.19
+    },
+    {
+     "word": " his",
+     "start": 25.19,
+     "end": 25.37
+    },
+    {
+     "word": " legs",
+     "start": 25.37,
+     "end": 25.57
+    },
+    {
+     "word": " out.",
+     "start": 25.57,
+     "end": 25.83
+    },
+    {
+     "word": " Hey,",
+     "start": 28.14,
+     "end": 28.64
+    },
+    {
+     "word": " why",
+     "start": 32.86,
+     "end": 33.44
+    },
+    {
+     "word": " am",
+     "start": 33.44,
+     "end": 33.54
+    },
+    {
+     "word": " I",
+     "start": 33.54,
+     "end": 33.6
+    },
+    {
+     "word": " getting",
+     "start": 33.6,
+     "end": 33.72
+    },
+    {
+     "word": " evil",
+     "start": 33.72,
+     "end": 34.04
+    },
+    {
+     "word": " points?",
+     "start": 34.04,
+     "end": 34.52
+    },
+    {
+     "word": " Oh",
+     "start": 39.93,
+     "end": 40.43
+    },
+    {
+     "word": " my",
+     "start": 40.43,
+     "end": 40.61
+    },
+    {
+     "word": " god.",
+     "start": 40.61,
+     "end": 40.97
+    },
+    {
+     "word": " Oh",
+     "start": 42.17,
+     "end": 42.67
+    },
+    {
+     "word": " Yo",
+     "start": 42.67,
+     "end": 43.31
+    },
+    {
+     "word": " All",
+     "start": 45.19,
+     "end": 45.69
+    },
+    {
+     "word": " right",
+     "start": 48.47,
+     "end": 48.97
+    },
+    {
+     "word": " now",
+     "start": 48.97,
+     "end": 49.17
+    },
+    {
+     "word": " this",
+     "start": 49.17,
+     "end": 49.35
+    },
+    {
+     "word": " is",
+     "start": 49.35,
+     "end": 49.45
+    },
+    {
+     "word": " the",
+     "start": 49.45,
+     "end": 49.51
+    },
+    {
+     "word": " best",
+     "start": 49.51,
+     "end": 49.69
+    },
+    {
+     "word": " game",
+     "start": 49.69,
+     "end": 49.85
+    },
+    {
+     "word": " ever",
+     "start": 49.85,
+     "end": 50.09
+    }
+   ],
+   "metrics": {
+    "motion": 0.3117793352927877,
+    "motion_p90": 0.5577210038435452,
+    "static_share": 0.09716599190283401,
+    "peak_db": 10.100467681884766,
+    "level_db": -32.73319625854492
+   }
+  },
+  "chat-2933174196-133": {
+   "id": "chat-2933174196-133",
+   "url": "https://www.twitch.tv/videos/2933174196",
+   "section": [
+    5963.601194,
+    6019.601194
+   ],
+   "kind": "chat",
+   "views": 158,
+   "title": "",
+   "vod": "2933174196",
+   "vod_t": 5963.601194,
+   "group": "en",
+   "login": "yourragegaming",
+   "name": "yourragegaming",
+   "viewers": 15492,
+   "chat_score": 3.59,
+   "found_at": "2026-11-19T05:42:38.316119+00:00",
+   "spike_at": "2026-11-19T05:28:35.601194+00:00",
+   "chat": [
+    "26x f",
+    "14x WTF",
+    "11x LOL",
+    "11x O",
+    "7x LO",
+    "7x gg",
+    "6x LAG",
+    "4x EW",
+    "3x WTFFFF",
+    "3x Ewwww",
+    "3x ewww",
+    "3x LMFAO",
+    "lmaoo",
+    "I'm",
+    "Oh no",
+    "Emp",
+    "Nvm",
+    "we good now",
+    "YOUR PC CANT HANDLE IT LMAO",
+    "Real Florida shit"
+   ],
+   "source": "cut from the live stream at a chat spike: 158 chatters in 15 s, 3.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-19T05:43:24.785077+00:00",
+   "cam": [
+    25,
+    598,
+    684,
+    481
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 65.0,
+   "words": [
+    {
+     "word": " hear",
+     "start": 0.0,
+     "end": 0.28
+    },
+    {
+     "word": " what",
+     "start": 0.28,
+     "end": 0.76
+    },
+    {
+     "word": " you're",
+     "start": 0.76,
+     "end": 0.94
+    },
+    {
+     "word": " saying",
+     "start": 0.94,
+     "end": 1.3
+    },
+    {
+     "word": " but",
+     "start": 1.3,
+     "end": 2.72
+    },
+    {
+     "word": " this",
+     "start": 2.72,
+     "end": 3.06
+    },
+    {
+     "word": " was",
+     "start": 3.06,
+     "end": 3.82
+    },
+    {
+     "word": " a",
+     "start": 3.82,
+     "end": 3.94
+    },
+    {
+     "word": " wake",
+     "start": 3.94,
+     "end": 4.1
+    },
+    {
+     "word": "-up",
+     "start": 4.1,
+     "end": 4.2
+    },
+    {
+     "word": " call",
+     "start": 4.2,
+     "end": 4.42
+    },
+    {
+     "word": " for",
+     "start": 4.42,
+     "end": 4.58
+    },
+    {
+     "word": " the",
+     "start": 4.58,
+     "end": 4.66
+    },
+    {
+     "word": " both",
+     "start": 4.66,
+     "end": 4.88
+    },
+    {
+     "word": " of",
+     "start": 4.88,
+     "end": 5.0
+    },
+    {
+     "word": " us",
+     "start": 5.0,
+     "end": 5.24
+    },
+    {
+     "word": " and",
+     "start": 5.24,
+     "end": 5.38
+    },
+    {
+     "word": " they",
+     "start": 5.38,
+     "end": 5.46
+    },
+    {
+     "word": " gonna",
+     "start": 5.46,
+     "end": 5.6
+    },
+    {
+     "word": " go",
+     "start": 5.6,
+     "end": 6.08
+    },
+    {
+     "word": " back",
+     "start": 6.08,
+     "end": 6.28
+    },
+    {
+     "word": " to",
+     "start": 6.28,
+     "end": 6.54
+    },
+    {
+     "word": " doing",
+     "start": 6.54,
+     "end": 6.74
+    },
+    {
+     "word": " the",
+     "start": 6.74,
+     "end": 6.88
+    },
+    {
+     "word": " same",
+     "start": 6.88,
+     "end": 7.02
+    },
+    {
+     "word": " bullshit",
+     "start": 7.02,
+     "end": 7.44
+    },
+    {
+     "word": " he's",
+     "start": 7.44,
+     "end": 8.3
+    },
+    {
+     "word": " straight",
+     "start": 8.3,
+     "end": 8.5
+    },
+    {
+     "word": " best",
+     "start": 8.5,
+     "end": 10.08
+    },
+    {
+     "word": " behavior",
+     "start": 10.08,
+     "end": 10.5
+    },
+    {
+     "word": " no",
+     "start": 10.5,
+     "end": 11.94
+    },
+    {
+     "word": " more",
+     "start": 11.94,
+     "end": 12.16
+    },
+    {
+     "word": " stupid",
+     "start": 12.16,
+     "end": 12.44
+    },
+    {
+     "word": " shit",
+     "start": 12.44,
+     "end": 13.18
+    },
+    {
+     "word": " My",
+     "start": 21.37,
+     "end": 22.01
+    },
+    {
+     "word": " contrast",
+     "start": 24.48,
+     "end": 25.12
+    },
+    {
+     "word": " is",
+     "start": 25.12,
+     "end": 25.38
+    },
+    {
+     "word": " on",
+     "start": 25.38,
+     "end": 25.54
+    },
+    {
+     "word": " 80",
+     "start": 25.54,
+     "end": 25.8
+    },
+    {
+     "word": " and",
+     "start": 25.8,
+     "end": 26.02
+    },
+    {
+     "word": " my",
+     "start": 26.02,
+     "end": 26.1
+    },
+    {
+     "word": " monitor",
+     "start": 26.1,
+     "end": 26.5
+    },
+    {
+     "word": " Okay,",
+     "start": 48.15,
+     "end": 48.47
+    },
+    {
+     "word": " we're",
+     "start": 48.47,
+     "end": 49.11
+    },
+    {
+     "word": " good",
+     "start": 49.11,
+     "end": 49.25
+    },
+    {
+     "word": " They",
+     "start": 49.25,
+     "end": 50.29
+    },
+    {
+     "word": " are",
+     "start": 50.29,
+     "end": 51.09
+    },
+    {
+     "word": " all",
+     "start": 51.09,
+     "end": 51.45
+    },
+    {
+     "word": " in",
+     "start": 51.45,
+     "end": 51.71
+    },
+    {
+     "word": " on",
+     "start": 51.71,
+     "end": 51.87
+    },
+    {
+     "word": " this",
+     "start": 51.87,
+     "end": 52.07
+    },
+    {
+     "word": " shit",
+     "start": 52.07,
+     "end": 52.31
+    },
+    {
+     "word": " check",
+     "start": 52.31,
+     "end": 52.65
+    },
+    {
+     "word": " the",
+     "start": 52.65,
+     "end": 52.79
+    },
+    {
+     "word": " transit",
+     "start": 52.79,
+     "end": 53.11
+    },
+    {
+     "word": " logs",
+     "start": 53.11,
+     "end": 53.55
+    },
+    {
+     "word": " every",
+     "start": 53.55,
+     "end": 54.29
+    },
+    {
+     "word": " yacht",
+     "start": 54.29,
+     "end": 54.73
+    },
+    {
+     "word": " files",
+     "start": 54.73,
+     "end": 55.21
+    },
+    {
+     "word": " and",
+     "start": 55.21,
+     "end": 55.33
+    },
+    {
+     "word": " report",
+     "start": 55.33,
+     "end": 55.63
+    },
+    {
+     "word": " man",
+     "start": 55.63,
+     "end": 55.85
+    },
+    {
+     "word": " I",
+     "start": 55.85,
+     "end": 55.99
+    },
+    {
+     "word": " can",
+     "start": 55.99,
+     "end": 56.13
+    },
+    {
+     "word": " show",
+     "start": 56.13,
+     "end": 56.35
+    },
+    {
+     "word": " you",
+     "start": 56.35,
+     "end": 56.51
+    },
+    {
+     "word": " they",
+     "start": 56.51,
+     "end": 56.83
+    },
+    {
+     "word": " have",
+     "start": 56.83,
+     "end": 57.05
+    },
+    {
+     "word": " all",
+     "start": 57.05,
+     "end": 57.43
+    },
+    {
+     "word": " been",
+     "start": 57.43,
+     "end": 57.67
+    },
+    {
+     "word": " on",
+     "start": 57.67,
+     "end": 57.87
+    },
+    {
+     "word": " there",
+     "start": 57.87,
+     "end": 58.11
+    },
+    {
+     "word": " well",
+     "start": 58.11,
+     "end": 58.47
+    },
+    {
+     "word": " Beer",
+     "start": 59.31,
+     "end": 59.67
+    },
+    {
+     "word": " no,",
+     "start": 59.67,
+     "end": 60.03
+    },
+    {
+     "word": " I",
+     "start": 60.05,
+     "end": 60.23
+    },
+    {
+     "word": " don't",
+     "start": 60.23,
+     "end": 60.35
+    },
+    {
+     "word": " want",
+     "start": 60.35,
+     "end": 60.45
+    },
+    {
+     "word": " a",
+     "start": 60.45,
+     "end": 60.49
+    },
+    {
+     "word": " beer.",
+     "start": 60.49,
+     "end": 60.65
+    },
+    {
+     "word": " I'm",
+     "start": 60.79,
+     "end": 60.83
+    },
+    {
+     "word": " done",
+     "start": 60.83,
+     "end": 61.01
+    },
+    {
+     "word": " drinking",
+     "start": 61.01,
+     "end": 61.35
+    },
+    {
+     "word": " of",
+     "start": 61.35,
+     "end": 61.53
+    },
+    {
+     "word": " course.",
+     "start": 61.53,
+     "end": 61.73
+    },
+    {
+     "word": " I",
+     "start": 61.79,
+     "end": 61.87
+    },
+    {
+     "word": " want",
+     "start": 61.87,
+     "end": 61.97
+    },
+    {
+     "word": " a",
+     "start": 61.97,
+     "end": 62.05
+    },
+    {
+     "word": " fucking",
+     "start": 62.05,
+     "end": 62.35
+    },
+    {
+     "word": " beer",
+     "start": 62.35,
+     "end": 62.75
+    }
+   ],
+   "metrics": {
+    "motion": 0.30776909000166364,
+    "motion_p90": 0.676376642821494,
+    "static_share": 0.1274131274131274,
+    "peak_db": 8.817447662353516,
+    "level_db": -27.830291748046875
+   }
+  },
+  "BlindingSassyDragonfruitTooSpicy-3bbZ_CBxyUXmW90C": {
+   "id": "BlindingSassyDragonfruitTooSpicy-3bbZ_CBxyUXmW90C",
+   "url": "https://www.twitch.tv/evelone2004/clip/BlindingSassyDragonfruitTooSpicy-3bbZ_CBxyUXmW90C",
+   "section": null,
+   "kind": "clip",
+   "views": 2797,
+   "title": "Люсия уфф",
+   "vod": "2932196917",
+   "vod_t": 3447,
+   "group": "ru",
+   "login": "evelone2004",
+   "name": "evelone2004",
+   "source": "Twitch clip made by a viewer, 2797 views, titled \"Люсия уфф\"",
+   "at": "2026-11-19T05:43:48.065096+00:00",
+   "cam": [
+    2250,
+    905,
+    214,
+    150
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 9.8,
+   "words": [
+    {
+     "word": " Так,",
+     "start": 0.0,
+     "end": 0.7
+    },
+    {
+     "word": " у",
+     "start": 0.86,
+     "end": 0.92
+    },
+    {
+     "word": " них",
+     "start": 0.92,
+     "end": 1.12
+    },
+    {
+     "word": " полицейские,",
+     "start": 1.12,
+     "end": 1.72
+    },
+    {
+     "word": " я",
+     "start": 1.78,
+     "end": 1.88
+    },
+    {
+     "word": " их",
+     "start": 1.88,
+     "end": 1.96
+    },
+    {
+     "word": " присылал",
+     "start": 1.96,
+     "end": 2.34
+    },
+    {
+     "word": " всех",
+     "start": 2.34,
+     "end": 2.48
+    },
+    {
+     "word": " толстыми",
+     "start": 2.48,
+     "end": 2.86
+    },
+    {
+     "word": " спончиками.",
+     "start": 2.86,
+     "end": 3.56
+    },
+    {
+     "word": " Нет,",
+     "start": 3.62,
+     "end": 3.8
+    },
+    {
+     "word": " и",
+     "start": 3.96,
+     "end": 4.02
+    },
+    {
+     "word": " чё",
+     "start": 4.02,
+     "end": 4.14
+    },
+    {
+     "word": " ебану?",
+     "start": 4.14,
+     "end": 4.46
+    },
+    {
+     "word": " Они",
+     "start": 4.5,
+     "end": 4.68
+    },
+    {
+     "word": " все",
+     "start": 4.68,
+     "end": 4.8
+    },
+    {
+     "word": " ебану",
+     "start": 4.8,
+     "end": 5.12
+    },
+    {
+     "word": "-то",
+     "start": 5.12,
+     "end": 5.2
+    },
+    {
+     "word": " накачаны.",
+     "start": 5.2,
+     "end": 5.66
+    },
+    {
+     "word": " Ой,",
+     "start": 6.5,
+     "end": 6.86
+    },
+    {
+     "word": " о",
+     "start": 6.96,
+     "end": 7.1
+    },
+    {
+     "word": "-о",
+     "start": 7.1,
+     "end": 7.64
+    },
+    {
+     "word": "-о",
+     "start": 7.64,
+     "end": 7.82
+    },
+    {
+     "word": "-о",
+     "start": 7.82,
+     "end": 8.0
+    },
+    {
+     "word": "-о",
+     "start": 8.0,
+     "end": 8.0
+    },
+    {
+     "word": "-о!",
+     "start": 8.0,
+     "end": 8.54
+    },
+    {
+     "word": " Е",
+     "start": 9.08,
+     "end": 9.44
+    },
+    {
+     "word": "-бану!",
+     "start": 9.44,
+     "end": 9.7
+    }
+   ],
+   "metrics": {
+    "motion": 0.5412982456140352,
+    "motion_p90": 0.6903859649122808,
+    "static_share": 0.05263157894736842,
+    "peak_db": 8.82486343383789,
+    "level_db": -21.28829574584961
    }
   }
  },
