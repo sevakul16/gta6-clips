@@ -966,5 +966,33 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "chat-2933227596-750": {
+  "at": "2026-11-19T15:18:16.176553+00:00",
+  "moment_score": 3,
+  "what_happens": "Dark story cutscene walking up to and into a house, then the stream drops (blue camera-off screen); the chat spike is about the stream cutting out, not a gameplay moment",
+  "gameplay_visible": false,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2933495403-457": {
+  "at": "2026-11-19T15:18:16.221698+00:00",
+  "moment_score": 1,
+  "what_happens": "Story cutscene with an intimate scene between the two leads (embrace, bed, fade to black), crude chat, betting sponsor banners at the edges; sex scene rule applies",
+  "gameplay_visible": false,
+  "gambling_ad": true,
+  "caption": ""
+ },
+ "chat-2933569907-313": {
+  "at": "2026-11-19T15:18:16.265769+00:00",
+  "moment_score": 6,
+  "what_happens": "Crop-duster mission: he flies to the field, the prompt says hold R1 to spray, instead the character bails out with a parachute and dies (МЕРТВА); he says 'I pressed R1, where did she jump', chat laughs. Clear fail with a punchline; betting banner under the cam is outside both crops",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Надо было просто опылить поле, а она взяла и выпрыгнула из самолёта 💀 «Я же нажал R1!»",
+  "keep_start": 29.0,
+  "keep_end": 56.0,
+  "hook": "Выпрыгнула из самолёта",
+  "cover_at": 43.0
  }
 }
