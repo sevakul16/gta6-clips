@@ -1046,5 +1046,25 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "chat-2933569907-651": {
+  "at": "2026-11-19T20:13:21.613294+00:00",
+  "moment_score": 4,
+  "what_happens": "He leaves the wardrobe in a new outfit, gets into a blue car and drives while chatting with a friend about dressing the character from his photo; the chat joke is that the sunglasses are 'wanted'. An in-joke with nothing happening on screen",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2933863992-225": {
+  "at": "2026-11-19T20:13:21.670080+00:00",
+  "moment_score": 6,
+  "what_happens": "Police chase in a red sports car: he decides not to leave the city, does donuts in front of the toll booths with the cops on him, then a car at the booth is thrown nose-up into the air; he swears in surprise and says 'magic happens'. Chat laughs (game of the year, beta test). Dynamic chase with a visible glitch payoff; betting and sponsor banners sit outside both crops",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Дрифтанул перед копами у шлагбаума, а дальше случилась магия 💀",
+  "keep_start": 24.0,
+  "keep_end": 60.0,
+  "hook": "Тачка взлетела",
+  "cover_at": 42.7
  }
 }
