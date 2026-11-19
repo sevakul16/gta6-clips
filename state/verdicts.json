@@ -592,5 +592,55 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "chat-2932226282-1123": {
+  "at": "2026-11-19T02:14:15.563869+00:00",
+  "moment_score": 7,
+  "what_happens": "Announces a 'nice little left turn, watch how I do this', slides straight into a pole and Lucia is thrown through the windshield; deadpan 'write that down so you know not to do that'; chat roars with style-point jokes. Avatar streamer, cam box set by hand around the peanut avatar",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "\"Watch how I do this\" 💀",
+  "keep_start": 30.0,
+  "keep_end": 59.0,
+  "cam": [
+   0.15,
+   0.7,
+   0.22,
+   0.3
+  ],
+  "hook": "Watch this turn",
+  "cover_at": 52.5
+ },
+ "chat-2932226282-1152": {
+  "at": "2026-11-19T02:14:15.617330+00:00",
+  "moment_score": 3,
+  "what_happens": "Dark story cutscene and a chat vote on killing a character; clip ends before the outcome, frames too dark",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2932753534-312": {
+  "at": "2026-11-19T02:14:15.669317+00:00",
+  "moment_score": 5,
+  "what_happens": "Bar cutscene, then chat pushes him to accept the dance prompt while he begs to decline; funny talk but dark cutscene frames and no gameplay event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "AntediluvianSpicyKuduBudBlast-3RuKCabPuhQ3Fgh2": {
+  "at": "2026-11-19T02:14:15.710667+00:00",
+  "moment_score": 2,
+  "what_happens": "Cinematic montage with a nude couple at a pool; nudity, no gameplay moment",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "UnusualConsiderateLionGingerPower-oJF7Ao2MX9omrH0x": {
+  "at": "2026-11-19T02:14:15.760539+00:00",
+  "moment_score": 4,
+  "what_happens": "Story cutscene argument with a girlfriend in a bikini; dialogue only, source already has burnt-in captions",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
  }
 }
