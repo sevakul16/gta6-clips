@@ -552,6 +552,31 @@ def render(src, dst, cam, label, words, keep=None, cover=None, cover_secs=0.5):
     return dst
 
 
+def silent_seconds(path, t0=0.0, dur=None):
+    """(seconds of digital silence in the span, the longest stretch), or None when there is no sound track.
+    Twitch replaces the sound of recording parts with silence once it hears licensed music in them, so a
+    moment cut again hours later can come back mute (19.11, penta: the post went out without sound)."""
+    span = ["-ss", f"{t0:.2f}"] + (["-t", f"{dur:.2f}"] if dur else [])
+    r = subprocess.run(["ffmpeg", "-v", "info", "-nostats", *span, "-i", str(path), "-vn",
+                        "-af", "silencedetect=noise=-70dB:d=1.5", "-f", "null", "-"], capture_output=True, text=True)
+    if r.returncode:
+        return None
+    spans = [float(x) for x in re.findall(r"silence_duration: ([\d.]+)", r.stderr)]
+    return sum(spans), max(spans, default=0.0)
+
+
+def muted(path, keep=None):
+    """Why the kept part of the source cannot be posted for its sound, or None when the sound is fine."""
+    dur = probe(path)[2]
+    t0, t1 = (max(0.0, keep[0]), min(dur, keep[1])) if keep else (0.0, dur)
+    quiet = silent_seconds(path, t0, t1 - t0)
+    if quiet is None:
+        return "no sound track"
+    if quiet[1] >= 4 or quiet[0] >= 0.25 * (t1 - t0):
+        return f"{quiet[0]:.0f} s of {t1 - t0:.0f} s are silent"
+    return None
+
+
 # ---------------------------------------------------------------- posting
 def post(cfg, profile, video, title, caption, yt_title, yt_desc, tags, idem, private=False, cover=None,
          cover_ms=None, platforms=None):
@@ -984,6 +1009,9 @@ def publish(cfg, state, c, dry):
     log(f"=> publishing [{c['kind']}] {c['login']} {c['score']}/10: {c.get('caption') or c['title']}")
     with tempfile.TemporaryDirectory() as td:
         src = download(c["url"], Path(td) / f"{c['id']}.mp4", c.get("section"))
+        why = muted(src, c.get("keep"))
+        if why:         # a mute video must never go out
+            raise RuntimeError(f"the source has lost its sound ({why}), most likely muted by Twitch over music")
         OUT_DIR.mkdir(exist_ok=True)
         out = OUT_DIR / f"{c['login']}_{c['id'][-12:]}_vertical.mp4"
         ov = (cfg.get("cam_overrides") or {}).get(c["login"].lower())
