@@ -1797,6 +1797,133 @@
     "peak_db": 10.57286262512207,
     "level_db": -34.874534606933594
    }
+  },
+  "chat-2933174196-489": {
+   "id": "chat-2933174196-489",
+   "url": "https://www.twitch.tv/videos/2933174196",
+   "section": [
+    22000.454714,
+    22056.454714
+   ],
+   "kind": "chat",
+   "views": 52,
+   "title": "",
+   "vod": "2933174196",
+   "vod_t": 22000.454714,
+   "group": "en",
+   "login": "yourragegaming",
+   "name": "yourragegaming",
+   "viewers": 11755,
+   "chat_score": 4.0,
+   "found_at": "2026-11-19T10:01:14.982680+00:00",
+   "spike_at": "2026-11-19T09:55:52.454714+00:00",
+   "chat": [
+    "14x LOL",
+    "2x florida man",
+    "2x Lmaoo",
+    "2x gg",
+    "2x LMAO",
+    "HAHAHA",
+    "LMAOOOO",
+    "omePfft",
+    "CAUGHT",
+    "ol",
+    "ome10",
+    "geeg",
+    "Hahahahaha"
+   ],
+   "source": "cut from the live stream at a chat spike: 52 chatters in 15 s, 4.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-19T10:01:35.290922+00:00",
+   "cam": [
+    1361,
+    686,
+    558,
+    393
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 60.3,
+   "words": [
+    {
+     "word": " I",
+     "start": 25.27,
+     "end": 26.03
+    },
+    {
+     "word": " Hell",
+     "start": 27.71,
+     "end": 28.47
+    },
+    {
+     "word": " going",
+     "start": 28.47,
+     "end": 28.79
+    },
+    {
+     "word": " on",
+     "start": 28.79,
+     "end": 29.17
+    },
+    {
+     "word": " you",
+     "start": 29.17,
+     "end": 30.13
+    },
+    {
+     "word": " come",
+     "start": 31.41,
+     "end": 31.65
+    },
+    {
+     "word": " any",
+     "start": 31.65,
+     "end": 31.87
+    },
+    {
+     "word": " closer.",
+     "start": 31.87,
+     "end": 32.17
+    },
+    {
+     "word": " I'll",
+     "start": 32.35,
+     "end": 32.87
+    },
+    {
+     "word": " fly",
+     "start": 32.87,
+     "end": 33.39
+    },
+    {
+     "word": " I",
+     "start": 33.39,
+     "end": 33.77
+    },
+    {
+     "word": " got",
+     "start": 33.77,
+     "end": 33.91
+    },
+    {
+     "word": " you",
+     "start": 33.91,
+     "end": 34.29
+    },
+    {
+     "word": " Resisting",
+     "start": 55.69,
+     "end": 57.09
+    }
+   ],
+   "metrics": {
+    "motion": 0.2412249980543233,
+    "motion_p90": 0.43303759047396684,
+    "static_share": 0.05,
+    "peak_db": 15.666109085083008,
+    "level_db": -27.8735294342041
+   }
   }
  },
  "pool": {
