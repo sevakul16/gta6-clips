@@ -1438,6 +1438,190 @@
     "peak_db": 10.531269073486328,
     "level_db": -39.54850769042969
    }
+  },
+  "chat-2933453157-439": {
+   "id": "chat-2933453157-439",
+   "url": "https://www.twitch.tv/videos/2933453157",
+   "section": [
+    19752.009076,
+    19808.009076
+   ],
+   "kind": "chat",
+   "views": 50,
+   "title": "",
+   "vod": "2933453157",
+   "vod_t": 19752.009076,
+   "group": "ru",
+   "login": "welovegames",
+   "name": "WELOVEGAMES",
+   "viewers": 7994,
+   "chat_score": 7.14,
+   "found_at": "2026-11-19T13:17:24.898579+00:00",
+   "spike_at": "2026-11-19T13:08:27.009076+00:00",
+   "chat": [
+    "9x LUL",
+    "2x ахаха",
+    "wlgLul wlgSuprise",
+    "а всё",
+    "@WELOVEGAMES уровни сложности есть в игре? CaitThinking",
+    "yyjBruh",
+    "руина",
+    "прикончили",
+    "пахахахаха",
+    "brmUGU"
+   ],
+   "source": "cut from the live stream at a chat spike: 50 chatters in 15 s, 7.1x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-19T13:17:59.046351+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 58.0,
+   "words": [
+    {
+     "word": " ой",
+     "start": 22.64,
+     "end": 23.18
+    },
+    {
+     "word": " ой",
+     "start": 23.18,
+     "end": 23.48
+    },
+    {
+     "word": " ой",
+     "start": 23.48,
+     "end": 23.78
+    },
+    {
+     "word": " ой",
+     "start": 23.78,
+     "end": 24.5
+    },
+    {
+     "word": " я",
+     "start": 24.5,
+     "end": 24.62
+    },
+    {
+     "word": " так",
+     "start": 24.62,
+     "end": 24.86
+    },
+    {
+     "word": " и",
+     "start": 24.86,
+     "end": 25.0
+    },
+    {
+     "word": " знал",
+     "start": 25.0,
+     "end": 25.22
+    },
+    {
+     "word": " что",
+     "start": 25.22,
+     "end": 25.38
+    },
+    {
+     "word": " на",
+     "start": 25.38,
+     "end": 25.52
+    },
+    {
+     "word": " дышка",
+     "start": 25.52,
+     "end": 25.86
+    },
+    {
+     "word": " сидит",
+     "start": 25.86,
+     "end": 26.38
+    },
+    {
+     "word": " я",
+     "start": 39.5,
+     "end": 40.46
+    },
+    {
+     "word": " не",
+     "start": 41.96,
+     "end": 42.92
+    },
+    {
+     "word": " успел",
+     "start": 42.92,
+     "end": 43.26
+    },
+    {
+     "word": " прожать",
+     "start": 43.26,
+     "end": 43.64
+    },
+    {
+     "word": " кнопку",
+     "start": 43.64,
+     "end": 44.26
+    },
+    {
+     "word": " я",
+     "start": 44.26,
+     "end": 44.42
+    },
+    {
+     "word": " хотел",
+     "start": 44.42,
+     "end": 44.66
+    },
+    {
+     "word": " полечиться",
+     "start": 44.66,
+     "end": 45.16
+    },
+    {
+     "word": " сейчас",
+     "start": 45.16,
+     "end": 45.64
+    },
+    {
+     "word": " блин",
+     "start": 45.64,
+     "end": 48.12
+    },
+    {
+     "word": " такая",
+     "start": 48.12,
+     "end": 49.98
+    },
+    {
+     "word": " сцена",
+     "start": 49.98,
+     "end": 50.92
+    },
+    {
+     "word": " лучший",
+     "start": 50.92,
+     "end": 52.26
+    },
+    {
+     "word": " спасибо",
+     "start": 52.26,
+     "end": 52.64
+    },
+    {
+     "word": " легенда",
+     "start": 52.64,
+     "end": 53.78
+    }
+   ],
+   "metrics": {
+    "motion": 0.21888888888888888,
+    "motion_p90": 0.5715277777777777,
+    "static_share": 0.08225108225108226,
+    "peak_db": 9.410015106201172,
+    "level_db": -28.653949737548828
+   }
   }
  },
  "pool": {
