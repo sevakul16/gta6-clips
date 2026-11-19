@@ -1569,6 +1569,158 @@
     "peak_db": 25.36349105834961,
     "level_db": -39.69538497924805
    }
+  },
+  "chat-2933605288-152": {
+   "id": "chat-2933605288-152",
+   "url": "https://www.twitch.tv/videos/2933605288",
+   "section": [
+    6821.507488,
+    6877.507488
+   ],
+   "kind": "chat",
+   "views": 97,
+   "title": "",
+   "vod": "2933605288",
+   "vod_t": 6821.507488,
+   "group": "en",
+   "login": "hutchmf",
+   "name": "HutchMF",
+   "viewers": 10546,
+   "chat_score": 6.06,
+   "found_at": "2026-11-19T14:00:01.102315+00:00",
+   "spike_at": "2026-11-19T13:58:18.507488+00:00",
+   "chat": [
+    "10x lol",
+    "7x LUL",
+    "4x KEKW",
+    "3x LO",
+    "3x HAHAHAHA",
+    "3x lmao",
+    "2x WASTED",
+    "2x gg",
+    "2x Well",
+    "2x HAH",
+    "so trash",
+    "DUmbass",
+    "smart move",
+    "omggggg",
+    "Welp!",
+    "oof",
+    "HUTCH cant drive for SHIT",
+    "like I said"
+   ],
+   "source": "cut from the live stream at a chat spike: 97 chatters in 15 s, 6.1x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-19T14:00:35.838589+00:00",
+   "cam": [
+    307,
+    372,
+    352,
+    248
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 58.0,
+   "words": [
+    {
+     "word": " I",
+     "start": 0.24,
+     "end": 0.54
+    },
+    {
+     "word": " don't",
+     "start": 0.54,
+     "end": 1.04
+    },
+    {
+     "word": " think",
+     "start": 1.04,
+     "end": 1.04
+    },
+    {
+     "word": " we",
+     "start": 1.04,
+     "end": 1.2
+    },
+    {
+     "word": " can",
+     "start": 1.2,
+     "end": 1.26
+    },
+    {
+     "word": " get",
+     "start": 22.25,
+     "end": 22.45
+    },
+    {
+     "word": " this",
+     "start": 22.45,
+     "end": 22.77
+    },
+    {
+     "word": " thing",
+     "start": 22.77,
+     "end": 22.99
+    },
+    {
+     "word": " fast.",
+     "start": 22.99,
+     "end": 23.39
+    },
+    {
+     "word": " He's",
+     "start": 30.08,
+     "end": 30.52
+    },
+    {
+     "word": " shit.",
+     "start": 30.52,
+     "end": 30.74
+    },
+    {
+     "word": " They",
+     "start": 34.78,
+     "end": 34.96
+    },
+    {
+     "word": " know",
+     "start": 34.96,
+     "end": 35.22
+    },
+    {
+     "word": " what",
+     "start": 35.22,
+     "end": 35.4
+    },
+    {
+     "word": " we",
+     "start": 35.4,
+     "end": 35.5
+    },
+    {
+     "word": " got",
+     "start": 35.5,
+     "end": 35.7
+    },
+    {
+     "word": " on",
+     "start": 35.7,
+     "end": 35.94
+    },
+    {
+     "word": " them.",
+     "start": 35.94,
+     "end": 36.1
+    }
+   ],
+   "metrics": {
+    "motion": 0.30515613652868556,
+    "motion_p90": 0.6472040668119099,
+    "static_share": 0.19480519480519481,
+    "peak_db": 8.513750076293945,
+    "level_db": -30.521657943725586
+   }
   }
  },
  "pool": {
@@ -4568,10 +4720,6 @@
    ]
   }
  },
- "no_vod": {
-  "typicalgamer": {
-   "at": "2026-11-18T13:44:18.998967+00:00"
-  }
- },
+ "no_vod": {},
  "hold": {}
 }
