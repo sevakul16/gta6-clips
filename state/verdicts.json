@@ -1066,5 +1066,31 @@
   "keep_end": 60.0,
   "hook": "Тачка взлетела",
   "cover_at": 42.7
+ },
+ "chat-2933495403-941": {
+  "at": "2026-11-19T21:14:29.943887+00:00",
+  "moment_score": 1,
+  "what_happens": "Story walk-and-talk with the mechanic while he asks chat to put a plus if they pressed a sponsor button and thanks them; the chat spike is those pluses. Sponsor talk over a cutscene, betting banners at the edges",
+  "gameplay_visible": false,
+  "gambling_ad": true,
+  "caption": ""
+ },
+ "chat-2933712317-459": {
+  "at": "2026-11-19T21:14:29.992501+00:00",
+  "moment_score": 6,
+  "what_happens": "Jason in swim trunks and slippers meets three armed men by a jeep; the streamer boasts for him (I am in slippers and very angry, do not anger the dragon), fumbles in the weapon wheel, and is shot dead at once: МЕРТВ. Chat groans and laughs (lost all his aura, took too long). Clear boast and instant payoff. Auto webcam box caught chat lines and gameplay, set by hand; betting banners are outside both crops",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "«Я в тапках и очень злой, не бесите дракона». Через 10 секунд: МЕРТВ 💀",
+  "keep_start": 15.0,
+  "keep_end": 53.0,
+  "cam": [
+   0.05,
+   0.174,
+   0.208,
+   0.26
+  ],
+  "hook": "Не бесите дракона",
+  "cover_at": 42.9
  }
 }
