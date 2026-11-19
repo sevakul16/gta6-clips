@@ -36,6 +36,8 @@ OUT_DIR = ROOT / "out"
 PREV_DIR = OUT_DIR / "previews"
 REVIEW_DIR = OUT_DIR / "review"
 VERDICTS_FILE = ROOT / "state" / "verdicts.json"
+# the sound of every queued moment, kept from the minute it was found (carried between runs by the Actions cache)
+AUDIO_DIR = Path(os.environ.get("CLIP_AUDIO_DIR") or Path.home() / "clip-audio")
 W, H = 1080, 1920
 CAM_H = 760            # height of the cam strip on top
 GAME_H = H - CAM_H     # gameplay part below
@@ -577,6 +579,43 @@ def muted(path, keep=None):
     return None
 
 
+def audio_file(cid):
+    return AUDIO_DIR / (re.sub(r"[^\w.-]", "_", cid) + ".m4a")
+
+
+def save_audio(src, cid):
+    """Keep the moment's sound as it was when found: the recording may be muted before the slot comes."""
+    try:
+        AUDIO_DIR.mkdir(parents=True, exist_ok=True)
+        # first_pts=0 keeps the sound on the file's own clock, so it lines up with the picture cut again later
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(src), "-vn", "-af", "aresample=async=1:first_pts=0",
+                        "-c:a", "aac", "-b:a", "128k", str(audio_file(cid))], check=True, timeout=120)
+    except Exception as e:  # noqa
+        log("   WARN the sound was not saved:", repr(e)[:200])
+
+
+def restore_sound(src, cid):
+    """The source cut again with the saved sound instead of its own, or None when nothing was saved."""
+    spare = audio_file(cid)
+    if not spare.exists():
+        return None
+    dst = Path(src).with_name(Path(src).stem + "_sound.mp4")
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(src), "-i", str(spare), "-map", "0:v:0", "-map", "1:a:0",
+                    "-c", "copy", str(dst)], check=True, timeout=120)
+    return dst
+
+
+def prune_audio(state):
+    """Saved sound is only needed while its moment waits for the editor or for a slot."""
+    AUDIO_DIR.mkdir(parents=True, exist_ok=True)
+    (AUDIO_DIR / ".keep").touch()       # the cache step needs the folder to hold something
+    waiting_answer = [cid for cid, v in state["posted"].items() if v.get("cand")]   # may still come back for a retry
+    keep = {audio_file(cid).name for cid in list(state["pending"]) + list(state["pool"]) + waiting_answer}
+    for p in AUDIO_DIR.glob("*.m4a"):
+        if p.name not in keep:
+            p.unlink()
+
+
 # ---------------------------------------------------------------- posting
 def post(cfg, profile, video, title, caption, yt_title, yt_desc, tags, idem, private=False, cover=None,
          cover_ms=None, platforms=None):
@@ -920,6 +959,9 @@ def evaluate(cfg, state, c, td):
             state["no_vod"][c["login"].lower()] = {"at": now_utc().isoformat()}
         return reject(state, c, "download failed")
     vw, vh, dur = probe(src)
+    why = muted(src)
+    if why:
+        return reject(state, c, f"no sound in the recording ({why})")
     cam, fullcam = detect_cam(src, cfg.get("cam_overrides", {}).get(c["login"].lower()))
     m = quality.motion(src, cam, vw, vh)
     tag = f"{c['login']}_{c['id'][-12:]}"
@@ -935,6 +977,7 @@ def evaluate(cfg, state, c, td):
         m.update(quality.loudness(pcm))
     c.update({"at": now_utc().isoformat(), "cam": list(cam) if cam else None, "size": [vw, vh],
               "dur": round(dur, 1), "words": words, "metrics": m})
+    save_audio(src, c["id"])
     if mode == "review":
         review_pack(c, src, dur, cam, words, m, g.get("language", "en"))
         state["pending"][c["id"]] = c
@@ -1011,7 +1054,11 @@ def publish(cfg, state, c, dry):
         src = download(c["url"], Path(td) / f"{c['id']}.mp4", c.get("section"))
         why = muted(src, c.get("keep"))
         if why:         # a mute video must never go out
-            raise RuntimeError(f"the source has lost its sound ({why}), most likely muted by Twitch over music")
+            fixed = restore_sound(src, c["id"])
+            if not fixed or muted(fixed, c.get("keep")):
+                raise RuntimeError(f"the source has lost its sound ({why}), most likely muted by Twitch over music")
+            log(f"   the source has lost its sound ({why}): using the sound saved when the moment was found")
+            src = fixed
         OUT_DIR.mkdir(exist_ok=True)
         out = OUT_DIR / f"{c['login']}_{c['id'][-12:]}_vertical.mp4"
         ov = (cfg.get("cam_overrides") or {}).get(c["login"].lower())
@@ -1180,6 +1227,7 @@ def main():
 
     publish_due(cfg, state, dry)   # verdicts that arrived while this run was listening and checking
     save_state(state)
+    prune_audio(state)
 
 
 if __name__ == "__main__":

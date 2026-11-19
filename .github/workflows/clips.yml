@@ -81,6 +81,15 @@ jobs:
           fi
           ls -la ~/fonts || true
       - run: pip install -q -r requirements.txt
+      # The sound of every queued moment is saved when the moment is found and carried from run to run here:
+      # Twitch mutes parts of a recording over music, and a moment cut again hours later can come back mute.
+      - name: Restore the saved sound of queued moments
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/clip-audio
+          key: clip-audio-${{ github.run_id }}
+          restore-keys: |
+            clip-audio-
       - name: Run clipper
         env:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
@@ -92,12 +101,32 @@ jobs:
           GAME: ${{ inputs.game }}
           TEST_URL: ${{ inputs.test_url }}
         run: |
+          mkdir -p ~/clip-audio && touch ~/clip-audio/.keep
           if [ -n "$TEST_URL" ]; then
             python clipper.py --url "$TEST_URL" --streamer "$(echo "$TEST_URL" | cut -d/ -f4)"
           elif [ "$DRY" = "true" ]; then
             python clipper.py --dry-run ${GAME:+--game "$GAME"}
           else
             python clipper.py
+          fi
+      - name: Save the sound of queued moments for later runs
+        if: always()
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: ~/clip-audio
+          key: clip-audio-${{ github.run_id }}
+      - name: Drop the sound caches of earlier runs
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NEW: clip-audio-${{ github.run_id }}
+        run: |
+          # only once this run's cache exists, otherwise the saved sound would be lost
+          if gh cache list --key "$NEW" --json key --jq '.[].key' | grep -qx "$NEW"; then
+            gh cache list --key clip-audio- --limit 100 --json id,key --jq ".[] | select(.key != \"$NEW\") | .id" \
+              | xargs -r -n1 gh cache delete || true
           fi
       - name: Keep rendered videos for review
         if: always()
