@@ -916,5 +916,31 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "chat-2933504535-256": {
+  "at": "2026-11-19T13:18:30.679960+00:00",
+  "moment_score": 7,
+  "what_happens": "Story mission fistfight: he gets beaten down by NPCs in an abandoned building and rages that the game is unfair while his friend on the second camera collapses laughing; chat erupts",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Его избивают по сюжету, а друг умирает со смеху 😂",
+  "keep_start": 0.0,
+  "keep_end": 59.0,
+  "cam": [
+   0.0,
+   0.575,
+   0.222,
+   0.22
+  ],
+  "hook": "Избили на сюжетке",
+  "cover_at": 14.9
+ },
+ "chat-2931685068-3217": {
+  "at": "2026-11-19T13:18:30.737445+00:00",
+  "moment_score": 2,
+  "what_happens": "Cutscene in a male strip club with dancers on stage, no gameplay, webcam not found",
+  "gameplay_visible": false,
+  "gambling_ad": false,
+  "caption": ""
  }
 }
