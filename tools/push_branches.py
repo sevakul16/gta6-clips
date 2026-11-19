@@ -32,7 +32,12 @@ def push(src, branch):
         git("add", "-A", cwd=td)
         git("-c", "user.name=clips-bot", "-c", "user.email=clips-bot@users.noreply.github.com",
             "commit", "-qm", f"{branch} from run {os.environ.get('GITHUB_RUN_ID', '?')}", cwd=td)
-        git("push", "-qf", URL, f"{branch}:{branch}", cwd=td)
+        for attempt in (1, 2, 3):       # GitHub now and then answers "remote rejected ... (failed)": try again
+            r = git("push", "-qf", URL, f"{branch}:{branch}", cwd=td, check=attempt == 3)
+            if r.returncode == 0:
+                break
+            print(f"WARN push to {branch} failed (attempt {attempt}), retrying")
+            time.sleep(10 * attempt)
     print(f"pushed {len(list(Path(src).iterdir()))} file(s) to branch {branch}")
 
 
@@ -68,11 +73,11 @@ def main():
         push(review, "review")
     prev = ROOT / "out" / "previews"
     if prev.exists() and any(prev.iterdir()):
-        push(prev, "previews")
-        try:
-            keep_posted(prev)
-        except (Exception, SystemExit) as e:  # noqa: BLE001 - never fail the run over review material
-            print("WARN posted branch not updated:", str(e)[:200])
+        for name, step in (("previews", lambda: push(prev, "previews")), ("posted", lambda: keep_posted(prev))):
+            try:
+                step()
+            except (Exception, SystemExit) as e:  # noqa: BLE001 - these sheets are for looking back: never fail the run
+                print(f"WARN {name} branch not updated:", str(e)[:200])
 
 
 if __name__ == "__main__":
