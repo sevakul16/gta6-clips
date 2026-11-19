@@ -579,6 +579,13 @@ def muted(path, keep=None):
     return None
 
 
+def mean_volume(path):
+    r = subprocess.run(["ffmpeg", "-v", "info", "-nostats", "-i", str(path), "-vn", "-af", "volumedetect",
+                        "-f", "null", "-"], capture_output=True, text=True)
+    m = re.search(r"mean_volume: (-?[\d.]+) dB", r.stderr)
+    return float(m.group(1)) if m else None
+
+
 def audio_file(cid):
     return AUDIO_DIR / (re.sub(r"[^\w.-]", "_", cid) + ".m4a")
 
@@ -1079,6 +1086,10 @@ def publish(cfg, state, c, dry):
             log("   WARN render with the cover failed, rendering without it:", repr(e)[:200])
             render(src, out, cam, f"@{c['login']}", words, c.get("keep"))
             cover_ms = None
+        why = muted(out)        # the file that goes out is checked itself, whatever happened on the way
+        if why:
+            raise RuntimeError(f"the rendered video has no sound ({why})")
+        log(f"   sound checked: mean volume {mean_volume(out)} dB")
         sheet(out, f"POST_{c['login']}_{c['id'][-12:]}.jpg", n=6, width=270)
         base, caption, yt_title, yt_desc, tags = texts(c, g)
         if dry:
