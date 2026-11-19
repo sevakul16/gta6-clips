@@ -1049,6 +1049,366 @@
     "peak_db": 15.556940078735352,
     "level_db": -36.93834686279297
    }
+  },
+  "chat-2933324578-179": {
+   "id": "chat-2933324578-179",
+   "url": "https://www.twitch.tv/videos/2933324578",
+   "section": [
+    8014.19905,
+    8070.19905
+   ],
+   "kind": "chat",
+   "views": 44,
+   "title": "",
+   "vod": "2933324578",
+   "vod_t": 8014.19905,
+   "group": "ru",
+   "login": "bigrussianmum",
+   "name": "BIGRUSSIANMUM",
+   "viewers": 3803,
+   "chat_score": 5.5,
+   "found_at": "2026-11-19T07:51:48.991288+00:00",
+   "spike_at": "2026-11-19T07:36:01.199050+00:00",
+   "chat": [
+    "2x Ого",
+    "2x wwwwwwwwwwww",
+    "2x SeemsGood",
+    "GlitchCat",
+    "А мы то чо. Это они:):)",
+    "brmVIZHU",
+    "wwwwwwwwwwwwwww",
+    "Ы",
+    "Оно databasePOGGERS",
+    "у нее игра 30 фпс? или она через DLSS 5 запустила в 60 фпс?",
+    "NeedHeal GiveHeal"
+   ],
+   "source": "cut from the live stream at a chat spike: 44 chatters in 15 s, 5.5x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-19T07:52:22.378107+00:00",
+   "cam": [
+    0,
+    277,
+    651,
+    458
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 60.0,
+   "words": [
+    {
+     "word": " Ну",
+     "start": 0.0,
+     "end": 0.14
+    },
+    {
+     "word": " и",
+     "start": 0.14,
+     "end": 0.2
+    },
+    {
+     "word": " ладно,",
+     "start": 0.2,
+     "end": 0.5
+    },
+    {
+     "word": " ну",
+     "start": 0.72,
+     "end": 0.82
+    },
+    {
+     "word": " и",
+     "start": 0.82,
+     "end": 0.92
+    },
+    {
+     "word": " закрой,",
+     "start": 0.92,
+     "end": 1.28
+    },
+    {
+     "word": " хорошо.",
+     "start": 1.38,
+     "end": 1.62
+    },
+    {
+     "word": " Прошка",
+     "start": 10.01,
+     "end": 10.47
+    },
+    {
+     "word": " вообще",
+     "start": 10.47,
+     "end": 10.69
+    },
+    {
+     "word": " ничего",
+     "start": 10.69,
+     "end": 10.91
+    },
+    {
+     "word": " не",
+     "start": 10.91,
+     "end": 11.05
+    },
+    {
+     "word": " дает.",
+     "start": 11.05,
+     "end": 11.31
+    },
+    {
+     "word": " Да",
+     "start": 13.18,
+     "end": 13.58
+    },
+    {
+     "word": " и",
+     "start": 13.58,
+     "end": 13.74
+    },
+    {
+     "word": " на",
+     "start": 13.74,
+     "end": 13.92
+    },
+    {
+     "word": " кой",
+     "start": 13.92,
+     "end": 14.12
+    },
+    {
+     "word": " черт",
+     "start": 14.12,
+     "end": 14.42
+    },
+    {
+     "word": " тогда",
+     "start": 14.42,
+     "end": 14.62
+    },
+    {
+     "word": " Сонни",
+     "start": 14.62,
+     "end": 14.94
+    },
+    {
+     "word": " Прошку",
+     "start": 14.94,
+     "end": 15.34
+    },
+    {
+     "word": " делали?",
+     "start": 15.34,
+     "end": 15.76
+    },
+    {
+     "word": " Если",
+     "start": 21.35,
+     "end": 21.71
+    },
+    {
+     "word": " в",
+     "start": 21.71,
+     "end": 21.89
+    },
+    {
+     "word": " целом,",
+     "start": 21.89,
+     "end": 22.15
+    },
+    {
+     "word": " что",
+     "start": 22.25,
+     "end": 22.37
+    },
+    {
+     "word": " она,",
+     "start": 22.37,
+     "end": 22.63
+    },
+    {
+     "word": " что",
+     "start": 22.81,
+     "end": 22.95
+    },
+    {
+     "word": " обычная",
+     "start": 22.95,
+     "end": 23.89
+    },
+    {
+     "word": " часть",
+     "start": 23.89,
+     "end": 24.05
+    },
+    {
+     "word": " ничего",
+     "start": 24.05,
+     "end": 24.33
+    },
+    {
+     "word": " не",
+     "start": 24.33,
+     "end": 24.43
+    },
+    {
+     "word": " отличается.",
+     "start": 24.43,
+     "end": 25.03
+    },
+    {
+     "word": " У",
+     "start": 28.99,
+     "end": 29.13
+    },
+    {
+     "word": " тебя",
+     "start": 29.13,
+     "end": 29.25
+    },
+    {
+     "word": " онлайн",
+     "start": 29.25,
+     "end": 29.59
+    },
+    {
+     "word": " 4000.",
+     "start": 29.59,
+     "end": 29.95
+    },
+    {
+     "word": " Терьезно?",
+     "start": 35.1,
+     "end": 35.68
+    },
+    {
+     "word": " Спасибо,",
+     "start": 35.96,
+     "end": 36.54
+    },
+    {
+     "word": " ЧАТ!",
+     "start": 36.84,
+     "end": 37.36
+    },
+    {
+     "word": " Я",
+     "start": 44.37,
+     "end": 44.95
+    },
+    {
+     "word": " просто",
+     "start": 44.95,
+     "end": 45.17
+    },
+    {
+     "word": " никогда",
+     "start": 45.17,
+     "end": 45.55
+    },
+    {
+     "word": " не",
+     "start": 45.55,
+     "end": 45.83
+    },
+    {
+     "word": " смотрю,",
+     "start": 45.83,
+     "end": 46.27
+    },
+    {
+     "word": " я",
+     "start": 46.39,
+     "end": 46.45
+    },
+    {
+     "word": " не",
+     "start": 46.45,
+     "end": 46.59
+    },
+    {
+     "word": " знаю.",
+     "start": 46.59,
+     "end": 46.93
+    },
+    {
+     "word": " Спасибо",
+     "start": 47.25,
+     "end": 47.65
+    },
+    {
+     "word": " вам",
+     "start": 47.65,
+     "end": 47.93
+    },
+    {
+     "word": " большое.",
+     "start": 47.93,
+     "end": 48.35
+    },
+    {
+     "word": " Ахренеть!",
+     "start": 49.01,
+     "end": 49.59
+    },
+    {
+     "word": " Вот",
+     "start": 50.29,
+     "end": 50.49
+    },
+    {
+     "word": " это",
+     "start": 50.49,
+     "end": 51.01
+    },
+    {
+     "word": " да!",
+     "start": 51.01,
+     "end": 51.63
+    },
+    {
+     "word": " Сюда,",
+     "start": 52.29,
+     "end": 52.67
+    },
+    {
+     "word": " спасибо,",
+     "start": 53.09,
+     "end": 53.69
+    },
+    {
+     "word": " спасибо!",
+     "start": 54.01,
+     "end": 54.45
+    },
+    {
+     "word": " Еще",
+     "start": 54.85,
+     "end": 54.99
+    },
+    {
+     "word": " 500",
+     "start": 54.99,
+     "end": 55.25
+    },
+    {
+     "word": " на",
+     "start": 55.25,
+     "end": 55.47
+    },
+    {
+     "word": " ютубе.",
+     "start": 55.47,
+     "end": 55.95
+    }
+   ],
+   "metrics": {
+    "motion": 0.18596491228070175,
+    "motion_p90": 0.4764749082007344,
+    "static_share": 0.19246861924686193,
+    "peak_db": 9.787310600280762,
+    "level_db": -20.455345153808594
+   }
   }
  },
  "pool": {
@@ -3796,10 +4156,5 @@
    "at": "2026-11-18T13:44:18.998967+00:00"
   }
  },
- "hold": {
-  "gta6": {
-   "until": "2026-11-19T07:36:45.190509+00:00",
-   "why": "YouTube rate limit exceeded. Please retry later. Please wait and try again later.. Learn more: https://docs.upload-post.com/resources/common-errors#rate-limits."
-  }
- }
+ "hold": {}
 }
