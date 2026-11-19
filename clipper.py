@@ -554,29 +554,55 @@ def render(src, dst, cam, label, words, keep=None, cover=None, cover_secs=0.5):
     return dst
 
 
-def silent_seconds(path, t0=0.0, dur=None):
-    """(seconds of digital silence in the span, the longest stretch), or None when there is no sound track.
+MUTE_RUN, MUTE_SHARE = 10.0, 0.25   # that long in a row, or that share of the part: muted, not a quiet pause
+MUTE_LOST = 4.0                     # seconds that went silent since the moment was found: a part was muted
+
+
+def silences(path, t0=0.0, dur=None):
+    """Stretches of digital silence in the span as [(start, seconds)], or None when there is no sound track.
     Twitch replaces the sound of recording parts with silence once it hears licensed music in them, so a
-    moment cut again hours later can come back mute (19.11, penta: the post went out without sound)."""
+    moment cut again hours later can come back mute (19.11, penta: the post went out without sound).
+    A few silent seconds are normal though: a loading screen with the microphone gated."""
     span = ["-ss", f"{t0:.2f}"] + (["-t", f"{dur:.2f}"] if dur else [])
     r = subprocess.run(["ffmpeg", "-v", "info", "-nostats", *span, "-i", str(path), "-vn",
                         "-af", "silencedetect=noise=-70dB:d=1.5", "-f", "null", "-"], capture_output=True, text=True)
     if r.returncode:
         return None
-    spans = [float(x) for x in re.findall(r"silence_duration: ([\d.]+)", r.stderr)]
-    return sum(spans), max(spans, default=0.0)
+    starts = [max(0.0, float(x)) for x in re.findall(r"silence_start: (-?[\d.]+)", r.stderr)]
+    lens = [float(x) for x in re.findall(r"silence_duration: ([\d.]+)", r.stderr)]
+    if len(starts) > len(lens) and dur:         # silence that runs to the end is not always closed by ffmpeg
+        lens.append(max(0.0, dur - starts[len(lens)]))
+    return [(round(a, 1), round(b, 1)) for a, b in zip(starts, lens)]
+
+
+def kept_span(path, keep=None):
+    dur = probe(path)[2]
+    return (max(0.0, keep[0]), min(dur, keep[1])) if keep else (0.0, dur)
 
 
 def muted(path, keep=None):
     """Why the kept part of the source cannot be posted for its sound, or None when the sound is fine."""
-    dur = probe(path)[2]
-    t0, t1 = (max(0.0, keep[0]), min(dur, keep[1])) if keep else (0.0, dur)
-    quiet = silent_seconds(path, t0, t1 - t0)
+    t0, t1 = kept_span(path, keep)
+    quiet = silences(path, t0, t1 - t0)
     if quiet is None:
         return "no sound track"
-    if quiet[1] >= 4 or quiet[0] >= 0.25 * (t1 - t0):
-        return f"{quiet[0]:.0f} s of {t1 - t0:.0f} s are silent"
+    total, longest = sum(b for _, b in quiet), max((b for _, b in quiet), default=0.0)
+    if longest >= MUTE_RUN or total >= MUTE_SHARE * (t1 - t0):
+        return f"{total:.0f} s of {t1 - t0:.0f} s are silent"
     return None
+
+
+def sound_lost(src, cid, keep=None):
+    """Seconds of the kept part that are silent now and were not when the moment was found (0 if nothing was saved).
+    This catches a part muted since then that is too short for muted() to call."""
+    spare = audio_file(cid)
+    if not spare.exists():
+        return 0.0
+    t0, t1 = kept_span(src, keep)
+    now, then = silences(src, t0, t1 - t0), silences(spare, t0, t1 - t0)
+    if now is None or then is None:
+        return 0.0
+    return sum(b for _, b in now) - sum(b for _, b in then)
 
 
 def mean_volume(path):
@@ -839,6 +865,7 @@ def review_pack(c, src, dur, cam, words, m, lang):
         "cam_box": [round(cam[0] / vw, 3), round(cam[1] / vh, 3), round(cam[2] / vw, 3), round(cam[3] / vh, 3)]
                    if cam else None,
         "metrics": {a: round(b, 3) for a, b in m.items()}, "found_at": c.get("at"),
+        "silent_stretches": [f"{a:.0f}-{a + b:.0f} s" for a, b in c.get("silence") or []] or None,
         "chat_at_spike": c.get("chat") or None,
         "transcript": judge.transcript(words)}, ensure_ascii=False, indent=1))
 
@@ -969,6 +996,9 @@ def evaluate(cfg, state, c, td):
     why = muted(src)
     if why:
         return reject(state, c, f"no sound in the recording ({why})")
+    quiet = silences(src, 0.0, dur) or []
+    if quiet:       # short pauses are fine, the editor sees where they are and can cut around them
+        log("   silent stretches (start, seconds):", quiet)
     cam, fullcam = detect_cam(src, cfg.get("cam_overrides", {}).get(c["login"].lower()))
     m = quality.motion(src, cam, vw, vh)
     tag = f"{c['login']}_{c['id'][-12:]}"
@@ -983,7 +1013,7 @@ def evaluate(cfg, state, c, td):
     if pcm is not None:
         m.update(quality.loudness(pcm))
     c.update({"at": now_utc().isoformat(), "cam": list(cam) if cam else None, "size": [vw, vh],
-              "dur": round(dur, 1), "words": words, "metrics": m})
+              "dur": round(dur, 1), "words": words, "metrics": m, "silence": quiet})
     save_audio(src, c["id"])
     if mode == "review":
         review_pack(c, src, dur, cam, words, m, g.get("language", "en"))
@@ -1060,6 +1090,9 @@ def publish(cfg, state, c, dry):
     with tempfile.TemporaryDirectory() as td:
         src = download(c["url"], Path(td) / f"{c['id']}.mp4", c.get("section"))
         why = muted(src, c.get("keep"))
+        if not why:
+            lost = sound_lost(src, c["id"], c.get("keep"))
+            why = f"{lost:.0f} s went silent since the moment was found" if lost >= MUTE_LOST else None
         if why:         # a mute video must never go out
             fixed = restore_sound(src, c["id"])
             if not fixed or muted(fixed, c.get("keep")):
