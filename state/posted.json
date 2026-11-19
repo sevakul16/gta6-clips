@@ -1141,6 +1141,236 @@
     "peak_db": 15.081764221191406,
     "level_db": -32.61696243286133
    }
+  },
+  "chat-2931685068-3058": {
+   "id": "chat-2931685068-3058",
+   "url": "https://www.twitch.tv/videos/2931685068",
+   "section": [
+    137584.824713,
+    137640.824713
+   ],
+   "kind": "chat",
+   "views": 51,
+   "title": "",
+   "vod": "2931685068",
+   "vod_t": 137584.824713,
+   "group": "ru",
+   "login": "strogo",
+   "name": "StRoGo",
+   "viewers": 5563,
+   "chat_score": 5.1,
+   "found_at": "2026-11-19T10:43:45.385757+00:00",
+   "spike_at": "2026-11-19T10:41:47.824713+00:00",
+   "chat": [
+    "9x привет",
+    "6x ку",
+    "3x МНЕ",
+    "привет передай мне",
+    "ПЕРЕДАЙ МНЕ ПОКА",
+    "был в стрипухе?",
+    "МНЕ ПРИВЕТ Я ФАНАТКА",
+    "дарова",
+    "МНЕ ПЕРЕДАЙ ПРИВЕТ",
+    "Привет иди нахй",
+    "Строго привет соси"
+   ],
+   "source": "cut from the live stream at a chat spike: 51 chatters in 15 s, 5.1x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-19T10:44:20.178957+00:00",
+   "cam": [
+    1591,
+    414,
+    319,
+    224
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.7,
+   "words": [
+    {
+     "word": " Включил",
+     "start": 0.0,
+     "end": 0.34
+    },
+    {
+     "word": " первое",
+     "start": 0.34,
+     "end": 0.58
+    },
+    {
+     "word": " лицо,",
+     "start": 0.58,
+     "end": 0.78
+    },
+    {
+     "word": " пацаны",
+     "start": 0.92,
+     "end": 2.16
+    },
+    {
+     "word": " Кто",
+     "start": 5.24,
+     "end": 6.64
+    },
+    {
+     "word": " говорил",
+     "start": 6.64,
+     "end": 7.94
+    },
+    {
+     "word": " нету?",
+     "start": 7.94,
+     "end": 12.0
+    },
+    {
+     "word": " Бля,",
+     "start": 33.11,
+     "end": 33.49
+    },
+    {
+     "word": " медленно,",
+     "start": 33.49,
+     "end": 33.87
+    },
+    {
+     "word": " есть",
+     "start": 33.95,
+     "end": 34.09
+    },
+    {
+     "word": " еще",
+     "start": 34.09,
+     "end": 34.27
+    },
+    {
+     "word": " я",
+     "start": 34.27,
+     "end": 34.35
+    },
+    {
+     "word": " курок",
+     "start": 34.35,
+     "end": 34.61
+    },
+    {
+     "word": " на",
+     "start": 34.61,
+     "end": 34.73
+    },
+    {
+     "word": " полную",
+     "start": 34.73,
+     "end": 35.03
+    },
+    {
+     "word": " стену",
+     "start": 35.03,
+     "end": 35.23
+    },
+    {
+     "word": " ажал",
+     "start": 35.23,
+     "end": 35.41
+    },
+    {
+     "word": " Я",
+     "start": 35.41,
+     "end": 35.51
+    },
+    {
+     "word": " хотел",
+     "start": 35.51,
+     "end": 35.69
+    },
+    {
+     "word": " этого",
+     "start": 35.69,
+     "end": 35.89
+    },
+    {
+     "word": " чела",
+     "start": 35.89,
+     "end": 36.13
+    },
+    {
+     "word": " сбить",
+     "start": 36.13,
+     "end": 36.45
+    },
+    {
+     "word": " Бля,",
+     "start": 41.53,
+     "end": 41.91
+    },
+    {
+     "word": " я",
+     "start": 41.95,
+     "end": 42.01
+    },
+    {
+     "word": " не",
+     "start": 42.01,
+     "end": 42.05
+    },
+    {
+     "word": " могу",
+     "start": 42.05,
+     "end": 42.23
+    },
+    {
+     "word": " быстро",
+     "start": 42.23,
+     "end": 42.59
+    },
+    {
+     "word": " ехать",
+     "start": 42.59,
+     "end": 43.31
+    },
+    {
+     "word": " Не",
+     "start": 47.92,
+     "end": 48.62
+    },
+    {
+     "word": " знаю,",
+     "start": 48.62,
+     "end": 48.82
+    },
+    {
+     "word": " над",
+     "start": 48.94,
+     "end": 49.04
+    },
+    {
+     "word": " сыпой",
+     "start": 49.04,
+     "end": 49.4
+    },
+    {
+     "word": " за",
+     "start": 49.4,
+     "end": 49.52
+    },
+    {
+     "word": " рулем",
+     "start": 49.52,
+     "end": 50.02
+    },
+    {
+     "word": " Сэкси",
+     "start": 51.12,
+     "end": 51.5
+    }
+   ],
+   "metrics": {
+    "motion": 0.10671965317919076,
+    "motion_p90": 0.688150289017341,
+    "static_share": 0.06637168141592921,
+    "peak_db": 21.627595901489258,
+    "level_db": -46.66807174682617
+   }
   }
  },
  "pool": {
@@ -3889,10 +4119,5 @@
    "at": "2026-11-18T13:44:18.998967+00:00"
   }
  },
- "hold": {
-  "gta6": {
-   "until": "2026-11-19T10:29:00.336155+00:00",
-   "why": "This YouTube channel has reached the number of videos it may upload today. The limit is set by YouTube per channel and resets around midnight Pacific Time. Redu"
-  }
- }
+ "hold": {}
 }
