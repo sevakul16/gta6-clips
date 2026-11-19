@@ -2695,6 +2695,424 @@
     "peak_db": 7.6364288330078125,
     "level_db": -19.692607879638672
    }
+  },
+  "chat-2932753534-312": {
+   "id": "chat-2932753534-312",
+   "url": "https://www.twitch.tv/videos/2932753534",
+   "section": [
+    14039.524115,
+    14095.524115
+   ],
+   "kind": "chat",
+   "views": 126,
+   "title": "",
+   "vod": "2932753534",
+   "vod_t": 14039.524115,
+   "group": "en",
+   "login": "summit1g",
+   "name": "summit1g",
+   "viewers": 15604,
+   "chat_score": 10.5,
+   "found_at": "2026-11-19T02:03:00.185050+00:00",
+   "spike_at": "2026-11-19T01:45:12.524115+00:00",
+   "chat": [
+    "28x DANCE",
+    "7x do it",
+    "5x decline",
+    "5x LUL",
+    "4x DANCE BRO",
+    "4x dancer",
+    "3x lol",
+    "2x SQUARE",
+    "2x dance!",
+    "2x X",
+    "2x do it man",
+    "so gay",
+    "she just got out man",
+    "Decline her lmfao",
+    "cmon RP",
+    "$100 dance",
+    "Is this GTA or. Dating sim?",
+    "It's a game",
+    "get down sir"
+   ],
+   "source": "cut from the live stream at a chat spike: 126 chatters in 15 s, 10.5x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-19T02:03:32.379657+00:00",
+   "cam": [
+    42,
+    491,
+    310,
+    218
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " I'm",
+     "start": 0.0,
+     "end": 0.2
+    },
+    {
+     "word": " by",
+     "start": 0.2,
+     "end": 0.34
+    },
+    {
+     "word": " me.",
+     "start": 0.34,
+     "end": 0.58
+    },
+    {
+     "word": " Let's",
+     "start": 0.7,
+     "end": 1.0
+    },
+    {
+     "word": " go.",
+     "start": 1.0,
+     "end": 1.26
+    },
+    {
+     "word": " All",
+     "start": 1.58,
+     "end": 1.92
+    },
+    {
+     "word": " right.",
+     "start": 1.92,
+     "end": 2.24
+    },
+    {
+     "word": " What's",
+     "start": 2.36,
+     "end": 2.88
+    },
+    {
+     "word": " it",
+     "start": 2.88,
+     "end": 2.96
+    },
+    {
+     "word": " gonna",
+     "start": 2.96,
+     "end": 3.08
+    },
+    {
+     "word": " be?",
+     "start": 3.08,
+     "end": 3.34
+    },
+    {
+     "word": " Three",
+     "start": 3.54,
+     "end": 3.74
+    },
+    {
+     "word": " shots",
+     "start": 3.74,
+     "end": 3.96
+    },
+    {
+     "word": " of",
+     "start": 3.96,
+     "end": 4.14
+    },
+    {
+     "word": " Chingam.",
+     "start": 4.14,
+     "end": 4.44
+    },
+    {
+     "word": " Come",
+     "start": 4.72,
+     "end": 5.06
+    },
+    {
+     "word": " on,",
+     "start": 5.06,
+     "end": 5.32
+    },
+    {
+     "word": " man.",
+     "start": 5.42,
+     "end": 5.54
+    },
+    {
+     "word": " That's",
+     "start": 5.68,
+     "end": 5.92
+    },
+    {
+     "word": " trash",
+     "start": 5.92,
+     "end": 6.12
+    },
+    {
+     "word": " Three",
+     "start": 6.74,
+     "end": 7.26
+    },
+    {
+     "word": " shots",
+     "start": 7.26,
+     "end": 7.64
+    },
+    {
+     "word": " of",
+     "start": 7.64,
+     "end": 7.84
+    },
+    {
+     "word": " since",
+     "start": 7.84,
+     "end": 8.18
+    },
+    {
+     "word": " imito",
+     "start": 8.18,
+     "end": 8.82
+    },
+    {
+     "word": " seriously",
+     "start": 8.82,
+     "end": 9.38
+    },
+    {
+     "word": " only",
+     "start": 9.38,
+     "end": 9.74
+    },
+    {
+     "word": " bro",
+     "start": 9.74,
+     "end": 10.1
+    },
+    {
+     "word": " Okay",
+     "start": 10.1,
+     "end": 10.74
+    },
+    {
+     "word": " You",
+     "start": 34.44,
+     "end": 34.88
+    },
+    {
+     "word": " Do",
+     "start": 34.88,
+     "end": 34.88
+    },
+    {
+     "word": " we",
+     "start": 34.88,
+     "end": 35.0
+    },
+    {
+     "word": " have",
+     "start": 35.0,
+     "end": 35.22
+    },
+    {
+     "word": " to",
+     "start": 35.22,
+     "end": 35.42
+    },
+    {
+     "word": " can",
+     "start": 35.42,
+     "end": 35.64
+    },
+    {
+     "word": " I",
+     "start": 35.64,
+     "end": 35.74
+    },
+    {
+     "word": " please",
+     "start": 35.74,
+     "end": 35.98
+    },
+    {
+     "word": " decline",
+     "start": 35.98,
+     "end": 36.4
+    },
+    {
+     "word": " fucking",
+     "start": 40.11,
+     "end": 41.65
+    },
+    {
+     "word": " hey,",
+     "start": 41.65,
+     "end": 42.09
+    },
+    {
+     "word": " I",
+     "start": 42.09,
+     "end": 42.29
+    },
+    {
+     "word": " hate",
+     "start": 42.29,
+     "end": 42.47
+    },
+    {
+     "word": " you",
+     "start": 42.47,
+     "end": 42.65
+    },
+    {
+     "word": " guys",
+     "start": 42.65,
+     "end": 42.95
+    },
+    {
+     "word": " We'll",
+     "start": 48.33,
+     "end": 48.81
+    },
+    {
+     "word": " roll",
+     "start": 48.81,
+     "end": 48.81
+    },
+    {
+     "word": " Just",
+     "start": 48.81,
+     "end": 48.81
+    },
+    {
+     "word": " want",
+     "start": 48.81,
+     "end": 49.05
+    },
+    {
+     "word": " you",
+     "start": 49.05,
+     "end": 49.21
+    },
+    {
+     "word": " to",
+     "start": 49.21,
+     "end": 49.33
+    },
+    {
+     "word": " know",
+     "start": 49.33,
+     "end": 49.47
+    },
+    {
+     "word": " that",
+     "start": 49.47,
+     "end": 49.61
+    },
+    {
+     "word": " I",
+     "start": 49.61,
+     "end": 49.81
+    },
+    {
+     "word": " would",
+     "start": 49.81,
+     "end": 50.01
+    },
+    {
+     "word": " decline",
+     "start": 50.01,
+     "end": 50.35
+    },
+    {
+     "word": " in",
+     "start": 50.35,
+     "end": 50.57
+    },
+    {
+     "word": " my",
+     "start": 50.57,
+     "end": 50.71
+    },
+    {
+     "word": " own",
+     "start": 50.71,
+     "end": 50.93
+    },
+    {
+     "word": " play",
+     "start": 50.93,
+     "end": 51.21
+    },
+    {
+     "word": " through",
+     "start": 51.21,
+     "end": 51.41
+    },
+    {
+     "word": " all",
+     "start": 51.41,
+     "end": 51.69
+    },
+    {
+     "word": " right.",
+     "start": 51.69,
+     "end": 52.27
+    },
+    {
+     "word": " All",
+     "start": 52.45,
+     "end": 52.93
+    },
+    {
+     "word": " right,",
+     "start": 52.93,
+     "end": 53.51
+    },
+    {
+     "word": " that's",
+     "start": 53.51,
+     "end": 54.31
+    },
+    {
+     "word": " what",
+     "start": 54.31,
+     "end": 54.41
+    },
+    {
+     "word": " you",
+     "start": 54.41,
+     "end": 54.55
+    },
+    {
+     "word": " got",
+     "start": 54.55,
+     "end": 54.81
+    },
+    {
+     "word": " move",
+     "start": 54.81,
+     "end": 55.07
+    },
+    {
+     "word": " towards",
+     "start": 55.07,
+     "end": 55.31
+    },
+    {
+     "word": " Lucia",
+     "start": 55.31,
+     "end": 55.69
+    }
+   ],
+   "metrics": {
+    "motion": 0.2308080808080808,
+    "motion_p90": 0.48865800865800874,
+    "static_share": 0.0,
+    "peak_db": 8.890729904174805,
+    "level_db": -32.560516357421875
+   }
   }
  },
  "pool": {
