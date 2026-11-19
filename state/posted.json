@@ -203,7 +203,16 @@
    "vod": "2932186798",
    "vod_t": 8609,
    "hook": "Выкинул Дариночку",
-   "request_id": "93912ec512a04c26a3f68e85a6b66b63"
+   "request_id": "93912ec512a04c26a3f68e85a6b66b63",
+   "result": [
+    {
+     "platform": "youtube",
+     "success": true,
+     "post_url": "https://www.youtube.com/watch?v=TUJu95Ij_5c",
+     "thumbnail_set": false,
+     "thumbnail_pending": true
+    }
+   ]
   }
  },
  "rejected": {
@@ -661,6 +670,1030 @@
     "static_share": 0.0,
     "peak_db": 3.8640756607055664,
     "level_db": -12.799576759338379
+   }
+  },
+  "chat-2932923366-289": {
+   "id": "chat-2932923366-289",
+   "url": "https://www.twitch.tv/videos/2932923366",
+   "section": [
+    12985.013634,
+    13041.013634
+   ],
+   "kind": "chat",
+   "views": 22,
+   "title": "",
+   "vod": "2932923366",
+   "vod_t": 12985.013634,
+   "group": "ru",
+   "login": "whoplohoyparen",
+   "name": "WHOPLOHOYPAREN",
+   "viewers": 3137,
+   "chat_score": 5.5,
+   "found_at": "2026-11-19T03:51:04.758472+00:00",
+   "spike_at": "2026-11-19T03:41:17.013634+00:00",
+   "chat": [
+    "11x 10",
+    "2x 17",
+    "На 10",
+    "11 )",
+    "Я вайб жосткий",
+    "бем",
+    "все 10",
+    "Ууфф бл",
+    "10/10",
+    "100000000"
+   ],
+   "source": "cut from the live stream at a chat spike: 22 chatters in 15 s, 5.5x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-19T03:51:58.395687+00:00",
+   "cam": [
+    146,
+    481,
+    184,
+    130
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 61.0,
+   "words": [
+    {
+     "word": " Ха",
+     "start": 10.96,
+     "end": 11.38
+    },
+    {
+     "word": "-ха",
+     "start": 11.38,
+     "end": 11.64
+    },
+    {
+     "word": "-ха.",
+     "start": 11.64,
+     "end": 12.02
+    },
+    {
+     "word": " Там",
+     "start": 12.28,
+     "end": 12.46
+    },
+    {
+     "word": " она.",
+     "start": 12.46,
+     "end": 12.64
+    },
+    {
+     "word": " Не",
+     "start": 12.96,
+     "end": 13.22
+    },
+    {
+     "word": " точно",
+     "start": 13.22,
+     "end": 13.68
+    },
+    {
+     "word": " однажды,",
+     "start": 13.68,
+     "end": 14.02
+    },
+    {
+     "word": " где",
+     "start": 14.24,
+     "end": 14.42
+    },
+    {
+     "word": " на",
+     "start": 14.42,
+     "end": 14.6
+    },
+    {
+     "word": " воде.",
+     "start": 14.6,
+     "end": 15.34
+    },
+    {
+     "word": " Не",
+     "start": 15.42,
+     "end": 15.94
+    },
+    {
+     "word": "-не",
+     "start": 15.94,
+     "end": 16.06
+    },
+    {
+     "word": "-не,",
+     "start": 16.06,
+     "end": 16.28
+    },
+    {
+     "word": " ты",
+     "start": 16.4,
+     "end": 16.84
+    },
+    {
+     "word": " выглядишь",
+     "start": 16.84,
+     "end": 17.02
+    },
+    {
+     "word": " очень",
+     "start": 17.02,
+     "end": 17.12
+    },
+    {
+     "word": " хорошо.",
+     "start": 17.12,
+     "end": 17.22
+    },
+    {
+     "word": " Потому",
+     "start": 17.8,
+     "end": 18.08
+    },
+    {
+     "word": " что",
+     "start": 18.08,
+     "end": 18.08
+    },
+    {
+     "word": " у",
+     "start": 18.08,
+     "end": 18.2
+    },
+    {
+     "word": " нас",
+     "start": 18.2,
+     "end": 18.5
+    },
+    {
+     "word": " все",
+     "start": 18.5,
+     "end": 18.54
+    },
+    {
+     "word": " у",
+     "start": 18.54,
+     "end": 18.6
+    },
+    {
+     "word": " нас",
+     "start": 18.6,
+     "end": 18.6
+    },
+    {
+     "word": " немного",
+     "start": 18.6,
+     "end": 18.88
+    },
+    {
+     "word": " работы.",
+     "start": 18.88,
+     "end": 19.16
+    },
+    {
+     "word": " Как",
+     "start": 19.92,
+     "end": 20.44
+    },
+    {
+     "word": " было?",
+     "start": 20.44,
+     "end": 20.64
+    },
+    {
+     "word": " Дальше",
+     "start": 21.38,
+     "end": 21.9
+    },
+    {
+     "word": " шифт",
+     "start": 21.9,
+     "end": 22.36
+    },
+    {
+     "word": " на",
+     "start": 22.36,
+     "end": 22.48
+    },
+    {
+     "word": " сторону",
+     "start": 22.48,
+     "end": 22.74
+    },
+    {
+     "word": " хайуэ,",
+     "start": 22.74,
+     "end": 23.44
+    },
+    {
+     "word": " встанут",
+     "start": 23.6,
+     "end": 23.72
+    },
+    {
+     "word": " кубстер",
+     "start": 23.72,
+     "end": 24.5
+    },
+    {
+     "word": " в",
+     "start": 24.5,
+     "end": 24.64
+    },
+    {
+     "word": " голову,",
+     "start": 24.64,
+     "end": 25.24
+    },
+    {
+     "word": " я",
+     "start": 25.78,
+     "end": 26.3
+    },
+    {
+     "word": " получил",
+     "start": 26.3,
+     "end": 26.44
+    },
+    {
+     "word": " лучшие",
+     "start": 26.44,
+     "end": 26.72
+    },
+    {
+     "word": " работа.",
+     "start": 26.72,
+     "end": 27.06
+    },
+    {
+     "word": " Эх,",
+     "start": 27.2,
+     "end": 27.44
+    },
+    {
+     "word": " этот",
+     "start": 27.96,
+     "end": 27.96
+    },
+    {
+     "word": " бомб,",
+     "start": 27.96,
+     "end": 28.16
+    },
+    {
+     "word": " я",
+     "start": 28.78,
+     "end": 29.3
+    },
+    {
+     "word": " могу",
+     "start": 29.3,
+     "end": 29.3
+    },
+    {
+     "word": " тут",
+     "start": 29.3,
+     "end": 29.36
+    },
+    {
+     "word": " уйти",
+     "start": 29.36,
+     "end": 29.38
+    },
+    {
+     "word": " на",
+     "start": 29.38,
+     "end": 29.48
+    },
+    {
+     "word": " другого.",
+     "start": 29.48,
+     "end": 29.7
+    },
+    {
+     "word": " Они",
+     "start": 30.12,
+     "end": 30.64
+    },
+    {
+     "word": " услышат",
+     "start": 30.64,
+     "end": 30.82
+    },
+    {
+     "word": " его?",
+     "start": 30.82,
+     "end": 30.92
+    },
+    {
+     "word": " Горько,",
+     "start": 31.2,
+     "end": 31.72
+    },
+    {
+     "word": " почему",
+     "start": 31.78,
+     "end": 32.64
+    },
+    {
+     "word": " мы",
+     "start": 32.64,
+     "end": 33.3
+    },
+    {
+     "word": " не",
+     "start": 33.3,
+     "end": 33.4
+    },
+    {
+     "word": " могли",
+     "start": 33.4,
+     "end": 33.4
+    },
+    {
+     "word": " его",
+     "start": 33.4,
+     "end": 33.7
+    },
+    {
+     "word": " встануть?",
+     "start": 33.7,
+     "end": 33.8
+    },
+    {
+     "word": " Дай",
+     "start": 34.2,
+     "end": 34.72
+    },
+    {
+     "word": " мне",
+     "start": 34.72,
+     "end": 34.82
+    },
+    {
+     "word": " ссор.",
+     "start": 34.82,
+     "end": 35.1
+    },
+    {
+     "word": " Насколько",
+     "start": 43.56,
+     "end": 44.12
+    },
+    {
+     "word": " у",
+     "start": 44.12,
+     "end": 44.26
+    },
+    {
+     "word": " нас",
+     "start": 44.26,
+     "end": 44.42
+    },
+    {
+     "word": " сейчас",
+     "start": 44.42,
+     "end": 44.56
+    },
+    {
+     "word": " вайп",
+     "start": 44.56,
+     "end": 44.9
+    },
+    {
+     "word": " из",
+     "start": 44.9,
+     "end": 45.06
+    },
+    {
+     "word": " десяти",
+     "start": 45.06,
+     "end": 45.78
+    },
+    {
+     "word": " на",
+     "start": 45.78,
+     "end": 45.96
+    },
+    {
+     "word": " стриме?",
+     "start": 45.96,
+     "end": 46.46
+    },
+    {
+     "word": " На",
+     "start": 46.52,
+     "end": 46.58
+    },
+    {
+     "word": " два?",
+     "start": 46.58,
+     "end": 46.8
+    },
+    {
+     "word": " Или",
+     "start": 47.52,
+     "end": 48.08
+    },
+    {
+     "word": " шесть?",
+     "start": 48.08,
+     "end": 48.52
+    }
+   ],
+   "metrics": {
+    "motion": 0.26476377952755903,
+    "motion_p90": 0.5788245219347583,
+    "static_share": 0.01646090534979424,
+    "peak_db": 11.579317092895508,
+    "level_db": -37.882965087890625
+   }
+  },
+  "MoralGracefulBorkGingerPower-vJkaq2y2EEZXfAiB": {
+   "id": "MoralGracefulBorkGingerPower-vJkaq2y2EEZXfAiB",
+   "url": "https://www.twitch.tv/kaicenat/clip/MoralGracefulBorkGingerPower-vJkaq2y2EEZXfAiB",
+   "section": null,
+   "kind": "clip",
+   "views": 3187,
+   "title": "freaky kai",
+   "vod": "2932305259",
+   "vod_t": 5390,
+   "group": "en",
+   "login": "kaicenat",
+   "name": "KaiCenat",
+   "source": "Twitch clip made by a viewer, 3187 views, titled \"freaky kai\"",
+   "at": "2026-11-19T03:52:40.091638+00:00",
+   "cam": [
+    17,
+    494,
+    319,
+    224
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 30.0,
+   "words": [
+    {
+     "word": " All",
+     "start": 8.46,
+     "end": 9.04
+    },
+    {
+     "word": " right,",
+     "start": 9.04,
+     "end": 9.24
+    },
+    {
+     "word": " all",
+     "start": 9.24,
+     "end": 9.44
+    },
+    {
+     "word": " right.",
+     "start": 9.44,
+     "end": 9.64
+    },
+    {
+     "word": " All",
+     "start": 9.64,
+     "end": 9.78
+    },
+    {
+     "word": " right",
+     "start": 9.78,
+     "end": 9.92
+    },
+    {
+     "word": " squishy",
+     "start": 9.92,
+     "end": 10.14
+    },
+    {
+     "word": " scrap",
+     "start": 10.14,
+     "end": 11.04
+    },
+    {
+     "word": " scrap.",
+     "start": 11.04,
+     "end": 11.14
+    },
+    {
+     "word": " Let's",
+     "start": 11.18,
+     "end": 11.32
+    },
+    {
+     "word": " go",
+     "start": 11.32,
+     "end": 11.5
+    },
+    {
+     "word": " out",
+     "start": 11.5,
+     "end": 11.62
+    },
+    {
+     "word": " let's",
+     "start": 11.62,
+     "end": 11.84
+    },
+    {
+     "word": " go",
+     "start": 11.84,
+     "end": 12.04
+    },
+    {
+     "word": " Let's",
+     "start": 13.26,
+     "end": 13.7
+    },
+    {
+     "word": " go",
+     "start": 13.7,
+     "end": 13.8
+    },
+    {
+     "word": " ahead",
+     "start": 13.8,
+     "end": 13.96
+    },
+    {
+     "word": " and",
+     "start": 13.96,
+     "end": 14.1
+    },
+    {
+     "word": " scrub",
+     "start": 14.1,
+     "end": 14.28
+    },
+    {
+     "word": " real",
+     "start": 14.28,
+     "end": 14.6
+    },
+    {
+     "word": " quick",
+     "start": 14.6,
+     "end": 14.98
+    },
+    {
+     "word": " now",
+     "start": 14.98,
+     "end": 15.96
+    },
+    {
+     "word": " mean",
+     "start": 15.96,
+     "end": 16.4
+    },
+    {
+     "word": " Motherhands",
+     "start": 17.98,
+     "end": 18.42
+    },
+    {
+     "word": " around",
+     "start": 18.42,
+     "end": 18.72
+    },
+    {
+     "word": " you",
+     "start": 18.72,
+     "end": 18.98
+    },
+    {
+     "word": " out",
+     "start": 18.98,
+     "end": 19.12
+    },
+    {
+     "word": " game",
+     "start": 19.12,
+     "end": 19.26
+    },
+    {
+     "word": " in",
+     "start": 19.26,
+     "end": 19.44
+    },
+    {
+     "word": " between",
+     "start": 19.44,
+     "end": 19.6
+    },
+    {
+     "word": " everything",
+     "start": 19.6,
+     "end": 20.02
+    },
+    {
+     "word": " bro.",
+     "start": 20.02,
+     "end": 20.28
+    },
+    {
+     "word": " Get",
+     "start": 20.32,
+     "end": 20.5
+    },
+    {
+     "word": " into",
+     "start": 20.5,
+     "end": 20.72
+    },
+    {
+     "word": " that",
+     "start": 20.72,
+     "end": 20.96
+    },
+    {
+     "word": " dick",
+     "start": 20.96,
+     "end": 21.22
+    },
+    {
+     "word": " bro.",
+     "start": 21.22,
+     "end": 21.52
+    },
+    {
+     "word": " Clean",
+     "start": 21.74,
+     "end": 22.18
+    },
+    {
+     "word": " your",
+     "start": 22.18,
+     "end": 22.36
+    },
+    {
+     "word": " dick",
+     "start": 22.36,
+     "end": 22.58
+    },
+    {
+     "word": " game",
+     "start": 22.58,
+     "end": 22.9
+    },
+    {
+     "word": " clean",
+     "start": 22.9,
+     "end": 23.58
+    },
+    {
+     "word": " that",
+     "start": 23.58,
+     "end": 23.78
+    },
+    {
+     "word": " motherfucker",
+     "start": 23.78,
+     "end": 24.1
+    },
+    {
+     "word": " Come",
+     "start": 24.1,
+     "end": 24.48
+    },
+    {
+     "word": " on.",
+     "start": 24.48,
+     "end": 24.66
+    },
+    {
+     "word": " Good.",
+     "start": 24.82,
+     "end": 24.9
+    },
+    {
+     "word": " Get",
+     "start": 25.48,
+     "end": 25.52
+    },
+    {
+     "word": " everywhere.",
+     "start": 25.52,
+     "end": 26.0
+    },
+    {
+     "word": " You're",
+     "start": 26.18,
+     "end": 26.38
+    },
+    {
+     "word": " everywhere",
+     "start": 26.38,
+     "end": 26.88
+    },
+    {
+     "word": " get",
+     "start": 26.88,
+     "end": 27.14
+    },
+    {
+     "word": " everywhere",
+     "start": 27.14,
+     "end": 27.7
+    },
+    {
+     "word": " get",
+     "start": 27.7,
+     "end": 28.6
+    },
+    {
+     "word": " everywhere",
+     "start": 28.6,
+     "end": 29.22
+    },
+    {
+     "word": " come",
+     "start": 29.22,
+     "end": 29.68
+    },
+    {
+     "word": " on",
+     "start": 29.68,
+     "end": 29.92
+    }
+   ],
+   "metrics": {
+    "motion": 0.05199019325064898,
+    "motion_p90": 0.2997404095760023,
+    "static_share": 0.06722689075630252,
+    "peak_db": 4.276427268981934,
+    "level_db": -17.670013427734375
+   }
+  },
+  "HorribleFlaccidPuddingThunBeast-Comabgr_d1V3-N-s": {
+   "id": "HorribleFlaccidPuddingThunBeast-Comabgr_d1V3-N-s",
+   "url": "https://www.twitch.tv/evelone2004/clip/HorribleFlaccidPuddingThunBeast-Comabgr_d1V3-N-s",
+   "section": null,
+   "kind": "clip",
+   "views": 3154,
+   "title": "Bonus up",
+   "vod": "2932196917",
+   "vod_t": 20260,
+   "group": "ru",
+   "login": "evelone2004",
+   "name": "evelone2004",
+   "source": "Twitch clip made by a viewer, 3154 views, titled \"Bonus up\"",
+   "at": "2026-11-19T03:53:07.026062+00:00",
+   "cam": [
+    0,
+    841,
+    378,
+    266
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 30.0,
+   "words": [
+    {
+     "word": " Давай,",
+     "start": 0.0,
+     "end": 0.48
+    },
+    {
+     "word": " давай,",
+     "start": 0.58,
+     "end": 0.8
+    },
+    {
+     "word": " пусть",
+     "start": 1.0,
+     "end": 1.1
+    },
+    {
+     "word": " идем.",
+     "start": 1.1,
+     "end": 1.54
+    },
+    {
+     "word": " Да",
+     "start": 1.72,
+     "end": 1.88
+    },
+    {
+     "word": " дай,",
+     "start": 1.88,
+     "end": 2.1
+    },
+    {
+     "word": " дай,",
+     "start": 2.22,
+     "end": 2.34
+    },
+    {
+     "word": " дай.",
+     "start": 2.44,
+     "end": 2.54
+    },
+    {
+     "word": " Да",
+     "start": 2.56,
+     "end": 2.62
+    },
+    {
+     "word": " какие",
+     "start": 2.62,
+     "end": 2.96
+    },
+    {
+     "word": " чемы?",
+     "start": 2.96,
+     "end": 3.62
+    },
+    {
+     "word": " Да",
+     "start": 3.86,
+     "end": 4.04
+    },
+    {
+     "word": " дай.",
+     "start": 4.04,
+     "end": 4.42
+    },
+    {
+     "word": " Ну,",
+     "start": 5.4,
+     "end": 5.84
+    },
+    {
+     "word": " Бать,",
+     "start": 5.9,
+     "end": 6.0
+    },
+    {
+     "word": " закинь.",
+     "start": 6.22,
+     "end": 6.38
+    },
+    {
+     "word": " Я",
+     "start": 6.9,
+     "end": 7.08
+    },
+    {
+     "word": " захнил",
+     "start": 7.08,
+     "end": 7.42
+    },
+    {
+     "word": " полтос.",
+     "start": 7.42,
+     "end": 7.86
+    },
+    {
+     "word": " А,",
+     "start": 8.7,
+     "end": 9.14
+    },
+    {
+     "word": " это",
+     "start": 9.2,
+     "end": 9.28
+    },
+    {
+     "word": " все?",
+     "start": 9.28,
+     "end": 9.46
+    },
+    {
+     "word": " Держать,",
+     "start": 12.98,
+     "end": 13.42
+    },
+    {
+     "word": " держать,",
+     "start": 13.46,
+     "end": 13.88
+    },
+    {
+     "word": " нажми,",
+     "start": 13.94,
+     "end": 14.1
+    },
+    {
+     "word": " держать.",
+     "start": 14.18,
+     "end": 14.64
+    },
+    {
+     "word": " Бать,",
+     "start": 17.74,
+     "end": 18.18
+    },
+    {
+     "word": " держи.",
+     "start": 18.38,
+     "end": 18.64
+    },
+    {
+     "word": " Что,",
+     "start": 18.88,
+     "end": 19.1
+    },
+    {
+     "word": " началось",
+     "start": 19.2,
+     "end": 19.5
+    },
+    {
+     "word": "-то,",
+     "start": 19.5,
+     "end": 19.76
+    },
+    {
+     "word": " блять?",
+     "start": 19.9,
+     "end": 20.06
+    },
+    {
+     "word": " Бать,",
+     "start": 20.5,
+     "end": 20.94
+    },
+    {
+     "word": " нажми,",
+     "start": 21.0,
+     "end": 21.22
+    },
+    {
+     "word": " держать.",
+     "start": 21.32,
+     "end": 21.8
+    },
+    {
+     "word": " Р2,",
+     "start": 22.34,
+     "end": 22.78
+    },
+    {
+     "word": " Р2.",
+     "start": 22.9,
+     "end": 23.2
+    },
+    {
+     "word": " Я",
+     "start": 24.2,
+     "end": 24.64
+    },
+    {
+     "word": " закрою",
+     "start": 24.64,
+     "end": 25.1
+    },
+    {
+     "word": " ей.",
+     "start": 25.1,
+     "end": 25.32
+    },
+    {
+     "word": " Дикому",
+     "start": 25.32,
+     "end": 26.7
+    },
+    {
+     "word": " не",
+     "start": 26.7,
+     "end": 26.82
+    },
+    {
+     "word": " показывай.",
+     "start": 26.82,
+     "end": 27.56
+    },
+    {
+     "word": " Дикому",
+     "start": 28.08,
+     "end": 28.96
+    },
+    {
+     "word": " не",
+     "start": 28.96,
+     "end": 29.1
+    },
+    {
+     "word": " показывай.",
+     "start": 29.1,
+     "end": 29.54
+    }
+   ],
+   "metrics": {
+    "motion": 0.06242840778923253,
+    "motion_p90": 0.0907216494845361,
+    "static_share": 0.0,
+    "peak_db": 6.647454261779785,
+    "level_db": -21.19296646118164
    }
   }
  },
