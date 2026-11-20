@@ -412,6 +412,155 @@
      "post_url": "https://www.tiktok.com/@gta6.viral42/video/7710141503993056544"
     }
    ]
+  },
+  "chat-2933569907-313": {
+   "at": "2026-11-20T09:35:56.896708+00:00",
+   "ok": true,
+   "profile": "gta6",
+   "platforms": [
+    "tiktok",
+    "youtube"
+   ],
+   "login": "recrent",
+   "group": "ru",
+   "url": "https://www.twitch.tv/videos/2933569907",
+   "kind": "chat",
+   "score": 6,
+   "caption": "Надо было просто опылить поле, а она взяла и выпрыгнула из самолёта 💀 «Я же нажал R1!»",
+   "vod": "2933569907",
+   "vod_t": 14059.565938,
+   "hook": "Выпрыгнула из самолёта",
+   "request_id": "88c57ae873494eabb8feb76376d2a1d4",
+   "cand": {
+    "id": "chat-2933569907-313",
+    "url": "https://www.twitch.tv/videos/2933569907",
+    "section": [
+     14059.565938,
+     14115.565938
+    ],
+    "kind": "chat",
+    "views": 71,
+    "title": "",
+    "vod": "2933569907",
+    "vod_t": 14059.565938,
+    "group": "ru",
+    "login": "recrent",
+    "name": "Recrent",
+    "viewers": 17676,
+    "chat_score": 4.44,
+    "found_at": "2026-11-19T15:09:18.237985+00:00",
+    "spike_at": "2026-11-19T15:03:10.565938+00:00",
+    "chat": [
+     "10x чвв",
+     "3x xdd",
+     "2x ♿️ОСТОРОЖНО♿️РЕКРЕНТ ЗА CАМОЛЕТОМ♿️ ͏ОСТОРОЖНО♿️РЕКРЕНТ ЗА CАМОЛЕТОМ♿️ ͏ОСТОРОЖН",
+     "2x чвв ͏",
+     "2x LUL",
+     "хахахаха",
+     "АААААААААААААААААААААААААААААААА",
+     "13 чвв",
+     "ХАХАХХАХА",
+     "Умом",
+     "ХАХАХХАХАХАХХАХАХАХАХА",
+     ")))))))))))))))",
+     "КЛЯНИСЬ."
+    ],
+    "source": "cut from the live stream at a chat spike: 71 chatters in 15 s, 4.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+    "at": "2026-11-19T15:31:37.559474+00:00",
+    "cam": [
+     74,
+     456,
+     302,
+     212
+    ],
+    "size": [
+     1920,
+     1080
+    ],
+    "dur": 56.0,
+    "words": [
+     {
+      "word": " Сунушку",
+      "start": 4.25,
+      "end": 4.81
+     },
+     {
+      "word": " с",
+      "start": 4.81,
+      "end": 5.09
+     },
+     {
+      "word": " собой",
+      "start": 5.09,
+      "end": 5.17
+     },
+     {
+      "word": " возьму.",
+      "start": 5.17,
+      "end": 5.35
+     },
+     {
+      "word": " я",
+      "start": 50.35,
+      "end": 50.91
+     },
+     {
+      "word": " же",
+      "start": 50.91,
+      "end": 51.05
+     },
+     {
+      "word": " нажал",
+      "start": 51.05,
+      "end": 51.45
+     },
+     {
+      "word": " эр",
+      "start": 51.45,
+      "end": 51.65
+     },
+     {
+      "word": " один",
+      "start": 51.65,
+      "end": 51.93
+     },
+     {
+      "word": " куда",
+      "start": 51.93,
+      "end": 54.13
+     },
+     {
+      "word": " она",
+      "start": 54.13,
+      "end": 54.35
+     },
+     {
+      "word": " блять",
+      "start": 54.35,
+      "end": 54.63
+     },
+     {
+      "word": " выпрыгнула",
+      "start": 54.63,
+      "end": 55.35
+     }
+    ],
+    "metrics": {
+     "motion": 0.2919178868791272,
+     "motion_p90": 0.5133936261843239,
+     "static_share": 0.15246636771300448,
+     "peak_db": 5.5941009521484375,
+     "level_db": -26.79865264892578
+    },
+    "caption": "Надо было просто опылить поле, а она взяла и выпрыгнула из самолёта 💀 «Я же нажал R1!»",
+    "hook": "Выпрыгнула из самолёта",
+    "cover_at": 43.0,
+    "score": 6,
+    "keep": [
+     29.0,
+     56.0
+    ]
+   }
   }
  },
  "rejected": {
@@ -1214,1165 +1363,473 @@
    "at": "2026-11-20T08:52:48.389116+00:00",
    "why": "picture is almost static (motion 0.01)",
    "login": "stray228"
+  },
+  "chat-2934505601-473": {
+   "at": "2026-11-20T09:35:28.352420+00:00",
+   "why": "editor: no webcam in the picture",
+   "login": "yourragegaming"
+  },
+  "chat-2934132437-995": {
+   "at": "2026-11-20T09:35:28.352765+00:00",
+   "why": "editor: 2/10, Giveaway announcement to chat while riding a motorcycle, sponsor overlays; nothing happens in the game",
+   "login": "ludwig"
   }
  },
  "pending": {
-  "chat-2934505601-473": {
-   "id": "chat-2934505601-473",
-   "url": "https://www.twitch.tv/videos/2934505601",
+  "chat-2934030540-1135": {
+   "id": "chat-2934030540-1135",
+   "url": "https://www.twitch.tv/videos/2934030540",
    "section": [
-    21268.097412,
-    21324.097412
+    51067.79929,
+    51123.79929
    ],
    "kind": "chat",
-   "views": 58,
+   "views": 80,
    "title": "",
-   "vod": "2934505601",
-   "vod_t": 21268.097412,
+   "vod": "2934030540",
+   "vod_t": 51067.79929,
    "group": "en",
-   "login": "yourragegaming",
-   "name": "yourragegaming",
-   "viewers": 12019,
-   "chat_score": 4.46,
-   "found_at": "2026-11-20T08:31:04.776408+00:00",
-   "spike_at": "2026-11-20T08:18:57.097412+00:00",
+   "login": "theburntpeanut",
+   "name": "TheBurntPeanut",
+   "viewers": 51044,
+   "chat_score": 4.21,
+   "found_at": "2026-11-20T09:35:08.372223+00:00",
+   "spike_at": "2026-11-20T09:25:10.799290+00:00",
    "chat": [
-    "3x sob",
-    "2x O",
-    "2x ...",
-    "2x Ohhh",
-    "2x O MA",
-    "2x gang",
-    "😭😭",
-    "what a pro",
-    "FDHFM5",
-    "AYOOOOOOOOOOOOO",
-    "Ohhhh",
-    "pfft",
-    "FUCKING LOSER",
-    "creepy old man smh"
+    "8x Lol",
+    "8x KEKW",
+    "3x W",
+    "3x yes",
+    "3x bruh",
+    "2x EZ",
+    "2x LUL",
+    "2x HAHAHAHAHAHA",
+    "2x hahahahha",
+    "quirkLUL2",
+    "wtf ahhahahahhahahahaha",
+    "brooooooo",
+    "Sharp as a tack",
+    "Ope",
+    "Both towers were a best landing than this 🤣🤣🤣",
+    "real man",
+    "PewPewPew"
    ],
-   "source": "cut from the live stream at a chat spike: 58 chatters in 15 s, 4.5x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-20T08:31:29.465170+00:00",
-   "cam": null,
+   "source": "cut from the live stream at a chat spike: 80 chatters in 15 s, 4.2x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-20T09:35:25.058709+00:00",
+   "cam": [
+    288,
+    756,
+    422,
+    324
+   ],
    "size": [
     1920,
     1080
    ],
-   "dur": 64.7,
+   "dur": 64.0,
    "words": [
     {
      "word": " I'm",
-     "start": 2.8,
-     "end": 3.2
+     "start": 0.34,
+     "end": 0.96
     },
     {
-     "word": " on",
-     "start": 3.2,
-     "end": 3.2
+     "word": " sharp",
+     "start": 0.96,
+     "end": 1.38
     },
     {
-     "word": " my",
-     "start": 3.2,
-     "end": 3.34
-    },
-    {
-     "word": " asexual",
-     "start": 3.34,
-     "end": 3.94
-    },
-    {
-     "word": " journey,",
-     "start": 3.94,
-     "end": 4.4
-    },
-    {
-     "word": " what",
-     "start": 4.52,
-     "end": 4.54
-    },
-    {
-     "word": " you",
-     "start": 4.54,
-     "end": 4.68
-    },
-    {
-     "word": " doing",
-     "start": 4.68,
-     "end": 4.88
-    },
-    {
-     "word": " on",
-     "start": 4.88,
-     "end": 5.04
-    },
-    {
-     "word": " your",
-     "start": 5.04,
-     "end": 5.16
-    },
-    {
-     "word": " hands?",
-     "start": 5.16,
-     "end": 5.54
-    },
-    {
-     "word": " You",
-     "start": 5.88,
-     "end": 6.12
-    },
-    {
-     "word": " know",
-     "start": 6.12,
-     "end": 7.1
-    },
-    {
-     "word": " I'm",
-     "start": 7.1,
-     "end": 7.3
-    },
-    {
-     "word": " on",
-     "start": 7.3,
-     "end": 7.36
-    },
-    {
-     "word": " my",
-     "start": 7.36,
-     "end": 7.52
-    },
-    {
-     "word": " asexual",
-     "start": 7.52,
-     "end": 8.18
-    },
-    {
-     "word": " journey,",
-     "start": 8.18,
-     "end": 8.58
-    },
-    {
-     "word": " you",
-     "start": 8.74,
-     "end": 9.08
-    },
-    {
-     "word": " know",
-     "start": 9.08,
-     "end": 10.52
-    },
-    {
-     "word": " I'm",
-     "start": 10.52,
-     "end": 10.76
-    },
-    {
-     "word": " on",
-     "start": 10.76,
-     "end": 10.84
-    },
-    {
-     "word": " my",
-     "start": 10.84,
-     "end": 10.98
-    },
-    {
-     "word": " asexual",
-     "start": 10.98,
-     "end": 11.7
-    },
-    {
-     "word": " journey,",
-     "start": 11.7,
-     "end": 12.24
-    },
-    {
-     "word": " what",
-     "start": 12.48,
-     "end": 12.76
-    },
-    {
-     "word": " you",
-     "start": 12.76,
-     "end": 13.12
-    },
-    {
-     "word": " doing?",
-     "start": 13.12,
-     "end": 13.62
-    },
-    {
-     "word": " Oh,",
-     "start": 16.8,
-     "end": 17.2
-    },
-    {
-     "word": " don't",
-     "start": 26.64,
-     "end": 27.04
-    },
-    {
-     "word": " leave",
-     "start": 27.04,
-     "end": 27.16
-    },
-    {
-     "word": " me",
-     "start": 27.16,
-     "end": 27.32
-    },
-    {
-     "word": " hanging,",
-     "start": 27.32,
-     "end": 27.74
-    },
-    {
-     "word": " come",
-     "start": 28.04,
-     "end": 28.2
-    },
-    {
-     "word": " on.",
-     "start": 28.2,
-     "end": 28.52
-    },
-    {
-     "word": " You",
-     "start": 28.74,
-     "end": 28.74
-    },
-    {
-     "word": " leave",
-     "start": 28.74,
-     "end": 28.84
-    },
-    {
-     "word": " me",
-     "start": 28.84,
-     "end": 28.98
-    },
-    {
-     "word": " hanging,",
-     "start": 28.98,
-     "end": 29.44
-    },
-    {
-     "word": " show",
-     "start": 29.56,
-     "end": 29.72
-    },
-    {
-     "word": " me",
-     "start": 29.72,
-     "end": 29.84
-    },
-    {
-     "word": " why",
-     "start": 29.84,
-     "end": 30.04
-    },
-    {
-     "word": " you",
-     "start": 30.04,
-     "end": 30.16
-    },
-    {
-     "word": " leave",
-     "start": 30.16,
-     "end": 30.3
-    },
-    {
-     "word": " me",
-     "start": 30.3,
-     "end": 30.48
-    },
-    {
-     "word": " hanging.",
-     "start": 30.48,
-     "end": 30.88
-    },
-    {
-     "word": " You",
-     "start": 31.84,
-     "end": 32.24
-    },
-    {
-     "word": " know",
-     "start": 38.93,
-     "end": 39.05
-    },
-    {
-     "word": " this",
-     "start": 39.05,
-     "end": 39.21
-    },
-    {
-     "word": " sounds",
-     "start": 39.21,
-     "end": 39.37
-    },
-    {
-     "word": " pretty",
-     "start": 39.37,
-     "end": 39.61
-    },
-    {
-     "word": " nice.",
-     "start": 39.61,
-     "end": 39.87
-    },
-    {
-     "word": " What?",
-     "start": 40.53,
-     "end": 40.75
-    },
-    {
-     "word": " Building",
-     "start": 40.97,
-     "end": 41.21
-    },
-    {
-     "word": " this",
-     "start": 41.21,
-     "end": 41.39
-    },
-    {
-     "word": " together.",
-     "start": 41.39,
-     "end": 41.61
-    },
-    {
-     "word": " Yeah,",
-     "start": 42.37,
-     "end": 42.59
-    },
-    {
-     "word": " well,",
-     "start": 42.93,
-     "end": 43.09
-    },
-    {
-     "word": " get",
-     "start": 43.51,
-     "end": 43.67
-    },
-    {
-     "word": " your",
-     "start": 43.67,
-     "end": 43.83
-    },
-    {
-     "word": " ass",
-     "start": 43.83,
-     "end": 43.99
-    },
-    {
-     "word": " on",
-     "start": 43.99,
-     "end": 44.09
-    },
-    {
-     "word": " the",
-     "start": 44.09,
-     "end": 44.19
-    },
-    {
-     "word": " ground",
-     "start": 44.19,
-     "end": 44.37
-    },
-    {
-     "word": " and",
-     "start": 44.37,
-     "end": 44.51
-    },
-    {
-     "word": " help",
-     "start": 44.51,
-     "end": 44.63
-    },
-    {
-     "word": " me",
-     "start": 44.63,
-     "end": 44.77
-    },
-    {
-     "word": " finish",
-     "start": 44.77,
-     "end": 44.97
-    },
-    {
-     "word": " up.",
-     "start": 44.97,
-     "end": 45.31
-    },
-    {
-     "word": " Ah,",
-     "start": 45.31,
-     "end": 46.13
-    },
-    {
-     "word": " okay,",
-     "start": 51.29,
-     "end": 51.91
-    },
-    {
-     "word": " I",
-     "start": 52.49,
-     "end": 52.93
-    },
-    {
-     "word": " get",
-     "start": 52.93,
-     "end": 53.11
-    },
-    {
-     "word": " on",
-     "start": 53.11,
-     "end": 53.23
-    },
-    {
-     "word": " the",
-     "start": 53.23,
-     "end": 53.43
-    },
-    {
-     "word": " ground.",
-     "start": 53.43,
-     "end": 53.65
-    },
-    {
-     "word": " Hey,",
-     "start": 53.67,
-     "end": 53.67
-    },
-    {
-     "word": " come",
-     "start": 53.71,
-     "end": 53.77
-    },
-    {
-     "word": " on,",
-     "start": 53.77,
-     "end": 53.99
-    },
-    {
-     "word": " I",
-     "start": 54.33,
-     "end": 54.47
-    },
-    {
-     "word": " need",
-     "start": 54.47,
-     "end": 54.61
-    },
-    {
-     "word": " help.",
-     "start": 54.61,
-     "end": 54.89
-    },
-    {
-     "word": " I'm",
-     "start": 55.17,
-     "end": 55.17
-    },
-    {
-     "word": " sorry.",
-     "start": 55.17,
-     "end": 55.53
-    },
-    {
-     "word": " Oh,",
-     "start": 58.52,
-     "end": 58.96
+     "word": " as",
+     "start": 1.38,
+     "end": 1.66
     },
     {
      "word": " a",
-     "start": 59.28,
-     "end": 59.4
+     "start": 1.66,
+     "end": 1.94
     },
     {
-     "word": " hex",
-     "start": 59.4,
-     "end": 59.56
+     "word": " tack",
+     "start": 1.94,
+     "end": 2.14
     },
     {
-     "word": " key,",
-     "start": 59.56,
-     "end": 59.76
+     "word": " right",
+     "start": 2.14,
+     "end": 2.42
     },
     {
-     "word": " that's",
-     "start": 60.0,
-     "end": 60.18
+     "word": " now",
+     "start": 2.42,
+     "end": 2.68
     },
     {
-     "word": " cute.",
-     "start": 60.18,
-     "end": 60.36
+     "word": " guys",
+     "start": 2.68,
+     "end": 3.12
     },
     {
-     "word": " Oh,",
-     "start": 60.98,
-     "end": 61.42
-    },
-    {
-     "word": " you",
-     "start": 61.96,
-     "end": 62.16
-    },
-    {
-     "word": " think",
-     "start": 62.16,
-     "end": 62.34
-    },
-    {
-     "word": " this",
-     "start": 62.34,
-     "end": 62.56
-    },
-    {
-     "word": " was",
-     "start": 62.56,
-     "end": 62.7
-    },
-    {
-     "word": " easy?",
-     "start": 62.7,
-     "end": 63.02
-    },
-    {
-     "word": " Where's",
-     "start": 63.22,
-     "end": 63.64
-    },
-    {
-     "word": " the",
-     "start": 63.64,
-     "end": 63.72
-    },
-    {
-     "word": " technique",
-     "start": 63.72,
-     "end": 64.04
-    },
-    {
-     "word": " to",
-     "start": 64.04,
-     "end": 64.26
-    },
-    {
-     "word": " it,",
-     "start": 64.26,
-     "end": 64.4
-    },
-    {
-     "word": " so",
-     "start": 64.54,
-     "end": 64.54
-    },
-    {
-     "word": "-",
-     "start": 64.54,
-     "end": 64.54
-    }
-   ],
-   "metrics": {
-    "motion": 0.21881944444444446,
-    "motion_p90": 0.7350555555555556,
-    "static_share": 0.003875968992248062,
-    "peak_db": 16.313987731933594,
-    "level_db": -39.32395935058594
-   },
-   "silence": []
-  },
-  "chat-2934132437-995": {
-   "id": "chat-2934132437-995",
-   "url": "https://www.twitch.tv/videos/2934132437",
-   "section": [
-    44773.890293,
-    44829.890293
-   ],
-   "kind": "chat",
-   "views": 248,
-   "title": "",
-   "vod": "2934132437",
-   "vod_t": 44773.890293,
-   "group": "en",
-   "login": "ludwig",
-   "name": "Ludwig",
-   "viewers": 7749,
-   "chat_score": 4.86,
-   "found_at": "2026-11-20T09:13:37.477710+00:00",
-   "spike_at": "2026-11-20T09:09:19.890293+00:00",
-   "chat": [
-    "45x w",
-    "10x ANYTHING",
-    "8x aga",
-    "5x ww",
-    "5x WWW",
-    "5x me",
-    "5x type",
-    "5x Type in chat",
-    "3x Waga",
-    "3x Rip",
-    "3x hi",
-    "3x pls",
-    "in twitch chat",
-    "les go",
-    "IM ALL OUT OF LOVE",
-    "w luddwig",
-    "W luddy",
-    "words",
-    "whatever i want/",
-    "air supply!"
-   ],
-   "source": "cut from the live stream at a chat spike: 248 chatters in 15 s, 4.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-20T09:14:03.443207+00:00",
-   "cam": [
-    11,
-    440,
-    235,
-    165
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 65.1,
-   "words": [
-    {
-     "word": " Because",
-     "start": 0.11,
-     "end": 0.67
-    },
-    {
-     "word": " I'll",
-     "start": 0.67,
-     "end": 0.77
-    },
-    {
-     "word": " probably",
-     "start": 0.77,
-     "end": 0.95
-    },
-    {
-     "word": " go",
-     "start": 0.95,
-     "end": 1.07
-    },
-    {
-     "word": " to",
-     "start": 1.07,
-     "end": 1.15
-    },
-    {
-     "word": " bed",
-     "start": 1.15,
-     "end": 1.35
-    },
-    {
-     "word": " before",
-     "start": 1.35,
-     "end": 1.61
-    },
-    {
-     "word": " the",
-     "start": 1.61,
-     "end": 1.75
-    },
-    {
-     "word": " next",
-     "start": 1.75,
-     "end": 1.93
-    },
-    {
-     "word": " giveaway",
-     "start": 1.93,
-     "end": 2.25
-    },
-    {
-     "word": " Not",
-     "start": 3.65,
-     "end": 4.03
-    },
-    {
-     "word": " to",
-     "start": 4.03,
-     "end": 4.21
-    },
-    {
-     "word": " say",
-     "start": 4.21,
-     "end": 4.35
-    },
-    {
-     "word": " that",
-     "start": 4.35,
-     "end": 4.49
-    },
-    {
-     "word": " we're",
-     "start": 4.49,
-     "end": 4.63
-    },
-    {
-     "word": " not",
-     "start": 4.63,
-     "end": 4.71
-    },
-    {
-     "word": " giving",
-     "start": 4.71,
-     "end": 4.89
-    },
-    {
-     "word": " away",
-     "start": 4.89,
-     "end": 5.11
-    },
-    {
-     "word": " codes",
-     "start": 5.11,
-     "end": 5.41
-    },
-    {
-     "word": " throughout",
-     "start": 5.41,
-     "end": 5.65
-    },
-    {
-     "word": " the",
-     "start": 5.65,
-     "end": 5.81
-    },
-    {
-     "word": " night.",
-     "start": 5.81,
-     "end": 5.99
-    },
-    {
-     "word": " I",
-     "start": 6.09,
-     "end": 6.25
-    },
-    {
-     "word": " just",
-     "start": 6.25,
-     "end": 6.43
-    },
-    {
-     "word": " won't",
-     "start": 6.43,
-     "end": 6.61
-    },
-    {
-     "word": " be",
-     "start": 6.61,
-     "end": 6.71
-    },
-    {
-     "word": " doing",
-     "start": 6.71,
-     "end": 6.93
-    },
-    {
-     "word": " it",
-     "start": 6.93,
-     "end": 7.11
-    },
-    {
-     "word": " They're",
-     "start": 7.11,
-     "end": 7.27
-    },
-    {
-     "word": " just",
-     "start": 7.27,
-     "end": 7.39
-    },
-    {
-     "word": " gonna",
-     "start": 7.39,
-     "end": 7.55
-    },
-    {
-     "word": " appear",
-     "start": 7.55,
-     "end": 7.79
-    },
-    {
-     "word": " on",
-     "start": 7.79,
-     "end": 7.99
-    },
-    {
-     "word": " screen",
-     "start": 7.99,
-     "end": 8.29
-    },
-    {
-     "word": " So",
-     "start": 8.89,
-     "end": 9.27
-    },
-    {
-     "word": " if",
-     "start": 9.27,
-     "end": 9.39
-    },
-    {
-     "word": " you",
-     "start": 9.39,
-     "end": 9.47
-    },
-    {
-     "word": " want",
-     "start": 9.47,
-     "end": 9.61
-    },
-    {
-     "word": " to",
-     "start": 9.61,
-     "end": 9.71
-    },
-    {
-     "word": " enter",
-     "start": 9.71,
-     "end": 9.85
-    },
-    {
-     "word": " this",
-     "start": 9.85,
-     "end": 10.09
-    },
-    {
-     "word": " giveaway",
-     "start": 10.09,
-     "end": 10.33
-    },
-    {
-     "word": " all",
-     "start": 10.33,
-     "end": 10.65
-    },
-    {
-     "word": " you",
-     "start": 10.65,
-     "end": 10.79
-    },
-    {
-     "word": " got",
-     "start": 10.79,
-     "end": 10.91
-    },
-    {
-     "word": " to",
-     "start": 10.91,
-     "end": 11.01
-    },
-    {
-     "word": " do",
-     "start": 11.01,
-     "end": 11.25
+     "word": " Sleep",
+     "start": 4.3,
+     "end": 4.82
     },
     {
      "word": " is",
-     "start": 11.25,
-     "end": 11.67
-    },
-    {
-     "word": " just",
-     "start": 11.67,
-     "end": 11.89
-    },
-    {
-     "word": " type",
-     "start": 11.89,
-     "end": 12.25
-    },
-    {
-     "word": " in",
-     "start": 12.25,
-     "end": 12.57
-    },
-    {
-     "word": " chat",
-     "start": 12.57,
-     "end": 13.01
-    },
-    {
-     "word": " Literally",
-     "start": 14.87,
-     "end": 15.25
-    },
-    {
-     "word": " whatever",
-     "start": 15.25,
-     "end": 15.51
-    },
-    {
-     "word": " you",
-     "start": 15.51,
-     "end": 15.69
-    },
-    {
-     "word": " want",
-     "start": 15.69,
-     "end": 15.93
-    },
-    {
-     "word": " just",
-     "start": 15.93,
-     "end": 16.25
-    },
-    {
-     "word": " type",
-     "start": 16.25,
-     "end": 16.45
-    },
-    {
-     "word": " anything",
-     "start": 16.45,
-     "end": 16.79
-    },
-    {
-     "word": " in",
-     "start": 16.79,
-     "end": 17.43
-    },
-    {
-     "word": " chat",
-     "start": 17.43,
-     "end": 17.81
-    },
-    {
-     "word": " Nightbots",
-     "start": 25.49,
-     "end": 25.87
-    },
-    {
-     "word": " down",
-     "start": 25.87,
-     "end": 26.19
-    },
-    {
-     "word": " 8",
-     "start": 30.01,
-     "end": 30.41
-    },
-    {
-     "word": ".3",
-     "start": 30.41,
-     "end": 30.81
-    },
-    {
-     "word": " Let's",
-     "start": 37.08,
-     "end": 37.48
-    },
-    {
-     "word": " see",
-     "start": 37.48,
-     "end": 37.56
-    },
-    {
-     "word": " this",
-     "start": 37.56,
-     "end": 37.7
-    },
-    {
-     "word": " works",
-     "start": 37.7,
-     "end": 37.96
-    },
-    {
-     "word": " So",
-     "start": 43.03,
-     "end": 43.43
-    },
-    {
-     "word": " you",
-     "start": 43.43,
-     "end": 43.61
-    },
-    {
-     "word": " do",
-     "start": 43.61,
-     "end": 43.71
-    },
-    {
-     "word": " that",
-     "start": 43.71,
-     "end": 43.89
-    },
-    {
-     "word": " you",
-     "start": 43.89,
-     "end": 44.01
-    },
-    {
-     "word": " can",
-     "start": 44.01,
-     "end": 44.13
-    },
-    {
-     "word": " still",
-     "start": 44.13,
-     "end": 44.37
-    },
-    {
-     "word": " win",
-     "start": 44.37,
-     "end": 44.59
-    },
-    {
-     "word": " it,",
-     "start": 44.59,
-     "end": 44.71
-    },
-    {
-     "word": " but",
-     "start": 44.73,
-     "end": 44.91
+     "start": 4.82,
+     "end": 5.08
     },
     {
      "word": " for",
-     "start": 44.91,
-     "end": 45.19
+     "start": 5.08,
+     "end": 5.26
     },
     {
-     "word": " you",
-     "start": 45.19,
-     "end": 45.33
+     "word": " the",
+     "start": 5.26,
+     "end": 5.42
     },
     {
-     "word": " to",
-     "start": 45.33,
-     "end": 45.43
+     "word": " week",
+     "start": 5.42,
+     "end": 5.94
     },
     {
-     "word": " win",
-     "start": 45.43,
-     "end": 45.59
+     "word": " My",
+     "start": 7.1,
+     "end": 7.62
     },
     {
-     "word": " it",
-     "start": 45.59,
-     "end": 45.67
-    },
-    {
-     "word": " you",
-     "start": 45.67,
-     "end": 45.75
-    },
-    {
-     "word": " need",
-     "start": 45.75,
-     "end": 45.87
-    },
-    {
-     "word": " to",
-     "start": 45.87,
-     "end": 45.99
-    },
-    {
-     "word": " type",
-     "start": 45.99,
-     "end": 46.19
-    },
-    {
-     "word": " in",
-     "start": 46.19,
-     "end": 46.43
-    },
-    {
-     "word": " twitch",
-     "start": 46.43,
-     "end": 46.79
-    },
-    {
-     "word": " chat",
-     "start": 46.79,
-     "end": 47.15
-    },
-    {
-     "word": " I'm",
-     "start": 47.83,
-     "end": 48.23
-    },
-    {
-     "word": " gonna",
-     "start": 48.23,
-     "end": 48.33
-    },
-    {
-     "word": " pick",
-     "start": 48.33,
-     "end": 48.53
-    },
-    {
-     "word": " somebody",
-     "start": 48.53,
-     "end": 48.79
-    },
-    {
-     "word": " from",
-     "start": 48.79,
-     "end": 48.97
-    },
-    {
-     "word": " twitch",
-     "start": 48.97,
-     "end": 49.23
-    },
-    {
-     "word": " after",
-     "start": 49.23,
-     "end": 49.45
-    },
-    {
-     "word": " this",
-     "start": 49.45,
-     "end": 49.75
-    },
-    {
-     "word": " What",
-     "start": 52.49,
-     "end": 52.89
+     "word": " mind",
+     "start": 7.62,
+     "end": 7.98
     },
     {
      "word": " is",
-     "start": 62.78,
-     "end": 63.18
+     "start": 7.98,
+     "end": 8.18
     },
     {
-     "word": " going",
-     "start": 63.18,
-     "end": 63.36
+     "word": " sharper",
+     "start": 8.18,
+     "end": 8.68
     },
     {
-     "word": " on",
-     "start": 63.36,
-     "end": 63.56
+     "word": " than",
+     "start": 8.68,
+     "end": 8.94
     },
     {
-     "word": " here",
-     "start": 63.56,
-     "end": 63.78
+     "word": " a",
+     "start": 8.94,
+     "end": 9.08
     },
     {
-     "word": " right?",
-     "start": 63.78,
-     "end": 64.54
+     "word": " knife.",
+     "start": 9.08,
+     "end": 9.5
+    },
+    {
+     "word": " I",
+     "start": 11.18,
+     "end": 11.7
+    },
+    {
+     "word": " Could",
+     "start": 11.7,
+     "end": 11.86
+    },
+    {
+     "word": " cut",
+     "start": 11.86,
+     "end": 12.24
+    },
+    {
+     "word": " through",
+     "start": 12.24,
+     "end": 12.48
+    },
+    {
+     "word": " butter",
+     "start": 12.48,
+     "end": 12.86
+    },
+    {
+     "word": " with",
+     "start": 12.86,
+     "end": 13.08
+    },
+    {
+     "word": " my",
+     "start": 13.08,
+     "end": 13.3
+    },
+    {
+     "word": " mind",
+     "start": 13.3,
+     "end": 13.9
+    },
+    {
+     "word": " Because",
+     "start": 15.5,
+     "end": 16.02
+    },
+    {
+     "word": " it's",
+     "start": 16.02,
+     "end": 16.54
+    },
+    {
+     "word": " a",
+     "start": 16.54,
+     "end": 16.7
+    },
+    {
+     "word": " knife",
+     "start": 16.7,
+     "end": 17.1
+    },
+    {
+     "word": " I've",
+     "start": 19.21,
+     "end": 20.23
+    },
+    {
+     "word": " shared",
+     "start": 20.23,
+     "end": 20.45
+    },
+    {
+     "word": " There",
+     "start": 23.37,
+     "end": 23.89
+    },
+    {
+     "word": " we",
+     "start": 30.19,
+     "end": 30.71
+    },
+    {
+     "word": " go,",
+     "start": 30.71,
+     "end": 30.79
+    },
+    {
+     "word": " you",
+     "start": 30.85,
+     "end": 30.91
+    },
+    {
+     "word": " see",
+     "start": 30.91,
+     "end": 31.03
+    },
+    {
+     "word": " that",
+     "start": 31.03,
+     "end": 31.25
+    },
+    {
+     "word": " you",
+     "start": 31.25,
+     "end": 31.39
+    },
+    {
+     "word": " ever",
+     "start": 31.39,
+     "end": 31.53
+    },
+    {
+     "word": " see",
+     "start": 31.53,
+     "end": 31.65
+    },
+    {
+     "word": " a",
+     "start": 31.65,
+     "end": 31.75
+    },
+    {
+     "word": " better",
+     "start": 31.75,
+     "end": 31.93
+    },
+    {
+     "word": " landing",
+     "start": 31.93,
+     "end": 32.17
+    },
+    {
+     "word": " than",
+     "start": 32.17,
+     "end": 32.35
+    },
+    {
+     "word": " that",
+     "start": 32.35,
+     "end": 32.51
+    },
+    {
+     "word": " pal",
+     "start": 32.51,
+     "end": 32.83
+    },
+    {
+     "word": " She's",
+     "start": 34.65,
+     "end": 35.15
+    },
+    {
+     "word": " First",
+     "start": 35.15,
+     "end": 36.13
+    },
+    {
+     "word": " tell",
+     "start": 36.13,
+     "end": 36.39
+    },
+    {
+     "word": " me",
+     "start": 36.39,
+     "end": 36.49
+    },
+    {
+     "word": " you've",
+     "start": 36.49,
+     "end": 36.61
+    },
+    {
+     "word": " seen",
+     "start": 36.61,
+     "end": 36.73
+    },
+    {
+     "word": " a",
+     "start": 36.73,
+     "end": 36.85
+    },
+    {
+     "word": " better",
+     "start": 36.85,
+     "end": 36.95
+    },
+    {
+     "word": " landing",
+     "start": 36.95,
+     "end": 37.19
+    },
+    {
+     "word": " than",
+     "start": 37.19,
+     "end": 37.41
+    },
+    {
+     "word": " that",
+     "start": 37.41,
+     "end": 37.57
+    },
+    {
+     "word": " pal",
+     "start": 37.57,
+     "end": 37.85
+    },
+    {
+     "word": " No,",
+     "start": 41.67,
+     "end": 42.17
+    },
+    {
+     "word": " no,",
+     "start": 42.17,
+     "end": 42.67
+    },
+    {
+     "word": " no,",
+     "start": 42.67,
+     "end": 43.67
+    },
+    {
+     "word": " that's",
+     "start": 43.67,
+     "end": 45.15
+    },
+    {
+     "word": " how",
+     "start": 45.15,
+     "end": 45.23
+    },
+    {
+     "word": " you",
+     "start": 45.23,
+     "end": 45.37
+    },
+    {
+     "word": " land.",
+     "start": 45.37,
+     "end": 45.63
+    },
+    {
+     "word": " That's",
+     "start": 45.85,
+     "end": 46.35
+    },
+    {
+     "word": " how",
+     "start": 46.35,
+     "end": 46.43
+    },
+    {
+     "word": " real",
+     "start": 46.43,
+     "end": 46.73
+    },
+    {
+     "word": " man",
+     "start": 46.73,
+     "end": 47.03
+    },
+    {
+     "word": " land",
+     "start": 47.03,
+     "end": 47.53
+    },
+    {
+     "word": " Hope",
+     "start": 48.71,
+     "end": 49.21
+    },
+    {
+     "word": " I'm",
+     "start": 49.21,
+     "end": 49.45
+    },
+    {
+     "word": " coming",
+     "start": 49.45,
+     "end": 49.57
+    },
+    {
+     "word": " in",
+     "start": 49.57,
+     "end": 49.67
+    },
+    {
+     "word": " a",
+     "start": 49.67,
+     "end": 49.71
+    },
+    {
+     "word": " lot",
+     "start": 49.71,
+     "end": 50.01
     }
    ],
    "metrics": {
-    "motion": 0.4829605963791267,
-    "motion_p90": 0.6367128150514733,
-    "static_share": 0.0,
-    "peak_db": 9.329904556274414,
-    "level_db": -23.901031494140625
+    "motion": 0.09117383512544804,
+    "motion_p90": 0.1989695340501792,
+    "static_share": 0.13725490196078433,
+    "peak_db": 10.584615707397461,
+    "level_db": -29.057571411132812
    },
    "silence": []
   }
@@ -2945,136 +2402,6 @@
    "score": 6,
    "keep": [
     14.0,
-    56.0
-   ]
-  },
-  "chat-2933569907-313": {
-   "id": "chat-2933569907-313",
-   "url": "https://www.twitch.tv/videos/2933569907",
-   "section": [
-    14059.565938,
-    14115.565938
-   ],
-   "kind": "chat",
-   "views": 71,
-   "title": "",
-   "vod": "2933569907",
-   "vod_t": 14059.565938,
-   "group": "ru",
-   "login": "recrent",
-   "name": "Recrent",
-   "viewers": 17676,
-   "chat_score": 4.44,
-   "found_at": "2026-11-19T15:09:18.237985+00:00",
-   "spike_at": "2026-11-19T15:03:10.565938+00:00",
-   "chat": [
-    "10x чвв",
-    "3x xdd",
-    "2x ♿️ОСТОРОЖНО♿️РЕКРЕНТ ЗА CАМОЛЕТОМ♿️ ͏ОСТОРОЖНО♿️РЕКРЕНТ ЗА CАМОЛЕТОМ♿️ ͏ОСТОРОЖН",
-    "2x чвв ͏",
-    "2x LUL",
-    "хахахаха",
-    "АААААААААААААААААААААААААААААААА",
-    "13 чвв",
-    "ХАХАХХАХА",
-    "Умом",
-    "ХАХАХХАХАХАХХАХАХАХАХА",
-    ")))))))))))))))",
-    "КЛЯНИСЬ."
-   ],
-   "source": "cut from the live stream at a chat spike: 71 chatters in 15 s, 4.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-19T15:31:37.559474+00:00",
-   "cam": [
-    74,
-    456,
-    302,
-    212
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 56.0,
-   "words": [
-    {
-     "word": " Сунушку",
-     "start": 4.25,
-     "end": 4.81
-    },
-    {
-     "word": " с",
-     "start": 4.81,
-     "end": 5.09
-    },
-    {
-     "word": " собой",
-     "start": 5.09,
-     "end": 5.17
-    },
-    {
-     "word": " возьму.",
-     "start": 5.17,
-     "end": 5.35
-    },
-    {
-     "word": " я",
-     "start": 50.35,
-     "end": 50.91
-    },
-    {
-     "word": " же",
-     "start": 50.91,
-     "end": 51.05
-    },
-    {
-     "word": " нажал",
-     "start": 51.05,
-     "end": 51.45
-    },
-    {
-     "word": " эр",
-     "start": 51.45,
-     "end": 51.65
-    },
-    {
-     "word": " один",
-     "start": 51.65,
-     "end": 51.93
-    },
-    {
-     "word": " куда",
-     "start": 51.93,
-     "end": 54.13
-    },
-    {
-     "word": " она",
-     "start": 54.13,
-     "end": 54.35
-    },
-    {
-     "word": " блять",
-     "start": 54.35,
-     "end": 54.63
-    },
-    {
-     "word": " выпрыгнула",
-     "start": 54.63,
-     "end": 55.35
-    }
-   ],
-   "metrics": {
-    "motion": 0.2919178868791272,
-    "motion_p90": 0.5133936261843239,
-    "static_share": 0.15246636771300448,
-    "peak_db": 5.5941009521484375,
-    "level_db": -26.79865264892578
-   },
-   "caption": "Надо было просто опылить поле, а она взяла и выпрыгнула из самолёта 💀 «Я же нажал R1!»",
-   "hook": "Выпрыгнула из самолёта",
-   "cover_at": 43.0,
-   "score": 6,
-   "keep": [
-    29.0,
     56.0
    ]
   },
