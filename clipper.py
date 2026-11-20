@@ -1138,7 +1138,7 @@ def pick(state, profile_of, prof, platforms, fresh_only=False):
             last = v["group"]
     key = lambda c: (c["score"], c.get("viewers") or 0, age_hours(c["at"]))
     cands = [c for c in state["pool"].values()
-             if profile_of[c["group"]] == prof and not (fresh_only and c.get("previewed"))
+             if profile_of.get(c["group"]) == prof and not (fresh_only and c.get("previewed"))
              and (not c.get("platforms") or set(c["platforms"]) & set(platforms))]
     if not cands:
         return None
@@ -1267,7 +1267,8 @@ def publish_due(cfg, state, dry):
     amend_pool(state, verdicts)
     platform_holds(cfg, state)
     save_state(state)
-    profile_of = {gname: g["profile"] for gname, g in cfg["groups"].items()}
+    # a group with `publish: false` is still watched and judged, its moments just do not go out
+    profile_of = {gname: g["profile"] for gname, g in cfg["groups"].items() if g.get("publish", True)}
     for prof in sorted(set(profile_of.values())):
         if not pick(state, profile_of, prof, cfg["platforms"], fresh_only=dry):
             continue

@@ -58,6 +58,7 @@ judge:
 groups:
   en:
     profile: "gta6"
+    publish: false      # 20.11: пока выкладываем только русских; английские моменты отбираются и копятся для отдельного канала
     language: en
     hashtags: "#gta6 #gta #gtavi #twitch #streamer #gaming"
     streamers: [xqc, kaicenat, jynxzi, summit1g, buddha, lord_kebun, dasmehdi, penta]
