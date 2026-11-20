@@ -63,6 +63,7 @@ def load_state():
     st.setdefault("pending", {})     # id -> passed the free checks, waiting for the editor's verdict
     st.setdefault("pool", {})        # id -> approved moments waiting for a publishing slot
     st.setdefault("no_vod", {})      # login -> channel whose recordings cannot be downloaded (subscribers only)
+    st.setdefault("shelf", {})       # id -> finished video kept for a channel that does not exist yet (see shelve_due)
     return st
 
 
@@ -235,7 +236,7 @@ def find_candidates(cfg, state):
 
 
 def known(state, cid):
-    return any(cid in state[k] for k in ("posted", "rejected", "pending", "pool"))
+    return any(cid in state[k] for k in ("posted", "rejected", "pending", "pool", "shelf"))
 
 
 def find_chat_moments(cfg, state):
@@ -1064,7 +1065,8 @@ def evaluate(cfg, state, c, td):
     jc = cfg.get("judge") or {}
     mode = judge_mode(cfg)
     log(f"-> [{c['kind']}] {c['login']} ({c.get('views')}): {c['title']} {c['url']} {c.get('section') or ''}")
-    for other in list(state["posted"].values()) + list(state["pool"].values()) + list(state["pending"].values()):
+    for other in list(state["posted"].values()) + list(state["pool"].values()) + list(state["pending"].values()) \
+            + list(state["shelf"].values()):
         if overlaps(c, other):
             return reject(state, c, "same moment is already posted or queued")
     src = Path(td) / f"{c['id']}.mp4"
@@ -1172,11 +1174,34 @@ def build_cover(cfg, c, src, cam):
         return None, None
 
 
-def publish(cfg, state, c, dry, to=None):
-    """Render the moment and post it to the platforms in `to` (by default everywhere it is still due)."""
+SHELF_DIR = OUT_DIR / "shelf"   # the workflow uploads this folder as the artifact shelf-<run id>, kept 90 days
+SHELF_DAYS = 85                 # an entry older than that has lost its artifact
+SHELF_MAX = 80                  # finished videos remembered; beyond that the weakest and oldest go
+
+
+def shelf_artifact():
+    """Name of the artifact this run's shelved videos end up in, None outside GitHub Actions."""
+    run = os.environ.get("GITHUB_RUN_ID")
+    return f"shelf-{run}" if run else None
+
+
+def trim_shelf(state):
+    for cid, v in list(state["shelf"].items()):
+        if age_hours(v["at"]) > SHELF_DAYS * 24:
+            del state["shelf"][cid]
+    while len(state["shelf"]) > SHELF_MAX:
+        cid, v = min(state["shelf"].items(), key=lambda kv: (kv[1].get("score") or 0, kv[1]["at"]))
+        del state["shelf"][cid]
+        log(f"   shelf is full: forgot {v.get('login')} {cid[-12:]} ({v.get('score')}/10)")
+
+
+def publish(cfg, state, c, dry, to=None, shelve=False):
+    """Render the moment and post it to the platforms in `to` (by default everywhere it is still due).
+    shelve: the group does not publish yet, so the finished video is stored instead of posted."""
     g = cfg["groups"][c["group"]]
     to = list(to or c.get("platforms") or cfg["platforms"])
-    log(f"=> publishing [{c['kind']}] {c['login']} {c['score']}/10: {c.get('caption') or c['title']}")
+    log(f"=> {'shelving' if shelve else 'publishing'} [{c['kind']}] {c['login']} {c['score']}/10: "
+        f"{c.get('caption') or c['title']}")
     with tempfile.TemporaryDirectory() as td:
         src = download(c["url"], Path(td) / f"{c['id']}.mp4", c.get("section"))
         why = muted(src, c.get("keep"))
@@ -1219,6 +1244,24 @@ def publish(cfg, state, c, dry, to=None):
             log("   DRY RUN, not posting:", out.name, "|", caption)
             c["previewed"] = True          # do not render the same preview again on the next dry run
             report(c, "would_post", caption=caption)
+            return
+        if shelve:
+            SHELF_DIR.mkdir(parents=True, exist_ok=True)
+            out = out.replace(SHELF_DIR / out.name)         # out of out/*.mp4, which is kept for three days only
+            if cover:
+                (SHELF_DIR / Path(cover).name).write_bytes(Path(cover).read_bytes())
+            state["shelf"][c["id"]] = {
+                "artifact": shelf_artifact(), "run": os.environ.get("GITHUB_RUN_ID"),
+                "at": now_utc().isoformat(), "found": c["at"], "login": c["login"], "name": c["name"],
+                "group": c["group"], "kind": c["kind"], "score": c["score"], "url": c["url"],
+                "section": c.get("section"), "vod": c.get("vod"), "vod_t": c.get("vod_t"), "title": c.get("title"),
+                "caption": c.get("caption"), "hook": c.get("hook"), "video": out.name,
+                "cover": Path(cover).name if cover else None, "cover_ms": cover_ms, "volume": vol,
+                "seconds": round(probe(out)[2], 1), **({"earlier": c["earlier"]} if c.get("earlier") else {})}
+            state["pool"].pop(c["id"], None)
+            trim_shelf(state)
+            log(f"   on the shelf: {out.name} ({len(state['shelf'])} waiting for their channel)")
+            report(c, "shelved", caption=caption)
             return
         idem = c["id"] + (f"-r{c['attempt']}" if c.get("attempt") else "")    # a retry must not replay the refusal
         if c.get("platforms"):
@@ -1291,6 +1334,43 @@ def publish_due(cfg, state, dry):
                                             "login": c["login"]}
             save_state(state)
             free = [] if dry else [p for p in free if p not in to]
+    shelve_due(cfg, state, dry)
+
+
+def shelve_due(cfg, state, dry, limit=2):
+    """Approved moments of a group with `publish: false` are finished like a post and kept as files instead
+    (artifact shelf-<run id>, 90 days; texts and the artifact name in state["shelf"]): the recording they are
+    cut from does not last, the finished video does. They wait there for the group's own channel."""
+    off = {gname for gname, g in cfg["groups"].items() if not g.get("publish", True)}
+    waiting = sorted((c for c in state["pool"].values() if c["group"] in off), key=lambda c: c["at"])
+    if dry or not waiting:
+        return
+    if not shelf_artifact():        # only a run on GitHub can keep the files
+        return
+    for c in waiting[:limit]:
+        try:
+            publish(cfg, state, c, dry, shelve=True)
+        except Exception as e:  # noqa
+            log("   ERROR while shelving:", repr(e)[:400])
+            c["shelf_tries"] = int(c.get("shelf_tries") or 0) + 1
+            if c["shelf_tries"] >= 2:       # twice is no accident: give it up like a failed post
+                state["pool"].pop(c["id"], None)
+                state["posted"][c["id"]] = {"at": now_utc().isoformat(), "ok": False, "error": repr(e)[:300],
+                                            "login": c["login"]}
+        save_state(state)
+
+
+def prefer_publishing(cfg, items):
+    """Candidates of groups that publish now go first, two for every one of a group that only collects."""
+    quiet = [c for c in items if not cfg["groups"][c["group"]].get("publish", True)]
+    out = [c for c in items if cfg["groups"][c["group"]].get("publish", True)]
+    if not quiet or not out:
+        return items
+    mixed = []
+    while out or quiet:
+        mixed += out[:2] + quiet[:1]
+        out, quiet = out[2:], quiet[1:]
+    return mixed
 
 
 # ---------------------------------------------------------------- main
@@ -1362,7 +1442,7 @@ def main():
     # but always look at the strongest fresh moment of the run
     waiting = len(state["pending"]) + len(state["pool"])
     limit = min(int(jc.get("max_checked_per_run", 8)), max(1, int(jc.get("queue_target", 10)) - waiting))
-    order = new[:max(1, limit - 2)] + clips
+    order = prefer_publishing(cfg, new[:max(1, limit - 2)] + clips)
     log(f"Waiting for the editor or a slot: {waiting}; checking up to {limit} new candidate(s)")
     checked = 0
     for c in order:

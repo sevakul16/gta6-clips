@@ -136,6 +136,16 @@ jobs:
           path: out/*.mp4
           retention-days: 3
           if-no-files-found: ignore
+      # Groups with `publish: false` in config.yaml: their approved moments are finished and kept here
+      # until the group gets its own channel (state/posted.json, key shelf, says which artifact holds what).
+      - name: Keep finished clips of groups that do not publish yet (the shelf)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shelf-${{ github.run_id }}
+          path: out/shelf/
+          retention-days: 90
+          if-no-files-found: ignore
       - name: Push review material (branches review and previews)
         if: always()
         env:

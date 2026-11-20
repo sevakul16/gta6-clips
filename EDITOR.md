@@ -52,3 +52,12 @@ to lie inside the kept part. Without it the frame with the most motion is used. 
 
 The caption is the on-platform text: a short hook that says what happens, truthful, in the streamer's language
 (`language` in the json), at most 80 characters, no hashtags, no streamer handle, at most one emoji.
+
+## Groups that do not publish yet (`publish: false` in config.yaml)
+
+Since 20.11.2026 the `en` group is one: the current channels get RU clips only, EN clips are collected for a
+separate channel. Judge EN candidates exactly as before (same bar, hook, cover, caption). An approved moment of
+such a group takes no slot: `shelve_due()` renders it like a post and keeps the finished video and cover as
+files in the workflow artifact `shelf-<run id>` (90 days). `state/posted.json`, key `shelf`, lists what is kept:
+artifact name, file names, caption, hook, score. When the group gets its own upload-post profile, set
+`groups.<name>.profile`, remove `publish: false`, and post the kept files from the artifacts.
