@@ -1114,48 +1114,52 @@
    "at": "2026-11-20T03:31:51.897149+00:00",
    "why": "editor: 3/10, Scripted mission scene: he stands and watches a deal with a biker gang while the characters talk, chat salutes a character it expects to die. He comments a little but nothing happens in the clip, it ends before any action",
    "login": "penta"
+  },
+  "chat-2934276428-384": {
+   "at": "2026-11-20T04:14:16.877021+00:00",
+   "why": "editor: 5/10, He drives a yellow car to a car-theft mission, slides off the road into a roadside fruit stand and knocks people over, then drives on; chat jokes about hit and run. An ordinary crash with almost no reaction from him, weaker than his other clip from the same hour",
+   "login": "summit1g"
   }
  },
  "pending": {
-  "chat-2934276428-346": {
-   "id": "chat-2934276428-346",
+  "chat-2934276428-411": {
+   "id": "chat-2934276428-411",
    "url": "https://www.twitch.tv/videos/2934276428",
    "section": [
-    15545.391011,
-    15601.391011
+    18466.039847,
+    18522.039847
    ],
    "kind": "chat",
-   "views": 63,
+   "views": 93,
    "title": "",
    "vod": "2934276428",
-   "vod_t": 15545.391011,
+   "vod_t": 18466.039847,
    "group": "en",
    "login": "summit1g",
    "name": "summit1g",
-   "viewers": 10034,
-   "chat_score": 4.85,
-   "found_at": "2026-11-20T03:31:30.130992+00:00",
-   "spike_at": "2026-11-20T03:16:17.391011+00:00",
+   "viewers": 9718,
+   "chat_score": 5.81,
+   "found_at": "2026-11-20T04:13:50.616395+00:00",
+   "spike_at": "2026-11-20T04:04:58.039847+00:00",
    "chat": [
-    "19x LOL",
-    "5x LO",
-    "3x LMAO",
-    "3x LUL",
-    "2x LMFAO",
-    "2x ???",
-    "2x wow",
-    "2x no shot",
-    "maybe later down the line you get more customization",
-    "BAHAHA",
-    "LOL 󠀀",
-    "DESERVED",
-    "mods are lame",
-    "o7",
-    "KEKW",
-    "SELL IT NOW"
+    "26x LOL",
+    "7x LO",
+    "6x LMAO",
+    "6x KEKW",
+    "4x LUL",
+    "2x EZ",
+    "2x classic",
+    "KEKL",
+    "Rip Pop smoke",
+    "KARMA KEKW",
+    "KEKWOO",
+    "OSFrog",
+    "LOOO",
+    "lmaoo",
+    "LOLLLL"
    ],
-   "source": "cut from the live stream at a chat spike: 63 chatters in 15 s, 4.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-20T03:31:48.636712+00:00",
+   "source": "cut from the live stream at a chat spike: 93 chatters in 15 s, 5.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-20T04:14:11.896475+00:00",
    "cam": [
     0,
     524,
@@ -1166,439 +1170,95 @@
     1920,
     1080
    ],
-   "dur": 61.0,
+   "dur": 62.0,
    "words": [
     {
-     "word": " What",
-     "start": 2.99,
-     "end": 3.49
+     "word": " I",
+     "start": 4.11,
+     "end": 4.91
     },
     {
-     "word": " do",
-     "start": 3.49,
-     "end": 3.49
+     "word": " Want",
+     "start": 4.91,
+     "end": 4.91
     },
     {
-     "word": " you",
-     "start": 3.49,
-     "end": 3.59
+     "word": " hell",
+     "start": 4.91,
+     "end": 7.37
     },
     {
-     "word": " fucking",
-     "start": 3.59,
-     "end": 4.01
-    },
-    {
-     "word": " know",
-     "start": 4.01,
-     "end": 4.33
-    },
-    {
-     "word": " what's",
-     "start": 4.33,
-     "end": 5.27
-    },
-    {
-     "word": " gonna",
-     "start": 8.92,
-     "end": 9.04
-    },
-    {
-     "word": " save",
-     "start": 9.04,
-     "end": 9.38
-    },
-    {
-     "word": " her?",
-     "start": 9.38,
-     "end": 9.56
-    },
-    {
-     "word": " Nothing",
-     "start": 11.2,
-     "end": 11.74
-    },
-    {
-     "word": " well,",
-     "start": 11.74,
-     "end": 12.0
-    },
-    {
-     "word": " she's",
-     "start": 12.02,
-     "end": 12.3
-    },
-    {
-     "word": " gonna",
-     "start": 12.3,
-     "end": 12.32
-    },
-    {
-     "word": " talking",
-     "start": 12.32,
-     "end": 12.68
-    },
-    {
-     "word": " to",
-     "start": 12.68,
-     "end": 12.82
-    },
-    {
-     "word": " fuck",
-     "start": 12.82,
-     "end": 13.02
+     "word": " of",
+     "start": 14.35,
+     "end": 14.47
     },
     {
      "word": " a",
-     "start": 13.02,
-     "end": 13.16
+     "start": 14.47,
+     "end": 14.57
     },
     {
-     "word": " matter",
-     "start": 13.16,
-     "end": 13.46
+     "word": " truck",
+     "start": 14.57,
+     "end": 14.81
     },
     {
-     "word": " and",
-     "start": 13.46,
-     "end": 14.54
+     "word": " appreciate",
+     "start": 18.84,
+     "end": 19.84
     },
     {
-     "word": " we",
-     "start": 14.54,
-     "end": 14.64
+     "word": " the",
+     "start": 19.84,
+     "end": 20.18
     },
     {
-     "word": " go",
-     "start": 14.64,
-     "end": 14.74
+     "word": " hard",
+     "start": 20.18,
+     "end": 20.36
     },
     {
-     "word": " blonde.",
-     "start": 14.74,
-     "end": 15.22
+     "word": " work",
+     "start": 20.36,
+     "end": 20.96
     },
     {
-     "word": " I",
-     "start": 23.72,
-     "end": 24.26
-    },
-    {
-     "word": " don't",
-     "start": 24.26,
-     "end": 24.32
-    },
-    {
-     "word": " think",
-     "start": 24.32,
-     "end": 24.4
-    },
-    {
-     "word": " it's",
-     "start": 24.4,
-     "end": 24.52
-    },
-    {
-     "word": " gonna",
-     "start": 24.52,
-     "end": 24.62
-    },
-    {
-     "word": " save",
-     "start": 24.62,
-     "end": 24.86
+     "word": " See",
+     "start": 20.96,
+     "end": 21.82
     },
     {
      "word": " you",
-     "start": 24.86,
-     "end": 25.1
+     "start": 21.82,
+     "end": 22.9
     },
     {
-     "word": " Sorry,",
-     "start": 37.17,
-     "end": 37.71
+     "word": " You'll",
+     "start": 42.53,
+     "end": 43.73
     },
     {
-     "word": " sorry",
-     "start": 37.71,
-     "end": 38.25
+     "word": " get",
+     "start": 43.73,
+     "end": 44.35
     },
     {
-     "word": " He",
-     "start": 53.09,
-     "end": 53.63
-    },
-    {
-     "word": " says",
-     "start": 58.24,
-     "end": 58.78
-    },
-    {
-     "word": " shit",
-     "start": 58.78,
-     "end": 59.24
-    }
-   ],
-   "metrics": {
-    "motion": 0.3087429643527205,
-    "motion_p90": 0.6279924953095685,
-    "static_share": 0.102880658436214,
-    "peak_db": 10.971086502075195,
-    "level_db": -39.03680419921875
-   },
-   "silence": []
-  },
-  "chat-2934276428-384": {
-   "id": "chat-2934276428-384",
-   "url": "https://www.twitch.tv/videos/2934276428",
-   "section": [
-    17280.137532,
-    17336.137532
-   ],
-   "kind": "chat",
-   "views": 44,
-   "title": "",
-   "vod": "2934276428",
-   "vod_t": 17280.137532,
-   "group": "en",
-   "login": "summit1g",
-   "name": "summit1g",
-   "viewers": 10092,
-   "chat_score": 6.29,
-   "found_at": "2026-11-20T03:52:34.741412+00:00",
-   "spike_at": "2026-11-20T03:45:12.137532+00:00",
-   "chat": [
-    "5x D:",
-    "3x o7",
-    "2x LUL",
-    "2x LOL",
-    "2x KEKW",
-    "2x Lmao",
-    "oh gawdddd",
-    "BRUH",
-    "damn",
-    "nice parking",
-    "Hit and run",
-    "....",
-    "read brochures in main office where u staty for racing on map",
-    "offf"
-   ],
-   "source": "cut from the live stream at a chat spike: 44 chatters in 15 s, 6.3x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-20T03:52:54.959673+00:00",
-   "cam": [
-    0,
-    524,
-    510,
-    285
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 56.0,
-   "words": [
-    {
-     "word": " steal",
-     "start": 0.0,
-     "end": 0.14
-    },
-    {
-     "word": " the",
-     "start": 0.14,
-     "end": 0.3
-    },
-    {
-     "word": " crawler",
-     "start": 0.3,
-     "end": 0.72
-    },
-    {
-     "word": " from",
-     "start": 0.72,
-     "end": 0.9
-    },
-    {
-     "word": " Moses.",
-     "start": 0.9,
-     "end": 1.22
-    },
-    {
-     "word": " Is",
-     "start": 3.49,
-     "end": 3.81
-    },
-    {
-     "word": " that",
-     "start": 3.81,
-     "end": 3.95
-    },
-    {
-     "word": " bringing",
-     "start": 3.95,
-     "end": 4.21
-    },
-    {
-     "word": " me",
-     "start": 4.21,
-     "end": 4.43
-    },
-    {
-     "word": " to",
-     "start": 4.43,
-     "end": 4.63
-    },
-    {
-     "word": " the",
-     "start": 4.63,
-     "end": 4.79
-    },
-    {
-     "word": " crawler?",
-     "start": 4.79,
-     "end": 5.21
-    },
-    {
-     "word": " Or",
-     "start": 5.33,
-     "end": 5.33
-    },
-    {
-     "word": " is",
-     "start": 5.33,
-     "end": 5.39
-    },
-    {
-     "word": " that",
-     "start": 5.39,
-     "end": 5.51
-    },
-    {
-     "word": " bringing",
-     "start": 5.51,
-     "end": 5.69
-    },
-    {
-     "word": " me",
-     "start": 5.69,
-     "end": 5.85
-    },
-    {
-     "word": " to",
-     "start": 5.85,
-     "end": 5.93
-    },
-    {
-     "word": " his",
-     "start": 5.93,
-     "end": 6.03
-    },
-    {
-     "word": " garage?",
-     "start": 6.03,
-     "end": 6.33
-    },
-    {
-     "word": " And",
-     "start": 6.49,
-     "end": 6.57
-    },
-    {
-     "word": " I've",
-     "start": 6.57,
-     "end": 6.65
-    },
-    {
-     "word": " got",
-     "start": 6.65,
-     "end": 6.73
-    },
-    {
-     "word": " to",
-     "start": 6.73,
-     "end": 6.83
-    },
-    {
-     "word": " find",
-     "start": 6.83,
-     "end": 7.03
+     "word": " over",
+     "start": 44.35,
+     "end": 44.65
     },
     {
      "word": " it",
-     "start": 7.03,
-     "end": 7.21
-    },
-    {
-     "word": " to",
-     "start": 7.21,
-     "end": 8.15
-    },
-    {
-     "word": " the",
-     "start": 19.93,
-     "end": 20.05
-    },
-    {
-     "word": " car,",
-     "start": 20.05,
-     "end": 20.37
-    },
-    {
-     "word": " OK?",
-     "start": 20.49,
-     "end": 20.61
-    },
-    {
-     "word": " So",
-     "start": 22.41,
-     "end": 22.71
-    },
-    {
-     "word": " he",
-     "start": 22.71,
-     "end": 22.79
-    },
-    {
-     "word": " gives",
-     "start": 22.79,
-     "end": 22.93
-    },
-    {
-     "word": " me",
-     "start": 22.93,
-     "end": 23.05
-    },
-    {
-     "word": " a",
-     "start": 23.05,
-     "end": 23.11
-    },
-    {
-     "word": " little",
-     "start": 23.11,
-     "end": 23.23
-    },
-    {
-     "word": " car",
-     "start": 23.23,
-     "end": 23.55
-    },
-    {
-     "word": " stealing",
-     "start": 23.55,
-     "end": 23.89
-    },
-    {
-     "word": " missions.",
-     "start": 23.89,
-     "end": 24.29
+     "start": 44.65,
+     "end": 44.95
     }
    ],
    "metrics": {
-    "motion": 0.36157598499061916,
-    "motion_p90": 0.621703564727955,
-    "static_share": 0.03587443946188341,
-    "peak_db": 7.564563751220703,
-    "level_db": -32.410247802734375
+    "motion": 0.42056285178236397,
+    "motion_p90": 0.6808255159474672,
+    "static_share": 0.03643724696356275,
+    "peak_db": 8.092451095581055,
+    "level_db": -36.481834411621094
    },
    "silence": []
   }
@@ -3581,6 +3241,245 @@
    "keep": [
     15.0,
     53.0
+   ]
+  },
+  "chat-2934276428-346": {
+   "id": "chat-2934276428-346",
+   "url": "https://www.twitch.tv/videos/2934276428",
+   "section": [
+    15545.391011,
+    15601.391011
+   ],
+   "kind": "chat",
+   "views": 63,
+   "title": "",
+   "vod": "2934276428",
+   "vod_t": 15545.391011,
+   "group": "en",
+   "login": "summit1g",
+   "name": "summit1g",
+   "viewers": 10034,
+   "chat_score": 4.85,
+   "found_at": "2026-11-20T03:31:30.130992+00:00",
+   "spike_at": "2026-11-20T03:16:17.391011+00:00",
+   "chat": [
+    "19x LOL",
+    "5x LO",
+    "3x LMAO",
+    "3x LUL",
+    "2x LMFAO",
+    "2x ???",
+    "2x wow",
+    "2x no shot",
+    "maybe later down the line you get more customization",
+    "BAHAHA",
+    "LOL 󠀀",
+    "DESERVED",
+    "mods are lame",
+    "o7",
+    "KEKW",
+    "SELL IT NOW"
+   ],
+   "source": "cut from the live stream at a chat spike: 63 chatters in 15 s, 4.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-20T04:14:16.876555+00:00",
+   "cam": [
+    0,
+    524,
+    510,
+    285
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 61.0,
+   "words": [
+    {
+     "word": " What",
+     "start": 2.99,
+     "end": 3.49
+    },
+    {
+     "word": " do",
+     "start": 3.49,
+     "end": 3.49
+    },
+    {
+     "word": " you",
+     "start": 3.49,
+     "end": 3.59
+    },
+    {
+     "word": " fucking",
+     "start": 3.59,
+     "end": 4.01
+    },
+    {
+     "word": " know",
+     "start": 4.01,
+     "end": 4.33
+    },
+    {
+     "word": " what's",
+     "start": 4.33,
+     "end": 5.27
+    },
+    {
+     "word": " gonna",
+     "start": 8.92,
+     "end": 9.04
+    },
+    {
+     "word": " save",
+     "start": 9.04,
+     "end": 9.38
+    },
+    {
+     "word": " her?",
+     "start": 9.38,
+     "end": 9.56
+    },
+    {
+     "word": " Nothing",
+     "start": 11.2,
+     "end": 11.74
+    },
+    {
+     "word": " well,",
+     "start": 11.74,
+     "end": 12.0
+    },
+    {
+     "word": " she's",
+     "start": 12.02,
+     "end": 12.3
+    },
+    {
+     "word": " gonna",
+     "start": 12.3,
+     "end": 12.32
+    },
+    {
+     "word": " talking",
+     "start": 12.32,
+     "end": 12.68
+    },
+    {
+     "word": " to",
+     "start": 12.68,
+     "end": 12.82
+    },
+    {
+     "word": " fuck",
+     "start": 12.82,
+     "end": 13.02
+    },
+    {
+     "word": " a",
+     "start": 13.02,
+     "end": 13.16
+    },
+    {
+     "word": " matter",
+     "start": 13.16,
+     "end": 13.46
+    },
+    {
+     "word": " and",
+     "start": 13.46,
+     "end": 14.54
+    },
+    {
+     "word": " we",
+     "start": 14.54,
+     "end": 14.64
+    },
+    {
+     "word": " go",
+     "start": 14.64,
+     "end": 14.74
+    },
+    {
+     "word": " blonde.",
+     "start": 14.74,
+     "end": 15.22
+    },
+    {
+     "word": " I",
+     "start": 23.72,
+     "end": 24.26
+    },
+    {
+     "word": " don't",
+     "start": 24.26,
+     "end": 24.32
+    },
+    {
+     "word": " think",
+     "start": 24.32,
+     "end": 24.4
+    },
+    {
+     "word": " it's",
+     "start": 24.4,
+     "end": 24.52
+    },
+    {
+     "word": " gonna",
+     "start": 24.52,
+     "end": 24.62
+    },
+    {
+     "word": " save",
+     "start": 24.62,
+     "end": 24.86
+    },
+    {
+     "word": " you",
+     "start": 24.86,
+     "end": 25.1
+    },
+    {
+     "word": " Sorry,",
+     "start": 37.17,
+     "end": 37.71
+    },
+    {
+     "word": " sorry",
+     "start": 37.71,
+     "end": 38.25
+    },
+    {
+     "word": " He",
+     "start": 53.09,
+     "end": 53.63
+    },
+    {
+     "word": " says",
+     "start": 58.24,
+     "end": 58.78
+    },
+    {
+     "word": " shit",
+     "start": 58.78,
+     "end": 59.24
+    }
+   ],
+   "metrics": {
+    "motion": 0.3087429643527205,
+    "motion_p90": 0.6279924953095685,
+    "static_share": 0.102880658436214,
+    "peak_db": 10.971086502075195,
+    "level_db": -39.03680419921875
+   },
+   "silence": [],
+   "caption": "Went in for a new hairstyle, came out to a semi truck parked on his car 💀",
+   "hook": "Parked ON his car",
+   "cover_at": 42.7,
+   "score": 6,
+   "keep": [
+    27.0,
+    55.0
    ]
   }
  },
