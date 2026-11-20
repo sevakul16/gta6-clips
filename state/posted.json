@@ -1432,6 +1432,408 @@
     "level_db": -30.056106567382812
    },
    "silence": []
+  },
+  "chat-2934030540-525": {
+   "id": "chat-2934030540-525",
+   "url": "https://www.twitch.tv/videos/2934030540",
+   "section": [
+    23615.398148,
+    23671.398148
+   ],
+   "kind": "chat",
+   "views": 122,
+   "title": "",
+   "vod": "2934030540",
+   "vod_t": 23615.398148,
+   "group": "en",
+   "login": "theburntpeanut",
+   "name": "TheBurntPeanut",
+   "viewers": 59960,
+   "chat_score": 3.39,
+   "found_at": "2026-11-20T02:04:51.156485+00:00",
+   "spike_at": "2026-11-20T01:47:38.398148+00:00",
+   "chat": [
+    "14x lol",
+    "5x gg",
+    "4x L",
+    "4x LUL",
+    "3x LMAO",
+    "3x rip",
+    "2x Perfect",
+    "2x HA",
+    "2x HAH",
+    "pampozed",
+    "HSAHAHAAHAHAHAHAHAHAAHAHAHA",
+    "HAHAHHAHAHAHAHAHHAHA",
+    "hahah forgot",
+    "GOTEEEEEEEM",
+    "Haha and now Lucia is pissdd",
+    "WWWWEEEEELLLLPPPPP",
+    "Pretty sure you ran a red light"
+   ],
+   "source": "cut from the live stream at a chat spike: 122 chatters in 15 s, 3.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-20T02:05:14.554195+00:00",
+   "cam": [
+    288,
+    756,
+    422,
+    324
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 61.0,
+   "words": [
+    {
+     "word": " That",
+     "start": 19.69,
+     "end": 20.09
+    },
+    {
+     "word": " guy's",
+     "start": 20.09,
+     "end": 20.47
+    },
+    {
+     "word": " grandchildren",
+     "start": 20.47,
+     "end": 20.99
+    },
+    {
+     "word": " are",
+     "start": 20.99,
+     "end": 21.39
+    },
+    {
+     "word": " about",
+     "start": 21.39,
+     "end": 21.55
+    },
+    {
+     "word": " to",
+     "start": 21.55,
+     "end": 21.69
+    },
+    {
+     "word": " be",
+     "start": 21.69,
+     "end": 21.81
+    },
+    {
+     "word": " in",
+     "start": 21.81,
+     "end": 22.05
+    },
+    {
+     "word": " there.",
+     "start": 22.05,
+     "end": 22.31
+    },
+    {
+     "word": " Hey,",
+     "start": 25.45,
+     "end": 25.85
+    },
+    {
+     "word": " let",
+     "start": 25.89,
+     "end": 25.95
+    },
+    {
+     "word": " me",
+     "start": 25.95,
+     "end": 26.07
+    },
+    {
+     "word": " see.",
+     "start": 26.07,
+     "end": 26.25
+    },
+    {
+     "word": " That",
+     "start": 26.89,
+     "end": 27.25
+    },
+    {
+     "word": " car",
+     "start": 27.25,
+     "end": 27.43
+    },
+    {
+     "word": " is",
+     "start": 27.43,
+     "end": 27.55
+    },
+    {
+     "word": " nice.",
+     "start": 27.55,
+     "end": 27.73
+    },
+    {
+     "word": " Yeah,",
+     "start": 27.83,
+     "end": 27.95
+    },
+    {
+     "word": " you",
+     "start": 27.99,
+     "end": 28.07
+    },
+    {
+     "word": " see",
+     "start": 28.07,
+     "end": 28.21
+    },
+    {
+     "word": " this?",
+     "start": 28.21,
+     "end": 28.49
+    },
+    {
+     "word": " This",
+     "start": 28.67,
+     "end": 28.89
+    },
+    {
+     "word": " is",
+     "start": 28.89,
+     "end": 29.13
+    },
+    {
+     "word": " nice!",
+     "start": 29.13,
+     "end": 29.55
+    },
+    {
+     "word": " I'm",
+     "start": 30.41,
+     "end": 30.57
+    },
+    {
+     "word": " telling",
+     "start": 30.57,
+     "end": 30.67
+    },
+    {
+     "word": " you,",
+     "start": 30.67,
+     "end": 30.71
+    },
+    {
+     "word": " I",
+     "start": 30.75,
+     "end": 30.83
+    },
+    {
+     "word": " think",
+     "start": 30.83,
+     "end": 30.93
+    },
+    {
+     "word": " we",
+     "start": 30.93,
+     "end": 30.99
+    },
+    {
+     "word": " can",
+     "start": 30.99,
+     "end": 31.07
+    },
+    {
+     "word": " save",
+     "start": 31.07,
+     "end": 31.31
+    },
+    {
+     "word": " it",
+     "start": 31.31,
+     "end": 31.45
+    },
+    {
+     "word": " right",
+     "start": 31.45,
+     "end": 31.59
+    },
+    {
+     "word": " here.",
+     "start": 31.59,
+     "end": 31.91
+    },
+    {
+     "word": " I",
+     "start": 32.81,
+     "end": 32.91
+    },
+    {
+     "word": " need",
+     "start": 32.91,
+     "end": 33.03
+    },
+    {
+     "word": " to",
+     "start": 33.03,
+     "end": 33.09
+    },
+    {
+     "word": " park",
+     "start": 33.09,
+     "end": 33.39
+    },
+    {
+     "word": " it",
+     "start": 33.39,
+     "end": 33.55
+    },
+    {
+     "word": " in",
+     "start": 33.55,
+     "end": 33.85
+    },
+    {
+     "word": " these",
+     "start": 33.85,
+     "end": 34.05
+    },
+    {
+     "word": " spots",
+     "start": 34.05,
+     "end": 34.43
+    },
+    {
+     "word": " it",
+     "start": 34.43,
+     "end": 34.67
+    },
+    {
+     "word": " saves.",
+     "start": 34.67,
+     "end": 34.99
+    },
+    {
+     "word": " I",
+     "start": 38.3,
+     "end": 38.6
+    },
+    {
+     "word": " think.",
+     "start": 38.6,
+     "end": 38.78
+    },
+    {
+     "word": " That's",
+     "start": 39.44,
+     "end": 39.58
+    },
+    {
+     "word": " it.",
+     "start": 39.58,
+     "end": 39.72
+    },
+    {
+     "word": " Vehicle",
+     "start": 41.42,
+     "end": 41.76
+    },
+    {
+     "word": " contains",
+     "start": 41.76,
+     "end": 42.06
+    },
+    {
+     "word": " an",
+     "start": 42.06,
+     "end": 42.26
+    },
+    {
+     "word": " advanced",
+     "start": 42.26,
+     "end": 42.48
+    },
+    {
+     "word": " tracker",
+     "start": 42.48,
+     "end": 42.88
+    },
+    {
+     "word": " and",
+     "start": 42.88,
+     "end": 43.1
+    },
+    {
+     "word": " can't",
+     "start": 43.1,
+     "end": 43.4
+    },
+    {
+     "word": " be",
+     "start": 43.4,
+     "end": 43.52
+    },
+    {
+     "word": " parked.",
+     "start": 43.52,
+     "end": 43.78
+    },
+    {
+     "word": " We",
+     "start": 52.48,
+     "end": 53.04
+    },
+    {
+     "word": " happen",
+     "start": 55.28,
+     "end": 55.84
+    },
+    {
+     "word": " boys,",
+     "start": 55.84,
+     "end": 56.36
+    },
+    {
+     "word": " I",
+     "start": 56.7,
+     "end": 57.12
+    },
+    {
+     "word": " love",
+     "start": 57.12,
+     "end": 57.3
+    },
+    {
+     "word": " it",
+     "start": 57.3,
+     "end": 57.44
+    },
+    {
+     "word": " on",
+     "start": 57.44,
+     "end": 57.54
+    },
+    {
+     "word": " this",
+     "start": 57.54,
+     "end": 57.66
+    },
+    {
+     "word": " big",
+     "start": 57.66,
+     "end": 57.94
+    },
+    {
+     "word": " job",
+     "start": 57.94,
+     "end": 58.2
+    }
+   ],
+   "metrics": {
+    "motion": 0.3890382317801673,
+    "motion_p90": 0.641173835125448,
+    "static_share": 0.10699588477366255,
+    "peak_db": 9.330738067626953,
+    "level_db": -27.642032623291016
+   },
+   "silence": []
   }
  },
  "pool": {
