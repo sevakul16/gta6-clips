@@ -1224,5 +1224,29 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "chat-2932305259-3219": {
+  "at": "2026-11-20T06:26:36.516050+00:00",
+  "moment_score": 3,
+  "what_happens": "Scripted mission dialogue at a door with a man in underwear and innuendo, the player stands still for 40 s, dark",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2934188629-658": {
+  "at": "2026-11-20T06:26:36.558181+00:00",
+  "moment_score": 3,
+  "what_happens": "Routine: walks to the truck, opens the map and the bank app, drives off; nothing happens on screen",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2934276428-527": {
+  "at": "2026-11-20T06:26:36.598223+00:00",
+  "moment_score": 3,
+  "what_happens": "Looting a dark house and missing a collectible card, mostly too dark to read, no event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
  }
 }
