@@ -1296,5 +1296,49 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "BadBillowingWalrus4Head-HFzr_Izs0_ANBT6v": {
+  "at": "2026-11-20T10:14:10.782852+00:00",
+  "moment_score": 1,
+  "what_happens": "Strip club private dance, topless nudity",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "WealthyAcceptableMooseKlappa-Ox-VK5uYtfxXgarX": {
+  "at": "2026-11-20T10:14:10.829808+00:00",
+  "moment_score": 3,
+  "what_happens": "14 s of walking across a parking lot, almost no sound, no readable event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2934736689-128": {
+  "at": "2026-11-20T10:14:10.902904+00:00",
+  "moment_score": 3,
+  "what_happens": "Cutscene: drug deal dialogue and a product choice the chat votes on; no gameplay event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2934505601-588": {
+  "at": "2026-11-20T10:14:10.963144+00:00",
+  "moment_score": 2,
+  "what_happens": "Map and save menu while chat guesses the completion percent; nothing happens",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2934030540-1135": {
+  "at": "2026-11-20T10:14:11.023446+00:00",
+  "moment_score": 6,
+  "what_happens": "Brags about his landing ('that is how real men land'), taxis to the hangar and the mission fails: the plane was destroyed. Night footage, readable",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "\"That's how real men land\"... mission failed seconds later 💀",
+  "keep_start": 27.0,
+  "keep_end": 60.0,
+  "hook": "Best landing. FAILED.",
+  "cover_at": 49.1
  }
 }
