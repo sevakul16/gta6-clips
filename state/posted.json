@@ -1832,315 +1832,880 @@
     "level_db": -29.057571411132812
    },
    "silence": []
-  }
- },
- "pool": {
-  "AgreeableHyperCockroachCeilingCat-_dmoVo8X--AU1Sq7": {
-   "id": "AgreeableHyperCockroachCeilingCat-_dmoVo8X--AU1Sq7",
-   "url": "https://www.twitch.tv/kaicenat/clip/AgreeableHyperCockroachCeilingCat-_dmoVo8X--AU1Sq7",
-   "section": null,
-   "kind": "clip",
-   "views": 1029,
-   "title": "\"ahhhhfuhhh\"",
-   "vod": "2932305259",
-   "vod_t": 1870,
-   "group": "en",
-   "login": "kaicenat",
-   "name": "KaiCenat",
-   "source": "Twitch clip made by a viewer, 1029 views, titled \"\"ahhhhfuhhh\"\"",
-   "at": "2026-11-18T19:27:14.104310+00:00",
-   "cam": [
-    55,
-    398,
-    273,
-    192
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 30.0,
-   "words": [],
-   "metrics": {
-    "motion": 0.35062893081761004,
-    "motion_p90": 0.5857347055460264,
-    "static_share": 0.0,
-    "peak_db": 4.155919075012207,
-    "level_db": -13.776304244995117
-   },
-   "caption": "Kai's escape plan fell apart instantly 💀",
-   "hook": "Escape gone wrong",
-   "cover_at": 8.8,
-   "score": 6,
-   "keep": null
   },
-  "chat-2932305259-1300": {
-   "id": "chat-2932305259-1300",
-   "url": "https://www.twitch.tv/videos/2932305259",
+  "chat-2934736689-128": {
+   "id": "chat-2934736689-128",
+   "url": "https://www.twitch.tv/videos/2934736689",
    "section": [
-    58499.930564,
-    58555.930564
+    5734.348861,
+    5790.348861
    ],
    "kind": "chat",
-   "views": 149,
+   "views": 51,
    "title": "",
-   "vod": "2932305259",
-   "vod_t": 58499.930564,
-   "group": "en",
-   "login": "kaicenat",
-   "name": "KaiCenat",
-   "viewers": 62338,
-   "chat_score": 4.26,
-   "found_at": "2026-11-19T05:20:26.503965+00:00",
-   "spike_at": "2026-11-19T05:15:38.930564+00:00",
+   "vod": "2934736689",
+   "vod_t": 5734.348861,
+   "group": "ru",
+   "login": "melharucos",
+   "name": "melharucos",
+   "viewers": 4616,
+   "chat_score": 4.64,
+   "found_at": "2026-11-20T09:58:06.288152+00:00",
+   "spike_at": "2026-11-20T09:50:33.348861+00:00",
    "chat": [
-    "7x L driver",
-    "3x YOU SUCK",
-    "3x LOL",
-    "3x Omg",
-    "3x 😭😭😭",
-    "2x lmaooo",
-    "2x busted",
-    "2x LLLLLLL",
-    "2x Trash",
-    "2x u suck ass",
-    "2x So ass",
-    "2x DAMN",
-    "Omgeee",
-    "Lol ditched his girl too",
-    "HOW U SELL A CLIP",
-    "Don't blame her lol",
-    "krl é só uma fuga",
-    "-1000 aura",
-    "LAMOOO",
-    "why are u going off road im so lost"
+    "12x Чистый",
+    "8x чистым",
+    "4x смешанный",
+    "3x нет",
+    "3x Чистый EZ",
+    "2x Opachki",
+    "2x говном",
+    "ЧОДУМ kretin",
+    "бадягой",
+    "грязь делаем mdd",
+    "Weedge",
+    "xbcnfufy",
+    "Смешанный наверное загонять рискованно",
+    "в любом случае гавнюк",
+    "99,6%"
    ],
-   "source": "cut from the live stream at a chat spike: 149 chatters in 15 s, 4.3x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-19T06:26:50.567688+00:00",
-   "cam": [
-    33,
-    476,
-    268,
-    189
-   ],
+   "source": "cut from the live stream at a chat spike: 51 chatters in 15 s, 4.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-20T09:58:47.488783+00:00",
+   "cam": null,
    "size": [
     1920,
     1080
    ],
-   "dur": 56.0,
+   "dur": 60.0,
    "words": [
     {
-     "word": " This",
-     "start": 0.02,
-     "end": 0.52
+     "word": " А",
+     "start": 6.7,
+     "end": 7.5
     },
     {
-     "word": " is",
-     "start": 0.52,
-     "end": 0.6
+     "word": " в",
+     "start": 7.5,
+     "end": 7.5
     },
     {
-     "word": " a",
-     "start": 0.6,
-     "end": 0.66
+     "word": " итоге",
+     "start": 7.5,
+     "end": 7.5
     },
     {
-     "word": " great",
-     "start": 0.66,
-     "end": 1.28
+     "word": " все",
+     "start": 7.5,
+     "end": 7.58
     },
     {
-     "word": " job.",
-     "start": 1.28,
-     "end": 1.64
+     "word": " равно",
+     "start": 7.58,
+     "end": 11.8
     },
     {
-     "word": " They",
-     "start": 3.8,
-     "end": 3.98
+     "word": " перебил",
+     "start": 13.72,
+     "end": 13.72
     },
     {
-     "word": " have",
-     "start": 3.98,
-     "end": 4.12
+     "word": " В",
+     "start": 27.24,
+     "end": 28.04
     },
     {
-     "word": " this",
-     "start": 4.12,
-     "end": 4.3
+     "word": " эфире?",
+     "start": 28.04,
+     "end": 28.84
     },
     {
-     "word": " together.",
-     "start": 4.3,
-     "end": 4.76
+     "word": " Я",
+     "start": 29.24,
+     "end": 29.66
     },
     {
-     "word": " I",
-     "start": 5.2,
-     "end": 5.42
+     "word": " в",
+     "start": 29.66,
+     "end": 29.76
     },
     {
-     "word": " guess",
-     "start": 5.42,
-     "end": 5.62
+     "word": " эфире,",
+     "start": 29.76,
+     "end": 30.02
     },
     {
-     "word": " so.",
-     "start": 5.62,
-     "end": 5.86
+     "word": " ребят",
+     "start": 30.1,
+     "end": 30.3
     },
     {
-     "word": " It",
-     "start": 37.02,
-     "end": 37.38
+     "word": " Я",
+     "start": 32.56,
+     "end": 33.64
     },
     {
-     "word": " wasn't",
-     "start": 37.38,
-     "end": 37.6
+     "word": " покажу,",
+     "start": 33.64,
+     "end": 33.74
     },
     {
-     "word": " even",
-     "start": 37.6,
-     "end": 37.7
+     "word": " что",
+     "start": 34.02,
+     "end": 34.34
     },
     {
-     "word": " Lucifer.",
-     "start": 37.7,
-     "end": 38.16
+     "word": " я",
+     "start": 34.34,
+     "end": 34.34
     },
     {
-     "word": " I",
-     "start": 38.44,
-     "end": 38.56
+     "word": " делаю",
+     "start": 34.34,
+     "end": 34.34
     },
     {
-     "word": " ain't",
-     "start": 38.56,
-     "end": 38.74
+     "word": " Ладно,",
+     "start": 35.62,
+     "end": 36.7
     },
     {
-     "word": " gonna",
-     "start": 38.74,
-     "end": 38.84
+     "word": " удачи!",
+     "start": 36.7,
+     "end": 36.7
     },
     {
-     "word": " lie,",
-     "start": 38.84,
-     "end": 39.12
+     "word": " Позвольте,",
+     "start": 56.24,
+     "end": 57.32
     },
     {
-     "word": " bro.",
-     "start": 39.26,
-     "end": 39.4
+     "word": " что",
+     "start": 57.32,
+     "end": 57.68
     },
     {
-     "word": " I",
-     "start": 39.82,
-     "end": 39.92
+     "word": " мы",
+     "start": 57.68,
+     "end": 58.24
     },
     {
-     "word": " should",
-     "start": 39.92,
-     "end": 40.02
-    },
-    {
-     "word": " have",
-     "start": 40.02,
-     "end": 40.14
-    },
-    {
-     "word": " had",
-     "start": 40.14,
-     "end": 40.24
-    },
-    {
-     "word": " a...",
-     "start": 40.24,
-     "end": 40.4
-    },
-    {
-     "word": " I",
-     "start": 40.4,
-     "end": 40.48
-    },
-    {
-     "word": " should",
-     "start": 40.48,
-     "end": 40.6
-    },
-    {
-     "word": " have",
-     "start": 40.6,
-     "end": 40.7
-    },
-    {
-     "word": " popped",
-     "start": 40.7,
-     "end": 41.04
-    },
-    {
-     "word": " the",
-     "start": 41.04,
-     "end": 41.34
-    },
-    {
-     "word": " fucking",
-     "start": 41.34,
-     "end": 41.5
-    },
-    {
-     "word": " cops.",
-     "start": 41.5,
-     "end": 41.86
-    },
-    {
-     "word": " Well,",
-     "start": 42.62,
-     "end": 42.78
-    },
-    {
-     "word": " we",
-     "start": 42.86,
-     "end": 42.98
-    },
-    {
-     "word": " hit",
-     "start": 42.98,
-     "end": 43.06
-    },
-    {
-     "word": " a",
-     "start": 43.06,
-     "end": 43.18
-    },
-    {
-     "word": " few",
-     "start": 43.18,
-     "end": 43.26
-    },
-    {
-     "word": " spots.",
-     "start": 43.26,
-     "end": 43.52
+     "word": " пришли",
+     "start": 58.24,
+     "end": 58.78
     }
    ],
    "metrics": {
-    "motion": 0.26786735277301316,
-    "motion_p90": 0.519353916523728,
-    "static_share": 0.07623318385650224,
-    "peak_db": 4.02641487121582,
-    "level_db": -13.365169525146484
+    "motion": 0.06145833333333333,
+    "motion_p90": 0.29612500000000025,
+    "static_share": 0.11715481171548117,
+    "peak_db": 11.883743286132812,
+    "level_db": -33.644187927246094
    },
-   "caption": "\"That was a clean job\"... 30 seconds later 💀",
-   "hook": "Clean job. Busted.",
-   "cover_at": 31.7,
-   "score": 6,
-   "keep": [
-    0.0,
-    37.5
-   ]
+   "silence": []
   },
+  "BadBillowingWalrus4Head-HFzr_Izs0_ANBT6v": {
+   "id": "BadBillowingWalrus4Head-HFzr_Izs0_ANBT6v",
+   "url": "https://www.twitch.tv/buster/clip/BadBillowingWalrus4Head-HFzr_Izs0_ANBT6v",
+   "section": null,
+   "kind": "clip",
+   "views": 3240,
+   "title": "ашалеть",
+   "vod": "2933626360",
+   "vod_t": 6686,
+   "group": "ru",
+   "login": "buster",
+   "name": "buster",
+   "source": "Twitch clip made by a viewer, 3240 views, titled \"ашалеть\"",
+   "at": "2026-11-20T09:59:04.776106+00:00",
+   "cam": [
+    0,
+    0,
+    655,
+    364
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 30.0,
+   "words": [
+    {
+     "word": " Ох,",
+     "start": 2.67,
+     "end": 3.29
+    },
+    {
+     "word": " это",
+     "start": 3.35,
+     "end": 3.51
+    },
+    {
+     "word": " хорошо",
+     "start": 3.51,
+     "end": 3.81
+    }
+   ],
+   "metrics": {
+    "motion": 0.04205989447870997,
+    "motion_p90": 0.14169577171732184,
+    "static_share": 0.11764705882352941,
+    "peak_db": 9.368507385253906,
+    "level_db": -37.62720489501953
+   },
+   "silence": []
+  },
+  "chat-2934505601-588": {
+   "id": "chat-2934505601-588",
+   "url": "https://www.twitch.tv/videos/2934505601",
+   "section": [
+    26459.378322,
+    26515.378322
+   ],
+   "kind": "chat",
+   "views": 50,
+   "title": "",
+   "vod": "2934505601",
+   "vod_t": 26459.378322,
+   "group": "en",
+   "login": "yourragegaming",
+   "name": "yourragegaming",
+   "viewers": 11806,
+   "chat_score": 3.33,
+   "found_at": "2026-11-20T09:58:06.711572+00:00",
+   "spike_at": "2026-11-20T09:45:28.378322+00:00",
+   "chat": [
+    "13x 20",
+    "8x 67",
+    "4x 23",
+    "3x 22",
+    "3x 18",
+    "3x 21",
+    "2x 16",
+    "24",
+    "chat jus got a lot lighter",
+    "it's gonna be 20",
+    "I didn't see it so idk",
+    "WW 18",
+    "20 at best",
+    "25",
+    "20%"
+   ],
+   "source": "cut from the live stream at a chat spike: 50 chatters in 15 s, 3.3x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-20T09:59:37.001826+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 63.5,
+   "words": [
+    {
+     "word": " Monions",
+     "start": 0.0,
+     "end": 0.52
+    },
+    {
+     "word": " we're",
+     "start": 0.52,
+     "end": 0.76
+    },
+    {
+     "word": " talking",
+     "start": 0.76,
+     "end": 1.04
+    },
+    {
+     "word": " chat",
+     "start": 1.04,
+     "end": 1.42
+    },
+    {
+     "word": " a",
+     "start": 1.42,
+     "end": 2.58
+    },
+    {
+     "word": " lot",
+     "start": 2.58,
+     "end": 2.8
+    },
+    {
+     "word": " of",
+     "start": 2.8,
+     "end": 2.94
+    },
+    {
+     "word": " Monions.",
+     "start": 2.94,
+     "end": 3.36
+    },
+    {
+     "word": " We're",
+     "start": 3.54,
+     "end": 3.6
+    },
+    {
+     "word": " talking",
+     "start": 3.6,
+     "end": 3.9
+    },
+    {
+     "word": " chat",
+     "start": 3.9,
+     "end": 4.3
+    },
+    {
+     "word": " And",
+     "start": 12.08,
+     "end": 12.44
+    },
+    {
+     "word": " that's",
+     "start": 12.44,
+     "end": 12.8
+    },
+    {
+     "word": " not",
+     "start": 12.8,
+     "end": 12.94
+    },
+    {
+     "word": " I",
+     "start": 12.94,
+     "end": 13.16
+    },
+    {
+     "word": " haven't",
+     "start": 13.16,
+     "end": 13.36
+    },
+    {
+     "word": " sold",
+     "start": 13.36,
+     "end": 13.56
+    },
+    {
+     "word": " nothing",
+     "start": 13.56,
+     "end": 13.84
+    },
+    {
+     "word": " yet.",
+     "start": 13.84,
+     "end": 14.06
+    },
+    {
+     "word": " I",
+     "start": 14.3,
+     "end": 14.66
+    },
+    {
+     "word": " haven't",
+     "start": 14.66,
+     "end": 14.82
+    },
+    {
+     "word": " sold",
+     "start": 14.82,
+     "end": 15.02
+    },
+    {
+     "word": " nothing",
+     "start": 15.02,
+     "end": 15.32
+    },
+    {
+     "word": " yet.",
+     "start": 15.32,
+     "end": 15.48
+    },
+    {
+     "word": " Yeah,",
+     "start": 15.58,
+     "end": 15.64
+    },
+    {
+     "word": " we",
+     "start": 15.68,
+     "end": 15.74
+    },
+    {
+     "word": " go",
+     "start": 15.74,
+     "end": 15.88
+    },
+    {
+     "word": " have",
+     "start": 15.88,
+     "end": 16.06
+    },
+    {
+     "word": " bank",
+     "start": 16.06,
+     "end": 16.46
+    },
+    {
+     "word": " We",
+     "start": 17.26,
+     "end": 17.62
+    },
+    {
+     "word": " go",
+     "start": 17.62,
+     "end": 17.76
+    },
+    {
+     "word": " have",
+     "start": 17.76,
+     "end": 17.96
+    },
+    {
+     "word": " bank.",
+     "start": 17.96,
+     "end": 18.5
+    },
+    {
+     "word": " I",
+     "start": 18.62,
+     "end": 18.9
+    },
+    {
+     "word": " ain't",
+     "start": 18.9,
+     "end": 19.06
+    },
+    {
+     "word": " selling",
+     "start": 19.06,
+     "end": 19.36
+    },
+    {
+     "word": " nothing",
+     "start": 19.36,
+     "end": 19.62
+    },
+    {
+     "word": " yet.",
+     "start": 19.62,
+     "end": 20.02
+    },
+    {
+     "word": " Let's",
+     "start": 21.91,
+     "end": 22.27
+    },
+    {
+     "word": " go",
+     "start": 22.27,
+     "end": 22.39
+    },
+    {
+     "word": " to",
+     "start": 22.39,
+     "end": 22.49
+    },
+    {
+     "word": " the",
+     "start": 22.49,
+     "end": 22.61
+    },
+    {
+     "word": " crib",
+     "start": 22.61,
+     "end": 22.77
+    },
+    {
+     "word": " baby",
+     "start": 22.77,
+     "end": 23.01
+    },
+    {
+     "word": " girls",
+     "start": 23.01,
+     "end": 23.21
+    },
+    {
+     "word": " at",
+     "start": 23.21,
+     "end": 23.37
+    },
+    {
+     "word": " the",
+     "start": 23.37,
+     "end": 23.49
+    },
+    {
+     "word": " crib",
+     "start": 23.49,
+     "end": 23.75
+    },
+    {
+     "word": " go",
+     "start": 23.75,
+     "end": 24.61
+    },
+    {
+     "word": " to",
+     "start": 24.61,
+     "end": 24.69
+    },
+    {
+     "word": " the",
+     "start": 24.69,
+     "end": 24.79
+    },
+    {
+     "word": " crib",
+     "start": 24.79,
+     "end": 25.05
+    },
+    {
+     "word": " Before",
+     "start": 26.33,
+     "end": 26.69
+    },
+    {
+     "word": " we",
+     "start": 26.69,
+     "end": 26.87
+    },
+    {
+     "word": " go",
+     "start": 26.87,
+     "end": 26.99
+    },
+    {
+     "word": " to",
+     "start": 26.99,
+     "end": 27.09
+    },
+    {
+     "word": " the",
+     "start": 27.09,
+     "end": 27.21
+    },
+    {
+     "word": " crib,",
+     "start": 27.21,
+     "end": 27.31
+    },
+    {
+     "word": " we",
+     "start": 27.39,
+     "end": 27.43
+    },
+    {
+     "word": " got",
+     "start": 27.43,
+     "end": 27.51
+    },
+    {
+     "word": " a",
+     "start": 27.51,
+     "end": 27.59
+    },
+    {
+     "word": " seven",
+     "start": 27.59,
+     "end": 27.73
+    },
+    {
+     "word": " ATM",
+     "start": 27.73,
+     "end": 28.11
+    },
+    {
+     "word": " Save.",
+     "start": 35.56,
+     "end": 35.92
+    },
+    {
+     "word": " Oh,",
+     "start": 36.16,
+     "end": 36.18
+    },
+    {
+     "word": " yeah,",
+     "start": 36.2,
+     "end": 36.34
+    },
+    {
+     "word": " see",
+     "start": 36.36,
+     "end": 36.56
+    },
+    {
+     "word": " I",
+     "start": 36.56,
+     "end": 36.78
+    },
+    {
+     "word": " don't",
+     "start": 36.78,
+     "end": 36.88
+    },
+    {
+     "word": " know",
+     "start": 36.88,
+     "end": 37.02
+    },
+    {
+     "word": " the",
+     "start": 37.02,
+     "end": 37.22
+    },
+    {
+     "word": " spot.",
+     "start": 37.22,
+     "end": 37.46
+    },
+    {
+     "word": " What",
+     "start": 43.13,
+     "end": 43.49
+    },
+    {
+     "word": " percent",
+     "start": 43.49,
+     "end": 43.75
+    },
+    {
+     "word": " you",
+     "start": 43.75,
+     "end": 43.93
+    },
+    {
+     "word": " think",
+     "start": 43.93,
+     "end": 44.05
+    },
+    {
+     "word": " it's",
+     "start": 44.05,
+     "end": 44.19
+    },
+    {
+     "word": " gonna",
+     "start": 44.19,
+     "end": 44.23
+    },
+    {
+     "word": " be",
+     "start": 44.23,
+     "end": 44.43
+    },
+    {
+     "word": " at",
+     "start": 44.43,
+     "end": 44.57
+    },
+    {
+     "word": " after",
+     "start": 44.57,
+     "end": 44.79
+    },
+    {
+     "word": " we",
+     "start": 44.79,
+     "end": 44.91
+    },
+    {
+     "word": " say",
+     "start": 44.91,
+     "end": 45.09
+    },
+    {
+     "word": " what",
+     "start": 45.09,
+     "end": 45.27
+    },
+    {
+     "word": " percent",
+     "start": 45.27,
+     "end": 45.51
+    },
+    {
+     "word": " you",
+     "start": 45.51,
+     "end": 45.67
+    },
+    {
+     "word": " think",
+     "start": 45.67,
+     "end": 45.79
+    },
+    {
+     "word": " it's",
+     "start": 45.79,
+     "end": 45.89
+    },
+    {
+     "word": " gonna",
+     "start": 45.89,
+     "end": 45.95
+    },
+    {
+     "word": " be",
+     "start": 45.95,
+     "end": 46.11
+    },
+    {
+     "word": " Yeah,",
+     "start": 46.11,
+     "end": 46.27
+    },
+    {
+     "word": " be",
+     "start": 46.41,
+     "end": 46.53
+    },
+    {
+     "word": " honest.",
+     "start": 46.53,
+     "end": 46.83
+    },
+    {
+     "word": " I",
+     "start": 55.88,
+     "end": 56.08
+    },
+    {
+     "word": " think",
+     "start": 56.08,
+     "end": 56.18
+    },
+    {
+     "word": " 20",
+     "start": 56.18,
+     "end": 56.5
+    },
+    {
+     "word": " flat",
+     "start": 56.5,
+     "end": 56.8
+    },
+    {
+     "word": " 20",
+     "start": 56.8,
+     "end": 57.66
+    },
+    {
+     "word": " 20",
+     "start": 58.5,
+     "end": 58.94
+    },
+    {
+     "word": "%",
+     "start": 58.94,
+     "end": 59.18
+    },
+    {
+     "word": " done",
+     "start": 59.18,
+     "end": 59.4
+    },
+    {
+     "word": " with",
+     "start": 59.4,
+     "end": 59.54
+    },
+    {
+     "word": " the",
+     "start": 59.54,
+     "end": 59.7
+    },
+    {
+     "word": " game",
+     "start": 59.7,
+     "end": 59.92
+    }
+   ],
+   "metrics": {
+    "motion": 0.059722222222222225,
+    "motion_p90": 0.45759722222222227,
+    "static_share": 0.1541501976284585,
+    "peak_db": 23.727405548095703,
+    "level_db": -44.39083480834961
+   },
+   "silence": []
+  },
+  "WealthyAcceptableMooseKlappa-Ox-VK5uYtfxXgarX": {
+   "id": "WealthyAcceptableMooseKlappa-Ox-VK5uYtfxXgarX",
+   "url": "https://www.twitch.tv/bratishkinoff/clip/WealthyAcceptableMooseKlappa-Ox-VK5uYtfxXgarX",
+   "section": null,
+   "kind": "clip",
+   "views": 2261,
+   "title": "ТУДА ЕГО МАШИНУ WW",
+   "vod": "2933863992",
+   "vod_t": 1720,
+   "group": "ru",
+   "login": "bratishkinoff",
+   "name": "bratishkinOFF",
+   "source": "Twitch clip made by a viewer, 2261 views, titled \"ТУДА ЕГО МАШИНУ WW\"",
+   "at": "2026-11-20T10:00:11.579752+00:00",
+   "cam": [
+    38,
+    559,
+    550,
+    387
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 14.4,
+   "words": [
+    {
+     "word": " Уа,",
+     "start": 0.08,
+     "end": 0.62
+    },
+    {
+     "word": " татика",
+     "start": 0.68,
+     "end": 0.94
+    },
+    {
+     "word": " дентика",
+     "start": 0.94,
+     "end": 1.32
+    },
+    {
+     "word": " прикинь!",
+     "start": 1.32,
+     "end": 2.36
+    },
+    {
+     "word": " Асид",
+     "start": 2.78,
+     "end": 3.54
+    },
+    {
+     "word": " Майя.",
+     "start": 3.54,
+     "end": 3.86
+    }
+   ],
+   "metrics": {
+    "motion": 0.4452186805040771,
+    "motion_p90": 0.6555670867309118,
+    "static_share": 0.0,
+    "peak_db": 60.39996337890625,
+    "level_db": -83.52780151367188
+   },
+   "silence": [
+    [
+     8.1,
+     1.5
+    ],
+    [
+     11.9,
+     1.8
+    ]
+   ]
+  }
+ },
+ "pool": {
   "chat-2932167852-2097": {
    "id": "chat-2932167852-2097",
    "url": "https://www.twitch.tv/videos/2932167852",
@@ -2925,528 +3490,6 @@
     15.0,
     53.0
    ]
-  },
-  "chat-2934276428-346": {
-   "id": "chat-2934276428-346",
-   "url": "https://www.twitch.tv/videos/2934276428",
-   "section": [
-    15545.391011,
-    15601.391011
-   ],
-   "kind": "chat",
-   "views": 63,
-   "title": "",
-   "vod": "2934276428",
-   "vod_t": 15545.391011,
-   "group": "en",
-   "login": "summit1g",
-   "name": "summit1g",
-   "viewers": 10034,
-   "chat_score": 4.85,
-   "found_at": "2026-11-20T03:31:30.130992+00:00",
-   "spike_at": "2026-11-20T03:16:17.391011+00:00",
-   "chat": [
-    "19x LOL",
-    "5x LO",
-    "3x LMAO",
-    "3x LUL",
-    "2x LMFAO",
-    "2x ???",
-    "2x wow",
-    "2x no shot",
-    "maybe later down the line you get more customization",
-    "BAHAHA",
-    "LOL 󠀀",
-    "DESERVED",
-    "mods are lame",
-    "o7",
-    "KEKW",
-    "SELL IT NOW"
-   ],
-   "source": "cut from the live stream at a chat spike: 63 chatters in 15 s, 4.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-20T04:14:16.876555+00:00",
-   "cam": [
-    0,
-    524,
-    510,
-    285
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 61.0,
-   "words": [
-    {
-     "word": " What",
-     "start": 2.99,
-     "end": 3.49
-    },
-    {
-     "word": " do",
-     "start": 3.49,
-     "end": 3.49
-    },
-    {
-     "word": " you",
-     "start": 3.49,
-     "end": 3.59
-    },
-    {
-     "word": " fucking",
-     "start": 3.59,
-     "end": 4.01
-    },
-    {
-     "word": " know",
-     "start": 4.01,
-     "end": 4.33
-    },
-    {
-     "word": " what's",
-     "start": 4.33,
-     "end": 5.27
-    },
-    {
-     "word": " gonna",
-     "start": 8.92,
-     "end": 9.04
-    },
-    {
-     "word": " save",
-     "start": 9.04,
-     "end": 9.38
-    },
-    {
-     "word": " her?",
-     "start": 9.38,
-     "end": 9.56
-    },
-    {
-     "word": " Nothing",
-     "start": 11.2,
-     "end": 11.74
-    },
-    {
-     "word": " well,",
-     "start": 11.74,
-     "end": 12.0
-    },
-    {
-     "word": " she's",
-     "start": 12.02,
-     "end": 12.3
-    },
-    {
-     "word": " gonna",
-     "start": 12.3,
-     "end": 12.32
-    },
-    {
-     "word": " talking",
-     "start": 12.32,
-     "end": 12.68
-    },
-    {
-     "word": " to",
-     "start": 12.68,
-     "end": 12.82
-    },
-    {
-     "word": " fuck",
-     "start": 12.82,
-     "end": 13.02
-    },
-    {
-     "word": " a",
-     "start": 13.02,
-     "end": 13.16
-    },
-    {
-     "word": " matter",
-     "start": 13.16,
-     "end": 13.46
-    },
-    {
-     "word": " and",
-     "start": 13.46,
-     "end": 14.54
-    },
-    {
-     "word": " we",
-     "start": 14.54,
-     "end": 14.64
-    },
-    {
-     "word": " go",
-     "start": 14.64,
-     "end": 14.74
-    },
-    {
-     "word": " blonde.",
-     "start": 14.74,
-     "end": 15.22
-    },
-    {
-     "word": " I",
-     "start": 23.72,
-     "end": 24.26
-    },
-    {
-     "word": " don't",
-     "start": 24.26,
-     "end": 24.32
-    },
-    {
-     "word": " think",
-     "start": 24.32,
-     "end": 24.4
-    },
-    {
-     "word": " it's",
-     "start": 24.4,
-     "end": 24.52
-    },
-    {
-     "word": " gonna",
-     "start": 24.52,
-     "end": 24.62
-    },
-    {
-     "word": " save",
-     "start": 24.62,
-     "end": 24.86
-    },
-    {
-     "word": " you",
-     "start": 24.86,
-     "end": 25.1
-    },
-    {
-     "word": " Sorry,",
-     "start": 37.17,
-     "end": 37.71
-    },
-    {
-     "word": " sorry",
-     "start": 37.71,
-     "end": 38.25
-    },
-    {
-     "word": " He",
-     "start": 53.09,
-     "end": 53.63
-    },
-    {
-     "word": " says",
-     "start": 58.24,
-     "end": 58.78
-    },
-    {
-     "word": " shit",
-     "start": 58.78,
-     "end": 59.24
-    }
-   ],
-   "metrics": {
-    "motion": 0.3087429643527205,
-    "motion_p90": 0.6279924953095685,
-    "static_share": 0.102880658436214,
-    "peak_db": 10.971086502075195,
-    "level_db": -39.03680419921875
-   },
-   "silence": [],
-   "caption": "Went in for a new hairstyle, came out to a semi truck parked on his car 💀",
-   "hook": "Parked ON his car",
-   "cover_at": 42.7,
-   "score": 6,
-   "keep": [
-    27.0,
-    55.0
-   ]
-  },
-  "WealthyNimbleHamsterDansGame-yrU7UShZomelh1Ke": {
-   "id": "WealthyNimbleHamsterDansGame-yrU7UShZomelh1Ke",
-   "url": "https://www.twitch.tv/xqc/clip/WealthyNimbleHamsterDansGame-yrU7UShZomelh1Ke",
-   "section": null,
-   "kind": "clip",
-   "views": 19335,
-   "title": "xQc commits Grand Theft Auto for the first time in GTA 6",
-   "vod": "2932113307",
-   "vod_t": 17353,
-   "group": "en",
-   "login": "xqc",
-   "name": "xQc",
-   "source": "Twitch clip made by a viewer, 19335 views, titled \"xQc commits Grand Theft Auto for the first time in GTA 6\"",
-   "at": "2026-11-19T01:19:10.713928+00:00",
-   "cam": [
-    69,
-    3,
-    386,
-    271
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 54.4,
-   "words": [
-    {
-     "word": " Let",
-     "start": 3.06,
-     "end": 3.58
-    },
-    {
-     "word": " it",
-     "start": 3.58,
-     "end": 3.74
-    },
-    {
-     "word": " am",
-     "start": 3.74,
-     "end": 4.54
-    },
-    {
-     "word": " I",
-     "start": 10.3,
-     "end": 10.44
-    },
-    {
-     "word": " gonna",
-     "start": 10.44,
-     "end": 10.64
-    },
-    {
-     "word": " get",
-     "start": 10.64,
-     "end": 11.6
-    },
-    {
-     "word": " a",
-     "start": 18.7,
-     "end": 18.8
-    },
-    {
-     "word": " car.",
-     "start": 18.8,
-     "end": 19.02
-    },
-    {
-     "word": " I",
-     "start": 19.22,
-     "end": 19.62
-    },
-    {
-     "word": " was",
-     "start": 27.08,
-     "end": 27.22
-    },
-    {
-     "word": " looking",
-     "start": 27.22,
-     "end": 27.48
-    },
-    {
-     "word": " at",
-     "start": 27.48,
-     "end": 27.64
-    },
-    {
-     "word": " the",
-     "start": 27.64,
-     "end": 27.72
-    },
-    {
-     "word": " button.",
-     "start": 27.72,
-     "end": 27.96
-    },
-    {
-     "word": " Please",
-     "start": 28.08,
-     "end": 28.34
-    },
-    {
-     "word": " come",
-     "start": 28.34,
-     "end": 28.54
-    },
-    {
-     "word": " back.",
-     "start": 28.54,
-     "end": 28.78
-    },
-    {
-     "word": " Please",
-     "start": 28.98,
-     "end": 29.38
-    },
-    {
-     "word": " come",
-     "start": 29.38,
-     "end": 29.54
-    },
-    {
-     "word": " back",
-     "start": 29.54,
-     "end": 29.76
-    },
-    {
-     "word": " Should",
-     "start": 30.68,
-     "end": 31.08
-    },
-    {
-     "word": " I",
-     "start": 31.08,
-     "end": 31.2
-    },
-    {
-     "word": " could",
-     "start": 31.2,
-     "end": 31.28
-    },
-    {
-     "word": " write",
-     "start": 31.28,
-     "end": 31.42
-    },
-    {
-     "word": " this?",
-     "start": 31.42,
-     "end": 31.7
-    },
-    {
-     "word": " Oh",
-     "start": 33.48,
-     "end": 33.88
-    },
-    {
-     "word": " My",
-     "start": 33.88,
-     "end": 34.08
-    },
-    {
-     "word": " so",
-     "start": 34.08,
-     "end": 34.76
-    },
-    {
-     "word": " you",
-     "start": 47.43,
-     "end": 47.69
-    },
-    {
-     "word": " sang",
-     "start": 47.69,
-     "end": 47.95
-    },
-    {
-     "word": " ran.",
-     "start": 47.95,
-     "end": 48.37
-    },
-    {
-     "word": " Yeah,",
-     "start": 49.01,
-     "end": 49.41
-    },
-    {
-     "word": " I",
-     "start": 49.45,
-     "end": 49.65
-    },
-    {
-     "word": " ran.",
-     "start": 49.65,
-     "end": 49.95
-    },
-    {
-     "word": " I",
-     "start": 50.47,
-     "end": 50.87
-    },
-    {
-     "word": " mean",
-     "start": 50.87,
-     "end": 51.11
-    },
-    {
-     "word": " Well,",
-     "start": 52.25,
-     "end": 52.65
-    },
-    {
-     "word": " I'm",
-     "start": 52.73,
-     "end": 52.79
-    },
-    {
-     "word": " with",
-     "start": 52.79,
-     "end": 52.91
-    },
-    {
-     "word": " the",
-     "start": 52.91,
-     "end": 52.99
-    },
-    {
-     "word": " cops.",
-     "start": 52.99,
-     "end": 53.13
-    },
-    {
-     "word": " Oh,",
-     "start": 53.35,
-     "end": 53.35
-    },
-    {
-     "word": " no,",
-     "start": 53.37,
-     "end": 53.55
-    },
-    {
-     "word": " it",
-     "start": 53.55,
-     "end": 53.73
-    },
-    {
-     "word": " was",
-     "start": 53.73,
-     "end": 53.87
-    },
-    {
-     "word": " like",
-     "start": 53.87,
-     "end": 54.11
-    }
-   ],
-   "metrics": {
-    "motion": 0.40499230261711017,
-    "motion_p90": 0.7006451139945752,
-    "static_share": 0.037037037037037035,
-    "peak_db": 5.217119216918945,
-    "level_db": -26.747360229492188
-   },
-   "caption": "His first carjacking in GTA 6 does not go to plan 😂",
-   "hook": "First carjack fail",
-   "score": 7,
-   "keep": [
-    0.0,
-    50.0
-   ],
-   "attempt": 1,
-   "platforms": [
-    "youtube"
-   ],
-   "earlier": [
-    {
-     "platform": "tiktok",
-     "success": true,
-     "post_url": "https://www.tiktok.com/@gta6.viral42/video/7710119077171252513"
-    }
-   ]
   }
  },
  "no_vod": {},
@@ -3457,6 +3500,113 @@
     "why": "YouTube rate limit exceeded. Please retry later. Please wait and try again later.. Learn more: https://docs.upload-post.com/resources/common-errors#rate-limits.",
     "strikes": 1
    }
+  }
+ },
+ "shelf": {
+  "AgreeableHyperCockroachCeilingCat-_dmoVo8X--AU1Sq7": {
+   "artifact": "shelf-44712124361",
+   "run": "44712124361",
+   "at": "2026-11-20T09:37:16.093266+00:00",
+   "found": "2026-11-18T19:27:14.104310+00:00",
+   "login": "kaicenat",
+   "name": "KaiCenat",
+   "group": "en",
+   "kind": "clip",
+   "score": 6,
+   "url": "https://www.twitch.tv/kaicenat/clip/AgreeableHyperCockroachCeilingCat-_dmoVo8X--AU1Sq7",
+   "section": null,
+   "vod": "2932305259",
+   "vod_t": 1870,
+   "title": "\"ahhhhfuhhh\"",
+   "caption": "Kai's escape plan fell apart instantly 💀",
+   "hook": "Escape gone wrong",
+   "video": "kaicenat_Vo8X--AU1Sq7_vertical.mp4",
+   "cover": "kaicenat_Vo8X--AU1Sq7_cover.jpg",
+   "cover_ms": 200,
+   "volume": -12.8,
+   "seconds": 30.0
+  },
+  "WealthyNimbleHamsterDansGame-yrU7UShZomelh1Ke": {
+   "artifact": "shelf-44712124361",
+   "run": "44712124361",
+   "at": "2026-11-20T09:38:04.466509+00:00",
+   "found": "2026-11-19T01:19:10.713928+00:00",
+   "login": "xqc",
+   "name": "xQc",
+   "group": "en",
+   "kind": "clip",
+   "score": 7,
+   "url": "https://www.twitch.tv/xqc/clip/WealthyNimbleHamsterDansGame-yrU7UShZomelh1Ke",
+   "section": null,
+   "vod": "2932113307",
+   "vod_t": 17353,
+   "title": "xQc commits Grand Theft Auto for the first time in GTA 6",
+   "caption": "His first carjacking in GTA 6 does not go to plan 😂",
+   "hook": "First carjack fail",
+   "video": "xqc_UShZomelh1Ke_vertical.mp4",
+   "cover": "xqc_UShZomelh1Ke_cover.jpg",
+   "cover_ms": 200,
+   "volume": -25.0,
+   "seconds": 50.1,
+   "earlier": [
+    {
+     "platform": "tiktok",
+     "success": true,
+     "post_url": "https://www.tiktok.com/@gta6.viral42/video/7710119077171252513"
+    }
+   ]
+  },
+  "chat-2932305259-1300": {
+   "artifact": "shelf-44712124361",
+   "run": "44712124361",
+   "at": "2026-11-20T10:00:51.793028+00:00",
+   "found": "2026-11-19T06:26:50.567688+00:00",
+   "login": "kaicenat",
+   "name": "KaiCenat",
+   "group": "en",
+   "kind": "chat",
+   "score": 6,
+   "url": "https://www.twitch.tv/videos/2932305259",
+   "section": [
+    58499.930564,
+    58555.930564
+   ],
+   "vod": "2932305259",
+   "vod_t": 58499.930564,
+   "title": "",
+   "caption": "\"That was a clean job\"... 30 seconds later 💀",
+   "hook": "Clean job. Busted.",
+   "video": "kaicenat_2305259-1300_vertical.mp4",
+   "cover": "kaicenat_2305259-1300_cover.jpg",
+   "cover_ms": 200,
+   "volume": -11.7,
+   "seconds": 37.6
+  },
+  "chat-2934276428-346": {
+   "artifact": "shelf-44712124361",
+   "run": "44712124361",
+   "at": "2026-11-20T10:01:15.618064+00:00",
+   "found": "2026-11-20T04:14:16.876555+00:00",
+   "login": "summit1g",
+   "name": "summit1g",
+   "group": "en",
+   "kind": "chat",
+   "score": 6,
+   "url": "https://www.twitch.tv/videos/2934276428",
+   "section": [
+    15545.391011,
+    15601.391011
+   ],
+   "vod": "2934276428",
+   "vod_t": 15545.391011,
+   "title": "",
+   "caption": "Went in for a new hairstyle, came out to a semi truck parked on his car 💀",
+   "hook": "Parked ON his car",
+   "video": "summit1g_34276428-346_vertical.mp4",
+   "cover": "summit1g_34276428-346_cover.jpg",
+   "cover_ms": 200,
+   "volume": -33.5,
+   "seconds": 28.1
   }
  }
 }
