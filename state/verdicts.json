@@ -1,66 +1,4 @@
 {
- "WealthyNimbleHamsterDansGame-yrU7UShZomelh1Ke": {
-  "at": "2026-11-18T12:02:08.849236+00:00",
-  "moment_score": 7,
-  "what_happens": "xQc tries his first carjacking in GTA 6: runs down the street, pulls a driver out, gets knocked down by a truck, then drives off in the truck; chat is laughing",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "His first carjacking in GTA 6 does not go to plan 😂",
-  "keep_start": 0.0,
-  "keep_end": 50.0,
-  "hook": "First carjack fail"
- },
- "chat-2932185714-166": {
-  "at": "2026-11-18T12:02:08.903112+00:00",
-  "moment_score": 7,
-  "what_happens": "In-game cutscene: Jason is on a roof 'just fixing some leaks', chat explodes at the joke about GTA 6 leaks and the streamer cracks up",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "GTA 6 makes a joke about its own leaks 💀",
-  "keep_start": 26.0,
-  "keep_end": 47.0
- },
- "chat-2932213364-85": {
-  "at": "2026-11-18T12:02:08.954128+00:00",
-  "moment_score": 3,
-  "what_happens": "Night cutscene dialogue in a car, then uneventful driving home in the dark; nothing specific happens",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2932190650-165": {
-  "at": "2026-11-18T12:10:17.450886+00:00",
-  "moment_score": 6,
-  "what_happens": "He discovers a basketball hoop mini-game in GTA 6, takes shots and scores, then walks back and finds his car wrecked and smoking: 'what happened to my car, bro?'",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "He finds basketball in GTA 6, then sees what happened to his car 💀",
-  "hook": "Who wrecked my car?"
- },
- "chat-2932206711-115": {
-  "at": "2026-11-18T12:10:17.503166+00:00",
-  "moment_score": 3,
-  "what_happens": "Night cutscene dialogue with Cal, then getting into a car and driving home; nothing specific happens on screen",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2932226282-82": {
-  "at": "2026-11-18T12:10:17.556512+00:00",
-  "moment_score": 4,
-  "what_happens": "Night driving in a beat-up truck with no traction, a light bump into a pole; the chat spike came from gifted subs, and there is no webcam, only an avatar",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "AgreeableSteamyPeanutPicoMause-9jLYFcQw930H6FFX": {
-  "at": "2026-11-18T12:10:17.609300+00:00",
-  "moment_score": 2,
-  "what_happens": "Studio show: people sit in a room and talk about a giveaway, no game on screen",
-  "gameplay_visible": false,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2932209626-128": {
   "at": "2026-11-18T12:37:48.601168+00:00",
   "moment_score": 7,
@@ -1406,5 +1344,60 @@
   ],
   "hook": "Не ту угнал?",
   "cover_at": 22.8
+ },
+ "chat-2933453157-2241": {
+  "at": "2026-11-20T12:19:31.971982+00:00",
+  "moment_score": 3,
+  "what_happens": "Едет на фургоне на закате и отвечает чаттеру на оскорбление; в игре ничего не происходит, шутка только в чате",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "BigLaconicSnoodSMOrc-Lq0cyNkc8xp7FeSO": {
+  "at": "2026-11-20T12:19:32.032120+00:00",
+  "moment_score": 3,
+  "what_happens": "Ищет по карте и в мотеле, куда сдать добычу; события нет, звук очень тихий (-44.8 дБ)",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "TalentedBenevolentKleePlanking-XtTpdU_JBB7R9cpR": {
+  "at": "2026-11-20T12:19:32.094524+00:00",
+  "moment_score": 2,
+  "what_happens": "Расстреливает бар нудистского курорта, в кадре голые NPC: нагота, не публикуем",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "FunnyGracefulHamOSkomodo-T_AYpndhE8MNE1-y": {
+  "at": "2026-11-20T12:19:32.146068+00:00",
+  "moment_score": 6,
+  "what_happens": "Едет ночью на прицепе за чужой машиной, ругается на СМС-ки («Я еду!»), срывается и погибает, экран МЕРТВ; спокойно пьёт из кружки. Картинка тёмная, но момент короткий и понятный. В клипе уже есть вшитые субтитры; баннер букмекера вне обеих рамок",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Ехал на прицепе и ругался на СМС-ки. Доехал 💀",
+  "keep_start": 0.0,
+  "keep_end": 21.5,
+  "hook": "Зацепился за прицеп",
+  "cover_at": 11.2,
+  "no_subs": true
+ },
+ "chat-2934543908-692": {
+  "at": "2026-11-20T12:19:32.194593+00:00",
+  "moment_score": 6,
+  "what_happens": "Допрос в сарае: появляется существо, NPC шесть раз кричит Shoot him, стример стреляет единственным патроном мимо, NPC погибает; «I shot him. Why did it go through his body?», чат 51x OMEGALUL. Вебкамера очень маленькая (около 230 px), рамка сужена вручную",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Kirk begged him to shoot. He had one bullet.",
+  "keep_start": 17.0,
+  "keep_end": 56.0,
+  "cam": [
+   0.006,
+   0.602,
+   0.141,
+   0.176
+  ],
+  "hook": "One shot. Missed.",
+  "cover_at": 38.0
  }
 }
