@@ -1340,5 +1340,71 @@
   "keep_end": 60.0,
   "hook": "Best landing. FAILED.",
   "cover_at": 49.1
+ },
+ "RepleteExuberantMartenSSSsss-50i_ZNqHtqmFK4Wt": {
+  "at": "2026-11-20T11:15:34.904903+00:00",
+  "moment_score": 2,
+  "what_happens": "Cutscene close-up of a woman in a towel while the streamer talks about a supplement shop link; ad talk, no gameplay",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "RespectfulSillyHabaneroItsBoshyTime-DueMhkE8P-piJ7hT": {
+  "at": "2026-11-20T11:15:34.958069+00:00",
+  "moment_score": 2,
+  "what_happens": "8 s vulgar sexual rant over looting a drawer; nothing happens, not for the channel",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2934505601-659": {
+  "at": "2026-11-20T11:15:35.009157+00:00",
+  "moment_score": 3,
+  "what_happens": "Boat cutscene dialogue with pause menus, streamer comments; no gameplay event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2934736689-146": {
+  "at": "2026-11-20T11:15:35.052558+00:00",
+  "moment_score": 3,
+  "what_happens": "Cutscene walk through the apartment, then map and character stats menus; no event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2933453157-2157": {
+  "at": "2026-11-20T11:15:35.096822+00:00",
+  "moment_score": 4,
+  "what_happens": "Streamer tells off a chatter who asked if the stream is a recording while looting car trunks at night; no game event, dark",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2934030540-1241": {
+  "at": "2026-11-20T11:15:35.142332+00:00",
+  "moment_score": 4,
+  "what_happens": "Drives a supercar past the destination while chat screams that he passed it; mild, no payoff",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2934219566-1009": {
+  "at": "2026-11-20T11:15:35.188044+00:00",
+  "moment_score": 6,
+  "what_happens": "Sneaks into a gang garage, steals the striped car while the gang opens fire, shouts how hard that was, then chat tells him it is the wrong car and he argues",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Еле угнал тачку у бандитов, а чат пишет: не ту 💀",
+  "keep_start": 3.0,
+  "keep_end": 58.0,
+  "cam": [
+   0.047,
+   0.305,
+   0.17,
+   0.2125
+  ],
+  "hook": "Не ту угнал?",
+  "cover_at": 22.8
  }
 }
