@@ -497,330 +497,20 @@
    "vod_t": 20640.414754,
    "hook": "Не бесите дракона",
    "request_id": "5b947655b0784f7c85586a02a1e9ca47",
-   "cand": {
-    "id": "chat-2933712317-459",
-    "url": "https://www.twitch.tv/videos/2933712317",
-    "section": [
-     20640.414754,
-     20696.414754
-    ],
-    "kind": "chat",
-    "views": 139,
-    "title": "",
-    "vod": "2933712317",
-    "vod_t": 20640.414754,
-    "group": "ru",
-    "login": "deepins02",
-    "name": "deepins02",
-    "viewers": 12195,
-    "chat_score": 3.39,
-    "found_at": "2026-11-19T20:13:17.990471+00:00",
-    "spike_at": "2026-11-19T20:02:45.414754+00:00",
-    "chat": [
-     "15x Бля",
-     "5x ...",
-     "5x 0",
-     "4x бляяя",
-     "4x БЛЯТЬ",
-     "3x лол",
-     "3x ХАХАХАХАХАХ",
-     "2x ..",
-     "2x еблан",
-     "2x Неееееет",
-     "2x БЛЯЯЯЯЯ",
-     "2x Чел",
-     "Долго чесался ты",
-     "ыххяяхяхяхя",
-     "три на одного блять",
-     "ВАНЯ",
-     "Потерял всю ауру",
-     "глок бери",
-     "задавил тапочной аурой",
-     "Смерть в нищете"
-    ],
-    "source": "cut from the live stream at a chat spike: 139 chatters in 15 s, 3.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-    "at": "2026-11-19T21:20:15.508070+00:00",
-    "cam": [
-     96,
-     187,
-     399,
-     280
-    ],
-    "size": [
-     1920,
-     1080
-    ],
-    "dur": 56.0,
-    "words": [
-     {
-      "word": " что",
-      "start": 0.0,
-      "end": 0.08
-     },
-     {
-      "word": " что",
-      "start": 0.08,
-      "end": 0.24
-     },
-     {
-      "word": " могли",
-      "start": 0.24,
-      "end": 0.54
-     },
-     {
-      "word": " мы",
-      "start": 0.54,
-      "end": 0.66
-     },
-     {
-      "word": " забрать",
-      "start": 0.66,
-      "end": 0.98
-     },
-     {
-      "word": " забрали",
-      "start": 0.98,
-      "end": 1.42
-     },
-     {
-      "word": " вроде",
-      "start": 1.42,
-      "end": 1.6
-     },
-     {
-      "word": " как",
-      "start": 1.6,
-      "end": 2.48
-     },
-     {
-      "word": " и",
-      "start": 3.86,
-      "end": 4.1
-     },
-     {
-      "word": " поэтому",
-      "start": 4.1,
-      "end": 4.3
-     },
-     {
-      "word": " конечно",
-      "start": 4.3,
-      "end": 4.56
-     },
-     {
-      "word": " шумим",
-      "start": 4.56,
-      "end": 5.06
-     },
-     {
-      "word": " дэ",
-      "start": 5.06,
-      "end": 6.08
-     },
-     {
-      "word": " аура",
-      "start": 9.24,
-      "end": 9.68
-     },
-     {
-      "word": " и",
-      "start": 9.68,
-      "end": 9.84
-     },
-     {
-      "word": " бать",
-      "start": 9.84,
-      "end": 10.18
-     },
-     {
-      "word": " капец",
-      "start": 12.82,
-      "end": 13.46
-     },
-     {
-      "word": " там",
-      "start": 13.46,
-      "end": 13.62
-     },
-     {
-      "word": " в",
-      "start": 13.62,
-      "end": 13.72
-     },
-     {
-      "word": " америке",
-      "start": 13.72,
-      "end": 14.0
-     },
-     {
-      "word": " говорят",
-      "start": 14.0,
-      "end": 14.2
-     },
-     {
-      "word": " ой",
-      "start": 14.2,
-      "end": 15.64
-     },
-     {
-      "word": " бля",
-      "start": 17.21,
-      "end": 18.23
-     },
-     {
-      "word": " пацаны",
-      "start": 18.23,
-      "end": 18.65
-     },
-     {
-      "word": " посмотрите",
-      "start": 18.65,
-      "end": 19.19
-     },
-     {
-      "word": " как",
-      "start": 19.19,
-      "end": 19.41
-     },
-     {
-      "word": " я",
-      "start": 19.41,
-      "end": 19.55
-     },
-     {
-      "word": " воуружу",
-      "start": 19.55,
-      "end": 20.03
-     },
-     {
-      "word": " ладно",
-      "start": 20.03,
-      "end": 20.25
-     },
-     {
-      "word": " не",
-      "start": 22.07,
-      "end": 22.71
-     },
-     {
-      "word": " выёбывайте",
-      "start": 22.71,
-      "end": 23.15
-     },
-     {
-      "word": " сейчас",
-      "start": 23.15,
-      "end": 23.37
-     },
-     {
-      "word": " прошу",
-      "start": 23.37,
-      "end": 23.73
-     },
-     {
-      "word": " я",
-      "start": 23.73,
-      "end": 23.91
-     },
-     {
-      "word": " я",
-      "start": 23.91,
-      "end": 24.11
-     },
-     {
-      "word": " в",
-      "start": 24.11,
-      "end": 24.23
-     },
-     {
-      "word": " плавках",
-      "start": 24.23,
-      "end": 24.73
-     },
-     {
-      "word": " я",
-      "start": 24.73,
-      "end": 26.19
-     },
-     {
-      "word": " накуренный",
-      "start": 26.19,
-      "end": 26.77
-     },
-     {
-      "word": " и",
-      "start": 26.77,
-      "end": 27.01
-     },
-     {
-      "word": " очень",
-      "start": 27.01,
-      "end": 27.33
-     },
-     {
-      "word": " злой",
-      "start": 27.33,
-      "end": 27.71
-     },
-     {
-      "word": " блять",
-      "start": 27.71,
-      "end": 28.03
-     },
-     {
-      "word": " и",
-      "start": 28.03,
-      "end": 28.49
-     },
-     {
-      "word": " в",
-      "start": 28.49,
-      "end": 28.59
-     },
-     {
-      "word": " тапках",
-      "start": 28.59,
-      "end": 29.05
-     },
-     {
-      "word": " не",
-      "start": 29.05,
-      "end": 30.77
-     },
-     {
-      "word": " бесите",
-      "start": 30.77,
-      "end": 31.13
-     },
-     {
-      "word": " дракона",
-      "start": 31.13,
-      "end": 31.63
-     },
-     {
-      "word": " бля",
-      "start": 44.21,
-      "end": 45.61
-     }
-    ],
-    "metrics": {
-     "motion": 0.09466128308658592,
-     "motion_p90": 0.5037984148347541,
-     "static_share": 0.16143497757847533,
-     "peak_db": 13.945091247558594,
-     "level_db": -33.92692947387695
+   "result": [
+    {
+     "platform": "youtube",
+     "success": true,
+     "post_url": "https://www.youtube.com/watch?v=NSk2v0J553Y",
+     "thumbnail_set": false,
+     "thumbnail_pending": true
     },
-    "silence": [],
-    "cam_src": "editor",
-    "caption": "«Я в тапках и очень злой, не бесите дракона». Через 10 секунд: МЕРТВ 💀",
-    "hook": "Не бесите дракона",
-    "cover_at": 42.9,
-    "score": 6,
-    "keep": [
-     15.0,
-     53.0
-    ]
-   }
+    {
+     "platform": "tiktok",
+     "success": true,
+     "post_url": "https://www.tiktok.com/@gta6.viral42/video/7710273055775411489"
+    }
+   ]
   }
  },
  "rejected": {
@@ -3700,6 +3390,147 @@
     "static_share": 0.15966386554621848,
     "peak_db": 19.310026168823242,
     "level_db": -46.85771942138672
+   },
+   "silence": []
+  },
+  "CourteousBlindingCougarHassaanChop-lQKcqkOXcEBM090B": {
+   "id": "CourteousBlindingCougarHassaanChop-lQKcqkOXcEBM090B",
+   "url": "https://www.twitch.tv/recrent/clip/CourteousBlindingCougarHassaanChop-lQKcqkOXcEBM090B",
+   "section": null,
+   "kind": "clip",
+   "views": 362,
+   "title": "ГРЯЗНУЛЬКА",
+   "vod": "2933569907",
+   "vod_t": 27475,
+   "group": "ru",
+   "login": "recrent",
+   "name": "Recrent",
+   "source": "Twitch clip made by a viewer, 362 views, titled \"ГРЯЗНУЛЬКА\"",
+   "at": "2026-11-20T16:02:33.686475+00:00",
+   "cam": [
+    75,
+    616,
+    403,
+    283
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 26.9,
+   "words": [
+    {
+     "word": " Всё",
+     "start": 0.0,
+     "end": 0.1
+    },
+    {
+     "word": " как",
+     "start": 0.1,
+     "end": 0.3
+    },
+    {
+     "word": " у",
+     "start": 0.3,
+     "end": 0.36
+    },
+    {
+     "word": " Люси,",
+     "start": 0.36,
+     "end": 0.72
+    },
+    {
+     "word": " реально,",
+     "start": 0.8,
+     "end": 0.98
+    },
+    {
+     "word": " плюс",
+     "start": 1.16,
+     "end": 1.3
+    },
+    {
+     "word": "-минус.",
+     "start": 1.3,
+     "end": 1.72
+    },
+    {
+     "word": " А",
+     "start": 7.37,
+     "end": 7.73
+    },
+    {
+     "word": " ну",
+     "start": 7.73,
+     "end": 7.85
+    },
+    {
+     "word": " нахуй,",
+     "start": 7.85,
+     "end": 8.15
+    },
+    {
+     "word": " пошло",
+     "start": 8.23,
+     "end": 8.53
+    },
+    {
+     "word": " дело,",
+     "start": 8.53,
+     "end": 8.75
+    },
+    {
+     "word": " блять,",
+     "start": 8.93,
+     "end": 9.03
+    },
+    {
+     "word": " пошла",
+     "start": 9.19,
+     "end": 9.41
+    },
+    {
+     "word": " возняк.",
+     "start": 9.41,
+     "end": 10.03
+    },
+    {
+     "word": " Небать,",
+     "start": 17.74,
+     "end": 18.1
+    },
+    {
+     "word": " как",
+     "start": 18.18,
+     "end": 18.24
+    },
+    {
+     "word": " они",
+     "start": 18.24,
+     "end": 18.4
+    },
+    {
+     "word": " так",
+     "start": 18.4,
+     "end": 18.58
+    },
+    {
+     "word": " снимают",
+     "start": 18.58,
+     "end": 18.92
+    },
+    {
+     "word": " штаны?",
+     "start": 18.92,
+     "end": 19.18
+    }
+   ],
+   "metrics": {
+    "motion": 0.44505968646627353,
+    "motion_p90": 0.5553573996835899,
+    "static_share": 0.0,
+    "peak_db": 3.981363296508789,
+    "level_db": -24.805498123168945
    },
    "silence": []
   }
