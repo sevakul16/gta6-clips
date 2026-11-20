@@ -2970,6 +2970,238 @@
     "level_db": -27.86190414428711
    },
    "silence": []
+  },
+  "CrowdedCuriousPancakeWOOP-fXdDbNK4b4tWlqsy": {
+   "id": "CrowdedCuriousPancakeWOOP-fXdDbNK4b4tWlqsy",
+   "url": "https://www.twitch.tv/buster/clip/CrowdedCuriousPancakeWOOP-fXdDbNK4b4tWlqsy",
+   "section": null,
+   "kind": "clip",
+   "views": 305,
+   "title": "трюканул за бабу в стрингах",
+   "vod": "2934878423",
+   "vod_t": 9743,
+   "group": "ru",
+   "login": "buster",
+   "name": "buster",
+   "source": "Twitch clip made by a viewer, 305 views, titled \"трюканул за бабу в стрингах\"",
+   "at": "2026-11-20T21:58:27.086169+00:00",
+   "cam": [
+    0,
+    0,
+    655,
+    364
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 16.7,
+   "words": [
+    {
+     "word": " Я",
+     "start": 0.0,
+     "end": 1.78
+    },
+    {
+     "word": " серьезно",
+     "start": 1.78,
+     "end": 3.36
+    },
+    {
+     "word": " брать",
+     "start": 3.36,
+     "end": 3.5
+    },
+    {
+     "word": " полицейского",
+     "start": 3.5,
+     "end": 4.06
+    },
+    {
+     "word": " ряда",
+     "start": 4.06,
+     "end": 5.0
+    }
+   ],
+   "metrics": {
+    "motion": 0.2706026603254812,
+    "motion_p90": 0.43211711376978523,
+    "static_share": 0.0,
+    "peak_db": 9.855520248413086,
+    "level_db": -24.2641658782959
+   },
+   "silence": []
+  },
+  "TemperedFantasticClintCharlietheUnicorn-VOhgLZaaXyT8LHpx": {
+   "id": "TemperedFantasticClintCharlietheUnicorn-VOhgLZaaXyT8LHpx",
+   "url": "https://www.twitch.tv/xqc/clip/TemperedFantasticClintCharlietheUnicorn-VOhgLZaaXyT8LHpx",
+   "section": null,
+   "kind": "clip",
+   "views": 1853,
+   "title": "XQC almost quits playing GTA6",
+   "vod": "2934155295",
+   "vod_t": 4285,
+   "group": "en",
+   "login": "xqc",
+   "name": "xQc",
+   "source": "Twitch clip made by a viewer, 1853 views, titled \"XQC almost quits playing GTA6\"",
+   "at": "2026-11-20T21:58:50.738913+00:00",
+   "cam": [
+    50,
+    477,
+    449,
+    316
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 20.1,
+   "words": [
+    {
+     "word": " be",
+     "start": 0.0,
+     "end": 0.12
+    },
+    {
+     "word": " here",
+     "start": 0.12,
+     "end": 0.3
+    },
+    {
+     "word": " ladies",
+     "start": 1.71,
+     "end": 2.79
+    },
+    {
+     "word": " nights",
+     "start": 2.79,
+     "end": 3.19
+    },
+    {
+     "word": " okay",
+     "start": 3.19,
+     "end": 4.23
+    },
+    {
+     "word": " pal",
+     "start": 4.23,
+     "end": 4.57
+    },
+    {
+     "word": " so",
+     "start": 4.57,
+     "end": 6.89
+    },
+    {
+     "word": " sexism",
+     "start": 6.89,
+     "end": 7.31
+    },
+    {
+     "word": " in",
+     "start": 7.31,
+     "end": 7.41
+    },
+    {
+     "word": " the",
+     "start": 7.41,
+     "end": 7.49
+    },
+    {
+     "word": " game",
+     "start": 7.49,
+     "end": 7.67
+    },
+    {
+     "word": " I",
+     "start": 7.67,
+     "end": 8.25
+    },
+    {
+     "word": " think",
+     "start": 8.25,
+     "end": 8.35
+    },
+    {
+     "word": " I",
+     "start": 8.35,
+     "end": 8.47
+    },
+    {
+     "word": " might",
+     "start": 8.47,
+     "end": 8.73
+    },
+    {
+     "word": " be",
+     "start": 8.73,
+     "end": 8.85
+    },
+    {
+     "word": " done",
+     "start": 8.85,
+     "end": 8.93
+    },
+    {
+     "word": " playing",
+     "start": 8.93,
+     "end": 9.07
+    },
+    {
+     "word": " this",
+     "start": 9.07,
+     "end": 9.21
+    },
+    {
+     "word": " game",
+     "start": 9.21,
+     "end": 9.31
+    },
+    {
+     "word": " actually",
+     "start": 9.31,
+     "end": 9.53
+    },
+    {
+     "word": " okay",
+     "start": 9.53,
+     "end": 10.45
+    },
+    {
+     "word": " nevermind",
+     "start": 16.21,
+     "end": 16.51
+    },
+    {
+     "word": " I'm",
+     "start": 16.51,
+     "end": 16.67
+    },
+    {
+     "word": " gonna",
+     "start": 16.67,
+     "end": 16.77
+    },
+    {
+     "word": " keep",
+     "start": 16.77,
+     "end": 16.85
+    },
+    {
+     "word": " playing",
+     "start": 16.85,
+     "end": 17.01
+    }
+   ],
+   "metrics": {
+    "motion": 0.2658218356328734,
+    "motion_p90": 0.5894946010797847,
+    "static_share": 0.0375,
+    "peak_db": 11.596752166748047,
+    "level_db": -36.49090576171875
+   },
+   "silence": []
   }
  },
  "pool": {
