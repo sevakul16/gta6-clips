@@ -1727,6 +1727,171 @@
     "level_db": -29.387474060058594
    },
    "silence": []
+  },
+  "chat-2934276428-527": {
+   "id": "chat-2934276428-527",
+   "url": "https://www.twitch.tv/videos/2934276428",
+   "section": [
+    23692.955302,
+    23748.955302
+   ],
+   "kind": "chat",
+   "views": 45,
+   "title": "",
+   "vod": "2934276428",
+   "vod_t": 23692.955302,
+   "group": "en",
+   "login": "summit1g",
+   "name": "summit1g",
+   "viewers": 9040,
+   "chat_score": 4.09,
+   "found_at": "2026-11-20T05:40:47.523519+00:00",
+   "spike_at": "2026-11-20T05:32:04.955302+00:00",
+   "chat": [
+    "5x Card",
+    "2x sumBlind",
+    "wrong way",
+    "The collectible card",
+    "omg why does he refuse to read",
+    "sumBlock",
+    "CARDCARDDDDD",
+    "headBang",
+    "MISSED IT",
+    "holding a radio ?"
+   ],
+   "source": "cut from the live stream at a chat spike: 45 chatters in 15 s, 4.1x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-20T05:41:01.268941+00:00",
+   "cam": [
+    0,
+    524,
+    510,
+    285
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 59.0,
+   "words": [
+    {
+     "word": " Check",
+     "start": 0.0,
+     "end": 0.2
+    },
+    {
+     "word": " the",
+     "start": 0.2,
+     "end": 0.3
+    },
+    {
+     "word": " freezer.",
+     "start": 0.3,
+     "end": 0.62
+    },
+    {
+     "word": " Can",
+     "start": 0.82,
+     "end": 0.88
+    },
+    {
+     "word": " you",
+     "start": 0.88,
+     "end": 1.0
+    },
+    {
+     "word": " go",
+     "start": 1.0,
+     "end": 1.12
+    },
+    {
+     "word": " to",
+     "start": 1.12,
+     "end": 1.22
+    },
+    {
+     "word": " the",
+     "start": 1.22,
+     "end": 1.34
+    },
+    {
+     "word": " next",
+     "start": 1.34,
+     "end": 1.54
+    },
+    {
+     "word": " house?",
+     "start": 1.54,
+     "end": 1.86
+    },
+    {
+     "word": " You",
+     "start": 6.52,
+     "end": 6.92
+    },
+    {
+     "word": " can",
+     "start": 6.92,
+     "end": 7.2
+    },
+    {
+     "word": " probably.",
+     "start": 7.2,
+     "end": 7.54
+    },
+    {
+     "word": " What",
+     "start": 53.49,
+     "end": 53.89
+    },
+    {
+     "word": " the",
+     "start": 53.89,
+     "end": 53.89
+    },
+    {
+     "word": " fuck",
+     "start": 53.89,
+     "end": 54.11
+    },
+    {
+     "word": " is",
+     "start": 54.11,
+     "end": 54.37
+    },
+    {
+     "word": " this?",
+     "start": 54.37,
+     "end": 54.53
+    },
+    {
+     "word": " This",
+     "start": 54.63,
+     "end": 54.73
+    },
+    {
+     "word": " is",
+     "start": 54.73,
+     "end": 54.85
+    },
+    {
+     "word": " an",
+     "start": 54.85,
+     "end": 55.03
+    },
+    {
+     "word": " house.",
+     "start": 55.03,
+     "end": 55.23
+    }
+   ],
+   "metrics": {
+    "motion": 0.3040900562851782,
+    "motion_p90": 0.5054559099437148,
+    "static_share": 0.00425531914893617,
+    "peak_db": 7.788196563720703,
+    "level_db": -39.69620895385742
+   },
+   "silence": []
   }
  },
  "pool": {
