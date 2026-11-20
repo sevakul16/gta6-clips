@@ -1785,6 +1785,596 @@
     "level_db": -39.32395935058594
    },
    "silence": []
+  },
+  "chat-2934132437-995": {
+   "id": "chat-2934132437-995",
+   "url": "https://www.twitch.tv/videos/2934132437",
+   "section": [
+    44773.890293,
+    44829.890293
+   ],
+   "kind": "chat",
+   "views": 248,
+   "title": "",
+   "vod": "2934132437",
+   "vod_t": 44773.890293,
+   "group": "en",
+   "login": "ludwig",
+   "name": "Ludwig",
+   "viewers": 7749,
+   "chat_score": 4.86,
+   "found_at": "2026-11-20T09:13:37.477710+00:00",
+   "spike_at": "2026-11-20T09:09:19.890293+00:00",
+   "chat": [
+    "45x w",
+    "10x ANYTHING",
+    "8x aga",
+    "5x ww",
+    "5x WWW",
+    "5x me",
+    "5x type",
+    "5x Type in chat",
+    "3x Waga",
+    "3x Rip",
+    "3x hi",
+    "3x pls",
+    "in twitch chat",
+    "les go",
+    "IM ALL OUT OF LOVE",
+    "w luddwig",
+    "W luddy",
+    "words",
+    "whatever i want/",
+    "air supply!"
+   ],
+   "source": "cut from the live stream at a chat spike: 248 chatters in 15 s, 4.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-20T09:14:03.443207+00:00",
+   "cam": [
+    11,
+    440,
+    235,
+    165
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 65.1,
+   "words": [
+    {
+     "word": " Because",
+     "start": 0.11,
+     "end": 0.67
+    },
+    {
+     "word": " I'll",
+     "start": 0.67,
+     "end": 0.77
+    },
+    {
+     "word": " probably",
+     "start": 0.77,
+     "end": 0.95
+    },
+    {
+     "word": " go",
+     "start": 0.95,
+     "end": 1.07
+    },
+    {
+     "word": " to",
+     "start": 1.07,
+     "end": 1.15
+    },
+    {
+     "word": " bed",
+     "start": 1.15,
+     "end": 1.35
+    },
+    {
+     "word": " before",
+     "start": 1.35,
+     "end": 1.61
+    },
+    {
+     "word": " the",
+     "start": 1.61,
+     "end": 1.75
+    },
+    {
+     "word": " next",
+     "start": 1.75,
+     "end": 1.93
+    },
+    {
+     "word": " giveaway",
+     "start": 1.93,
+     "end": 2.25
+    },
+    {
+     "word": " Not",
+     "start": 3.65,
+     "end": 4.03
+    },
+    {
+     "word": " to",
+     "start": 4.03,
+     "end": 4.21
+    },
+    {
+     "word": " say",
+     "start": 4.21,
+     "end": 4.35
+    },
+    {
+     "word": " that",
+     "start": 4.35,
+     "end": 4.49
+    },
+    {
+     "word": " we're",
+     "start": 4.49,
+     "end": 4.63
+    },
+    {
+     "word": " not",
+     "start": 4.63,
+     "end": 4.71
+    },
+    {
+     "word": " giving",
+     "start": 4.71,
+     "end": 4.89
+    },
+    {
+     "word": " away",
+     "start": 4.89,
+     "end": 5.11
+    },
+    {
+     "word": " codes",
+     "start": 5.11,
+     "end": 5.41
+    },
+    {
+     "word": " throughout",
+     "start": 5.41,
+     "end": 5.65
+    },
+    {
+     "word": " the",
+     "start": 5.65,
+     "end": 5.81
+    },
+    {
+     "word": " night.",
+     "start": 5.81,
+     "end": 5.99
+    },
+    {
+     "word": " I",
+     "start": 6.09,
+     "end": 6.25
+    },
+    {
+     "word": " just",
+     "start": 6.25,
+     "end": 6.43
+    },
+    {
+     "word": " won't",
+     "start": 6.43,
+     "end": 6.61
+    },
+    {
+     "word": " be",
+     "start": 6.61,
+     "end": 6.71
+    },
+    {
+     "word": " doing",
+     "start": 6.71,
+     "end": 6.93
+    },
+    {
+     "word": " it",
+     "start": 6.93,
+     "end": 7.11
+    },
+    {
+     "word": " They're",
+     "start": 7.11,
+     "end": 7.27
+    },
+    {
+     "word": " just",
+     "start": 7.27,
+     "end": 7.39
+    },
+    {
+     "word": " gonna",
+     "start": 7.39,
+     "end": 7.55
+    },
+    {
+     "word": " appear",
+     "start": 7.55,
+     "end": 7.79
+    },
+    {
+     "word": " on",
+     "start": 7.79,
+     "end": 7.99
+    },
+    {
+     "word": " screen",
+     "start": 7.99,
+     "end": 8.29
+    },
+    {
+     "word": " So",
+     "start": 8.89,
+     "end": 9.27
+    },
+    {
+     "word": " if",
+     "start": 9.27,
+     "end": 9.39
+    },
+    {
+     "word": " you",
+     "start": 9.39,
+     "end": 9.47
+    },
+    {
+     "word": " want",
+     "start": 9.47,
+     "end": 9.61
+    },
+    {
+     "word": " to",
+     "start": 9.61,
+     "end": 9.71
+    },
+    {
+     "word": " enter",
+     "start": 9.71,
+     "end": 9.85
+    },
+    {
+     "word": " this",
+     "start": 9.85,
+     "end": 10.09
+    },
+    {
+     "word": " giveaway",
+     "start": 10.09,
+     "end": 10.33
+    },
+    {
+     "word": " all",
+     "start": 10.33,
+     "end": 10.65
+    },
+    {
+     "word": " you",
+     "start": 10.65,
+     "end": 10.79
+    },
+    {
+     "word": " got",
+     "start": 10.79,
+     "end": 10.91
+    },
+    {
+     "word": " to",
+     "start": 10.91,
+     "end": 11.01
+    },
+    {
+     "word": " do",
+     "start": 11.01,
+     "end": 11.25
+    },
+    {
+     "word": " is",
+     "start": 11.25,
+     "end": 11.67
+    },
+    {
+     "word": " just",
+     "start": 11.67,
+     "end": 11.89
+    },
+    {
+     "word": " type",
+     "start": 11.89,
+     "end": 12.25
+    },
+    {
+     "word": " in",
+     "start": 12.25,
+     "end": 12.57
+    },
+    {
+     "word": " chat",
+     "start": 12.57,
+     "end": 13.01
+    },
+    {
+     "word": " Literally",
+     "start": 14.87,
+     "end": 15.25
+    },
+    {
+     "word": " whatever",
+     "start": 15.25,
+     "end": 15.51
+    },
+    {
+     "word": " you",
+     "start": 15.51,
+     "end": 15.69
+    },
+    {
+     "word": " want",
+     "start": 15.69,
+     "end": 15.93
+    },
+    {
+     "word": " just",
+     "start": 15.93,
+     "end": 16.25
+    },
+    {
+     "word": " type",
+     "start": 16.25,
+     "end": 16.45
+    },
+    {
+     "word": " anything",
+     "start": 16.45,
+     "end": 16.79
+    },
+    {
+     "word": " in",
+     "start": 16.79,
+     "end": 17.43
+    },
+    {
+     "word": " chat",
+     "start": 17.43,
+     "end": 17.81
+    },
+    {
+     "word": " Nightbots",
+     "start": 25.49,
+     "end": 25.87
+    },
+    {
+     "word": " down",
+     "start": 25.87,
+     "end": 26.19
+    },
+    {
+     "word": " 8",
+     "start": 30.01,
+     "end": 30.41
+    },
+    {
+     "word": ".3",
+     "start": 30.41,
+     "end": 30.81
+    },
+    {
+     "word": " Let's",
+     "start": 37.08,
+     "end": 37.48
+    },
+    {
+     "word": " see",
+     "start": 37.48,
+     "end": 37.56
+    },
+    {
+     "word": " this",
+     "start": 37.56,
+     "end": 37.7
+    },
+    {
+     "word": " works",
+     "start": 37.7,
+     "end": 37.96
+    },
+    {
+     "word": " So",
+     "start": 43.03,
+     "end": 43.43
+    },
+    {
+     "word": " you",
+     "start": 43.43,
+     "end": 43.61
+    },
+    {
+     "word": " do",
+     "start": 43.61,
+     "end": 43.71
+    },
+    {
+     "word": " that",
+     "start": 43.71,
+     "end": 43.89
+    },
+    {
+     "word": " you",
+     "start": 43.89,
+     "end": 44.01
+    },
+    {
+     "word": " can",
+     "start": 44.01,
+     "end": 44.13
+    },
+    {
+     "word": " still",
+     "start": 44.13,
+     "end": 44.37
+    },
+    {
+     "word": " win",
+     "start": 44.37,
+     "end": 44.59
+    },
+    {
+     "word": " it,",
+     "start": 44.59,
+     "end": 44.71
+    },
+    {
+     "word": " but",
+     "start": 44.73,
+     "end": 44.91
+    },
+    {
+     "word": " for",
+     "start": 44.91,
+     "end": 45.19
+    },
+    {
+     "word": " you",
+     "start": 45.19,
+     "end": 45.33
+    },
+    {
+     "word": " to",
+     "start": 45.33,
+     "end": 45.43
+    },
+    {
+     "word": " win",
+     "start": 45.43,
+     "end": 45.59
+    },
+    {
+     "word": " it",
+     "start": 45.59,
+     "end": 45.67
+    },
+    {
+     "word": " you",
+     "start": 45.67,
+     "end": 45.75
+    },
+    {
+     "word": " need",
+     "start": 45.75,
+     "end": 45.87
+    },
+    {
+     "word": " to",
+     "start": 45.87,
+     "end": 45.99
+    },
+    {
+     "word": " type",
+     "start": 45.99,
+     "end": 46.19
+    },
+    {
+     "word": " in",
+     "start": 46.19,
+     "end": 46.43
+    },
+    {
+     "word": " twitch",
+     "start": 46.43,
+     "end": 46.79
+    },
+    {
+     "word": " chat",
+     "start": 46.79,
+     "end": 47.15
+    },
+    {
+     "word": " I'm",
+     "start": 47.83,
+     "end": 48.23
+    },
+    {
+     "word": " gonna",
+     "start": 48.23,
+     "end": 48.33
+    },
+    {
+     "word": " pick",
+     "start": 48.33,
+     "end": 48.53
+    },
+    {
+     "word": " somebody",
+     "start": 48.53,
+     "end": 48.79
+    },
+    {
+     "word": " from",
+     "start": 48.79,
+     "end": 48.97
+    },
+    {
+     "word": " twitch",
+     "start": 48.97,
+     "end": 49.23
+    },
+    {
+     "word": " after",
+     "start": 49.23,
+     "end": 49.45
+    },
+    {
+     "word": " this",
+     "start": 49.45,
+     "end": 49.75
+    },
+    {
+     "word": " What",
+     "start": 52.49,
+     "end": 52.89
+    },
+    {
+     "word": " is",
+     "start": 62.78,
+     "end": 63.18
+    },
+    {
+     "word": " going",
+     "start": 63.18,
+     "end": 63.36
+    },
+    {
+     "word": " on",
+     "start": 63.36,
+     "end": 63.56
+    },
+    {
+     "word": " here",
+     "start": 63.56,
+     "end": 63.78
+    },
+    {
+     "word": " right?",
+     "start": 63.78,
+     "end": 64.54
+    }
+   ],
+   "metrics": {
+    "motion": 0.4829605963791267,
+    "motion_p90": 0.6367128150514733,
+    "static_share": 0.0,
+    "peak_db": 9.329904556274414,
+    "level_db": -23.901031494140625
+   },
+   "silence": []
   }
  },
  "pool": {
