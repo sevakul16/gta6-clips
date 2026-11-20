@@ -80,22 +80,84 @@ def save_state(state):
 
 
 LIMIT_RE = re.compile(r"limit|quota|may upload|too many", re.I)
+# the channel itself is out of uploads (the wording of YouTube's own daily limit): only time frees it
+CHANNEL_LIMIT_RE = re.compile(r"may upload|number of videos|daily limit|uploadLimit", re.I)
 MAX_ATTEMPTS = 3        # a post refused this many times is given up: an endless retry would only burn uploads
 DAY = dt.timedelta(hours=24)
+SHORT_HOLD = dt.timedelta(hours=3)
 
 
-def recent_posts(state, profile, until=None):
+def went_to(v, platform):
+    """Whether a post reached the platform. Unknown (no answer yet, old records) counts as yes."""
+    res = v.get("result")
+    if isinstance(res, list) and any(isinstance(x, dict) and x.get("platform") for x in res):
+        return any(isinstance(x, dict) and x.get("platform") == platform and x.get("success") for x in res)
+    return platform in v["platforms"] if v.get("platforms") else True
+
+
+def post_times(state, profile, platform=None):
+    """When the profile posted (to the platform, or anywhere), oldest first. A clip that is back in the queue
+    for one platform is still out on the others: that post counts too."""
+    out = [dt.datetime.fromisoformat(v["at"]) for v in state["posted"].values()
+           if v.get("profile") == profile and v.get("ok") and (platform is None or went_to(v, platform))]
+    for c in list(state["posted"].values()) + list(state["pool"].values()):
+        out += [dt.datetime.fromisoformat(x["at"]) for x in c.get("earlier") or []
+                if isinstance(x, dict) and x.get("at") and x.get("profile") == profile and x.get("success")
+                and (platform is None or x.get("platform") == platform)]
+    return sorted(out)
+
+
+def recent_posts(state, profile, until=None, platform=None):
     """Times of the profile's posts in the 24 hours before `until` (now by default), oldest first.
     YouTube counts a channel's uploads over a rolling 24 hours: on 19.11 it still refused an upload
     made after midnight Pacific, when the ten before it were all less than a day old."""
     until = until or now_utc()
-    return sorted(t for t in (dt.datetime.fromisoformat(v["at"]) for v in state["posted"].values()
-                              if v.get("profile") == profile and v.get("ok")) if until - DAY <= t <= until)
+    return [t for t in post_times(state, profile, platform) if until - DAY <= t <= until]
 
 
 def minutes_since_last_post(state, profile):
-    ages = [age_hours(v["at"]) * 60 for v in state["posted"].values() if v.get("profile") == profile and v.get("ok")]
-    return min(ages) if ages else 10 ** 6
+    times = post_times(state, profile)
+    return (now_utc() - times[-1]).total_seconds() / 60 if times else 10 ** 6
+
+
+def pacific_midnight(after):
+    """The first midnight Pacific after the moment: that is when the daily quotas of the YouTube API start again."""
+    try:
+        from zoneinfo import ZoneInfo
+        local = after.astimezone(ZoneInfo("America/Los_Angeles"))
+    except Exception:  # noqa
+        local = after.astimezone(dt.timezone(dt.timedelta(hours=-8)))
+    nxt = (local + dt.timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
+    return nxt.astimezone(dt.timezone.utc)
+
+
+def hold_until(state, profile, platform, at, why, strikes):
+    """How long a platform that refused a post over a limit is left alone.
+
+    The channel's own daily limit, or a second refusal in a row: until the oldest post of its last 24 hours
+    is a day old, that is when the platform's rolling window has room again. Any other limit (the general
+    "rate limit exceeded" came twice around 05:20 UTC with only six uploads behind, and on 19.11 was gone
+    after midnight Pacific): a short break, stretched past that midnight when it is near."""
+    if CHANNEL_LIMIT_RE.search(why) or strikes > 1:
+        before = [t for t in recent_posts(state, profile, at, platform) if t < at]
+        return before[0] + DAY + dt.timedelta(minutes=10) if before else at + dt.timedelta(minutes=135)
+    reset = pacific_midnight(at) + dt.timedelta(minutes=10)
+    return reset if reset - at <= dt.timedelta(hours=8) else at + SHORT_HOLD
+
+
+def platform_holds(cfg, state):
+    """state["holds"]: profile -> platform -> {until, why, strikes, post}. A platform on hold gets no posts,
+    the others go on. Holds written before they were kept per platform stopped the whole profile; such a
+    hold is moved to the platforms its reason names and timed anew by today's rule."""
+    holds = state.setdefault("holds", {})
+    for prof, h in (state.pop("hold", None) or {}).items():
+        why, now = str(h.get("why") or ""), now_utc()
+        named = [p for p in cfg["platforms"] if p.lower() in why.lower()] or list(cfg["platforms"])
+        for p in named:
+            until = min(dt.datetime.fromisoformat(h["until"]), hold_until(state, prof, p, now, why, 1))
+            holds.setdefault(prof, {}).setdefault(p, {"until": until.isoformat(), "why": why[:200], "strikes": 1})
+            log(f"{prof}: the hold now covers {p} alone, until {until.isoformat()[11:16]} UTC")
+    return holds
 
 
 # ---------------------------------------------------------------- twitch
@@ -689,7 +751,7 @@ def post(cfg, profile, video, title, caption, yt_title, yt_desc, tags, idem, pri
     return j
 
 
-def check_posts(state):
+def check_posts(cfg, state):
     """Ask upload-post what happened to recent uploads (they are processed in the background)."""
     key = os.environ.get("UPLOAD_POST_KEY")
     for cid, v in state["posted"].items():
@@ -706,46 +768,72 @@ def check_posts(state):
             # the raw answer carries account details: log only what is needed
             log(f"upload status {v.get('login')} {cid[-12:]}: {r.status_code} {j.get('status')} " + ", ".join(
                 f"{x.get('platform')} {'ok' if x.get('success') else 'FAILED ' + str(x.get('error_message'))[:120]}"
-                + "".join(f" {k}={str(x[k])[:140]}" for k in ("thumbnail_set", "thumbnail_pending", "thumbnail_note",
+                + "".join(f" {k}={str(x[k])[:140]}" for k in ("error_code", "restricted_until", "thumbnail_set",
+                                                              "thumbnail_pending", "thumbnail_note",
                                                               "thumbnail_error", "warnings") if x.get(k) is not None)
                 for x in j.get("results") or [] if isinstance(x, dict)))
             if str(j.get("status", "")).lower() in ("completed", "finished", "done", "failed", "error"):
                 v["result"] = [{k: x.get(k) for k in ("platform", "success", "post_url", "error_message",
+                                                       "error_code", "restricted_until",
                                                        "thumbnail_set", "thumbnail_pending", "thumbnail_error")
                                 if x.get(k) is not None} for x in j.get("results") or [] if isinstance(x, dict)] \
                               or str(j.get("status"))
         except Exception as e:  # noqa
             log("   WARN upload status check failed:", repr(e)[:200])
-    settle_failed(state)
+    settle_failed(cfg, state)
 
 
-def settle_failed(state):
+def hold_platform(state, holds, profile, platform, at, why, restricted_until=None):
+    """A platform refused the post made at `at` over a limit: leave that platform alone for a while.
+    The other platforms of the profile keep their schedule."""
+    old = holds.get(profile, {}).get(platform) or {}
+    if old.get("post") and old["post"] >= at.isoformat():       # this refusal is already counted
+        return
+    strikes = int(old.get("strikes") or 0) + 1                  # refusals in a row, a post that got through clears them
+    until = hold_until(state, profile, platform, at, why, strikes)
+    try:        # upload-post may say itself how long the account is restricted
+        told = dt.datetime.fromisoformat(str(restricted_until).replace("Z", "+00:00"))
+        told = told if told.tzinfo else told.replace(tzinfo=dt.timezone.utc)
+        until = max(until, min(told, at + DAY + dt.timedelta(hours=2)))
+    except Exception:  # noqa
+        pass
+    holds.setdefault(profile, {})[platform] = {"until": until.isoformat(), "why": why[:200], "strikes": strikes,
+                                               "post": at.isoformat()}
+    if until > now_utc():
+        log(f"   {profile}: {platform} on hold until {until.isoformat()[11:16]} UTC (refusal {strikes} in a row)")
+
+
+def settle_failed(cfg, state):
     """A refused post goes back into the queue instead of being lost: for every platform when all refused it,
     or only for the refusing ones when it is already out elsewhere (a second upload would double it there).
-    A refusal over a limit also holds the profile until its oldest post of the last 24 hours is a day old:
-    that is when the platform's rolling window has room again."""
+    A refusal over a limit also puts the refusing platform on hold, see hold_until()."""
     try:
         spare = json.loads(REQUEUE_FILE.read_text()) if REQUEUE_FILE.exists() else {}
     except Exception:  # noqa
         spare = {}
-    for cid, v in list(state["posted"].items()):
+    holds = platform_holds(cfg, state)
+    for cid, v in sorted(state["posted"].items(), key=lambda kv: kv[1]["at"]):
         res = [x for x in v["result"] if isinstance(x, dict)] if isinstance(v.get("result"), list) else []
         if isinstance(v.get("result"), str) and v["result"].lower() in ("failed", "error"):
             res = [{"error_message": "upload " + v["result"]}]      # failed as a whole, no per-platform answer
         failed = [x for x in res if not x.get("success")]
+        at = dt.datetime.fromisoformat(v["at"])
+        for x in res:           # a post that got through after a hold: the platform is fine again
+            h = holds.get(v.get("profile"), {}).get(x.get("platform")) if x.get("success") else None
+            if h and v.get("ok") and at > dt.datetime.fromisoformat(h["until"]):
+                del holds[v["profile"]][x["platform"]]
         if not v.get("ok") or not failed:
             if res:
                 v.pop("cand", None)
             continue
         why = "; ".join(str(x.get("error_message") or "")[:160] for x in failed)
-        at = dt.datetime.fromisoformat(v["at"])
-        if LIMIT_RE.search(why) and v.get("profile"):
-            before = [t for t in recent_posts(state, v["profile"], at) if t < at]
-            until = before[0] + DAY + dt.timedelta(minutes=10) if before else at + dt.timedelta(minutes=135)
-            if until > now_utc():
-                state.setdefault("hold", {})[v["profile"]] = {"until": until.isoformat(), "why": why[:200]}
+        for x in failed:
+            msg = str(x.get("error_message") or "")
+            if LIMIT_RE.search(msg) and v.get("profile"):
+                for p in [str(x["platform"])] if x.get("platform") else (v.get("platforms") or cfg["platforms"]):
+                    hold_platform(state, holds, v["profile"], p, at, msg, x.get("restricted_until"))
         cand = v.get("cand") or spare.get(cid)
-        done = [x for x in res if x.get("success")]
+        done = [{**x, "at": v["at"], "profile": v.get("profile")} for x in res if x.get("success")]
         only = sorted({str(x["platform"]) for x in failed if x.get("platform")}) if done else None
         tries = int((cand or {}).get("attempt") or 0) + 1
         if cand and tries <= MAX_ATTEMPTS and (only or not done):
@@ -1037,26 +1125,26 @@ def evaluate(cfg, state, c, td):
     sheet(src, f"OK{c['score']}_{tag}.jpg" if ok else f"REJ_{tag}.jpg")
 
 
-def pick(state, profile_of, fresh_only=False):
-    """Best approved moment per profile: highest score, then the bigger stream, then the one waiting longest.
+def pick(state, profile_of, prof, platforms, fresh_only=False):
+    """Best approved moment of the profile that can go to one of the platforms: highest score, then the
+    bigger stream, then the one waiting longest. A moment that is back in the queue for certain platforms
+    (it is out on the others) only fits those.
 
     Languages take turns: if the previous post was RU and an EN moment of about the same strength is
     waiting, the EN one goes next (and the other way round)."""
-    last = {}
+    last = None
     for v in sorted(state["posted"].values(), key=lambda v: v["at"]):
-        if v.get("ok") and v.get("group"):
-            last[v.get("profile")] = v["group"]
+        if v.get("ok") and v.get("group") and v.get("profile") == prof:
+            last = v["group"]
     key = lambda c: (c["score"], c.get("viewers") or 0, age_hours(c["at"]))
-    best = {}
-    for prof in set(profile_of.values()):
-        cands = [c for c in state["pool"].values()
-                 if profile_of[c["group"]] == prof and not (fresh_only and c.get("previewed"))]
-        if not cands:
-            continue
-        top = max(cands, key=key)
-        other = [c for c in cands if c["group"] != last.get(prof) and c["score"] >= top["score"] - 1]
-        best[prof] = max(other, key=key) if prof in last and other else top
-    return best
+    cands = [c for c in state["pool"].values()
+             if profile_of[c["group"]] == prof and not (fresh_only and c.get("previewed"))
+             and (not c.get("platforms") or set(c["platforms"]) & set(platforms))]
+    if not cands:
+        return None
+    top = max(cands, key=key)
+    other = [c for c in cands if c["group"] != last and c["score"] >= top["score"] - 1]
+    return max(other, key=key) if last and other else top
 
 
 def build_cover(cfg, c, src, cam):
@@ -1084,8 +1172,10 @@ def build_cover(cfg, c, src, cam):
         return None, None
 
 
-def publish(cfg, state, c, dry):
+def publish(cfg, state, c, dry, to=None):
+    """Render the moment and post it to the platforms in `to` (by default everywhere it is still due)."""
     g = cfg["groups"][c["group"]]
+    to = list(to or c.get("platforms") or cfg["platforms"])
     log(f"=> publishing [{c['kind']}] {c['login']} {c['score']}/10: {c.get('caption') or c['title']}")
     with tempfile.TemporaryDirectory() as td:
         src = download(c["url"], Path(td) / f"{c['id']}.mp4", c.get("section"))
@@ -1132,10 +1222,13 @@ def publish(cfg, state, c, dry):
             return
         idem = c["id"] + (f"-r{c['attempt']}" if c.get("attempt") else "")    # a retry must not replay the refusal
         if c.get("platforms"):
-            log("   retry for", ", ".join(c["platforms"]), "only: it is already out elsewhere")
+            log("   retry for", ", ".join(to), "only: it is already out elsewhere")
+        elif set(to) != set(cfg["platforms"]):
+            log("   going to", ", ".join(to), "only: the other platform takes no posts now")
         res = post(cfg, g["profile"], out, base, caption, yt_title, yt_desc, tags, idem, cover=cover,
-                   cover_ms=cover_ms, platforms=c.get("platforms"))
+                   cover_ms=cover_ms, platforms=to)
         state["posted"][c["id"]] = {"at": now_utc().isoformat(), "ok": True, "profile": g["profile"],
+                                    "platforms": to,
                                     "login": c["login"], "group": c["group"], "url": c["url"], "kind": c["kind"],
                                     "score": c["score"],
                                     "caption": c.get("caption"), "vod": c.get("vod"), "vod_t": c.get("vod_t"),
@@ -1146,37 +1239,57 @@ def publish(cfg, state, c, dry):
         report(c, "posted", caption=caption)
 
 
+def open_platforms(cfg, state, prof, dry):
+    """The profile's platforms that take a post now: not on hold and under the daily cap."""
+    out, cap = [], cfg["max_posts_per_day"]
+    holds = platform_holds(cfg, state).get(prof) or {}
+    for p in cfg["platforms"]:
+        h = holds.get(p)
+        if h and not dry and dt.datetime.fromisoformat(h["until"]) > now_utc():
+            log(f"{prof}: {p} on hold until {h['until'][11:16]} UTC: {h.get('why', '')[:120]}")
+            continue
+        recent = recent_posts(state, prof, platform=p)
+        if len(recent) >= cap:
+            free = recent[len(recent) - cap] + DAY
+            log(f"{prof}: {p} daily cap reached ({len(recent)} posts in the last 24 h), "
+                f"next slot {free.isoformat()[11:16]} UTC")
+            continue
+        out.append(p)
+    return out
+
+
 def publish_due(cfg, state, dry):
-    """Apply fresh editor verdicts, then publish the best approved moment of every profile whose slot is open."""
+    """Apply fresh editor verdicts, then fill the open slot of every profile: each platform that takes a post
+    now gets one moment. Usually that is one moment for all of them; when a platform is on hold the moment
+    goes to the others alone, and a moment owed to one platform only leaves the others for the next best."""
     verdicts = load_verdicts() if state["pending"] or state["pool"] else None
     apply_reviews(cfg, state, verdicts)
     amend_pool(state, verdicts)
+    platform_holds(cfg, state)
     save_state(state)
     profile_of = {gname: g["profile"] for gname, g in cfg["groups"].items()}
-    for prof, c in pick(state, profile_of, fresh_only=dry).items():
-        hold = (state.get("hold") or {}).get(prof)
-        if hold and not dry:
-            if dt.datetime.fromisoformat(hold["until"]) > now_utc():
-                log(f"{prof}: on hold until {hold['until'][11:16]} UTC: {hold.get('why', '')[:120]}")
-                continue
-            state["hold"].pop(prof, None)
-        recent, cap = recent_posts(state, prof), cfg["max_posts_per_day"]
-        if len(recent) >= cap:
-            free = recent[len(recent) - cap] + DAY
-            log(f"{prof}: daily cap reached ({len(recent)} posts in the last 24 h), next slot {free.isoformat()[11:16]} UTC")
+    for prof in sorted(set(profile_of.values())):
+        if not pick(state, profile_of, prof, cfg["platforms"], fresh_only=dry):
             continue
         gap = minutes_since_last_post(state, prof)
         if gap < cfg.get("min_gap_minutes", 120) and not dry:
             log(f"{prof}: last post {gap:.0f} min ago, next slot in {cfg.get('min_gap_minutes', 120) - gap:.0f} min")
             continue
-        try:
-            publish(cfg, state, c, dry)
-        except Exception as e:  # noqa
-            log("   ERROR while publishing:", repr(e)[:400])
-            state["pool"].pop(c["id"], None)
-            state["posted"][c["id"]] = {"at": now_utc().isoformat(), "ok": False, "error": repr(e)[:300],
-                                        "login": c["login"]}
-        save_state(state)
+        free = open_platforms(cfg, state, prof, dry)
+        while free:
+            c = pick(state, profile_of, prof, free, fresh_only=dry)
+            if not c:
+                break
+            to = [p for p in (c.get("platforms") or cfg["platforms"]) if p in free]
+            try:
+                publish(cfg, state, c, dry, to)
+            except Exception as e:  # noqa
+                log("   ERROR while publishing:", repr(e)[:400])
+                state["pool"].pop(c["id"], None)
+                state["posted"][c["id"]] = {"at": now_utc().isoformat(), "ok": False, "error": repr(e)[:300],
+                                            "login": c["login"]}
+            save_state(state)
+            free = [] if dry else [p for p in free if p not in to]
 
 
 # ---------------------------------------------------------------- main
@@ -1231,7 +1344,7 @@ def main():
             + (", so nothing will be approved" if jc.get("required", True) else ""))
 
     state = load_state()
-    check_posts(state)
+    check_posts(cfg, state)
     publish_due(cfg, state, dry)   # a slot may already be open: do not make it wait for the listening
     new = []
     try:
