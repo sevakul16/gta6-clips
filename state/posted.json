@@ -1347,6 +1347,260 @@
     "level_db": -39.03680419921875
    },
    "silence": []
+  },
+  "chat-2934276428-384": {
+   "id": "chat-2934276428-384",
+   "url": "https://www.twitch.tv/videos/2934276428",
+   "section": [
+    17280.137532,
+    17336.137532
+   ],
+   "kind": "chat",
+   "views": 44,
+   "title": "",
+   "vod": "2934276428",
+   "vod_t": 17280.137532,
+   "group": "en",
+   "login": "summit1g",
+   "name": "summit1g",
+   "viewers": 10092,
+   "chat_score": 6.29,
+   "found_at": "2026-11-20T03:52:34.741412+00:00",
+   "spike_at": "2026-11-20T03:45:12.137532+00:00",
+   "chat": [
+    "5x D:",
+    "3x o7",
+    "2x LUL",
+    "2x LOL",
+    "2x KEKW",
+    "2x Lmao",
+    "oh gawdddd",
+    "BRUH",
+    "damn",
+    "nice parking",
+    "Hit and run",
+    "....",
+    "read brochures in main office where u staty for racing on map",
+    "offf"
+   ],
+   "source": "cut from the live stream at a chat spike: 44 chatters in 15 s, 6.3x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-20T03:52:54.959673+00:00",
+   "cam": [
+    0,
+    524,
+    510,
+    285
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " steal",
+     "start": 0.0,
+     "end": 0.14
+    },
+    {
+     "word": " the",
+     "start": 0.14,
+     "end": 0.3
+    },
+    {
+     "word": " crawler",
+     "start": 0.3,
+     "end": 0.72
+    },
+    {
+     "word": " from",
+     "start": 0.72,
+     "end": 0.9
+    },
+    {
+     "word": " Moses.",
+     "start": 0.9,
+     "end": 1.22
+    },
+    {
+     "word": " Is",
+     "start": 3.49,
+     "end": 3.81
+    },
+    {
+     "word": " that",
+     "start": 3.81,
+     "end": 3.95
+    },
+    {
+     "word": " bringing",
+     "start": 3.95,
+     "end": 4.21
+    },
+    {
+     "word": " me",
+     "start": 4.21,
+     "end": 4.43
+    },
+    {
+     "word": " to",
+     "start": 4.43,
+     "end": 4.63
+    },
+    {
+     "word": " the",
+     "start": 4.63,
+     "end": 4.79
+    },
+    {
+     "word": " crawler?",
+     "start": 4.79,
+     "end": 5.21
+    },
+    {
+     "word": " Or",
+     "start": 5.33,
+     "end": 5.33
+    },
+    {
+     "word": " is",
+     "start": 5.33,
+     "end": 5.39
+    },
+    {
+     "word": " that",
+     "start": 5.39,
+     "end": 5.51
+    },
+    {
+     "word": " bringing",
+     "start": 5.51,
+     "end": 5.69
+    },
+    {
+     "word": " me",
+     "start": 5.69,
+     "end": 5.85
+    },
+    {
+     "word": " to",
+     "start": 5.85,
+     "end": 5.93
+    },
+    {
+     "word": " his",
+     "start": 5.93,
+     "end": 6.03
+    },
+    {
+     "word": " garage?",
+     "start": 6.03,
+     "end": 6.33
+    },
+    {
+     "word": " And",
+     "start": 6.49,
+     "end": 6.57
+    },
+    {
+     "word": " I've",
+     "start": 6.57,
+     "end": 6.65
+    },
+    {
+     "word": " got",
+     "start": 6.65,
+     "end": 6.73
+    },
+    {
+     "word": " to",
+     "start": 6.73,
+     "end": 6.83
+    },
+    {
+     "word": " find",
+     "start": 6.83,
+     "end": 7.03
+    },
+    {
+     "word": " it",
+     "start": 7.03,
+     "end": 7.21
+    },
+    {
+     "word": " to",
+     "start": 7.21,
+     "end": 8.15
+    },
+    {
+     "word": " the",
+     "start": 19.93,
+     "end": 20.05
+    },
+    {
+     "word": " car,",
+     "start": 20.05,
+     "end": 20.37
+    },
+    {
+     "word": " OK?",
+     "start": 20.49,
+     "end": 20.61
+    },
+    {
+     "word": " So",
+     "start": 22.41,
+     "end": 22.71
+    },
+    {
+     "word": " he",
+     "start": 22.71,
+     "end": 22.79
+    },
+    {
+     "word": " gives",
+     "start": 22.79,
+     "end": 22.93
+    },
+    {
+     "word": " me",
+     "start": 22.93,
+     "end": 23.05
+    },
+    {
+     "word": " a",
+     "start": 23.05,
+     "end": 23.11
+    },
+    {
+     "word": " little",
+     "start": 23.11,
+     "end": 23.23
+    },
+    {
+     "word": " car",
+     "start": 23.23,
+     "end": 23.55
+    },
+    {
+     "word": " stealing",
+     "start": 23.55,
+     "end": 23.89
+    },
+    {
+     "word": " missions.",
+     "start": 23.89,
+     "end": 24.29
+    }
+   ],
+   "metrics": {
+    "motion": 0.36157598499061916,
+    "motion_p90": 0.621703564727955,
+    "static_share": 0.03587443946188341,
+    "peak_db": 7.564563751220703,
+    "level_db": -32.410247802734375
+   },
+   "silence": []
   }
  },
  "pool": {
