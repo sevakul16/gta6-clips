@@ -1,20 +1,4 @@
 {
- "chat-2932180623-1010": {
-  "at": "2026-11-18T23:13:03.703244+00:00",
-  "moment_score": 3,
-  "what_happens": "Formation flight and a clean landing approach while the streamer talks about his video card; no visible event, webcam box misplaced",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2932305259-771": {
-  "at": "2026-11-18T23:13:03.759021+00:00",
-  "moment_score": 3,
-  "what_happens": "Airboat ride to a dock while Kai asks chat who owns the game; chat spam, no gameplay event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2932677749-234": {
   "at": "2026-11-19T00:16:13.033845+00:00",
   "moment_score": 7,
@@ -1507,6 +1491,58 @@
   "at": "2026-11-20T22:14:20.308311+00:00",
   "moment_score": 2,
   "what_happens": "Кат-сцена с мужским стриптизом, вебкамеры в кадре нет.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2934866208-816": {
+  "at": "2026-11-20T23:13:45.519990+00:00",
+  "moment_score": 6,
+  "what_happens": "Скрытная миссия с дроном в квартире: Кай говорит, что ему страшно, находит хорошую точку, потом вылетает прямо перед хозяином, провал миссии, он закрывает лицо и говорит, что не хотел этого. Английский стример, на полку.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "One job: don't let him see the drone. Kai let him see the drone 😭",
+  "keep_start": 32.0,
+  "keep_end": 61.0,
+  "hook": "Drone got spotted",
+  "cover_at": 53.4
+ },
+ "chat-2934760345-1043": {
+  "at": "2026-11-20T23:13:45.561001+00:00",
+  "moment_score": 5,
+  "what_happens": "Крутое пике и чистая посадка самолёта у ангара с весёлыми комментариями, но это обычное удачное завершение миссии без неожиданности и развязки.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2934815498-910": {
+  "at": "2026-11-20T23:13:45.602060+00:00",
+  "moment_score": 3,
+  "what_happens": "Мини-игра с медитацией на причале, почти весь клип персонаж сидит и дышит, звук очень тихий, события нет.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "CleanIntelligentFlyKappa-gCXNLT-ASNutGZ8o": {
+  "at": "2026-11-20T23:13:45.641723+00:00",
+  "moment_score": 1,
+  "what_happens": "Приватный танец в стрип-клубе, откровенные кадры весь клип.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2934866208-802": {
+  "at": "2026-11-20T23:13:45.682679+00:00",
+  "moment_score": 2,
+  "what_happens": "Выходит из отеля и спрашивает чат про версию для ПК, события в игре нет.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "HumbleSpookyFinchSSSsss-4fmMzrP2MeJjMes9": {
+  "at": "2026-11-20T23:13:45.725920+00:00",
+  "moment_score": 2,
+  "what_happens": "Сюжетная сцена у бассейна: массаж девушки в стрингах, загорающие топлес, потом драка; откровенные кадры.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
