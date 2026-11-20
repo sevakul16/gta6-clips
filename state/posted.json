@@ -1591,6 +1591,611 @@
     "level_db": -26.589290618896484
    },
    "silence": []
+  },
+  "chat-2932305259-2848": {
+   "id": "chat-2932305259-2848",
+   "url": "https://www.twitch.tv/videos/2932305259",
+   "section": [
+    128122.07829,
+    128178.07829
+   ],
+   "kind": "chat",
+   "views": 109,
+   "title": "",
+   "vod": "2932305259",
+   "vod_t": 128122.07829,
+   "group": "en",
+   "login": "kaicenat",
+   "name": "KaiCenat",
+   "viewers": 31101,
+   "chat_score": 5.74,
+   "found_at": "2026-11-20T00:37:03.721050+00:00",
+   "spike_at": "2026-11-20T00:36:01.078290+00:00",
+   "chat": [
+    "9x 400k",
+    "5x 350k",
+    "4x 50k",
+    "4x 200k",
+    "3x 500k",
+    "3x 300k",
+    "3x 150k",
+    "3x 75k",
+    "2x 120k",
+    "2x kaicDubs kaicRAT kaicMug",
+    "2x 250k",
+    "2x 40k",
+    "location",
+    "oh shit",
+    "400k zillow",
+    "It's 01:15 AM in here nighty night TwitchUnity TwitchUnity.",
+    "650k",
+    "Did u give away the ps6 already",
+    "50k as a resale",
+    "300-400k"
+   ],
+   "source": "cut from the live stream at a chat spike: 109 chatters in 15 s, 5.7x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-20T00:38:25.322009+00:00",
+   "cam": [
+    44,
+    466,
+    231,
+    162
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " Let",
+     "start": 0.0,
+     "end": 0.34
+    },
+    {
+     "word": " you",
+     "start": 0.34,
+     "end": 0.46
+    },
+    {
+     "word": " explore",
+     "start": 0.46,
+     "end": 0.86
+    },
+    {
+     "word": " the",
+     "start": 0.86,
+     "end": 1.02
+    },
+    {
+     "word": " space",
+     "start": 1.02,
+     "end": 1.24
+    },
+    {
+     "word": " on",
+     "start": 1.24,
+     "end": 1.42
+    },
+    {
+     "word": " your",
+     "start": 1.42,
+     "end": 1.52
+    },
+    {
+     "word": " own",
+     "start": 1.52,
+     "end": 1.72
+    },
+    {
+     "word": " time,",
+     "start": 1.72,
+     "end": 2.08
+    },
+    {
+     "word": " but",
+     "start": 2.08,
+     "end": 2.8
+    },
+    {
+     "word": " if",
+     "start": 2.8,
+     "end": 3.06
+    },
+    {
+     "word": " you",
+     "start": 3.06,
+     "end": 3.18
+    },
+    {
+     "word": " need",
+     "start": 3.18,
+     "end": 3.36
+    },
+    {
+     "word": " anything",
+     "start": 3.36,
+     "end": 4.24
+    },
+    {
+     "word": " at",
+     "start": 4.24,
+     "end": 4.9
+    },
+    {
+     "word": " all",
+     "start": 4.9,
+     "end": 5.34
+    },
+    {
+     "word": " you",
+     "start": 5.34,
+     "end": 5.94
+    },
+    {
+     "word": " just",
+     "start": 5.94,
+     "end": 6.2
+    },
+    {
+     "word": " come",
+     "start": 6.2,
+     "end": 6.74
+    },
+    {
+     "word": " again",
+     "start": 6.74,
+     "end": 8.2
+    },
+    {
+     "word": " me,",
+     "start": 8.2,
+     "end": 8.4
+    },
+    {
+     "word": " okay?",
+     "start": 8.42,
+     "end": 8.58
+    },
+    {
+     "word": " I'll",
+     "start": 8.7,
+     "end": 8.84
+    },
+    {
+     "word": " be",
+     "start": 8.84,
+     "end": 8.96
+    },
+    {
+     "word": " right",
+     "start": 8.96,
+     "end": 9.56
+    },
+    {
+     "word": " through",
+     "start": 9.56,
+     "end": 9.8
+    },
+    {
+     "word": " there.",
+     "start": 9.8,
+     "end": 10.04
+    },
+    {
+     "word": " You're",
+     "start": 16.69,
+     "end": 17.21
+    },
+    {
+     "word": " really",
+     "start": 17.21,
+     "end": 17.43
+    },
+    {
+     "word": " thinking",
+     "start": 17.43,
+     "end": 17.71
+    },
+    {
+     "word": " about",
+     "start": 17.71,
+     "end": 17.93
+    },
+    {
+     "word": " this",
+     "start": 17.93,
+     "end": 18.19
+    },
+    {
+     "word": " sale.",
+     "start": 18.19,
+     "end": 18.45
+    },
+    {
+     "word": " I",
+     "start": 19.51,
+     "end": 20.03
+    },
+    {
+     "word": " Can't",
+     "start": 20.03,
+     "end": 20.25
+    },
+    {
+     "word": " tell",
+     "start": 20.25,
+     "end": 20.35
+    },
+    {
+     "word": " how",
+     "start": 20.35,
+     "end": 20.49
+    },
+    {
+     "word": " it's",
+     "start": 20.49,
+     "end": 20.59
+    },
+    {
+     "word": " going.",
+     "start": 20.59,
+     "end": 20.85
+    },
+    {
+     "word": " Come",
+     "start": 21.23,
+     "end": 21.75
+    },
+    {
+     "word": " on.",
+     "start": 21.75,
+     "end": 21.91
+    },
+    {
+     "word": " Stay",
+     "start": 21.97,
+     "end": 22.11
+    },
+    {
+     "word": " close.",
+     "start": 22.11,
+     "end": 22.47
+    },
+    {
+     "word": " I",
+     "start": 22.83,
+     "end": 23.35
+    },
+    {
+     "word": " Backyard",
+     "start": 26.39,
+     "end": 26.91
+    },
+    {
+     "word": " yep,",
+     "start": 26.91,
+     "end": 27.43
+    },
+    {
+     "word": " right",
+     "start": 27.53,
+     "end": 27.73
+    },
+    {
+     "word": " this",
+     "start": 27.73,
+     "end": 27.93
+    },
+    {
+     "word": " way",
+     "start": 27.93,
+     "end": 28.09
+    },
+    {
+     "word": " you're",
+     "start": 28.09,
+     "end": 28.97
+    },
+    {
+     "word": " gonna",
+     "start": 28.97,
+     "end": 29.07
+    },
+    {
+     "word": " love",
+     "start": 29.07,
+     "end": 29.69
+    },
+    {
+     "word": " it",
+     "start": 29.69,
+     "end": 30.03
+    },
+    {
+     "word": " How",
+     "start": 32.45,
+     "end": 32.93
+    },
+    {
+     "word": " many",
+     "start": 32.93,
+     "end": 33.17
+    },
+    {
+     "word": " did",
+     "start": 33.17,
+     "end": 33.33
+    },
+    {
+     "word": " his",
+     "start": 33.33,
+     "end": 33.47
+    },
+    {
+     "word": " house",
+     "start": 33.47,
+     "end": 33.63
+    },
+    {
+     "word": " is",
+     "start": 33.63,
+     "end": 33.77
+    },
+    {
+     "word": " worth",
+     "start": 33.77,
+     "end": 33.91
+    },
+    {
+     "word": " right",
+     "start": 33.91,
+     "end": 34.11
+    },
+    {
+     "word": " now?",
+     "start": 34.11,
+     "end": 34.35
+    },
+    {
+     "word": " You",
+     "start": 35.09,
+     "end": 35.09
+    },
+    {
+     "word": " see",
+     "start": 35.09,
+     "end": 35.23
+    },
+    {
+     "word": " plenty",
+     "start": 35.23,
+     "end": 35.63
+    },
+    {
+     "word": " of",
+     "start": 35.63,
+     "end": 35.87
+    },
+    {
+     "word": " room",
+     "start": 35.87,
+     "end": 36.09
+    },
+    {
+     "word": " to",
+     "start": 36.09,
+     "end": 36.23
+    },
+    {
+     "word": " buy",
+     "start": 36.23,
+     "end": 36.41
+    },
+    {
+     "word": " in",
+     "start": 36.41,
+     "end": 36.59
+    },
+    {
+     "word": " real",
+     "start": 36.59,
+     "end": 36.73
+    },
+    {
+     "word": " life",
+     "start": 36.73,
+     "end": 37.01
+    },
+    {
+     "word": " Throw",
+     "start": 37.61,
+     "end": 38.09
+    },
+    {
+     "word": " a",
+     "start": 38.09,
+     "end": 38.27
+    },
+    {
+     "word": " party",
+     "start": 38.27,
+     "end": 38.67
+    },
+    {
+     "word": " rule.",
+     "start": 38.67,
+     "end": 39.19
+    },
+    {
+     "word": " I",
+     "start": 39.29,
+     "end": 39.37
+    },
+    {
+     "word": " won't",
+     "start": 39.37,
+     "end": 39.67
+    },
+    {
+     "word": " Pull",
+     "start": 39.67,
+     "end": 40.49
+    },
+    {
+     "word": " you",
+     "start": 40.49,
+     "end": 41.39
+    },
+    {
+     "word": " know,",
+     "start": 41.39,
+     "end": 41.53
+    },
+    {
+     "word": " I",
+     "start": 41.57,
+     "end": 42.05
+    },
+    {
+     "word": " I",
+     "start": 42.05,
+     "end": 42.63
+    },
+    {
+     "word": " could",
+     "start": 42.63,
+     "end": 42.81
+    },
+    {
+     "word": " see",
+     "start": 42.81,
+     "end": 43.05
+    },
+    {
+     "word": " a",
+     "start": 43.05,
+     "end": 43.21
+    },
+    {
+     "word": " luau",
+     "start": 43.21,
+     "end": 43.47
+    },
+    {
+     "word": " party",
+     "start": 43.47,
+     "end": 43.87
+    },
+    {
+     "word": " He's",
+     "start": 44.63,
+     "end": 45.11
+    },
+    {
+     "word": " looking",
+     "start": 45.11,
+     "end": 45.27
+    },
+    {
+     "word": " for",
+     "start": 45.27,
+     "end": 45.45
+    },
+    {
+     "word": " a",
+     "start": 45.45,
+     "end": 45.55
+    },
+    {
+     "word": " place",
+     "start": 45.55,
+     "end": 45.71
+    },
+    {
+     "word": " to",
+     "start": 45.71,
+     "end": 45.89
+    },
+    {
+     "word": " bury",
+     "start": 45.89,
+     "end": 46.13
+    },
+    {
+     "word": " us,",
+     "start": 46.13,
+     "end": 46.43
+    },
+    {
+     "word": " huh?",
+     "start": 46.43,
+     "end": 46.63
+    },
+    {
+     "word": " Just",
+     "start": 46.77,
+     "end": 47.05
+    },
+    {
+     "word": " chill",
+     "start": 47.05,
+     "end": 47.41
+    },
+    {
+     "word": " What's",
+     "start": 49.85,
+     "end": 50.33
+    },
+    {
+     "word": " this?",
+     "start": 50.33,
+     "end": 50.55
+    },
+    {
+     "word": " Oh",
+     "start": 51.39,
+     "end": 51.69
+    },
+    {
+     "word": " Those",
+     "start": 51.69,
+     "end": 52.35
+    },
+    {
+     "word": " outdoor",
+     "start": 52.35,
+     "end": 54.07
+    },
+    {
+     "word": " pizza",
+     "start": 54.07,
+     "end": 54.51
+    },
+    {
+     "word": " ovens,",
+     "start": 54.51,
+     "end": 55.31
+    },
+    {
+     "word": " you",
+     "start": 55.31,
+     "end": 55.49
+    },
+    {
+     "word": " know",
+     "start": 55.49,
+     "end": 55.69
+    }
+   ],
+   "metrics": {
+    "motion": 0.24659574468085108,
+    "motion_p90": 0.5054609929078014,
+    "static_share": 0.0,
+    "peak_db": 12.679617881774902,
+    "level_db": -26.313724517822266
+   },
+   "silence": []
   }
  },
  "pool": {
