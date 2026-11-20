@@ -1194,9 +1194,116 @@
    "at": "2026-11-20T07:28:23.635585+00:00",
    "why": "editor: 1/10, Warehouse of sex robots with explicit toys and sexual lines, dark",
    "login": "kaicenat"
+  },
+  "ResilientRudeWheelPanicBasket-wS9UV2MlHfDiX-9h": {
+   "at": "2026-11-20T07:49:28.778087+00:00",
+   "why": "picture is almost static (motion 0.04)",
+   "login": "buster"
   }
  },
- "pending": {},
+ "pending": {
+  "chat-2933767012-1311": {
+   "id": "chat-2933767012-1311",
+   "url": "https://www.twitch.tv/videos/2933767012",
+   "section": [
+    58994.692478,
+    59050.692478
+   ],
+   "kind": "chat",
+   "views": 35,
+   "title": "",
+   "vod": "2933767012",
+   "vod_t": 58994.692478,
+   "group": "en",
+   "login": "lacy",
+   "name": "Lacy",
+   "viewers": 11619,
+   "chat_score": 5.0,
+   "found_at": "2026-11-20T07:49:03.304292+00:00",
+   "spike_at": "2026-11-20T07:41:05.692478+00:00",
+   "chat": [
+    "5x no",
+    "3x yes",
+    "2x Go smoke",
+    "That’s them Wingstop chickens",
+    "Fuh naw sir",
+    "I’m fucking tweaked this is gonna be a movie deadass",
+    "i just want to play it myself ngl",
+    "Very excited",
+    "MARLON WANTS FOOD",
+    "nope this game is ass",
+    "NO BUT WHEN WOO DONE ROLLING"
+   ],
+   "source": "cut from the live stream at a chat spike: 35 chatters in 15 s, 5.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-20T07:49:21.604940+00:00",
+   "cam": [
+    111,
+    78,
+    256,
+    180
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " Are",
+     "start": 41.1,
+     "end": 41.3
+    },
+    {
+     "word": " you",
+     "start": 41.3,
+     "end": 41.44
+    },
+    {
+     "word": " guys",
+     "start": 41.44,
+     "end": 41.58
+    },
+    {
+     "word": " excited",
+     "start": 41.58,
+     "end": 41.88
+    },
+    {
+     "word": " for",
+     "start": 41.88,
+     "end": 42.06
+    },
+    {
+     "word": " this",
+     "start": 42.06,
+     "end": 42.26
+    },
+    {
+     "word": " mission",
+     "start": 42.26,
+     "end": 42.68
+    },
+    {
+     "word": " right",
+     "start": 42.68,
+     "end": 42.88
+    },
+    {
+     "word": " here?",
+     "start": 42.88,
+     "end": 42.98
+    }
+   ],
+   "metrics": {
+    "motion": 0.24772209567198178,
+    "motion_p90": 0.4736474943052393,
+    "static_share": 0.1031390134529148,
+    "peak_db": 6.407508850097656,
+    "level_db": -33.90274429321289
+   },
+   "silence": []
+  }
+ },
  "pool": {
   "AgreeableHyperCockroachCeilingCat-_dmoVo8X--AU1Sq7": {
    "id": "AgreeableHyperCockroachCeilingCat-_dmoVo8X--AU1Sq7",
