@@ -2158,6 +2158,176 @@
     "level_db": -35.53617477416992
    },
    "silence": []
+  },
+  "chat-2934276428-477": {
+   "id": "chat-2934276428-477",
+   "url": "https://www.twitch.tv/videos/2934276428",
+   "section": [
+    21450.689643,
+    21506.689643
+   ],
+   "kind": "chat",
+   "views": 73,
+   "title": "",
+   "vod": "2934276428",
+   "vod_t": 21450.689643,
+   "group": "en",
+   "login": "summit1g",
+   "name": "summit1g",
+   "viewers": 10622,
+   "chat_score": 4.87,
+   "found_at": "2026-11-20T04:56:50.474035+00:00",
+   "spike_at": "2026-11-20T04:54:42.689643+00:00",
+   "chat": [
+    "12x o7",
+    "7x classic",
+    "5x NOOOO",
+    "5x Crash Johnson",
+    "2x F",
+    "2x NotLikeThis",
+    "2x restart",
+    "classic crash johnson",
+    "pagPause",
+    "CMON SUMSUM",
+    "tolderso",
+    "hahaha lucia cussin",
+    "neverf fails",
+    "choke johnson",
+    "redo it lol"
+   ],
+   "source": "cut from the live stream at a chat spike: 73 chatters in 15 s, 4.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-20T04:57:14.730252+00:00",
+   "cam": [
+    0,
+    524,
+    510,
+    285
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 57.0,
+   "words": [
+    {
+     "word": " They're",
+     "start": 18.58,
+     "end": 18.8
+    },
+    {
+     "word": " getting",
+     "start": 18.8,
+     "end": 18.94
+    },
+    {
+     "word": " crazy,",
+     "start": 18.94,
+     "end": 19.32
+    },
+    {
+     "word": " they're",
+     "start": 19.4,
+     "end": 19.54
+    },
+    {
+     "word": " getting",
+     "start": 19.54,
+     "end": 19.7
+    },
+    {
+     "word": " crazy.",
+     "start": 19.7,
+     "end": 20.08
+    },
+    {
+     "word": " No!",
+     "start": 39.49,
+     "end": 39.93
+    },
+    {
+     "word": " It's",
+     "start": 45.24,
+     "end": 45.58
+    },
+    {
+     "word": " over,",
+     "start": 45.58,
+     "end": 45.88
+    },
+    {
+     "word": " it's",
+     "start": 46.12,
+     "end": 46.34
+    },
+    {
+     "word": " over.",
+     "start": 46.34,
+     "end": 46.62
+    },
+    {
+     "word": " Crash",
+     "start": 47.94,
+     "end": 48.38
+    },
+    {
+     "word": " on,",
+     "start": 48.38,
+     "end": 48.52
+    },
+    {
+     "word": " so",
+     "start": 48.58,
+     "end": 48.64
+    },
+    {
+     "word": " don't",
+     "start": 48.64,
+     "end": 48.9
+    },
+    {
+     "word": " say",
+     "start": 48.9,
+     "end": 49.06
+    },
+    {
+     "word": " that,",
+     "start": 49.06,
+     "end": 49.28
+    },
+    {
+     "word": " don't",
+     "start": 49.38,
+     "end": 49.56
+    },
+    {
+     "word": " bring",
+     "start": 49.56,
+     "end": 49.68
+    },
+    {
+     "word": " that",
+     "start": 49.68,
+     "end": 49.86
+    },
+    {
+     "word": " guy",
+     "start": 49.86,
+     "end": 50.02
+    },
+    {
+     "word": " up.",
+     "start": 50.02,
+     "end": 50.26
+    }
+   ],
+   "metrics": {
+    "motion": 0.42401500938086306,
+    "motion_p90": 0.6093508442776736,
+    "static_share": 0.0,
+    "peak_db": 11.97909164428711,
+    "level_db": -31.48912239074707
+   },
+   "silence": []
   }
  },
  "pool": {
