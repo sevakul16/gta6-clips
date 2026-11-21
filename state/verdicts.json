@@ -1,28 +1,4 @@
 {
- "SuperSlickStrawberryAMPEnergy-iLijF7374bmMsbtk": {
-  "at": "2026-11-19T10:13:07.589082+00:00",
-  "moment_score": 3,
-  "what_happens": "xQc compares frame generation on and off while jogging along a highway: tech talk with a desktop window and a black screen, no event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2933174196-489": {
-  "at": "2026-11-19T10:13:07.632445+00:00",
-  "moment_score": 5,
-  "what_happens": "On a bicycle he rides into an arrest where a man stands on a police car roof and shouts he will fly, then he gets knocked down himself; funny world event but dark picture and the streamer hardly reacts; queue is full",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2933453157-137": {
-  "at": "2026-11-19T10:13:07.673124+00:00",
-  "moment_score": 2,
-  "what_happens": "Story cutscene on a dock with a woman in a bikini, no webcam, the chat reacts to her looks",
-  "gameplay_visible": false,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2933174196-516": {
   "at": "2026-11-19T11:13:50.942814+00:00",
   "moment_score": 4,
@@ -1795,6 +1771,92 @@
   "moment_score": 3,
   "what_happens": "Бежит по мосту, WASTED, после перезапуска едет на красной машине под диалог; рядовая гибель без понятной причины и реакции.",
   "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935925087-104": {
+  "at": "2026-11-21T10:16:29.591344+00:00",
+  "moment_score": 7,
+  "what_happens": "После ограбления ювелирки уезжает, уверен, что Лусия в машине, получает от неё СМС и бесится; понятный смешной момент, чат смеётся",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Уехал с ограбления и был уверен, что Лусия в машине. А потом пришло СМС 😭",
+  "keep_start": 0.0,
+  "keep_end": 51.0,
+  "cam": [
+   0.0,
+   0.245,
+   0.146,
+   0.1825
+  ],
+  "hook": "Забыл напарницу",
+  "cover_at": 9.3
+ },
+ "chat-2935925087-98": {
+  "at": "2026-11-21T10:16:29.636105+00:00",
+  "moment_score": 5,
+  "what_happens": "Ограбление ювелирки и похвала детали с передачей сумки, конкретного события нет",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935449800-863": {
+  "at": "2026-11-21T10:16:29.683077+00:00",
+  "moment_score": 8,
+  "what_happens": "Крадётся по кораблю пришельцев среди капсул, его бьёт током, очнулся в белой пустоте; редкая сцена и яркая реакция",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Sneaking through the alien ship was working... until he ran 👽",
+  "keep_start": 14.0,
+  "keep_end": 60.0,
+  "hook": "Abducted by aliens",
+  "cover_at": 31.5
+ },
+ "chat-2935562437-708": {
+  "at": "2026-11-21T10:16:29.725073+00:00",
+  "moment_score": 5,
+  "what_happens": "Побег, машина переворачивается, миссия провалена; реакция слабая, картинка тёмная",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935402411-930": {
+  "at": "2026-11-21T10:16:29.777032+00:00",
+  "moment_score": 5,
+  "what_happens": "Ограбление магазина от первого лица, продавец убивает, смех; рядовой момент",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "SoftWiseWalrusUnSane-axfl7lDmcLtkn2Ke": {
+  "at": "2026-11-21T10:16:29.818402+00:00",
+  "moment_score": 2,
+  "what_happens": "Танцевальная мини-игра в клубе с тверком, ничего не происходит",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "PoorOddSoybeanSoonerLater-r11i8-nRU3oOEnW8": {
+  "at": "2026-11-21T10:16:29.866554+00:00",
+  "moment_score": 1,
+  "what_happens": "Постельная сцена в душе, потом звонок; сексуальный контент",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935437958-924": {
+  "at": "2026-11-21T10:16:29.909339+00:00",
+  "moment_score": 3,
+  "what_happens": "Ночь, целится в прохожих и бежит по переулкам, события нет, камера крошечная",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935679784-589": {
+  "at": "2026-11-21T10:16:29.954852+00:00",
+  "moment_score": 1,
+  "what_happens": "Съёмка из реального клуба, игры в кадре нет",
+  "gameplay_visible": false,
   "gambling_ad": false,
   "caption": ""
  }
