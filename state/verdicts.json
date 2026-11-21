@@ -1,64 +1,4 @@
 {
- "chat-2932677749-234": {
-  "at": "2026-11-19T00:16:13.033845+00:00",
-  "moment_score": 7,
-  "what_happens": "Walks into a store mid-robbery, the robber's gun turns out to be fake and he gets beaten and leaves; the clerk jokes it could have been a real gun, then Penta kills the clerk by accident and the game marks Jason as psycho; chat goes from Hero to PSYCHO",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Saved the clerk from a robbery. Then this 💀",
-  "keep_start": 18.0,
-  "keep_end": 66.0,
-  "hook": "Hero to psycho",
-  "cover_at": 24.2
- },
- "chat-2932305259-887": {
-  "at": "2026-11-19T00:16:13.095198+00:00",
-  "moment_score": 5,
-  "what_happens": "Scripted airboat chase and QTE fist fight from a story mission; chat cheers but no streamer speech is audible and the moment is the game's own cinematic",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2931685068-2166": {
-  "at": "2026-11-19T00:16:13.141470+00:00",
-  "moment_score": 4,
-  "what_happens": "Dark hospital corridor fight with zombie-like enemies; frames too dark to read, no clear event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "VivaciousPreciousMacaroniKappaClaus-kcyHxQwbJEXgwnLA": {
-  "at": "2026-11-19T00:16:13.190780+00:00",
-  "moment_score": 1,
-  "what_happens": "Sexual bedroom scene through the whole clip",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2932196917-1120": {
-  "at": "2026-11-19T01:13:26.953683+00:00",
-  "moment_score": 4,
-  "what_happens": "Walks to a merch stall, talks to the seller and leaves without buying while bickering with a co-streamer; chat laughs and tells him to buy clothes; no visible event, webcam box catches only the guest",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "HandsomePoorBadgerThisIsSparta-IVsXmDUHlIT9yyro": {
-  "at": "2026-11-19T01:13:26.998699+00:00",
-  "moment_score": 2,
-  "what_happens": "Seaplane takeoff used as a lead-in to a sponsor ad read (Avito Auto); advertising, no moment",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "InnocentSuccessfulAardvarkSoonerLater-j5Up3r0bvqeWUmWj": {
-  "at": "2026-11-19T01:13:27.039908+00:00",
-  "moment_score": 2,
-  "what_happens": "Character stands on a dock while the streamer does a sponsor ad read (Avito Auto); advertising, no moment",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2932226282-1123": {
   "at": "2026-11-19T02:14:15.563869+00:00",
   "moment_score": 7,
@@ -1599,6 +1539,90 @@
   "at": "2026-11-21T00:13:31.356580+00:00",
   "moment_score": 1,
   "what_happens": "Постельная сцена в кадре почти весь клип.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935093413-605": {
+  "at": "2026-11-21T01:15:33.586771+00:00",
+  "moment_score": 7,
+  "what_happens": "Миссия на вертолёте: предупреждает пассажирок, что не умеет летать и чтобы на него не злились, пытается разобраться с управлением, падает между домами, провал миссии, возмущается, как этим вообще управлять. Английский стример, на полку. Звук тихий.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "He told them he can't fly a helicopter. He was not lying 🚁",
+  "keep_start": 22.0,
+  "keep_end": 60.0,
+  "cam": [
+   0.0,
+   0.5,
+   0.26,
+   0.325
+  ],
+  "hook": "Don't be mad at me",
+  "cover_at": 54.1
+ },
+ "chat-2935383720-247": {
+  "at": "2026-11-21T01:15:33.634282+00:00",
+  "moment_score": 6,
+  "what_happens": "Ночью выпрыгивает из вертолёта с парашютом, раскрывает его, врезается в здание и погибает, после чего спокойно говорит, что это слегка не повезло. Чат смеётся. Английский стример, на полку. Вебкамеру детектор не нашёл, рамка задана вручную.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Jumped out of the helicopter. The parachute had one job 🪂",
+  "keep_start": 17.0,
+  "keep_end": 58.0,
+  "cam": [
+   0.0,
+   0.468,
+   0.209,
+   0.261
+  ],
+  "hook": "Slightly unlucky",
+  "cover_at": 36.4
+ },
+ "chat-2935383720-236": {
+  "at": "2026-11-21T01:15:33.701766+00:00",
+  "moment_score": 3,
+  "what_happens": "Кат-сцена и погрузка фургона, чат ждёт взрыва, но развязки в клипе нет.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935185818-484": {
+  "at": "2026-11-21T01:15:33.754353+00:00",
+  "moment_score": 4,
+  "what_happens": "Угоняет спорткар на трассе и уезжает, чат радуется машине, ни провала, ни развязки.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "GentleDoubtfulHawkCoolCat-sMpS9-0zBnjb9xM-": {
+  "at": "2026-11-21T01:15:33.818631+00:00",
+  "moment_score": 3,
+  "what_happens": "Просто идёт по зданию и рассуждает об игре, события нет.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "BetterMoldyPeafowlDerp-6uDgS1WC5f3LFUpt": {
+  "at": "2026-11-21T01:15:33.888914+00:00",
+  "moment_score": 1,
+  "what_happens": "Вечеринка на яхте с обнажёнными персонажами весь клип.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935402411-225": {
+  "at": "2026-11-21T01:15:33.953411+00:00",
+  "moment_score": 3,
+  "what_happens": "Тёмная кат-сцена с нападением кабана, игрового события и реакции нет, звук тихий.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935402411-259": {
+  "at": "2026-11-21T01:15:34.022833+00:00",
+  "moment_score": 3,
+  "what_happens": "Складывает тела в контейнер и фотографирует, мрачно и без понятного события, звук очень тихий.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
