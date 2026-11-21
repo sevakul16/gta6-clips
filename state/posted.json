@@ -740,16 +740,6 @@
   }
  },
  "rejected": {
-  "chat-2932180623-1010": {
-   "at": "2026-11-18T23:29:09.880480+00:00",
-   "why": "editor: 3/10, Formation flight and a clean landing approach while the streamer talks about his video card; no visible event, webcam box misplaced",
-   "login": "steel"
-  },
-  "chat-2932305259-771": {
-   "at": "2026-11-18T23:29:09.880857+00:00",
-   "why": "editor: 3/10, Airboat ride to a dock while Kai asks chat who owns the game; chat spam, no gameplay event",
-   "login": "kaicenat"
-  },
   "chat-2932305259-887": {
    "at": "2026-11-19T00:34:03.852055+00:00",
    "why": "editor: 5/10, Scripted airboat chase and QTE fist fight from a story mission; chat cheers but no streamer speech is audible and the moment is the game's own cinematic",
@@ -2589,6 +2579,11 @@
    "at": "2026-11-21T23:22:17.178640+00:00",
    "why": "editor: 2/10, Катсцена перед ограблением и меню паузы, чат голосует «доиграть или спать»; игрового события нет",
    "login": "recrent"
+  },
+  "chat-2934472461-3659": {
+   "at": "2026-11-21T23:44:08.541008+00:00",
+   "why": "picture is almost static (motion 0.02)",
+   "login": "frametamer666"
   }
  },
  "pending": {
