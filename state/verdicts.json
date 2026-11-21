@@ -1,32 +1,4 @@
 {
- "chat-2933227596-750": {
-  "at": "2026-11-19T15:18:16.176553+00:00",
-  "moment_score": 3,
-  "what_happens": "Dark story cutscene walking up to and into a house, then the stream drops (blue camera-off screen); the chat spike is about the stream cutting out, not a gameplay moment",
-  "gameplay_visible": false,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2933495403-457": {
-  "at": "2026-11-19T15:18:16.221698+00:00",
-  "moment_score": 1,
-  "what_happens": "Story cutscene with an intimate scene between the two leads (embrace, bed, fade to black), crude chat, betting sponsor banners at the edges; sex scene rule applies",
-  "gameplay_visible": false,
-  "gambling_ad": true,
-  "caption": ""
- },
- "chat-2933569907-313": {
-  "at": "2026-11-19T15:18:16.265769+00:00",
-  "moment_score": 6,
-  "what_happens": "Crop-duster mission: he flies to the field, the prompt says hold R1 to spray, instead the character bails out with a parachute and dies (МЕРТВА); he says 'I pressed R1, where did she jump', chat laughs. Clear fail with a punchline; betting banner under the cam is outside both crops",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Надо было просто опылить поле, а она взяла и выпрыгнула из самолёта 💀 «Я же нажал R1!»",
-  "keep_start": 29.0,
-  "keep_end": 56.0,
-  "hook": "Выпрыгнула из самолёта",
-  "cover_at": 43.0
- },
  "chat-2932167852-2521": {
   "at": "2026-11-19T17:13:12.814821+00:00",
   "moment_score": 3,
@@ -2046,6 +2018,64 @@
   "at": "2026-11-21T15:13:58.028836+00:00",
   "moment_score": 4,
   "what_happens": "Перестрелка в ночном клубе, картинка тёмная и пёстрая, конкретного момента нет, разговор про то, что он под кайфом",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "GenerousRenownedParrotRalpherZ-n6eW4NrXkbahBIWH": {
+  "at": "2026-11-21T16:15:59.797956+00:00",
+  "moment_score": 6,
+  "what_happens": "Люсия с разбега прыгает на прохожего с двух ног, падает в кусты, здоровяк идёт на неё, она убегает и прыгает в такси под крики «такси, газ, газ»; картинка светлая, реакция в кадре",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Прыгнула на прохожего с двух ног и тут же сбежала на такси 😂",
+  "hook": "С двух ног и в такси",
+  "cover_at": 2.0
+ },
+ "HotCovertPigCharlietheUnicorn-gi4NQAieOe_tasm7": {
+  "at": "2026-11-21T16:15:59.851101+00:00",
+  "moment_score": 1,
+  "what_happens": "Катсцена с голым мужчиной: нагота, игрового события нет",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "RelievedMoldySeahorseMcaT-3biZbet87pByQzJi": {
+  "at": "2026-11-21T16:15:59.899179+00:00",
+  "moment_score": 4,
+  "what_happens": "Концовка игры: почти целиком кровавая катсцена и большой спойлер, вебка крошечная",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2936052672-276": {
+  "at": "2026-11-21T16:15:59.958280+00:00",
+  "moment_score": 5,
+  "what_happens": "Обчищает ювелирный и уезжает на мопеде со спокойным комментарием: конкретного события нет, конец тёмный",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935172718-1717": {
+  "at": "2026-11-21T16:16:00.024078+00:00",
+  "moment_score": 2,
+  "what_happens": "Диалог у пляжного бара и дорога к пикапу, чат здоровается с вернувшимся зрителем: разговор стрима, события нет",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2936066900-230": {
+  "at": "2026-11-21T16:16:00.087759+00:00",
+  "moment_score": 3,
+  "what_happens": "Катсцена на лодке (развеивают прах), только катсцена без игрового события",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2936004347-362": {
+  "at": "2026-11-21T16:16:00.141029+00:00",
+  "moment_score": 1,
+  "what_happens": "Вебки в кадре нет, катсцена планирования ограбления и выбор маски с голосованием в чате, звук почти на нуле",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
