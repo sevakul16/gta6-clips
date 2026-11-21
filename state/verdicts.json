@@ -1,54 +1,4 @@
 {
- "chat-2933495403-941": {
-  "at": "2026-11-19T21:14:29.943887+00:00",
-  "moment_score": 1,
-  "what_happens": "Story walk-and-talk with the mechanic while he asks chat to put a plus if they pressed a sponsor button and thanks them; the chat spike is those pluses. Sponsor talk over a cutscene, betting banners at the edges",
-  "gameplay_visible": false,
-  "gambling_ad": true,
-  "caption": ""
- },
- "chat-2933712317-459": {
-  "at": "2026-11-19T21:14:29.992501+00:00",
-  "moment_score": 6,
-  "what_happens": "Jason in swim trunks and slippers meets three armed men by a jeep; the streamer boasts for him (I am in slippers and very angry, do not anger the dragon), fumbles in the weapon wheel, and is shot dead at once: МЕРТВ. Chat groans and laughs (lost all his aura, took too long). Clear boast and instant payoff. Auto webcam box caught chat lines and gameplay, set by hand; betting banners are outside both crops",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "«Я в тапках и очень злой, не бесите дракона». Через 10 секунд: МЕРТВ 💀",
-  "keep_start": 15.0,
-  "keep_end": 53.0,
-  "cam": [
-   0.05,
-   0.174,
-   0.208,
-   0.26
-  ],
-  "hook": "Не бесите дракона",
-  "cover_at": 42.9
- },
- "chat-2933495403-987": {
-  "at": "2026-11-19T22:13:25.001904+00:00",
-  "moment_score": 1,
-  "what_happens": "He asks chat to type 0 if watching from a phone and plus if from a computer, over a story cutscene at a motel and a mechanic; the chat spike is the poll answers. Betting banners at the edges",
-  "gameplay_visible": false,
-  "gambling_ad": true,
-  "caption": ""
- },
- "chat-2933504535-990": {
-  "at": "2026-11-19T22:13:25.046980+00:00",
-  "moment_score": 2,
-  "what_happens": "Quiet night drive in a story mission while he explains a sponsor promo code and tells chat to type 900 to enter a prize draw; the chat spike is 167 viewers typing 900. A sponsor read with nothing happening in the game",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2932167852-2947": {
-  "at": "2026-11-19T22:13:25.089881+00:00",
-  "moment_score": 3,
-  "what_happens": "Story cutscene in a car that he dubs in different voices, then the pause menu while he complains that he has voiced sixteen characters for 36 hours and chat does not appreciate it; chat answers that it does. Cutscene and talk only, no gameplay moment",
-  "gameplay_visible": false,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2933495403-1068": {
   "at": "2026-11-19T23:13:02.504719+00:00",
   "moment_score": 1,
@@ -2286,6 +2236,56 @@
   "at": "2026-11-21T21:13:32.760413+00:00",
   "moment_score": 2,
   "what_happens": "Ночной клуб, потом у стримера завис компьютер и он спрашивает чат, видно ли его; событие стрима, не игры",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2936452781-151": {
+  "at": "2026-11-21T22:14:59.154207+00:00",
+  "moment_score": 7,
+  "what_happens": "Подходит к паре у магазина: «Девчонки, как дела?», в ответ «Боже мой, что с твоим лицом?» и пощёчина; дальше драка со всеми подряд под «я просто подошёл!» и «я не буллю никого!». Чёткая завязка, эскалация, сильная реакция, светлая картинка, вебка крупная. Ругань в титрах закрывается звёздочками; на обложке кадр драки с парнем",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Подошёл спросить, как дела, а дальше всё пошло не по плану 😅",
+  "hook": "Просто поздоровался",
+  "cover_at": 17.4
+ },
+ "chat-2934772009-2894": {
+  "at": "2026-11-21T22:14:59.197196+00:00",
+  "moment_score": 1,
+  "what_happens": "Постельная БДСМ-сцена в красной комнате: секс-сцена, катсцена; логотип BetBoom в зоне вебки",
+  "gameplay_visible": true,
+  "gambling_ad": true,
+  "caption": ""
+ },
+ "chat-2936483331-160": {
+  "at": "2026-11-21T22:14:59.240021+00:00",
+  "moment_score": 4,
+  "what_happens": "Едет на машине по пляжу и рассуждает про нудистский пляж со стариками; чёткого события нет, разговор на сексуальную тему",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2936368149-293": {
+  "at": "2026-11-21T22:14:59.281650+00:00",
+  "moment_score": 4,
+  "what_happens": "Катсцена со сменой машины и въездом в город, стример жалеет о потерянном прокачанном пикапе; почти целиком катсцена",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "VastFreezingDiamondTBTacoLeft-8hS4Us2uHFmuFkMz": {
+  "at": "2026-11-21T22:14:59.323015+00:00",
+  "moment_score": 4,
+  "what_happens": "Ночная поездка, шутка про другого стримера за рулём встречной машины; 14 секунд, картинка тёмная, события почти не видно",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "InterestingBoringParrotRaccAttack-44_in8PCGKnwVnPT": {
+  "at": "2026-11-21T22:14:59.364600+00:00",
+  "moment_score": 4,
+  "what_happens": "Летит на гидросамолёте и, судя по названию, сбивает птицу; самого события почти не видно, дальше диалог миссии",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
