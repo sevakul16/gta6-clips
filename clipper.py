@@ -121,6 +121,28 @@ def minutes_since_last_post(state, profile):
     return (now_utc() - times[-1]).total_seconds() / 60 if times else 10 ** 6
 
 
+def slot_state(cfg, state, profile, now=None):
+    """Fixed posting times (`post_times_utc`, "HH:MM" in UTC): a slot is open from its time for
+    `slot_window_minutes`, until the profile has a post in it. A slot nobody could use (a platform cap,
+    an empty queue) is skipped, it does not move to the night. Returns (open, text for the log).
+    Without `post_times_utc` any moment is a slot and only `min_gap_minutes` paces the posts."""
+    times = [str(t) for t in cfg.get("post_times_utc") or []]
+    if not times:
+        return True, ""
+    now = now or now_utc()
+    day = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    slots = sorted(day + dt.timedelta(days=d, hours=int(t[:2]), minutes=int(t[3:5]))
+                   for d in (-1, 0, 1) for t in times)
+    cur = max(s for s in slots if s <= now)
+    nxt = min(s for s in slots if s > now)
+    posts = post_times(state, profile)
+    if now - cur > dt.timedelta(minutes=cfg.get("slot_window_minutes", 150)):
+        return False, f"next slot {nxt:%H:%M} UTC"
+    if posts and posts[-1] >= cur:
+        return False, f"the {cur:%H:%M} UTC slot has its post, next slot {nxt:%H:%M} UTC"
+    return True, f"the {cur:%H:%M} UTC slot is open"
+
+
 def pacific_midnight(after):
     """The first midnight Pacific after the moment: that is when the daily quotas of the YouTube API start again."""
     try:
@@ -1325,6 +1347,10 @@ def publish_due(cfg, state, dry):
     profile_of = {gname: g["profile"] for gname, g in cfg["groups"].items() if g.get("publish", True)}
     for prof in sorted(set(profile_of.values())):
         if not pick(state, profile_of, prof, cfg["platforms"], fresh_only=dry):
+            continue
+        slot, why = slot_state(cfg, state, prof)
+        if not slot and not dry:
+            log(f"{prof}: no posting slot now, {why}")
             continue
         gap = minutes_since_last_post(state, prof)
         if gap < cfg.get("min_gap_minutes", 120) and not dry:
