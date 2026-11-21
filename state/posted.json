@@ -2431,2542 +2431,288 @@
    "at": "2026-11-21T10:30:59.575318+00:00",
    "why": "editor: no gameplay on screen",
    "login": "yourragegaming"
+  },
+  "chat-2935925087-191": {
+   "at": "2026-11-21T11:17:56.687178+00:00",
+   "why": "editor: no webcam in the picture",
+   "login": "melharucos"
+  },
+  "chat-2935925087-202": {
+   "at": "2026-11-21T11:17:56.687612+00:00",
+   "why": "editor: 2/10, Одна катсцена с поцелуем в конце, стример говорит о костюмах на Хэллоуин; геймплея нет",
+   "login": "melharucos"
+  },
+  "chat-2935956429-95": {
+   "at": "2026-11-21T11:17:56.687960+00:00",
+   "why": "editor: no webcam in the picture",
+   "login": "blackufa"
+  },
+  "chat-2935679784-658": {
+   "at": "2026-11-21T11:17:56.688308+00:00",
+   "why": "editor: 4/10, Конец ограбления инкассатора, идёт к мотоциклу, чат подшучивает; конкретного момента нет",
+   "login": "yourragegaming"
+  },
+  "chat-2935679784-665": {
+   "at": "2026-11-21T11:17:56.688681+00:00",
+   "why": "editor: 5/10, Читает телефон на мотоцикле и вылетает через отбойник; реакция стримера слабая, в кадр попадает оверлей чата с грубостями",
+   "login": "yourragegaming"
+  },
+  "chat-2935814408-457": {
+   "at": "2026-11-21T11:17:56.689078+00:00",
+   "why": "editor: 3/10, Одна катсцена про Лори с розовым карабином, геймплея и события нет",
+   "login": "maximilian_dood"
   }
  },
  "pending": {
-  "chat-2935925087-202": {
-   "id": "chat-2935925087-202",
-   "url": "https://www.twitch.tv/videos/2935925087",
-   "section": [
-    9063.317,
-    9119.317
-   ],
-   "kind": "chat",
-   "views": 55,
-   "title": "",
-   "vod": "2935925087",
-   "vod_t": 9063.317,
+  "GlutenFreeGloriousReindeerItsBoshyTime-bUDhg-I5xJdu6PlH": {
+   "id": "GlutenFreeGloriousReindeerItsBoshyTime-bUDhg-I5xJdu6PlH",
+   "url": "https://www.twitch.tv/t2x2/clip/GlutenFreeGloriousReindeerItsBoshyTime-bUDhg-I5xJdu6PlH",
+   "section": null,
+   "kind": "clip",
+   "views": 314,
+   "title": "Тоха и вождение:",
+   "vod": "2934846936",
+   "vod_t": 19232,
    "group": "ru",
-   "login": "melharucos",
-   "name": "melharucos",
-   "viewers": 4739,
-   "chat_score": 6.88,
-   "found_at": "2026-11-21T10:52:24.113807+00:00",
-   "spike_at": "2026-11-21T10:51:06.317000+00:00",
-   "chat": [
-    "6x xd",
-    "5x LO",
-    "5x Taah",
-    "5x melPalka",
-    "2x frfr",
-    "2x SUBprise",
-    "2x duckass melPalka",
-    "2x xdd",
-    "2x lol",
-    "2x ты люсия",
-    "2x Джейсона и Мэнди",
-    "на стуле 🪑",
-    "это надо будет постараться ВАМ обоим",
-    ")))))",
-    "и себя",
-    "а себя не надо?",
-    "тебя тоже",
-    "sdd да и тебя надо тоже",
-    "@melharucos очередная клишировная сильная женщина"
-   ],
-   "source": "cut from the live stream at a chat spike: 55 chatters in 15 s, 6.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-21T10:53:50.478507+00:00",
+   "login": "t2x2",
+   "name": "T2x2",
+   "source": "Twitch clip made by a viewer, 314 views, titled \"Тоха и вождение:\"",
+   "at": "2026-11-21T11:17:33.973853+00:00",
    "cam": [
-    0,
-    239,
-    340,
-    239
+    1937,
+    930,
+    460,
+    324
    ],
    "size": [
-    1920,
-    1080
+    2560,
+    1440
    ],
-   "dur": 59.0,
+   "dur": 16.4,
    "words": [
     {
-     "word": " Порядок,",
-     "start": 0.0,
-     "end": 0.52
+     "word": " А",
+     "start": 1.1,
+     "end": 1.56
     },
     {
-     "word": " к",
-     "start": 0.7,
-     "end": 0.86
+     "word": " учесть",
+     "start": 1.56,
+     "end": 1.8
     },
     {
-     "word": " нему,",
-     "start": 0.86,
-     "end": 0.94
+     "word": " сводить",
+     "start": 1.8,
+     "end": 2.18
     },
     {
-     "word": " к",
-     "start": 0.94,
-     "end": 0.94
+     "word": " уже.",
+     "start": 2.18,
+     "end": 2.38
     },
     {
-     "word": " чему",
-     "start": 0.94,
-     "end": 2.8
+     "word": " Я",
+     "start": 2.56,
+     "end": 2.68
     },
     {
-     "word": " он",
-     "start": 2.8,
+     "word": " тебя",
+     "start": 2.68,
+     "end": 2.84
+    },
+    {
+     "word": " сейчас",
+     "start": 2.84,
+     "end": 3.06
+    },
+    {
+     "word": " повожу,",
+     "start": 3.06,
      "end": 3.46
     },
     {
-     "word": " пришел.",
-     "start": 3.46,
-     "end": 3.68
+     "word": " блядь.",
+     "start": 3.58,
+     "end": 3.86
     },
     {
-     "word": " Если",
-     "start": 4.38,
-     "end": 4.82
+     "word": " Да",
+     "start": 4.42,
+     "end": 4.68
     },
     {
-     "word": " ты",
-     "start": 4.82,
-     "end": 4.94
+     "word": " ебаный",
+     "start": 4.68,
+     "end": 5.22
     },
     {
-     "word": " хочешь",
-     "start": 4.94,
-     "end": 5.1
+     "word": " бунг",
+     "start": 5.22,
+     "end": 5.66
     },
     {
-     "word": " купить",
-     "start": 5.1,
-     "end": 5.32
+     "word": " так,",
+     "start": 5.66,
+     "end": 5.78
     },
     {
-     "word": " настоящие",
-     "start": 5.32,
-     "end": 5.58
+     "word": " блядь!",
+     "start": 5.92,
+     "end": 6.28
     },
     {
-     "word": " вещи,",
-     "start": 5.58,
-     "end": 5.88
-    },
-    {
-     "word": " тебе",
-     "start": 6.1,
-     "end": 6.3
-    },
-    {
-     "word": " нужно",
-     "start": 6.3,
-     "end": 6.42
-    },
-    {
-     "word": " legit",
-     "start": 6.42,
-     "end": 6.76
-    },
-    {
-     "word": "-моня,",
-     "start": 6.76,
-     "end": 7.34
-    },
-    {
-     "word": " чтобы",
-     "start": 7.38,
-     "end": 7.48
-    },
-    {
-     "word": " это",
-     "start": 7.48,
-     "end": 7.62
-    },
-    {
-     "word": " сделать.",
-     "start": 7.62,
-     "end": 7.62
-    },
-    {
-     "word": " Например,",
-     "start": 8.72,
-     "end": 9.16
-    },
-    {
-     "word": " property.",
-     "start": 9.98,
-     "end": 10.16
+     "word": " Хуйло!",
+     "start": 11.6,
+     "end": 12.14
     },
     {
      "word": " Не",
-     "start": 11.56,
-     "end": 11.56
+     "start": 12.68,
+     "end": 13.24
     },
     {
-     "word": " обернись.",
-     "start": 11.56,
-     "end": 11.86
+     "word": " отвлекай",
+     "start": 13.24,
+     "end": 13.68
     },
     {
-     "word": " Он",
-     "start": 12.4,
-     "end": 12.84
-    },
-    {
-     "word": " мой",
-     "start": 12.84,
-     "end": 13.02
-    },
-    {
-     "word": " пилот.",
-     "start": 13.02,
-     "end": 13.34
-    },
-    {
-     "word": " Ты",
-     "start": 13.96,
-     "end": 14.4
-    },
-    {
-     "word": " просто",
-     "start": 14.4,
-     "end": 14.68
-    },
-    {
-     "word": " не",
-     "start": 14.68,
-     "end": 15.0
-    },
-    {
-     "word": " знаешь,",
-     "start": 15.0,
-     "end": 15.22
-    },
-    {
-     "word": " кто",
-     "start": 15.22,
-     "end": 15.38
-    },
-    {
-     "word": " ты",
-     "start": 15.38,
-     "end": 15.46
-    },
-    {
-     "word": " можешь",
-     "start": 15.46,
-     "end": 15.64
-    },
-    {
-     "word": " верить.",
-     "start": 15.64,
-     "end": 15.88
-    },
-    {
-     "word": " Правильно.",
-     "start": 17.44,
-     "end": 17.88
-    },
-    {
-     "word": " Мы",
-     "start": 19.28,
-     "end": 19.72
-    },
-    {
-     "word": " будем",
-     "start": 19.72,
-     "end": 19.88
-    },
-    {
-     "word": " в",
-     "start": 19.88,
-     "end": 19.96
-    },
-    {
-     "word": " пилоте.",
-     "start": 19.96,
-     "end": 20.14
-    },
-    {
-     "word": " Павел,",
-     "start": 21.26,
-     "end": 21.7
-    },
-    {
-     "word": " правильно?",
-     "start": 21.9,
-     "end": 21.96
-    },
-    {
-     "word": " Нет.",
-     "start": 22.54,
-     "end": 22.68
-    },
-    {
-     "word": " Нет,",
-     "start": 23.14,
-     "end": 23.32
-    },
-    {
-     "word": " ты",
-     "start": 23.4,
-     "end": 23.48
-    },
-    {
-     "word": " хочешь",
-     "start": 23.48,
-     "end": 23.76
-    },
-    {
-     "word": " оборудовать.",
-     "start": 23.76,
-     "end": 24.3
-    },
-    {
-     "word": " Как",
-     "start": 24.44,
-     "end": 24.52
-    },
-    {
-     "word": " many",
-     "start": 24.52,
-     "end": 24.62
-    },
-    {
-     "word": " times",
-     "start": 24.62,
-     "end": 24.76
-    },
-    {
-     "word": " I'm",
-     "start": 24.76,
-     "end": 24.88
-    },
-    {
-     "word": " gonna",
-     "start": 24.88,
-     "end": 24.98
-    },
-    {
-     "word": " tell",
-     "start": 24.98,
-     "end": 25.14
-    },
-    {
-     "word": " you?",
-     "start": 25.14,
-     "end": 25.32
-    },
-    {
-     "word": " Именно.",
-     "start": 25.84,
-     "end": 26.04
-    },
-    {
-     "word": " Помни,",
-     "start": 26.52,
-     "end": 26.84
-    },
-    {
-     "word": " тем",
-     "start": 27.02,
-     "end": 27.34
-    },
-    {
-     "word": " больше",
-     "start": 27.34,
-     "end": 27.52
-    },
-    {
-     "word": " денег",
-     "start": 27.52,
-     "end": 27.76
-    },
-    {
-     "word": " ты",
-     "start": 27.76,
-     "end": 27.94
-    },
-    {
-     "word": " ввести,",
-     "start": 27.94,
-     "end": 28.22
-    },
-    {
-     "word": " тем",
-     "start": 28.58,
-     "end": 28.9
-    },
-    {
-     "word": " больше",
-     "start": 28.9,
-     "end": 29.0
-    },
-    {
-     "word": " ты",
-     "start": 29.0,
-     "end": 29.12
-    },
-    {
-     "word": " ввести.",
-     "start": 29.12,
-     "end": 29.28
-    },
-    {
-     "word": " В",
-     "start": 29.96,
-     "end": 30.48
-    },
-    {
-     "word": " следующем",
-     "start": 30.48,
-     "end": 30.74
-    },
-    {
-     "word": " году",
-     "start": 30.74,
-     "end": 30.98
-    },
-    {
-     "word": " у",
-     "start": 30.98,
-     "end": 31.14
-    },
-    {
-     "word": " вас,",
-     "start": 31.14,
-     "end": 31.36
-    },
-    {
-     "word": " Женя,",
-     "start": 31.74,
-     "end": 31.88
-    },
-    {
-     "word": " надеюсь,",
-     "start": 32.04,
-     "end": 32.2
-    },
-    {
-     "word": " будет",
-     "start": 32.3,
-     "end": 32.42
-    },
-    {
-     "word": " парный",
-     "start": 32.42,
-     "end": 32.88
-    },
-    {
-     "word": " образ",
-     "start": 32.88,
-     "end": 33.18
-    },
-    {
-     "word": " на",
-     "start": 33.18,
-     "end": 33.48
-    },
-    {
-     "word": " холуин",
-     "start": 33.48,
-     "end": 33.9
-    },
-    {
-     "word": " в",
-     "start": 33.9,
-     "end": 33.98
-    },
-    {
-     "word": " виде",
-     "start": 33.98,
-     "end": 34.18
-    },
-    {
-     "word": " Джейсона",
-     "start": 34.18,
-     "end": 35.08
-    },
-    {
-     "word": " и",
-     "start": 35.08,
-     "end": 35.48
-    },
-    {
-     "word": " Люсии.",
-     "start": 35.48,
-     "end": 36.06
-    },
-    {
-     "word": " Надо",
-     "start": 43.1,
-     "end": 43.62
-    },
-    {
-     "word": " будет",
-     "start": 43.62,
-     "end": 44.14
-    },
-    {
-     "word": " обкормить",
-     "start": 44.14,
-     "end": 44.58
-    },
-    {
-     "word": " Женнику",
-     "start": 44.58,
-     "end": 44.88
-    },
-    {
-     "word": " тогда.",
-     "start": 44.88,
-     "end": 45.06
-    },
-    {
-     "word": " Лется,",
-     "start": 49.46,
-     "end": 49.98
-    },
-    {
-     "word": " год",
-     "start": 50.12,
-     "end": 50.24
-    },
-    {
-     "word": " кормить",
-     "start": 50.24,
-     "end": 50.68
-    },
-    {
-     "word": " ее,",
-     "start": 50.68,
-     "end": 50.92
-    },
-    {
-     "word": " а",
-     "start": 51.04,
-     "end": 51.06
-    },
-    {
-     "word": " мне",
-     "start": 51.06,
-     "end": 51.2
-    },
-    {
-     "word": " катяться.",
-     "start": 51.2,
-     "end": 51.66
-    }
-   ],
-   "metrics": {
-    "motion": 0.31781596693495756,
-    "motion_p90": 0.5575665288956565,
-    "static_share": 0.03404255319148936,
-    "peak_db": 10.451904296875,
-    "level_db": -32.62290954589844
-   },
-   "silence": []
-  },
-  "chat-2935956429-95": {
-   "id": "chat-2935956429-95",
-   "url": "https://www.twitch.tv/videos/2935956429",
-   "section": [
-    4246.359876,
-    4302.359876
-   ],
-   "kind": "chat",
-   "views": 43,
-   "title": "",
-   "vod": "2935956429",
-   "vod_t": 4246.359876,
-   "group": "ru",
-   "login": "blackufa",
-   "name": "BlackUFA",
-   "viewers": 3682,
-   "chat_score": 3.91,
-   "found_at": "2026-11-21T10:52:24.769635+00:00",
-   "spike_at": "2026-11-21T10:38:16.359876+00:00",
-   "chat": [
-    "14x Ф",
-    "6x F",
-    "3x NotLikeThis",
-    "2x Эф",
-    "2x ф?",
-    "F?",
-    "упало",
-    "BONKTHETWITCH BSUHey",
-    "@ultramareena TwitchUnity",
-    "поиграли",
-    "Как сюжет, так ф LUL",
-    "фнули",
-    "Ого(( ф"
-   ],
-   "source": "cut from the live stream at a chat spike: 43 chatters in 15 s, 3.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-21T10:54:27.724531+00:00",
-   "cam": null,
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 62.0,
-   "words": [
-    {
-     "word": " Нет,",
-     "start": 1.75,
-     "end": 2.35
-    },
-    {
-     "word": " Чат,",
-     "start": 2.57,
-     "end": 2.65
-    },
-    {
-     "word": " мы",
-     "start": 2.69,
-     "end": 2.79
-    },
-    {
-     "word": " сейчас",
-     "start": 2.79,
-     "end": 2.95
-    },
-    {
-     "word": " дайдингом",
-     "start": 2.95,
-     "end": 3.47
-    },
-    {
-     "word": " займемся.",
-     "start": 3.47,
-     "end": 3.87
-    },
-    {
-     "word": " Просто",
-     "start": 6.76,
-     "end": 7.36
-    },
-    {
-     "word": " из",
-     "start": 7.36,
-     "end": 7.52
-    },
-    {
-     "word": "-за",
-     "start": 7.52,
-     "end": 7.58
-    },
-    {
-     "word": " сюжета",
-     "start": 7.58,
-     "end": 7.94
-    },
-    {
-     "word": " нет,",
-     "start": 7.94,
-     "end": 8.1
-    },
-    {
-     "word": " дайдингом.",
-     "start": 8.18,
-     "end": 8.72
-    },
-    {
-     "word": " Мы",
-     "start": 12.18,
-     "end": 12.78
-    },
-    {
-     "word": " пока",
-     "start": 12.78,
-     "end": 12.98
-    },
-    {
-     "word": " не",
-     "start": 12.98,
-     "end": 13.14
-    },
-    {
-     "word": " умеем",
-     "start": 13.14,
-     "end": 13.46
-    },
-    {
-     "word": " тачки",
-     "start": 13.46,
+     "word": " меня",
+     "start": 13.68,
      "end": 13.86
     },
     {
-     "word": " на",
-     "start": 13.86,
-     "end": 13.96
-    },
-    {
-     "word": " себя",
-     "start": 13.96,
-     "end": 14.16
-    },
-    {
-     "word": " переписывать,",
-     "start": 14.16,
-     "end": 14.82
-    },
-    {
-     "word": " поэтому",
-     "start": 14.94,
-     "end": 15.28
-    },
-    {
-     "word": " нам",
-     "start": 15.28,
-     "end": 16.12
-    },
-    {
-     "word": " бы",
-     "start": 16.12,
-     "end": 16.8
-    },
-    {
-     "word": " вот",
-     "start": 16.8,
-     "end": 17.0
-    },
-    {
-     "word": " правда",
-     "start": 17.0,
-     "end": 17.4
-    },
-    {
-     "word": " двигаться",
-     "start": 17.4,
-     "end": 17.84
-    },
-    {
-     "word": " по",
-     "start": 17.84,
-     "end": 18.02
-    },
-    {
-     "word": " сюжету.",
-     "start": 18.02,
-     "end": 18.44
-    },
-    {
-     "word": " Поэтому",
-     "start": 20.9,
-     "end": 21.5
-    },
-    {
-     "word": " смысл",
-     "start": 21.5,
-     "end": 22.1
-    },
-    {
-     "word": " типа",
-     "start": 22.1,
-     "end": 22.72
-    },
-    {
-     "word": " все",
-     "start": 22.72,
-     "end": 23.2
-    },
-    {
-     "word": " это",
-     "start": 23.2,
-     "end": 23.38
-    },
-    {
-     "word": " делать",
-     "start": 23.38,
-     "end": 23.64
-    },
-    {
      "word": " пока",
-     "start": 23.64,
-     "end": 23.92
+     "start": 13.86,
+     "end": 14.14
     },
     {
-     "word": " как",
-     "start": 23.92,
-     "end": 24.14
+     "word": " за",
+     "start": 14.14,
+     "end": 14.32
     },
     {
-     "word": " будто",
-     "start": 24.14,
-     "end": 24.38
+     "word": " рулём,",
+     "start": 14.32,
+     "end": 14.66
     },
     {
-     "word": " все,",
-     "start": 38.98,
-     "end": 39.28
-    },
-    {
-     "word": " Чат,",
-     "start": 39.34,
-     "end": 39.64
-    },
-    {
-     "word": " хорошо.",
-     "start": 39.82,
-     "end": 40.0
-    },
-    {
-     "word": " Это",
-     "start": 40.5,
-     "end": 40.7
-    },
-    {
-     "word": " норма.",
-     "start": 40.7,
-     "end": 41.26
-    },
-    {
-     "word": " Такое",
-     "start": 41.44,
-     "end": 41.76
-    },
-    {
-     "word": " бывает.",
-     "start": 41.76,
-     "end": 42.18
-    },
-    {
-     "word": " Чтобы",
-     "start": 45.75,
-     "end": 46.27
-    },
-    {
-     "word": " принять",
-     "start": 46.27,
-     "end": 46.63
-    },
-    {
-     "word": " участие",
-     "start": 46.63,
-     "end": 47.11
-    },
-    {
-     "word": " в",
-     "start": 47.11,
-     "end": 47.19
-    },
-    {
-     "word": " гонке,",
-     "start": 47.19,
-     "end": 47.55
-    },
-    {
-     "word": " да",
-     "start": 47.57,
-     "end": 47.65
-    },
-    {
-     "word": " это",
-     "start": 47.65,
-     "end": 47.81
-    },
-    {
-     "word": " не",
-     "start": 47.81,
-     "end": 47.89
-    },
-    {
-     "word": " гонки.",
-     "start": 47.89,
-     "end": 48.31
-    },
-    {
-     "word": " Так,",
-     "start": 49.93,
-     "end": 50.49
-    },
-    {
-     "word": " Чат,",
-     "start": 51.07,
-     "end": 51.31
-    },
-    {
-     "word": " смотри,",
-     "start": 51.43,
-     "end": 51.73
-    },
-    {
-     "word": " нам",
-     "start": 52.01,
-     "end": 52.19
-    },
-    {
-     "word": " с",
-     "start": 52.19,
-     "end": 52.41
-    },
-    {
-     "word": " тобой",
-     "start": 52.41,
-     "end": 52.79
-    },
-    {
-     "word": " сейчас",
-     "start": 52.79,
-     "end": 53.29
-    },
-    {
-     "word": " нужно",
-     "start": 53.29,
-     "end": 54.05
-    },
-    {
-     "word": " либо...",
-     "start": 54.05,
-     "end": 55.61
-    },
-    {
-     "word": " Что",
-     "start": 55.61,
-     "end": 56.09
-    },
-    {
-     "word": " это?",
-     "start": 56.09,
-     "end": 56.29
-    },
-    {
-     "word": " Мастерская",
-     "start": 57.31,
-     "end": 57.87
-    },
-    {
-     "word": " предлагающая",
-     "start": 57.87,
-     "end": 58.43
-    },
-    {
-     "word": " большую",
-     "start": 58.43,
-     "end": 58.79
-    },
-    {
-     "word": " ассорти...",
-     "start": 58.79,
-     "end": 59.21
-    },
-    {
-     "word": " ЛИБА!",
-     "start": 59.21,
-     "end": 59.99
-    },
-    {
-     "word": " Так,",
-     "start": 60.21,
-     "end": 60.29
-    },
-    {
-     "word": " давайте",
-     "start": 60.53,
-     "end": 60.55
-    },
-    {
-     "word": " мы",
-     "start": 60.55,
-     "end": 60.67
-    },
-    {
-     "word": " вот",
-     "start": 60.67,
-     "end": 60.71
-    },
-    {
-     "word": " сюда",
-     "start": 60.71,
-     "end": 60.91
-    },
-    {
-     "word": " зайдем",
-     "start": 60.91,
-     "end": 61.25
-    },
-    {
-     "word": " тут",
-     "start": 61.25,
-     "end": 61.39
-    },
-    {
-     "word": " по",
-     "start": 61.39,
-     "end": 61.65
-    },
-    {
-     "word": "-любому.",
-     "start": 61.65,
-     "end": 61.89
+     "word": " блядь.",
+     "start": 14.68,
+     "end": 15.06
     }
    ],
    "metrics": {
-    "motion": 0.363125,
-    "motion_p90": 0.5495277777777778,
-    "static_share": 0.05668016194331984,
-    "peak_db": 7.323274612426758,
-    "level_db": -25.29252815246582
-   },
-   "silence": [
-    [
-     30.5,
-     3.7
-    ]
-   ]
-  },
-  "chat-2935679784-665": {
-   "id": "chat-2935679784-665",
-   "url": "https://www.twitch.tv/videos/2935679784",
-   "section": [
-    29924.405836,
-    29980.405836
-   ],
-   "kind": "chat",
-   "views": 51,
-   "title": "",
-   "vod": "2935679784",
-   "vod_t": 29924.405836,
-   "group": "en",
-   "login": "yourragegaming",
-   "name": "yourragegaming",
-   "viewers": 9381,
-   "chat_score": 6.38,
-   "found_at": "2026-11-21T10:52:24.034015+00:00",
-   "spike_at": "2026-11-21T10:40:51.405836+00:00",
-   "chat": [
-    "4x LMAO",
-    "4x pfft",
-    "4x RT",
-    "3x o",
-    "3x LMFAO",
-    "2x ol",
-    "2x sobb",
-    "2x ?",
-    "2x ....",
-    "2x LO",
-    "2x LMAOOOOO",
-    "2x LOL",
-    "sob",
-    "u sooooooo",
-    "sobb learn to drive nigga pls",
-    "dumb asf",
-    "NO PHONE WILL RIDING",
-    "LMAOOO",
-    "niggga",
-    "free bike gone sob"
-   ],
-   "source": "cut from the live stream at a chat spike: 51 chatters in 15 s, 6.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-21T10:54:53.453845+00:00",
-   "cam": [
-    1285,
-    633,
-    634,
-    446
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 58.7,
-   "words": [
-    {
-     "word": " Truck",
-     "start": 0.0,
-     "end": 0.32
-    },
-    {
-     "word": " of",
-     "start": 0.32,
-     "end": 0.48
-    },
-    {
-     "word": " abandoned",
-     "start": 0.48,
-     "end": 0.82
-    },
-    {
-     "word": " co",
-     "start": 0.82,
-     "end": 1.08
-    },
-    {
-     "word": "-",
-     "start": 1.08,
-     "end": 1.16
-    },
-    {
-     "word": " No,",
-     "start": 1.16,
-     "end": 1.52
-    },
-    {
-     "word": " nigga,",
-     "start": 1.88,
-     "end": 2.1
-    },
-    {
-     "word": " you",
-     "start": 2.46,
-     "end": 2.94
-    },
-    {
-     "word": " stupid.",
-     "start": 4.83,
-     "end": 5.35
-    },
-    {
-     "word": " Where",
-     "start": 29.54,
-     "end": 29.88
-    },
-    {
-     "word": " you",
-     "start": 29.88,
-     "end": 29.98
-    },
-    {
-     "word": " at,",
-     "start": 29.98,
-     "end": 30.14
-    },
-    {
-     "word": " bae?",
-     "start": 30.22,
-     "end": 30.5
-    },
-    {
-     "word": " Hello?",
-     "start": 30.9,
-     "end": 31.16
-    },
-    {
-     "word": " Hey,",
-     "start": 31.74,
-     "end": 31.96
-    },
-    {
-     "word": " you",
-     "start": 32.22,
-     "end": 32.36
-    },
-    {
-     "word": " see",
-     "start": 32.36,
-     "end": 32.42
-    },
-    {
-     "word": " the",
-     "start": 32.42,
-     "end": 32.52
-    },
-    {
-     "word": " sticks",
-     "start": 32.52,
-     "end": 32.7
-    },
-    {
-     "word": " from",
-     "start": 32.7,
-     "end": 32.9
-    },
-    {
-     "word": " Cal?",
-     "start": 32.9,
-     "end": 33.14
-    },
-    {
-     "word": " The",
-     "start": 33.74,
-     "end": 33.86
-    },
-    {
-     "word": " article?",
-     "start": 33.86,
-     "end": 34.08
-    },
-    {
-     "word": " Some",
-     "start": 35.28,
-     "end": 35.62
-    },
-    {
-     "word": " couple",
-     "start": 35.62,
-     "end": 35.9
-    },
-    {
-     "word": " guys",
-     "start": 35.9,
-     "end": 36.1
-    },
-    {
-     "word": " shot",
-     "start": 36.1,
-     "end": 36.32
-    },
-    {
-     "word": " up",
-     "start": 36.32,
-     "end": 36.52
-    },
-    {
-     "word": " outside",
-     "start": 36.52,
-     "end": 36.82
-    },
-    {
-     "word": " in",
-     "start": 36.82,
-     "end": 36.98
-    },
-    {
-     "word": " Procia.",
-     "start": 36.98,
-     "end": 37.4
-    },
-    {
-     "word": " Don't",
-     "start": 38.1,
-     "end": 38.3
-    },
-    {
-     "word": " do",
-     "start": 38.3,
-     "end": 38.4
-    },
-    {
-     "word": " it,",
-     "start": 38.4,
-     "end": 38.5
-    },
-    {
-     "word": " Trump.",
-     "start": 38.56,
-     "end": 38.7
-    },
-    {
-     "word": " Oh!",
-     "start": 40.24,
-     "end": 40.74
-    },
-    {
-     "word": " Down",
-     "start": 43.84,
-     "end": 44.2
-    },
-    {
-     "word": " the",
-     "start": 44.2,
-     "end": 44.32
-    },
-    {
-     "word": " spot.",
-     "start": 44.32,
-     "end": 44.54
-    }
-   ],
-   "metrics": {
-    "motion": 0.37615049249152266,
-    "motion_p90": 0.624584207976748,
-    "static_share": 0.10256410256410256,
-    "peak_db": 10.073062896728516,
-    "level_db": -36.7164306640625
-   },
-   "silence": []
-  },
-  "chat-2935925087-191": {
-   "id": "chat-2935925087-191",
-   "url": "https://www.twitch.tv/videos/2935925087",
-   "section": [
-    8553.317189,
-    8609.317189
-   ],
-   "kind": "chat",
-   "views": 46,
-   "title": "",
-   "vod": "2935925087",
-   "vod_t": 8553.317189,
-   "group": "ru",
-   "login": "melharucos",
-   "name": "melharucos",
-   "viewers": 4739,
-   "chat_score": 3.54,
-   "found_at": "2026-11-21T10:52:25.030228+00:00",
-   "spike_at": "2026-11-21T10:42:36.317189+00:00",
-   "chat": [
-    "19x frfr",
-    "3x catJamming",
-    "2x LO",
-    "2x frfr ͏",
-    "xd",
-    "melSmug",
-    "AHAH ͏",
-    "Поэтому пешеходный переход надо переходить спешиваться",
-    "Taalk",
-    "))",
-    "ПХХАХАХА",
-    "факт"
-   ],
-   "source": "cut from the live stream at a chat spike: 46 chatters in 15 s, 3.5x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-21T10:55:22.914395+00:00",
-   "cam": null,
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 59.0,
-   "words": [
-    {
-     "word": " Я",
-     "start": 40.18,
-     "end": 40.46
-    },
-    {
-     "word": " вообще",
-     "start": 40.46,
-     "end": 40.7
-    },
-    {
-     "word": " нахуй",
-     "start": 40.7,
-     "end": 41.0
-    },
-    {
-     "word": " не",
-     "start": 41.0,
-     "end": 41.14
-    },
-    {
-     "word": " понял.",
-     "start": 41.14,
-     "end": 41.54
-    },
-    {
-     "word": " Ты",
-     "start": 41.9,
-     "end": 42.16
-    },
-    {
-     "word": " когда",
-     "start": 42.16,
-     "end": 42.52
-    },
-    {
-     "word": " по",
-     "start": 42.52,
-     "end": 42.94
-    },
-    {
-     "word": " зебре",
-     "start": 42.94,
-     "end": 43.7
-    },
-    {
-     "word": " переходишь,",
-     "start": 43.7,
-     "end": 44.38
-    },
-    {
-     "word": " ты",
-     "start": 44.56,
-     "end": 44.6
-    },
-    {
-     "word": " встаёшь",
-     "start": 44.6,
-     "end": 45.32
-    },
-    {
-     "word": " сукаться",
-     "start": 45.32,
-     "end": 45.94
-    },
-    {
-     "word": " своего",
-     "start": 45.94,
-     "end": 46.24
-    },
-    {
-     "word": " велосипеда,",
-     "start": 46.24,
-     "end": 47.32
-    },
-    {
-     "word": " пешком",
-     "start": 47.68,
-     "end": 48.48
-    },
-    {
-     "word": " переходишь",
-     "start": 48.48,
-     "end": 49.42
-    },
-    {
-     "word": " дорогу,",
-     "start": 49.42,
-     "end": 50.32
-    },
-    {
-     "word": " потом",
-     "start": 50.38,
-     "end": 50.6
-    },
-    {
-     "word": " садишься,",
-     "start": 50.6,
-     "end": 51.6
-    },
-    {
-     "word": " блять,",
-     "start": 51.6,
-     "end": 51.92
-    },
-    {
-     "word": " и",
-     "start": 52.12,
-     "end": 52.22
-    },
-    {
-     "word": " едешь.",
-     "start": 52.22,
-     "end": 52.82
-    },
-    {
-     "word": " Чё",
-     "start": 54.16,
-     "end": 54.4
-    },
-    {
-     "word": " вот,",
-     "start": 54.4,
-     "end": 54.56
-    },
-    {
-     "word": " чё",
-     "start": 54.6,
-     "end": 54.74
-    },
-    {
-     "word": " вот",
-     "start": 54.74,
-     "end": 54.86
-    },
-    {
-     "word": " он",
-     "start": 54.86,
-     "end": 55.0
-    },
-    {
-     "word": " нахуя",
-     "start": 55.0,
-     "end": 55.42
-    },
-    {
-     "word": " он",
-     "start": 55.42,
-     "end": 55.58
-    },
-    {
-     "word": " это",
-     "start": 55.58,
-     "end": 55.74
-    },
-    {
-     "word": " сделал?",
-     "start": 55.74,
-     "end": 56.08
-    }
-   ],
-   "metrics": {
-    "motion": 0.43993055555555555,
-    "motion_p90": 0.5864166666666667,
-    "static_share": 0.16595744680851063,
-    "peak_db": 3.905200958251953,
-    "level_db": -25.374618530273438
-   },
-   "silence": []
-  },
-  "chat-2935679784-658": {
-   "id": "chat-2935679784-658",
-   "url": "https://www.twitch.tv/videos/2935679784",
-   "section": [
-    29604.378694,
-    29660.378694
-   ],
-   "kind": "chat",
-   "views": 39,
-   "title": "",
-   "vod": "2935679784",
-   "vod_t": 29604.378694,
-   "group": "en",
-   "login": "yourragegaming",
-   "name": "yourragegaming",
-   "viewers": 9381,
-   "chat_score": 4.88,
-   "found_at": "2026-11-21T10:52:24.231331+00:00",
-   "spike_at": "2026-11-21T10:35:31.378694+00:00",
-   "chat": [
-    "3x DROOLER",
-    "2x Bro",
-    "2x Sped",
-    "2x Map?",
-    "map? sob",
-    "vee hickle",
-    "retard..",
-    "Lmao",
-    "HAHAH crumby",
-    "bro u could merk his ahh",
-    "5 am ome67",
-    "@zennfxn shit islamophobic"
-   ],
-   "source": "cut from the live stream at a chat spike: 39 chatters in 15 s, 4.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-21T10:55:53.844867+00:00",
-   "cam": [
-    1269,
-    621,
-    651,
-    458
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 60.0,
-   "words": [
-    {
-     "word": " For",
-     "start": 36.28,
-     "end": 36.68
-    },
-    {
-     "word": " sure",
-     "start": 36.68,
-     "end": 37.08
-    },
-    {
-     "word": " doesn't",
-     "start": 37.08,
-     "end": 37.22
-    },
-    {
-     "word": " move",
-     "start": 37.22,
-     "end": 37.22
-    },
-    {
-     "word": " a",
-     "start": 37.22,
-     "end": 37.22
-    },
-    {
-     "word": " fucking",
-     "start": 37.22,
-     "end": 37.42
-    },
-    {
-     "word": " muscle",
-     "start": 37.42,
-     "end": 37.44
-    },
-    {
-     "word": " I'll",
-     "start": 37.44,
-     "end": 37.44
-    },
-    {
-     "word": " get",
-     "start": 37.44,
-     "end": 37.44
-    },
-    {
-     "word": " the",
-     "start": 37.44,
-     "end": 37.44
-    },
-    {
-     "word": " bills",
-     "start": 37.44,
-     "end": 37.44
-    },
-    {
-     "word": " Where's",
-     "start": 38.2,
-     "end": 38.9
-    },
-    {
-     "word": " my",
-     "start": 38.9,
-     "end": 39.0
-    },
-    {
-     "word": " vehicle",
-     "start": 39.0,
-     "end": 39.34
-    },
-    {
-     "word": " What",
-     "start": 46.64,
-     "end": 48.04
-    },
-    {
-     "word": " the",
-     "start": 48.04,
-     "end": 49.44
-    },
-    {
-     "word": " fuck",
-     "start": 49.44,
-     "end": 49.82
-    }
-   ],
-   "metrics": {
-    "motion": 0.6136270909832722,
-    "motion_p90": 0.7377886576907384,
+    "motion": 0.18932637227177146,
+    "motion_p90": 0.2869407584656661,
     "static_share": 0.0,
-    "peak_db": 11.015968322753906,
-    "level_db": -28.959888458251953
+    "peak_db": 7.964347839355469,
+    "level_db": -20.701168060302734
    },
    "silence": []
   },
-  "chat-2935814408-457": {
-   "id": "chat-2935814408-457",
-   "url": "https://www.twitch.tv/videos/2935814408",
-   "section": [
-    20529.378217,
-    20585.378217
-   ],
-   "kind": "chat",
-   "views": 39,
-   "title": "",
-   "vod": "2935814408",
-   "vod_t": 20529.378217,
-   "group": "en",
-   "login": "maximilian_dood",
-   "name": "Maximilian_DOOD",
-   "viewers": 7069,
-   "chat_score": 4.88,
-   "found_at": "2026-11-21T10:52:24.379709+00:00",
-   "spike_at": "2026-11-21T10:40:41.378217+00:00",
-   "chat": [
-    "2x LUL",
-    "2x PING",
-    "nice gun",
-    "she's gonna be the final boss, isn't she?",
-    "this lady is wonderful",
-    "a purple carbine.",
-    "slayyy lori",
-    "Damn LUL",
-    "lori has been in the game",
-    "doodNote time for war"
-   ],
-   "source": "cut from the live stream at a chat spike: 39 chatters in 15 s, 4.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-21T10:56:35.379462+00:00",
+  "TardyAuspiciousClipzPMSTwin-2sFr-zEyc6tZ1reA": {
+   "id": "TardyAuspiciousClipzPMSTwin-2sFr-zEyc6tZ1reA",
+   "url": "https://www.twitch.tv/bratishkinoff/clip/TardyAuspiciousClipzPMSTwin-2sFr-zEyc6tZ1reA",
+   "section": null,
+   "kind": "clip",
+   "views": 302,
+   "title": "член Джейсона",
+   "vod": "2934815498",
+   "vod_t": 11189,
+   "group": "ru",
+   "login": "bratishkinoff",
+   "name": "bratishkinOFF",
+   "source": "Twitch clip made by a viewer, 302 views, titled \"член Джейсона\"",
+   "at": "2026-11-21T11:17:51.608041+00:00",
    "cam": [
-    3,
-    0,
-    420,
-    295
+    20,
+    716,
+    445,
+    313
    ],
    "size": [
-    1920,
-    1080
+    2560,
+    1440
    ],
-   "dur": 65.0,
+   "dur": 9.9,
    "words": [
     {
-     "word": " them",
-     "start": 0.0,
-     "end": 0.22
+     "word": " А",
+     "start": 0.78,
+     "end": 1.26
     },
     {
-     "word": " boys",
-     "start": 0.22,
-     "end": 0.54
+     "word": " я",
+     "start": 1.26,
+     "end": 1.34
     },
     {
-     "word": " showing",
-     "start": 0.54,
-     "end": 0.9
+     "word": " не",
+     "start": 1.34,
+     "end": 1.46
     },
     {
-     "word": " up",
-     "start": 0.9,
-     "end": 1.2
+     "word": " вижу",
+     "start": 1.46,
+     "end": 1.68
     },
     {
-     "word": " in",
-     "start": 1.2,
-     "end": 1.4
+     "word": " из",
+     "start": 1.68,
+     "end": 1.84
     },
     {
-     "word": " Tsukasa,",
-     "start": 1.4,
-     "end": 2.02
+     "word": "-за",
+     "start": 1.84,
+     "end": 1.92
     },
     {
-     "word": " do",
-     "start": 2.22,
-     "end": 2.26
+     "word": " груди.",
+     "start": 1.92,
+     "end": 2.22
     },
     {
-     "word": " you?",
-     "start": 2.26,
-     "end": 2.4
+     "word": " У",
+     "start": 2.32,
+     "end": 2.34
     },
     {
-     "word": " It's",
-     "start": 2.78,
-     "end": 3.0
+     "word": " меня",
+     "start": 2.34,
+     "end": 2.46
     },
     {
-     "word": " the",
+     "word": " что?",
+     "start": 2.46,
+     "end": 2.62
+    },
+    {
+     "word": " У",
      "start": 3.0,
      "end": 3.12
     },
     {
-     "word": " only",
+     "word": " меня",
      "start": 3.12,
-     "end": 3.44
+     "end": 3.2
     },
     {
-     "word": " way.",
-     "start": 3.44,
-     "end": 3.78
+     "word": " зеркальная",
+     "start": 3.2,
+     "end": 3.66
     },
     {
-     "word": " I",
-     "start": 4.36,
-     "end": 4.46
-    },
-    {
-     "word": " mean,",
-     "start": 4.46,
-     "end": 4.64
-    },
-    {
-     "word": " be",
-     "start": 5.04,
-     "end": 5.32
-    },
-    {
-     "word": " my",
-     "start": 5.32,
-     "end": 5.52
-    },
-    {
-     "word": " guest,",
-     "start": 5.52,
-     "end": 5.82
-    },
-    {
-     "word": " but",
-     "start": 5.92,
-     "end": 6.02
-    },
-    {
-     "word": " I",
-     "start": 6.02,
-     "end": 6.32
-    },
-    {
-     "word": " think",
-     "start": 6.32,
-     "end": 6.64
-    },
-    {
-     "word": " we",
-     "start": 6.64,
-     "end": 6.86
-    },
-    {
-     "word": " ought",
-     "start": 6.86,
-     "end": 7.08
-    },
-    {
-     "word": " to",
-     "start": 7.08,
-     "end": 7.18
-    },
-    {
-     "word": " get",
-     "start": 7.18,
-     "end": 7.32
-    },
-    {
-     "word": " out",
-     "start": 7.32,
-     "end": 7.52
-    },
-    {
-     "word": " in",
-     "start": 7.52,
-     "end": 7.68
-    },
-    {
-     "word": " front",
-     "start": 7.68,
-     "end": 7.88
-    },
-    {
-     "word": " of",
-     "start": 7.88,
-     "end": 8.1
-    },
-    {
-     "word": " it.",
-     "start": 8.1,
-     "end": 8.22
-    },
-    {
-     "word": " Uh",
-     "start": 8.34,
-     "end": 8.46
-    },
-    {
-     "word": "-huh.",
-     "start": 8.46,
-     "end": 8.58
-    },
-    {
-     "word": " OK,",
-     "start": 9.14,
-     "end": 9.38
-    },
-    {
-     "word": " fine.",
-     "start": 9.8,
-     "end": 10.08
-    },
-    {
-     "word": " What's",
-     "start": 10.68,
-     "end": 10.94
-    },
-    {
-     "word": " the",
-     "start": 10.94,
-     "end": 11.02
-    },
-    {
-     "word": " plan?",
-     "start": 11.02,
-     "end": 11.2
-    },
-    {
-     "word": " Good.",
-     "start": 11.4,
-     "end": 11.52
-    },
-    {
-     "word": " That's",
-     "start": 11.68,
-     "end": 11.9
-    },
-    {
-     "word": " the",
-     "start": 11.9,
-     "end": 11.92
-    },
-    {
-     "word": " attitude",
-     "start": 11.92,
-     "end": 12.18
-    },
-    {
-     "word": " I've",
-     "start": 12.18,
-     "end": 12.48
-    },
-    {
-     "word": " been",
-     "start": 12.48,
-     "end": 12.6
-    },
-    {
-     "word": " looking",
-     "start": 12.6,
-     "end": 12.82
-    },
-    {
-     "word": " for.",
-     "start": 12.82,
-     "end": 13.12
-    },
-    {
-     "word": " Now,",
-     "start": 13.24,
-     "end": 13.34
-    },
-    {
-     "word": " you",
-     "start": 13.38,
-     "end": 13.48
-    },
-    {
-     "word": " don't",
-     "start": 13.48,
-     "end": 13.64
-    },
-    {
-     "word": " worry.",
-     "start": 13.64,
-     "end": 14.02
-    },
-    {
-     "word": " Lori",
-     "start": 14.2,
-     "end": 14.4
-    },
-    {
-     "word": " and",
-     "start": 14.4,
-     "end": 14.6
-    },
-    {
-     "word": " I,",
-     "start": 14.6,
-     "end": 14.82
-    },
-    {
-     "word": " we've",
-     "start": 15.32,
-     "end": 15.54
-    },
-    {
-     "word": " been",
-     "start": 15.54,
-     "end": 15.64
-    },
-    {
-     "word": " figuring",
-     "start": 15.64,
-     "end": 15.94
-    },
-    {
-     "word": " it",
-     "start": 15.94,
-     "end": 16.22
-    },
-    {
-     "word": " out.",
-     "start": 16.22,
-     "end": 16.46
-    },
-    {
-     "word": " You,",
-     "start": 16.64,
-     "end": 16.96
-    },
-    {
-     "word": " me,",
-     "start": 17.18,
-     "end": 17.5
-    },
-    {
-     "word": " we're",
-     "start": 17.68,
-     "end": 17.78
-    },
-    {
-     "word": " going",
-     "start": 17.78,
-     "end": 17.92
-    },
-    {
-     "word": " to",
-     "start": 17.92,
-     "end": 17.94
-    },
-    {
-     "word": " go",
-     "start": 17.94,
-     "end": 18.08
-    },
-    {
-     "word": " inside",
-     "start": 18.08,
-     "end": 18.58
-    },
-    {
-     "word": " and",
-     "start": 18.58,
-     "end": 18.84
-    },
-    {
-     "word": " talk.",
-     "start": 18.84,
-     "end": 19.1
-    },
-    {
-     "word": " She's",
-     "start": 19.68,
-     "end": 20.08
-    },
-    {
-     "word": " going",
-     "start": 20.08,
-     "end": 20.28
-    },
-    {
-     "word": " to",
-     "start": 20.28,
-     "end": 20.42
-    },
-    {
-     "word": " hang",
-     "start": 20.42,
-     "end": 20.92
-    },
-    {
-     "word": " back",
-     "start": 20.92,
-     "end": 21.24
-    },
-    {
-     "word": " a",
-     "start": 21.24,
-     "end": 21.48
-    },
-    {
-     "word": " little",
-     "start": 21.48,
-     "end": 21.64
-    },
-    {
-     "word": " bit",
-     "start": 21.64,
-     "end": 21.92
-    },
-    {
-     "word": " and",
-     "start": 21.92,
-     "end": 22.14
-    },
-    {
-     "word": " keep",
-     "start": 22.14,
-     "end": 22.6
-    },
-    {
-     "word": " an",
-     "start": 22.6,
-     "end": 22.8
-    },
-    {
-     "word": " eye",
-     "start": 22.8,
-     "end": 22.98
-    },
-    {
-     "word": " on",
-     "start": 22.98,
-     "end": 23.18
-    },
-    {
-     "word": " me,",
-     "start": 23.18,
-     "end": 23.28
-    },
-    {
-     "word": " I",
-     "start": 23.46,
-     "end": 23.48
-    },
-    {
-     "word": " think.",
-     "start": 23.48,
-     "end": 23.48
-    },
-    {
-     "word": " So",
-     "start": 23.96,
-     "end": 24.16
-    },
-    {
-     "word": " what",
-     "start": 24.16,
-     "end": 24.3
-    },
-    {
-     "word": " you",
-     "start": 24.3,
-     "end": 24.42
-    },
-    {
-     "word": " got",
-     "start": 24.42,
-     "end": 24.6
-    },
-    {
-     "word": " for",
-     "start": 24.6,
-     "end": 24.8
-    },
-    {
-     "word": " me,",
-     "start": 24.8,
-     "end": 24.94
-    },
-    {
-     "word": " babe?",
-     "start": 25.0,
-     "end": 25.14
-    },
-    {
-     "word": " You",
-     "start": 25.72,
-     "end": 25.94
-    },
-    {
-     "word": " got",
-     "start": 25.94,
-     "end": 26.08
-    },
-    {
-     "word": " one,",
-     "start": 26.08,
-     "end": 26.22
-    },
-    {
-     "word": " Jason?",
-     "start": 26.28,
-     "end": 26.44
-    },
-    {
-     "word": " I'm",
-     "start": 26.9,
-     "end": 27.12
-    },
-    {
-     "word": " good.",
-     "start": 27.12,
-     "end": 27.26
-    },
-    {
-     "word": " OK.",
-     "start": 27.84,
-     "end": 28.12
-    },
-    {
-     "word": " Any",
-     "start": 28.92,
-     "end": 29.36
-    },
-    {
-     "word": " of",
-     "start": 29.36,
-     "end": 29.54
-    },
-    {
-     "word": " those",
-     "start": 29.54,
-     "end": 29.68
-    },
-    {
-     "word": " guys",
-     "start": 29.68,
-     "end": 29.92
-    },
-    {
-     "word": " even",
-     "start": 29.92,
-     "end": 30.22
-    },
-    {
-     "word": " look",
-     "start": 30.22,
-     "end": 30.56
-    },
-    {
-     "word": " at",
-     "start": 30.56,
-     "end": 30.74
-    },
-    {
-     "word": " you",
-     "start": 30.74,
-     "end": 30.86
-    },
-    {
-     "word": " funny?",
-     "start": 30.86,
-     "end": 31.1
-    },
-    {
-     "word": " Grip,",
-     "start": 31.46,
-     "end": 31.9
-    },
-    {
-     "word": " rip,",
-     "start": 32.16,
-     "end": 32.16
-    },
-    {
-     "word": " grab,",
-     "start": 32.38,
-     "end": 32.66
-    },
-    {
-     "word": " push,",
-     "start": 32.88,
-     "end": 33.14
-    },
-    {
-     "word": " ping,",
-     "start": 33.38,
-     "end": 33.62
-    },
-    {
-     "word": " ping,",
-     "start": 33.82,
-     "end": 34.04
-    },
-    {
-     "word": " ping.",
-     "start": 34.26,
-     "end": 34.54
-    },
-    {
-     "word": " You",
-     "start": 35.86,
-     "end": 36.3
-    },
-    {
-     "word": " got",
-     "start": 36.3,
-     "end": 36.44
-    },
-    {
-     "word": " that?",
-     "start": 36.44,
-     "end": 36.44
-    },
-    {
-     "word": " She",
-     "start": 36.44,
-     "end": 36.52
-    },
-    {
-     "word": " has",
-     "start": 36.52,
-     "end": 36.66
-    },
-    {
-     "word": " a",
-     "start": 36.66,
-     "end": 36.8
-    },
-    {
-     "word": " pink",
-     "start": 36.8,
-     "end": 37.38
-    },
-    {
-     "word": " gun.",
-     "start": 37.38,
-     "end": 37.86
-    },
-    {
-     "word": " I",
-     "start": 37.92,
-     "end": 37.98
-    },
-    {
-     "word": " think",
-     "start": 37.98,
-     "end": 38.16
-    },
-    {
-     "word": " I",
-     "start": 38.16,
-     "end": 38.3
-    },
-    {
-     "word": " can",
-     "start": 38.3,
-     "end": 38.4
-    },
-    {
-     "word": " manage.",
-     "start": 38.4,
-     "end": 38.72
-    },
-    {
-     "word": " Lucky",
-     "start": 38.86,
-     "end": 39.16
-    },
-    {
-     "word": " for",
-     "start": 39.16,
-     "end": 39.42
-    },
-    {
-     "word": " you,",
-     "start": 39.42,
-     "end": 39.64
-    },
-    {
-     "word": " this",
-     "start": 39.72,
-     "end": 39.86
-    },
-    {
-     "word": " girl",
-     "start": 39.86,
-     "end": 40.1
-    },
-    {
-     "word": " don't",
-     "start": 40.1,
-     "end": 40.32
-    },
-    {
-     "word": " go",
-     "start": 40.32,
-     "end": 40.48
-    },
-    {
-     "word": " anywhere",
-     "start": 40.48,
-     "end": 40.86
-    },
-    {
-     "word": " without",
-     "start": 40.86,
-     "end": 41.34
-    },
-    {
-     "word": " her",
-     "start": 41.34,
-     "end": 41.8
-    },
-    {
-     "word": " carbine.",
-     "start": 41.8,
-     "end": 42.74
-    },
-    {
-     "word": " Damn,",
-     "start": 44.2,
-     "end": 44.64
-    },
-    {
-     "word": " ain't",
-     "start": 44.92,
-     "end": 45.06
-    },
-    {
-     "word": " she",
-     "start": 45.06,
-     "end": 45.28
-    },
-    {
-     "word": " something.",
-     "start": 45.28,
-     "end": 45.64
-    },
-    {
-     "word": " Come",
-     "start": 46.68,
-     "end": 47.12
-    },
-    {
-     "word": " on,",
-     "start": 47.12,
-     "end": 47.3
-    },
-    {
-     "word": " let's",
-     "start": 47.46,
-     "end": 47.7
-    },
-    {
-     "word": " go.",
-     "start": 47.7,
-     "end": 47.88
-    },
-    {
-     "word": " Oh,",
-     "start": 48.02,
-     "end": 48.2
-    },
-    {
-     "word": " you",
-     "start": 48.44,
-     "end": 48.56
-    },
-    {
-     "word": " look",
-     "start": 48.56,
-     "end": 48.7
-    },
-    {
-     "word": " like",
-     "start": 48.7,
-     "end": 48.88
-    },
-    {
-     "word": " we're",
-     "start": 48.88,
-     "end": 49.08
-    },
-    {
-     "word": " ready",
-     "start": 49.08,
-     "end": 49.3
-    },
-    {
-     "word": " to",
-     "start": 49.3,
-     "end": 49.5
-    },
-    {
-     "word": " roll.",
-     "start": 49.5,
-     "end": 49.74
-    },
-    {
-     "word": " All",
-     "start": 49.94,
-     "end": 50.2
-    },
-    {
-     "word": " right,",
-     "start": 50.2,
-     "end": 51.66
-    },
-    {
-     "word": " you're",
-     "start": 51.72,
-     "end": 51.88
-    },
-    {
-     "word": " in",
-     "start": 51.88,
-     "end": 52.0
-    },
-    {
-     "word": " front,",
-     "start": 52.0,
-     "end": 52.2
-    },
-    {
-     "word": " long",
-     "start": 52.32,
-     "end": 52.46
-    },
-    {
-     "word": " legs.",
-     "start": 52.46,
-     "end": 52.72
-    },
-    {
-     "word": " Yeah,",
-     "start": 52.98,
-     "end": 53.18
-    },
-    {
-     "word": " I'll",
-     "start": 53.26,
-     "end": 53.4
-    },
-    {
-     "word": " tell",
-     "start": 53.4,
-     "end": 53.64
-    },
-    {
-     "word": " them",
-     "start": 53.64,
-     "end": 53.92
-    },
-    {
-     "word": " we're",
-     "start": 53.92,
-     "end": 54.22
-    },
-    {
-     "word": " coming.",
-     "start": 54.22,
-     "end": 54.58
-    },
-    {
-     "word": " Well,",
-     "start": 58.48,
-     "end": 58.7
-    },
-    {
-     "word": " this",
-     "start": 58.72,
-     "end": 58.94
-    },
-    {
-     "word": " is",
-     "start": 58.94,
-     "end": 59.08
-    },
-    {
-     "word": " about",
-     "start": 59.08,
-     "end": 59.26
-    },
-    {
-     "word": " to",
-     "start": 59.26,
-     "end": 59.42
-    },
-    {
-     "word": " get",
-     "start": 59.42,
-     "end": 59.54
-    },
-    {
-     "word": " interesting.",
-     "start": 59.54,
-     "end": 59.98
-    },
-    {
-     "word": " You",
-     "start": 60.44,
-     "end": 60.92
-    },
-    {
-     "word": " have",
-     "start": 60.92,
-     "end": 60.96
-    },
-    {
-     "word": " a",
-     "start": 60.96,
-     "end": 61.06
-    },
-    {
-     "word": " real",
-     "start": 61.06,
-     "end": 61.24
-    },
-    {
-     "word": " gun?",
-     "start": 61.24,
-     "end": 61.54
-    },
-    {
-     "word": " Yeah.",
-     "start": 62.86,
-     "end": 63.34
+     "word": " болезнь?",
+     "start": 3.66,
+     "end": 4.2
     }
    ],
    "metrics": {
-    "motion": 0.16933333333333334,
-    "motion_p90": 0.5774666666666667,
-    "static_share": 0.06563706563706563,
-    "peak_db": 5.419195175170898,
-    "level_db": -31.702966690063477
+    "motion": 0.24363715466608657,
+    "motion_p90": 0.5958668696976289,
+    "static_share": 0.0,
+    "peak_db": 33.27842712402344,
+    "level_db": -57.0457763671875
    },
    "silence": []
   }
