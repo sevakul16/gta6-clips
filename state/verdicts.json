@@ -1,54 +1,4 @@
 {
- "chat-2932226282-1123": {
-  "at": "2026-11-19T02:14:15.563869+00:00",
-  "moment_score": 7,
-  "what_happens": "Announces a 'nice little left turn, watch how I do this', slides straight into a pole and Lucia is thrown through the windshield; deadpan 'write that down so you know not to do that'; chat roars with style-point jokes. Avatar streamer, cam box set by hand around the peanut avatar",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "\"Watch how I do this\" 💀",
-  "keep_start": 30.0,
-  "keep_end": 59.0,
-  "cam": [
-   0.15,
-   0.7,
-   0.22,
-   0.3
-  ],
-  "hook": "Watch this turn",
-  "cover_at": 52.5
- },
- "chat-2932226282-1152": {
-  "at": "2026-11-19T02:14:15.617330+00:00",
-  "moment_score": 3,
-  "what_happens": "Dark story cutscene and a chat vote on killing a character; clip ends before the outcome, frames too dark",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2932753534-312": {
-  "at": "2026-11-19T02:14:15.669317+00:00",
-  "moment_score": 5,
-  "what_happens": "Bar cutscene, then chat pushes him to accept the dance prompt while he begs to decline; funny talk but dark cutscene frames and no gameplay event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "AntediluvianSpicyKuduBudBlast-3RuKCabPuhQ3Fgh2": {
-  "at": "2026-11-19T02:14:15.710667+00:00",
-  "moment_score": 2,
-  "what_happens": "Cinematic montage with a nude couple at a pool; nudity, no gameplay moment",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "UnusualConsiderateLionGingerPower-oJF7Ao2MX9omrH0x": {
-  "at": "2026-11-19T02:14:15.760539+00:00",
-  "moment_score": 4,
-  "what_happens": "Story cutscene argument with a girlfriend in a bikini; dialogue only, source already has burnt-in captions",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "BoringWimpyKleeItsBoshyTime-hL8MjYyweIzttJt8": {
   "at": "2026-11-19T03:14:45.743259+00:00",
   "moment_score": 1,
@@ -1623,6 +1573,49 @@
   "at": "2026-11-21T01:15:34.022833+00:00",
   "moment_score": 3,
   "what_happens": "Складывает тела в контейнер и фотографирует, мрачно и без понятного события, звук очень тихий.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "PlayfulBoldHerbsArgieB8-qR-KOx9v--6LQbKQ": {
+  "at": "2026-11-21T02:15:08.286013+00:00",
+  "moment_score": 7,
+  "what_happens": "Ночью в океане подплывает к гидроциклу с неоном, за рулём сидит собака; садится позади, и пёс везёт его в открытое море, пока друг спрашивает, вывезет ли она и где берег. Картинка тёмная, но собаку за рулём видно. Субтитры уже вшиты, звук тихий.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Подплыл к гидроциклу, а за рулём пёс. Сел, и пёс повёз его в океан 🐕",
+  "hook": "Собака за рулём",
+  "cover_at": 6.3,
+  "no_subs": true
+ },
+ "GeniusExquisiteTruffleTheRinger-yaF0AG72JWEGGrCQ": {
+  "at": "2026-11-21T02:15:08.329736+00:00",
+  "moment_score": 4,
+  "what_happens": "Злится и гоняется с кулаками за отдыхающим на пляже, обычная драка без развязки, много мата.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935185818-575": {
+  "at": "2026-11-21T02:15:08.374906+00:00",
+  "moment_score": 5,
+  "what_happens": "Грабит ювелирный, приезжает полиция, его убивают при попытке угнать машину; провал понятный, но рядовой, длинная пауза с чёрным экраном в конце.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2934772009-1281": {
+  "at": "2026-11-21T02:15:08.419182+00:00",
+  "moment_score": 2,
+  "what_happens": "Только сюжетная сцена в квартире, звук почти не слышен, события нет.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935449800-207": {
+  "at": "2026-11-21T02:15:08.472767+00:00",
+  "moment_score": 4,
+  "what_happens": "Проваливает мини-игру со сверлением сейфа и перезапускает контрольную точку, почти весь клип тёмная камера в трубе.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
