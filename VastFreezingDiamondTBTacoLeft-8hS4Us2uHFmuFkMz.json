@@ -1,0 +1,48 @@
+{
+ "id": "VastFreezingDiamondTBTacoLeft-8hS4Us2uHFmuFkMz",
+ "kind": "clip",
+ "login": "t2x2",
+ "name": "T2x2",
+ "language": "ru",
+ "source": "Twitch clip made by a viewer, 301 views, titled \"Бустер перепил\"",
+ "url": "https://www.twitch.tv/t2x2/clip/VastFreezingDiamondTBTacoLeft-8hS4Us2uHFmuFkMz",
+ "section": null,
+ "duration": 13.9,
+ "frames": "3 columns x 4 rows, left to right then top to bottom",
+ "frame_times": [
+  0.6,
+  1.7,
+  2.9,
+  4.1,
+  5.2,
+  6.4,
+  7.5,
+  8.7,
+  9.9,
+  11.0,
+  12.2,
+  13.3
+ ],
+ "video_size": [
+  2560,
+  1440
+ ],
+ "boxes": "lime = webcam crop (top of the vertical video), yellow = gameplay crop (bottom)",
+ "cam_box": [
+  0.757,
+  0.646,
+  0.18,
+  0.225
+ ],
+ "metrics": {
+  "motion": 0.2,
+  "motion_p90": 0.339,
+  "static_share": 0.018,
+  "peak_db": 15.151,
+  "level_db": -31.749
+ },
+ "found_at": "2026-11-21T21:54:26.221320+00:00",
+ "silent_stretches": null,
+ "chat_at_spike": null,
+ "transcript": "[0s] Я не хочу Ты что,\n[5s] бля? Бустер перепил повидать, бля Что\n[12s] -то здесь до хуя машин брошенных, блядь, которые"
+}

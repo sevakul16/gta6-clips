@@ -1,0 +1,65 @@
+{
+ "id": "chat-2936368149-293",
+ "kind": "chat",
+ "login": "joe_bartolozzi",
+ "name": "Joe_Bartolozzi",
+ "language": "en",
+ "source": "cut from the live stream at a chat spike: 39 chatters in 15 s, 4.3x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+ "url": "https://www.twitch.tv/videos/2936368149",
+ "section": [
+  13154.349424,
+  13210.349424
+ ],
+ "duration": 60.0,
+ "frames": "3 columns x 5 rows, left to right then top to bottom",
+ "frame_times": [
+  2.0,
+  6.0,
+  10.0,
+  14.0,
+  18.0,
+  22.0,
+  26.0,
+  30.0,
+  34.0,
+  38.0,
+  42.0,
+  46.0,
+  50.0,
+  54.0,
+  58.0
+ ],
+ "video_size": [
+  1280,
+  720
+ ],
+ "boxes": "lime = webcam crop (top of the vertical video), yellow = gameplay crop (bottom)",
+ "cam_box": [
+  0.788,
+  0.35,
+  0.19,
+  0.237
+ ],
+ "metrics": {
+  "motion": 0.367,
+  "motion_p90": 0.6,
+  "static_share": 0.0,
+  "peak_db": 11.691,
+  "level_db": -37.751
+ },
+ "found_at": "2026-11-21T21:54:15.754260+00:00",
+ "silent_stretches": null,
+ "chat_at_spike": [
+  "7x no",
+  "2x Gone",
+  "RIP TRUCK",
+  "No it’s not",
+  "w music",
+  "Its gone",
+  "No music Sadge",
+  "one guyed",
+  "your cars are fine",
+  "they trolling"
+ ],
+ "transcript": "[0s] Brutal never what\n[8s] about Mandy are there still more people chasing up? Okay,\n[15s] I think we're clear so what now stick to the plan first\n[20s] need a fresh ride What\n[28s] about my fucking beefed up truck that I spent two hours getting you\n[32s] ready? Ready now. We're\n[39s] driving some shitter again Con\n[43s] that's gone is it actually gone? Oh"
+}

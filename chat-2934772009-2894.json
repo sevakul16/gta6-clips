@@ -1,0 +1,69 @@
+{
+ "id": "chat-2934772009-2894",
+ "kind": "chat",
+ "login": "steel",
+ "name": "steel",
+ "language": "ru",
+ "source": "cut from the live stream at a chat spike: 40 chatters in 15 s, 5.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+ "url": "https://www.twitch.tv/videos/2934772009",
+ "section": [
+  130200.334461,
+  130256.334461
+ ],
+ "duration": 61.9,
+ "frames": "3 columns x 5 rows, left to right then top to bottom",
+ "frame_times": [
+  2.1,
+  6.2,
+  10.3,
+  14.4,
+  18.6,
+  22.7,
+  26.8,
+  30.9,
+  35.1,
+  39.2,
+  43.3,
+  47.4,
+  51.6,
+  55.7,
+  59.8
+ ],
+ "video_size": [
+  1920,
+  1080
+ ],
+ "boxes": "lime = webcam crop (top of the vertical video), yellow = gameplay crop (bottom)",
+ "cam_box": [
+  0.032,
+  0.226,
+  0.144,
+  0.181
+ ],
+ "metrics": {
+  "motion": 0.31,
+  "motion_p90": 0.494,
+  "static_share": 0.008,
+  "peak_db": 4.26,
+  "level_db": -25.864
+ },
+ "found_at": "2026-11-21T21:53:19.386234+00:00",
+ "silent_stretches": null,
+ "chat_at_spike": [
+  "5x 0",
+  "4x опа",
+  "2x 0 ͏",
+  "2x Ого",
+  "2x о",
+  "2x Джан",
+  "литл сура",
+  "Фуй русская тварь",
+  "Пиздеец",
+  "Его сейчас выйбут",
+  "литл мэн",
+  "хахахахахахах",
+  "ЪХАХАХАХА",
+  "далай"
+ ],
+ "transcript": "[1s] Ты помнишь, что это safe work? Из ДМ? Ты слышишь,\n[5s] когда я говорю? Поехали, давай! Вау! Вау! Я\n[10s] отказался от этого, блин! Ты, милый, как у кайфа -бой из мессенджера, а? Или\n[14s] ты, кайф? Эй,\n[22s] что происходит? Не боишься\n[27s] мне? Что ты\n[31s] делаешь так долго? Ух\n[48s] ты, ебались, гуси Кэн! Лючок -чуть, ты\n[52s] ударил, ты в морфе, ты что -то сделал! Ни\n[59s] висом лайн! А, ладно!"
+}
