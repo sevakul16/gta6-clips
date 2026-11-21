@@ -1,28 +1,4 @@
 {
- "chat-2933495403-1068": {
-  "at": "2026-11-19T23:13:02.504719+00:00",
-  "moment_score": 1,
-  "what_happens": "Uneventful night drive in a story mission; he asks chat if they are asleep and the spike is viewers answering no. Betting banners at the edges, nothing happens",
-  "gameplay_visible": true,
-  "gambling_ad": true,
-  "caption": ""
- },
- "chat-2933504535-1083": {
-  "at": "2026-11-19T23:13:02.544704+00:00",
-  "moment_score": 2,
-  "what_happens": "He comes back from a break, checks the map and walks the character around drinking coffee while asking who is back; the chat spike is pluses and gift-sub thanks. No moment",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2932167852-3048": {
-  "at": "2026-11-19T23:13:02.583341+00:00",
-  "moment_score": 2,
-  "what_happens": "Cutscene and the start of a mission drive in a convertible, then the pause menu while he asks where viewers are watching from; the chat spike is city names. No moment",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2933504535-1198": {
   "at": "2026-11-20T01:13:48.575274+00:00",
   "moment_score": 5,
@@ -2289,5 +2265,43 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "PlumpPatientGarageDancingBanana-A0E5pc811pyb_EzW": {
+  "at": "2026-11-21T23:13:57.457957+00:00",
+  "moment_score": 7,
+  "what_happens": "Собирается угнать спорткар, сканирует его телефоном, и тут рядом останавливается полицейская машина; делает вид, что разминает затёкшую ногу («здрасьте, нога затекла»), потом выдыхает: «полиция какая внимательная». Завязка, поворот и смешная импровизация за 26 секунд, день, вебка хорошо видна",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Собрался угнать машину, а мимо проехала полиция. Пришлось импровизировать 😂",
+  "hook": "Нога затекла",
+  "cover_at": 12.1
+ },
+ "chat-2936081791-746": {
+  "at": "2026-11-21T23:13:57.518311+00:00",
+  "moment_score": 3,
+  "what_happens": "Перестрелка в тёмном жилом комплексе, чат кричит про забытую сумку, стример этого не замечает; события в кадре нет, картинка тёмная",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2936081791-795": {
+  "at": "2026-11-21T23:13:57.573042+00:00",
+  "moment_score": 2,
+  "what_happens": "Катсцена перед ограблением и меню паузы, чат голосует «доиграть или спать»; игрового события нет",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2936368149-339": {
+  "at": "2026-11-21T23:13:57.634353+00:00",
+  "moment_score": 6,
+  "what_happens": "Все прохожие разбегаются от него, заходит в парикмахерскую постричься, и оттуда все с криком убегают; он не понимает, почему («Do I smell bad?»), чат смеётся. Начало с голубем и меню сохранения отрезано. Звук тихий, поднимется автоматически. Английский, на полку",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "He just wanted a haircut. The whole barbershop ran for their lives 😭",
+  "keep_start": 27.0,
+  "keep_end": 56.0,
+  "hook": "Everyone runs away",
+  "cover_at": 35.5
  }
 }
