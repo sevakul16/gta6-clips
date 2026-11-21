@@ -1,28 +1,4 @@
 {
- "BoringWimpyKleeItsBoshyTime-hL8MjYyweIzttJt8": {
-  "at": "2026-11-19T03:14:45.743259+00:00",
-  "moment_score": 1,
-  "what_happens": "Strip club private dance with topless nudity through the whole clip",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2932753534-347": {
-  "at": "2026-11-19T03:14:45.786626+00:00",
-  "moment_score": 5,
-  "what_happens": "Shootout at a burning plane wreck, he finishes off a downed enemy and chat calls it cold, then something knocks him down; hard to read on screen, almost no speech, webcam not detected",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2932753534-400": {
-  "at": "2026-11-19T03:14:45.838139+00:00",
-  "moment_score": 5,
-  "what_happens": "Flying lesson: scenic seaplane flight with in-game banter, then the plane is destroyed off-camera and the mission fails; chat laughs, but the crash itself is barely visible and two plane-fail clips are already queued or posted",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "HorribleFlaccidPuddingThunBeast-Comabgr_d1V3-N-s": {
   "at": "2026-11-19T04:13:13.232226+00:00",
   "moment_score": 1,
@@ -1616,6 +1592,83 @@
   "at": "2026-11-21T02:15:08.472767+00:00",
   "moment_score": 4,
   "what_happens": "Проваливает мини-игру со сверлением сейфа и перезапускает контрольную точку, почти весь клип тёмная камера в трубе.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935185818-613": {
+  "at": "2026-11-21T03:15:56.390164+00:00",
+  "moment_score": 6,
+  "what_happens": "Едет на серебристом кабриолете, машина встаёт вертикально в воздухе, приземляется на колёса на парковке и едет дальше по газону; реакция: that was crazy, that was badass; чат: EZ, WICKED, What a stunt. Английский, на полку.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Car goes fully vertical mid-air and he just drives away 😳",
+  "keep_start": 20.0,
+  "keep_end": 49.0,
+  "cam": [
+   0.0,
+   0.185,
+   0.26,
+   0.325
+  ],
+  "hook": "Landed it somehow",
+  "cover_at": 30.5
+ },
+ "ObliqueInspiringCheesecakeTebowing-huuzgGSBpCe3Wh3x": {
+  "at": "2026-11-21T03:15:56.435853+00:00",
+  "moment_score": 6,
+  "what_happens": "Ночью на полной скорости влетает в столб, героиню выбрасывает на капот, она садится обратно и уезжает; реакция: самая большая авария с начала игры, двигатель убит с одного удара. Зрительский клип с вшитыми субтитрами. Английский, на полку.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Biggest crash of the playthrough: one pole and the engine is done 💥",
+  "hook": "Biggest crash yet",
+  "cover_at": 3.9,
+  "no_subs": true
+ },
+ "ShinySpunkyCrowGrammarKing-pfkKEggFVAgEqWVp": {
+  "at": "2026-11-21T03:15:56.479800+00:00",
+  "moment_score": 4,
+  "what_happens": "Уходит от двух звёзд на BMX и дважды падает в кусты; почти без слов и без развязки, пролистали бы.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935402411-411": {
+  "at": "2026-11-21T03:15:56.518799+00:00",
+  "moment_score": 4,
+  "what_happens": "Больничная катсцена, затем его убивают в коридоре, WASTED, смеётся; большая часть ролика катсцена, сам момент слабый.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "GorgeousSparklingSkunkPanicBasket-RYUWwZlETCTRvFLb": {
+  "at": "2026-11-21T03:15:56.558194+00:00",
+  "moment_score": 4,
+  "what_happens": "Забегает в море, садится с девушкой на гидроцикл и уезжает, шутит про морских чудовищ; ничего не происходит, вебкамера очень мелкая.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "EnchantingPlacidJaguarMcaT-XWGnCp83K1fldV5v": {
+  "at": "2026-11-21T03:15:56.597945+00:00",
+  "moment_score": 3,
+  "what_happens": "Миссия: уезжает от полиции на самокате и возвращается к напарнице, в конце катсцена; конкретного события нет, вебкамера автоматически не найдена.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935449800-299": {
+  "at": "2026-11-21T03:15:56.637535+00:00",
+  "moment_score": 3,
+  "what_happens": "Автосалон: катсцена и выбор машины на парковке, спрашивает чат про марку; события в игре нет.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935449800-303": {
+  "at": "2026-11-21T03:15:56.678354+00:00",
+  "moment_score": 3,
+  "what_happens": "Автосалон: ходит между машинами и выбирает Comet Retro для Джейсона; события в игре нет.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
