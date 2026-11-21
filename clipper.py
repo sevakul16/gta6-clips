@@ -609,12 +609,22 @@ def render(src, dst, cam, label, words, keep=None, cover=None, cover_secs=0.5):
                f"[vs][cv]overlay=0:0:enable='lt(t,{cover_secs})'[v]")
     else:
         fc += f";[v0]subtitles='{ass}'[v]"
+    # a quiet stream is lifted towards the loudness of the other posts in a feed (they measure about -15 to -20 dB);
+    # a track under LIFT_FLOOR is left alone, so a muted one still fails the sound check after the render
+    vol = mean_volume(src, t0, dur)
+    gain = min(MAX_GAIN, TARGET_VOL - vol) if vol is not None and LIFT_FLOOR < vol < TARGET_VOL - 1 else 0.0
+    lift = ["-af", f"volume={gain:.1f}dB,alimiter=limit=0.89:level=false", "-ar", "48000"] if gain else []
+    if gain:
+        log(f"   quiet sound ({vol} dB) lifted by {gain:.1f} dB")
     subprocess.run(["ffmpeg", "-y", "-v", "error", *inputs,
                     "-filter_complex", fc,
-                    "-map", "[v]", "-map", "0:a?", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+                    "-map", "[v]", "-map", "0:a?", *lift, "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
                     "-r", "30", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart",
                     "-pix_fmt", "yuv420p", str(dst)], check=True)
     return dst
+
+
+TARGET_VOL, MAX_GAIN, LIFT_FLOOR = -18.0, 20.0, -50.0   # mean volume aimed at, the most gain given, no lift below this
 
 
 MUTE_RUN, MUTE_SHARE = 10.0, 0.25   # that long in a row, or that share of the part: muted, not a quiet pause
@@ -668,8 +678,9 @@ def sound_lost(src, cid, keep=None):
     return sum(b for _, b in now) - sum(b for _, b in then)
 
 
-def mean_volume(path):
-    r = subprocess.run(["ffmpeg", "-v", "info", "-nostats", "-i", str(path), "-vn", "-af", "volumedetect",
+def mean_volume(path, t0=None, dur=None):
+    span = (["-ss", f"{t0:.2f}"] if t0 else []) + (["-t", f"{dur:.2f}"] if dur else [])
+    r = subprocess.run(["ffmpeg", "-v", "info", "-nostats", *span, "-i", str(path), "-vn", "-af", "volumedetect",
                         "-f", "null", "-"], capture_output=True, text=True)
     m = re.search(r"mean_volume: (-?[\d.]+) dB", r.stderr)
     return float(m.group(1)) if m else None
