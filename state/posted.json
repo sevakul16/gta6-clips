@@ -740,16 +740,6 @@
   }
  },
  "rejected": {
-  "chat-2931256643-2904": {
-   "at": "2026-11-18T22:23:35.360155+00:00",
-   "why": "editor: no gameplay on screen",
-   "login": "welovegames"
-  },
-  "SucculentAmusedSalmonTooSpicy-IqzDRPpAM3KgQV7o": {
-   "at": "2026-11-18T22:23:35.360519+00:00",
-   "why": "editor: 4/10, Ordinary shootout while the streamer praises auto-aim with heavy swearing; no standout event",
-   "login": "evelone2004"
-  },
   "chat-2932213364-957": {
    "at": "2026-11-18T23:07:27.839896+00:00",
    "why": "picture is almost static (motion 0.01)",
@@ -2930,6 +2920,805 @@
     "static_share": 0.0380952380952381,
     "peak_db": 7.683492660522461,
     "level_db": -22.512836456298828
+   },
+   "silence": []
+  },
+  "chat-2936081791-746": {
+   "id": "chat-2936081791-746",
+   "url": "https://www.twitch.tv/videos/2936081791",
+   "section": [
+    33531.739042,
+    33587.739042
+   ],
+   "kind": "chat",
+   "views": 86,
+   "title": "",
+   "vod": "2936081791",
+   "vod_t": 33531.739042,
+   "group": "ru",
+   "login": "recrent",
+   "name": "Recrent",
+   "viewers": 11716,
+   "chat_score": 6.88,
+   "found_at": "2026-11-21T22:37:31.534486+00:00",
+   "spike_at": "2026-11-21T22:19:43.739042+00:00",
+   "chat": [
+    "28x сумка",
+    "7x СУМКУ",
+    "3x СУМКУ ЗАБЕРИ",
+    "3x сумку забыл",
+    "2x Сумки",
+    "2x чвв",
+    "2x СУМКАААА",
+    "2x @Recrent сумка",
+    "2x СУМКААААА",
+    "2x SUMKA",
+    "2x Сумку не забудь",
+    "СУМКУУУУУ",
+    "сумка с товаром",
+    "СУМКА!",
+    "сумкааа",
+    "Сууууумка",
+    "РЮКЗАК",
+    "сумка Дима",
+    "СУМКЭ яыы"
+   ],
+   "source": "cut from the live stream at a chat spike: 86 chatters in 15 s, 6.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-21T22:38:06.846866+00:00",
+   "cam": [
+    90,
+    477,
+    285,
+    200
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 58.0,
+   "words": [
+    {
+     "word": " Слушайте,",
+     "start": 5.45,
+     "end": 6.17
+    },
+    {
+     "word": " но",
+     "start": 6.27,
+     "end": 6.31
+    },
+    {
+     "word": " они",
+     "start": 6.31,
+     "end": 6.47
+    },
+    {
+     "word": " охуенную",
+     "start": 6.47,
+     "end": 6.95
+    },
+    {
+     "word": " миссию",
+     "start": 6.95,
+     "end": 7.35
+    },
+    {
+     "word": " выбрали",
+     "start": 7.35,
+     "end": 7.73
+    },
+    {
+     "word": " для",
+     "start": 7.73,
+     "end": 7.95
+    },
+    {
+     "word": " показа",
+     "start": 7.95,
+     "end": 8.31
+    },
+    {
+     "word": " геймплея.",
+     "start": 8.31,
+     "end": 9.73
+    },
+    {
+     "word": " Ну",
+     "start": 12.29,
+     "end": 13.01
+    },
+    {
+     "word": " наведи",
+     "start": 13.01,
+     "end": 13.29
+    },
+    {
+     "word": " свет,",
+     "start": 13.29,
+     "end": 13.57
+    },
+    {
+     "word": " твой",
+     "start": 13.75,
+     "end": 13.79
+    },
+    {
+     "word": " мать.",
+     "start": 13.79,
+     "end": 13.99
+    },
+    {
+     "word": " Так,",
+     "start": 28.98,
+     "end": 29.7
+    },
+    {
+     "word": " охуенную.",
+     "start": 29.7,
+     "end": 30.42
+    },
+    {
+     "word": " Ча?",
+     "start": 43.24,
+     "end": 43.68
+    },
+    {
+     "word": " Заблокировано,",
+     "start": 43.96,
+     "end": 44.4
+    },
+    {
+     "word": " а",
+     "start": 44.46,
+     "end": 44.56
+    },
+    {
+     "word": " я",
+     "start": 44.56,
+     "end": 44.66
+    },
+    {
+     "word": " не",
+     "start": 44.66,
+     "end": 44.74
+    },
+    {
+     "word": " смогу",
+     "start": 44.74,
+     "end": 44.98
+    },
+    {
+     "word": " выбить?",
+     "start": 44.98,
+     "end": 45.22
+    },
+    {
+     "word": " А",
+     "start": 46.7,
+     "end": 47.14
+    },
+    {
+     "word": " куда",
+     "start": 51.01,
+     "end": 51.19
+    },
+    {
+     "word": " мы",
+     "start": 51.19,
+     "end": 51.41
+    },
+    {
+     "word": " тогда?",
+     "start": 51.41,
+     "end": 51.53
+    }
+   ],
+   "metrics": {
+    "motion": 0.27297491039426525,
+    "motion_p90": 0.5539068100358423,
+    "static_share": 0.008658008658008658,
+    "peak_db": 4.194507598876953,
+    "level_db": -22.938121795654297
+   },
+   "silence": []
+  },
+  "chat-2936368149-339": {
+   "id": "chat-2936368149-339",
+   "url": "https://www.twitch.tv/videos/2936368149",
+   "section": [
+    15239.744379,
+    15295.744379
+   ],
+   "kind": "chat",
+   "views": 59,
+   "title": "",
+   "vod": "2936368149",
+   "vod_t": 15239.744379,
+   "group": "en",
+   "login": "joe_bartolozzi",
+   "name": "Joe_Bartolozzi",
+   "viewers": 15772,
+   "chat_score": 4.54,
+   "found_at": "2026-11-21T22:37:31.660049+00:00",
+   "spike_at": "2026-11-21T22:24:33.744379+00:00",
+   "chat": [
+    "5x LOL",
+    "5x lmao",
+    "4x LMFAOOOO",
+    "3x LMFAO",
+    "2x LMAOOOO",
+    "2x LMAOOOOO",
+    "2x LMAOOO",
+    "AURAAAA",
+    "feelds the AURA",
+    "😭😭",
+    "100% The hair",
+    "ts so funny",
+    "LOOL",
+    "LMFAOOOOOOO",
+    "There’s panic in the streets"
+   ],
+   "source": "cut from the live stream at a chat spike: 59 chatters in 15 s, 4.5x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-21T22:38:32.460820+00:00",
+   "cam": [
+    1028,
+    254,
+    226,
+    159
+   ],
+   "size": [
+    1280,
+    720
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " little",
+     "start": 0.0,
+     "end": 0.22
+    },
+    {
+     "word": " pigeon.",
+     "start": 0.22,
+     "end": 0.66
+    },
+    {
+     "word": " Would",
+     "start": 1.06,
+     "end": 1.46
+    },
+    {
+     "word": " you",
+     "start": 1.46,
+     "end": 1.54
+    },
+    {
+     "word": " like",
+     "start": 1.54,
+     "end": 1.72
+    },
+    {
+     "word": " to",
+     "start": 1.72,
+     "end": 1.88
+    },
+    {
+     "word": " pigeon?",
+     "start": 1.88,
+     "end": 2.22
+    },
+    {
+     "word": " The",
+     "start": 4.12,
+     "end": 4.52
+    },
+    {
+     "word": " cop",
+     "start": 4.52,
+     "end": 4.68
+    },
+    {
+     "word": " just",
+     "start": 4.68,
+     "end": 4.88
+    },
+    {
+     "word": " ran",
+     "start": 4.88,
+     "end": 5.1
+    },
+    {
+     "word": " over",
+     "start": 5.1,
+     "end": 5.34
+    },
+    {
+     "word": " the",
+     "start": 5.34,
+     "end": 5.5
+    },
+    {
+     "word": " bird.",
+     "start": 5.5,
+     "end": 5.76
+    },
+    {
+     "word": " Let's",
+     "start": 9.49,
+     "end": 9.81
+    },
+    {
+     "word": " see",
+     "start": 9.81,
+     "end": 9.95
+    },
+    {
+     "word": " if",
+     "start": 9.95,
+     "end": 10.03
+    },
+    {
+     "word": " we",
+     "start": 10.03,
+     "end": 10.09
+    },
+    {
+     "word": " can",
+     "start": 10.09,
+     "end": 10.21
+    },
+    {
+     "word": " get",
+     "start": 10.21,
+     "end": 10.33
+    },
+    {
+     "word": " a",
+     "start": 10.33,
+     "end": 10.43
+    },
+    {
+     "word": " haircut",
+     "start": 10.43,
+     "end": 10.71
+    },
+    {
+     "word": " now.",
+     "start": 10.71,
+     "end": 11.15
+    },
+    {
+     "word": " The",
+     "start": 13.89,
+     "end": 14.09
+    },
+    {
+     "word": " game",
+     "start": 14.09,
+     "end": 14.25
+    },
+    {
+     "word": " has",
+     "start": 14.25,
+     "end": 14.53
+    },
+    {
+     "word": " to",
+     "start": 14.53,
+     "end": 14.71
+    },
+    {
+     "word": " be",
+     "start": 14.71,
+     "end": 14.81
+    },
+    {
+     "word": " glitched",
+     "start": 14.81,
+     "end": 15.15
+    },
+    {
+     "word": " out.",
+     "start": 15.15,
+     "end": 15.29
+    },
+    {
+     "word": " I",
+     "start": 15.51,
+     "end": 15.81
+    },
+    {
+     "word": " feel",
+     "start": 15.81,
+     "end": 16.03
+    },
+    {
+     "word": " like",
+     "start": 16.03,
+     "end": 16.19
+    },
+    {
+     "word": " I",
+     "start": 16.19,
+     "end": 16.33
+    },
+    {
+     "word": " feel",
+     "start": 16.33,
+     "end": 16.59
+    },
+    {
+     "word": " like",
+     "start": 16.59,
+     "end": 16.71
+    },
+    {
+     "word": " I",
+     "start": 16.71,
+     "end": 16.79
+    },
+    {
+     "word": " need",
+     "start": 16.79,
+     "end": 16.89
+    },
+    {
+     "word": " to",
+     "start": 16.89,
+     "end": 16.99
+    },
+    {
+     "word": " restart",
+     "start": 16.99,
+     "end": 17.19
+    },
+    {
+     "word": " my",
+     "start": 17.19,
+     "end": 17.39
+    },
+    {
+     "word": " game.",
+     "start": 17.39,
+     "end": 17.57
+    },
+    {
+     "word": " I",
+     "start": 20.94,
+     "end": 21.06
+    },
+    {
+     "word": " need",
+     "start": 21.06,
+     "end": 21.2
+    },
+    {
+     "word": " to",
+     "start": 21.2,
+     "end": 21.3
+    },
+    {
+     "word": " restart",
+     "start": 21.3,
+     "end": 21.48
+    },
+    {
+     "word": " my",
+     "start": 21.48,
+     "end": 21.66
+    },
+    {
+     "word": " game.",
+     "start": 21.66,
+     "end": 21.86
+    },
+    {
+     "word": " They're",
+     "start": 22.28,
+     "end": 22.56
+    },
+    {
+     "word": " like",
+     "start": 22.56,
+     "end": 22.72
+    },
+    {
+     "word": " all",
+     "start": 22.72,
+     "end": 23.02
+    },
+    {
+     "word": " running",
+     "start": 23.02,
+     "end": 23.28
+    },
+    {
+     "word": " away",
+     "start": 23.28,
+     "end": 23.48
+    },
+    {
+     "word": " from",
+     "start": 23.48,
+     "end": 23.66
+    },
+    {
+     "word": " me",
+     "start": 23.66,
+     "end": 23.86
+    },
+    {
+     "word": " like",
+     "start": 23.86,
+     "end": 24.32
+    },
+    {
+     "word": " instantly.",
+     "start": 24.32,
+     "end": 24.72
+    },
+    {
+     "word": " Do",
+     "start": 25.08,
+     "end": 25.16
+    },
+    {
+     "word": " I",
+     "start": 25.16,
+     "end": 25.26
+    },
+    {
+     "word": " like",
+     "start": 25.26,
+     "end": 25.38
+    },
+    {
+     "word": " smell",
+     "start": 25.38,
+     "end": 25.7
+    },
+    {
+     "word": " bad?",
+     "start": 25.7,
+     "end": 26.0
+    },
+    {
+     "word": " Look",
+     "start": 26.8,
+     "end": 27.2
+    },
+    {
+     "word": " like",
+     "start": 27.2,
+     "end": 27.4
+    },
+    {
+     "word": " I'm",
+     "start": 27.4,
+     "end": 27.54
+    },
+    {
+     "word": " clearing",
+     "start": 27.54,
+     "end": 28.14
+    },
+    {
+     "word": " out.",
+     "start": 28.14,
+     "end": 28.8
+    },
+    {
+     "word": " Hey,",
+     "start": 30.94,
+     "end": 31.26
+    },
+    {
+     "word": " man,",
+     "start": 31.28,
+     "end": 31.44
+    },
+    {
+     "word": " are",
+     "start": 31.58,
+     "end": 31.62
+    },
+    {
+     "word": " you?",
+     "start": 31.62,
+     "end": 31.76
+    },
+    {
+     "word": " Are",
+     "start": 32.08,
+     "end": 32.22
+    },
+    {
+     "word": " we",
+     "start": 32.22,
+     "end": 32.38
+    },
+    {
+     "word": " good?",
+     "start": 32.38,
+     "end": 32.54
+    },
+    {
+     "word": " You",
+     "start": 42.76,
+     "end": 43.24
+    },
+    {
+     "word": " look",
+     "start": 43.24,
+     "end": 43.72
+    },
+    {
+     "word": " so",
+     "start": 43.72,
+     "end": 43.98
+    },
+    {
+     "word": " scared.",
+     "start": 43.98,
+     "end": 44.26
+    },
+    {
+     "word": " Why?",
+     "start": 44.48,
+     "end": 44.62
+    },
+    {
+     "word": " What",
+     "start": 44.84,
+     "end": 45.1
+    },
+    {
+     "word": " is",
+     "start": 45.1,
+     "end": 45.3
+    },
+    {
+     "word": " happening?",
+     "start": 45.3,
+     "end": 45.64
+    },
+    {
+     "word": " Why",
+     "start": 46.66,
+     "end": 46.86
+    },
+    {
+     "word": " are",
+     "start": 46.86,
+     "end": 47.02
+    },
+    {
+     "word": " they",
+     "start": 47.02,
+     "end": 47.18
+    },
+    {
+     "word": " all",
+     "start": 47.18,
+     "end": 47.42
+    },
+    {
+     "word": " bro?",
+     "start": 47.42,
+     "end": 47.7
+    },
+    {
+     "word": " I",
+     "start": 47.84,
+     "end": 47.94
+    },
+    {
+     "word": " literally",
+     "start": 47.94,
+     "end": 48.22
+    },
+    {
+     "word": " can't",
+     "start": 48.22,
+     "end": 48.58
+    },
+    {
+     "word": " interact",
+     "start": 48.58,
+     "end": 48.88
+    },
+    {
+     "word": " with",
+     "start": 48.88,
+     "end": 49.1
+    },
+    {
+     "word": " anybody.",
+     "start": 49.1,
+     "end": 49.34
+    },
+    {
+     "word": " Like",
+     "start": 50.88,
+     "end": 51.36
+    },
+    {
+     "word": " if",
+     "start": 51.36,
+     "end": 51.5
+    },
+    {
+     "word": " I",
+     "start": 51.5,
+     "end": 51.64
+    },
+    {
+     "word": " run",
+     "start": 51.64,
+     "end": 51.88
+    },
+    {
+     "word": " down",
+     "start": 51.88,
+     "end": 52.1
+    },
+    {
+     "word": " the",
+     "start": 52.1,
+     "end": 52.28
+    },
+    {
+     "word": " road",
+     "start": 52.28,
+     "end": 52.56
+    },
+    {
+     "word": " and",
+     "start": 52.56,
+     "end": 52.8
+    },
+    {
+     "word": " I",
+     "start": 52.8,
+     "end": 52.94
+    },
+    {
+     "word": " see",
+     "start": 52.94,
+     "end": 53.28
+    },
+    {
+     "word": " somebody",
+     "start": 53.28,
+     "end": 53.64
+    },
+    {
+     "word": " don't",
+     "start": 53.64,
+     "end": 53.96
+    },
+    {
+     "word": " look",
+     "start": 53.96,
+     "end": 54.14
+    },
+    {
+     "word": " like",
+     "start": 54.14,
+     "end": 54.64
+    },
+    {
+     "word": " this",
+     "start": 54.64,
+     "end": 54.8
+    }
+   ],
+   "metrics": {
+    "motion": 0.5010514103400768,
+    "motion_p90": 0.7010079037053151,
+    "static_share": 0.053811659192825115,
+    "peak_db": 12.52077865600586,
+    "level_db": -38.08431625366211
    },
    "silence": []
   }
