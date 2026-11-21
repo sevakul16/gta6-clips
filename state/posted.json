@@ -740,36 +740,6 @@
   }
  },
  "rejected": {
-  "chat-2932213364-151": {
-   "at": "2026-11-18T12:57:07.171507+00:00",
-   "why": "picture is almost static (motion 0.02)",
-   "login": "recrent"
-  },
-  "chat-2932226282-111": {
-   "at": "2026-11-18T13:01:02.327765+00:00",
-   "why": "editor: 3/10, Phone call about a lockup door code, the chat spike is people spamming the code 7700; nothing happens on screen",
-   "login": "theburntpeanut"
-  },
-  "chat-2931685068-1266": {
-   "at": "2026-11-18T13:01:02.328345+00:00",
-   "why": "editor: 5/10, Night drive in an old pickup that skids off the road and bumps a police car; too dark and mild to stop a feed",
-   "login": "strogo"
-  },
-  "chat-2932209626-137": {
-   "at": "2026-11-18T13:01:02.328926+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "honeymad"
-  },
-  "DifferentPreciousWaffleHotPokket-wMDh_pqLv3Ve6ZOc": {
-   "at": "2026-11-18T13:01:02.329563+00:00",
-   "why": "editor: 5/10, Cutscene with cops, then the character jogs away from a two-star police chase on foot for most of the clip; little happens visually",
-   "login": "xqc"
-  },
-  "ObliviousConcernedThymeChocolateRain-Q_-8TaQnO_jkkzJ_": {
-   "at": "2026-11-18T13:01:02.330224+00:00",
-   "why": "editor: 3/10, 13 seconds of a dark phone-call cutscene; the clip is about the streamer and a guest in the room, nothing happens in the game",
-   "login": "buster"
-  },
   "chat-2932185714-280": {
    "at": "2026-11-18T13:23:19.886389+00:00",
    "why": "picture is almost static (motion 0.02)",
@@ -2514,6 +2484,11 @@
    "at": "2026-11-21T12:49:00.648150+00:00",
    "why": "no sound in the recording (16 s of 56 s are silent)",
    "login": "fanum"
+  },
+  "chat-2935925087-368": {
+   "at": "2026-11-21T13:11:09.167588+00:00",
+   "why": "picture is almost static (motion 0.02)",
+   "login": "melharucos"
   }
  },
  "pending": {
@@ -4247,6 +4222,192 @@
     "static_share": 0.008403361344537815,
     "peak_db": 10.390091896057129,
     "level_db": -23.941789627075195
+   },
+   "silence": []
+  },
+  "TrappedSpinelessGrassKreygasm-qVWNrdYCN0YNq0JV": {
+   "id": "TrappedSpinelessGrassKreygasm-qVWNrdYCN0YNq0JV",
+   "url": "https://www.twitch.tv/t2x2/clip/TrappedSpinelessGrassKreygasm-qVWNrdYCN0YNq0JV",
+   "section": null,
+   "kind": "clip",
+   "views": 300,
+   "title": "АХАХАХАХ",
+   "vod": "2934846936",
+   "vod_t": 9240,
+   "group": "ru",
+   "login": "t2x2",
+   "name": "T2x2",
+   "source": "Twitch clip made by a viewer, 300 views, titled \"АХАХАХАХ\"",
+   "at": "2026-11-21T13:11:42.613317+00:00",
+   "cam": [
+    1937,
+    930,
+    460,
+    324
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 34.6,
+   "words": [
+    {
+     "word": " Безел,",
+     "start": 18.22,
+     "end": 19.0
+    },
+    {
+     "word": " бле.",
+     "start": 19.04,
+     "end": 19.24
+    },
+    {
+     "word": " Хм",
+     "start": 21.6,
+     "end": 21.8
+    },
+    {
+     "word": "-хм",
+     "start": 21.8,
+     "end": 22.46
+    },
+    {
+     "word": "-хм",
+     "start": 22.46,
+     "end": 22.72
+    },
+    {
+     "word": "-хм",
+     "start": 22.72,
+     "end": 23.28
+    },
+    {
+     "word": "-хм",
+     "start": 23.28,
+     "end": 23.9
+    },
+    {
+     "word": "-хм",
+     "start": 23.9,
+     "end": 23.9
+    },
+    {
+     "word": "-хм.",
+     "start": 23.9,
+     "end": 24.4
+    },
+    {
+     "word": " Ту",
+     "start": 24.4,
+     "end": 24.82
+    },
+    {
+     "word": "-ту",
+     "start": 24.82,
+     "end": 24.96
+    },
+    {
+     "word": "-ту",
+     "start": 24.96,
+     "end": 25.4
+    },
+    {
+     "word": "-ту",
+     "start": 25.4,
+     "end": 25.78
+    },
+    {
+     "word": "-ту",
+     "start": 25.78,
+     "end": 26.0
+    },
+    {
+     "word": "-ту",
+     "start": 26.0,
+     "end": 26.36
+    },
+    {
+     "word": "-ум.",
+     "start": 26.36,
+     "end": 26.78
+    },
+    {
+     "word": " Ту",
+     "start": 27.58,
+     "end": 27.98
+    },
+    {
+     "word": "-ду",
+     "start": 27.98,
+     "end": 28.1
+    },
+    {
+     "word": "-ду",
+     "start": 28.1,
+     "end": 28.54
+    },
+    {
+     "word": "-ду",
+     "start": 28.54,
+     "end": 28.96
+    },
+    {
+     "word": "-ду",
+     "start": 28.96,
+     "end": 29.32
+    },
+    {
+     "word": "-дум.",
+     "start": 29.32,
+     "end": 29.88
+    },
+    {
+     "word": " Дум",
+     "start": 30.58,
+     "end": 30.92
+    },
+    {
+     "word": "-дудум",
+     "start": 30.92,
+     "end": 31.42
+    },
+    {
+     "word": "-дум",
+     "start": 31.42,
+     "end": 31.84
+    },
+    {
+     "word": "-дум",
+     "start": 31.84,
+     "end": 32.2
+    },
+    {
+     "word": "-дум",
+     "start": 32.2,
+     "end": 32.5
+    },
+    {
+     "word": "-дум.",
+     "start": 32.5,
+     "end": 32.64
+    },
+    {
+     "word": " Давай,",
+     "start": 33.7,
+     "end": 34.04
+    },
+    {
+     "word": " брат.",
+     "start": 34.14,
+     "end": 34.26
+    }
+   ],
+   "metrics": {
+    "motion": 0.2817054600826626,
+    "motion_p90": 0.5314915524617505,
+    "static_share": 0.0,
+    "peak_db": 22.380231857299805,
+    "level_db": -40.6099853515625
    },
    "silence": []
   }
