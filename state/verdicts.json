@@ -1,44 +1,4 @@
 {
- "chat-2932305259-1245": {
-  "at": "2026-11-19T05:13:26.368178+00:00",
-  "moment_score": 3,
-  "what_happens": "Night drive with in-game dialogue; chat reacts to a line from an NPC, nothing happens on screen and the frames are dark",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "RoundOutstandingFungusStoneLightning-5YP8a2fVmgEKQEUk": {
-  "at": "2026-11-19T05:13:26.412818+00:00",
-  "moment_score": 3,
-  "what_happens": "Sink-repair cutscene with a woman in a thong bikini; dialogue only, sexualised framing, source has burned-in captions",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "ScrumptiousShyAdminLeeroyJenkins-nNsy1CplXC65umvz": {
-  "at": "2026-11-19T05:13:26.463168+00:00",
-  "moment_score": 3,
-  "what_happens": "Story cutscene argument with a woman in a bikini; dialogue only, no reaction worth a clip",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2932923366-355": {
-  "at": "2026-11-19T05:13:26.504766+00:00",
-  "moment_score": 2,
-  "what_happens": "Walking through a dark hotel corridor looking for Jason; nothing happens",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2932923366-382": {
-  "at": "2026-11-19T05:13:26.541673+00:00",
-  "moment_score": 2,
-  "what_happens": "Driving a pickup to a meeting and a short cutscene while chat says hello; nothing happens",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2932305259-1300": {
   "at": "2026-11-19T06:13:53.979391+00:00",
   "moment_score": 6,
@@ -1686,6 +1646,43 @@
   "moment_score": 3,
   "what_happens": "Сюжетная катсцена: окровавленный подвешенный человек просит добить его, потом начало побега; почти целиком катсцена, жёсткая сцена и спойлер.",
   "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "SpineyAlluringPelicanTheRinger-00QFqg0dr9f1z8OD": {
+  "at": "2026-11-21T05:13:32.794209+00:00",
+  "moment_score": 7,
+  "what_happens": "Стоит в кузове жёлтого пикапа, кладёт пакет с продуктами, и баг подбрасывает его высоко в небо над городом; падает на берег и погибает, экран МЁРТВ, реакция: я сдох. Зрительский клип с вшитыми субтитрами; после 21-й секунды чёрный экран, обрезано. Реклама под вебкамерой и чат не попадают в кадр.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Положил пакет в пикап, а игра отправила его в небо 😳",
+  "keep_start": 0.0,
+  "keep_end": 21.0,
+  "hook": "Баг закинул в небо",
+  "cover_at": 11.1,
+  "no_subs": true
+ },
+ "chat-2935383720-534": {
+  "at": "2026-11-21T05:13:32.838056+00:00",
+  "moment_score": 5,
+  "what_happens": "Ограбление офиса: в суматохе хватает напарницу, выходит и угоняет минивэн; чат смеётся, но сам почти молчит и без пояснений непонятно, что произошло.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935449800-495": {
+  "at": "2026-11-21T05:13:32.879534+00:00",
+  "moment_score": 4,
+  "what_happens": "Ночная миссия: едет за машиной под диалог, на светофоре врезается в неё и открывает меню с перезапуском; тёмная картинка, момент слабый.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935613960-281": {
+  "at": "2026-11-21T05:13:32.924104+00:00",
+  "moment_score": 2,
+  "what_happens": "Сюжетная катсцена: герои в постели, затем заставка пятой главы; геймплея нет, спойлер.",
+  "gameplay_visible": false,
   "gambling_ad": false,
   "caption": ""
  }
