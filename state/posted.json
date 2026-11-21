@@ -4940,6 +4940,142 @@
     "level_db": -28.743791580200195
    },
    "silence": []
+  },
+  "CoyKindCroissantKappaRoss-LmxpIbjFpQxa_KWr": {
+   "id": "CoyKindCroissantKappaRoss-LmxpIbjFpQxa_KWr",
+   "url": "https://www.twitch.tv/evelone2004/clip/CoyKindCroissantKappaRoss-LmxpIbjFpQxa_KWr",
+   "section": null,
+   "kind": "clip",
+   "views": 362,
+   "title": "опять грязнулька",
+   "vod": "2932196917",
+   "vod_t": 20310,
+   "group": "ru",
+   "login": "evelone2004",
+   "name": "evelone2004",
+   "source": "Twitch clip made by a viewer, 362 views, titled \"опять грязнулька\"",
+   "at": "2026-11-21T17:01:28.213330+00:00",
+   "cam": [
+    0,
+    631,
+    285,
+    200
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 21.6,
+   "words": [
+    {
+     "word": " Ебать,",
+     "start": 0.82,
+     "end": 1.56
+    },
+    {
+     "word": " Грязной,",
+     "start": 1.66,
+     "end": 1.92
+    },
+    {
+     "word": " когда",
+     "start": 1.98,
+     "end": 2.16
+    },
+    {
+     "word": " я...",
+     "start": 2.16,
+     "end": 2.94
+    },
+    {
+     "word": " Ты",
+     "start": 7.61,
+     "end": 7.89
+    },
+    {
+     "word": " смотри.",
+     "start": 7.89,
+     "end": 8.29
+    },
+    {
+     "word": " Да",
+     "start": 8.51,
+     "end": 8.61
+    },
+    {
+     "word": " погоди",
+     "start": 8.61,
+     "end": 8.93
+    },
+    {
+     "word": " меня",
+     "start": 8.93,
+     "end": 9.05
+    },
+    {
+     "word": " тут,",
+     "start": 9.05,
+     "end": 9.19
+    },
+    {
+     "word": " блядь,",
+     "start": 9.27,
+     "end": 9.49
+    },
+    {
+     "word": " нахуй.",
+     "start": 9.57,
+     "end": 9.97
+    },
+    {
+     "word": " А",
+     "start": 13.92,
+     "end": 14.1
+    },
+    {
+     "word": " мы",
+     "start": 14.1,
+     "end": 14.16
+    },
+    {
+     "word": " все",
+     "start": 14.16,
+     "end": 14.3
+    },
+    {
+     "word": " деньги",
+     "start": 14.3,
+     "end": 14.48
+    },
+    {
+     "word": " про",
+     "start": 14.48,
+     "end": 14.78
+    },
+    {
+     "word": " ебан",
+     "start": 14.78,
+     "end": 15.02
+    },
+    {
+     "word": " взять?",
+     "start": 15.02,
+     "end": 15.24
+    },
+    {
+     "word": " Ааааааааааааааааааааааааааа...",
+     "start": 17.32,
+     "end": 17.76
+    }
+   ],
+   "metrics": {
+    "motion": 0.048467926689576175,
+    "motion_p90": 0.34882588774341367,
+    "static_share": 0.23529411764705882,
+    "peak_db": 10.304222106933594,
+    "level_db": -35.8123893737793
+   },
+   "silence": []
   }
  },
  "pool": {
