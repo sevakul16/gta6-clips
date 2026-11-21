@@ -1,0 +1,91 @@
+[
+ {
+  "id": "chat-2934772009-2894",
+  "kind": "chat",
+  "login": "steel",
+  "views": 40,
+  "url": "https://www.twitch.tv/videos/2934772009",
+  "section": [
+   130200.334461,
+   130256.334461
+  ],
+  "verdict": "pending",
+  "metrics": {
+   "motion": 0.3096054888507719,
+   "motion_p90": 0.49371069182389943,
+   "static_share": 0.008097165991902834,
+   "peak_db": 4.259988784790039,
+   "level_db": -25.864049911499023
+  }
+ },
+ {
+  "id": "chat-2936483331-160",
+  "kind": "chat",
+  "login": "t2x2",
+  "views": 108,
+  "url": "https://www.twitch.tv/videos/2936483331",
+  "section": [
+   7175.309849,
+   7231.309849
+  ],
+  "verdict": "pending",
+  "metrics": {
+   "motion": 0.4749474294829962,
+   "motion_p90": 0.6322964252048437,
+   "static_share": 0.0,
+   "peak_db": 3.7339372634887695,
+   "level_db": -18.839475631713867
+  }
+ },
+ {
+  "id": "chat-2936368149-293",
+  "kind": "chat",
+  "login": "joe_bartolozzi",
+  "views": 39,
+  "url": "https://www.twitch.tv/videos/2936368149",
+  "section": [
+   13154.349424,
+   13210.349424
+  ],
+  "verdict": "pending",
+  "metrics": {
+   "motion": 0.36689021723283277,
+   "motion_p90": 0.5997375710745007,
+   "static_share": 0.0,
+   "peak_db": 11.691343307495117,
+   "level_db": -37.7511100769043
+  }
+ },
+ {
+  "id": "VastFreezingDiamondTBTacoLeft-8hS4Us2uHFmuFkMz",
+  "kind": "clip",
+  "login": "t2x2",
+  "views": 301,
+  "url": "https://www.twitch.tv/t2x2/clip/VastFreezingDiamondTBTacoLeft-8hS4Us2uHFmuFkMz",
+  "section": null,
+  "verdict": "pending",
+  "metrics": {
+   "motion": 0.2001305199042854,
+   "motion_p90": 0.33917772460300194,
+   "static_share": 0.01818181818181818,
+   "peak_db": 15.151006698608398,
+   "level_db": -31.748943328857422
+  }
+ },
+ {
+  "id": "InterestingBoringParrotRaccAttack-44_in8PCGKnwVnPT",
+  "kind": "clip",
+  "login": "summit1g",
+  "views": 303,
+  "url": "https://www.twitch.tv/summit1g/clip/InterestingBoringParrotRaccAttack-44_in8PCGKnwVnPT",
+  "section": null,
+  "verdict": "pending",
+  "metrics": {
+   "motion": 0.2625515947467167,
+   "motion_p90": 0.42654409005628513,
+   "static_share": 0.0,
+   "peak_db": 5.505092620849609,
+   "level_db": -33.848697662353516
+  }
+ }
+]
