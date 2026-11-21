@@ -5110,6 +5110,557 @@
     "level_db": -12.63936996459961
    },
    "silence": []
+  },
+  "chat-2935437958-924": {
+   "id": "chat-2935437958-924",
+   "url": "https://www.twitch.tv/videos/2935437958",
+   "section": [
+    41572.914348,
+    41628.914348
+   ],
+   "kind": "chat",
+   "views": 50,
+   "title": "",
+   "vod": "2935437958",
+   "vod_t": 41572.914348,
+   "group": "en",
+   "login": "fanum",
+   "name": "Fanum",
+   "viewers": 14156,
+   "chat_score": 7.14,
+   "found_at": "2026-11-21T10:08:34.741513+00:00",
+   "spike_at": "2026-11-21T10:01:31.914348+00:00",
+   "chat": [
+    "8x Me",
+    "3x fanumTROUPE1",
+    "3x Yurrrr",
+    "2x meee",
+    "2x fanumTROUPEani1",
+    "2x meeeeeee",
+    "2x Mee",
+    "Yuuuuyurrrrr",
+    "ME MANE",
+    "eeeeeeee",
+    "meeeee",
+    "everyone",
+    "Yo",
+    "I’m upppp",
+    "We here brodieeeee"
+   ],
+   "source": "cut from the live stream at a chat spike: 50 chatters in 15 s, 7.1x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-21T10:09:08.203569+00:00",
+   "cam": [
+    130,
+    488,
+    189,
+    133
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 59.2,
+   "words": [
+    {
+     "word": " No,",
+     "start": 0.0,
+     "end": 0.62
+    },
+    {
+     "word": " no,",
+     "start": 0.68,
+     "end": 0.9
+    },
+    {
+     "word": " no,",
+     "start": 0.92,
+     "end": 1.16
+    },
+    {
+     "word": " we",
+     "start": 1.16,
+     "end": 1.36
+    },
+    {
+     "word": " don't",
+     "start": 1.36,
+     "end": 1.5
+    },
+    {
+     "word": " y",
+     "start": 1.5,
+     "end": 1.66
+    },
+    {
+     "word": "'all",
+     "start": 1.66,
+     "end": 1.7
+    },
+    {
+     "word": " think",
+     "start": 1.7,
+     "end": 1.86
+    },
+    {
+     "word": " it's",
+     "start": 1.86,
+     "end": 2.04
+    },
+    {
+     "word": " what",
+     "start": 2.04,
+     "end": 2.2
+    },
+    {
+     "word": " it's",
+     "start": 2.2,
+     "end": 2.66
+    },
+    {
+     "word": " cool",
+     "start": 2.66,
+     "end": 2.88
+    },
+    {
+     "word": " You",
+     "start": 8.51,
+     "end": 8.83
+    },
+    {
+     "word": " caught",
+     "start": 8.83,
+     "end": 9.15
+    },
+    {
+     "word": " us",
+     "start": 9.15,
+     "end": 9.31
+    },
+    {
+     "word": " on",
+     "start": 9.31,
+     "end": 9.45
+    },
+    {
+     "word": " a",
+     "start": 9.45,
+     "end": 9.53
+    },
+    {
+     "word": " good",
+     "start": 9.53,
+     "end": 9.67
+    },
+    {
+     "word": " day.",
+     "start": 9.67,
+     "end": 9.95
+    },
+    {
+     "word": " Yes,",
+     "start": 10.29,
+     "end": 10.61
+    },
+    {
+     "word": " they're",
+     "start": 10.67,
+     "end": 10.77
+    },
+    {
+     "word": " not",
+     "start": 10.77,
+     "end": 10.91
+    },
+    {
+     "word": " taking",
+     "start": 10.91,
+     "end": 11.11
+    },
+    {
+     "word": " any",
+     "start": 11.11,
+     "end": 11.31
+    },
+    {
+     "word": " chances",
+     "start": 11.31,
+     "end": 11.63
+    },
+    {
+     "word": " Yeah,",
+     "start": 25.74,
+     "end": 26.06
+    },
+    {
+     "word": " you",
+     "start": 34.08,
+     "end": 34.22
+    },
+    {
+     "word": " sell",
+     "start": 34.22,
+     "end": 34.38
+    },
+    {
+     "word": " up",
+     "start": 34.38,
+     "end": 34.56
+    },
+    {
+     "word": " on",
+     "start": 34.56,
+     "end": 34.68
+    },
+    {
+     "word": " me",
+     "start": 34.68,
+     "end": 34.76
+    },
+    {
+     "word": " you",
+     "start": 34.76,
+     "end": 34.92
+    },
+    {
+     "word": " sell",
+     "start": 34.92,
+     "end": 35.04
+    },
+    {
+     "word": " up",
+     "start": 35.04,
+     "end": 35.16
+    },
+    {
+     "word": " on",
+     "start": 35.16,
+     "end": 35.28
+    },
+    {
+     "word": " me",
+     "start": 35.28,
+     "end": 35.4
+    },
+    {
+     "word": " try",
+     "start": 35.4,
+     "end": 35.52
+    },
+    {
+     "word": " the",
+     "start": 35.52,
+     "end": 35.66
+    },
+    {
+     "word": " buzzer",
+     "start": 35.66,
+     "end": 35.9
+    },
+    {
+     "word": " on",
+     "start": 35.9,
+     "end": 36.0
+    },
+    {
+     "word": " the",
+     "start": 36.0,
+     "end": 36.06
+    },
+    {
+     "word": " game",
+     "start": 36.06,
+     "end": 36.24
+    },
+    {
+     "word": " who",
+     "start": 38.38,
+     "end": 39.38
+    },
+    {
+     "word": " sell",
+     "start": 39.38,
+     "end": 39.54
+    },
+    {
+     "word": " up",
+     "start": 39.54,
+     "end": 39.72
+    },
+    {
+     "word": " on",
+     "start": 39.72,
+     "end": 39.84
+    },
+    {
+     "word": " me",
+     "start": 39.84,
+     "end": 40.1
+    },
+    {
+     "word": " This",
+     "start": 49.58,
+     "end": 49.9
+    },
+    {
+     "word": " better",
+     "start": 49.9,
+     "end": 50.22
+    },
+    {
+     "word": " be",
+     "start": 50.22,
+     "end": 50.44
+    },
+    {
+     "word": " worth",
+     "start": 50.44,
+     "end": 50.72
+    },
+    {
+     "word": " it",
+     "start": 50.72,
+     "end": 51.36
+    },
+    {
+     "word": " credit",
+     "start": 56.61,
+     "end": 57.21
+    },
+    {
+     "word": " check",
+     "start": 57.21,
+     "end": 57.51
+    },
+    {
+     "word": " You",
+     "start": 58.29,
+     "end": 58.77
+    }
+   ],
+   "metrics": {
+    "motion": 0.27793040293040294,
+    "motion_p90": 0.5221189067342913,
+    "static_share": 0.1228813559322034,
+    "peak_db": 12.469615936279297,
+    "level_db": -24.835845947265625
+   },
+   "silence": []
+  },
+  "PoorOddSoybeanSoonerLater-r11i8-nRU3oOEnW8": {
+   "id": "PoorOddSoybeanSoonerLater-r11i8-nRU3oOEnW8",
+   "url": "https://www.twitch.tv/kaicenat/clip/PoorOddSoybeanSoonerLater-r11i8-nRU3oOEnW8",
+   "section": null,
+   "kind": "clip",
+   "views": 307,
+   "title": "Kai was NOT ready for this GTA 6 scene",
+   "vod": "2934866208",
+   "vod_t": 35778,
+   "group": "en",
+   "login": "kaicenat",
+   "name": "KaiCenat",
+   "source": "Twitch clip made by a viewer, 307 views, titled \"Kai was NOT ready for this GTA 6 scene\"",
+   "at": "2026-11-21T10:09:32.090507+00:00",
+   "cam": [
+    63,
+    483,
+    210,
+    147
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 40.0,
+   "words": [
+    {
+     "word": " I",
+     "start": 6.48,
+     "end": 6.72
+    },
+    {
+     "word": " was",
+     "start": 6.72,
+     "end": 6.9
+    },
+    {
+     "word": " waiting",
+     "start": 6.9,
+     "end": 7.1
+    },
+    {
+     "word": " on",
+     "start": 7.1,
+     "end": 7.26
+    },
+    {
+     "word": " that",
+     "start": 7.26,
+     "end": 7.38
+    },
+    {
+     "word": " knock,",
+     "start": 7.38,
+     "end": 7.68
+    },
+    {
+     "word": " I",
+     "start": 7.76,
+     "end": 8.42
+    },
+    {
+     "word": " was",
+     "start": 8.42,
+     "end": 8.7
+    },
+    {
+     "word": " waiting",
+     "start": 10.46,
+     "end": 10.64
+    },
+    {
+     "word": " on",
+     "start": 10.64,
+     "end": 10.76
+    },
+    {
+     "word": " the",
+     "start": 10.76,
+     "end": 10.84
+    },
+    {
+     "word": " knock,",
+     "start": 10.84,
+     "end": 11.06
+    },
+    {
+     "word": " you",
+     "start": 11.08,
+     "end": 11.2
+    },
+    {
+     "word": " know,",
+     "start": 11.2,
+     "end": 11.28
+    },
+    {
+     "word": " you",
+     "start": 11.58,
+     "end": 11.68
+    },
+    {
+     "word": " gotta",
+     "start": 11.68,
+     "end": 11.82
+    },
+    {
+     "word": " act",
+     "start": 11.82,
+     "end": 12.12
+    },
+    {
+     "word": " like",
+     "start": 12.12,
+     "end": 12.26
+    },
+    {
+     "word": " you",
+     "start": 12.26,
+     "end": 12.42
+    },
+    {
+     "word": " don't",
+     "start": 12.42,
+     "end": 12.58
+    },
+    {
+     "word": " care,",
+     "start": 12.58,
+     "end": 12.8
+    },
+    {
+     "word": " you",
+     "start": 12.98,
+     "end": 13.06
+    },
+    {
+     "word": " gotta",
+     "start": 13.06,
+     "end": 13.2
+    },
+    {
+     "word": " act",
+     "start": 13.2,
+     "end": 13.4
+    },
+    {
+     "word": " like",
+     "start": 13.4,
+     "end": 13.5
+    },
+    {
+     "word": " you",
+     "start": 13.5,
+     "end": 13.64
+    },
+    {
+     "word": " don't",
+     "start": 13.64,
+     "end": 13.74
+    },
+    {
+     "word": " care,",
+     "start": 13.74,
+     "end": 13.98
+    },
+    {
+     "word": " and",
+     "start": 14.1,
+     "end": 14.34
+    },
+    {
+     "word": " then",
+     "start": 14.34,
+     "end": 14.5
+    },
+    {
+     "word": " it",
+     "start": 14.5,
+     "end": 14.62
+    },
+    {
+     "word": " gonna",
+     "start": 14.62,
+     "end": 14.72
+    },
+    {
+     "word": " keep",
+     "start": 14.72,
+     "end": 14.92
+    },
+    {
+     "word": " on",
+     "start": 14.92,
+     "end": 15.14
+    },
+    {
+     "word": " your",
+     "start": 15.14,
+     "end": 15.3
+    },
+    {
+     "word": " ass",
+     "start": 15.3,
+     "end": 15.78
+    }
+   ],
+   "metrics": {
+    "motion": 0.13694762106452069,
+    "motion_p90": 0.6284060426373006,
+    "static_share": 0.025157232704402517,
+    "peak_db": 16.559898376464844,
+    "level_db": -28.502077102661133
+   },
+   "silence": []
   }
  },
  "pool": {
