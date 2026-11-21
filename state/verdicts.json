@@ -1,30 +1,4 @@
 {
- "chat-2933504535-256": {
-  "at": "2026-11-19T13:18:30.679960+00:00",
-  "moment_score": 7,
-  "what_happens": "Story mission fistfight: he gets beaten down by NPCs in an abandoned building and rages that the game is unfair while his friend on the second camera collapses laughing; chat erupts",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Его избивают по сюжету, а друг умирает со смеху 😂",
-  "keep_start": 0.0,
-  "keep_end": 59.0,
-  "cam": [
-   0.0,
-   0.575,
-   0.222,
-   0.22
-  ],
-  "hook": "Избили на сюжетке",
-  "cover_at": 14.9
- },
- "chat-2931685068-3217": {
-  "at": "2026-11-19T13:18:30.737445+00:00",
-  "moment_score": 2,
-  "what_happens": "Cutscene in a male strip club with dancers on stage, no gameplay, webcam not found",
-  "gameplay_visible": false,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2933453157-439": {
   "at": "2026-11-19T14:17:33.501756+00:00",
   "moment_score": 3,
@@ -1977,6 +1951,69 @@
   "at": "2026-11-21T13:14:02.287158+00:00",
   "moment_score": 1,
   "what_happens": "Конец стрима: сохранение, карта и прощание с чатом",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "RenownedTenderPterodactylTwitchRPG-avHOK3MkgGFmv52x": {
+  "at": "2026-11-21T14:14:06.062700+00:00",
+  "moment_score": 7,
+  "what_happens": "Прохожий пытается угнать машину игрока, героиня вытаскивает его и избивает, стример орёт; светлая понятная картинка",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "An NPC tried to steal his car in GTA 6. Big mistake 💀",
+  "keep_start": 0.0,
+  "keep_end": 26.0,
+  "hook": "NPC tried to steal it",
+  "cover_at": 13.5
+ },
+ "UnusualTrappedZucchiniTinyFace-Z3y23nJIFhfJzVZO": {
+  "at": "2026-11-21T14:14:06.105924+00:00",
+  "moment_score": 6,
+  "what_happens": "Баг: напарник без остановки повторяет одну и ту же реплику, пока вокруг аварии и пожар, стример смеётся",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "This NPC got stuck on one line and nothing could make him stop 💀",
+  "hook": "NPC stuck on repeat",
+  "cover_at": 6.0,
+  "no_subs": true
+ },
+ "chat-2935760785-802": {
+  "at": "2026-11-21T14:14:06.149487+00:00",
+  "moment_score": 5,
+  "what_happens": "Трюковой прыжок с доктором в багажнике и смешная реплика про космический корабль, но ночь, картинка тёмная, камера крошечная",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935760785-784": {
+  "at": "2026-11-21T14:14:06.192390+00:00",
+  "moment_score": 3,
+  "what_happens": "Одна катсцена с угрозой собаке, геймплея нет",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935925087-433": {
+  "at": "2026-11-21T14:14:06.235056+00:00",
+  "moment_score": 2,
+  "what_happens": "Ночная поездка и разговор про другую игру, события нет",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935956429-357": {
+  "at": "2026-11-21T14:14:06.284390+00:00",
+  "moment_score": 1,
+  "what_happens": "Вебкамеры в кадре нет, просто едет на пикапе",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935934475-367": {
+  "at": "2026-11-21T14:14:06.342514+00:00",
+  "moment_score": 1,
+  "what_happens": "Вебкамеры в кадре нет, едет и болтает с чатом",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
