@@ -2539,6 +2539,21 @@
    "at": "2026-11-21T18:30:36.004111+00:00",
    "why": "editor: 5/10, Диалог с NPC, потом жуткий прохожий гладит мёртвую кошку; это реплики игры, стример почти не реагирует, развязки нет",
    "login": "elajjaz"
+  },
+  "chat-2936063961-499": {
+   "at": "2026-11-21T18:52:09.386278+00:00",
+   "why": "picture is almost static (motion 0.00)",
+   "login": "whoplohoyparen"
+  },
+  "chat-2936063961-501": {
+   "at": "2026-11-21T18:53:29.078753+00:00",
+   "why": "picture is almost static (motion 0.00)",
+   "login": "whoplohoyparen"
+  },
+  "TemperedRepleteDonkeyTheThing-lkz_hzo0bncc6YzR": {
+   "at": "2026-11-21T18:53:50.075186+00:00",
+   "why": "same moment is already posted or queued",
+   "login": "evelone2004"
   }
  },
  "pending": {
@@ -2657,6 +2672,551 @@
     "static_share": 0.0,
     "peak_db": 4.54444694519043,
     "level_db": -25.495819091796875
+   },
+   "silence": []
+  },
+  "chat-2936297170-120": {
+   "id": "chat-2936297170-120",
+   "url": "https://www.twitch.tv/videos/2936297170",
+   "section": [
+    5360.338344,
+    5416.338344
+   ],
+   "kind": "chat",
+   "views": 75,
+   "title": "",
+   "vod": "2936297170",
+   "vod_t": 5360.338344,
+   "group": "en",
+   "login": "lirik",
+   "name": "LIRIK",
+   "viewers": 15474,
+   "chat_score": 3.41,
+   "found_at": "2026-11-21T18:51:48.557734+00:00",
+   "spike_at": "2026-11-21T18:34:00.338344+00:00",
+   "chat": [
+    "9x D:",
+    "7x KEKW",
+    "3x dancer",
+    "3x OMEGALUL",
+    "2x KEKVibe",
+    "2x Sway",
+    "2x TwitchConHYPE",
+    "2x wtf",
+    "2x KEKQ",
+    "2x o",
+    "2x KEK",
+    "CONTENT",
+    "Oh shiii",
+    "go help",
+    "4x KEKW combo",
+    "Help him",
+    "wo",
+    "D: Help him",
+    "Lmao"
+   ],
+   "source": "cut from the live stream at a chat spike: 75 chatters in 15 s, 3.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-21T18:53:47.008896+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " Why",
+     "start": 3.22,
+     "end": 3.76
+    },
+    {
+     "word": " not",
+     "start": 3.76,
+     "end": 4.0
+    },
+    {
+     "word": " why",
+     "start": 4.0,
+     "end": 4.32
+    },
+    {
+     "word": " not?",
+     "start": 4.32,
+     "end": 4.82
+    },
+    {
+     "word": " Let",
+     "start": 5.6,
+     "end": 6.08
+    },
+    {
+     "word": " me",
+     "start": 6.08,
+     "end": 6.18
+    },
+    {
+     "word": " see",
+     "start": 6.18,
+     "end": 6.34
+    },
+    {
+     "word": " where",
+     "start": 6.34,
+     "end": 6.46
+    },
+    {
+     "word": " we're",
+     "start": 6.46,
+     "end": 6.6
+    },
+    {
+     "word": " at",
+     "start": 6.6,
+     "end": 6.76
+    },
+    {
+     "word": " here",
+     "start": 6.76,
+     "end": 7.0
+    },
+    {
+     "word": " Yeah,",
+     "start": 8.6,
+     "end": 9.08
+    },
+    {
+     "word": " you",
+     "start": 9.1,
+     "end": 9.22
+    },
+    {
+     "word": " can",
+     "start": 9.22,
+     "end": 9.32
+    },
+    {
+     "word": " just",
+     "start": 9.32,
+     "end": 9.48
+    },
+    {
+     "word": " like",
+     "start": 9.48,
+     "end": 9.7
+    },
+    {
+     "word": " NPC",
+     "start": 9.7,
+     "end": 10.14
+    },
+    {
+     "word": " watch",
+     "start": 10.14,
+     "end": 10.7
+    },
+    {
+     "word": " in",
+     "start": 10.7,
+     "end": 10.9
+    },
+    {
+     "word": " this",
+     "start": 10.9,
+     "end": 11.06
+    },
+    {
+     "word": " game",
+     "start": 11.06,
+     "end": 11.3
+    },
+    {
+     "word": " as",
+     "start": 11.3,
+     "end": 11.46
+    },
+    {
+     "word": " well",
+     "start": 11.46,
+     "end": 11.72
+    },
+    {
+     "word": " There's",
+     "start": 11.72,
+     "end": 11.96
+    },
+    {
+     "word": " so",
+     "start": 11.96,
+     "end": 12.12
+    },
+    {
+     "word": " many",
+     "start": 12.12,
+     "end": 12.26
+    },
+    {
+     "word": " different",
+     "start": 12.26,
+     "end": 12.46
+    },
+    {
+     "word": " ways",
+     "start": 12.46,
+     "end": 12.7
+    },
+    {
+     "word": " to",
+     "start": 12.7,
+     "end": 12.88
+    },
+    {
+     "word": " play",
+     "start": 12.88,
+     "end": 13.12
+    },
+    {
+     "word": " it",
+     "start": 13.12,
+     "end": 13.32
+    },
+    {
+     "word": " like",
+     "start": 13.32,
+     "end": 13.94
+    },
+    {
+     "word": " I",
+     "start": 13.94,
+     "end": 14.2
+    },
+    {
+     "word": " guess",
+     "start": 14.2,
+     "end": 14.52
+    },
+    {
+     "word": " let's",
+     "start": 14.52,
+     "end": 15.1
+    },
+    {
+     "word": " go",
+     "start": 15.1,
+     "end": 15.24
+    },
+    {
+     "word": " do",
+     "start": 15.24,
+     "end": 15.48
+    },
+    {
+     "word": " this",
+     "start": 15.48,
+     "end": 16.36
+    },
+    {
+     "word": " and",
+     "start": 16.36,
+     "end": 16.78
+    },
+    {
+     "word": " shit,",
+     "start": 16.78,
+     "end": 17.08
+    },
+    {
+     "word": " but",
+     "start": 17.08,
+     "end": 17.5
+    },
+    {
+     "word": " The",
+     "start": 19.4,
+     "end": 19.88
+    },
+    {
+     "word": " NPCs",
+     "start": 19.88,
+     "end": 20.36
+    },
+    {
+     "word": " are",
+     "start": 20.36,
+     "end": 20.44
+    },
+    {
+     "word": " the",
+     "start": 20.44,
+     "end": 20.56
+    },
+    {
+     "word": " content",
+     "start": 20.56,
+     "end": 21.0
+    },
+    {
+     "word": " This",
+     "start": 24.1,
+     "end": 24.58
+    },
+    {
+     "word": " is",
+     "start": 24.58,
+     "end": 24.74
+    },
+    {
+     "word": " a",
+     "start": 24.74,
+     "end": 24.88
+    },
+    {
+     "word": " very",
+     "start": 24.88,
+     "end": 25.08
+    },
+    {
+     "word": " nice",
+     "start": 25.08,
+     "end": 25.32
+    },
+    {
+     "word": " paint",
+     "start": 25.32,
+     "end": 25.6
+    },
+    {
+     "word": " job.",
+     "start": 25.6,
+     "end": 25.86
+    },
+    {
+     "word": " Oh",
+     "start": 26.26,
+     "end": 26.74
+    },
+    {
+     "word": " my",
+     "start": 42.14,
+     "end": 42.34
+    },
+    {
+     "word": " god",
+     "start": 42.34,
+     "end": 42.72
+    },
+    {
+     "word": " Dude,",
+     "start": 46.2,
+     "end": 46.68
+    },
+    {
+     "word": " what",
+     "start": 46.68,
+     "end": 47.16
+    },
+    {
+     "word": " why",
+     "start": 47.16,
+     "end": 47.6
+    },
+    {
+     "word": " do",
+     "start": 47.6,
+     "end": 47.72
+    },
+    {
+     "word": " you",
+     "start": 47.72,
+     "end": 47.8
+    },
+    {
+     "word": " do",
+     "start": 47.8,
+     "end": 47.96
+    },
+    {
+     "word": " that?",
+     "start": 47.96,
+     "end": 48.22
+    },
+    {
+     "word": " Sir?",
+     "start": 50.33,
+     "end": 50.81
+    },
+    {
+     "word": " I'm",
+     "start": 52.9,
+     "end": 53.38
+    },
+    {
+     "word": " here.",
+     "start": 53.38,
+     "end": 53.54
+    },
+    {
+     "word": " I'm",
+     "start": 53.74,
+     "end": 53.78
+    },
+    {
+     "word": " here",
+     "start": 53.78,
+     "end": 54.08
+    },
+    {
+     "word": " Well,",
+     "start": 54.92,
+     "end": 55.16
+    },
+    {
+     "word": " get",
+     "start": 55.28,
+     "end": 55.48
+    },
+    {
+     "word": " him",
+     "start": 55.48,
+     "end": 55.6
+    },
+    {
+     "word": " out",
+     "start": 55.6,
+     "end": 55.7
+    },
+    {
+     "word": " of",
+     "start": 55.7,
+     "end": 55.82
+    },
+    {
+     "word": " the",
+     "start": 55.82,
+     "end": 55.86
+    }
+   ],
+   "metrics": {
+    "motion": 0.35256944444444444,
+    "motion_p90": 0.5845694444444445,
+    "static_share": 0.16143497757847533,
+    "peak_db": 9.150772094726562,
+    "level_db": -29.240711212158203
+   },
+   "silence": []
+  },
+  "DifferentProudCheeseFutureMan-J6NKch0NAmpPCK75": {
+   "id": "DifferentProudCheeseFutureMan-J6NKch0NAmpPCK75",
+   "url": "https://www.twitch.tv/xqc/clip/DifferentProudCheeseFutureMan-J6NKch0NAmpPCK75",
+   "section": null,
+   "kind": "clip",
+   "views": 379,
+   "title": "im acc cryinhg",
+   "vod": "2935383720",
+   "vod_t": 11681,
+   "group": "en",
+   "login": "xqc",
+   "name": "xQc",
+   "source": "Twitch clip made by a viewer, 379 views, titled \"im acc cryinhg\"",
+   "at": "2026-11-21T18:54:01.238842+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 42.4,
+   "words": [
+    {
+     "word": " Seriously,",
+     "start": 14.06,
+     "end": 14.48
+    },
+    {
+     "word": " okay,",
+     "start": 17.89,
+     "end": 18.51
+    },
+    {
+     "word": " hold",
+     "start": 18.57,
+     "end": 18.67
+    },
+    {
+     "word": " on.",
+     "start": 18.67,
+     "end": 18.99
+    },
+    {
+     "word": " I",
+     "start": 19.63,
+     "end": 19.99
+    },
+    {
+     "word": " guess",
+     "start": 19.99,
+     "end": 20.15
+    },
+    {
+     "word": " I",
+     "start": 20.15,
+     "end": 20.27
+    },
+    {
+     "word": " can",
+     "start": 20.27,
+     "end": 20.33
+    },
+    {
+     "word": " try",
+     "start": 20.33,
+     "end": 20.51
+    },
+    {
+     "word": " some",
+     "start": 20.51,
+     "end": 20.67
+    },
+    {
+     "word": " bum.",
+     "start": 20.67,
+     "end": 20.85
+    },
+    {
+     "word": " I",
+     "start": 39.84,
+     "end": 40.2
+    },
+    {
+     "word": " mean",
+     "start": 40.2,
+     "end": 40.48
+    },
+    {
+     "word": " I",
+     "start": 40.48,
+     "end": 41.74
+    },
+    {
+     "word": " thought",
+     "start": 41.74,
+     "end": 41.92
+    },
+    {
+     "word": " that",
+     "start": 41.92,
+     "end": 42.08
+    },
+    {
+     "word": " mountain",
+     "start": 42.08,
+     "end": 42.26
+    }
+   ],
+   "metrics": {
+    "motion": 0.18819444444444444,
+    "motion_p90": 0.5049305555555558,
+    "static_share": 0.2485207100591716,
+    "peak_db": 14.770204544067383,
+    "level_db": -39.36260986328125
    },
    "silence": []
   }
