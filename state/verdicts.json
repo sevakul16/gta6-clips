@@ -1,24 +1,4 @@
 {
- "chat-2933605288-425": {
-  "at": "2026-11-19T18:13:52.252321+00:00",
-  "moment_score": 2,
-  "what_happens": "Giveaway drawing on stream: a story cutscene, then the pause menu with a 'giveaway winner' overlay while he thanks viewers; chat congratulates the winner. Not a gameplay moment; webcam box is off the face, prediction-market sponsor logo on screen",
-  "gameplay_visible": false,
-  "gambling_ad": true,
-  "caption": ""
- },
- "chat-2932305259-2319": {
-  "at": "2026-11-19T18:13:52.306766+00:00",
-  "moment_score": 7,
-  "what_happens": "He trash-talks a chatter (your mom sucks at GTA, now what), takes a red car out of a parking garage and drives it straight into a canal; the car sinks, he swims out and says that is what he gets for talking so disrespectful. Chat laughs. Clear karma moment with the setup and payoff in one take",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Told chat \"your mom sucks at GTA\", then drove straight into the canal 💀",
-  "keep_start": 2.2,
-  "keep_end": 52.0,
-  "hook": "Instant karma",
-  "cover_at": 32.0
- },
  "chat-2933495403-741": {
   "at": "2026-11-19T19:13:32.879967+00:00",
   "moment_score": 2,
@@ -2146,5 +2126,56 @@
   ],
   "hook": "Not the stray dog",
   "cover_at": 45.0
+ },
+ "chat-2936081791-338": {
+  "at": "2026-11-21T18:14:09.962141+00:00",
+  "moment_score": 5,
+  "what_happens": "Порше застрял в грязи у ручья, почти минуту ругается и буксует, чат пишет «толкай»; развязки нет, сумерки, картинка тёмная",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2936004347-528": {
+  "at": "2026-11-21T18:14:10.017194+00:00",
+  "moment_score": 1,
+  "what_happens": "Вебки в кадре нет; ночью прячется за ящиком, собака загрызает, экран «Мертва»; звук очень тихий",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "ScaryAthleticRaisinPJSugar-8vaeuYOpax8YZmzm": {
+  "at": "2026-11-21T18:14:10.073633+00:00",
+  "moment_score": 3,
+  "what_happens": "Просит погладить собаку и бьёт её, дальше двадцать секунд мата в адрес игрока и фраза про депортацию в Украину: токсично, другого события нет",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2936158697-238": {
+  "at": "2026-11-21T18:14:10.121813+00:00",
+  "moment_score": 5,
+  "what_happens": "Диалог с NPC, потом жуткий прохожий гладит мёртвую кошку; это реплики игры, стример почти не реагирует, развязки нет",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "BitterFurtiveGerbilSmoocherZ-kOZkQNlKMJqfW_8s": {
+  "at": "2026-11-21T18:14:10.176218+00:00",
+  "moment_score": 6,
+  "what_happens": "Ограбление: двери лифта открываются, в холле стоит тигр, «back up, back up», Кай вскакивает со стула с поднятыми руками. Событие в первых 15 секундах, дальше пустой коридор; картинка тёмно-синяя, поэтому 6. В записи уже есть титры. Английский, на полку",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "The elevator opened and a tiger was waiting. Kai left his chair 😭",
+  "keep_start": 0.0,
+  "keep_end": 15.5,
+  "cam": [
+   0.02,
+   0.4,
+   0.165,
+   0.206
+  ],
+  "hook": "Tiger behind the door",
+  "cover_at": 3.8,
+  "no_subs": true
  }
 }
