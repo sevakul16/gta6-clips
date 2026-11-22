@@ -740,11 +740,6 @@
   }
  },
  "rejected": {
-  "chat-2932180623-1222": {
-   "at": "2026-11-19T00:55:49.515934+00:00",
-   "why": "picture is almost static (motion 0.03)",
-   "login": "steel"
-  },
   "chat-2932196917-1120": {
    "at": "2026-11-19T01:19:10.714272+00:00",
    "why": "editor: 4/10, Walks to a merch stall, talks to the seller and leaves without buying while bickering with a co-streamer; chat laughs and tells him to buy clothes; no visible event, webcam box catches only the guest",
@@ -4239,6 +4234,350 @@
     "static_share": 0.17391304347826086,
     "peak_db": 5.244199752807617,
     "level_db": -31.99518394470215
+   },
+   "silence": []
+  },
+  "chat-2936386266-516": {
+   "id": "chat-2936386266-516",
+   "url": "https://www.twitch.tv/videos/2936386266",
+   "section": [
+    23211.235947,
+    23267.235947
+   ],
+   "kind": "chat",
+   "views": 102,
+   "title": "",
+   "vod": "2936386266",
+   "vod_t": 23211.235947,
+   "group": "en",
+   "login": "zackrawrr",
+   "name": "zackrawrr",
+   "viewers": 45490,
+   "chat_score": 3.85,
+   "found_at": "2026-11-22T01:12:13.826892+00:00",
+   "spike_at": "2026-11-22T00:54:26.235947+00:00",
+   "chat": [
+    "13x om",
+    "12x LOL",
+    "4x LMAO",
+    "4x LUL",
+    "4x LO",
+    "2x EZ",
+    "om deserved",
+    "HAHAHAHHAHAHAHAHAHAHHA",
+    "HAHAHA",
+    "but did gta4 did it bette?",
+    "jeez",
+    "leaflitGas",
+    "ejecto seato cuz",
+    "LOL ͏"
+   ],
+   "source": "cut from the live stream at a chat spike: 102 chatters in 15 s, 3.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-22T01:12:46.808027+00:00",
+   "cam": [
+    0,
+    38,
+    793,
+    558
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 57.0,
+   "words": [
+    {
+     "word": " Yeah,",
+     "start": 12.14,
+     "end": 12.54
+    },
+    {
+     "word": " yeah,",
+     "start": 12.54,
+     "end": 12.94
+    },
+    {
+     "word": " let's",
+     "start": 12.98,
+     "end": 13.72
+    },
+    {
+     "word": " go",
+     "start": 13.72,
+     "end": 13.88
+    },
+    {
+     "word": " get",
+     "start": 13.88,
+     "end": 14.7
+    },
+    {
+     "word": " to",
+     "start": 26.83,
+     "end": 27.01
+    },
+    {
+     "word": " Redwood",
+     "start": 27.01,
+     "end": 27.33
+    },
+    {
+     "word": " Sweets",
+     "start": 27.33,
+     "end": 27.67
+    },
+    {
+     "word": " Resident",
+     "start": 27.67,
+     "end": 28.01
+    },
+    {
+     "word": " Park",
+     "start": 28.01,
+     "end": 28.35
+    },
+    {
+     "word": " and",
+     "start": 28.35,
+     "end": 28.97
+    },
+    {
+     "word": " take",
+     "start": 28.97,
+     "end": 29.23
+    },
+    {
+     "word": " a",
+     "start": 29.23,
+     "end": 29.37
+    },
+    {
+     "word": " minute",
+     "start": 29.37,
+     "end": 29.57
+    },
+    {
+     "word": " for",
+     "start": 29.57,
+     "end": 29.77
+    },
+    {
+     "word": " them",
+     "start": 29.77,
+     "end": 29.89
+    },
+    {
+     "word": " to",
+     "start": 29.89,
+     "end": 30.03
+    },
+    {
+     "word": " mobilize",
+     "start": 30.03,
+     "end": 30.31
+    },
+    {
+     "word": " over",
+     "start": 30.31,
+     "end": 30.69
+    },
+    {
+     "word": " here",
+     "start": 30.69,
+     "end": 30.97
+    },
+    {
+     "word": " Damn",
+     "start": 37.51,
+     "end": 37.91
+    },
+    {
+     "word": " that",
+     "start": 37.91,
+     "end": 38.31
+    },
+    {
+     "word": " shit",
+     "start": 38.31,
+     "end": 38.43
+    },
+    {
+     "word": " was",
+     "start": 38.43,
+     "end": 38.61
+    },
+    {
+     "word": " scary",
+     "start": 38.61,
+     "end": 39.13
+    },
+    {
+     "word": " Y",
+     "start": 44.91,
+     "end": 45.31
+    },
+    {
+     "word": "'all",
+     "start": 45.31,
+     "end": 45.71
+    },
+    {
+     "word": " got",
+     "start": 45.71,
+     "end": 45.85
+    },
+    {
+     "word": " to",
+     "start": 45.85,
+     "end": 45.93
+    },
+    {
+     "word": " get",
+     "start": 45.93,
+     "end": 46.03
+    },
+    {
+     "word": " out",
+     "start": 46.03,
+     "end": 46.19
+    },
+    {
+     "word": " of",
+     "start": 46.19,
+     "end": 46.25
+    },
+    {
+     "word": " the",
+     "start": 46.25,
+     "end": 46.31
+    },
+    {
+     "word": " car",
+     "start": 46.31,
+     "end": 46.51
+    },
+    {
+     "word": " good",
+     "start": 46.51,
+     "end": 47.85
+    },
+    {
+     "word": " y",
+     "start": 47.85,
+     "end": 48.29
+    },
+    {
+     "word": "'all",
+     "start": 48.29,
+     "end": 48.35
+    },
+    {
+     "word": " really",
+     "start": 48.35,
+     "end": 48.55
+    },
+    {
+     "word": " got",
+     "start": 48.55,
+     "end": 48.67
+    },
+    {
+     "word": " to",
+     "start": 48.67,
+     "end": 48.73
+    },
+    {
+     "word": " learn",
+     "start": 48.73,
+     "end": 48.87
+    },
+    {
+     "word": " how",
+     "start": 48.87,
+     "end": 49.01
+    },
+    {
+     "word": " to",
+     "start": 49.01,
+     "end": 49.03
+    },
+    {
+     "word": " drive",
+     "start": 49.03,
+     "end": 49.35
+    },
+    {
+     "word": " That",
+     "start": 51.23,
+     "end": 51.67
+    },
+    {
+     "word": " was",
+     "start": 51.67,
+     "end": 51.77
+    },
+    {
+     "word": " some",
+     "start": 51.77,
+     "end": 51.97
+    },
+    {
+     "word": " land,",
+     "start": 51.97,
+     "end": 52.31
+    },
+    {
+     "word": " bro.",
+     "start": 52.43,
+     "end": 52.61
+    },
+    {
+     "word": " Hey",
+     "start": 53.09,
+     "end": 53.43
+    },
+    {
+     "word": " nice",
+     "start": 53.43,
+     "end": 53.65
+    },
+    {
+     "word": " when",
+     "start": 53.65,
+     "end": 53.87
+    },
+    {
+     "word": " they",
+     "start": 53.87,
+     "end": 53.99
+    },
+    {
+     "word": " work",
+     "start": 53.99,
+     "end": 54.23
+    },
+    {
+     "word": " No,",
+     "start": 55.69,
+     "end": 56.13
+    },
+    {
+     "word": " it's",
+     "start": 56.13,
+     "end": 56.57
+    },
+    {
+     "word": " fine",
+     "start": 56.57,
+     "end": 56.75
+    }
+   ],
+   "metrics": {
+    "motion": 0.5012887743311706,
+    "motion_p90": 0.6602613101057684,
+    "static_share": 0.04405286343612335,
+    "peak_db": 7.5785369873046875,
+    "level_db": -23.889019012451172
    },
    "silence": []
   }
