@@ -740,31 +740,6 @@
   }
  },
  "rejected": {
-  "chat-2932923366-329": {
-   "at": "2026-11-19T04:14:17.921574+00:00",
-   "why": "picture is almost static (motion 0.00)",
-   "login": "whoplohoyparen"
-  },
-  "HorribleFlaccidPuddingThunBeast-Comabgr_d1V3-N-s": {
-   "at": "2026-11-19T04:14:18.196233+00:00",
-   "why": "editor: 1/10, Strip club private dance through the whole clip; sexual scene",
-   "login": "evelone2004"
-  },
-  "MoralGracefulBorkGingerPower-vJkaq2y2EEZXfAiB": {
-   "at": "2026-11-19T04:14:18.196547+00:00",
-   "why": "editor: 1/10, Shower mini-game with the character naked from behind for the whole clip; nudity",
-   "login": "kaicenat"
-  },
-  "chat-2932923366-289": {
-   "at": "2026-11-19T04:14:18.197461+00:00",
-   "why": "editor: 2/10, Bar cutscene while chat rates the stream vibe; nothing happens in the game",
-   "login": "whoplohoyparen"
-  },
-  "chat-2932305259-1157": {
-   "at": "2026-11-19T04:14:18.198059+00:00",
-   "why": "editor: 5/10, Chases his stolen truck on a quad through an orchard and slams into a chain-link fence; chat laughs at the driving, but the crash is a blur on screen and no speech is recognisable; pool already full of stronger clips",
-   "login": "kaicenat"
-  },
   "chat-2932305259-1245": {
    "at": "2026-11-19T05:20:56.741882+00:00",
    "why": "editor: 3/10, Night drive with in-game dialogue; chat reacts to a line from an NPC, nothing happens on screen and the frames are dark",
@@ -2549,478 +2524,33 @@
    "at": "2026-11-22T03:21:03.028687+00:00",
    "why": "editor: 2/10, Читает вслух переписку в телефоне героини, всплеск чата из-за розыгрыша на стриме, в кадре рекламный баннер. Игрового события нет, камера крошечная.",
    "login": "ludwig"
+  },
+  "chat-2936706130-306": {
+   "at": "2026-11-22T04:25:39.498089+00:00",
+   "why": "editor: 2/10, Сюжетная катсцена за сеткой с расправой и репликой про ребёнка, потом меню паузы и та же сцена заново. Спойлер, жестокая сцена, игрового события нет.",
+   "login": "theburntpeanut"
+  },
+  "chat-2936874294-105": {
+   "at": "2026-11-22T04:25:39.498564+00:00",
+   "why": "editor: 2/10, Тёмная ночная сцена в магазине и переулке, чат реагирует на музыку, речи почти нет. Игрового события нет, картинку не разобрать.",
+   "login": "yourragegaming"
   }
  },
  "pending": {
-  "chat-2936706130-306": {
-   "id": "chat-2936706130-306",
-   "url": "https://www.twitch.tv/videos/2936706130",
-   "section": [
-    13740.660837,
-    13796.660837
-   ],
-   "kind": "chat",
-   "views": 181,
-   "title": "",
-   "vod": "2936706130",
-   "vod_t": 13740.660837,
-   "group": "en",
-   "login": "theburntpeanut",
-   "name": "TheBurntPeanut",
-   "viewers": 62762,
-   "chat_score": 4.53,
-   "found_at": "2026-11-22T03:20:40.226995+00:00",
-   "spike_at": "2026-11-22T03:16:52.660837+00:00",
-   "chat": [
-    "14x HE MISSED",
-    "9x D:",
-    "6x no",
-    "5x WTF",
-    "5x oh shit",
-    "4x HOLY SHIT",
-    "4x DESERVED",
-    "3x o7",
-    "3x thank god",
-    "3x welp",
-    "2x Banned",
-    "2x fuck",
-    "HELL NO!!!!°",
-    "FAHHHHHH",
-    "She aint a main",
-    "yooo wtf",
-    "fucking watch and we would know",
-    "Maybe kid missed",
-    "Fuck they missed",
-    "Thats how they do it for real"
-   ],
-   "source": "cut from the live stream at a chat spike: 181 chatters in 15 s, 4.5x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-22T03:20:59.001390+00:00",
-   "cam": [
-    288,
-    756,
-    422,
-    324
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 57.0,
-   "words": [
-    {
-     "word": " We",
-     "start": 0.46,
-     "end": 0.96
-    },
-    {
-     "word": " didn't",
-     "start": 0.96,
-     "end": 1.12
-    },
-    {
-     "word": " know",
-     "start": 1.12,
-     "end": 1.28
-    },
-    {
-     "word": " who",
-     "start": 1.28,
-     "end": 1.46
-    },
-    {
-     "word": " you",
-     "start": 1.46,
-     "end": 1.6
-    },
-    {
-     "word": " were",
-     "start": 1.6,
-     "end": 1.88
-    },
-    {
-     "word": " but",
-     "start": 1.88,
-     "end": 2.24
-    },
-    {
-     "word": " now",
-     "start": 2.24,
-     "end": 2.5
-    },
-    {
-     "word": " we",
-     "start": 2.5,
-     "end": 2.7
-    },
-    {
-     "word": " do",
-     "start": 2.7,
-     "end": 2.96
-    },
-    {
-     "word": " like",
-     "start": 2.96,
-     "end": 3.2
-    },
-    {
-     "word": " we",
-     "start": 3.2,
-     "end": 3.72
-    },
-    {
-     "word": " could",
-     "start": 3.72,
-     "end": 3.96
-    },
-    {
-     "word": " work",
-     "start": 3.96,
-     "end": 4.12
-    },
-    {
-     "word": " something",
-     "start": 4.12,
-     "end": 4.6
-    },
-    {
-     "word": " out",
-     "start": 4.6,
-     "end": 5.02
-    },
-    {
-     "word": " They",
-     "start": 25.15,
-     "end": 25.71
-    },
-    {
-     "word": " actually",
-     "start": 30.7,
-     "end": 31.26
-    },
-    {
-     "word": " can",
-     "start": 31.26,
-     "end": 31.64
-    },
-    {
-     "word": " be",
-     "start": 31.64,
-     "end": 32.86
-    },
-    {
-     "word": " bought",
-     "start": 32.86,
-     "end": 33.44
-    },
-    {
-     "word": " Yeah,",
-     "start": 33.44,
-     "end": 34.48
-    },
-    {
-     "word": " she",
-     "start": 34.52,
-     "end": 34.76
-    },
-    {
-     "word": " can",
-     "start": 34.76,
-     "end": 34.98
-    },
-    {
-     "word": " be",
-     "start": 34.98,
-     "end": 35.18
-    },
-    {
-     "word": " bought",
-     "start": 35.18,
-     "end": 35.56
-    },
-    {
-     "word": " for",
-     "start": 35.56,
-     "end": 36.38
-    },
-    {
-     "word": " real",
-     "start": 36.38,
-     "end": 36.8
-    },
-    {
-     "word": " She's",
-     "start": 36.8,
-     "end": 37.72
-    },
-    {
-     "word": " a",
-     "start": 39.9,
-     "end": 39.98
-    },
-    {
-     "word": " man",
-     "start": 39.98,
-     "end": 40.14
-    },
-    {
-     "word": " kid",
-     "start": 40.14,
-     "end": 40.48
-    },
-    {
-     "word": " cuz",
-     "start": 40.48,
-     "end": 40.74
-    },
-    {
-     "word": " she",
-     "start": 40.74,
-     "end": 40.94
-    },
-    {
-     "word": " can't",
-     "start": 40.94,
-     "end": 41.3
-    },
-    {
-     "word": " die",
-     "start": 41.3,
-     "end": 41.52
-    },
-    {
-     "word": " everybody",
-     "start": 41.52,
-     "end": 41.72
-    },
-    {
-     "word": " knows",
-     "start": 41.72,
-     "end": 41.9
-    },
-    {
-     "word": " the",
-     "start": 41.9,
-     "end": 42.02
-    },
-    {
-     "word": " rules.",
-     "start": 42.02,
-     "end": 42.32
-    },
-    {
-     "word": " What",
-     "start": 42.44,
-     "end": 42.6
-    },
-    {
-     "word": " the",
-     "start": 42.6,
-     "end": 42.78
-    },
-    {
-     "word": " hell",
-     "start": 42.78,
-     "end": 43.12
-    },
-    {
-     "word": " oh",
-     "start": 43.12,
-     "end": 43.38
-    },
-    {
-     "word": " He",
-     "start": 49.5,
-     "end": 50.02
-    },
-    {
-     "word": " messed",
-     "start": 50.02,
-     "end": 50.34
-    },
-    {
-     "word": " Hey,",
-     "start": 53.32,
-     "end": 53.84
-    },
-    {
-     "word": " mr.",
-     "start": 53.84,
-     "end": 54.36
-    },
-    {
-     "word": " Bossman,",
-     "start": 54.44,
-     "end": 54.8
-    },
-    {
-     "word": " you're",
-     "start": 54.82,
-     "end": 55.32
-    },
-    {
-     "word": " in",
-     "start": 55.32,
-     "end": 55.32
-    },
-    {
-     "word": " the",
-     "start": 55.32,
-     "end": 55.4
-    },
-    {
-     "word": " big",
-     "start": 55.4,
-     "end": 55.52
-    },
-    {
-     "word": " chair",
-     "start": 55.52,
-     "end": 55.84
-    },
-    {
-     "word": " doing",
-     "start": 55.84,
-     "end": 56.46
-    },
-    {
-     "word": " this",
-     "start": 56.46,
-     "end": 56.72
-    }
-   ],
-   "metrics": {
-    "motion": 0.18242234169653523,
-    "motion_p90": 0.5658303464755078,
-    "static_share": 0.3568281938325991,
-    "peak_db": 11.188055038452148,
-    "level_db": -31.210832595825195
-   },
-   "silence": []
-  },
-  "chat-2936874294-105": {
-   "id": "chat-2936874294-105",
-   "url": "https://www.twitch.tv/videos/2936874294",
-   "section": [
-    4716.132027,
-    4772.132027
-   ],
-   "kind": "chat",
-   "views": 57,
-   "title": "",
-   "vod": "2936874294",
-   "vod_t": 4716.132027,
-   "group": "en",
-   "login": "yourragegaming",
-   "name": "yourragegaming",
-   "viewers": 13105,
-   "chat_score": 4.38,
-   "found_at": "2026-11-22T03:42:16.847993+00:00",
-   "spike_at": "2026-11-22T03:40:54.132027+00:00",
-   "chat": [
-    "21x BANGER",
-    "7x Zurdy",
-    "3x WOOOOOO",
-    "2x BANGER ͏",
-    "2x dans",
-    "2x RIP POP",
-    "2x WOO",
-    "AYEEEEEEE",
-    "ass11 YUHHHH",
-    "KRKRKR",
-    "IM SHAKIN IT",
-    "💫💫",
-    "stabeDance",
-    "Zurdy ͏",
-    "GRRRRA"
-   ],
-   "source": "cut from the live stream at a chat spike: 57 chatters in 15 s, 4.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-22T03:43:14.257998+00:00",
-   "cam": [
-    1290,
-    636,
-    630,
-    443
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 56.6,
-   "words": [
-    {
-     "word": " No,",
-     "start": 51.79,
-     "end": 51.83
-    },
-    {
-     "word": " don't",
-     "start": 51.83,
-     "end": 51.87
-    },
-    {
-     "word": " fresh",
-     "start": 51.87,
-     "end": 51.89
-    },
-    {
-     "word": " up",
-     "start": 51.89,
-     "end": 51.91
-    },
-    {
-     "word": " please",
-     "start": 51.91,
-     "end": 51.93
-    },
-    {
-     "word": " don't",
-     "start": 51.93,
-     "end": 51.97
-    },
-    {
-     "word": " fresh",
-     "start": 51.97,
-     "end": 51.99
-    },
-    {
-     "word": " Fuck",
-     "start": 51.99,
-     "end": 52.01
-    },
-    {
-     "word": " happen",
-     "start": 52.01,
-     "end": 54.35
-    },
-    {
-     "word": " What",
-     "start": 54.35,
-     "end": 56.41
-    }
-   ],
-   "metrics": {
-    "motion": 0.45148323820242786,
-    "motion_p90": 0.7257014229439664,
-    "static_share": 0.0044444444444444444,
-    "peak_db": 10.973081588745117,
-    "level_db": -33.53573226928711
-   },
-   "silence": []
-  },
-  "NurturingHilariousMallardPeteZarollTie-e7JErLpouriJgnbt": {
-   "id": "NurturingHilariousMallardPeteZarollTie-e7JErLpouriJgnbt",
-   "url": "https://www.twitch.tv/t2x2/clip/NurturingHilariousMallardPeteZarollTie-e7JErLpouriJgnbt",
+  "RespectfulToughCrabDoritosChip-2pmhYaKR7O0YWU37": {
+   "id": "RespectfulToughCrabDoritosChip-2pmhYaKR7O0YWU37",
+   "url": "https://www.twitch.tv/t2x2/clip/RespectfulToughCrabDoritosChip-2pmhYaKR7O0YWU37",
    "section": null,
    "kind": "clip",
-   "views": 301,
-   "title": "Ограбление века",
-   "vod": "2936052672",
-   "vod_t": 3144,
+   "views": 305,
+   "title": "тоху бросили",
+   "vod": "2936483331",
+   "vod_t": 2306,
    "group": "ru",
    "login": "t2x2",
    "name": "T2x2",
-   "source": "Twitch clip made by a viewer, 301 views, titled \"Ограбление века\"",
-   "at": "2026-11-22T04:04:19.035414+00:00",
+   "source": "Twitch clip made by a viewer, 305 views, titled \"тоху бросили\"",
+   "at": "2026-11-22T04:25:32.978527+00:00",
    "cam": [
     1937,
     930,
@@ -3031,65 +2561,150 @@
     2560,
     1440
    ],
-   "dur": 15.3,
+   "dur": 38.5,
    "words": [
     {
-     "word": " Вертолет",
+     "word": " Прости,",
      "start": 0.0,
-     "end": 0.64
+     "end": 0.54
     },
     {
-     "word": " за",
-     "start": 0.64,
-     "end": 0.8
-    },
-    {
-     "word": " тобой,",
-     "start": 0.8,
-     "end": 1.02
+     "word": " Зайёшь,",
+     "start": 0.62,
+     "end": 0.94
     },
     {
      "word": " но",
-     "start": 1.16,
+     "start": 1.02,
+     "end": 1.04
+    },
+    {
+     "word": " просто",
+     "start": 1.04,
      "end": 1.24
     },
     {
-     "word": " он",
+     "word": " надо,",
      "start": 1.24,
-     "end": 1.38
+     "end": 1.52
     },
     {
-     "word": " не",
-     "start": 1.38,
-     "end": 1.54
+     "word": " надо",
+     "start": 1.66,
+     "end": 1.8
     },
     {
-     "word": " быстрее",
-     "start": 1.54,
-     "end": 1.9
+     "word": " нам,",
+     "start": 1.8,
+     "end": 2.08
     },
     {
-     "word": " мотоцикла,",
-     "start": 1.9,
-     "end": 2.46
+     "word": " блять.",
+     "start": 2.16,
+     "end": 2.36
     },
     {
-     "word": " сейчас",
-     "start": 2.54,
-     "end": 2.62
+     "word": " Слышь,",
+     "start": 3.08,
+     "end": 3.48
     },
     {
-     "word": " ебем.",
-     "start": 2.62,
-     "end": 2.98
+     "word": " сразу",
+     "start": 3.54,
+     "end": 3.72
+    },
+    {
+     "word": " телефон",
+     "start": 3.72,
+     "end": 4.06
+    },
+    {
+     "word": " достала",
+     "start": 4.06,
+     "end": 4.52
+    },
+    {
+     "word": " ёбрую",
+     "start": 4.52,
+     "end": 4.94
+    },
+    {
+     "word": " писать",
+     "start": 4.94,
+     "end": 5.24
+    },
+    {
+     "word": " по",
+     "start": 5.24,
+     "end": 5.4
+    },
+    {
+     "word": " ходу.",
+     "start": 5.4,
+     "end": 5.7
+    },
+    {
+     "word": " Аааа,",
+     "start": 5.8,
+     "end": 6.32
+    },
+    {
+     "word": " проститутка.",
+     "start": 6.38,
+     "end": 7.16
+    },
+    {
+     "word": " Ты",
+     "start": 7.54,
+     "end": 7.68
+    },
+    {
+     "word": " чё?",
+     "start": 7.68,
+     "end": 7.88
+    },
+    {
+     "word": " Куда?",
+     "start": 11.46,
+     "end": 11.76
+    },
+    {
+     "word": " Бля,",
+     "start": 12.82,
+     "end": 13.08
+    },
+    {
+     "word": " давайте",
+     "start": 13.2,
+     "end": 13.36
+    },
+    {
+     "word": " за",
+     "start": 13.36,
+     "end": 13.5
+    },
+    {
+     "word": " ней",
+     "start": 13.5,
+     "end": 13.58
+    },
+    {
+     "word": " проследим.",
+     "start": 13.58,
+     "end": 14.12
+    },
+    {
+     "word": " НЕПОЛ!",
+     "start": 19.66,
+     "end": 20.18
     }
    ],
    "metrics": {
-    "motion": 0.22014357189471395,
-    "motion_p90": 0.5672250018127767,
-    "static_share": 0.03333333333333333,
-    "peak_db": 11.51121711730957,
-    "level_db": -27.84326934814453
+    "motion": 0.04640707707925459,
+    "motion_p90": 0.3749691828003771,
+    "static_share": 0.09803921568627451,
+    "peak_db": 25.199970245361328,
+    "level_db": -40.46176528930664
    },
    "silence": []
   }
@@ -6001,6 +5616,97 @@
     20.0,
     44.5
    ]
+  },
+  "NurturingHilariousMallardPeteZarollTie-e7JErLpouriJgnbt": {
+   "id": "NurturingHilariousMallardPeteZarollTie-e7JErLpouriJgnbt",
+   "url": "https://www.twitch.tv/t2x2/clip/NurturingHilariousMallardPeteZarollTie-e7JErLpouriJgnbt",
+   "section": null,
+   "kind": "clip",
+   "views": 301,
+   "title": "Ограбление века",
+   "vod": "2936052672",
+   "vod_t": 3144,
+   "group": "ru",
+   "login": "t2x2",
+   "name": "T2x2",
+   "source": "Twitch clip made by a viewer, 301 views, titled \"Ограбление века\"",
+   "at": "2026-11-22T04:25:39.497734+00:00",
+   "cam": [
+    1937,
+    930,
+    460,
+    324
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 15.3,
+   "words": [
+    {
+     "word": " Вертолет",
+     "start": 0.0,
+     "end": 0.64
+    },
+    {
+     "word": " за",
+     "start": 0.64,
+     "end": 0.8
+    },
+    {
+     "word": " тобой,",
+     "start": 0.8,
+     "end": 1.02
+    },
+    {
+     "word": " но",
+     "start": 1.16,
+     "end": 1.24
+    },
+    {
+     "word": " он",
+     "start": 1.24,
+     "end": 1.38
+    },
+    {
+     "word": " не",
+     "start": 1.38,
+     "end": 1.54
+    },
+    {
+     "word": " быстрее",
+     "start": 1.54,
+     "end": 1.9
+    },
+    {
+     "word": " мотоцикла,",
+     "start": 1.9,
+     "end": 2.46
+    },
+    {
+     "word": " сейчас",
+     "start": 2.54,
+     "end": 2.62
+    },
+    {
+     "word": " ебем.",
+     "start": 2.62,
+     "end": 2.98
+    }
+   ],
+   "metrics": {
+    "motion": 0.22014357189471395,
+    "motion_p90": 0.5672250018127767,
+    "static_share": 0.03333333333333333,
+    "peak_db": 11.51121711730957,
+    "level_db": -27.84326934814453
+   },
+   "silence": [],
+   "caption": "Вертолёт не догонит мотоцикл. А вот полицейский заслон догнал 😅",
+   "hook": "Он не быстрее мотоцикла",
+   "cover_at": 7.0,
+   "score": 6,
+   "keep": null
   }
  },
  "no_vod": {},
