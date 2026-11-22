@@ -822,355 +822,23 @@
    "vod_t": 8289,
    "hook": "Нога затекла",
    "request_id": "1c18a75c6f5143909302b90b50f0b2cc",
-   "cand": {
-    "id": "PlumpPatientGarageDancingBanana-A0E5pc811pyb_EzW",
-    "url": "https://www.twitch.tv/t2x2/clip/PlumpPatientGarageDancingBanana-A0E5pc811pyb_EzW",
-    "section": null,
-    "kind": "clip",
-    "views": 339,
-    "title": "на этот раз повезло",
-    "vod": "2936052672",
-    "vod_t": 8289,
-    "group": "ru",
-    "login": "t2x2",
-    "name": "T2x2",
-    "source": "Twitch clip made by a viewer, 339 views, titled \"на этот раз повезло\"",
-    "at": "2026-11-21T23:22:17.177653+00:00",
-    "cam": [
-     1937,
-     930,
-     460,
-     324
-    ],
-    "size": [
-     2560,
-     1440
-    ],
-    "dur": 26.4,
-    "words": [
-     {
-      "word": " Нет,",
-      "start": 0.0,
-      "end": 0.24
-     },
-     {
-      "word": " а",
-      "start": 0.3,
-      "end": 0.4
-     },
-     {
-      "word": " то",
-      "start": 0.4,
-      "end": 0.4
-     },
-     {
-      "word": " мы",
-      "start": 0.4,
-      "end": 0.54
-     },
-     {
-      "word": " не",
-      "start": 0.54,
-      "end": 0.64
-     },
-     {
-      "word": " украдём,",
-      "start": 0.64,
-      "end": 1.18
-     },
-     {
-      "word": " блядь.",
-      "start": 1.32,
-      "end": 1.62
-     },
-     {
-      "word": " Она,",
-      "start": 1.68,
-      "end": 1.76
-     },
-     {
-      "word": " кстати,",
-      "start": 1.86,
-      "end": 1.94
-     },
-     {
-      "word": " стоит",
-      "start": 2.14,
-      "end": 2.3
-     },
-     {
-      "word": " 8500,",
-      "start": 2.3,
-      "end": 2.96
-     },
-     {
-      "word": " хуйня,",
-      "start": 3.1,
-      "end": 3.38
-     },
-     {
-      "word": " блядь.",
-      "start": 3.48,
-      "end": 4.34
-     },
-     {
-      "word": " Так.",
-      "start": 4.52,
-      "end": 4.88
-     },
-     {
-      "word": " Сейчас",
-      "start": 5.5,
-      "end": 5.68
-     },
-     {
-      "word": " секунду,",
-      "start": 5.68,
-      "end": 6.08
-     },
-     {
-      "word": " у",
-      "start": 6.16,
-      "end": 6.16
-     },
-     {
-      "word": " меня",
-      "start": 6.16,
-      "end": 6.26
-     },
-     {
-      "word": " дело...",
-      "start": 6.26,
-      "end": 7.04
-     },
-     {
-      "word": " Блядь.",
-      "start": 7.48,
-      "end": 7.84
-     },
-     {
-      "word": " Ой.",
-      "start": 8.26,
-      "end": 8.62
-     },
-     {
-      "word": " Ха",
-      "start": 9.06,
-      "end": 9.1
-     },
-     {
-      "word": "-ха!",
-      "start": 9.1,
-      "end": 9.28
-     },
-     {
-      "word": " Здрасьте,",
-      "start": 10.06,
-      "end": 10.42
-     },
-     {
-      "word": " да",
-      "start": 10.48,
-      "end": 10.54
-     },
-     {
-      "word": " я,",
-      "start": 10.54,
-      "end": 10.68
-     },
-     {
-      "word": " блядь,",
-      "start": 10.74,
-      "end": 11.02
-     },
-     {
-      "word": " этот,",
-      "start": 11.12,
-      "end": 11.24
-     },
-     {
-      "word": " э",
-      "start": 11.54,
-      "end": 11.54
-     },
-     {
-      "word": "-э,",
-      "start": 11.54,
-      "end": 11.68
-     },
-     {
-      "word": " нога",
-      "start": 11.76,
-      "end": 12.12
-     },
-     {
-      "word": " затекла,",
-      "start": 12.12,
-      "end": 12.58
-     },
-     {
-      "word": " я",
-      "start": 12.68,
-      "end": 12.76
-     },
-     {
-      "word": " её",
-      "start": 12.76,
-      "end": 12.98
-     },
-     {
-      "word": " вот",
-      "start": 12.98,
-      "end": 13.2
-     },
-     {
-      "word": " так",
-      "start": 13.2,
-      "end": 13.4
-     },
-     {
-      "word": " вот",
-      "start": 13.4,
-      "end": 13.52
-     },
-     {
-      "word": " делаю,",
-      "start": 13.52,
-      "end": 13.94
-     },
-     {
-      "word": " чтобы",
-      "start": 14.2,
-      "end": 14.48
-     },
-     {
-      "word": " этот...",
-      "start": 14.48,
-      "end": 15.42
-     },
-     {
-      "word": " кровь",
-      "start": 15.42,
-      "end": 15.62
-     },
-     {
-      "word": " стекла.",
-      "start": 15.62,
-      "end": 16.06
-     },
-     {
-      "word": " Понимаете,",
-      "start": 16.14,
-      "end": 16.44
-     },
-     {
-      "word": " о",
-      "start": 16.5,
-      "end": 16.6
-     },
-     {
-      "word": " чём",
-      "start": 16.6,
-      "end": 16.72
-     },
-     {
-      "word": " речь?",
-      "start": 16.72,
-      "end": 16.92
-     },
-     {
-      "word": " Её",
-      "start": 19.08,
-      "end": 19.44
-     },
-     {
-      "word": " бать,",
-      "start": 19.44,
-      "end": 19.62
-     },
-     {
-      "word": " блядь,",
-      "start": 19.72,
-      "end": 19.92
-     },
-     {
-      "word": " чуть",
-      "start": 20.0,
-      "end": 20.08
-     },
-     {
-      "word": " не",
-      "start": 20.08,
-      "end": 20.18
-     },
-     {
-      "word": " это",
-      "start": 20.18,
-      "end": 20.4
-     },
-     {
-      "word": " самое,",
-      "start": 20.4,
-      "end": 20.7
-     },
-     {
-      "word": " нахуй.",
-      "start": 20.86,
-      "end": 21.1
-     },
-     {
-      "word": " Бедец,",
-      "start": 22.64,
-      "end": 23.0
-     },
-     {
-      "word": " а?",
-      "start": 23.02,
-      "end": 23.08
-     },
-     {
-      "word": " Полиция",
-      "start": 24.8,
-      "end": 25.16
-     },
-     {
-      "word": " какая",
-      "start": 25.16,
-      "end": 25.4
-     },
-     {
-      "word": " внимательная,",
-      "start": 25.4,
-      "end": 26.12
-     },
-     {
-      "word": " да?",
-      "start": 26.2,
-      "end": 26.26
-     }
-    ],
-    "metrics": {
-     "motion": 0.3474729896309187,
-     "motion_p90": 0.5371619171923718,
-     "static_share": 0.0380952380952381,
-     "peak_db": 7.683492660522461,
-     "level_db": -22.512836456298828
+   "result": [
+    {
+     "platform": "youtube",
+     "success": true,
+     "post_url": "https://www.youtube.com/watch?v=J2QGwFAcA6c",
+     "thumbnail_set": false,
+     "thumbnail_pending": true
     },
-    "silence": [],
-    "caption": "Собрался угнать машину, а мимо проехала полиция. Пришлось импровизировать 😂",
-    "hook": "Нога затекла",
-    "cover_at": 12.1,
-    "score": 7,
-    "keep": null
-   }
+    {
+     "platform": "tiktok",
+     "success": true,
+     "post_url": "https://www.tiktok.com/@gta6.viral42/video/7711059761919216929"
+    }
+   ]
   }
  },
  "rejected": {
-  "chat-2932167852-2688": {
-   "at": "2026-11-19T18:46:53.325003+00:00",
-   "why": "picture is almost static (motion 0.01)",
-   "login": "frametamer666"
-  },
   "chat-2933495403-741": {
    "at": "2026-11-19T19:30:34.672907+00:00",
    "why": "editor: no gameplay on screen",
@@ -2935,9 +2603,45 @@
    "at": "2026-11-22T18:31:26.468470+00:00",
    "why": "editor: 4/10, Ночная миссия у ангара: цели сбежали вместе с самолётом, задание придётся переигрывать. Картинка тёмная, самого провала в кадре не видно.",
    "login": "t2x2"
+  },
+  "chat-2937203120-585": {
+   "at": "2026-11-22T18:54:40.015148+00:00",
+   "why": "picture is almost static (motion 0.01)",
+   "login": "recrent"
   }
  },
- "pending": {},
+ "pending": {
+  "LaconicConsiderateCaterpillarKippa-gK9T9i4PZk82S-SA": {
+   "id": "LaconicConsiderateCaterpillarKippa-gK9T9i4PZk82S-SA",
+   "url": "https://www.twitch.tv/kaicenat/clip/LaconicConsiderateCaterpillarKippa-gK9T9i4PZk82S-SA",
+   "section": null,
+   "kind": "clip",
+   "views": 5775,
+   "title": "KAI GOT MOTION 🤪",
+   "vod": "2936683310",
+   "vod_t": 7528,
+   "group": "en",
+   "login": "kaicenat",
+   "name": "KaiCenat",
+   "source": "Twitch clip made by a viewer, 5775 views, titled \"KAI GOT MOTION 🤪\"",
+   "at": "2026-11-22T18:54:48.120815+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 30.0,
+   "words": [],
+   "metrics": {
+    "motion": 0.11930555555555555,
+    "motion_p90": 0.18411111111111111,
+    "static_share": 0.008403361344537815,
+    "peak_db": 5.625472068786621,
+    "level_db": -19.451820373535156
+   },
+   "silence": []
+  }
+ },
  "pool": {
   "OutstandingColdTildeAMPEnergy-pjac1xCacApR9QdX": {
    "id": "OutstandingColdTildeAMPEnergy-pjac1xCacApR9QdX",
