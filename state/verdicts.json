@@ -1,52 +1,4 @@
 {
- "SuperOilyTeaRickroll-PvI5IXJB_Z1ycM7P": {
-  "at": "2026-11-20T18:13:32.499436+00:00",
-  "moment_score": 4,
-  "what_happens": "Долго топчет лежащего NPC у колонны и смеётся; шутка для своих (отсылка к другому стримеру), развязки нет, одно избиение",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2933453157-2729": {
-  "at": "2026-11-20T18:13:32.551202+00:00",
-  "moment_score": 3,
-  "what_happens": "Обыскивает дом, перестрелка у пикапа, чат возмущён тем, что он пнул собаку; ясного момента нет, расшифровка неразборчива",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2934846936-462": {
-  "at": "2026-11-20T18:13:32.598767+00:00",
-  "moment_score": 3,
-  "what_happens": "Плывёт на катере и удивляется звонку Джейсона; чат спамит мемом, в игре ничего не происходит",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2934866208-413": {
-  "at": "2026-11-20T18:13:32.641609+00:00",
-  "moment_score": 4,
-  "what_happens": "Стоит на крыше, копается в меню и спрашивает чат, верят ли в прыжок; сам прыжок в отрезок не попал",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2935101396-42": {
-  "at": "2026-11-20T18:13:32.687601+00:00",
-  "moment_score": 2,
-  "what_happens": "Едет к бару, заходит внутрь и открывает карту; всплеск в чате из-за отключения режима для подписчиков, события нет",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2934897780-359": {
-  "at": "2026-11-20T18:13:32.747569+00:00",
-  "moment_score": 2,
-  "what_happens": "Едет на внедорожнике в гараж под радиорекламу E-Cola; события нет, рамка вебкамеры не найдена",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "HelpfulInquisitiveRatNinjaGrumpy-IB9QIT9aKlOR2spw": {
   "at": "2026-11-20T19:14:40.549133+00:00",
   "moment_score": 3,
@@ -2118,5 +2070,39 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "chat-2937219114-448": {
+  "at": "2026-11-22T18:14:23.522172+00:00",
+  "moment_score": 4,
+  "what_happens": "Стример стоит у солярия и нарочно не спасает Нейта, чат кричит «открой». Минуту на экране ничего не меняется, речи нет, шутка живёт только в чате.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2937219114-473": {
+  "at": "2026-11-22T18:14:23.571335+00:00",
+  "moment_score": 4,
+  "what_happens": "Ночная миссия у ангара: цели сбежали вместе с самолётом, задание придётся переигрывать. Картинка тёмная, самого провала в кадре не видно.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2937408089-114": {
+  "at": "2026-11-22T18:14:23.626267+00:00",
+  "moment_score": 7,
+  "what_happens": "Люсия возвращается вся в крови и без зуба, стример просит её быть осторожной, и она сталкивает его под поезд: Wasted. Светлая картинка, понятная развязка, живая реакция.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Lucia came back for revenge at the worst possible moment",
+  "keep_start": 3.0,
+  "keep_end": 56.0,
+  "cam": [
+   0.0,
+   0.644,
+   0.13,
+   0.1625
+  ],
+  "hook": "She pushed me!",
+  "cover_at": 44.1
  }
 }
