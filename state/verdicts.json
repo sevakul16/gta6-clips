@@ -1,12 +1,4 @@
 {
- "chat-2934188629-400": {
-  "at": "2026-11-20T03:13:37.241754+00:00",
-  "moment_score": 3,
-  "what_happens": "Scripted mission scene: he stands and watches a deal with a biker gang while the characters talk, chat salutes a character it expects to die. He comments a little but nothing happens in the clip, it ends before any action",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2934276428-346": {
   "at": "2026-11-20T04:13:43.121200+00:00",
   "moment_score": 6,
@@ -2349,6 +2341,38 @@
   "at": "2026-11-22T02:13:52.800613+00:00",
   "moment_score": 2,
   "what_happens": "Пьяный персонаж бредёт ночью, картинка тёмная и размытая, потом карта, и чат голосует, куда ехать. Игрового события нет.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2936452781-547": {
+  "at": "2026-11-22T03:14:00.068497+00:00",
+  "moment_score": 6,
+  "what_happens": "Решил проверить коктейль Молотова у лачуги на болоте, включил траекторию, бросил слишком близко, загорелся сам и умер, потом смеётся: «я просто затестил». Понятный провал с реакцией. Начало затянуто и картинка тусклая, поэтому 6 и оставляю отрезок с броском и смертью. Баннеры ставок у правого края вне обеих рамок.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Решил просто затестить коктейль Молотова. Тест прошёл не по плану 🔥",
+  "keep_start": 20.0,
+  "keep_end": 44.5,
+  "hook": "Тест Молотова",
+  "cover_at": 35.1
+ },
+ "chat-2936706130-249": {
+  "at": "2026-11-22T03:14:00.125267+00:00",
+  "moment_score": 6,
+  "what_happens": "Уходит от полиции на синем суперкаре, бьётся о грузовик и седан, машина загорается, он едет дальше, пока она не взрывается: wasted. Чат кричал выпрыгивать. Понятная развязка, день, всё видно; вместо лица аватар, речи мало, поэтому 6. Оставляю отрезок от аварии до взрыва.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "The car was on fire and he kept driving anyway 💥",
+  "keep_start": 33.0,
+  "keep_end": 62.0,
+  "hook": "Driving a burning car",
+  "cover_at": 51.7
+ },
+ "chat-2936392772-651": {
+  "at": "2026-11-22T03:14:00.170281+00:00",
+  "moment_score": 2,
+  "what_happens": "Читает вслух переписку в телефоне героини, всплеск чата из-за розыгрыша на стриме, в кадре рекламный баннер. Игрового события нет, камера крошечная.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
