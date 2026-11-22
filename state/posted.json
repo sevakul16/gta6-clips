@@ -2691,6 +2691,127 @@
     "level_db": -39.094322204589844
    },
    "silence": []
+  },
+  "DarkManlyBeanKlappa-LmkfNhu5_kvY4Q5R": {
+   "id": "DarkManlyBeanKlappa-LmkfNhu5_kvY4Q5R",
+   "url": "https://www.twitch.tv/t2x2/clip/DarkManlyBeanKlappa-LmkfNhu5_kvY4Q5R",
+   "section": null,
+   "kind": "clip",
+   "views": 301,
+   "title": "скулбойчик ранэвейчик",
+   "vod": "2936052672",
+   "vod_t": 12794,
+   "group": "ru",
+   "login": "t2x2",
+   "name": "T2x2",
+   "source": "Twitch clip made by a viewer, 301 views, titled \"скулбойчик ранэвейчик\"",
+   "at": "2026-11-22T11:58:59.032578+00:00",
+   "cam": [
+    1937,
+    930,
+    460,
+    324
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 30.0,
+   "words": [
+    {
+     "word": " Так",
+     "start": 0.0,
+     "end": 0.24
+    },
+    {
+     "word": " что",
+     "start": 0.24,
+     "end": 0.36
+    },
+    {
+     "word": " мы",
+     "start": 0.36,
+     "end": 0.48
+    },
+    {
+     "word": " с",
+     "start": 0.48,
+     "end": 0.58
+    },
+    {
+     "word": " тобой",
+     "start": 0.58,
+     "end": 0.74
+    },
+    {
+     "word": " два",
+     "start": 0.74,
+     "end": 0.98
+    },
+    {
+     "word": " долбоёба,",
+     "start": 0.98,
+     "end": 1.6
+    },
+    {
+     "word": " Бэйби,",
+     "start": 1.68,
+     "end": 1.96
+    },
+    {
+     "word": " блять.",
+     "start": 2.06,
+     "end": 2.24
+    },
+    {
+     "word": " Он",
+     "start": 3.16,
+     "end": 3.72
+    },
+    {
+     "word": " машина!",
+     "start": 3.72,
+     "end": 4.22
+    },
+    {
+     "word": " СЕМЬ",
+     "start": 4.42,
+     "end": 4.9
+    },
+    {
+     "word": " ПИШЬ,",
+     "start": 4.9,
+     "end": 5.36
+    },
+    {
+     "word": " БЛЯТЬ",
+     "start": 5.38,
+     "end": 5.76
+    },
+    {
+     "word": " ДЕНЯК",
+     "start": 5.76,
+     "end": 6.24
+    },
+    {
+     "word": " НАХУЙ!",
+     "start": 6.24,
+     "end": 6.88
+    },
+    {
+     "word": " Сел...",
+     "start": 7.6,
+     "end": 8.16
+    }
+   ],
+   "metrics": {
+    "motion": 0.23290551809150895,
+    "motion_p90": 0.3632078892031035,
+    "static_share": 0.0,
+    "peak_db": 19.719913482666016,
+    "level_db": -34.00433349609375
+   },
+   "silence": []
   }
  },
  "pool": {
