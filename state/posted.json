@@ -740,21 +740,6 @@
   }
  },
  "rejected": {
-  "BoringWimpyKleeItsBoshyTime-hL8MjYyweIzttJt8": {
-   "at": "2026-11-19T03:30:18.353203+00:00",
-   "why": "editor: 1/10, Strip club private dance with topless nudity through the whole clip",
-   "login": "strogo"
-  },
-  "chat-2932753534-347": {
-   "at": "2026-11-19T03:30:18.353543+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "summit1g"
-  },
-  "chat-2932753534-400": {
-   "at": "2026-11-19T03:30:18.353968+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "summit1g"
-  },
   "chat-2932923366-329": {
    "at": "2026-11-19T04:14:17.921574+00:00",
    "why": "picture is almost static (motion 0.00)",
@@ -2909,6 +2894,116 @@
     "static_share": 0.3568281938325991,
     "peak_db": 11.188055038452148,
     "level_db": -31.210832595825195
+   },
+   "silence": []
+  },
+  "chat-2936874294-105": {
+   "id": "chat-2936874294-105",
+   "url": "https://www.twitch.tv/videos/2936874294",
+   "section": [
+    4716.132027,
+    4772.132027
+   ],
+   "kind": "chat",
+   "views": 57,
+   "title": "",
+   "vod": "2936874294",
+   "vod_t": 4716.132027,
+   "group": "en",
+   "login": "yourragegaming",
+   "name": "yourragegaming",
+   "viewers": 13105,
+   "chat_score": 4.38,
+   "found_at": "2026-11-22T03:42:16.847993+00:00",
+   "spike_at": "2026-11-22T03:40:54.132027+00:00",
+   "chat": [
+    "21x BANGER",
+    "7x Zurdy",
+    "3x WOOOOOO",
+    "2x BANGER ͏",
+    "2x dans",
+    "2x RIP POP",
+    "2x WOO",
+    "AYEEEEEEE",
+    "ass11 YUHHHH",
+    "KRKRKR",
+    "IM SHAKIN IT",
+    "💫💫",
+    "stabeDance",
+    "Zurdy ͏",
+    "GRRRRA"
+   ],
+   "source": "cut from the live stream at a chat spike: 57 chatters in 15 s, 4.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-22T03:43:14.257998+00:00",
+   "cam": [
+    1290,
+    636,
+    630,
+    443
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.6,
+   "words": [
+    {
+     "word": " No,",
+     "start": 51.79,
+     "end": 51.83
+    },
+    {
+     "word": " don't",
+     "start": 51.83,
+     "end": 51.87
+    },
+    {
+     "word": " fresh",
+     "start": 51.87,
+     "end": 51.89
+    },
+    {
+     "word": " up",
+     "start": 51.89,
+     "end": 51.91
+    },
+    {
+     "word": " please",
+     "start": 51.91,
+     "end": 51.93
+    },
+    {
+     "word": " don't",
+     "start": 51.93,
+     "end": 51.97
+    },
+    {
+     "word": " fresh",
+     "start": 51.97,
+     "end": 51.99
+    },
+    {
+     "word": " Fuck",
+     "start": 51.99,
+     "end": 52.01
+    },
+    {
+     "word": " happen",
+     "start": 52.01,
+     "end": 54.35
+    },
+    {
+     "word": " What",
+     "start": 54.35,
+     "end": 56.41
+    }
+   ],
+   "metrics": {
+    "motion": 0.45148323820242786,
+    "motion_p90": 0.7257014229439664,
+    "static_share": 0.0044444444444444444,
+    "peak_db": 10.973081588745117,
+    "level_db": -33.53573226928711
    },
    "silence": []
   }
