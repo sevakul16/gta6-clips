@@ -2584,6 +2584,11 @@
    "at": "2026-11-21T23:44:08.541008+00:00",
    "why": "picture is almost static (motion 0.02)",
    "login": "frametamer666"
+  },
+  "SolidWealthyGoatUncleNox-WjdVobqSj6ZjzFuA": {
+   "at": "2026-11-22T00:05:54.126010+00:00",
+   "why": "picture is almost static (motion 0.01)",
+   "login": "recrent"
   }
  },
  "pending": {
@@ -2722,6 +2727,183 @@
     "level_db": -17.15633773803711
    },
    "silence": []
+  },
+  "chat-2936452781-373": {
+   "id": "chat-2936452781-373",
+   "url": "https://www.twitch.tv/videos/2936452781",
+   "section": [
+    16752.840344,
+    16808.840344
+   ],
+   "kind": "chat",
+   "views": 43,
+   "title": "",
+   "vod": "2936452781",
+   "vod_t": 16752.840344,
+   "group": "ru",
+   "login": "voodoosh",
+   "name": "VooDooSh",
+   "viewers": 4237,
+   "chat_score": 21.5,
+   "found_at": "2026-11-22T00:05:05.441641+00:00",
+   "spike_at": "2026-11-22T00:02:17.840344+00:00",
+   "chat": [
+    "3x LUL",
+    "2x NotLikeThis",
+    "2x -6к",
+    "2x -5к",
+    "- бабки",
+    "АХАХАХАХАХАХАХААХ",
+    "нубас",
+    "минус бабки",
+    "PogChamp NotLikeThis",
+    ":)))",
+    "@Dr10sss именно на лодке да",
+    "епать"
+   ],
+   "source": "cut from the live stream at a chat spike: 43 chatters in 15 s, 21.5x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-22T00:05:29.917221+00:00",
+   "cam": [
+    0,
+    613,
+    436,
+    307
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 59.0,
+   "words": [
+    {
+     "word": " Летим",
+     "start": 2.64,
+     "end": 3.46
+    },
+    {
+     "word": " домой,",
+     "start": 3.46,
+     "end": 3.76
+    },
+    {
+     "word": " папе!",
+     "start": 3.96,
+     "end": 4.28
+    },
+    {
+     "word": " Красота!",
+     "start": 8.25,
+     "end": 8.93
+    },
+    {
+     "word": " Свой",
+     "start": 9.73,
+     "end": 10.13
+    },
+    {
+     "word": " самолёт!",
+     "start": 10.13,
+     "end": 10.89
+    },
+    {
+     "word": " Братан,",
+     "start": 17.17,
+     "end": 17.85
+    },
+    {
+     "word": " да",
+     "start": 17.87,
+     "end": 17.93
+    },
+    {
+     "word": " завязывай,",
+     "start": 17.93,
+     "end": 18.45
+    },
+    {
+     "word": " спасибо",
+     "start": 18.53,
+     "end": 18.77
+    },
+    {
+     "word": " большое!",
+     "start": 18.77,
+     "end": 19.29
+    },
+    {
+     "word": " И",
+     "start": 47.62,
+     "end": 47.96
+    },
+    {
+     "word": " чё,",
+     "start": 47.96,
+     "end": 48.08
+    },
+    {
+     "word": " я",
+     "start": 48.16,
+     "end": 48.16
+    },
+    {
+     "word": " всё",
+     "start": 48.16,
+     "end": 48.28
+    },
+    {
+     "word": " потерял?",
+     "start": 48.28,
+     "end": 48.72
+    },
+    {
+     "word": " Я",
+     "start": 54.03,
+     "end": 54.27
+    },
+    {
+     "word": " всё",
+     "start": 54.27,
+     "end": 54.43
+    },
+    {
+     "word": " потерял?",
+     "start": 54.43,
+     "end": 54.85
+    },
+    {
+     "word": " Я",
+     "start": 58.03,
+     "end": 58.37
+    },
+    {
+     "word": " не",
+     "start": 58.37,
+     "end": 58.45
+    },
+    {
+     "word": " могу",
+     "start": 58.45,
+     "end": 58.61
+    },
+    {
+     "word": " загрузить!",
+     "start": 58.61,
+     "end": 58.85
+    }
+   ],
+   "metrics": {
+    "motion": 0.06898347968447685,
+    "motion_p90": 0.4002976633427593,
+    "static_share": 0.11063829787234042,
+    "peak_db": 10.718767166137695,
+    "level_db": -31.694852828979492
+   },
+   "silence": [
+    [
+     42.8,
+     1.5
+    ]
+   ]
   }
  },
  "pool": {
