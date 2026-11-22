@@ -2899,6 +2899,166 @@
     "level_db": -35.96360778808594
    },
    "silence": []
+  },
+  "chat-2937326245-162": {
+   "id": "chat-2937326245-162",
+   "url": "https://www.twitch.tv/videos/2937326245",
+   "section": [
+    7266.104344,
+    7322.104344
+   ],
+   "kind": "chat",
+   "views": 45,
+   "title": "",
+   "vod": "2937326245",
+   "vod_t": 7266.104344,
+   "group": "en",
+   "login": "elajjaz",
+   "name": "Elajjaz",
+   "viewers": 7197,
+   "chat_score": 5.29,
+   "found_at": "2026-11-22T16:41:17.947279+00:00",
+   "spike_at": "2026-11-22T16:24:28.104344+00:00",
+   "chat": [
+    "28x nice",
+    "2x SEXO",
+    "6969",
+    "67",
+    "@kdinter2311 I bet Lucia would lose her shit if someone called her that",
+    "nicenice",
+    "WAS",
+    "ReallyNow",
+    "omyega nice",
+    "LUL"
+   ],
+   "source": "cut from the live stream at a chat spike: 45 chatters in 15 s, 5.3x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-22T16:41:52.797741+00:00",
+   "cam": [
+    0,
+    412,
+    512,
+    360
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.7,
+   "words": [
+    {
+     "word": " Save",
+     "start": 6.0,
+     "end": 6.54
+    },
+    {
+     "word": " here.",
+     "start": 6.54,
+     "end": 6.84
+    },
+    {
+     "word": " I",
+     "start": 7.26,
+     "end": 7.82
+    },
+    {
+     "word": " think",
+     "start": 7.82,
+     "end": 7.98
+    },
+    {
+     "word": " I",
+     "start": 7.98,
+     "end": 8.14
+    },
+    {
+     "word": " have",
+     "start": 8.14,
+     "end": 8.28
+    },
+    {
+     "word": " the",
+     "start": 8.28,
+     "end": 8.4
+    },
+    {
+     "word": " code",
+     "start": 8.4,
+     "end": 8.6
+    },
+    {
+     "word": " for",
+     "start": 8.6,
+     "end": 8.78
+    },
+    {
+     "word": " this",
+     "start": 8.78,
+     "end": 9.06
+    },
+    {
+     "word": " Holy",
+     "start": 13.61,
+     "end": 14.21
+    },
+    {
+     "word": " shit,",
+     "start": 14.21,
+     "end": 14.81
+    },
+    {
+     "word": " I",
+     "start": 40.22,
+     "end": 40.7
+    },
+    {
+     "word": " do",
+     "start": 40.7,
+     "end": 40.84
+    },
+    {
+     "word": " have",
+     "start": 40.84,
+     "end": 41.02
+    },
+    {
+     "word": " the",
+     "start": 41.02,
+     "end": 41.1
+    },
+    {
+     "word": " code",
+     "start": 41.1,
+     "end": 41.34
+    },
+    {
+     "word": " 69",
+     "start": 41.34,
+     "end": 41.96
+    },
+    {
+     "word": " 69",
+     "start": 41.96,
+     "end": 42.58
+    },
+    {
+     "word": " of",
+     "start": 42.58,
+     "end": 43.84
+    },
+    {
+     "word": " course",
+     "start": 43.84,
+     "end": 44.18
+    }
+   ],
+   "metrics": {
+    "motion": 0.24799112267544193,
+    "motion_p90": 0.5611463993265478,
+    "static_share": 0.061946902654867256,
+    "peak_db": 13.594062805175781,
+    "level_db": -40.48006820678711
+   },
+   "silence": []
   }
  },
  "pool": {
