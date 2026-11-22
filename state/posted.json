@@ -773,21 +773,6 @@
   }
  },
  "rejected": {
-  "chat-2933174196-516": {
-   "at": "2026-11-19T11:27:24.538858+00:00",
-   "why": "editor: 4/10, He pesters women sunbathing by a pool and zooms the phone camera on one in a bikini while the chat calls him a creep, then walks into the pool; leering content, weak payoff",
-   "login": "yourragegaming"
-  },
-  "chat-2931685068-3058": {
-   "at": "2026-11-19T11:27:24.539216+00:00",
-   "why": "editor: betting/casino branding in the picture",
-   "login": "strogo"
-  },
-  "chat-2933403077-351": {
-   "at": "2026-11-19T11:27:24.539635+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "melharucos"
-  },
   "chat-2933527020-185": {
    "at": "2026-11-19T12:13:38.371331+00:00",
    "why": "picture is almost static (motion 0.02)",
@@ -2532,385 +2517,178 @@
    "at": "2026-11-22T10:54:31.386605+00:00",
    "why": "picture is almost static (motion 0.00)",
    "login": "whoplohoyparen"
+  },
+  "chat-2937141420-109": {
+   "at": "2026-11-22T11:17:18.787852+00:00",
+   "why": "editor: no webcam in the picture",
+   "login": "blackufa"
   }
  },
  "pending": {
-  "chat-2937141420-109": {
-   "id": "chat-2937141420-109",
-   "url": "https://www.twitch.tv/videos/2937141420",
+  "chat-2936816213-808": {
+   "id": "chat-2936816213-808",
+   "url": "https://www.twitch.tv/videos/2936816213",
    "section": [
-    4878.286081,
-    4934.286081
+    36356.162907,
+    36412.162907
    ],
    "kind": "chat",
-   "views": 48,
+   "views": 40,
    "title": "",
-   "vod": "2937141420",
-   "vod_t": 4878.286081,
+   "vod": "2936816213",
+   "vod_t": 36356.162907,
    "group": "ru",
-   "login": "blackufa",
-   "name": "BlackUFA",
-   "viewers": 4026,
-   "chat_score": 4.8,
-   "found_at": "2026-11-22T11:15:47.851141+00:00",
-   "spike_at": "2026-11-22T10:59:35.286081+00:00",
+   "login": "whoplohoyparen",
+   "name": "WHOPLOHOYPAREN",
+   "viewers": 5840,
+   "chat_score": 10.0,
+   "found_at": "2026-11-22T11:37:19.685375+00:00",
+   "spike_at": "2026-11-22T11:29:17.162907+00:00",
    "chat": [
-    "5x Нико",
-    "5x Тревор",
-    "4x Майкл",
-    "3x Томми Версетти",
-    "3x CJ",
-    "2x Си Джей",
-    "Тревор!!!",
-    "Франклин",
-    "Майкл де Санта",
-    "Никко Белик",
-    "Томми",
-    "KEKW",
-    "Артур морган!",
-    "Это не туповатость, это недостаток самоконтроля. Хотя да, там по контексту, у Лю"
+    "11x чилл",
+    "7x чил",
+    "4x да",
+    "3x Норм",
+    "один хуй нет основной сюжетки",
+    "чіл",
+    "да чилл",
+    "@anxieprod алмазный",
+    "скучно",
+    "@beryulyovo да сохранения удаляют и заново все",
+    "чииииииииииииииииилл",
+    "Кайф"
    ],
-   "source": "cut from the live stream at a chat spike: 48 chatters in 15 s, 4.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-22T11:16:20.931060+00:00",
-   "cam": null,
+   "source": "cut from the live stream at a chat spike: 40 chatters in 15 s, 10.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-22T11:37:48.006488+00:00",
+   "cam": [
+    198,
+    473,
+    205,
+    144
+   ],
    "size": [
     1920,
     1080
    ],
-   "dur": 64.0,
+   "dur": 62.0,
    "words": [
     {
-     "word": " Но",
-     "start": 0.0,
-     "end": 0.2
-    },
-    {
-     "word": " какого",
-     "start": 0.2,
-     "end": 1.08
-    },
-    {
-     "word": "-то",
-     "start": 1.08,
-     "end": 1.2
-    },
-    {
-     "word": " отвращения",
-     "start": 1.2,
-     "end": 1.72
-    },
-    {
-     "word": " они",
-     "start": 1.72,
-     "end": 1.88
-    },
-    {
-     "word": " мне",
-     "start": 1.88,
-     "end": 2.0
-    },
-    {
-     "word": " не",
-     "start": 2.0,
-     "end": 2.16
-    },
-    {
-     "word": " вызывают,",
-     "start": 2.16,
-     "end": 2.56
-    },
-    {
-     "word": " то",
-     "start": 2.72,
-     "end": 2.78
-    },
-    {
-     "word": " есть,",
-     "start": 2.78,
-     "end": 3.04
-    },
-    {
-     "word": " и",
-     "start": 3.1,
-     "end": 3.52
-    },
-    {
-     "word": " там",
-     "start": 3.52,
-     "end": 3.74
+     "word": " Посмотри,",
+     "start": 4.56,
+     "end": 5.08
     },
     {
      "word": " кто",
-     "start": 3.74,
-     "end": 3.96
-    },
-    {
-     "word": "-то",
-     "start": 3.96,
-     "end": 4.08
-    },
-    {
-     "word": " говорит",
-     "start": 4.08,
-     "end": 4.24
-    },
-    {
-     "word": " про",
-     "start": 4.24,
-     "end": 4.56
-    },
-    {
-     "word": " разные",
-     "start": 4.56,
-     "end": 4.92
-    },
-    {
-     "word": " там",
-     "start": 4.92,
-     "end": 5.12
-    },
-    {
-     "word": " черты",
      "start": 5.12,
-     "end": 5.6
+     "end": 5.24
     },
     {
-     "word": " характера,",
-     "start": 5.6,
-     "end": 6.12
+     "word": " это!",
+     "start": 5.24,
+     "end": 5.52
     },
     {
-     "word": " допустим,",
-     "start": 6.12,
-     "end": 6.58
+     "word": " Вау!",
+     "start": 12.86,
+     "end": 13.46
     },
     {
-     "word": " Лиси,",
-     "start": 6.68,
-     "end": 7.1
+     "word": " Вау!",
+     "start": 13.64,
+     "end": 14.16
     },
     {
-     "word": " или...",
-     "start": 7.34,
-     "end": 7.82
+     "word": " Бэн",
+     "start": 14.4,
+     "end": 14.98
     },
     {
-     "word": " Да",
-     "start": 8.68,
-     "end": 8.94
+     "word": "-ши!",
+     "start": 14.98,
+     "end": 15.42
     },
     {
-     "word": " ненормально",
-     "start": 8.94,
-     "end": 9.7
+     "word": " Она",
+     "start": 15.98,
+     "end": 16.3
     },
     {
-     "word": " всё.",
-     "start": 9.7,
-     "end": 10.0
+     "word": " скринь,",
+     "start": 16.3,
+     "end": 17.16
     },
     {
-     "word": " Абсолютно,",
-     "start": 11.34,
-     "end": 11.94
+     "word": " чтобы",
+     "start": 17.16,
+     "end": 17.34
     },
     {
-     "word": " по",
-     "start": 11.94,
-     "end": 12.22
+     "word": " выхватить",
+     "start": 17.34,
+     "end": 17.72
     },
     {
-     "word": "-моему,",
-     "start": 12.22,
-     "end": 12.6
+     "word": " лист!",
+     "start": 17.72,
+     "end": 18.62
     },
     {
-     "word": " нормальные",
-     "start": 13.24,
-     "end": 13.86
+     "word": " Хорошая",
+     "start": 26.14,
+     "end": 26.86
     },
     {
-     "word": " герои.",
-     "start": 13.86,
-     "end": 14.56
+     "word": " машина!",
+     "start": 26.86,
+     "end": 27.26
     },
     {
-     "word": " Так.",
-     "start": 16.97,
-     "end": 17.13
+     "word": " Ни",
+     "start": 27.86,
+     "end": 28.06
     },
     {
-     "word": " Угу.",
-     "start": 18.51,
-     "end": 18.93
+     "word": " косметичных",
+     "start": 28.06,
+     "end": 28.66
     },
     {
-     "word": " А",
-     "start": 20.33,
-     "end": 20.59
+     "word": " damage!",
+     "start": 28.66,
+     "end": 28.94
     },
     {
-     "word": " где",
-     "start": 20.59,
-     "end": 20.71
+     "word": " Это",
+     "start": 29.6,
+     "end": 29.98
     },
     {
-     "word": " звук?",
-     "start": 20.71,
-     "end": 20.97
+     "word": " хорошо!",
+     "start": 29.98,
+     "end": 30.44
     },
     {
-     "word": " А.",
-     "start": 21.39,
-     "end": 21.43
+     "word": " Окей!",
+     "start": 34.66,
+     "end": 35.6
     },
     {
-     "word": " Какой",
-     "start": 36.04,
-     "end": 36.64
+     "word": " Удачи!",
+     "start": 35.98,
+     "end": 36.1
     },
     {
-     "word": " у",
-     "start": 36.64,
-     "end": 36.76
-    },
-    {
-     "word": " вас",
-     "start": 36.76,
-     "end": 36.92
-    },
-    {
-     "word": " чат",
-     "start": 36.92,
-     "end": 37.14
-    },
-    {
-     "word": " вообще",
-     "start": 37.14,
-     "end": 37.44
-    },
-    {
-     "word": " любимый",
-     "start": 37.44,
-     "end": 38.0
-    },
-    {
-     "word": " персонаж",
-     "start": 38.0,
-     "end": 38.72
-    },
-    {
-     "word": " серии",
-     "start": 38.72,
-     "end": 39.64
-    },
-    {
-     "word": " GTA?",
-     "start": 39.64,
-     "end": 39.84
-    },
-    {
-     "word": " Ну,",
-     "start": 41.24,
-     "end": 41.44
-    },
-    {
-     "word": " я",
-     "start": 41.52,
-     "end": 41.56
-    },
-    {
-     "word": " имею",
-     "start": 41.56,
-     "end": 41.72
-    },
-    {
-     "word": " в",
-     "start": 41.72,
-     "end": 41.84
-    },
-    {
-     "word": " виду,",
-     "start": 41.84,
-     "end": 41.84
-    },
-    {
-     "word": " главный",
-     "start": 41.94,
-     "end": 42.62
-    },
-    {
-     "word": " герой.",
-     "start": 42.62,
-     "end": 42.92
-    },
-    {
-     "word": " О,",
-     "start": 45.28,
-     "end": 45.56
-    },
-    {
-     "word": " сейчас",
-     "start": 45.66,
-     "end": 45.74
-    },
-    {
-     "word": " будет...",
-     "start": 45.74,
-     "end": 46.08
-    },
-    {
-     "word": " НАЙНЬ!",
-     "start": 46.08,
-     "end": 46.7
-    },
-    {
-     "word": " Давай.",
-     "start": 47.14,
-     "end": 47.32
-    },
-    {
-     "word": " НАЙНЬ!",
-     "start": 53.61,
-     "end": 54.17
-    },
-    {
-     "word": " Не",
-     "start": 61.54,
-     "end": 62.1
-    },
-    {
-     "word": " знаю,",
-     "start": 62.1,
-     "end": 62.28
-    },
-    {
-     "word": " тревер,",
-     "start": 62.42,
-     "end": 62.7
-    },
-    {
-     "word": " по",
-     "start": 62.76,
-     "end": 62.84
-    },
-    {
-     "word": "-моему,",
-     "start": 62.84,
-     "end": 63.12
-    },
-    {
-     "word": " вообще.",
-     "start": 63.28,
-     "end": 63.36
+     "word": " Герой!",
+     "start": 37.32,
+     "end": 38.26
     }
    ],
    "metrics": {
-    "motion": 0.17201388888888888,
-    "motion_p90": 0.47473611111111114,
-    "static_share": 0.058823529411764705,
-    "peak_db": 20.69900131225586,
-    "level_db": -40.50407409667969
+    "motion": 0.05880276718904419,
+    "motion_p90": 0.6130312014683044,
+    "static_share": 0.3319838056680162,
+    "peak_db": 14.138986587524414,
+    "level_db": -39.094322204589844
    },
    "silence": []
   }
