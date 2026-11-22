@@ -3501,6 +3501,237 @@
     "level_db": -21.25999641418457
    },
    "silence": []
+  },
+  "chat-2936934156-523": {
+   "id": "chat-2936934156-523",
+   "url": "https://www.twitch.tv/videos/2936934156",
+   "section": [
+    23534.260239,
+    23590.260239
+   ],
+   "kind": "chat",
+   "views": 51,
+   "title": "",
+   "vod": "2936934156",
+   "vod_t": 23534.260239,
+   "group": "en",
+   "login": "fanum",
+   "name": "Fanum",
+   "viewers": 10691,
+   "chat_score": 8.5,
+   "found_at": "2026-11-22T10:11:15.986873+00:00",
+   "spike_at": "2026-11-22T10:04:03.260239+00:00",
+   "chat": [
+    "14x W",
+    "13x fanumWSTREAM",
+    "9x WW",
+    "7x w ͏",
+    "4x WWWWW",
+    "3x WWWW",
+    "2x WWWWWW",
+    "2x FLEEEEEEEEEEET",
+    "boobie. the poopi",
+    "WW STREAMMM",
+    "Pre temssssss",
+    "we'll see you",
+    "fanumLIT fanumWSTREAM",
+    "\u0001ACTION The current time for Fanum is 5:04 AM EST\u0001",
+    "WWW",
+    "fanumPRETEMS"
+   ],
+   "source": "cut from the live stream at a chat spike: 51 chatters in 15 s, 8.5x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-22T10:11:36.967635+00:00",
+   "cam": [
+    103,
+    456,
+    214,
+    150
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.1,
+   "words": [
+    {
+     "word": " So",
+     "start": 1.2,
+     "end": 1.66
+    },
+    {
+     "word": " it",
+     "start": 1.66,
+     "end": 1.74
+    },
+    {
+     "word": " should",
+     "start": 1.74,
+     "end": 1.88
+    },
+    {
+     "word": " look",
+     "start": 1.88,
+     "end": 2.06
+    },
+    {
+     "word": " fake",
+     "start": 2.06,
+     "end": 2.34
+    },
+    {
+     "word": " like",
+     "start": 2.34,
+     "end": 2.52
+    },
+    {
+     "word": " how",
+     "start": 2.52,
+     "end": 2.68
+    },
+    {
+     "word": " good",
+     "start": 2.68,
+     "end": 2.86
+    },
+    {
+     "word": " this",
+     "start": 2.86,
+     "end": 3.02
+    },
+    {
+     "word": " game",
+     "start": 3.02,
+     "end": 3.2
+    },
+    {
+     "word": " looks",
+     "start": 3.2,
+     "end": 3.44
+    },
+    {
+     "word": " it's",
+     "start": 3.44,
+     "end": 3.82
+    },
+    {
+     "word": " insane.",
+     "start": 3.82,
+     "end": 4.0
+    },
+    {
+     "word": " Let",
+     "start": 6.33,
+     "end": 6.71
+    },
+    {
+     "word": " me",
+     "start": 6.71,
+     "end": 6.83
+    },
+    {
+     "word": " see",
+     "start": 6.83,
+     "end": 7.03
+    },
+    {
+     "word": " Yeah,",
+     "start": 23.72,
+     "end": 24.1
+    },
+    {
+     "word": " so",
+     "start": 24.14,
+     "end": 24.24
+    },
+    {
+     "word": " we're",
+     "start": 24.24,
+     "end": 24.42
+    },
+    {
+     "word": " gonna",
+     "start": 24.42,
+     "end": 24.5
+    },
+    {
+     "word": " crit",
+     "start": 24.5,
+     "end": 24.8
+    },
+    {
+     "word": " him.",
+     "start": 24.8,
+     "end": 25.06
+    },
+    {
+     "word": " Oh,",
+     "start": 28.82,
+     "end": 29.2
+    },
+    {
+     "word": " we",
+     "start": 29.24,
+     "end": 29.3
+    },
+    {
+     "word": " still",
+     "start": 29.3,
+     "end": 29.48
+    },
+    {
+     "word": " do",
+     "start": 29.48,
+     "end": 29.76
+    },
+    {
+     "word": " Shit",
+     "start": 35.48,
+     "end": 35.86
+    },
+    {
+     "word": " won't",
+     "start": 35.86,
+     "end": 36.24
+    },
+    {
+     "word": " chat",
+     "start": 36.24,
+     "end": 36.5
+    },
+    {
+     "word": " Dubs",
+     "start": 38.42,
+     "end": 38.8
+    },
+    {
+     "word": " in",
+     "start": 38.8,
+     "end": 38.92
+    },
+    {
+     "word": " the",
+     "start": 38.92,
+     "end": 38.98
+    },
+    {
+     "word": " chat",
+     "start": 38.98,
+     "end": 39.2
+    },
+    {
+     "word": " man",
+     "start": 39.2,
+     "end": 39.9
+    }
+   ],
+   "metrics": {
+    "motion": 0.2065286511693634,
+    "motion_p90": 0.6575001766409951,
+    "static_share": 0.17937219730941703,
+    "peak_db": 18.018526077270508,
+    "level_db": -30.22520637512207
+   },
+   "silence": []
   }
  },
  "pool": {
