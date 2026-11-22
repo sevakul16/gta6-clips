@@ -1,81 +1,4 @@
 {
- "PuzzledEndearingConsoleYouDontSay-oRGrmSjyLCkCNGtT": {
-  "at": "2026-11-20T21:15:04.241265+00:00",
-  "moment_score": 7,
-  "what_happens": "Спокойно едет под дождём, на трассу выбегает олень, машину заносит в кусты, стример кричит, потом возвращается на дорогу и извиняется перед сбитым оленем. Субтитры уже вшиты в клип, рекламные баннеры справа остаются за кадром.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Спокойно ехал под дождём, пока на трассу не вышел олень 🦌",
-  "keep_start": 5.0,
-  "keep_end": 30.0,
-  "hook": "Вылетел из-за оленя",
-  "cover_at": 13.8,
-  "no_subs": true
- },
- "TameTubularPlumArsonNoSexy--NrH8uDlNpeYqE1O": {
-  "at": "2026-11-20T21:15:04.284051+00:00",
-  "moment_score": 4,
-  "what_happens": "Объясняет трюк с видом от первого лица через настройки и телефон, но сам показать не может, события нет, меню в вертикальном кадре обрезано.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "HeadstrongCrypticJellyfishPeanutButterJellyTime-CgPeyKuXTnNv9cZs": {
-  "at": "2026-11-20T21:15:04.326894+00:00",
-  "moment_score": 2,
-  "what_happens": "Нудистский курорт, в кадре обнажённые персонажи почти весь клип.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "ArborealVictoriousSnailDatSheffy-LUDJxQAqZjCXFVjP": {
-  "at": "2026-11-20T21:15:04.372104+00:00",
-  "moment_score": 2,
-  "what_happens": "Стрип-клуб, танцовщицы в бикини, в конце камера телефона наведена на грудь.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2933453157-2961": {
-  "at": "2026-11-20T21:15:04.415408+00:00",
-  "moment_score": 2,
-  "what_happens": "Вебкамеры в кадре нет, вторая половина клипа занята заставкой с танцполом чата.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2934772009-906": {
-  "at": "2026-11-20T21:15:04.456811+00:00",
-  "moment_score": 2,
-  "what_happens": "Обычная поездка по трассе, чат желает здоровья после чиха, события в игре нет.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2934897780-581": {
-  "at": "2026-11-20T21:15:04.511083+00:00",
-  "moment_score": 1,
-  "what_happens": "Стример рассказывает о тяжёлой болезни дедушки, это личное и не игровой момент.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2935090050-269": {
-  "at": "2026-11-20T21:15:04.555843+00:00",
-  "moment_score": 3,
-  "what_happens": "Смешная авария на мотоцикле посреди диалога, но у стримера нет вебкамеры в кадре.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2935101396-304": {
-  "at": "2026-11-20T21:15:04.609590+00:00",
-  "moment_score": 3,
-  "what_happens": "Сюжетная сцена в больнице и возмущение из меню паузы, что деньги отбирают по сценарию; события в игре нет, сюжетный спойлер.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "OutstandingColdTildeAMPEnergy-pjac1xCacApR9QdX": {
   "at": "2026-11-20T22:14:19.949864+00:00",
   "moment_score": 6,
@@ -2042,5 +1965,21 @@
   "keep_end": 57.0,
   "hook": "Потерял победу на 97%",
   "cover_at": 43.7
+ },
+ "chat-2937407818-416": {
+  "at": "2026-11-22T22:13:55.991781+00:00",
+  "moment_score": 2,
+  "what_happens": "Стримера поздравляют с днём рождения, пока в игре идёт разведка в бинокль. Это разговор на стриме, игрового события нет.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2937503083-319": {
+  "at": "2026-11-22T22:13:56.038781+00:00",
+  "moment_score": 3,
+  "what_happens": "Телефонный разговор по сюжету, затем стример обсуждает режим чата и идёт продавать добычу. События и реакции нет.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
  }
 }
