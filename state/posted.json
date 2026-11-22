@@ -740,11 +740,6 @@
   }
  },
  "rejected": {
-  "ViscousCallousMuleRuleFive-HpdKHtraw_2ro91m": {
-   "at": "2026-11-19T05:44:04.040159+00:00",
-   "why": "picture is almost static (motion 0.03)",
-   "login": "kaicenat"
-  },
   "chat-2932677749-720": {
    "at": "2026-11-19T06:26:50.568044+00:00",
    "why": "editor: 5/10, Night shootout at a burning shack, he shoots a man's legs and a crocodile apparently finishes him, the game gives evil points; frames too dark to see the moment",
@@ -3007,6 +3002,136 @@
     "static_share": 0.036290322580645164,
     "peak_db": 27.80764389038086,
     "level_db": -43.76254653930664
+   },
+   "silence": []
+  },
+  "chat-2936683310-526": {
+   "id": "chat-2936683310-526",
+   "url": "https://www.twitch.tv/videos/2936683310",
+   "section": [
+    23629.98978,
+    23685.98978
+   ],
+   "kind": "chat",
+   "views": 111,
+   "title": "",
+   "vod": "2936683310",
+   "vod_t": 23629.98978,
+   "group": "en",
+   "login": "kaicenat",
+   "name": "KaiCenat",
+   "viewers": 28209,
+   "chat_score": 7.93,
+   "found_at": "2026-11-22T05:50:31.684659+00:00",
+   "spike_at": "2026-11-22T05:37:28.989780+00:00",
+   "chat": [
+    "6x LMAO",
+    "5x lol",
+    "5x LUL",
+    "3x LMAOO",
+    "3x 😂😂😂😂",
+    "2x 😂😂😂😂😂😂😂",
+    "2x OMG",
+    "2x LMAOOOO",
+    "2x BROOOO LOL",
+    "2x 😂😂😂",
+    "2x SON",
+    "2x lmaooooo",
+    "LMFAAAAOOOOO",
+    "COME PICK IT UP LATER",
+    "Hhhhhhahhahahhaha",
+    "😂😂 nah Lucia would’ve been dead asf 😂😂",
+    "GEEG 5 star",
+    "HOLYYYYYYY SHITTTTTTTT",
+    "KKKKKKKKKKKKKKKKKKKKKKK WTF",
+    "W SAVEEEEEEE"
+   ],
+   "source": "cut from the live stream at a chat spike: 111 chatters in 15 s, 7.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-22T05:50:55.865211+00:00",
+   "cam": [
+    0,
+    345,
+    428,
+    301
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " Fucking",
+     "start": 35.76,
+     "end": 36.1
+    },
+    {
+     "word": " gosh.",
+     "start": 36.1,
+     "end": 36.46
+    },
+    {
+     "word": " Okay.",
+     "start": 43.35,
+     "end": 43.77
+    },
+    {
+     "word": " It's",
+     "start": 43.87,
+     "end": 43.91
+    },
+    {
+     "word": " all",
+     "start": 43.91,
+     "end": 44.05
+    },
+    {
+     "word": " right.",
+     "start": 44.05,
+     "end": 44.31
+    },
+    {
+     "word": " We're",
+     "start": 44.39,
+     "end": 44.69
+    },
+    {
+     "word": " facing",
+     "start": 44.69,
+     "end": 44.93
+    },
+    {
+     "word": " this",
+     "start": 44.93,
+     "end": 45.25
+    },
+    {
+     "word": " way.",
+     "start": 45.25,
+     "end": 45.53
+    },
+    {
+     "word": " So",
+     "start": 46.11,
+     "end": 46.71
+    },
+    {
+     "word": " let's",
+     "start": 46.71,
+     "end": 47.01
+    },
+    {
+     "word": " go",
+     "start": 47.01,
+     "end": 47.31
+    }
+   ],
+   "metrics": {
+    "motion": 0.5075757575757576,
+    "motion_p90": 0.7450386215092097,
+    "static_share": 0.16143497757847533,
+    "peak_db": 5.641069412231445,
+    "level_db": -16.183820724487305
    },
    "silence": []
   }
