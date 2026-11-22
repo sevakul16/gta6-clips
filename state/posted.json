@@ -839,26 +839,6 @@
   }
  },
  "rejected": {
-  "chat-2934276428-22": {
-   "at": "2026-11-19T23:31:40.542400+00:00",
-   "why": "picture is almost static (motion 0.00)",
-   "login": "summit1g"
-  },
-  "chat-2933495403-1068": {
-   "at": "2026-11-19T23:31:40.917337+00:00",
-   "why": "editor: betting/casino branding in the picture",
-   "login": "ravshann"
-  },
-  "chat-2933504535-1083": {
-   "at": "2026-11-19T23:31:40.917643+00:00",
-   "why": "editor: 2/10, He comes back from a break, checks the map and walks the character around drinking coffee while asking who is back; the chat spike is pluses and gift-sub thanks. No moment",
-   "login": "shadowkekw"
-  },
-  "chat-2932167852-3048": {
-   "at": "2026-11-19T23:31:40.918034+00:00",
-   "why": "editor: 2/10, Cutscene and the start of a mission drive in a convertible, then the pause menu while he asks where viewers are watching from; the chat spike is city names. No moment",
-   "login": "frametamer666"
-  },
   "chat-2933748278-698": {
    "at": "2026-11-19T23:54:07.540620+00:00",
    "why": "streamer fills the screen, no gameplay",
@@ -3318,6 +3298,367 @@
     "static_share": 0.0,
     "peak_db": 8.724615097045898,
     "level_db": -35.73274230957031
+   },
+   "silence": []
+  },
+  "chat-2937407818-600": {
+   "id": "chat-2937407818-600",
+   "url": "https://www.twitch.tv/videos/2937407818",
+   "section": [
+    26977.31682,
+    27033.31682
+   ],
+   "kind": "chat",
+   "views": 42,
+   "title": "",
+   "vod": "2937407818",
+   "vod_t": 26977.31682,
+   "group": "ru",
+   "login": "steel",
+   "name": "steel",
+   "viewers": 5541,
+   "chat_score": 4.67,
+   "found_at": "2026-11-22T23:35:40.062524+00:00",
+   "spike_at": "2026-11-22T23:26:47.316820+00:00",
+   "chat": [
+    "9x х",
+    "5x Телеграм t.me/steelstaya",
+    "4x Продолжить",
+    "3x Отложи",
+    "2x отклони",
+    "2x Продолжи",
+    "2x хх",
+    "2x X",
+    "ТАКОЙ",
+    "Отложи наверное",
+    "Вась не жми",
+    "кирюха чисто засухарилсч молчит",
+    "продо",
+    "Продолжить.",
+    "Продолжить жми",
+    "Отложить"
+   ],
+   "source": "cut from the live stream at a chat spike: 42 chatters in 15 s, 4.7x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-22T23:36:15.470656+00:00",
+   "cam": [
+    554,
+    100,
+    466,
+    328
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 63.0,
+   "words": [
+    {
+     "word": " Эй,",
+     "start": 0.82,
+     "end": 1.54
+    },
+    {
+     "word": " я",
+     "start": 2.66,
+     "end": 2.8
+    },
+    {
+     "word": " готов.",
+     "start": 2.8,
+     "end": 2.94
+    },
+    {
+     "word": " Я",
+     "start": 5.26,
+     "end": 5.82
+    },
+    {
+     "word": " не",
+     "start": 5.82,
+     "end": 6.38
+    },
+    {
+     "word": " знаю,",
+     "start": 6.38,
+     "end": 6.38
+    },
+    {
+     "word": " что",
+     "start": 6.38,
+     "end": 6.38
+    },
+    {
+     "word": " ты",
+     "start": 6.38,
+     "end": 6.38
+    },
+    {
+     "word": " делаешь.",
+     "start": 6.38,
+     "end": 6.38
+    },
+    {
+     "word": " Мы",
+     "start": 6.8,
+     "end": 7.26
+    },
+    {
+     "word": " на",
+     "start": 7.26,
+     "end": 7.58
+    },
+    {
+     "word": " другом",
+     "start": 7.58,
+     "end": 7.96
+    },
+    {
+     "word": " стороне.",
+     "start": 7.96,
+     "end": 8.32
+    },
+    {
+     "word": " Вдруг.",
+     "start": 9.1,
+     "end": 9.66
+    },
+    {
+     "word": " Я",
+     "start": 10.38,
+     "end": 10.94
+    },
+    {
+     "word": " не",
+     "start": 10.94,
+     "end": 11.02
+    },
+    {
+     "word": " знаю,",
+     "start": 11.02,
+     "end": 11.02
+    },
+    {
+     "word": " что",
+     "start": 11.2,
+     "end": 11.32
+    },
+    {
+     "word": " мы",
+     "start": 11.32,
+     "end": 11.44
+    },
+    {
+     "word": " сделали",
+     "start": 11.44,
+     "end": 11.64
+    },
+    {
+     "word": " в",
+     "start": 11.64,
+     "end": 11.8
+    },
+    {
+     "word": " другом",
+     "start": 11.8,
+     "end": 11.86
+    },
+    {
+     "word": " стороне.",
+     "start": 11.86,
+     "end": 11.94
+    },
+    {
+     "word": " Да,",
+     "start": 12.98,
+     "end": 12.98
+    },
+    {
+     "word": " ну",
+     "start": 13.24,
+     "end": 13.34
+    },
+    {
+     "word": " что?",
+     "start": 13.34,
+     "end": 13.8
+    },
+    {
+     "word": " А,",
+     "start": 17.12,
+     "end": 17.6
+    },
+    {
+     "word": " когда",
+     "start": 17.7,
+     "end": 17.7
+    },
+    {
+     "word": " мы",
+     "start": 17.7,
+     "end": 17.82
+    },
+    {
+     "word": " получаем",
+     "start": 17.82,
+     "end": 17.92
+    },
+    {
+     "word": " эту",
+     "start": 17.92,
+     "end": 18.08
+    },
+    {
+     "word": " паузу...",
+     "start": 18.08,
+     "end": 19.72
+    },
+    {
+     "word": " Все",
+     "start": 19.72,
+     "end": 20.36
+    },
+    {
+     "word": " меняет.",
+     "start": 20.36,
+     "end": 20.76
+    },
+    {
+     "word": " Мы",
+     "start": 22.16,
+     "end": 22.42
+    },
+    {
+     "word": " с",
+     "start": 22.42,
+     "end": 22.54
+    },
+    {
+     "word": " вами",
+     "start": 22.54,
+     "end": 22.66
+    },
+    {
+     "word": " ходим.",
+     "start": 22.66,
+     "end": 23.16
+    },
+    {
+     "word": " Мы",
+     "start": 23.62,
+     "end": 23.76
+    },
+    {
+     "word": " с",
+     "start": 23.76,
+     "end": 23.82
+    },
+    {
+     "word": " Овом.",
+     "start": 23.82,
+     "end": 24.12
+    },
+    {
+     "word": " Кирюха,",
+     "start": 24.68,
+     "end": 24.98
+    },
+    {
+     "word": " ты",
+     "start": 24.98,
+     "end": 25.08
+    },
+    {
+     "word": " на",
+     "start": 25.08,
+     "end": 25.2
+    },
+    {
+     "word": " Курины",
+     "start": 25.2,
+     "end": 25.46
+    },
+    {
+     "word": " сейчас",
+     "start": 25.46,
+     "end": 25.62
+    },
+    {
+     "word": " скажи?",
+     "start": 25.62,
+     "end": 25.92
+    },
+    {
+     "word": " Я",
+     "start": 26.3,
+     "end": 26.5
+    },
+    {
+     "word": " с",
+     "start": 26.5,
+     "end": 26.5
+    },
+    {
+     "word": " Овом.",
+     "start": 26.5,
+     "end": 26.9
+    },
+    {
+     "word": " Я",
+     "start": 28.02,
+     "end": 28.18
+    },
+    {
+     "word": " буду",
+     "start": 28.18,
+     "end": 28.34
+    },
+    {
+     "word": " с",
+     "start": 28.34,
+     "end": 28.52
+    },
+    {
+     "word": " Овом.",
+     "start": 28.52,
+     "end": 28.76
+    },
+    {
+     "word": " Мы",
+     "start": 30.08,
+     "end": 30.08
+    },
+    {
+     "word": " с",
+     "start": 30.08,
+     "end": 30.08
+    },
+    {
+     "word": " Овом.",
+     "start": 30.08,
+     "end": 30.68
+    },
+    {
+     "word": " Ты",
+     "start": 31.56,
+     "end": 31.94
+    },
+    {
+     "word": " готова?",
+     "start": 31.94,
+     "end": 32.14
+    },
+    {
+     "word": " Убираешься?",
+     "start": 33.02,
+     "end": 33.78
+    }
+   ],
+   "metrics": {
+    "motion": 0.09209337349397591,
+    "motion_p90": 0.2411144578313253,
+    "static_share": 0.02390438247011952,
+    "peak_db": 17.962657928466797,
+    "level_db": -42.40415573120117
    },
    "silence": []
   }
