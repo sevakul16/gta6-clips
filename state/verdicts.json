@@ -1,80 +1,4 @@
 {
- "HelpfulInquisitiveRatNinjaGrumpy-IB9QIT9aKlOR2spw": {
-  "at": "2026-11-20T19:14:40.549133+00:00",
-  "moment_score": 3,
-  "what_happens": "Десять секунд перестрелки у мотеля и реплика чату; отдельного момента нет",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "SpineyFairEggplantDancingBanana-bH0uBbWgNv4K9RfE": {
-  "at": "2026-11-20T19:14:40.595457+00:00",
-  "moment_score": 6,
-  "what_happens": "Хотел просто поставить стакан кофе, а Люсия вместо этого бьёт прохожую, толпа в шоке; «I meant to drop the coffee. Why would she do such a thing?», лицо стримера в шоке. Короткий понятный момент, 3,4 тыс. просмотров клипа",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "He only wanted to put the coffee down ☕",
-  "hook": "Just drop the coffee",
-  "cover_at": 8.9
- },
- "chat-2933453157-2799": {
-  "at": "2026-11-20T19:14:40.640242+00:00",
-  "moment_score": 3,
-  "what_happens": "Ночью обносит склад, чат требует освободить попугая, он не понимает как и открывает карту; развязки нет",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2934472461-1335": {
-  "at": "2026-11-20T19:14:40.689599+00:00",
-  "moment_score": 3,
-  "what_happens": "Катается на самокате и обещает прыжок через копов, прыжка в отрезке нет; чат пишет про зависшую картинку доната поверх игры",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2934897780-387": {
-  "at": "2026-11-20T19:14:40.738347+00:00",
-  "moment_score": 3,
-  "what_happens": "Перестрелка в тёмном здании, кадр почти чёрный, рамка вебкамеры мимо; ясного события нет",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2934897780-422": {
-  "at": "2026-11-20T19:14:40.782858+00:00",
-  "moment_score": 3,
-  "what_happens": "Ограбление: ставит взрывчатку на дверь хранилища и сомневается, не ошибся ли; сюжетная сцена без развязки, рамка вебкамеры не найдена",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2935093413-125": {
-  "at": "2026-11-20T19:14:40.825698+00:00",
-  "moment_score": 7,
-  "what_happens": "Едет на BMX по велодорожке и «соблюдает закон», сбивает прохожую, получает звёзды, делает вилли, убегает от копов по трассе, падает и получает WASTED; смешной комментарий всю дорогу, чат 34x LOL. Рамка вебкамеры сужена, чтобы не попала мини-карта",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "He was respecting the law. In the bike lane. 🚲",
-  "keep_start": 0.0,
-  "keep_end": 47.0,
-  "cam": [
-   0.0,
-   0.5,
-   0.26,
-   0.325
-  ],
-  "hook": "Bike lane. Wasted.",
-  "cover_at": 36.7
- },
- "chat-2934989101-298": {
-  "at": "2026-11-20T19:14:40.869341+00:00",
-  "moment_score": 3,
-  "what_happens": "Едет с NPC к стрип-клубу и шутит, что все дороги ведут туда; события нет, рамка вебкамеры не найдена",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "FamousBlushingFennelAllenHuhu-dja4WvPYHg5tH04i": {
   "at": "2026-11-20T20:13:46.916363+00:00",
   "moment_score": 5,
@@ -2109,6 +2033,30 @@
   "at": "2026-11-22T19:13:11.459554+00:00",
   "moment_score": 1,
   "what_happens": "Сцена в стрип-клубе: приватный танец, героиня почти раздета. Такой контент не публикуем ни на одной площадке.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2937180390-682": {
+  "at": "2026-11-22T20:13:38.034913+00:00",
+  "moment_score": 1,
+  "what_happens": "Ночная поездка за заказом с аварией в конце, но веб-камеры стримера в кадре нет: ролик с реакцией собрать не из чего.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "StylishFairChowderDoritosChip-SQ1GCE6-ymT6ih7l": {
+  "at": "2026-11-22T20:13:38.094893+00:00",
+  "moment_score": 1,
+  "what_happens": "Сцена в стрип-клубе: приватный танец, героиня почти раздета. Такой контент не публикуем ни на одной площадке.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2937163636-750": {
+  "at": "2026-11-22T20:13:38.152155+00:00",
+  "moment_score": 3,
+  "what_happens": "Ночная сюжетная проходка: герои идут к гаражу, открывают его и собирают инструменты. Темно, камера крошечная, события и реакции нет.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
