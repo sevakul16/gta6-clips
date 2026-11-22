@@ -3006,6 +3006,92 @@
     "level_db": -33.53573226928711
    },
    "silence": []
+  },
+  "NurturingHilariousMallardPeteZarollTie-e7JErLpouriJgnbt": {
+   "id": "NurturingHilariousMallardPeteZarollTie-e7JErLpouriJgnbt",
+   "url": "https://www.twitch.tv/t2x2/clip/NurturingHilariousMallardPeteZarollTie-e7JErLpouriJgnbt",
+   "section": null,
+   "kind": "clip",
+   "views": 301,
+   "title": "Ограбление века",
+   "vod": "2936052672",
+   "vod_t": 3144,
+   "group": "ru",
+   "login": "t2x2",
+   "name": "T2x2",
+   "source": "Twitch clip made by a viewer, 301 views, titled \"Ограбление века\"",
+   "at": "2026-11-22T04:04:19.035414+00:00",
+   "cam": [
+    1937,
+    930,
+    460,
+    324
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 15.3,
+   "words": [
+    {
+     "word": " Вертолет",
+     "start": 0.0,
+     "end": 0.64
+    },
+    {
+     "word": " за",
+     "start": 0.64,
+     "end": 0.8
+    },
+    {
+     "word": " тобой,",
+     "start": 0.8,
+     "end": 1.02
+    },
+    {
+     "word": " но",
+     "start": 1.16,
+     "end": 1.24
+    },
+    {
+     "word": " он",
+     "start": 1.24,
+     "end": 1.38
+    },
+    {
+     "word": " не",
+     "start": 1.38,
+     "end": 1.54
+    },
+    {
+     "word": " быстрее",
+     "start": 1.54,
+     "end": 1.9
+    },
+    {
+     "word": " мотоцикла,",
+     "start": 1.9,
+     "end": 2.46
+    },
+    {
+     "word": " сейчас",
+     "start": 2.54,
+     "end": 2.62
+    },
+    {
+     "word": " ебем.",
+     "start": 2.62,
+     "end": 2.98
+    }
+   ],
+   "metrics": {
+    "motion": 0.22014357189471395,
+    "motion_p90": 0.5672250018127767,
+    "static_share": 0.03333333333333333,
+    "peak_db": 11.51121711730957,
+    "level_db": -27.84326934814453
+   },
+   "silence": []
   }
  },
  "pool": {
