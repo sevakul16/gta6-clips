@@ -770,6 +770,177 @@
      "post_url": "https://www.tiktok.com/@gta6.viral42/video/7710914437904862496"
     }
    ]
+  },
+  "GlutenFreeGloriousReindeerItsBoshyTime-bUDhg-I5xJdu6PlH": {
+   "at": "2026-11-22T13:04:25.605597+00:00",
+   "ok": true,
+   "profile": "gta6",
+   "platforms": [
+    "tiktok",
+    "youtube"
+   ],
+   "login": "t2x2",
+   "group": "ru",
+   "url": "https://www.twitch.tv/t2x2/clip/GlutenFreeGloriousReindeerItsBoshyTime-bUDhg-I5xJdu6PlH",
+   "kind": "clip",
+   "score": 7,
+   "caption": "Прочитал в чате «научись водить уже». Ответить толком не успел 💀",
+   "vod": "2934846936",
+   "vod_t": 19232,
+   "hook": "Научись водить",
+   "request_id": "5e13379746b14d3081f858774898802e",
+   "cand": {
+    "id": "GlutenFreeGloriousReindeerItsBoshyTime-bUDhg-I5xJdu6PlH",
+    "url": "https://www.twitch.tv/t2x2/clip/GlutenFreeGloriousReindeerItsBoshyTime-bUDhg-I5xJdu6PlH",
+    "section": null,
+    "kind": "clip",
+    "views": 314,
+    "title": "Тоха и вождение:",
+    "vod": "2934846936",
+    "vod_t": 19232,
+    "group": "ru",
+    "login": "t2x2",
+    "name": "T2x2",
+    "source": "Twitch clip made by a viewer, 314 views, titled \"Тоха и вождение:\"",
+    "at": "2026-11-21T12:26:35.618135+00:00",
+    "cam": [
+     1937,
+     930,
+     460,
+     324
+    ],
+    "size": [
+     2560,
+     1440
+    ],
+    "dur": 16.4,
+    "words": [
+     {
+      "word": " А",
+      "start": 1.1,
+      "end": 1.56
+     },
+     {
+      "word": " учесть",
+      "start": 1.56,
+      "end": 1.8
+     },
+     {
+      "word": " сводить",
+      "start": 1.8,
+      "end": 2.18
+     },
+     {
+      "word": " уже.",
+      "start": 2.18,
+      "end": 2.38
+     },
+     {
+      "word": " Я",
+      "start": 2.56,
+      "end": 2.68
+     },
+     {
+      "word": " тебя",
+      "start": 2.68,
+      "end": 2.84
+     },
+     {
+      "word": " сейчас",
+      "start": 2.84,
+      "end": 3.06
+     },
+     {
+      "word": " повожу,",
+      "start": 3.06,
+      "end": 3.46
+     },
+     {
+      "word": " блядь.",
+      "start": 3.58,
+      "end": 3.86
+     },
+     {
+      "word": " Да",
+      "start": 4.42,
+      "end": 4.68
+     },
+     {
+      "word": " ебаный",
+      "start": 4.68,
+      "end": 5.22
+     },
+     {
+      "word": " бунг",
+      "start": 5.22,
+      "end": 5.66
+     },
+     {
+      "word": " так,",
+      "start": 5.66,
+      "end": 5.78
+     },
+     {
+      "word": " блядь!",
+      "start": 5.92,
+      "end": 6.28
+     },
+     {
+      "word": " Хуйло!",
+      "start": 11.6,
+      "end": 12.14
+     },
+     {
+      "word": " Не",
+      "start": 12.68,
+      "end": 13.24
+     },
+     {
+      "word": " отвлекай",
+      "start": 13.24,
+      "end": 13.68
+     },
+     {
+      "word": " меня",
+      "start": 13.68,
+      "end": 13.86
+     },
+     {
+      "word": " пока",
+      "start": 13.86,
+      "end": 14.14
+     },
+     {
+      "word": " за",
+      "start": 14.14,
+      "end": 14.32
+     },
+     {
+      "word": " рулём,",
+      "start": 14.32,
+      "end": 14.66
+     },
+     {
+      "word": " блядь.",
+      "start": 14.68,
+      "end": 15.06
+     }
+    ],
+    "metrics": {
+     "motion": 0.18932637227177146,
+     "motion_p90": 0.2869407584656661,
+     "static_share": 0.0,
+     "peak_db": 7.964347839355469,
+     "level_db": -20.701168060302734
+    },
+    "silence": [],
+    "caption": "Прочитал в чате «научись водить уже». Ответить толком не успел 💀",
+    "hook": "Научись водить",
+    "cover_at": 6.1,
+    "no_subs": true,
+    "score": 7,
+    "keep": null
+   }
   }
  },
  "rejected": {
@@ -3228,6 +3399,405 @@
     "level_db": -35.489383697509766
    },
    "silence": []
+  },
+  "chat-2935172718-3392": {
+   "id": "chat-2935172718-3392",
+   "url": "https://www.twitch.tv/videos/2935172718",
+   "section": [
+    152633.151803,
+    152689.151803
+   ],
+   "kind": "chat",
+   "views": 44,
+   "title": "",
+   "vod": "2935172718",
+   "vod_t": 152633.151803,
+   "group": "ru",
+   "login": "leva2k",
+   "name": "leva2k",
+   "viewers": 4714,
+   "chat_score": 5.87,
+   "found_at": "2026-11-22T13:02:47.596203+00:00",
+   "spike_at": "2026-11-22T12:45:39.151803+00:00",
+   "chat": [
+    "2x Ахахаххаахха",
+    "агни земли",
+    "LUL",
+    "пххахахаххаха",
+    "АХХАХАХАХХАХАХА",
+    "🤣🤣🤣🤣",
+    "🤣🤣🤣🤣🤣🤣",
+    "Ахахаха",
+    "ты поджог траву а не машину"
+   ],
+   "source": "cut from the live stream at a chat spike: 44 chatters in 15 s, 5.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-22T13:03:27.268268+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 59.7,
+   "words": [
+    {
+     "word": " Стойте,",
+     "start": 0.24,
+     "end": 0.9
+    },
+    {
+     "word": " я",
+     "start": 0.92,
+     "end": 0.98
+    },
+    {
+     "word": " могу",
+     "start": 0.98,
+     "end": 1.2
+    },
+    {
+     "word": " сдать",
+     "start": 1.2,
+     "end": 1.42
+    },
+    {
+     "word": " скутеры",
+     "start": 1.42,
+     "end": 1.86
+    },
+    {
+     "word": " или",
+     "start": 1.86,
+     "end": 2.04
+    },
+    {
+     "word": " что?",
+     "start": 2.04,
+     "end": 2.26
+    },
+    {
+     "word": " Я",
+     "start": 5.59,
+     "end": 5.87
+    },
+    {
+     "word": " скутер",
+     "start": 5.87,
+     "end": 6.31
+    },
+    {
+     "word": " сейчас",
+     "start": 6.31,
+     "end": 6.45
+    },
+    {
+     "word": " могу",
+     "start": 6.45,
+     "end": 6.73
+    },
+    {
+     "word": " сдать?",
+     "start": 6.73,
+     "end": 7.13
+    },
+    {
+     "word": " Мы",
+     "start": 7.97,
+     "end": 8.55
+    },
+    {
+     "word": " пошли",
+     "start": 8.55,
+     "end": 8.87
+    },
+    {
+     "word": " издадим.",
+     "start": 8.87,
+     "end": 9.33
+    },
+    {
+     "word": " Подожди,",
+     "start": 9.95,
+     "end": 10.47
+    },
+    {
+     "word": " я",
+     "start": 10.53,
+     "end": 10.65
+    },
+    {
+     "word": " сейчас",
+     "start": 10.65,
+     "end": 10.83
+    },
+    {
+     "word": " этот",
+     "start": 10.83,
+     "end": 11.03
+    },
+    {
+     "word": " скутер",
+     "start": 11.03,
+     "end": 11.37
+    },
+    {
+     "word": " могу",
+     "start": 11.37,
+     "end": 11.53
+    },
+    {
+     "word": " сдать?",
+     "start": 11.53,
+     "end": 11.93
+    },
+    {
+     "word": " Разгорелась.",
+     "start": 29.21,
+     "end": 29.79
+    },
+    {
+     "word": " Да",
+     "start": 29.91,
+     "end": 29.95
+    },
+    {
+     "word": " все,",
+     "start": 29.95,
+     "end": 30.21
+    },
+    {
+     "word": " все,",
+     "start": 30.35,
+     "end": 30.57
+    },
+    {
+     "word": " все.",
+     "start": 30.65,
+     "end": 30.81
+    },
+    {
+     "word": " Ничего",
+     "start": 30.97,
+     "end": 31.11
+    },
+    {
+     "word": " смешного,",
+     "start": 31.11,
+     "end": 31.51
+    },
+    {
+     "word": " парень.",
+     "start": 31.73,
+     "end": 31.97
+    },
+    {
+     "word": " Ничего",
+     "start": 32.83,
+     "end": 33.09
+    },
+    {
+     "word": " смешного.",
+     "start": 33.09,
+     "end": 33.51
+    },
+    {
+     "word": " Приветствую,",
+     "start": 35.86,
+     "end": 36.44
+    },
+    {
+     "word": " здравые",
+     "start": 36.5,
+     "end": 36.9
+    },
+    {
+     "word": " атлеты.",
+     "start": 36.9,
+     "end": 37.22
+    },
+    {
+     "word": " Привет,",
+     "start": 37.42,
+     "end": 37.74
+    },
+    {
+     "word": " всем",
+     "start": 38.06,
+     "end": 38.18
+    },
+    {
+     "word": " атлеты!",
+     "start": 38.18,
+     "end": 38.88
+    },
+    {
+     "word": " Всем",
+     "start": 39.5,
+     "end": 39.72
+    },
+    {
+     "word": " доброе",
+     "start": 39.72,
+     "end": 40.18
+    },
+    {
+     "word": " утро.",
+     "start": 40.18,
+     "end": 40.48
+    },
+    {
+     "word": " ГТА",
+     "start": 40.62,
+     "end": 40.88
+    },
+    {
+     "word": " 30",
+     "start": 40.88,
+     "end": 41.2
+    },
+    {
+     "word": "%",
+     "start": 41.2,
+     "end": 41.74
+    },
+    {
+     "word": " спроидено.",
+     "start": 41.74,
+     "end": 42.36
+    },
+    {
+     "word": " Блин,",
+     "start": 44.0,
+     "end": 44.58
+    },
+    {
+     "word": " мне",
+     "start": 44.7,
+     "end": 44.88
+    },
+    {
+     "word": " нравится",
+     "start": 44.88,
+     "end": 45.26
+    },
+    {
+     "word": " эта",
+     "start": 45.26,
+     "end": 45.64
+    },
+    {
+     "word": " игра.",
+     "start": 45.64,
+     "end": 45.88
+    },
+    {
+     "word": " Вторая",
+     "start": 46.06,
+     "end": 46.32
+    },
+    {
+     "word": " глава",
+     "start": 46.32,
+     "end": 46.7
+    },
+    {
+     "word": " тут",
+     "start": 46.7,
+     "end": 46.82
+    },
+    {
+     "word": " реально",
+     "start": 46.82,
+     "end": 47.12
+    },
+    {
+     "word": " есть",
+     "start": 47.12,
+     "end": 47.58
+    },
+    {
+     "word": " прогресс",
+     "start": 47.58,
+     "end": 48.48
+    },
+    {
+     "word": " изменения",
+     "start": 48.48,
+     "end": 49.24
+    },
+    {
+     "word": " в",
+     "start": 49.24,
+     "end": 49.42
+    },
+    {
+     "word": " другом",
+     "start": 49.42,
+     "end": 49.84
+    },
+    {
+     "word": " городе.",
+     "start": 49.84,
+     "end": 50.34
+    },
+    {
+     "word": " Это",
+     "start": 50.44,
+     "end": 50.44
+    },
+    {
+     "word": " очень",
+     "start": 50.44,
+     "end": 50.66
+    },
+    {
+     "word": " прикольно.",
+     "start": 50.66,
+     "end": 51.56
+    },
+    {
+     "word": " Отлично.",
+     "start": 52.0,
+     "end": 52.52
+    },
+    {
+     "word": " По",
+     "start": 54.91,
+     "end": 54.95
+    },
+    {
+     "word": " ходу,",
+     "start": 54.95,
+     "end": 55.29
+    },
+    {
+     "word": " эта",
+     "start": 55.29,
+     "end": 55.41
+    },
+    {
+     "word": " игра",
+     "start": 55.41,
+     "end": 55.63
+    },
+    {
+     "word": " реально",
+     "start": 55.63,
+     "end": 55.99
+    },
+    {
+     "word": " здоровенная.",
+     "start": 55.99,
+     "end": 56.73
+    }
+   ],
+   "metrics": {
+    "motion": 0.3245138888888889,
+    "motion_p90": 0.4830069444444445,
+    "static_share": 0.14285714285714285,
+    "peak_db": 13.9022216796875,
+    "level_db": -32.32447814941406
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -3405,158 +3975,6 @@
    "hook": "Думал, долечу",
    "cover_at": 13.1,
    "score": 6,
-   "keep": null
-  },
-  "GlutenFreeGloriousReindeerItsBoshyTime-bUDhg-I5xJdu6PlH": {
-   "id": "GlutenFreeGloriousReindeerItsBoshyTime-bUDhg-I5xJdu6PlH",
-   "url": "https://www.twitch.tv/t2x2/clip/GlutenFreeGloriousReindeerItsBoshyTime-bUDhg-I5xJdu6PlH",
-   "section": null,
-   "kind": "clip",
-   "views": 314,
-   "title": "Тоха и вождение:",
-   "vod": "2934846936",
-   "vod_t": 19232,
-   "group": "ru",
-   "login": "t2x2",
-   "name": "T2x2",
-   "source": "Twitch clip made by a viewer, 314 views, titled \"Тоха и вождение:\"",
-   "at": "2026-11-21T12:26:35.618135+00:00",
-   "cam": [
-    1937,
-    930,
-    460,
-    324
-   ],
-   "size": [
-    2560,
-    1440
-   ],
-   "dur": 16.4,
-   "words": [
-    {
-     "word": " А",
-     "start": 1.1,
-     "end": 1.56
-    },
-    {
-     "word": " учесть",
-     "start": 1.56,
-     "end": 1.8
-    },
-    {
-     "word": " сводить",
-     "start": 1.8,
-     "end": 2.18
-    },
-    {
-     "word": " уже.",
-     "start": 2.18,
-     "end": 2.38
-    },
-    {
-     "word": " Я",
-     "start": 2.56,
-     "end": 2.68
-    },
-    {
-     "word": " тебя",
-     "start": 2.68,
-     "end": 2.84
-    },
-    {
-     "word": " сейчас",
-     "start": 2.84,
-     "end": 3.06
-    },
-    {
-     "word": " повожу,",
-     "start": 3.06,
-     "end": 3.46
-    },
-    {
-     "word": " блядь.",
-     "start": 3.58,
-     "end": 3.86
-    },
-    {
-     "word": " Да",
-     "start": 4.42,
-     "end": 4.68
-    },
-    {
-     "word": " ебаный",
-     "start": 4.68,
-     "end": 5.22
-    },
-    {
-     "word": " бунг",
-     "start": 5.22,
-     "end": 5.66
-    },
-    {
-     "word": " так,",
-     "start": 5.66,
-     "end": 5.78
-    },
-    {
-     "word": " блядь!",
-     "start": 5.92,
-     "end": 6.28
-    },
-    {
-     "word": " Хуйло!",
-     "start": 11.6,
-     "end": 12.14
-    },
-    {
-     "word": " Не",
-     "start": 12.68,
-     "end": 13.24
-    },
-    {
-     "word": " отвлекай",
-     "start": 13.24,
-     "end": 13.68
-    },
-    {
-     "word": " меня",
-     "start": 13.68,
-     "end": 13.86
-    },
-    {
-     "word": " пока",
-     "start": 13.86,
-     "end": 14.14
-    },
-    {
-     "word": " за",
-     "start": 14.14,
-     "end": 14.32
-    },
-    {
-     "word": " рулём,",
-     "start": 14.32,
-     "end": 14.66
-    },
-    {
-     "word": " блядь.",
-     "start": 14.68,
-     "end": 15.06
-    }
-   ],
-   "metrics": {
-    "motion": 0.18932637227177146,
-    "motion_p90": 0.2869407584656661,
-    "static_share": 0.0,
-    "peak_db": 7.964347839355469,
-    "level_db": -20.701168060302734
-   },
-   "silence": [],
-   "caption": "Прочитал в чате «научись водить уже». Ответить толком не успел 💀",
-   "hook": "Научись водить",
-   "cover_at": 6.1,
-   "no_subs": true,
-   "score": 7,
    "keep": null
   },
   "GenerousRenownedParrotRalpherZ-n6eW4NrXkbahBIWH": {
