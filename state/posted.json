@@ -2897,6 +2897,70 @@
      1.9
     ]
    ]
+  },
+  "chat-2937219114-448": {
+   "id": "chat-2937219114-448",
+   "url": "https://www.twitch.tv/videos/2937219114",
+   "section": [
+    20155.058034,
+    20211.058034
+   ],
+   "kind": "chat",
+   "views": 139,
+   "title": "",
+   "vod": "2937219114",
+   "vod_t": 20155.058034,
+   "group": "ru",
+   "login": "t2x2",
+   "name": "T2x2",
+   "viewers": 13565,
+   "chat_score": 8.18,
+   "found_at": "2026-11-22T17:47:36.665008+00:00",
+   "spike_at": "2026-11-22T17:35:49.058034+00:00",
+   "chat": [
+    "13x спаси",
+    "11x ОТКРОЙ",
+    "6x 00-",
+    "5x )",
+    "3x ))",
+    "3x спасай",
+    "2x hi poroPls pag <-- Не видишь эти смайлы? Установи 7TV 👉 7tv.app или Chatterino (",
+    "2x спаси его",
+    "2x открой бл",
+    "2x Помоги",
+    "2x ну Антон",
+    "2x Маньяк",
+    "долбаеб открой",
+    "еее",
+    "спаси нахУЙЙ",
+    "садист",
+    "Шаурмв",
+    "00",
+    "Ты заебал",
+    "закбал"
+   ],
+   "source": "cut from the live stream at a chat spike: 139 chatters in 15 s, 8.2x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-22T17:47:54.272455+00:00",
+   "cam": [
+    1453,
+    697,
+    345,
+    243
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 61.0,
+   "words": [],
+   "metrics": {
+    "motion": 0.04285403524037416,
+    "motion_p90": 0.11247915307084344,
+    "static_share": 0.07407407407407407,
+    "peak_db": 8.37393569946289,
+    "level_db": -34.08808898925781
+   },
+   "silence": []
   }
  },
  "pool": {
