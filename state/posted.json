@@ -2608,40 +2608,19 @@
    "at": "2026-11-22T18:54:40.015148+00:00",
    "why": "picture is almost static (motion 0.01)",
    "login": "recrent"
-  }
- },
- "pending": {
+  },
+  "chat-2937392051-270": {
+   "at": "2026-11-22T19:16:08.938085+00:00",
+   "why": "no sound in the recording (11 s of 60 s are silent)",
+   "login": "leva2k"
+  },
   "LaconicConsiderateCaterpillarKippa-gK9T9i4PZk82S-SA": {
-   "id": "LaconicConsiderateCaterpillarKippa-gK9T9i4PZk82S-SA",
-   "url": "https://www.twitch.tv/kaicenat/clip/LaconicConsiderateCaterpillarKippa-gK9T9i4PZk82S-SA",
-   "section": null,
-   "kind": "clip",
-   "views": 5775,
-   "title": "KAI GOT MOTION 🤪",
-   "vod": "2936683310",
-   "vod_t": 7528,
-   "group": "en",
-   "login": "kaicenat",
-   "name": "KaiCenat",
-   "source": "Twitch clip made by a viewer, 5775 views, titled \"KAI GOT MOTION 🤪\"",
-   "at": "2026-11-22T18:54:48.120815+00:00",
-   "cam": null,
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 30.0,
-   "words": [],
-   "metrics": {
-    "motion": 0.11930555555555555,
-    "motion_p90": 0.18411111111111111,
-    "static_share": 0.008403361344537815,
-    "peak_db": 5.625472068786621,
-    "level_db": -19.451820373535156
-   },
-   "silence": []
+   "at": "2026-11-22T19:16:09.316574+00:00",
+   "why": "editor: no webcam in the picture",
+   "login": "kaicenat"
   }
  },
+ "pending": {},
  "pool": {
   "OutstandingColdTildeAMPEnergy-pjac1xCacApR9QdX": {
    "id": "OutstandingColdTildeAMPEnergy-pjac1xCacApR9QdX",
