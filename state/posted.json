@@ -740,16 +740,6 @@
   }
  },
  "rejected": {
-  "chat-2932226282-1532": {
-   "at": "2026-11-19T07:31:07.085193+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "theburntpeanut"
-  },
-  "chat-2933227596-174": {
-   "at": "2026-11-19T07:31:07.085763+00:00",
-   "why": "editor: 5/10, Starting the first mission he shows his desktop wallpaper with owls instead of the game for a few seconds; a stream slip, not a game moment, and the webcam box is off",
-   "login": "jerma985"
-  },
   "chat-2933324578-179": {
    "at": "2026-11-19T08:15:02.663782+00:00",
    "why": "editor: 2/10, Pauses the mission and switches to a full-screen camera to thank chat for the viewer count; no game moment",
@@ -3133,6 +3123,397 @@
     "static_share": 0.015209125475285171,
     "peak_db": 9.891525268554688,
     "level_db": -23.648815155029297
+   },
+   "silence": []
+  },
+  "BrainyStrangeCrocodileOSsloth-2Fn8XZ--J5BXBzPE": {
+   "id": "BrainyStrangeCrocodileOSsloth-2Fn8XZ--J5BXBzPE",
+   "url": "https://www.twitch.tv/recrent/clip/BrainyStrangeCrocodileOSsloth-2Fn8XZ--J5BXBzPE",
+   "section": null,
+   "kind": "clip",
+   "views": 303,
+   "title": "Ладно, пойду кофе налью",
+   "vod": "2936081791",
+   "vod_t": 13224,
+   "group": "ru",
+   "login": "recrent",
+   "name": "Recrent",
+   "source": "Twitch clip made by a viewer, 303 views, titled \"Ладно, пойду кофе налью\"",
+   "at": "2026-11-22T07:38:39.013017+00:00",
+   "cam": [
+    99,
+    641,
+    394,
+    277
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 60.0,
+   "words": [
+    {
+     "word": " Разберитесь",
+     "start": 0.72,
+     "end": 1.72
+    },
+    {
+     "word": " уже,",
+     "start": 1.72,
+     "end": 1.96
+    },
+    {
+     "word": " блядь,",
+     "start": 2.16,
+     "end": 2.44
+    },
+    {
+     "word": " козлы.",
+     "start": 2.52,
+     "end": 2.88
+    },
+    {
+     "word": " Он",
+     "start": 3.34,
+     "end": 3.48
+    },
+    {
+     "word": " сейчас",
+     "start": 3.48,
+     "end": 3.6
+    },
+    {
+     "word": " с",
+     "start": 3.6,
+     "end": 3.76
+    },
+    {
+     "word": " болота",
+     "start": 3.76,
+     "end": 4.06
+    },
+    {
+     "word": " на",
+     "start": 4.06,
+     "end": 4.24
+    },
+    {
+     "word": " хуй",
+     "start": 4.24,
+     "end": 4.5
+    },
+    {
+     "word": " летит,",
+     "start": 4.5,
+     "end": 4.96
+    },
+    {
+     "word": " и",
+     "start": 5.08,
+     "end": 7.16
+    },
+    {
+     "word": " вы",
+     "start": 7.16,
+     "end": 7.22
+    },
+    {
+     "word": " потом",
+     "start": 7.22,
+     "end": 7.42
+    },
+    {
+     "word": " надо",
+     "start": 7.42,
+     "end": 7.56
+    },
+    {
+     "word": " мной",
+     "start": 7.56,
+     "end": 7.8
+    },
+    {
+     "word": " смеетесь.",
+     "start": 7.8,
+     "end": 8.26
+    },
+    {
+     "word": " Боже,",
+     "start": 8.44,
+     "end": 8.82
+    },
+    {
+     "word": " блядь!",
+     "start": 8.92,
+     "end": 9.56
+    },
+    {
+     "word": " А",
+     "start": 10.38,
+     "end": 10.84
+    },
+    {
+     "word": " на",
+     "start": 10.84,
+     "end": 10.94
+    },
+    {
+     "word": " хуй",
+     "start": 10.94,
+     "end": 11.1
+    },
+    {
+     "word": " вы",
+     "start": 11.1,
+     "end": 11.26
+    },
+    {
+     "word": " надо",
+     "start": 11.26,
+     "end": 11.36
+    },
+    {
+     "word": " мной",
+     "start": 11.36,
+     "end": 11.64
+    },
+    {
+     "word": " смеетесь.",
+     "start": 11.64,
+     "end": 12.28
+    },
+    {
+     "word": " МПС",
+     "start": 12.42,
+     "end": 12.74
+    },
+    {
+     "word": " даже",
+     "start": 12.74,
+     "end": 12.98
+    },
+    {
+     "word": " не",
+     "start": 12.98,
+     "end": 13.12
+    },
+    {
+     "word": " вывозят.",
+     "start": 13.12,
+     "end": 13.52
+    },
+    {
+     "word": " Это",
+     "start": 14.36,
+     "end": 14.82
+    },
+    {
+     "word": " пиздееец.",
+     "start": 14.82,
+     "end": 16.32
+    },
+    {
+     "word": " Пять",
+     "start": 19.42,
+     "end": 19.82
+    },
+    {
+     "word": " звезд",
+     "start": 19.82,
+     "end": 20.06
+    },
+    {
+     "word": " ставлю.",
+     "start": 20.06,
+     "end": 20.54
+    },
+    {
+     "word": " Я",
+     "start": 23.49,
+     "end": 23.91
+    },
+    {
+     "word": " хуею,",
+     "start": 23.91,
+     "end": 24.73
+    },
+    {
+     "word": " Класс.",
+     "start": 24.99,
+     "end": 25.19
+    },
+    {
+     "word": " Надо",
+     "start": 36.98,
+     "end": 37.56
+    },
+    {
+     "word": " быть",
+     "start": 37.56,
+     "end": 37.72
+    },
+    {
+     "word": " на",
+     "start": 37.72,
+     "end": 37.92
+    },
+    {
+     "word": " чай",
+     "start": 37.92,
+     "end": 38.1
+    },
+    {
+     "word": " ему",
+     "start": 38.1,
+     "end": 38.26
+    },
+    {
+     "word": " оставить.",
+     "start": 38.26,
+     "end": 38.74
+    },
+    {
+     "word": " Какой",
+     "start": 39.14,
+     "end": 39.46
+    },
+    {
+     "word": " трэш.",
+     "start": 39.46,
+     "end": 39.8
+    },
+    {
+     "word": " Как",
+     "start": 41.08,
+     "end": 41.68
+    },
+    {
+     "word": " заплачено",
+     "start": 41.68,
+     "end": 42.16
+    },
+    {
+     "word": " атака",
+     "start": 42.16,
+     "end": 42.46
+    },
+    {
+     "word": " на",
+     "start": 42.46,
+     "end": 42.54
+    },
+    {
+     "word": " куячено,",
+     "start": 42.54,
+     "end": 43.04
+    },
+    {
+     "word": " братан,",
+     "start": 43.12,
+     "end": 43.5
+    },
+    {
+     "word": " это",
+     "start": 43.52,
+     "end": 43.78
+    },
+    {
+     "word": " премиум",
+     "start": 43.78,
+     "end": 44.32
+    },
+    {
+     "word": " такси!",
+     "start": 44.32,
+     "end": 44.82
+    },
+    {
+     "word": " 300",
+     "start": 46.56,
+     "end": 47.04
+    },
+    {
+     "word": " долларов",
+     "start": 47.04,
+     "end": 47.44
+    },
+    {
+     "word": " я",
+     "start": 47.44,
+     "end": 47.7
+    },
+    {
+     "word": " отдал",
+     "start": 47.7,
+     "end": 47.96
+    },
+    {
+     "word": " за",
+     "start": 47.96,
+     "end": 48.08
+    },
+    {
+     "word": " поездку.",
+     "start": 48.08,
+     "end": 48.62
+    },
+    {
+     "word": " 300,",
+     "start": 48.64,
+     "end": 48.98
+    },
+    {
+     "word": " блядь.",
+     "start": 49.22,
+     "end": 50.24
+    },
+    {
+     "word": " Ну",
+     "start": 50.3,
+     "end": 50.42
+    },
+    {
+     "word": " давай,",
+     "start": 50.42,
+     "end": 50.68
+    },
+    {
+     "word": " поднажмись.",
+     "start": 50.78,
+     "end": 51.16
+    },
+    {
+     "word": " ЕМАТЬ.",
+     "start": 54.95,
+     "end": 55.51
+    },
+    {
+     "word": " Ладно,",
+     "start": 56.47,
+     "end": 56.77
+    },
+    {
+     "word": " пойду",
+     "start": 56.89,
+     "end": 57.07
+    },
+    {
+     "word": " к",
+     "start": 57.07,
+     "end": 57.17
+    },
+    {
+     "word": " финалию.",
+     "start": 57.17,
+     "end": 57.69
+    }
+   ],
+   "metrics": {
+    "motion": 0.05419354838709677,
+    "motion_p90": 0.18570609318996417,
+    "static_share": 0.2301255230125523,
+    "peak_db": 6.464685440063477,
+    "level_db": -28.213706970214844
    },
    "silence": []
   }
