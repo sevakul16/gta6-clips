@@ -740,11 +740,6 @@
   }
  },
  "rejected": {
-  "chat-2932753534-380": {
-   "at": "2026-11-19T02:45:58.594990+00:00",
-   "why": "picture is almost static (motion 0.01)",
-   "login": "summit1g"
-  },
   "BoringWimpyKleeItsBoshyTime-hL8MjYyweIzttJt8": {
    "at": "2026-11-19T03:30:18.353203+00:00",
    "why": "editor: 1/10, Strip club private dance with topless nudity through the whole clip",
@@ -3040,6 +3035,718 @@
     "static_share": 0.004048582995951417,
     "peak_db": 5.786230087280273,
     "level_db": -22.518089294433594
+   },
+   "silence": []
+  },
+  "chat-2936392772-651": {
+   "id": "chat-2936392772-651",
+   "url": "https://www.twitch.tv/videos/2936392772",
+   "section": [
+    29280.353906,
+    29336.353906
+   ],
+   "kind": "chat",
+   "views": 158,
+   "title": "",
+   "vod": "2936392772",
+   "vod_t": 29280.353906,
+   "group": "en",
+   "login": "ludwig",
+   "name": "Ludwig",
+   "viewers": 12536,
+   "chat_score": 4.79,
+   "found_at": "2026-11-22T02:59:14.342881+00:00",
+   "spike_at": "2026-11-22T02:41:26.353906+00:00",
+   "chat": [
+    "58x W",
+    "11x o",
+    "5x WW",
+    "4x lmao",
+    "4x monka",
+    "3x yo",
+    "2x Wwwwww",
+    "2x Wwwww",
+    "2x um",
+    "Glhf",
+    "its meth",
+    "something is happening",
+    "Crack",
+    "Good luck chat",
+    "addicted...",
+    ":}",
+    "I love that you’re giving me gta for free"
+   ],
+   "source": "cut from the live stream at a chat spike: 158 chatters in 15 s, 4.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-22T02:59:47.024178+00:00",
+   "cam": [
+    26,
+    423,
+    260,
+    183
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 59.4,
+   "words": [
+    {
+     "word": " Wow",
+     "start": 0.0,
+     "end": 0.22
+    },
+    {
+     "word": " you",
+     "start": 0.22,
+     "end": 0.46
+    },
+    {
+     "word": " are",
+     "start": 0.46,
+     "end": 0.94
+    },
+    {
+     "word": " Okay",
+     "start": 6.04,
+     "end": 6.4
+    },
+    {
+     "word": " cuz",
+     "start": 6.4,
+     "end": 6.6
+    },
+    {
+     "word": " that",
+     "start": 6.6,
+     "end": 6.72
+    },
+    {
+     "word": " cloud",
+     "start": 6.72,
+     "end": 6.94
+    },
+    {
+     "word": " pen",
+     "start": 6.94,
+     "end": 7.14
+    },
+    {
+     "word": " ran",
+     "start": 7.14,
+     "end": 7.36
+    },
+    {
+     "word": " out",
+     "start": 7.36,
+     "end": 7.54
+    },
+    {
+     "word": " you",
+     "start": 7.54,
+     "end": 7.68
+    },
+    {
+     "word": " think",
+     "start": 7.68,
+     "end": 7.84
+    },
+    {
+     "word": " you",
+     "start": 7.84,
+     "end": 7.98
+    },
+    {
+     "word": " can",
+     "start": 7.98,
+     "end": 8.1
+    },
+    {
+     "word": " get",
+     "start": 8.1,
+     "end": 8.2
+    },
+    {
+     "word": " me",
+     "start": 8.2,
+     "end": 8.3
+    },
+    {
+     "word": " another",
+     "start": 8.3,
+     "end": 8.54
+    },
+    {
+     "word": " one.",
+     "start": 8.54,
+     "end": 8.74
+    },
+    {
+     "word": " Hey,",
+     "start": 8.74,
+     "end": 8.92
+    },
+    {
+     "word": " babe.",
+     "start": 8.94,
+     "end": 9.16
+    },
+    {
+     "word": " Sorry",
+     "start": 9.18,
+     "end": 9.4
+    },
+    {
+     "word": " for",
+     "start": 9.4,
+     "end": 9.56
+    },
+    {
+     "word": " spamming.",
+     "start": 9.56,
+     "end": 9.98
+    },
+    {
+     "word": " I",
+     "start": 10.0,
+     "end": 10.08
+    },
+    {
+     "word": " love",
+     "start": 10.08,
+     "end": 10.24
+    },
+    {
+     "word": " you",
+     "start": 10.24,
+     "end": 10.36
+    },
+    {
+     "word": " so",
+     "start": 10.36,
+     "end": 10.54
+    },
+    {
+     "word": " much",
+     "start": 10.54,
+     "end": 11.0
+    },
+    {
+     "word": " Girl",
+     "start": 12.6,
+     "end": 12.96
+    },
+    {
+     "word": " just",
+     "start": 12.96,
+     "end": 13.16
+    },
+    {
+     "word": " smoke",
+     "start": 13.16,
+     "end": 13.44
+    },
+    {
+     "word": " one",
+     "start": 13.44,
+     "end": 13.72
+    },
+    {
+     "word": " of",
+     "start": 13.72,
+     "end": 13.82
+    },
+    {
+     "word": " the",
+     "start": 13.82,
+     "end": 13.92
+    },
+    {
+     "word": " other",
+     "start": 13.92,
+     "end": 14.06
+    },
+    {
+     "word": " ones",
+     "start": 14.06,
+     "end": 14.44
+    },
+    {
+     "word": " None",
+     "start": 22.74,
+     "end": 23.1
+    },
+    {
+     "word": " of",
+     "start": 23.1,
+     "end": 23.46
+    },
+    {
+     "word": " the",
+     "start": 23.46,
+     "end": 23.64
+    },
+    {
+     "word": " other",
+     "start": 23.64,
+     "end": 23.96
+    },
+    {
+     "word": " flavors",
+     "start": 23.96,
+     "end": 24.3
+    },
+    {
+     "word": " are",
+     "start": 24.3,
+     "end": 24.44
+    },
+    {
+     "word": " doing",
+     "start": 24.44,
+     "end": 24.58
+    },
+    {
+     "word": " it",
+     "start": 24.58,
+     "end": 24.72
+    },
+    {
+     "word": " for",
+     "start": 24.72,
+     "end": 24.8
+    },
+    {
+     "word": " me",
+     "start": 24.8,
+     "end": 24.9
+    },
+    {
+     "word": " I",
+     "start": 24.9,
+     "end": 25.02
+    },
+    {
+     "word": " even",
+     "start": 25.02,
+     "end": 25.16
+    },
+    {
+     "word": " tried",
+     "start": 25.16,
+     "end": 25.36
+    },
+    {
+     "word": " smoking",
+     "start": 25.36,
+     "end": 25.66
+    },
+    {
+     "word": " the",
+     "start": 25.66,
+     "end": 25.88
+    },
+    {
+     "word": " new",
+     "start": 25.88,
+     "end": 26.0
+    },
+    {
+     "word": " pillar",
+     "start": 26.0,
+     "end": 26.2
+    },
+    {
+     "word": " one",
+     "start": 26.2,
+     "end": 26.42
+    },
+    {
+     "word": " and",
+     "start": 26.42,
+     "end": 26.58
+    },
+    {
+     "word": " that's",
+     "start": 26.58,
+     "end": 26.74
+    },
+    {
+     "word": " not",
+     "start": 26.74,
+     "end": 26.82
+    },
+    {
+     "word": " even",
+     "start": 26.82,
+     "end": 26.94
+    },
+    {
+     "word": " working.",
+     "start": 26.94,
+     "end": 27.18
+    },
+    {
+     "word": " You",
+     "start": 27.28,
+     "end": 27.42
+    },
+    {
+     "word": " don't",
+     "start": 27.42,
+     "end": 27.54
+    },
+    {
+     "word": " get",
+     "start": 27.54,
+     "end": 27.72
+    },
+    {
+     "word": " it",
+     "start": 27.72,
+     "end": 27.84
+    },
+    {
+     "word": " I",
+     "start": 27.84,
+     "end": 27.96
+    },
+    {
+     "word": " can't",
+     "start": 27.96,
+     "end": 28.18
+    },
+    {
+     "word": " focus",
+     "start": 28.18,
+     "end": 28.34
+    },
+    {
+     "word": " at",
+     "start": 28.34,
+     "end": 28.52
+    },
+    {
+     "word": " all.",
+     "start": 28.52,
+     "end": 28.7
+    },
+    {
+     "word": " It's",
+     "start": 28.72,
+     "end": 28.82
+    },
+    {
+     "word": " really",
+     "start": 28.82,
+     "end": 28.98
+    },
+    {
+     "word": " bad.",
+     "start": 28.98,
+     "end": 29.2
+    },
+    {
+     "word": " I'm",
+     "start": 29.24,
+     "end": 29.32
+    },
+    {
+     "word": " freaking",
+     "start": 29.32,
+     "end": 29.44
+    },
+    {
+     "word": " out.",
+     "start": 29.44,
+     "end": 29.72
+    },
+    {
+     "word": " I",
+     "start": 29.74,
+     "end": 29.88
+    },
+    {
+     "word": " won't",
+     "start": 29.88,
+     "end": 30.16
+    },
+    {
+     "word": " finish",
+     "start": 30.16,
+     "end": 30.42
+    },
+    {
+     "word": " my",
+     "start": 30.42,
+     "end": 30.64
+    },
+    {
+     "word": " orders.",
+     "start": 30.64,
+     "end": 30.92
+    },
+    {
+     "word": " Let's",
+     "start": 31.08,
+     "end": 31.16
+    },
+    {
+     "word": " see",
+     "start": 31.16,
+     "end": 31.3
+    },
+    {
+     "word": " I",
+     "start": 31.3,
+     "end": 31.46
+    },
+    {
+     "word": " just",
+     "start": 31.46,
+     "end": 31.66
+    },
+    {
+     "word": " really",
+     "start": 31.66,
+     "end": 31.82
+    },
+    {
+     "word": " need",
+     "start": 31.82,
+     "end": 31.98
+    },
+    {
+     "word": " you",
+     "start": 31.98,
+     "end": 32.1
+    },
+    {
+     "word": " to",
+     "start": 32.1,
+     "end": 32.22
+    },
+    {
+     "word": " ask",
+     "start": 32.22,
+     "end": 32.5
+    },
+    {
+     "word": " her",
+     "start": 32.5,
+     "end": 32.8
+    },
+    {
+     "word": " okay",
+     "start": 32.8,
+     "end": 33.2
+    },
+    {
+     "word": " Girl",
+     "start": 35.95,
+     "end": 36.31
+    },
+    {
+     "word": " do",
+     "start": 36.31,
+     "end": 36.61
+    },
+    {
+     "word": " some",
+     "start": 36.61,
+     "end": 36.79
+    },
+    {
+     "word": " push",
+     "start": 36.79,
+     "end": 36.97
+    },
+    {
+     "word": "-ups",
+     "start": 36.97,
+     "end": 37.11
+    },
+    {
+     "word": " or",
+     "start": 37.11,
+     "end": 37.21
+    },
+    {
+     "word": " something",
+     "start": 37.21,
+     "end": 37.35
+    },
+    {
+     "word": " burn",
+     "start": 37.35,
+     "end": 37.65
+    },
+    {
+     "word": " it",
+     "start": 37.65,
+     "end": 37.81
+    },
+    {
+     "word": " off.",
+     "start": 37.81,
+     "end": 37.99
+    },
+    {
+     "word": " No,",
+     "start": 45.72,
+     "end": 46.08
+    },
+    {
+     "word": " just",
+     "start": 46.16,
+     "end": 46.74
+    },
+    {
+     "word": " do",
+     "start": 46.74,
+     "end": 47.06
+    },
+    {
+     "word": " this",
+     "start": 47.06,
+     "end": 47.26
+    },
+    {
+     "word": " for",
+     "start": 47.26,
+     "end": 47.46
+    },
+    {
+     "word": " me",
+     "start": 47.46,
+     "end": 47.68
+    },
+    {
+     "word": " This",
+     "start": 49.65,
+     "end": 49.93
+    },
+    {
+     "word": " girl's",
+     "start": 49.93,
+     "end": 50.21
+    },
+    {
+     "word": " a",
+     "start": 50.21,
+     "end": 50.29
+    },
+    {
+     "word": " fucking",
+     "start": 50.29,
+     "end": 50.59
+    },
+    {
+     "word": " psycho",
+     "start": 50.59,
+     "end": 51.03
+    },
+    {
+     "word": " Let's",
+     "start": 52.98,
+     "end": 53.5
+    },
+    {
+     "word": " say",
+     "start": 53.5,
+     "end": 53.64
+    },
+    {
+     "word": " first",
+     "start": 53.64,
+     "end": 53.92
+    },
+    {
+     "word": " off",
+     "start": 53.92,
+     "end": 54.34
+    },
+    {
+     "word": " What",
+     "start": 54.86,
+     "end": 55.32
+    },
+    {
+     "word": " percentage",
+     "start": 55.32,
+     "end": 55.56
+    },
+    {
+     "word": " do",
+     "start": 55.56,
+     "end": 55.76
+    },
+    {
+     "word": " you",
+     "start": 55.76,
+     "end": 55.8
+    },
+    {
+     "word": " think",
+     "start": 55.8,
+     "end": 55.88
+    },
+    {
+     "word": " we're",
+     "start": 55.88,
+     "end": 56.02
+    },
+    {
+     "word": " at?",
+     "start": 56.02,
+     "end": 56.12
+    },
+    {
+     "word": " I",
+     "start": 56.24,
+     "end": 56.24
+    },
+    {
+     "word": " was",
+     "start": 56.24,
+     "end": 56.34
+    },
+    {
+     "word": " at",
+     "start": 56.34,
+     "end": 56.42
+    },
+    {
+     "word": " 47",
+     "start": 56.42,
+     "end": 56.86
+    },
+    {
+     "word": " five",
+     "start": 56.86,
+     "end": 57.34
+    },
+    {
+     "word": " hours",
+     "start": 57.34,
+     "end": 57.6
+    },
+    {
+     "word": " ago",
+     "start": 57.6,
+     "end": 57.86
+    },
+    {
+     "word": " 55",
+     "start": 58.56,
+     "end": 59.08
+    }
+   ],
+   "metrics": {
+    "motion": 0.08292995444191344,
+    "motion_p90": 0.5559510250569477,
+    "static_share": 0.10126582278481013,
+    "peak_db": 14.414451599121094,
+    "level_db": -28.98427963256836
    },
    "silence": []
   }
