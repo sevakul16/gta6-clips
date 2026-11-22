@@ -740,26 +740,6 @@
   }
  },
  "rejected": {
-  "chat-2932677749-720": {
-   "at": "2026-11-19T06:26:50.568044+00:00",
-   "why": "editor: 5/10, Night shootout at a burning shack, he shoots a man's legs and a crocodile apparently finishes him, the game gives evil points; frames too dark to see the moment",
-   "login": "penta"
-  },
-  "chat-2933174196-133": {
-   "at": "2026-11-19T06:26:50.568481+00:00",
-   "why": "editor: 2/10, The game's opening cinematic montage with stream lag; not gameplay, includes a nude couple",
-   "login": "yourragegaming"
-  },
-  "chat-2932226282-1501": {
-   "at": "2026-11-19T06:26:50.568997+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "theburntpeanut"
-  },
-  "BlindingSassyDragonfruitTooSpicy-3bbZ_CBxyUXmW90C": {
-   "at": "2026-11-19T06:26:50.569478+00:00",
-   "why": "editor: 3/10, Ten seconds of Lucia vaulting a railing and running in a cutscene while the streamer comments on her looks; no moment",
-   "login": "evelone2004"
-  },
   "VainEmpathicRedpandaHassaanChop-CP73pN_R2wvX0y3e": {
    "at": "2026-11-19T06:48:24.570975+00:00",
    "why": "picture is almost static (motion 0.03)",
@@ -2524,619 +2504,150 @@
    "at": "2026-11-22T06:12:05.330419+00:00",
    "why": "streamer fills the screen, no gameplay",
    "login": "hasanabi"
+  },
+  "chat-2936392772-854": {
+   "at": "2026-11-22T06:33:27.159425+00:00",
+   "why": "editor: 2/10, Мини-игра с камерой внутри сейфа: тёмная картинка, чат подсказывает, куда вести кабель. Игрового события нет, звук очень тихий, камера крошечная.",
+   "login": "ludwig"
   }
  },
  "pending": {
-  "chat-2936392772-854": {
-   "id": "chat-2936392772-854",
-   "url": "https://www.twitch.tv/videos/2936392772",
+  "chat-2936934156-226": {
+   "id": "chat-2936934156-226",
+   "url": "https://www.twitch.tv/videos/2936934156",
    "section": [
-    38389.030784,
-    38445.030784
+    10136.314348,
+    10192.314348
    ],
    "kind": "chat",
-   "views": 60,
+   "views": 52,
    "title": "",
-   "vod": "2936392772",
-   "vod_t": 38389.030784,
+   "vod": "2936934156",
+   "vod_t": 10136.314348,
    "group": "en",
-   "login": "ludwig",
-   "name": "Ludwig",
-   "viewers": 10427,
-   "chat_score": 5.0,
-   "found_at": "2026-11-22T05:29:07.730255+00:00",
-   "spike_at": "2026-11-22T05:13:15.030784+00:00",
+   "login": "fanum",
+   "name": "Fanum",
+   "viewers": 13436,
+   "chat_score": 13.0,
+   "found_at": "2026-11-22T06:33:02.984878+00:00",
+   "spike_at": "2026-11-22T06:20:45.314348+00:00",
    "chat": [
-    "4x om",
-    "3x Dentge",
-    "3x BEND",
-    "2x KEEP GOING",
-    "2x ragebait",
-    "other way..",
-    "go forward look right",
-    "To the right goofy",
-    "keep going down",
-    "the other way",
-    "LL hooker",
-    "on the end bro",
-    "Watch everything!!!!"
+    "3x o",
+    "2x SAVE game",
+    "2x omg",
+    "2x bruh",
+    "2x Wow",
+    "2x wtf",
+    "nahhhhhhhhhhh",
+    "Lmfaoooo",
+    "nahhhhh",
+    "8 death",
+    "GGs",
+    "Lmaooooo",
+    "just like in florida",
+    "damn!"
    ],
-   "source": "cut from the live stream at a chat spike: 60 chatters in 15 s, 5.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-22T05:29:36.693788+00:00",
+   "source": "cut from the live stream at a chat spike: 52 chatters in 15 s, 13.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-22T06:33:23.162902+00:00",
    "cam": [
-    22,
-    473,
-    226,
-    159
+    114,
+    449,
+    243,
+    171
    ],
    "size": [
     1920,
     1080
    ],
-   "dur": 62.2,
+   "dur": 58.2,
    "words": [
     {
-     "word": " Don't",
-     "start": 3.22,
-     "end": 3.84
+     "word": " W's",
+     "start": 14.91,
+     "end": 15.47
+    },
+    {
+     "word": " Yeah,",
+     "start": 21.54,
+     "end": 21.82
+    },
+    {
+     "word": " I",
+     "start": 21.92,
+     "end": 21.98
+    },
+    {
+     "word": " know",
+     "start": 21.98,
+     "end": 22.12
+    },
+    {
+     "word": " Have",
+     "start": 23.02,
+     "end": 23.58
+    },
+    {
+     "word": " a",
+     "start": 26.91,
+     "end": 27.21
+    },
+    {
+     "word": " death",
+     "start": 27.21,
+     "end": 27.47
+    },
+    {
+     "word": " wish,",
+     "start": 27.47,
+     "end": 27.75
+    },
+    {
+     "word": " Jesus,",
+     "start": 27.79,
+     "end": 28.15
     },
     {
      "word": " get",
-     "start": 3.84,
-     "end": 3.94
+     "start": 28.49,
+     "end": 28.63
     },
     {
-     "word": " it.",
-     "start": 3.94,
-     "end": 4.26
-    },
-    {
-     "word": " I",
-     "start": 15.46,
-     "end": 16.02
-    },
-    {
-     "word": " see",
-     "start": 16.02,
-     "end": 16.32
-    },
-    {
-     "word": " it",
-     "start": 16.32,
-     "end": 16.5
-    },
-    {
-     "word": " there",
-     "start": 16.5,
-     "end": 16.78
-    },
-    {
-     "word": " nice",
-     "start": 16.78,
-     "end": 17.24
-    },
-    {
-     "word": " go",
-     "start": 17.24,
-     "end": 17.82
-    },
-    {
-     "word": " hook",
-     "start": 17.82,
-     "end": 17.98
+     "word": " off",
+     "start": 28.63,
+     "end": 28.91
     },
     {
      "word": " the",
-     "start": 17.98,
-     "end": 18.1
+     "start": 28.91,
+     "end": 29.15
     },
     {
-     "word": " cable.",
-     "start": 18.1,
-     "end": 18.36
+     "word": " r",
+     "start": 29.15,
+     "end": 29.33
     },
     {
-     "word": " How",
-     "start": 18.58,
-     "end": 18.96
+     "word": "-",
+     "start": 31.44,
+     "end": 32.4
     },
     {
-     "word": " do",
-     "start": 18.96,
-     "end": 19.04
+     "word": " Oh,",
+     "start": 35.28,
+     "end": 35.28
     },
     {
-     "word": " I",
-     "start": 19.04,
-     "end": 19.12
-    },
-    {
-     "word": " hook",
-     "start": 19.12,
-     "end": 19.32
-    },
-    {
-     "word": " it?",
-     "start": 19.32,
-     "end": 19.56
-    },
-    {
-     "word": " You",
-     "start": 20.48,
-     "end": 20.58
-    },
-    {
-     "word": " see",
-     "start": 20.58,
-     "end": 20.68
-    },
-    {
-     "word": " the",
-     "start": 20.68,
-     "end": 20.8
-    },
-    {
-     "word": " cable",
-     "start": 20.8,
-     "end": 21.0
-    },
-    {
-     "word": " follow",
-     "start": 21.0,
-     "end": 21.72
-    },
-    {
-     "word": " it.",
-     "start": 21.72,
-     "end": 21.9
-    },
-    {
-     "word": " Don't",
-     "start": 21.96,
-     "end": 22.26
-    },
-    {
-     "word": " touch",
-     "start": 22.26,
-     "end": 22.5
-    },
-    {
-     "word": " it",
-     "start": 22.5,
-     "end": 22.78
-    },
-    {
-     "word": " We'll",
-     "start": 23.58,
-     "end": 24.14
-    },
-    {
-     "word": " follow",
-     "start": 24.14,
-     "end": 24.48
-    },
-    {
-     "word": " it",
-     "start": 24.48,
-     "end": 24.82
-    },
-    {
-     "word": " don't",
-     "start": 26.42,
-     "end": 27.16
-    },
-    {
-     "word": " hit",
-     "start": 27.16,
-     "end": 27.3
-    },
-    {
-     "word": " those",
-     "start": 27.3,
-     "end": 27.6
-    },
-    {
-     "word": " Almost",
-     "start": 28.2,
-     "end": 28.76
-    },
-    {
-     "word": " there",
-     "start": 28.76,
-     "end": 29.1
-    },
-    {
-     "word": " move",
-     "start": 29.1,
-     "end": 29.38
-    },
-    {
-     "word": " slowly",
-     "start": 29.38,
-     "end": 29.8
-    },
-    {
-     "word": " towards",
-     "start": 29.8,
-     "end": 30.12
-    },
-    {
-     "word": " it",
-     "start": 30.12,
-     "end": 30.44
-    },
-    {
-     "word": " careful",
-     "start": 31.84,
-     "end": 32.64
-    },
-    {
-     "word": " the",
-     "start": 32.64,
-     "end": 33.0
-    },
-    {
-     "word": " walls",
-     "start": 33.0,
-     "end": 33.28
-    },
-    {
-     "word": " got",
-     "start": 33.28,
-     "end": 33.48
-    },
-    {
-     "word": " sensors",
-     "start": 33.48,
-     "end": 33.72
-    },
-    {
-     "word": " all",
-     "start": 33.72,
-     "end": 34.1
-    },
-    {
-     "word": " over",
-     "start": 34.1,
-     "end": 34.44
-    },
-    {
-     "word": " Find",
-     "start": 34.44,
-     "end": 35.4
-    },
-    {
-     "word": " the",
-     "start": 35.4,
-     "end": 35.6
-    },
-    {
-     "word": " end",
-     "start": 35.6,
-     "end": 35.84
-    },
-    {
-     "word": " of",
-     "start": 35.84,
-     "end": 35.94
-    },
-    {
-     "word": " the",
-     "start": 35.94,
-     "end": 36.02
-    },
-    {
-     "word": " cable",
-     "start": 36.02,
-     "end": 36.28
-    },
-    {
-     "word": " and",
-     "start": 36.28,
-     "end": 36.98
-    },
-    {
-     "word": " hook",
-     "start": 36.98,
-     "end": 37.22
-    },
-    {
-     "word": " it",
-     "start": 37.22,
-     "end": 37.38
-    },
-    {
-     "word": " watch",
-     "start": 37.38,
-     "end": 38.26
-    },
-    {
-     "word": " the",
-     "start": 38.26,
-     "end": 38.46
-    },
-    {
-     "word": " sides",
-     "start": 38.46,
-     "end": 38.74
-    },
-    {
-     "word": " What",
-     "start": 40.65,
-     "end": 41.15
-    },
-    {
-     "word": " do",
-     "start": 41.15,
-     "end": 41.19
-    },
-    {
-     "word": " you",
-     "start": 41.19,
-     "end": 41.23
-    },
-    {
-     "word": " mean",
-     "start": 41.23,
-     "end": 41.35
-    },
-    {
-     "word": " hook",
-     "start": 41.35,
-     "end": 41.63
-    },
-    {
-     "word": " it?",
-     "start": 41.63,
-     "end": 41.89
-    },
-    {
-     "word": " Were",
-     "start": 42.63,
-     "end": 43.13
-    },
-    {
-     "word": " you",
-     "start": 43.13,
-     "end": 43.23
-    },
-    {
-     "word": " talking",
-     "start": 43.23,
-     "end": 43.59
-    },
-    {
-     "word": " about",
-     "start": 43.59,
-     "end": 43.85
-    },
-    {
-     "word": " hook",
-     "start": 43.85,
-     "end": 44.11
-    },
-    {
-     "word": " it's",
-     "start": 44.11,
-     "end": 44.51
-    },
-    {
-     "word": " the",
-     "start": 44.51,
-     "end": 44.61
-    },
-    {
-     "word": " cable",
-     "start": 44.61,
-     "end": 44.83
-    },
-    {
-     "word": " hook",
-     "start": 44.83,
-     "end": 45.81
-    },
-    {
-     "word": " it",
-     "start": 47.41,
-     "end": 47.57
-    },
-    {
-     "word": " out?",
-     "start": 47.57,
-     "end": 47.93
-    },
-    {
-     "word": " Watch",
-     "start": 47.93,
-     "end": 48.99
-    },
-    {
-     "word": " the",
-     "start": 51.04,
-     "end": 51.28
-    },
-    {
-     "word": " bolts.",
-     "start": 51.28,
-     "end": 51.52
-    },
-    {
-     "word": " I'm",
-     "start": 51.96,
-     "end": 52.3
-    },
-    {
-     "word": " not",
-     "start": 52.3,
-     "end": 52.4
-    },
-    {
-     "word": " moving",
-     "start": 52.4,
-     "end": 52.84
-    },
-    {
-     "word": " watch",
-     "start": 52.84,
-     "end": 53.9
-    },
-    {
-     "word": " it.",
-     "start": 58.25,
-     "end": 58.43
-    },
-    {
-     "word": " They",
-     "start": 58.43,
-     "end": 58.63
-    },
-    {
-     "word": " have",
-     "start": 58.63,
-     "end": 58.91
-    },
-    {
-     "word": " sensors",
-     "start": 58.91,
-     "end": 59.19
+     "word": " shit",
+     "start": 35.66,
+     "end": 36.18
     }
    ],
    "metrics": {
-    "motion": 0.17871813031161474,
-    "motion_p90": 0.3678257790368272,
-    "static_share": 0.036290322580645164,
-    "peak_db": 27.80764389038086,
-    "level_db": -43.76254653930664
-   },
-   "silence": []
-  },
-  "chat-2936683310-526": {
-   "id": "chat-2936683310-526",
-   "url": "https://www.twitch.tv/videos/2936683310",
-   "section": [
-    23629.98978,
-    23685.98978
-   ],
-   "kind": "chat",
-   "views": 111,
-   "title": "",
-   "vod": "2936683310",
-   "vod_t": 23629.98978,
-   "group": "en",
-   "login": "kaicenat",
-   "name": "KaiCenat",
-   "viewers": 28209,
-   "chat_score": 7.93,
-   "found_at": "2026-11-22T05:50:31.684659+00:00",
-   "spike_at": "2026-11-22T05:37:28.989780+00:00",
-   "chat": [
-    "6x LMAO",
-    "5x lol",
-    "5x LUL",
-    "3x LMAOO",
-    "3x 😂😂😂😂",
-    "2x 😂😂😂😂😂😂😂",
-    "2x OMG",
-    "2x LMAOOOO",
-    "2x BROOOO LOL",
-    "2x 😂😂😂",
-    "2x SON",
-    "2x lmaooooo",
-    "LMFAAAAOOOOO",
-    "COME PICK IT UP LATER",
-    "Hhhhhhahhahahhaha",
-    "😂😂 nah Lucia would’ve been dead asf 😂😂",
-    "GEEG 5 star",
-    "HOLYYYYYYY SHITTTTTTTT",
-    "KKKKKKKKKKKKKKKKKKKKKKK WTF",
-    "W SAVEEEEEEE"
-   ],
-   "source": "cut from the live stream at a chat spike: 111 chatters in 15 s, 7.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-22T05:50:55.865211+00:00",
-   "cam": [
-    0,
-    345,
-    428,
-    301
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 56.0,
-   "words": [
-    {
-     "word": " Fucking",
-     "start": 35.76,
-     "end": 36.1
-    },
-    {
-     "word": " gosh.",
-     "start": 36.1,
-     "end": 36.46
-    },
-    {
-     "word": " Okay.",
-     "start": 43.35,
-     "end": 43.77
-    },
-    {
-     "word": " It's",
-     "start": 43.87,
-     "end": 43.91
-    },
-    {
-     "word": " all",
-     "start": 43.91,
-     "end": 44.05
-    },
-    {
-     "word": " right.",
-     "start": 44.05,
-     "end": 44.31
-    },
-    {
-     "word": " We're",
-     "start": 44.39,
-     "end": 44.69
-    },
-    {
-     "word": " facing",
-     "start": 44.69,
-     "end": 44.93
-    },
-    {
-     "word": " this",
-     "start": 44.93,
-     "end": 45.25
-    },
-    {
-     "word": " way.",
-     "start": 45.25,
-     "end": 45.53
-    },
-    {
-     "word": " So",
-     "start": 46.11,
-     "end": 46.71
-    },
-    {
-     "word": " let's",
-     "start": 46.71,
-     "end": 47.01
-    },
-    {
-     "word": " go",
-     "start": 47.01,
-     "end": 47.31
-    }
-   ],
-   "metrics": {
-    "motion": 0.5075757575757576,
-    "motion_p90": 0.7450386215092097,
-    "static_share": 0.16143497757847533,
-    "peak_db": 5.641069412231445,
-    "level_db": -16.183820724487305
+    "motion": 0.1799432019879304,
+    "motion_p90": 0.41378061767838126,
+    "static_share": 0.14655172413793102,
+    "peak_db": 9.495387077331543,
+    "level_db": -24.448238372802734
    },
    "silence": []
   }
@@ -6807,6 +6318,32 @@
    "cover_ms": 200,
    "volume": -18.0,
    "seconds": 29.1
+  },
+  "chat-2936683310-526": {
+   "artifact": "shelf-44992671054",
+   "run": "44992671054",
+   "at": "2026-11-22T06:33:49.643491+00:00",
+   "found": "2026-11-22T06:33:27.159030+00:00",
+   "login": "kaicenat",
+   "name": "KaiCenat",
+   "group": "en",
+   "kind": "chat",
+   "score": 6,
+   "url": "https://www.twitch.tv/videos/2936683310",
+   "section": [
+    23629.98978,
+    23685.98978
+   ],
+   "vod": "2936683310",
+   "vod_t": 23629.98978,
+   "title": "",
+   "caption": "Five stars, a wrecked car and half the city's police on him 😳",
+   "hook": "Five-star escape",
+   "video": "kaicenat_36683310-526_vertical.mp4",
+   "cover": "kaicenat_36683310-526_cover.jpg",
+   "cover_ms": 200,
+   "volume": -13.2,
+   "seconds": 34.1
   }
  }
 }
