@@ -1,20 +1,4 @@
 {
- "chat-2933504535-1198": {
-  "at": "2026-11-20T01:13:48.575274+00:00",
-  "moment_score": 5,
-  "what_happens": "Four-star mission to steal a SWAT truck: he hides behind a dumpster in a dark tunnel for half the clip, then drives the truck off without his partner, runs her over and fails the mission (ПРОВАЛ, Николь погибла); chat laughs that he ran her over. A funny fail by idea, but the picture is dark, the build-up is static and the hit itself is not readable on screen. Borderline, and the pool already holds five Russian clips",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2932305259-2848": {
-  "at": "2026-11-20T01:13:48.615326+00:00",
-  "moment_score": 2,
-  "what_happens": "Story cutscene of a house viewing with a realtor; he asks chat how much the house is worth and the spike is viewers typing prices. Cutscene only, no gameplay moment",
-  "gameplay_visible": false,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2934110897-425": {
   "at": "2026-11-20T02:13:17.535000+00:00",
   "moment_score": 3,
@@ -2316,6 +2300,45 @@
   "at": "2026-11-22T00:13:55.332023+00:00",
   "moment_score": 5,
   "what_happens": "Радуется своему самолёту и через полминуты падает в море, теряет груз; между завязкой и падением 15 секунд спокойного полёта с донатом, а реакция «я всё потерял?» идёт только после долгого чёрного экрана",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "FurtiveEvilKeyboardSmoocherZ-aJ3pQCO9eas1BID9": {
+  "at": "2026-11-22T01:15:35.276455+00:00",
+  "moment_score": 7,
+  "what_happens": "Ночью на заправке задел компанию, без остановки извиняется, пока дерётся со всей бандой, а потом заходит в магазин: «Здрасте, можно покушать?». Смешная дуга с развязкой, реакция в кадре, картинка ночная, но заправка освещена. Субтитры уже вшиты в клип.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Задел парней на заправке, извинялся всю драку и пошёл за едой 😅",
+  "hook": "Извини, не увидел",
+  "cover_at": 15.9,
+  "no_subs": true
+ },
+ "UgliestLachrymosePigPeanutButterJellyTime-GmBYjZuZhVtGTBYq": {
+  "at": "2026-11-22T01:15:35.319246+00:00",
+  "moment_score": 7,
+  "what_happens": "Открывает заднюю дверь фургона, оттуда выпрыгивает тигр и нападает, стример орёт и убегает по траве. Сильное событие и живая реакция, день, всё видно. Вторая половина просто бег, поэтому оставляю первые 40 секунд. Баннеры ставок у правого края вне обеих рамок.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Открыл фургон, а оттуда выпрыгнул тигр 🐅",
+  "keep_start": 0.0,
+  "keep_end": 40.0,
+  "hook": "Тигр в фургоне",
+  "cover_at": 21.9
+ },
+ "chat-2936518555-308": {
+  "at": "2026-11-22T01:15:35.360235+00:00",
+  "moment_score": 2,
+  "what_happens": "Катсцена ограбления на стройке, всплеск чата из-за голосования про VIP. Игрового события и реакции на него нет.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2936392772-478": {
+  "at": "2026-11-22T01:15:35.401756+00:00",
+  "moment_score": 2,
+  "what_happens": "Гостья за рулём понимает, что она в эфире у Людвига, дальше меню магазина. Это событие стрима, а не игры.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
