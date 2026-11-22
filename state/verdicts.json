@@ -1,59 +1,4 @@
 {
- "chat-2933453157-2241": {
-  "at": "2026-11-20T12:19:31.971982+00:00",
-  "moment_score": 3,
-  "what_happens": "Едет на фургоне на закате и отвечает чаттеру на оскорбление; в игре ничего не происходит, шутка только в чате",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "BigLaconicSnoodSMOrc-Lq0cyNkc8xp7FeSO": {
-  "at": "2026-11-20T12:19:32.032120+00:00",
-  "moment_score": 3,
-  "what_happens": "Ищет по карте и в мотеле, куда сдать добычу; события нет, звук очень тихий (-44.8 дБ)",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "TalentedBenevolentKleePlanking-XtTpdU_JBB7R9cpR": {
-  "at": "2026-11-20T12:19:32.094524+00:00",
-  "moment_score": 2,
-  "what_happens": "Расстреливает бар нудистского курорта, в кадре голые NPC: нагота, не публикуем",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "FunnyGracefulHamOSkomodo-T_AYpndhE8MNE1-y": {
-  "at": "2026-11-20T12:19:32.146068+00:00",
-  "moment_score": 6,
-  "what_happens": "Едет ночью на прицепе за чужой машиной, ругается на СМС-ки («Я еду!»), срывается и погибает, экран МЕРТВ; спокойно пьёт из кружки. Картинка тёмная, но момент короткий и понятный. В клипе уже есть вшитые субтитры; баннер букмекера вне обеих рамок",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Ехал на прицепе и ругался на СМС-ки. Доехал 💀",
-  "keep_start": 0.0,
-  "keep_end": 21.5,
-  "hook": "Зацепился за прицеп",
-  "cover_at": 11.2,
-  "no_subs": true
- },
- "chat-2934543908-692": {
-  "at": "2026-11-20T12:19:32.194593+00:00",
-  "moment_score": 6,
-  "what_happens": "Допрос в сарае: появляется существо, NPC шесть раз кричит Shoot him, стример стреляет единственным патроном мимо, NPC погибает; «I shot him. Why did it go through his body?», чат 51x OMEGALUL. Вебкамера очень маленькая (около 230 px), рамка сужена вручную",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Kirk begged him to shoot. He had one bullet.",
-  "keep_start": 17.0,
-  "keep_end": 56.0,
-  "cam": [
-   0.006,
-   0.602,
-   0.141,
-   0.176
-  ],
-  "hook": "One shot. Missed.",
-  "cover_at": 38.0
- },
  "NimbleRoundShrimpDBstyle-iqzYH1uYaeCbOkSL": {
   "at": "2026-11-20T13:17:33.134565+00:00",
   "moment_score": 2,
@@ -2342,6 +2287,30 @@
   "at": "2026-11-22T12:12:48.623585+00:00",
   "moment_score": 2,
   "what_happens": "Сдаёт угнанную машину в гараж за деньги, потом телефон и карта; чат голосует про настроение стрима. Рутинное задание без события, камера крошечная, звук тихий.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2937180390-119": {
+  "at": "2026-11-22T13:13:35.760523+00:00",
+  "moment_score": 1,
+  "what_happens": "Вебкамеры в кадре нет, поэтому не беру. Сам момент хороший: просит дать порулить самолётом, «я справлюсь», и сразу врезается в кусты, задание провалено.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2935172718-3392": {
+  "at": "2026-11-22T13:13:35.812414+00:00",
+  "moment_score": 2,
+  "what_happens": "Чат смеётся над тем, что он поджёг траву вместо машины, но этого в клипе не видно: сначала карта, потом поездка на квадроцикле и разговор со зрителями. Развязка осталась за кадром.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "UglyFancyPeanutOSkomodo-zY_ODEVtxn_1WsCc": {
+  "at": "2026-11-22T13:13:35.865401+00:00",
+  "moment_score": 3,
+  "what_happens": "Плывёт на лодке под сюжетный телефонный разговор и садится на мель в камышах. Событие слабое, реакции почти нет, это самый конец сюжета (98%).",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
