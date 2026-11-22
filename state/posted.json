@@ -3516,6 +3516,283 @@
     "level_db": -28.213706970214844
    },
    "silence": []
+  },
+  "chat-2936934156-341": {
+   "id": "chat-2936934156-341",
+   "url": "https://www.twitch.tv/videos/2936934156",
+   "section": [
+    15342.851239,
+    15398.851239
+   ],
+   "kind": "chat",
+   "views": 35,
+   "title": "",
+   "vod": "2936934156",
+   "vod_t": 15342.851239,
+   "group": "en",
+   "login": "fanum",
+   "name": "Fanum",
+   "viewers": 11229,
+   "chat_score": 8.75,
+   "found_at": "2026-11-22T07:59:44.314261+00:00",
+   "spike_at": "2026-11-22T07:47:31.851239+00:00",
+   "chat": [
+    "3x omg",
+    "3x 9",
+    "2x o",
+    "2x damn",
+    "😳",
+    "😂🤣",
+    "well damn",
+    "DRIVE FASTER",
+    "Nahhhhhhhh",
+    "fanumNOWAY",
+    "9th death",
+    "naa"
+   ],
+   "source": "cut from the live stream at a chat spike: 35 chatters in 15 s, 8.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-22T08:00:13.950416+00:00",
+   "cam": [
+    118,
+    484,
+    180,
+    127
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 65.8,
+   "words": [
+    {
+     "word": " Man,",
+     "start": 0.0,
+     "end": 0.66
+    },
+    {
+     "word": " whatever.",
+     "start": 1.22,
+     "end": 1.86
+    },
+    {
+     "word": " Here",
+     "start": 2.32,
+     "end": 2.5
+    },
+    {
+     "word": " you",
+     "start": 2.5,
+     "end": 2.6
+    },
+    {
+     "word": " go,",
+     "start": 2.6,
+     "end": 2.72
+    },
+    {
+     "word": " more",
+     "start": 2.76,
+     "end": 2.94
+    },
+    {
+     "word": " downplaying",
+     "start": 2.94,
+     "end": 3.44
+    },
+    {
+     "word": " people",
+     "start": 3.44,
+     "end": 3.68
+    },
+    {
+     "word": " like",
+     "start": 3.68,
+     "end": 3.94
+    },
+    {
+     "word": " that.",
+     "start": 3.94,
+     "end": 4.12
+    },
+    {
+     "word": " All",
+     "start": 4.42,
+     "end": 4.42
+    },
+    {
+     "word": " right,",
+     "start": 4.42,
+     "end": 4.84
+    },
+    {
+     "word": " look",
+     "start": 4.96,
+     "end": 5.08
+    },
+    {
+     "word": " at",
+     "start": 5.08,
+     "end": 5.14
+    },
+    {
+     "word": " the",
+     "start": 5.14,
+     "end": 5.22
+    },
+    {
+     "word": " handle.",
+     "start": 5.22,
+     "end": 5.36
+    },
+    {
+     "word": " Oh",
+     "start": 9.24,
+     "end": 9.8
+    },
+    {
+     "word": " my",
+     "start": 9.8,
+     "end": 10.04
+    },
+    {
+     "word": " God,",
+     "start": 10.04,
+     "end": 10.32
+    },
+    {
+     "word": " this?",
+     "start": 10.54,
+     "end": 10.66
+    },
+    {
+     "word": " This",
+     "start": 11.5,
+     "end": 12.06
+    },
+    {
+     "word": " shit",
+     "start": 12.06,
+     "end": 12.28
+    },
+    {
+     "word": " got",
+     "start": 12.28,
+     "end": 12.56
+    },
+    {
+     "word": " his.",
+     "start": 12.56,
+     "end": 13.0
+    },
+    {
+     "word": " Oh",
+     "start": 19.86,
+     "end": 20.42
+    },
+    {
+     "word": " my",
+     "start": 20.42,
+     "end": 20.78
+    },
+    {
+     "word": " God,",
+     "start": 20.78,
+     "end": 21.22
+    },
+    {
+     "word": " this",
+     "start": 21.38,
+     "end": 21.58
+    },
+    {
+     "word": " is",
+     "start": 21.58,
+     "end": 21.76
+    },
+    {
+     "word": " hard.",
+     "start": 21.76,
+     "end": 22.02
+    },
+    {
+     "word": " Ooh,",
+     "start": 22.02,
+     "end": 22.28
+    },
+    {
+     "word": " this",
+     "start": 22.56,
+     "end": 22.68
+    },
+    {
+     "word": " bitch",
+     "start": 22.68,
+     "end": 22.9
+    },
+    {
+     "word": " clean.",
+     "start": 22.9,
+     "end": 23.3
+    },
+    {
+     "word": " Oh",
+     "start": 23.72,
+     "end": 24.04
+    },
+    {
+     "word": " my",
+     "start": 24.04,
+     "end": 24.32
+    },
+    {
+     "word": " God.",
+     "start": 24.32,
+     "end": 24.64
+    },
+    {
+     "word": " Shit.",
+     "start": 28.18,
+     "end": 28.74
+    },
+    {
+     "word": " Yes,",
+     "start": 29.28,
+     "end": 29.46
+    },
+    {
+     "word": " sir.",
+     "start": 29.58,
+     "end": 29.7
+    },
+    {
+     "word": " Shit,",
+     "start": 37.08,
+     "end": 37.64
+    },
+    {
+     "word": " hard",
+     "start": 37.9,
+     "end": 38.04
+    },
+    {
+     "word": " shot.",
+     "start": 38.04,
+     "end": 38.38
+    },
+    {
+     "word": " Shit!",
+     "start": 38.76,
+     "end": 39.32
+    }
+   ],
+   "metrics": {
+    "motion": 0.4166901012373453,
+    "motion_p90": 0.6695655230596175,
+    "static_share": 0.08396946564885496,
+    "peak_db": 8.551435470581055,
+    "level_db": -18.846759796142578
+   },
+   "silence": []
   }
  },
  "pool": {
