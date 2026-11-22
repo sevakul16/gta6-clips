@@ -1,20 +1,4 @@
 {
- "chat-2934110897-425": {
-  "at": "2026-11-20T02:13:17.535000+00:00",
-  "moment_score": 3,
-  "what_happens": "She swipes through the in-game dating app on the phone and reads the profiles aloud; the profile texts are sexually explicit and chat votes left or right. A static phone screen with sexual text, no gameplay; the webcam box is off her face",
-  "gameplay_visible": false,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2934030540-525": {
-  "at": "2026-11-20T02:13:17.574761+00:00",
-  "moment_score": 5,
-  "what_happens": "He drives a stolen blue supercar across the city to a parking spot hoping to save it, and the game answers that the vehicle has an advanced tracker and cannot be parked; chat laughs. Twenty silent seconds of plain driving first and a text-only payoff with no action on screen; mild next to the clips already waiting",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2934188629-400": {
   "at": "2026-11-20T03:13:37.241754+00:00",
   "moment_score": 3,
@@ -2339,6 +2323,32 @@
   "at": "2026-11-22T01:15:35.401756+00:00",
   "moment_score": 2,
   "what_happens": "Гостья за рулём понимает, что она в эфире у Людвига, дальше меню магазина. Это событие стрима, а не игры.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2936386266-516": {
+  "at": "2026-11-22T02:13:52.757101+00:00",
+  "moment_score": 6,
+  "what_happens": "Уходит от погони и на пустой дороге влетает в ограждение моста: героиню выбрасывает из машины, дверь оторвана, чат смеётся. Событие понятное, день, всё видно, реакция спокойная, поэтому только 6. Оставляю отрезок с аварией, рамка камеры поправлена вручную.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Escaped the cops, then lost to a bridge wall 💀",
+  "keep_start": 36.0,
+  "keep_end": 57.0,
+  "cam": [
+   0.0,
+   0.15,
+   0.26,
+   0.325
+  ],
+  "hook": "Through the windshield",
+  "cover_at": 51.3
+ },
+ "chat-2936683310-178": {
+  "at": "2026-11-22T02:13:52.800613+00:00",
+  "moment_score": 2,
+  "what_happens": "Пьяный персонаж бредёт ночью, картинка тёмная и размытая, потом карта, и чат голосует, куда ехать. Игрового события нет.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
