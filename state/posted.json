@@ -2775,6 +2775,732 @@
     "level_db": -34.53792953491211
    },
    "silence": []
+  },
+  "chat-2936706130-814": {
+   "id": "chat-2936706130-814",
+   "url": "https://www.twitch.tv/videos/2936706130",
+   "section": [
+    36630.532744,
+    36686.532744
+   ],
+   "kind": "chat",
+   "views": 128,
+   "title": "",
+   "vod": "2936706130",
+   "vod_t": 36630.532744,
+   "group": "en",
+   "login": "theburntpeanut",
+   "name": "TheBurntPeanut",
+   "viewers": 45696,
+   "chat_score": 5.12,
+   "found_at": "2026-11-22T09:50:00.165084+00:00",
+   "spike_at": "2026-11-22T09:38:22.532744+00:00",
+   "chat": [
+    "18x LOL",
+    "12x KEKW",
+    "12x LUL",
+    "4x Lmao",
+    "4x called it",
+    "3x wtf",
+    "2x HAHAHAHAHA",
+    "2x yep",
+    "NotLikeThis",
+    "Haha",
+    "Use focus????",
+    "GG BOSS",
+    "Health kit on ground",
+    "Looooooooooot",
+    "How do you suck at gta",
+    "now we are full heal"
+   ],
+   "source": "cut from the live stream at a chat spike: 128 chatters in 15 s, 5.1x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-22T09:50:32.364471+00:00",
+   "cam": [
+    288,
+    756,
+    422,
+    324
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 57.0,
+   "words": [
+    {
+     "word": " I",
+     "start": 0.0,
+     "end": 0.0
+    },
+    {
+     "word": " got",
+     "start": 0.0,
+     "end": 0.02
+    },
+    {
+     "word": " Ph",
+     "start": 0.02,
+     "end": 0.4
+    },
+    {
+     "word": ".D.,",
+     "start": 0.4,
+     "end": 0.96
+    },
+    {
+     "word": " man.",
+     "start": 0.96,
+     "end": 1.2
+    },
+    {
+     "word": " Trauma!",
+     "start": 1.54,
+     "end": 1.94
+    },
+    {
+     "word": " Ah!",
+     "start": 2.54,
+     "end": 2.82
+    },
+    {
+     "word": " Get",
+     "start": 3.32,
+     "end": 3.7
+    },
+    {
+     "word": " the",
+     "start": 3.7,
+     "end": 3.88
+    },
+    {
+     "word": " chopper,",
+     "start": 3.88,
+     "end": 4.36
+    },
+    {
+     "word": " bud!",
+     "start": 4.44,
+     "end": 4.56
+    },
+    {
+     "word": " Get",
+     "start": 4.72,
+     "end": 4.88
+    },
+    {
+     "word": " that",
+     "start": 4.88,
+     "end": 5.04
+    },
+    {
+     "word": " chopper!",
+     "start": 5.04,
+     "end": 5.44
+    },
+    {
+     "word": " Oh,",
+     "start": 6.62,
+     "end": 7.02
+    },
+    {
+     "word": " no!",
+     "start": 7.8,
+     "end": 7.8
+    },
+    {
+     "word": " Oh,",
+     "start": 8.18,
+     "end": 8.52
+    },
+    {
+     "word": " no!",
+     "start": 8.54,
+     "end": 8.74
+    },
+    {
+     "word": " Oh,",
+     "start": 9.7,
+     "end": 10.1
+    },
+    {
+     "word": " I'm",
+     "start": 10.1,
+     "end": 10.28
+    },
+    {
+     "word": " actually",
+     "start": 10.28,
+     "end": 10.42
+    },
+    {
+     "word": " gonna",
+     "start": 10.42,
+     "end": 10.56
+    },
+    {
+     "word": " die.",
+     "start": 10.56,
+     "end": 10.76
+    },
+    {
+     "word": " Oh,",
+     "start": 10.96,
+     "end": 11.04
+    },
+    {
+     "word": " my",
+     "start": 11.04,
+     "end": 11.14
+    },
+    {
+     "word": " God.",
+     "start": 11.14,
+     "end": 11.26
+    },
+    {
+     "word": " I'm",
+     "start": 11.98,
+     "end": 12.38
+    },
+    {
+     "word": " gonna",
+     "start": 12.38,
+     "end": 12.44
+    },
+    {
+     "word": " die.",
+     "start": 12.44,
+     "end": 12.62
+    },
+    {
+     "word": " I'm",
+     "start": 12.78,
+     "end": 12.8
+    },
+    {
+     "word": " gonna",
+     "start": 12.8,
+     "end": 12.86
+    },
+    {
+     "word": " die.",
+     "start": 12.86,
+     "end": 13.02
+    },
+    {
+     "word": " I'm",
+     "start": 13.4,
+     "end": 13.42
+    },
+    {
+     "word": " gonna",
+     "start": 13.42,
+     "end": 13.42
+    },
+    {
+     "word": " die.",
+     "start": 13.42,
+     "end": 13.54
+    },
+    {
+     "word": " Oh,",
+     "start": 13.88,
+     "end": 14.22
+    },
+    {
+     "word": " my",
+     "start": 15.52,
+     "end": 15.52
+    },
+    {
+     "word": " God.",
+     "start": 15.52,
+     "end": 15.52
+    },
+    {
+     "word": " Oh,",
+     "start": 15.52,
+     "end": 15.64
+    },
+    {
+     "word": " my",
+     "start": 15.7,
+     "end": 15.78
+    },
+    {
+     "word": " God.",
+     "start": 15.78,
+     "end": 15.86
+    },
+    {
+     "word": " I'm",
+     "start": 16.28,
+     "end": 16.52
+    },
+    {
+     "word": " one",
+     "start": 16.52,
+     "end": 16.66
+    },
+    {
+     "word": " shot.",
+     "start": 16.66,
+     "end": 16.88
+    },
+    {
+     "word": " I",
+     "start": 17.18,
+     "end": 17.36
+    },
+    {
+     "word": " can't.",
+     "start": 17.36,
+     "end": 17.74
+    },
+    {
+     "word": " I",
+     "start": 17.74,
+     "end": 17.86
+    },
+    {
+     "word": " can't",
+     "start": 17.86,
+     "end": 18.06
+    },
+    {
+     "word": " do",
+     "start": 18.06,
+     "end": 18.16
+    },
+    {
+     "word": " it",
+     "start": 18.16,
+     "end": 18.24
+    },
+    {
+     "word": " again,",
+     "start": 18.24,
+     "end": 18.44
+    },
+    {
+     "word": " bro.",
+     "start": 18.52,
+     "end": 18.66
+    },
+    {
+     "word": " I",
+     "start": 19.1,
+     "end": 19.26
+    },
+    {
+     "word": " can't",
+     "start": 19.26,
+     "end": 19.46
+    },
+    {
+     "word": " do",
+     "start": 19.46,
+     "end": 19.6
+    },
+    {
+     "word": " it.",
+     "start": 19.6,
+     "end": 19.72
+    },
+    {
+     "word": " I",
+     "start": 20.04,
+     "end": 20.16
+    },
+    {
+     "word": " can't",
+     "start": 20.16,
+     "end": 20.36
+    },
+    {
+     "word": " do",
+     "start": 20.36,
+     "end": 20.56
+    },
+    {
+     "word": " it.",
+     "start": 20.56,
+     "end": 20.68
+    },
+    {
+     "word": " Come",
+     "start": 25.75,
+     "end": 26.15
+    },
+    {
+     "word": " on,",
+     "start": 26.15,
+     "end": 26.29
+    },
+    {
+     "word": " bud.",
+     "start": 26.31,
+     "end": 26.43
+    },
+    {
+     "word": " Get",
+     "start": 26.51,
+     "end": 26.61
+    },
+    {
+     "word": " the",
+     "start": 26.61,
+     "end": 26.73
+    },
+    {
+     "word": " chopper!",
+     "start": 26.73,
+     "end": 27.07
+    },
+    {
+     "word": " I",
+     "start": 27.33,
+     "end": 27.39
+    },
+    {
+     "word": " can't,",
+     "start": 27.39,
+     "end": 27.81
+    },
+    {
+     "word": " bro.",
+     "start": 27.81,
+     "end": 28.03
+    },
+    {
+     "word": " I",
+     "start": 28.25,
+     "end": 28.37
+    },
+    {
+     "word": " can't.",
+     "start": 28.37,
+     "end": 28.99
+    },
+    {
+     "word": " Oh,",
+     "start": 29.19,
+     "end": 29.31
+    },
+    {
+     "word": " my",
+     "start": 29.67,
+     "end": 29.93
+    },
+    {
+     "word": " God.",
+     "start": 29.93,
+     "end": 30.21
+    },
+    {
+     "word": " Let's",
+     "start": 32.28,
+     "end": 32.68
+    },
+    {
+     "word": " go.",
+     "start": 32.68,
+     "end": 32.8
+    },
+    {
+     "word": " You",
+     "start": 33.38,
+     "end": 33.54
+    },
+    {
+     "word": " win?",
+     "start": 33.54,
+     "end": 33.78
+    },
+    {
+     "word": " Oh,",
+     "start": 33.78,
+     "end": 34.46
+    },
+    {
+     "word": " I",
+     "start": 34.54,
+     "end": 34.66
+    },
+    {
+     "word": " am",
+     "start": 34.66,
+     "end": 34.8
+    },
+    {
+     "word": " 100",
+     "start": 34.8,
+     "end": 35.28
+    },
+    {
+     "word": "%",
+     "start": 35.28,
+     "end": 35.52
+    },
+    {
+     "word": " gonna",
+     "start": 35.52,
+     "end": 35.76
+    },
+    {
+     "word": " die",
+     "start": 35.76,
+     "end": 35.92
+    },
+    {
+     "word": " if",
+     "start": 35.92,
+     "end": 36.02
+    },
+    {
+     "word": " I'm",
+     "start": 36.02,
+     "end": 36.14
+    },
+    {
+     "word": " shooting",
+     "start": 36.14,
+     "end": 36.3
+    },
+    {
+     "word": " out",
+     "start": 36.3,
+     "end": 36.46
+    },
+    {
+     "word": " of",
+     "start": 36.46,
+     "end": 36.52
+    },
+    {
+     "word": " here.",
+     "start": 36.52,
+     "end": 36.68
+    },
+    {
+     "word": " Are",
+     "start": 42.14,
+     "end": 42.28
+    },
+    {
+     "word": " we",
+     "start": 42.28,
+     "end": 42.52
+    },
+    {
+     "word": " super",
+     "start": 42.52,
+     "end": 42.94
+    },
+    {
+     "word": "-duper",
+     "start": 42.94,
+     "end": 43.62
+    },
+    {
+     "word": " serious?",
+     "start": 43.62,
+     "end": 44.08
+    },
+    {
+     "word": " What",
+     "start": 44.38,
+     "end": 44.58
+    },
+    {
+     "word": " was",
+     "start": 44.58,
+     "end": 44.76
+    },
+    {
+     "word": " I",
+     "start": 44.76,
+     "end": 44.88
+    },
+    {
+     "word": " supposed",
+     "start": 44.88,
+     "end": 45.06
+    },
+    {
+     "word": " to",
+     "start": 45.06,
+     "end": 45.22
+    },
+    {
+     "word": " do",
+     "start": 45.22,
+     "end": 45.26
+    },
+    {
+     "word": " about",
+     "start": 45.26,
+     "end": 45.44
+    },
+    {
+     "word": " that?",
+     "start": 45.44,
+     "end": 45.6
+    },
+    {
+     "word": " What?",
+     "start": 46.08,
+     "end": 46.34
+    },
+    {
+     "word": " What",
+     "start": 46.46,
+     "end": 46.72
+    },
+    {
+     "word": " would",
+     "start": 46.72,
+     "end": 46.98
+    },
+    {
+     "word": " you",
+     "start": 46.98,
+     "end": 47.18
+    },
+    {
+     "word": " like",
+     "start": 47.18,
+     "end": 47.4
+    },
+    {
+     "word": " me",
+     "start": 47.4,
+     "end": 47.58
+    },
+    {
+     "word": " to",
+     "start": 47.58,
+     "end": 47.66
+    },
+    {
+     "word": " do",
+     "start": 47.66,
+     "end": 47.76
+    },
+    {
+     "word": " about",
+     "start": 47.76,
+     "end": 47.94
+    },
+    {
+     "word": " that?",
+     "start": 47.94,
+     "end": 48.18
+    },
+    {
+     "word": " Huh?",
+     "start": 48.6,
+     "end": 48.76
+    },
+    {
+     "word": " Huh?",
+     "start": 49.14,
+     "end": 49.32
+    },
+    {
+     "word": " What",
+     "start": 49.8,
+     "end": 50.0
+    },
+    {
+     "word": " was",
+     "start": 50.0,
+     "end": 50.18
+    },
+    {
+     "word": " the",
+     "start": 50.18,
+     "end": 50.3
+    },
+    {
+     "word": " plan",
+     "start": 50.3,
+     "end": 50.56
+    },
+    {
+     "word": " there?",
+     "start": 50.56,
+     "end": 50.84
+    },
+    {
+     "word": " What",
+     "start": 51.04,
+     "end": 51.14
+    },
+    {
+     "word": " was",
+     "start": 51.14,
+     "end": 51.32
+    },
+    {
+     "word": " the",
+     "start": 51.32,
+     "end": 51.44
+    },
+    {
+     "word": " strategy",
+     "start": 51.44,
+     "end": 51.82
+    },
+    {
+     "word": " there?",
+     "start": 51.82,
+     "end": 52.2
+    },
+    {
+     "word": " You",
+     "start": 53.24,
+     "end": 53.52
+    },
+    {
+     "word": " win.",
+     "start": 53.52,
+     "end": 53.74
+    },
+    {
+     "word": " Okay.",
+     "start": 54.2,
+     "end": 54.46
+    },
+    {
+     "word": " Prepare",
+     "start": 55.0,
+     "end": 55.26
+    },
+    {
+     "word": " for",
+     "start": 55.26,
+     "end": 55.52
+    },
+    {
+     "word": " dust",
+     "start": 55.52,
+     "end": 55.76
+    },
+    {
+     "word": " off.",
+     "start": 55.76,
+     "end": 55.98
+    }
+   ],
+   "metrics": {
+    "motion": 0.3234767025089606,
+    "motion_p90": 0.5653076463560335,
+    "static_share": 0.1762114537444934,
+    "peak_db": 4.439201354980469,
+    "level_db": -21.25999641418457
+   },
+   "silence": []
   }
  },
  "pool": {
