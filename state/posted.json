@@ -806,21 +806,6 @@
   }
  },
  "rejected": {
-  "chat-2933605288-270": {
-   "at": "2026-11-19T15:31:37.183634+00:00",
-   "why": "no sound in the recording (5 s of 64 s are silent)",
-   "login": "hutchmf"
-  },
-  "chat-2933227596-750": {
-   "at": "2026-11-19T15:31:37.558815+00:00",
-   "why": "editor: no gameplay on screen",
-   "login": "jerma985"
-  },
-  "chat-2933495403-457": {
-   "at": "2026-11-19T15:31:37.559099+00:00",
-   "why": "editor: no gameplay on screen",
-   "login": "ravshann"
-  },
   "chat-2933650141-200": {
    "at": "2026-11-19T15:53:07.284458+00:00",
    "why": "no sound in the recording (4 s of 56 s are silent)",
@@ -2573,6 +2558,11 @@
   },
   "chat-2937251834-144": {
    "at": "2026-11-22T14:52:56.438987+00:00",
+   "why": "picture is almost static (motion 0.03)",
+   "login": "darkviperau"
+  },
+  "chat-2937251834-225": {
+   "at": "2026-11-22T15:37:27.041982+00:00",
    "why": "picture is almost static (motion 0.03)",
    "login": "darkviperau"
   }
