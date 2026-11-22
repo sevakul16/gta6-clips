@@ -806,11 +806,6 @@
   }
  },
  "rejected": {
-  "chat-2933650141-200": {
-   "at": "2026-11-19T15:53:07.284458+00:00",
-   "why": "no sound in the recording (4 s of 56 s are silent)",
-   "login": "nickmercs"
-  },
   "chat-2933626360-270": {
    "at": "2026-11-19T16:14:32.331246+00:00",
    "why": "picture is almost static (motion 0.03)",
@@ -2565,6 +2560,11 @@
    "at": "2026-11-22T15:37:27.041982+00:00",
    "why": "picture is almost static (motion 0.03)",
    "login": "darkviperau"
+  },
+  "chat-2936816213-1147": {
+   "at": "2026-11-22T15:58:53.388137+00:00",
+   "why": "picture is almost static (motion 0.03)",
+   "login": "whoplohoyparen"
   }
  },
  "pending": {
