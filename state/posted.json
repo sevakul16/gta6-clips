@@ -740,26 +740,6 @@
   }
  },
  "rejected": {
-  "chat-2932226282-1152": {
-   "at": "2026-11-19T02:24:53.670032+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "theburntpeanut"
-  },
-  "chat-2932753534-312": {
-   "at": "2026-11-19T02:24:53.670480+00:00",
-   "why": "editor: 5/10, Bar cutscene, then chat pushes him to accept the dance prompt while he begs to decline; funny talk but dark cutscene frames and no gameplay event",
-   "login": "summit1g"
-  },
-  "AntediluvianSpicyKuduBudBlast-3RuKCabPuhQ3Fgh2": {
-   "at": "2026-11-19T02:24:53.670912+00:00",
-   "why": "editor: 2/10, Cinematic montage with a nude couple at a pool; nudity, no gameplay moment",
-   "login": "evelone2004"
-  },
-  "UnusualConsiderateLionGingerPower-oJF7Ao2MX9omrH0x": {
-   "at": "2026-11-19T02:24:53.671358+00:00",
-   "why": "editor: 4/10, Story cutscene argument with a girlfriend in a bikini; dialogue only, source already has burnt-in captions",
-   "login": "kaicenat"
-  },
   "chat-2932753534-380": {
    "at": "2026-11-19T02:45:58.594990+00:00",
    "why": "picture is almost static (motion 0.01)",
@@ -2935,6 +2915,131 @@
     "static_share": 0.14979757085020243,
     "peak_db": 10.67049789428711,
     "level_db": -29.175302505493164
+   },
+   "silence": []
+  },
+  "chat-2936706130-249": {
+   "id": "chat-2936706130-249",
+   "url": "https://www.twitch.tv/videos/2936706130",
+   "section": [
+    11195.656447,
+    11251.656447
+   ],
+   "kind": "chat",
+   "views": 127,
+   "title": "",
+   "vod": "2936706130",
+   "vod_t": 11195.656447,
+   "group": "en",
+   "login": "theburntpeanut",
+   "name": "TheBurntPeanut",
+   "viewers": 55705,
+   "chat_score": 3.97,
+   "found_at": "2026-11-22T02:38:00.374868+00:00",
+   "spike_at": "2026-11-22T02:34:27.656447+00:00",
+   "chat": [
+    "11x lol",
+    "10x LUL",
+    "7x lmao",
+    "6x rip",
+    "5x gg",
+    "4x KEKW",
+    "3x tbpeanutPeanutFullDance",
+    "2x NotLikeThis",
+    "2x booom",
+    "2x NOOOO",
+    "2x jump out",
+    "2x o7",
+    "loooooooool",
+    "THIS CAR IS HOT MAN",
+    "GUNNA BLOW UP",
+    "cheer100",
+    "Paul Walker",
+    "Welppp",
+    "1.8 miles you can do it",
+    "get out duded"
+   ],
+   "source": "cut from the live stream at a chat spike: 127 chatters in 15 s, 4.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-22T02:38:23.510424+00:00",
+   "cam": [
+    288,
+    756,
+    422,
+    324
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 62.0,
+   "words": [
+    {
+     "word": " We'll",
+     "start": 31.15,
+     "end": 31.15
+    },
+    {
+     "word": " go",
+     "start": 31.15,
+     "end": 31.23
+    },
+    {
+     "word": " really",
+     "start": 31.23,
+     "end": 31.35
+    },
+    {
+     "word": " fast!",
+     "start": 31.35,
+     "end": 31.57
+    },
+    {
+     "word": " We'll",
+     "start": 52.13,
+     "end": 52.31
+    },
+    {
+     "word": " get",
+     "start": 52.31,
+     "end": 52.35
+    },
+    {
+     "word": " back",
+     "start": 52.35,
+     "end": 52.55
+    },
+    {
+     "word": " in!",
+     "start": 52.55,
+     "end": 52.69
+    },
+    {
+     "word": " We'll",
+     "start": 53.03,
+     "end": 53.33
+    },
+    {
+     "word": " get",
+     "start": 53.33,
+     "end": 53.43
+    },
+    {
+     "word": " back",
+     "start": 53.43,
+     "end": 53.67
+    },
+    {
+     "word": " in!",
+     "start": 53.67,
+     "end": 53.85
+    }
+   ],
+   "metrics": {
+    "motion": 0.47020609318996415,
+    "motion_p90": 0.65607825567503,
+    "static_share": 0.004048582995951417,
+    "peak_db": 5.786230087280273,
+    "level_db": -22.518089294433594
    },
    "silence": []
   }
