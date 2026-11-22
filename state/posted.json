@@ -3454,6 +3454,167 @@
     "level_db": -22.585031509399414
    },
    "silence": []
+  },
+  "ReliableTenderHorseNomNom--nuwR5Hxbfm0R0Z-": {
+   "id": "ReliableTenderHorseNomNom--nuwR5Hxbfm0R0Z-",
+   "url": "https://www.twitch.tv/bratishkinoff/clip/ReliableTenderHorseNomNom--nuwR5Hxbfm0R0Z-",
+   "section": null,
+   "kind": "clip",
+   "views": 318,
+   "title": "вова и крокодилдо",
+   "vod": "2936028839",
+   "vod_t": 15530,
+   "group": "ru",
+   "login": "bratishkinoff",
+   "name": "bratishkinOFF",
+   "source": "Twitch clip made by a viewer, 318 views, titled \"вова и крокодилдо\"",
+   "at": "2026-11-22T14:10:22.377337+00:00",
+   "cam": [
+    0,
+    570,
+    609,
+    428
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 18.4,
+   "words": [
+    {
+     "word": " на",
+     "start": 0.98,
+     "end": 1.6
+    },
+    {
+     "word": " всегда",
+     "start": 1.6,
+     "end": 2.04
+    },
+    {
+     "word": " ПЛЯТЬ",
+     "start": 4.06,
+     "end": 4.82
+    },
+    {
+     "word": " ПЛЯТЬ",
+     "start": 5.84,
+     "end": 6.22
+    },
+    {
+     "word": " ПЛЯТЬ",
+     "start": 6.22,
+     "end": 6.82
+    },
+    {
+     "word": " Сука,",
+     "start": 6.82,
+     "end": 7.38
+    },
+    {
+     "word": " БЛЯТЬ,",
+     "start": 7.64,
+     "end": 7.98
+    },
+    {
+     "word": " ТО",
+     "start": 8.04,
+     "end": 8.14
+    },
+    {
+     "word": " НЕГО",
+     "start": 8.14,
+     "end": 8.52
+    },
+    {
+     "word": " ПрЯХЫПОЛ",
+     "start": 8.52,
+     "end": 9.22
+    },
+    {
+     "word": " Я",
+     "start": 9.22,
+     "end": 9.32
+    },
+    {
+     "word": " НЕ",
+     "start": 9.32,
+     "end": 9.5
+    },
+    {
+     "word": " МИЗЕЛ",
+     "start": 9.5,
+     "end": 10.22
+    },
+    {
+     "word": " ИТИОТСУДО,",
+     "start": 10.22,
+     "end": 11.3
+    },
+    {
+     "word": " БЛЯТЬ",
+     "start": 11.42,
+     "end": 12.0
+    },
+    {
+     "word": " Ой,",
+     "start": 12.82,
+     "end": 13.2
+    },
+    {
+     "word": " БЛЯТЬ",
+     "start": 13.28,
+     "end": 13.98
+    },
+    {
+     "word": " БЛЯТЬ",
+     "start": 14.82,
+     "end": 15.58
+    },
+    {
+     "word": " ИСТЕТ,",
+     "start": 15.58,
+     "end": 16.04
+    },
+    {
+     "word": " БРАМ",
+     "start": 16.06,
+     "end": 16.26
+    },
+    {
+     "word": " В",
+     "start": 16.26,
+     "end": 16.36
+    },
+    {
+     "word": " Обнимку,",
+     "start": 16.36,
+     "end": 16.82
+    },
+    {
+     "word": " УПАЛ",
+     "start": 16.86,
+     "end": 17.22
+    },
+    {
+     "word": " В",
+     "start": 17.22,
+     "end": 17.34
+    },
+    {
+     "word": " НЕГО",
+     "start": 17.34,
+     "end": 17.62
+    }
+   ],
+   "metrics": {
+    "motion": 0.2607829876765855,
+    "motion_p90": 0.49026901112113014,
+    "static_share": 0.0,
+    "peak_db": 5.40235710144043,
+    "level_db": -25.567485809326172
+   },
+   "silence": []
   }
  },
  "pool": {
