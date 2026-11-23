@@ -3075,6 +3075,351 @@
     "level_db": -35.88261413574219
    },
    "silence": []
+  },
+  "chat-2936392772-2706": {
+   "id": "chat-2936392772-2706",
+   "url": "https://www.twitch.tv/videos/2936392772",
+   "section": [
+    121733.93789,
+    121789.93789
+   ],
+   "kind": "chat",
+   "views": 59,
+   "title": "",
+   "vod": "2936392772",
+   "vod_t": 121733.93789,
+   "group": "en",
+   "login": "ludwig",
+   "name": "Ludwig",
+   "viewers": 12599,
+   "chat_score": 3.93,
+   "found_at": "2026-11-23T04:36:37.531179+00:00",
+   "spike_at": "2026-11-23T04:22:19.937890+00:00",
+   "chat": [
+    "13x o",
+    "8x om",
+    "3x maga",
+    "3x um",
+    "3x jorkin",
+    "2x lol",
+    "2x HUH",
+    "thats sad man",
+    "LMFAOOOOOOOOOO",
+    "WTF",
+    "LO",
+    "The more high class their living arrangement, the further away they sit.",
+    "erm",
+    "AYO",
+    "bro wtf"
+   ],
+   "source": "cut from the live stream at a chat spike: 59 chatters in 15 s, 3.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-23T04:37:06.062349+00:00",
+   "cam": [
+    0,
+    412,
+    298,
+    209
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " How",
+     "start": 3.36,
+     "end": 3.88
+    },
+    {
+     "word": " the",
+     "start": 3.88,
+     "end": 3.94
+    },
+    {
+     "word": " fuck",
+     "start": 3.94,
+     "end": 4.24
+    },
+    {
+     "word": " are",
+     "start": 4.24,
+     "end": 4.4
+    },
+    {
+     "word": " you",
+     "start": 4.4,
+     "end": 4.42
+    },
+    {
+     "word": " wearing",
+     "start": 4.42,
+     "end": 4.56
+    },
+    {
+     "word": " socks?",
+     "start": 4.56,
+     "end": 4.86
+    },
+    {
+     "word": " What",
+     "start": 5.56,
+     "end": 5.8
+    },
+    {
+     "word": " you",
+     "start": 5.8,
+     "end": 5.92
+    },
+    {
+     "word": " up",
+     "start": 5.92,
+     "end": 6.06
+    },
+    {
+     "word": " to?",
+     "start": 6.06,
+     "end": 6.16
+    },
+    {
+     "word": " Fuck",
+     "start": 15.41,
+     "end": 15.67
+    },
+    {
+     "word": " Cordell",
+     "start": 15.67,
+     "end": 16.23
+    },
+    {
+     "word": " and",
+     "start": 16.23,
+     "end": 16.41
+    },
+    {
+     "word": " Raul",
+     "start": 16.41,
+     "end": 17.17
+    },
+    {
+     "word": " and",
+     "start": 17.17,
+     "end": 17.41
+    },
+    {
+     "word": " everyone",
+     "start": 17.41,
+     "end": 17.95
+    },
+    {
+     "word": " else.",
+     "start": 17.95,
+     "end": 18.29
+    },
+    {
+     "word": " What",
+     "start": 18.43,
+     "end": 18.53
+    },
+    {
+     "word": " the",
+     "start": 18.53,
+     "end": 18.69
+    },
+    {
+     "word": " fuck",
+     "start": 18.69,
+     "end": 18.79
+    },
+    {
+     "word": " are",
+     "start": 18.79,
+     "end": 18.93
+    },
+    {
+     "word": " you",
+     "start": 18.93,
+     "end": 18.95
+    },
+    {
+     "word": " doing?",
+     "start": 18.95,
+     "end": 19.03
+    },
+    {
+     "word": " No",
+     "start": 19.13,
+     "end": 19.25
+    },
+    {
+     "word": " more",
+     "start": 19.25,
+     "end": 19.37
+    },
+    {
+     "word": " going",
+     "start": 19.37,
+     "end": 19.53
+    },
+    {
+     "word": " out.",
+     "start": 19.53,
+     "end": 19.81
+    },
+    {
+     "word": " You",
+     "start": 20.65,
+     "end": 20.85
+    },
+    {
+     "word": " are",
+     "start": 20.85,
+     "end": 21.05
+    },
+    {
+     "word": " staying",
+     "start": 21.05,
+     "end": 21.37
+    },
+    {
+     "word": " here",
+     "start": 21.37,
+     "end": 21.59
+    },
+    {
+     "word": " with",
+     "start": 21.59,
+     "end": 21.75
+    },
+    {
+     "word": " me.",
+     "start": 21.75,
+     "end": 21.93
+    },
+    {
+     "word": " Mm",
+     "start": 22.61,
+     "end": 22.63
+    },
+    {
+     "word": "-hmm.",
+     "start": 22.63,
+     "end": 23.03
+    },
+    {
+     "word": " We",
+     "start": 43.56,
+     "end": 43.94
+    },
+    {
+     "word": " the",
+     "start": 43.94,
+     "end": 44.2
+    },
+    {
+     "word": " people",
+     "start": 44.2,
+     "end": 44.66
+    },
+    {
+     "word": " in",
+     "start": 44.66,
+     "end": 45.48
+    },
+    {
+     "word": " order",
+     "start": 45.48,
+     "end": 46.04
+    },
+    {
+     "word": " to",
+     "start": 46.04,
+     "end": 46.6
+    },
+    {
+     "word": " form",
+     "start": 46.6,
+     "end": 47.26
+    },
+    {
+     "word": " a",
+     "start": 47.26,
+     "end": 47.5
+    },
+    {
+     "word": " more",
+     "start": 47.5,
+     "end": 47.66
+    },
+    {
+     "word": " perfect",
+     "start": 47.66,
+     "end": 48.28
+    },
+    {
+     "word": " union.",
+     "start": 48.28,
+     "end": 48.96
+    },
+    {
+     "word": " Breaking",
+     "start": 52.26,
+     "end": 52.6
+    },
+    {
+     "word": " news.",
+     "start": 52.6,
+     "end": 53.06
+    },
+    {
+     "word": " What?",
+     "start": 53.4,
+     "end": 53.54
+    },
+    {
+     "word": " There",
+     "start": 53.82,
+     "end": 54.02
+    },
+    {
+     "word": " are",
+     "start": 54.02,
+     "end": 54.18
+    },
+    {
+     "word": " officially",
+     "start": 54.18,
+     "end": 54.62
+    },
+    {
+     "word": " no",
+     "start": 54.62,
+     "end": 55.06
+    },
+    {
+     "word": " more",
+     "start": 55.06,
+     "end": 55.34
+    },
+    {
+     "word": " US",
+     "start": 55.34,
+     "end": 55.66
+    },
+    {
+     "word": " jobs.",
+     "start": 55.66,
+     "end": 55.9
+    }
+   ],
+   "metrics": {
+    "motion": 0.08458781362007169,
+    "motion_p90": 0.5309247311827957,
+    "static_share": 0.16143497757847533,
+    "peak_db": 15.774272918701172,
+    "level_db": -42.799339294433594
+   },
+   "silence": []
   }
  },
  "pool": {
