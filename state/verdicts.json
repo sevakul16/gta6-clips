@@ -1,79 +1,4 @@
 {
- "chat-2936081791-338": {
-  "at": "2026-11-21T18:14:09.962141+00:00",
-  "moment_score": 5,
-  "what_happens": "Порше застрял в грязи у ручья, почти минуту ругается и буксует, чат пишет «толкай»; развязки нет, сумерки, картинка тёмная",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2936004347-528": {
-  "at": "2026-11-21T18:14:10.017194+00:00",
-  "moment_score": 1,
-  "what_happens": "Вебки в кадре нет; ночью прячется за ящиком, собака загрызает, экран «Мертва»; звук очень тихий",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "ScaryAthleticRaisinPJSugar-8vaeuYOpax8YZmzm": {
-  "at": "2026-11-21T18:14:10.073633+00:00",
-  "moment_score": 3,
-  "what_happens": "Просит погладить собаку и бьёт её, дальше двадцать секунд мата в адрес игрока и фраза про депортацию в Украину: токсично, другого события нет",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2936158697-238": {
-  "at": "2026-11-21T18:14:10.121813+00:00",
-  "moment_score": 5,
-  "what_happens": "Диалог с NPC, потом жуткий прохожий гладит мёртвую кошку; это реплики игры, стример почти не реагирует, развязки нет",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "BitterFurtiveGerbilSmoocherZ-kOZkQNlKMJqfW_8s": {
-  "at": "2026-11-21T18:14:10.176218+00:00",
-  "moment_score": 6,
-  "what_happens": "Ограбление: двери лифта открываются, в холле стоит тигр, «back up, back up», Кай вскакивает со стула с поднятыми руками. Событие в первых 15 секундах, дальше пустой коридор; картинка тёмно-синяя, поэтому 6. В записи уже есть титры. Английский, на полку",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "The elevator opened and a tiger was waiting. Kai left his chair 😭",
-  "keep_start": 0.0,
-  "keep_end": 15.5,
-  "cam": [
-   0.02,
-   0.4,
-   0.165,
-   0.206
-  ],
-  "hook": "Tiger behind the door",
-  "cover_at": 3.8,
-  "no_subs": true
- },
- "chat-2935925087-809": {
-  "at": "2026-11-21T19:13:10.386038+00:00",
-  "moment_score": 4,
-  "what_happens": "Перестрелка в миссии: холл, лифт, крыша; сорок секунд без слов, потом его почти убивают и он ругается на оптические прицелы. Чёткого события нет",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2936297170-120": {
-  "at": "2026-11-21T19:13:10.440720+00:00",
-  "moment_score": 1,
-  "what_happens": "Вебки в кадре нет; едет на машине и смотрит карту, событие (NPC) почти не видно",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "DifferentProudCheeseFutureMan-J6NKch0NAmpPCK75": {
-  "at": "2026-11-21T19:13:10.492672+00:00",
-  "moment_score": 4,
-  "what_happens": "Ночью слезает с крыши небоскрёба, срывается и разбивается, дважды Wasted, в конце смеётся; картинка почти чёрная, слов почти нет, звук тихий",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2936181330-326": {
   "at": "2026-11-21T20:13:59.243398+00:00",
   "moment_score": 7,
@@ -1163,6 +1088,30 @@
   "moment_score": 2,
   "what_happens": "Загрузочные экраны игры с артами и логотипом, затем ночная панорама города; стример говорит по телефону, что его забанили. Игрового события нет",
   "gameplay_visible": false,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "ProtectiveRelatedLarkNerfBlueBlaster-6uZdnOFd3WRA9Xc5": {
+  "at": "2026-11-23T19:14:19.540740+00:00",
+  "moment_score": 3,
+  "what_happens": "Блогер-прохожий танцует на ограждении эстакады, срывается и повисает на краю, игрок его не вытаскивает, и тот лежит внизу в крови. Вместо вебкамеры в кадре нарисованный аватар орка, живой реакции нет; сюжет с человеком на краю и падением насмерть не берём",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "CarefulTardySpiderCorgiDerp-jJ5FgohAKoSf4m1V": {
+  "at": "2026-11-23T19:14:19.595366+00:00",
+  "moment_score": 1,
+  "what_happens": "Приватный танец в стрип-клубе: крупные планы танцора в стрингах от первого лица почти весь ролик. Откровенная сцена, площадки такое ограничивают",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "MoistFamousSquirrelTebowing-nCZyFYRP9AJbfWU_": {
+  "at": "2026-11-23T19:14:19.639417+00:00",
+  "moment_score": 2,
+  "what_happens": "Рекламная вставка: стример читает про магазин ключей и промокод, пока гидросамолёт летит над морем в сюжетной сцене; события в игре нет",
+  "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
  }
