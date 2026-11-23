@@ -872,36 +872,6 @@
   }
  },
  "rejected": {
-  "RepleteExuberantMartenSSSsss-50i_ZNqHtqmFK4Wt": {
-   "at": "2026-11-20T11:30:50.049945+00:00",
-   "why": "editor: 2/10, Cutscene close-up of a woman in a towel while the streamer talks about a supplement shop link; ad talk, no gameplay",
-   "login": "recrent"
-  },
-  "RespectfulSillyHabaneroItsBoshyTime-DueMhkE8P-piJ7hT": {
-   "at": "2026-11-20T11:30:50.050346+00:00",
-   "why": "editor: 2/10, 8 s vulgar sexual rant over looting a drawer; nothing happens, not for the channel",
-   "login": "bratishkinoff"
-  },
-  "chat-2934505601-659": {
-   "at": "2026-11-20T11:30:50.050791+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "yourragegaming"
-  },
-  "chat-2934736689-146": {
-   "at": "2026-11-20T11:30:50.051296+00:00",
-   "why": "editor: 3/10, Cutscene walk through the apartment, then map and character stats menus; no event",
-   "login": "melharucos"
-  },
-  "chat-2933453157-2157": {
-   "at": "2026-11-20T11:30:50.051987+00:00",
-   "why": "editor: 4/10, Streamer tells off a chatter who asked if the stream is a recording while looting car trunks at night; no game event, dark",
-   "login": "welovegames"
-  },
-  "chat-2934030540-1241": {
-   "at": "2026-11-20T11:30:50.052707+00:00",
-   "why": "editor: 4/10, Drives a supercar past the destination while chat screams that he passed it; mild, no payoff",
-   "login": "theburntpeanut"
-  },
   "chat-2933453157-2248": {
    "at": "2026-11-20T11:52:43.023647+00:00",
    "why": "picture is almost static (motion 0.01)",
@@ -2746,6 +2716,133 @@
     "static_share": 0.22077922077922077,
     "peak_db": 5.007177352905273,
     "level_db": -28.053462982177734
+   },
+   "silence": []
+  },
+  "chat-2938237575-133": {
+   "id": "chat-2938237575-133",
+   "url": "https://www.twitch.tv/videos/2938237575",
+   "section": [
+    5986.832399,
+    6042.832399
+   ],
+   "kind": "chat",
+   "views": 35,
+   "title": "",
+   "vod": "2938237575",
+   "vod_t": 5986.832399,
+   "group": "ru",
+   "login": "melharucos",
+   "name": "melharucos",
+   "viewers": 4301,
+   "chat_score": 4.38,
+   "found_at": "2026-11-23T11:45:36.491093+00:00",
+   "spike_at": "2026-11-23T11:36:43.832399+00:00",
+   "chat": [
+    "18x -20",
+    "3x )))))",
+    "2x ошибка",
+    "2x не очень",
+    "TaaCN -20",
+    "Хорошо водишь и сохраняешь тачку",
+    "-20 󠀀",
+    "пойдёт",
+    "Иноагент",
+    "o7",
+    "Неправильный ответ",
+    "ошибся...."
+   ],
+   "source": "cut from the live stream at a chat spike: 35 chatters in 15 s, 4.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-23T11:46:06.599981+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 63.0,
+   "words": [
+    {
+     "word": " Давай",
+     "start": 42.9,
+     "end": 43.04
+    },
+    {
+     "word": " проверим",
+     "start": 43.04,
+     "end": 43.5
+    },
+    {
+     "word": " твою",
+     "start": 43.5,
+     "end": 43.74
+    },
+    {
+     "word": " готовность",
+     "start": 43.74,
+     "end": 44.1
+    },
+    {
+     "word": " к",
+     "start": 44.1,
+     "end": 44.26
+    },
+    {
+     "word": " полету,",
+     "start": 44.26,
+     "end": 44.64
+    },
+    {
+     "word": " как",
+     "start": 44.76,
+     "end": 44.92
+    },
+    {
+     "word": " ты",
+     "start": 44.92,
+     "end": 45.1
+    },
+    {
+     "word": " относишься",
+     "start": 45.1,
+     "end": 45.72
+    },
+    {
+     "word": " к",
+     "start": 45.72,
+     "end": 45.78
+    },
+    {
+     "word": " Тайваню.",
+     "start": 45.78,
+     "end": 46.48
+    },
+    {
+     "word": " Нормальный",
+     "start": 49.61,
+     "end": 50.25
+    },
+    {
+     "word": " ответ?",
+     "start": 50.25,
+     "end": 50.51
+    },
+    {
+     "word": " Очень.",
+     "start": 59.54,
+     "end": 60.1
+    },
+    {
+     "word": " Бля.",
+     "start": 60.52,
+     "end": 61.02
+    }
+   ],
+   "metrics": {
+    "motion": 0.44916666666666666,
+    "motion_p90": 0.5877777777777777,
+    "static_share": 0.0,
+    "peak_db": 7.155437469482422,
+    "level_db": -30.163997650146484
    },
    "silence": []
   }
