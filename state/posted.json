@@ -2816,6 +2816,183 @@
     "level_db": -36.67108154296875
    },
    "silence": []
+  },
+  "NaivePopularToothBrokeBack-ZV9Zhlb2o28fGjYn": {
+   "id": "NaivePopularToothBrokeBack-ZV9Zhlb2o28fGjYn",
+   "vod": "2936140043",
+   "vod_t": 5970,
+   "group": "ru",
+   "views": 1824,
+   "title": "nepes",
+   "url": "https://www.twitch.tv/rostislav_999/clip/NaivePopularToothBrokeBack-ZV9Zhlb2o28fGjYn",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "rostislav_999",
+   "name": "rostislav_999",
+   "source": "Twitch clip made by a viewer, 1824 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"nepes\"",
+   "at": "2026-11-23T16:07:05.998580+00:00",
+   "cam": [
+    43,
+    509,
+    210,
+    147
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 36.7,
+   "words": [
+    {
+     "word": " Близфакю",
+     "start": 3.46,
+     "end": 3.92
+    },
+    {
+     "word": " Не",
+     "start": 7.59,
+     "end": 8.05
+    },
+    {
+     "word": " понял",
+     "start": 8.05,
+     "end": 8.39
+    },
+    {
+     "word": " Блять,",
+     "start": 9.31,
+     "end": 9.77
+    },
+    {
+     "word": " что",
+     "start": 9.89,
+     "end": 9.99
+    },
+    {
+     "word": " за",
+     "start": 9.99,
+     "end": 10.21
+    },
+    {
+     "word": " фак?",
+     "start": 10.21,
+     "end": 10.37
+    },
+    {
+     "word": " Бема",
+     "start": 12.09,
+     "end": 12.55
+    },
+    {
+     "word": " за",
+     "start": 12.55,
+     "end": 12.67
+    },
+    {
+     "word": " фак",
+     "start": 12.67,
+     "end": 13.01
+    },
+    {
+     "word": " Ну",
+     "start": 14.65,
+     "end": 15.11
+    },
+    {
+     "word": " стрелила",
+     "start": 15.11,
+     "end": 15.57
+    },
+    {
+     "word": " Нет,",
+     "start": 16.75,
+     "end": 17.21
+    },
+    {
+     "word": " это",
+     "start": 17.25,
+     "end": 17.45
+    },
+    {
+     "word": " что",
+     "start": 17.45,
+     "end": 17.57
+    },
+    {
+     "word": " такое,",
+     "start": 17.57,
+     "end": 17.95
+    },
+    {
+     "word": " Роз",
+     "start": 18.03,
+     "end": 18.27
+    },
+    {
+     "word": " Это",
+     "start": 20.85,
+     "end": 21.31
+    },
+    {
+     "word": " что",
+     "start": 21.31,
+     "end": 21.57
+    },
+    {
+     "word": " за,",
+     "start": 21.57,
+     "end": 21.75
+    },
+    {
+     "word": " блять,",
+     "start": 21.75,
+     "end": 22.01
+    },
+    {
+     "word": " гибон",
+     "start": 22.13,
+     "end": 22.49
+    },
+    {
+     "word": " Где",
+     "start": 29.99,
+     "end": 30.45
+    },
+    {
+     "word": " он?",
+     "start": 30.45,
+     "end": 30.57
+    },
+    {
+     "word": " Где",
+     "start": 30.65,
+     "end": 30.75
+    },
+    {
+     "word": " он?",
+     "start": 30.75,
+     "end": 30.87
+    },
+    {
+     "word": " Где",
+     "start": 30.95,
+     "end": 31.09
+    },
+    {
+     "word": " он?",
+     "start": 31.09,
+     "end": 31.23
+    }
+   ],
+   "metrics": {
+    "motion": 0.5162509715254716,
+    "motion_p90": 0.6264042959089946,
+    "static_share": 0.0,
+    "peak_db": 18.15347671508789,
+    "level_db": -43.45505905151367
+   },
+   "silence": []
   }
  },
  "pool": {
