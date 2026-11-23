@@ -872,26 +872,6 @@
   }
  },
  "rejected": {
-  "chat-2934472461-857": {
-   "at": "2026-11-20T12:38:29.323269+00:00",
-   "why": "picture is almost static (motion 0.00)",
-   "login": "frametamer666"
-  },
-  "chat-2933453157-2241": {
-   "at": "2026-11-20T12:38:29.799861+00:00",
-   "why": "editor: 3/10, Едет на фургоне на закате и отвечает чаттеру на оскорбление; в игре ничего не происходит, шутка только в чате",
-   "login": "welovegames"
-  },
-  "BigLaconicSnoodSMOrc-Lq0cyNkc8xp7FeSO": {
-   "at": "2026-11-20T12:38:29.800394+00:00",
-   "why": "editor: 3/10, Ищет по карте и в мотеле, куда сдать добычу; события нет, звук очень тихий (-44.8 дБ)",
-   "login": "buster"
-  },
-  "TalentedBenevolentKleePlanking-XtTpdU_JBB7R9cpR": {
-   "at": "2026-11-20T12:38:29.800787+00:00",
-   "why": "editor: 2/10, Расстреливает бар нудистского курорта, в кадре голые NPC: нагота, не публикуем",
-   "login": "bratishkinoff"
-  },
   "FurtiveViscousGarageKeepo-4l-N0Mw3C7jHz6Fg": {
    "at": "2026-11-20T13:01:42.161321+00:00",
    "why": "picture is almost static (motion 0.03)",
@@ -2615,6 +2595,14 @@
    "kind": "chat",
    "vod": "2938237575",
    "vod_t": 5986.832399
+  },
+  "PreciousAnimatedDugongSmoocherZ-ezHy0Tq2toseye53": {
+   "at": "2026-11-23T12:50:02.670616+00:00",
+   "why": "picture is almost static (motion 0.04)",
+   "login": "frametamer666",
+   "kind": "clip",
+   "vod": "2934472461",
+   "vod_t": 155013
   }
  },
  "pending": {
