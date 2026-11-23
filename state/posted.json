@@ -1335,11 +1335,6 @@
   }
  },
  "rejected": {
-  "chat-2933944422-1184": {
-   "at": "2026-11-20T08:52:48.389116+00:00",
-   "why": "picture is almost static (motion 0.01)",
-   "login": "stray228"
-  },
   "chat-2934505601-473": {
    "at": "2026-11-20T09:35:28.352420+00:00",
    "why": "editor: no webcam in the picture",
@@ -3855,6 +3850,556 @@
     "static_share": 0.016194331983805668,
     "peak_db": 21.2784366607666,
     "level_db": -36.88996887207031
+   },
+   "silence": []
+  },
+  "chat-2937998841-533": {
+   "id": "chat-2937998841-533",
+   "url": "https://www.twitch.tv/videos/2937998841",
+   "section": [
+    23983.483696,
+    24039.483696
+   ],
+   "kind": "chat",
+   "views": 88,
+   "title": "",
+   "vod": "2937998841",
+   "vod_t": 23983.483696,
+   "group": "en",
+   "login": "yourragegaming",
+   "name": "yourragegaming",
+   "viewers": 8825,
+   "chat_score": 4.63,
+   "found_at": "2026-11-23T08:54:08.178606+00:00",
+   "spike_at": "2026-11-23T08:51:00.483696+00:00",
+   "chat": [
+    "55x 1",
+    "13x 2",
+    "4x 1 ͏",
+    "3x I haven't",
+    "2x No",
+    "2x 11",
+    "2x 2 ͏",
+    "Vivet Ending",
+    "4",
+    "@chaloruiz_ That was the best part, I was so confused returning and mine was gon",
+    "1\\",
+    "5 ͏",
+    "i care about spoilers just not with this game",
+    "some of us cant play the game",
+    "7"
+   ],
+   "source": "cut from the live stream at a chat spike: 88 chatters in 15 s, 4.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-23T08:54:57.873506+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 62.5,
+   "words": [
+    {
+     "word": " I'm",
+     "start": 0.46,
+     "end": 0.46
+    },
+    {
+     "word": " sorry.",
+     "start": 0.46,
+     "end": 0.54
+    },
+    {
+     "word": " No.",
+     "start": 0.8,
+     "end": 0.94
+    },
+    {
+     "word": " What's",
+     "start": 1.16,
+     "end": 1.32
+    },
+    {
+     "word": " going",
+     "start": 1.32,
+     "end": 1.56
+    },
+    {
+     "word": " on?",
+     "start": 1.56,
+     "end": 1.76
+    },
+    {
+     "word": " at",
+     "start": 2.0,
+     "end": 2.24
+    },
+    {
+     "word": " least",
+     "start": 2.24,
+     "end": 5.42
+    },
+    {
+     "word": " 12",
+     "start": 5.42,
+     "end": 5.96
+    },
+    {
+     "word": " max",
+     "start": 5.96,
+     "end": 6.26
+    },
+    {
+     "word": " go",
+     "start": 6.26,
+     "end": 6.52
+    },
+    {
+     "word": " from",
+     "start": 6.52,
+     "end": 6.7
+    },
+    {
+     "word": " there.",
+     "start": 6.7,
+     "end": 7.16
+    },
+    {
+     "word": " I'll",
+     "start": 8.98,
+     "end": 9.42
+    },
+    {
+     "word": " introduce",
+     "start": 9.42,
+     "end": 9.86
+    },
+    {
+     "word": " you.",
+     "start": 9.86,
+     "end": 10.68
+    },
+    {
+     "word": " the",
+     "start": 11.6,
+     "end": 12.04
+    },
+    {
+     "word": " best",
+     "start": 12.04,
+     "end": 12.48
+    },
+    {
+     "word": " fuck",
+     "start": 12.48,
+     "end": 12.86
+    },
+    {
+     "word": " of",
+     "start": 12.86,
+     "end": 13.02
+    },
+    {
+     "word": " your",
+     "start": 13.02,
+     "end": 13.12
+    },
+    {
+     "word": " life.",
+     "start": 13.12,
+     "end": 13.58
+    },
+    {
+     "word": " the",
+     "start": 18.24,
+     "end": 18.68
+    },
+    {
+     "word": " tie",
+     "start": 18.68,
+     "end": 19.12
+    },
+    {
+     "word": " get",
+     "start": 19.12,
+     "end": 19.32
+    },
+    {
+     "word": " good",
+     "start": 19.32,
+     "end": 19.52
+    },
+    {
+     "word": " ending",
+     "start": 19.52,
+     "end": 19.68
+    },
+    {
+     "word": " or",
+     "start": 19.68,
+     "end": 19.84
+    },
+    {
+     "word": " bad",
+     "start": 19.84,
+     "end": 20.1
+    },
+    {
+     "word": " ending?",
+     "start": 20.1,
+     "end": 20.32
+    },
+    {
+     "word": " How",
+     "start": 21.6,
+     "end": 22.04
+    },
+    {
+     "word": " do",
+     "start": 22.04,
+     "end": 22.14
+    },
+    {
+     "word": " you",
+     "start": 22.14,
+     "end": 22.22
+    },
+    {
+     "word": " even",
+     "start": 22.22,
+     "end": 22.54
+    },
+    {
+     "word": " tell",
+     "start": 22.54,
+     "end": 22.7
+    },
+    {
+     "word": " me",
+     "start": 22.7,
+     "end": 22.82
+    },
+    {
+     "word": " how",
+     "start": 22.82,
+     "end": 22.98
+    },
+    {
+     "word": " to",
+     "start": 22.98,
+     "end": 23.04
+    },
+    {
+     "word": " get",
+     "start": 23.04,
+     "end": 23.2
+    },
+    {
+     "word": " good",
+     "start": 23.2,
+     "end": 23.4
+    },
+    {
+     "word": " or",
+     "start": 23.4,
+     "end": 23.48
+    },
+    {
+     "word": " bad",
+     "start": 23.48,
+     "end": 23.64
+    },
+    {
+     "word": " ending?",
+     "start": 23.64,
+     "end": 23.9
+    },
+    {
+     "word": " I",
+     "start": 23.9,
+     "end": 24.34
+    },
+    {
+     "word": " don't",
+     "start": 24.34,
+     "end": 24.86
+    },
+    {
+     "word": " want",
+     "start": 24.86,
+     "end": 24.98
+    },
+    {
+     "word": " that.",
+     "start": 24.98,
+     "end": 25.2
+    },
+    {
+     "word": " I",
+     "start": 30.74,
+     "end": 31.34
+    },
+    {
+     "word": " don't",
+     "start": 31.34,
+     "end": 31.94
+    },
+    {
+     "word": " want",
+     "start": 31.94,
+     "end": 31.94
+    },
+    {
+     "word": " that.",
+     "start": 31.94,
+     "end": 31.94
+    },
+    {
+     "word": " I",
+     "start": 32.06,
+     "end": 32.06
+    },
+    {
+     "word": " don't",
+     "start": 32.06,
+     "end": 34.88
+    },
+    {
+     "word": " want",
+     "start": 34.88,
+     "end": 35.52
+    },
+    {
+     "word": " that.",
+     "start": 35.52,
+     "end": 35.52
+    },
+    {
+     "word": " Bad.",
+     "start": 36.9,
+     "end": 37.5
+    },
+    {
+     "word": " That",
+     "start": 39.54,
+     "end": 39.68
+    },
+    {
+     "word": " means",
+     "start": 39.68,
+     "end": 39.8
+    },
+    {
+     "word": " you",
+     "start": 39.8,
+     "end": 39.94
+    },
+    {
+     "word": " all",
+     "start": 39.94,
+     "end": 40.08
+    },
+    {
+     "word": " watched",
+     "start": 40.08,
+     "end": 40.38
+    },
+    {
+     "word": " the",
+     "start": 40.38,
+     "end": 40.58
+    },
+    {
+     "word": " ending",
+     "start": 40.58,
+     "end": 40.8
+    },
+    {
+     "word": " of",
+     "start": 40.8,
+     "end": 40.96
+    },
+    {
+     "word": " the",
+     "start": 40.96,
+     "end": 41.04
+    },
+    {
+     "word": " game.",
+     "start": 41.04,
+     "end": 41.3
+    },
+    {
+     "word": " I",
+     "start": 42.0,
+     "end": 42.5
+    },
+    {
+     "word": " know",
+     "start": 42.5,
+     "end": 43.42
+    },
+    {
+     "word": " some",
+     "start": 43.42,
+     "end": 44.14
+    },
+    {
+     "word": " people",
+     "start": 44.14,
+     "end": 44.78
+    },
+    {
+     "word": " don't",
+     "start": 44.78,
+     "end": 44.9
+    },
+    {
+     "word": " care",
+     "start": 44.9,
+     "end": 45.06
+    },
+    {
+     "word": " about",
+     "start": 45.06,
+     "end": 45.22
+    },
+    {
+     "word": " spoilers.",
+     "start": 45.22,
+     "end": 45.44
+    },
+    {
+     "word": " Type",
+     "start": 46.38,
+     "end": 46.7
+    },
+    {
+     "word": " 1",
+     "start": 46.7,
+     "end": 46.9
+    },
+    {
+     "word": " if",
+     "start": 46.9,
+     "end": 47.04
+    },
+    {
+     "word": " you",
+     "start": 47.04,
+     "end": 47.12
+    },
+    {
+     "word": " care",
+     "start": 47.12,
+     "end": 47.26
+    },
+    {
+     "word": " about",
+     "start": 47.26,
+     "end": 47.42
+    },
+    {
+     "word": " spoilers",
+     "start": 47.42,
+     "end": 47.64
+    },
+    {
+     "word": " 2",
+     "start": 47.64,
+     "end": 48.0
+    },
+    {
+     "word": " if",
+     "start": 48.0,
+     "end": 48.16
+    },
+    {
+     "word": " you're",
+     "start": 48.16,
+     "end": 48.26
+    },
+    {
+     "word": " the",
+     "start": 48.26,
+     "end": 48.3
+    },
+    {
+     "word": " type",
+     "start": 48.3,
+     "end": 48.38
+    },
+    {
+     "word": " of",
+     "start": 48.38,
+     "end": 48.5
+    },
+    {
+     "word": " nigga",
+     "start": 48.5,
+     "end": 48.58
+    },
+    {
+     "word": " that",
+     "start": 48.58,
+     "end": 48.7
+    },
+    {
+     "word": " doesn't",
+     "start": 48.7,
+     "end": 48.88
+    },
+    {
+     "word": " care",
+     "start": 48.88,
+     "end": 49.36
+    },
+    {
+     "word": " about",
+     "start": 49.36,
+     "end": 49.52
+    },
+    {
+     "word": " spoilers.",
+     "start": 49.52,
+     "end": 49.88
+    },
+    {
+     "word": " I",
+     "start": 54.76,
+     "end": 55.08
+    },
+    {
+     "word": " don't",
+     "start": 55.08,
+     "end": 55.4
+    },
+    {
+     "word": " want",
+     "start": 55.4,
+     "end": 55.7
+    },
+    {
+     "word": " to",
+     "start": 57.49,
+     "end": 57.63
+    },
+    {
+     "word": " hear",
+     "start": 57.63,
+     "end": 57.73
+    },
+    {
+     "word": " spoilers.",
+     "start": 57.73,
+     "end": 58.01
+    }
+   ],
+   "metrics": {
+    "motion": 0.10513888888888889,
+    "motion_p90": 0.12977777777777777,
+    "static_share": 0.0,
+    "peak_db": 9.11258316040039,
+    "level_db": -30.95000457763672
    },
    "silence": []
   }
