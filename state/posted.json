@@ -3420,6 +3420,83 @@
     "level_db": -42.799339294433594
    },
    "silence": []
+  },
+  "chat-2937791413-532": {
+   "id": "chat-2937791413-532",
+   "url": "https://www.twitch.tv/videos/2937791413",
+   "section": [
+    23906.200826,
+    23962.200826
+   ],
+   "kind": "chat",
+   "views": 36,
+   "title": "",
+   "vod": "2937791413",
+   "vod_t": 23906.200826,
+   "group": "en",
+   "login": "penta",
+   "name": "PENTA",
+   "viewers": 3613,
+   "chat_score": 6.0,
+   "found_at": "2026-11-23T04:57:57.861668+00:00",
+   "spike_at": "2026-11-23T04:49:30.200826+00:00",
+   "chat": [
+    "7x om",
+    "4x LOL",
+    "4x LUL",
+    "2x purple drank chasePogging",
+    "whoops om",
+    "OMEGALUL",
+    "TRIED TO GET HIMSELF",
+    "Got me too",
+    "CLASSIC",
+    "rolled",
+    "AAAA A SCARY WHITE GUY",
+    "white man jumpscare"
+   ],
+   "source": "cut from the live stream at a chat spike: 36 chatters in 15 s, 6.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-23T04:58:24.047586+00:00",
+   "cam": [
+    1382,
+    62,
+    537,
+    378
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 62.0,
+   "words": [
+    {
+     "word": " Don't",
+     "start": 61.84,
+     "end": 61.88
+    },
+    {
+     "word": " trust",
+     "start": 61.88,
+     "end": 61.9
+    },
+    {
+     "word": " this",
+     "start": 61.9,
+     "end": 61.92
+    },
+    {
+     "word": " guy",
+     "start": 61.92,
+     "end": 61.94
+    }
+   ],
+   "metrics": {
+    "motion": 0.30733024691358024,
+    "motion_p90": 0.6209876543209877,
+    "static_share": 0.032388663967611336,
+    "peak_db": 8.656988143920898,
+    "level_db": -38.03596496582031
+   },
+   "silence": []
   }
  },
  "pool": {
