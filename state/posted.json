@@ -872,31 +872,6 @@
   }
  },
  "rejected": {
-  "ReliableDreamyWatercressThunBeast-6XS84nxNuHnBwiep": {
-   "at": "2026-11-20T10:23:08.161163+00:00",
-   "why": "picture is almost static (motion 0.01)",
-   "login": "recrent"
-  },
-  "BadBillowingWalrus4Head-HFzr_Izs0_ANBT6v": {
-   "at": "2026-11-20T10:23:08.486449+00:00",
-   "why": "editor: 1/10, Strip club private dance, topless nudity",
-   "login": "buster"
-  },
-  "WealthyAcceptableMooseKlappa-Ox-VK5uYtfxXgarX": {
-   "at": "2026-11-20T10:23:08.486980+00:00",
-   "why": "editor: 3/10, 14 s of walking across a parking lot, almost no sound, no readable event",
-   "login": "bratishkinoff"
-  },
-  "chat-2934736689-128": {
-   "at": "2026-11-20T10:23:08.487410+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "melharucos"
-  },
-  "chat-2934505601-588": {
-   "at": "2026-11-20T10:23:08.487859+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "yourragegaming"
-  },
   "PolishedFilthyPepperPogChamp-JyCp4Ghv6G_jqaEJ": {
    "at": "2026-11-20T10:47:06.534498+00:00",
    "why": "picture is almost static (motion 0.02)",
@@ -2707,6 +2682,77 @@
     "static_share": 0.0,
     "peak_db": 9.269794464111328,
     "level_db": -28.265789031982422
+   },
+   "silence": []
+  },
+  "IcyEmpathicGnatFailFish-Fs7u_zprS8AYBU4q": {
+   "id": "IcyEmpathicGnatFailFish-Fs7u_zprS8AYBU4q",
+   "url": "https://www.twitch.tv/bratishkinoff/clip/IcyEmpathicGnatFailFish-Fs7u_zprS8AYBU4q",
+   "section": null,
+   "kind": "clip",
+   "views": 306,
+   "title": "ЫВАЪЗХДВАЪХЗВАХЪЗХВАЗХЗВЫАХЗЪВАЫ",
+   "vod": "2937199120",
+   "vod_t": 10530,
+   "group": "ru",
+   "login": "bratishkinoff",
+   "name": "bratishkinOFF",
+   "source": "Twitch clip made by a viewer, 306 views, titled \"ЫВАЪЗХДВАЪХЗВАХЪЗХВАЗХЗВЫАХЗЪВАЫ\"",
+   "at": "2026-11-23T10:42:06.031053+00:00",
+   "cam": [
+    57,
+    655,
+    516,
+    363
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 11.9,
+   "words": [
+    {
+     "word": " Это",
+     "start": 0.37,
+     "end": 0.45
+    },
+    {
+     "word": " было",
+     "start": 0.45,
+     "end": 0.67
+    },
+    {
+     "word": " очень",
+     "start": 0.67,
+     "end": 0.83
+    },
+    {
+     "word": " дешево!",
+     "start": 0.83,
+     "end": 1.39
+    },
+    {
+     "word": " Ого!",
+     "start": 3.03,
+     "end": 3.83
+    },
+    {
+     "word": " Это",
+     "start": 5.07,
+     "end": 5.87
+    },
+    {
+     "word": " что?",
+     "start": 5.87,
+     "end": 6.13
+    }
+   ],
+   "metrics": {
+    "motion": 0.5393151087595532,
+    "motion_p90": 0.7866990005878894,
+    "static_share": 0.0,
+    "peak_db": 4.830892562866211,
+    "level_db": -35.34613800048828
    },
    "silence": []
   }
