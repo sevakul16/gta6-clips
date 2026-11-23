@@ -921,519 +921,23 @@
    "vod_t": 13246,
    "hook": "Давай потанцуем",
    "request_id": "aa874925105c48c99d6d858fe79427c2",
-   "cand": {
-    "id": "BravePlacidPancakeSquadGoals-TmuixTaaurV2x5ad",
-    "url": "https://www.twitch.tv/buster/clip/BravePlacidPancakeSquadGoals-TmuixTaaurV2x5ad",
-    "section": null,
-    "kind": "clip",
-    "views": 308,
-    "title": "Давай потанцуем",
-    "vod": "2936179890",
-    "vod_t": 13246,
-    "group": "ru",
-    "login": "buster",
-    "name": "buster",
-    "source": "Twitch clip made by a viewer, 308 views, titled \"Давай потанцуем\"",
-    "at": "2026-11-22T09:29:13.199321+00:00",
-    "cam": [
-     0,
-     0,
-     655,
-     364
-    ],
-    "size": [
-     2560,
-     1440
-    ],
-    "dur": 51.0,
-    "words": [
-     {
-      "word": " давай",
-      "start": 0.0,
-      "end": 0.6
-     },
-     {
-      "word": " давай",
-      "start": 0.6,
-      "end": 0.74
-     },
-     {
-      "word": " давай",
-      "start": 0.74,
-      "end": 0.88
-     },
-     {
-      "word": " потанцуем",
-      "start": 0.88,
-      "end": 1.58
-     },
-     {
-      "word": " маленький",
-      "start": 1.58,
-      "end": 2.0
-     },
-     {
-      "word": " давай",
-      "start": 2.0,
-      "end": 2.2
-     },
-     {
-      "word": " давай",
-      "start": 2.2,
-      "end": 2.44
-     },
-     {
-      "word": " ой",
-      "start": 2.44,
-      "end": 3.08
-     },
-     {
-      "word": " ой",
-      "start": 3.08,
-      "end": 3.22
-     },
-     {
-      "word": " ой",
-      "start": 3.22,
-      "end": 4.44
-     },
-     {
-      "word": " что",
-      "start": 4.44,
-      "end": 5.78
-     },
-     {
-      "word": " такое",
-      "start": 5.78,
-      "end": 6.02
-     },
-     {
-      "word": " ебать",
-      "start": 6.02,
-      "end": 6.4
-     },
-     {
-      "word": " ой",
-      "start": 6.4,
-      "end": 7.36
-     },
-     {
-      "word": " ты",
-      "start": 7.36,
-      "end": 7.46
-     },
-     {
-      "word": " бля",
-      "start": 7.46,
-      "end": 7.66
-     },
-     {
-      "word": " крысы",
-      "start": 7.66,
-      "end": 8.08
-     },
-     {
-      "word": " ебаные",
-      "start": 8.08,
-      "end": 8.6
-     },
-     {
-      "word": " бля",
-      "start": 8.6,
-      "end": 8.84
-     },
-     {
-      "word": " я",
-      "start": 12.76,
-      "end": 13.1
-     },
-     {
-      "word": " у",
-      "start": 13.1,
-      "end": 13.2
-     },
-     {
-      "word": " меня",
-      "start": 13.2,
-      "end": 13.28
-     },
-     {
-      "word": " ебала",
-      "start": 13.28,
-      "end": 13.72
-     },
-     {
-      "word": " набью",
-      "start": 13.72,
-      "end": 14.04
-     },
-     {
-      "word": " на",
-      "start": 15.42,
-      "end": 16.1
-     },
-     {
-      "word": " носу",
-      "start": 16.1,
-      "end": 16.64
-     },
-     {
-      "word": " ка",
-      "start": 16.64,
-      "end": 16.76
-     },
-     {
-      "word": " бля",
-      "start": 16.76,
-      "end": 16.92
-     },
-     {
-      "word": " ой",
-      "start": 16.92,
-      "end": 17.32
-     },
-     {
-      "word": " ебать",
-      "start": 17.32,
-      "end": 17.58
-     },
-     {
-      "word": " бля",
-      "start": 17.58,
-      "end": 17.82
-     },
-     {
-      "word": " давай",
-      "start": 17.82,
-      "end": 18.7
-     },
-     {
-      "word": " нахуй",
-      "start": 18.7,
-      "end": 19.16
-     },
-     {
-      "word": " давай",
-      "start": 19.16,
-      "end": 19.44
-     },
-     {
-      "word": " этого",
-      "start": 19.44,
-      "end": 19.7
-     },
-     {
-      "word": " кентатура",
-      "start": 19.7,
-      "end": 20.36
-     },
-     {
-      "word": " я",
-      "start": 20.36,
-      "end": 20.48
-     },
-     {
-      "word": " вам",
-      "start": 20.48,
-      "end": 20.52
-     },
-     {
-      "word": " всем",
-      "start": 20.52,
-      "end": 20.72
-     },
-     {
-      "word": " ебала",
-      "start": 20.72,
-      "end": 21.2
-     },
-     {
-      "word": " начищу",
-      "start": 21.2,
-      "end": 21.78
-     },
-     {
-      "word": " бля",
-      "start": 21.78,
-      "end": 22.26
-     },
-     {
-      "word": " нахуй",
-      "start": 23.34,
-      "end": 24.02
-     },
-     {
-      "word": " дёте",
-      "start": 24.02,
-      "end": 24.42
-     },
-     {
-      "word": " бля",
-      "start": 24.42,
-      "end": 24.72
-     },
-     {
-      "word": " щеглы",
-      "start": 24.72,
-      "end": 25.62
-     },
-     {
-      "word": " ебаные",
-      "start": 25.62,
-      "end": 26.46
-     },
-     {
-      "word": " бля",
-      "start": 26.46,
-      "end": 27.04
-     },
-     {
-      "word": " вы",
-      "start": 27.62,
-      "end": 27.8
-     },
-     {
-      "word": " у",
-      "start": 27.8,
-      "end": 27.9
-     },
-     {
-      "word": " меня",
-      "start": 27.9,
-      "end": 28.0
-     },
-     {
-      "word": " все",
-      "start": 28.0,
-      "end": 28.24
-     },
-     {
-      "word": " кучкой",
-      "start": 28.24,
-      "end": 28.6
-     },
-     {
-      "word": " ляжете",
-      "start": 28.6,
-      "end": 29.0
-     },
-     {
-      "word": " бля",
-      "start": 29.0,
-      "end": 29.28
-     },
-     {
-      "word": " за",
-      "start": 29.28,
-      "end": 29.48
-     },
-     {
-      "word": " лупы",
-      "start": 29.48,
-      "end": 29.8
-     },
-     {
-      "word": " ебаные",
-      "start": 29.8,
-      "end": 30.42
-     },
-     {
-      "word": " давай",
-      "start": 30.42,
-      "end": 31.52
-     },
-     {
-      "word": " нахуй",
-      "start": 31.52,
-      "end": 32.04
-     },
-     {
-      "word": " корепыжи",
-      "start": 32.04,
-      "end": 33.64
-     },
-     {
-      "word": " бля",
-      "start": 33.64,
-      "end": 33.86
-     },
-     {
-      "word": " давай",
-      "start": 34.18,
-      "end": 34.62
-     },
-     {
-      "word": " давай",
-      "start": 34.62,
-      "end": 34.98
-     },
-     {
-      "word": " что",
-      "start": 34.98,
-      "end": 35.34
-     },
-     {
-      "word": " ты",
-      "start": 35.34,
-      "end": 35.48
-     },
-     {
-      "word": " бля",
-      "start": 35.48,
-      "end": 35.78
-     },
-     {
-      "word": " капаточ",
-      "start": 36.4,
-      "end": 36.84
-     },
-     {
-      "word": " нахуй",
-      "start": 36.84,
-      "end": 37.34
-     },
-     {
-      "word": " давай",
-      "start": 37.34,
-      "end": 37.74
-     },
-     {
-      "word": " кто",
-      "start": 37.74,
-      "end": 37.94
-     },
-     {
-      "word": " следующий",
-      "start": 37.94,
-      "end": 38.48
-     },
-     {
-      "word": " бля",
-      "start": 38.48,
-      "end": 38.68
-     },
-     {
-      "word": " давай",
-      "start": 38.68,
-      "end": 39.3
-     },
-     {
-      "word": " без",
-      "start": 39.3,
-      "end": 40.26
-     },
-     {
-      "word": " проблем",
-      "start": 40.26,
-      "end": 40.6
-     },
-     {
-      "word": " держи",
-      "start": 40.6,
-      "end": 41.06
-     },
-     {
-      "word": " в",
-      "start": 41.06,
-      "end": 41.1
-     },
-     {
-      "word": " купол",
-      "start": 41.1,
-      "end": 41.5
-     },
-     {
-      "word": " нахуй",
-      "start": 41.5,
-      "end": 41.98
-     },
-     {
-      "word": " я",
-      "start": 41.98,
-      "end": 42.96
-     },
-     {
-      "word": " не",
-      "start": 45.17,
-      "end": 45.85
-     },
-     {
-      "word": " вижу",
-      "start": 45.85,
-      "end": 46.03
-     },
-     {
-      "word": " проблемы",
-      "start": 46.03,
-      "end": 46.35
-     },
-     {
-      "word": " ебать",
-      "start": 46.35,
-      "end": 47.01
-     },
-     {
-      "word": " давай",
-      "start": 47.01,
-      "end": 48.03
-     },
-     {
-      "word": " давай",
-      "start": 48.03,
-      "end": 48.39
-     },
-     {
-      "word": " нахуй",
-      "start": 48.39,
-      "end": 48.81
-     },
-     {
-      "word": " давай",
-      "start": 48.81,
-      "end": 49.09
-     },
-     {
-      "word": " камень",
-      "start": 49.09,
-      "end": 49.57
-     },
-     {
-      "word": " ебаные",
-      "start": 49.57,
-      "end": 50.09
-     },
-     {
-      "word": " бля",
-      "start": 50.09,
-      "end": 50.33
-     }
-    ],
-    "metrics": {
-     "motion": 0.23541651185256743,
-     "motion_p90": 0.422947165044215,
-     "static_share": 0.0,
-     "peak_db": 3.6281509399414062,
-     "level_db": -16.08187484741211
+   "result": [
+    {
+     "platform": "youtube",
+     "success": true,
+     "post_url": "https://www.youtube.com/watch?v=SuclmVotRIQ",
+     "thumbnail_set": false,
+     "thumbnail_pending": true
     },
-    "silence": [],
-    "caption": "Один против всей охраны клуба, и он ещё успевает шутить 😅",
-    "hook": "Давай потанцуем",
-    "cover_at": 18.7,
-    "no_subs": true,
-    "score": 7,
-    "keep": [
-     0.0,
-     41.0
-    ]
-   }
+    {
+     "platform": "tiktok",
+     "success": true,
+     "post_url": "https://www.tiktok.com/@gta6.viral42/video/7711433107068423456"
+    }
+   ]
   }
  },
  "rejected": {
-  "LovelyImportantAlfalfaLitty-TvWeJzP9zG95rT47": {
-   "at": "2026-11-20T18:49:46.892038+00:00",
-   "why": "streamer fills the screen, no gameplay",
-   "login": "kaicenat"
-  },
   "HelpfulInquisitiveRatNinjaGrumpy-IB9QIT9aKlOR2spw": {
    "at": "2026-11-20T19:33:29.025624+00:00",
    "why": "editor: 3/10, Десять секунд перестрелки у мотеля и реплика чату; отдельного момента нет",
@@ -3533,6 +3037,423 @@
     "static_share": 0.0,
     "peak_db": 5.079074859619141,
     "level_db": -16.548254013061523
+   },
+   "silence": []
+  },
+  "MoistFamousSquirrelTebowing-nCZyFYRP9AJbfWU_": {
+   "id": "MoistFamousSquirrelTebowing-nCZyFYRP9AJbfWU_",
+   "vod": "2935172718",
+   "vod_t": 93231,
+   "group": "ru",
+   "views": 1439,
+   "title": "ггсел",
+   "url": "https://www.twitch.tv/leva2k/clip/MoistFamousSquirrelTebowing-nCZyFYRP9AJbfWU_",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "leva2k",
+   "name": "leva2k",
+   "source": "Twitch clip made by a viewer, 1439 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"ггсел\"",
+   "at": "2026-11-23T18:51:58.122948+00:00",
+   "cam": [
+    2266,
+    561,
+    294,
+    206
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 39.6,
+   "words": [
+    {
+     "word": " А,",
+     "start": 0.0,
+     "end": 0.42
+    },
+    {
+     "word": " кстати,",
+     "start": 1.24,
+     "end": 1.6
+    },
+    {
+     "word": " я",
+     "start": 1.88,
+     "end": 1.96
+    },
+    {
+     "word": " вам",
+     "start": 1.96,
+     "end": 2.06
+    },
+    {
+     "word": " хотел",
+     "start": 2.06,
+     "end": 2.26
+    },
+    {
+     "word": " сказать,",
+     "start": 2.26,
+     "end": 2.64
+    },
+    {
+     "word": " кто",
+     "start": 3.12,
+     "end": 4.22
+    },
+    {
+     "word": " смотрит",
+     "start": 4.22,
+     "end": 4.68
+    },
+    {
+     "word": " стрим",
+     "start": 4.68,
+     "end": 5.2
+    },
+    {
+     "word": " и",
+     "start": 5.2,
+     "end": 5.72
+    },
+    {
+     "word": " вам",
+     "start": 5.72,
+     "end": 6.42
+    },
+    {
+     "word": " понравилось",
+     "start": 6.42,
+     "end": 6.84
+    },
+    {
+     "word": " играю",
+     "start": 6.84,
+     "end": 7.34
+    },
+    {
+     "word": " и",
+     "start": 7.34,
+     "end": 7.38
+    },
+    {
+     "word": " подумали,",
+     "start": 7.38,
+     "end": 7.8
+    },
+    {
+     "word": " где",
+     "start": 7.86,
+     "end": 7.98
+    },
+    {
+     "word": " же",
+     "start": 7.98,
+     "end": 8.1
+    },
+    {
+     "word": " купить",
+     "start": 8.1,
+     "end": 8.36
+    },
+    {
+     "word": " GTA",
+     "start": 8.36,
+     "end": 8.64
+    },
+    {
+     "word": " 6,",
+     "start": 8.64,
+     "end": 9.18
+    },
+    {
+     "word": " то",
+     "start": 9.76,
+     "end": 9.84
+    },
+    {
+     "word": " GTA",
+     "start": 9.84,
+     "end": 10.02
+    },
+    {
+     "word": " 6",
+     "start": 10.02,
+     "end": 10.36
+    },
+    {
+     "word": " вы",
+     "start": 10.36,
+     "end": 10.48
+    },
+    {
+     "word": " можете",
+     "start": 10.48,
+     "end": 10.74
+    },
+    {
+     "word": " купить",
+     "start": 10.74,
+     "end": 11.76
+    },
+    {
+     "word": " на",
+     "start": 11.76,
+     "end": 11.94
+    },
+    {
+     "word": " GGSL,",
+     "start": 11.94,
+     "end": 12.68
+    },
+    {
+     "word": " то",
+     "start": 13.02,
+     "end": 13.08
+    },
+    {
+     "word": " есть",
+     "start": 13.08,
+     "end": 13.18
+    },
+    {
+     "word": " по",
+     "start": 13.18,
+     "end": 13.34
+    },
+    {
+     "word": " ссылке",
+     "start": 13.34,
+     "end": 13.58
+    },
+    {
+     "word": " в",
+     "start": 13.58,
+     "end": 13.68
+    },
+    {
+     "word": " описании,",
+     "start": 13.68,
+     "end": 13.98
+    },
+    {
+     "word": " вы",
+     "start": 14.6,
+     "end": 14.92
+    },
+    {
+     "word": " можете",
+     "start": 14.92,
+     "end": 15.18
+    },
+    {
+     "word": " перейти",
+     "start": 15.18,
+     "end": 15.58
+    },
+    {
+     "word": " на",
+     "start": 15.58,
+     "end": 15.8
+    },
+    {
+     "word": " GGSL",
+     "start": 15.8,
+     "end": 16.88
+    },
+    {
+     "word": " и",
+     "start": 16.88,
+     "end": 17.34
+    },
+    {
+     "word": " там",
+     "start": 17.34,
+     "end": 17.48
+    },
+    {
+     "word": " приобрести",
+     "start": 17.48,
+     "end": 17.94
+    },
+    {
+     "word": " свою",
+     "start": 17.94,
+     "end": 18.14
+    },
+    {
+     "word": " GTA",
+     "start": 18.14,
+     "end": 18.5
+    },
+    {
+     "word": " 6.",
+     "start": 18.5,
+     "end": 18.98
+    },
+    {
+     "word": " Также",
+     "start": 19.16,
+     "end": 19.5
+    },
+    {
+     "word": " подписка",
+     "start": 19.5,
+     "end": 20.06
+    },
+    {
+     "word": " начат",
+     "start": 20.06,
+     "end": 20.32
+    },
+    {
+     "word": " GPD,",
+     "start": 20.32,
+     "end": 20.74
+    },
+    {
+     "word": " или",
+     "start": 21.06,
+     "end": 21.2
+    },
+    {
+     "word": " на",
+     "start": 21.2,
+     "end": 21.38
+    },
+    {
+     "word": " Spotify,",
+     "start": 21.38,
+     "end": 21.72
+    },
+    {
+     "word": " или",
+     "start": 22.36,
+     "end": 22.5
+    },
+    {
+     "word": " на",
+     "start": 22.5,
+     "end": 22.68
+    },
+    {
+     "word": " другую",
+     "start": 22.68,
+     "end": 23.06
+    },
+    {
+     "word": " нейросесть,",
+     "start": 23.06,
+     "end": 23.66
+    },
+    {
+     "word": " да",
+     "start": 24.0,
+     "end": 24.08
+    },
+    {
+     "word": " всё",
+     "start": 24.08,
+     "end": 24.32
+    },
+    {
+     "word": " что",
+     "start": 24.32,
+     "end": 24.56
+    },
+    {
+     "word": " угодно,",
+     "start": 24.56,
+     "end": 24.86
+    },
+    {
+     "word": " любые",
+     "start": 24.98,
+     "end": 25.3
+    },
+    {
+     "word": " цифровые",
+     "start": 25.3,
+     "end": 25.8
+    },
+    {
+     "word": " товары,",
+     "start": 25.8,
+     "end": 26.24
+    },
+    {
+     "word": " на",
+     "start": 26.4,
+     "end": 26.54
+    },
+    {
+     "word": " GGSL.",
+     "start": 26.54,
+     "end": 27.48
+    },
+    {
+     "word": " А",
+     "start": 27.48,
+     "end": 27.66
+    },
+    {
+     "word": " по",
+     "start": 27.66,
+     "end": 27.78
+    },
+    {
+     "word": "-моему,",
+     "start": 27.78,
+     "end": 28.04
+    },
+    {
+     "word": " промоходу",
+     "start": 28.14,
+     "end": 28.58
+    },
+    {
+     "word": " «Лёва",
+     "start": 28.58,
+     "end": 28.82
+    },
+    {
+     "word": " 2К»",
+     "start": 28.82,
+     "end": 30.26
+    },
+    {
+     "word": " скидка",
+     "start": 30.26,
+     "end": 30.82
+    },
+    {
+     "word": " без",
+     "start": 30.82,
+     "end": 31.88
+    },
+    {
+     "word": " комиссии",
+     "start": 31.88,
+     "end": 32.46
+    },
+    {
+     "word": " пополнения",
+     "start": 32.46,
+     "end": 33.04
+    },
+    {
+     "word": " стима.",
+     "start": 33.04,
+     "end": 33.46
+    }
+   ],
+   "metrics": {
+    "motion": 0.20137073411997455,
+    "motion_p90": 0.5671447749593725,
+    "static_share": 0.006369426751592357,
+    "peak_db": 7.456693649291992,
+    "level_db": -29.574283599853516
    },
    "silence": []
   }
