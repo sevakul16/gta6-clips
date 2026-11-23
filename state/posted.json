@@ -2506,532 +2506,332 @@
    "kind": "clip",
    "vod": "2937407818",
    "vod_t": 6738
+  },
+  "CaringBrightCattleOSfrog-1N2UHuVyiYxcbWDR": {
+   "at": "2026-11-23T21:23:22.153910+00:00",
+   "why": "editor: 2/10, Ночная поездка на катере к мосту по заданию, стример обсуждает с гостем посторонние новости; тёмная картинка, в игре ничего не происходит",
+   "login": "steel",
+   "kind": "clip",
+   "vod": "2937407818",
+   "vod_t": 22270
+  },
+  "GrossDignifiedTermiteNerfRedBlaster-ce6t1HWhUDLZAIjx": {
+   "at": "2026-11-23T21:23:22.154230+00:00",
+   "why": "editor: 4/10, Героиня минуту подряд пьёт газировку и ест чизбургеры в магазине, пока игра не сообщает, что вес увеличился. Находка любопытная, но ролик однообразный, уведомление остаётся за краем вертикального кадра, реакция стримера тихая и вялая",
+   "login": "rostislav_999",
+   "kind": "clip",
+   "vod": "2937323377",
+   "vod_t": 5186
+  },
+  "ImpossibleFlaccidFalconRitzMitz-ZTmin-k0VKcsfOi-": {
+   "at": "2026-11-23T21:23:22.154924+00:00",
+   "why": "editor: 1/10, Сюжетная постельная сцена со стонами, стример кричит «осуждаю». Откровенная сцена, площадки такое ограничивают",
+   "login": "leva2k",
+   "kind": "clip",
+   "vod": "2935172718",
+   "vod_t": 100519
   }
  },
  "pending": {
-  "CaringBrightCattleOSfrog-1N2UHuVyiYxcbWDR": {
-   "id": "CaringBrightCattleOSfrog-1N2UHuVyiYxcbWDR",
-   "vod": "2937407818",
-   "vod_t": 22270,
-   "group": "ru",
-   "views": 1371,
-   "title": "слей кинг",
-   "url": "https://www.twitch.tv/steel/clip/CaringBrightCattleOSfrog-1N2UHuVyiYxcbWDR",
+  "EnticingFrailTortoiseCharlieBitMe-gljPQtpIAF3An235": {
+   "id": "EnticingFrailTortoiseCharlieBitMe-gljPQtpIAF3An235",
+   "vod": "2936392772",
+   "vod_t": 11673,
+   "group": "en",
+   "views": 26001,
+   "title": "Lud after he got his higlights D:",
+   "url": "https://www.twitch.tv/ludwig/clip/EnticingFrailTortoiseCharlieBitMe-gljPQtpIAF3An235",
    "section": null,
    "kind": "clip",
    "hot": true,
-   "login": "steel",
-   "name": "steel",
-   "source": "Twitch clip made by a viewer, 1371 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"слей кинг\"",
-   "at": "2026-11-23T20:18:49.325875+00:00",
+   "login": "ludwig",
+   "name": "Ludwig",
+   "source": "Twitch clip made by a viewer, 26001 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"Lud after he got his higlights D:\"",
+   "at": "2026-11-23T21:23:18.154573+00:00",
    "cam": [
-    328,
-    336,
-    336,
-    236
-   ],
-   "size": [
-    2560,
-    1440
-   ],
-   "dur": 27.4,
-   "words": [
-    {
-     "word": " Ре,",
-     "start": 2.7,
-     "end": 3.42
-    },
-    {
-     "word": " что",
-     "start": 3.54,
-     "end": 3.7
-    },
-    {
-     "word": " банэр",
-     "start": 3.7,
-     "end": 4.08
-    },
-    {
-     "word": " Абдулэй",
-     "start": 4.08,
-     "end": 4.44
-    },
-    {
-     "word": " выиграл",
-     "start": 4.44,
-     "end": 4.9
-    },
-    {
-     "word": " слей",
-     "start": 4.9,
-     "end": 5.92
-    },
-    {
-     "word": "-кинг?",
-     "start": 5.92,
-     "end": 6.28
-    },
-    {
-     "word": " Презору,",
-     "start": 8.52,
-     "end": 9.14
-    },
-    {
-     "word": " почему",
-     "start": 9.14,
-     "end": 9.32
-    },
-    {
-     "word": " ты",
-     "start": 9.32,
-     "end": 9.5
-    },
-    {
-     "word": " выходишь?",
-     "start": 9.5,
-     "end": 9.94
-    },
-    {
-     "word": " Что",
-     "start": 10.34,
-     "end": 10.5
-    },
-    {
-     "word": " ты",
-     "start": 10.5,
-     "end": 10.62
-    },
-    {
-     "word": " здесь",
-     "start": 10.62,
-     "end": 10.8
-    },
-    {
-     "word": " делаешь,",
-     "start": 10.8,
-     "end": 11.44
-    },
-    {
-     "word": " что",
-     "start": 11.56,
-     "end": 11.56
-    },
-    {
-     "word": " ты",
-     "start": 11.56,
-     "end": 11.66
-    },
-    {
-     "word": " уходишь?",
-     "start": 11.66,
-     "end": 12.02
-    }
-   ],
-   "metrics": {
-    "motion": 0.13020611229566453,
-    "motion_p90": 0.22902629708599864,
-    "static_share": 0.0,
-    "peak_db": 13.23736572265625,
-    "level_db": -37.90265655517578
-   },
-   "silence": []
-  },
-  "GrossDignifiedTermiteNerfRedBlaster-ce6t1HWhUDLZAIjx": {
-   "id": "GrossDignifiedTermiteNerfRedBlaster-ce6t1HWhUDLZAIjx",
-   "vod": "2937323377",
-   "vod_t": 5186,
-   "group": "ru",
-   "views": 1380,
-   "title": "shrkkst",
-   "url": "https://www.twitch.tv/rostislav_999/clip/GrossDignifiedTermiteNerfRedBlaster-ce6t1HWhUDLZAIjx",
-   "section": null,
-   "kind": "clip",
-   "hot": true,
-   "login": "rostislav_999",
-   "name": "rostislav_999",
-   "source": "Twitch clip made by a viewer, 1380 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"shrkkst\"",
-   "at": "2026-11-23T20:40:22.541780+00:00",
-   "cam": [
-    14,
-    494,
-    222,
-    156
+    0,
+    429,
+    361,
+    254
    ],
    "size": [
     1920,
     1080
    ],
-   "dur": 60.0,
+   "dur": 40.3,
    "words": [
     {
-     "word": " Я",
+     "word": " do",
      "start": 0.0,
-     "end": 0.08
+     "end": 0.12
     },
     {
-     "word": " на",
-     "start": 0.08,
-     "end": 0.22
+     "word": " it",
+     "start": 0.12,
+     "end": 0.24
     },
     {
-     "word": " тосце",
-     "start": 0.22,
-     "end": 0.66
+     "word": " I",
+     "start": 0.24,
+     "end": 0.34
     },
     {
-     "word": " или",
-     "start": 0.66,
-     "end": 0.84
+     "word": " love",
+     "start": 0.34,
+     "end": 0.5
     },
     {
-     "word": " нет?",
-     "start": 0.84,
-     "end": 1.12
+     "word": " it",
+     "start": 0.5,
+     "end": 0.62
     },
     {
-     "word": " Потостел?",
-     "start": 1.26,
-     "end": 1.7
+     "word": " thank",
+     "start": 0.62,
+     "end": 1.18
     },
     {
-     "word": " Нет",
-     "start": 2.52,
-     "end": 2.78
+     "word": " you",
+     "start": 1.18,
+     "end": 1.44
     },
     {
-     "word": " Ещё",
-     "start": 6.25,
-     "end": 6.59
+     "word": " thank",
+     "start": 1.44,
+     "end": 2.0
     },
     {
-     "word": " вот,",
-     "start": 6.59,
-     "end": 6.79
+     "word": " you",
+     "start": 2.0,
+     "end": 2.38
     },
     {
-     "word": " ещё",
-     "start": 6.93,
-     "end": 7.23
+     "word": " Jason",
+     "start": 2.38,
+     "end": 4.4
     },
     {
-     "word": " ешь,",
-     "start": 7.23,
-     "end": 7.69
+     "word": " where",
+     "start": 4.4,
+     "end": 4.58
     },
     {
-     "word": " ещё",
-     "start": 7.73,
-     "end": 8.09
+     "word": " are",
+     "start": 4.58,
+     "end": 4.64
     },
     {
-     "word": " Мистер",
-     "start": 9.29,
-     "end": 9.63
+     "word": " you",
+     "start": 4.64,
+     "end": 4.66
     },
     {
-     "word": " Энигма,",
-     "start": 9.63,
-     "end": 10.09
+     "word": " going",
+     "start": 4.66,
+     "end": 4.86
     },
     {
-     "word": " газировка",
-     "start": 10.29,
-     "end": 10.97
+     "word": " get",
+     "start": 4.86,
+     "end": 5.1
     },
     {
-     "word": " мистер",
-     "start": 10.97,
-     "end": 11.31
+     "word": " in",
+     "start": 5.1,
+     "end": 5.18
     },
     {
-     "word": " Энигма",
-     "start": 11.31,
-     "end": 12.11
+     "word": " the",
+     "start": 5.18,
+     "end": 5.3
     },
     {
-     "word": " Ещё",
-     "start": 15.53,
-     "end": 16.37
+     "word": " damn",
+     "start": 5.3,
+     "end": 5.48
     },
     {
-     "word": " вот,",
-     "start": 16.37,
-     "end": 16.75
+     "word": " chair",
+     "start": 5.48,
+     "end": 5.72
     },
     {
-     "word": " давай,",
-     "start": 22.7,
-     "end": 23.46
+     "word": " stop",
+     "start": 5.72,
+     "end": 6.6
     },
     {
-     "word": " давай",
-     "start": 23.58,
-     "end": 24.48
+     "word": " stop",
+     "start": 14.28,
+     "end": 15.52
     },
     {
-     "word": " Всё,",
-     "start": 28.76,
-     "end": 29.24
+     "word": " stop",
+     "start": 15.52,
+     "end": 16.06
     },
     {
-     "word": " тебе",
-     "start": 29.34,
-     "end": 29.44
+     "word": " stop",
+     "start": 16.06,
+     "end": 16.48
     },
     {
-     "word": " сейчас",
-     "start": 29.44,
-     "end": 29.72
+     "word": " Jason",
+     "start": 16.48,
+     "end": 17.14
     },
     {
-     "word": " вот",
-     "start": 29.72,
-     "end": 29.86
+     "word": " stop",
+     "start": 17.14,
+     "end": 18.06
     },
     {
-     "word": " повяжут",
-     "start": 29.86,
-     "end": 30.7
+     "word": " god",
+     "start": 18.06,
+     "end": 20.22
     },
     {
-     "word": " Ваш",
-     "start": 39.44,
-     "end": 40.3
+     "word": " damn",
+     "start": 20.22,
+     "end": 20.76
     },
     {
-     "word": " вес",
-     "start": 40.3,
-     "end": 40.46
+     "word": " it",
+     "start": 20.76,
+     "end": 20.92
     },
     {
-     "word": " увеличился,",
-     "start": 40.46,
-     "end": 41.02
+     "word": " it's",
+     "start": 20.92,
+     "end": 21.14
     },
     {
-     "word": " всё?",
-     "start": 41.12,
-     "end": 41.36
+     "word": " so",
+     "start": 21.14,
+     "end": 21.36
     },
     {
-     "word": " Сколько",
-     "start": 46.0,
-     "end": 46.48
+     "word": " hot",
+     "start": 21.36,
+     "end": 21.76
     },
     {
-     "word": " она",
-     "start": 46.48,
-     "end": 46.8
+     "word": " that",
+     "start": 21.76,
+     "end": 21.94
     },
     {
-     "word": " у",
-     "start": 46.8,
-     "end": 46.9
+     "word": " he",
+     "start": 21.94,
+     "end": 22.0
     },
     {
-     "word": " вас",
-     "start": 46.9,
-     "end": 47.02
+     "word": " backed",
+     "start": 22.0,
+     "end": 22.2
     },
     {
-     "word": " может",
-     "start": 47.02,
-     "end": 47.36
+     "word": " me",
+     "start": 22.2,
+     "end": 22.42
     },
     {
-     "word": " давать?",
-     "start": 47.36,
-     "end": 47.94
+     "word": " up",
+     "start": 22.42,
+     "end": 22.58
     },
     {
-     "word": " А",
-     "start": 49.3,
-     "end": 49.98
+     "word": " but",
+     "start": 22.58,
+     "end": 22.78
     },
     {
-     "word": " как",
-     "start": 49.98,
-     "end": 50.2
+     "word": " fuck",
+     "start": 22.78,
+     "end": 23.3
     },
     {
-     "word": " ты",
-     "start": 50.2,
-     "end": 50.36
+     "word": " man",
+     "start": 23.3,
+     "end": 23.84
     },
     {
-     "word": " догадался,",
-     "start": 50.36,
-     "end": 51.0
+     "word": " Jesus",
+     "start": 23.84,
+     "end": 25.88
     },
     {
-     "word": " ни",
-     "start": 51.36,
-     "end": 51.52
+     "word": " oh",
+     "start": 25.88,
+     "end": 27.36
     },
     {
-     "word": " ночью",
-     "start": 51.52,
-     "end": 51.84
+     "word": " my",
+     "start": 32.1,
+     "end": 32.32
     },
     {
-     "word": " думаешь",
-     "start": 51.84,
-     "end": 52.36
+     "word": " god",
+     "start": 32.32,
+     "end": 32.78
     },
     {
-     "word": " за",
-     "start": 52.36,
-     "end": 52.68
+     "word": " oh",
+     "start": 32.78,
+     "end": 33.46
     },
     {
-     "word": " такой",
-     "start": 52.68,
-     "end": 53.0
+     "word": " my",
+     "start": 33.46,
+     "end": 33.68
     },
     {
-     "word": " белдочок?",
-     "start": 53.0,
-     "end": 53.66
+     "word": " god",
+     "start": 33.68,
+     "end": 34.12
     },
     {
-     "word": " Я",
-     "start": 57.68,
-     "end": 58.92
+     "word": " I'm",
+     "start": 34.12,
+     "end": 34.36
     },
     {
-     "word": " просто",
-     "start": 58.92,
-     "end": 59.12
+     "word": " oh",
+     "start": 34.36,
+     "end": 35.8
     },
     {
-     "word": " казала",
-     "start": 59.12,
-     "end": 59.74
+     "word": " my",
+     "start": 38.1,
+     "end": 38.36
+    },
+    {
+     "word": " god",
+     "start": 38.36,
+     "end": 38.72
+    },
+    {
+     "word": " we're",
+     "start": 38.72,
+     "end": 39.16
+    },
+    {
+     "word": " such",
+     "start": 39.16,
+     "end": 39.32
+    },
+    {
+     "word": " pricks",
+     "start": 39.32,
+     "end": 39.96
     }
    ],
    "metrics": {
-    "motion": 0.06360549030706099,
-    "motion_p90": 0.6765529927833592,
-    "static_share": 0.07112970711297072,
-    "peak_db": 20.67254066467285,
-    "level_db": -45.479278564453125
-   },
-   "silence": []
-  },
-  "ImpossibleFlaccidFalconRitzMitz-ZTmin-k0VKcsfOi-": {
-   "id": "ImpossibleFlaccidFalconRitzMitz-ZTmin-k0VKcsfOi-",
-   "vod": "2935172718",
-   "vod_t": 100519,
-   "group": "ru",
-   "views": 1288,
-   "title": "Осуждаю!!!! Лееев!!!!!",
-   "url": "https://www.twitch.tv/leva2k/clip/ImpossibleFlaccidFalconRitzMitz-ZTmin-k0VKcsfOi-",
-   "section": null,
-   "kind": "clip",
-   "hot": true,
-   "login": "leva2k",
-   "name": "leva2k",
-   "source": "Twitch clip made by a viewer, 1288 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"Осуждаю!!!! Лееев!!!!!\"",
-   "at": "2026-11-23T21:01:44.354668+00:00",
-   "cam": [
-    2232,
-    499,
-    222,
-    156
-   ],
-   "size": [
-    2560,
-    1440
-   ],
-   "dur": 24.5,
-   "words": [
-    {
-     "word": " ОСУЖДАЮ!",
-     "start": 2.16,
-     "end": 3.26
-    },
-    {
-     "word": " ЕБАТЬ,",
-     "start": 7.11,
-     "end": 7.71
-    },
-    {
-     "word": " БЛЯТЬ,",
-     "start": 7.81,
-     "end": 8.11
-    },
-    {
-     "word": " ОСУЖДАЮ,",
-     "start": 8.15,
-     "end": 8.79
-    },
-    {
-     "word": " Я",
-     "start": 8.85,
-     "end": 8.93
-    },
-    {
-     "word": " НЕ",
-     "start": 8.93,
-     "end": 9.09
-    },
-    {
-     "word": " ЗНАЮ",
-     "start": 9.09,
-     "end": 9.39
-    },
-    {
-     "word": " ТОК!",
-     "start": 9.39,
-     "end": 9.95
-    },
-    {
-     "word": " ЕБАТЬ,",
-     "start": 10.07,
-     "end": 10.67
-    },
-    {
-     "word": " ЛЕВ!",
-     "start": 10.87,
-     "end": 11.21
-    },
-    {
-     "word": " ПЕСДЕЦ,",
-     "start": 12.99,
-     "end": 13.59
-    },
-    {
-     "word": " ЭТО",
-     "start": 13.67,
-     "end": 13.85
-    },
-    {
-     "word": " ЧО",
-     "start": 13.85,
-     "end": 14.11
-    },
-    {
-     "word": " ОСУЖДАЮ,",
-     "start": 14.11,
-     "end": 14.83
-    },
-    {
-     "word": " БЛЯТЬ!",
-     "start": 14.95,
-     "end": 15.51
-    },
-    {
-     "word": " ОСУЖДАЮ!",
-     "start": 18.35,
-     "end": 18.95
-    }
-   ],
-   "metrics": {
-    "motion": 0.24343859649122807,
-    "motion_p90": 0.4740491228070176,
-    "static_share": 0.0,
-    "peak_db": 31.517162322998047,
-    "level_db": -36.34536361694336
+    "motion": 0.1725105700539437,
+    "motion_p90": 0.6382271468144044,
+    "static_share": 0.3125,
+    "peak_db": 12.893630981445312,
+    "level_db": -30.65545654296875
    },
    "silence": []
   }
@@ -5898,5 +5698,5 @@
    "seconds": 53.1
   }
  },
- "checked_n": 2
+ "checked_n": 3
 }
