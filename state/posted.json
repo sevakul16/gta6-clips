@@ -905,11 +905,6 @@
   }
  },
  "rejected": {
-  "chat-2934876295-209": {
-   "at": "2026-11-20T15:41:13.184909+00:00",
-   "why": "picture is almost static (motion 0.02)",
-   "login": "nickmercs"
-  },
   "CourteousBlindingCougarHassaanChop-lQKcqkOXcEBM090B": {
    "at": "2026-11-20T16:24:33.589862+00:00",
    "why": "editor: 2/10, Танцует и раздевается на сцене мужского стрип-клуба: стрип-клуб, не публикуем",
@@ -2574,6 +2569,14 @@
    "kind": "clip",
    "vod": "2937117399",
    "vod_t": 20991
+  },
+  "TriangularTastyEmuPJSalt-SuvUlsZIkJ98JyYK": {
+   "at": "2026-11-23T15:45:30.260994+00:00",
+   "why": "streamer fills the screen, no gameplay",
+   "login": "steel",
+   "kind": "clip",
+   "vod": "2937407818",
+   "vod_t": 1707
   }
  },
  "pending": {
