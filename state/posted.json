@@ -1245,36 +1245,6 @@
   }
  },
  "rejected": {
-  "chat-2934772009-278": {
-   "at": "2026-11-20T13:23:32.454682+00:00",
-   "why": "picture is almost static (motion 0.01)",
-   "login": "steel"
-  },
-  "NimbleRoundShrimpDBstyle-iqzYH1uYaeCbOkSL": {
-   "at": "2026-11-20T13:23:32.731046+00:00",
-   "why": "editor: 2/10, Листает игровую соцсеть в телефоне, в ленте голая грудь крупным планом: нагота, не публикуем",
-   "login": "bratishkinoff"
-  },
-  "chat-2934472461-872": {
-   "at": "2026-11-20T13:23:32.731493+00:00",
-   "why": "editor: 3/10, Едет на пикапе к метке и читает сообщения; всплеск в чате из-за хайп-трейна, в игре ничего не происходит",
-   "login": "frametamer666"
-  },
-  "chat-2934472461-875": {
-   "at": "2026-11-20T13:23:32.732014+00:00",
-   "why": "editor: 4/10, Обносит трейлер с дробовиком, отгоняет собаку, получает три звезды; всплеск в чате из-за хайп-трейна, ясной развязки нет",
-   "login": "frametamer666"
-  },
-  "chat-2934747779-326": {
-   "at": "2026-11-20T13:23:32.732551+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "singsing"
-  },
-  "SpinelessAltruisticDovePlanking-ohzSf3zvplpZn9fg": {
-   "at": "2026-11-20T13:23:32.733068+00:00",
-   "why": "editor: 2/10, Приватный танец в мужском стрип-клубе, полуголые танцоры крупным планом: стрип-клуб, не публикуем",
-   "login": "recrent"
-  },
   "chat-2934808223-206": {
    "at": "2026-11-20T13:44:47.922644+00:00",
    "why": "picture is almost static (motion 0.03)",
@@ -2971,171 +2941,17 @@
    "kind": "clip",
    "vod": "2934472461",
    "vod_t": 155013
+  },
+  "TameIgnorantSharkDBstyle-lkSOD5Ahq8O6NSVK": {
+   "at": "2026-11-23T13:15:18.434129+00:00",
+   "why": "editor: no webcam in the picture",
+   "login": "sergeycrey",
+   "kind": "clip",
+   "vod": "2936127926",
+   "vod_t": 5901
   }
  },
  "pending": {
-  "TameIgnorantSharkDBstyle-lkSOD5Ahq8O6NSVK": {
-   "id": "TameIgnorantSharkDBstyle-lkSOD5Ahq8O6NSVK",
-   "vod": "2936127926",
-   "vod_t": 5901,
-   "group": "ru",
-   "views": 4965,
-   "title": "Когда анимация не сработала",
-   "url": "https://www.twitch.tv/sergeycrey/clip/TameIgnorantSharkDBstyle-lkSOD5Ahq8O6NSVK",
-   "section": null,
-   "kind": "clip",
-   "hot": true,
-   "login": "sergeycrey",
-   "name": "sergeycrey",
-   "source": "Twitch clip made by a viewer, 4965 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"Когда анимация не сработала\"",
-   "at": "2026-11-23T12:28:48.065915+00:00",
-   "cam": null,
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 30.0,
-   "words": [
-    {
-     "word": " Поехали!",
-     "start": 8.5,
-     "end": 9.18
-    },
-    {
-     "word": " Было",
-     "start": 14.37,
-     "end": 14.69
-    },
-    {
-     "word": " щас!",
-     "start": 14.69,
-     "end": 15.09
-    },
-    {
-     "word": " Это",
-     "start": 15.47,
-     "end": 15.67
-    },
-    {
-     "word": " чё",
-     "start": 15.67,
-     "end": 15.93
-    },
-    {
-     "word": " щас",
-     "start": 15.93,
-     "end": 16.21
-    },
-    {
-     "word": " было?",
-     "start": 16.21,
-     "end": 16.37
-    },
-    {
-     "word": " Вы",
-     "start": 16.49,
-     "end": 16.51
-    },
-    {
-     "word": " видели",
-     "start": 16.51,
-     "end": 16.87
-    },
-    {
-     "word": " это?",
-     "start": 16.87,
-     "end": 17.17
-    },
-    {
-     "word": " Клипуйте",
-     "start": 19.79,
-     "end": 20.47
-    },
-    {
-     "word": " нахер!",
-     "start": 20.47,
-     "end": 20.97
-    },
-    {
-     "word": " Это",
-     "start": 21.07,
-     "end": 21.17
-    },
-    {
-     "word": " надо",
-     "start": 21.17,
-     "end": 21.35
-    },
-    {
-     "word": " выгружать!",
-     "start": 21.35,
-     "end": 22.09
-    },
-    {
-     "word": " Это",
-     "start": 22.31,
-     "end": 22.81
-    },
-    {
-     "word": " чё",
-     "start": 22.81,
-     "end": 23.19
-    },
-    {
-     "word": " было?",
-     "start": 23.19,
-     "end": 23.45
-    },
-    {
-     "word": " Это",
-     "start": 24.99,
-     "end": 25.67
-    },
-    {
-     "word": " чё",
-     "start": 25.67,
-     "end": 26.13
-    },
-    {
-     "word": " было?",
-     "start": 26.13,
-     "end": 26.41
-    },
-    {
-     "word": " Садись!",
-     "start": 27.49,
-     "end": 28.17
-    },
-    {
-     "word": " Ой,",
-     "start": 28.57,
-     "end": 28.77
-    },
-    {
-     "word": " а",
-     "start": 29.19,
-     "end": 29.51
-    },
-    {
-     "word": " чё",
-     "start": 29.51,
-     "end": 29.75
-    },
-    {
-     "word": " садись?",
-     "start": 29.75,
-     "end": 29.99
-    }
-   ],
-   "metrics": {
-    "motion": 0.19854166666666667,
-    "motion_p90": 0.5230833333333333,
-    "static_share": 0.17647058823529413,
-    "peak_db": 7.022480010986328,
-    "level_db": -26.162925720214844
-   },
-   "silence": []
-  },
   "IntelligentTenderTubersStinkyCheese-NUsVy8C3L1AMr34o": {
    "id": "IntelligentTenderTubersStinkyCheese-NUsVy8C3L1AMr34o",
    "vod": "2936127926",
@@ -3340,6 +3156,183 @@
     "static_share": 0.16923076923076924,
     "peak_db": 10.15611457824707,
     "level_db": -29.546443939208984
+   },
+   "silence": []
+  },
+  "StrangeGiftedHippoLitFam-lz1mqeraN5OkpVOF": {
+   "id": "StrangeGiftedHippoLitFam-lz1mqeraN5OkpVOF",
+   "vod": "2937162062",
+   "vod_t": 2235,
+   "group": "ru",
+   "views": 3221,
+   "title": "Не игра то классная !",
+   "url": "https://www.twitch.tv/dmitry_bale/clip/StrangeGiftedHippoLitFam-lz1mqeraN5OkpVOF",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "dmitry_bale",
+   "name": "DMITRY_BALE",
+   "source": "Twitch clip made by a viewer, 3221 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"Не игра то классная !\"",
+   "at": "2026-11-23T13:35:55.223507+00:00",
+   "cam": null,
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 28.9,
+   "words": [
+    {
+     "word": " это",
+     "start": 0.0,
+     "end": 1.22
+    },
+    {
+     "word": " присядь",
+     "start": 1.22,
+     "end": 1.76
+    },
+    {
+     "word": " дорогие",
+     "start": 1.76,
+     "end": 2.24
+    },
+    {
+     "word": " друзья",
+     "start": 2.24,
+     "end": 2.88
+    },
+    {
+     "word": " что",
+     "start": 2.88,
+     "end": 4.66
+    },
+    {
+     "word": " ж",
+     "start": 4.66,
+     "end": 4.76
+    },
+    {
+     "word": " 54",
+     "start": 4.76,
+     "end": 5.2
+    },
+    {
+     "word": " килограмма",
+     "start": 5.2,
+     "end": 5.94
+    },
+    {
+     "word": " скорость",
+     "start": 5.94,
+     "end": 6.28
+    },
+    {
+     "word": " 74",
+     "start": 6.28,
+     "end": 6.74
+    },
+    {
+     "word": " будем",
+     "start": 6.74,
+     "end": 7.12
+    },
+    {
+     "word": " жать",
+     "start": 7.12,
+     "end": 7.56
+    },
+    {
+     "word": " но",
+     "start": 7.56,
+     "end": 8.52
+    },
+    {
+     "word": " это",
+     "start": 8.52,
+     "end": 8.66
+    },
+    {
+     "word": " как",
+     "start": 8.66,
+     "end": 8.74
+    },
+    {
+     "word": " говорится",
+     "start": 8.74,
+     "end": 9.18
+    },
+    {
+     "word": " надо",
+     "start": 9.18,
+     "end": 9.44
+    },
+    {
+     "word": " постараться",
+     "start": 9.44,
+     "end": 11.02
+    },
+    {
+     "word": " аккуратно",
+     "start": 13.04,
+     "end": 14.48
+    },
+    {
+     "word": " вниз",
+     "start": 14.48,
+     "end": 15.18
+    },
+    {
+     "word": " и",
+     "start": 15.18,
+     "end": 16.66
+    },
+    {
+     "word": " снова",
+     "start": 16.66,
+     "end": 16.94
+    },
+    {
+     "word": " вверх",
+     "start": 16.94,
+     "end": 18.5
+    },
+    {
+     "word": " вниз",
+     "start": 18.5,
+     "end": 19.32
+    },
+    {
+     "word": " и",
+     "start": 19.32,
+     "end": 20.98
+    },
+    {
+     "word": " вверх",
+     "start": 20.98,
+     "end": 21.96
+    },
+    {
+     "word": " батлер",
+     "start": 21.96,
+     "end": 22.72
+    },
+    {
+     "word": " спасибо",
+     "start": 22.72,
+     "end": 23.64
+    },
+    {
+     "word": " большое",
+     "start": 23.64,
+     "end": 23.98
+    }
+   ],
+   "metrics": {
+    "motion": 0.2232638888888889,
+    "motion_p90": 0.41758333333333336,
+    "static_share": 0.0,
+    "peak_db": 13.101388931274414,
+    "level_db": -33.09950637817383
    },
    "silence": []
   }
