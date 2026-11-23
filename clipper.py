@@ -121,6 +121,29 @@ def minutes_since_last_post(state, profile):
     return (now_utc() - times[-1]).total_seconds() / 60 if times else 10 ** 6
 
 
+PROFILE_KEYS = ("post_times_utc", "slot_window_minutes", "max_posts_per_day", "min_gap_minutes", "platforms",
+                "platform_start")
+
+
+def profile_cfg(cfg, prof):
+    """Settings of one upload-post profile: the common ones, overridden by what a publishing group of that
+    profile sets for itself (posting times, pace, platforms, the day a platform starts)."""
+    out = dict(cfg)
+    for g in cfg["groups"].values():
+        if g.get("profile") == prof and g.get("publish", True):
+            out.update({k: g[k] for k in PROFILE_KEYS if k in g})
+    return out
+
+
+def as_time(x):
+    """A moment from the config ("2026-11-26T12:00:00+00:00", or what YAML made of it), None when unreadable."""
+    try:
+        t = x if isinstance(x, dt.datetime) else dt.datetime.fromisoformat(str(x).strip().replace("Z", "+00:00"))
+        return t if t.tzinfo else t.replace(tzinfo=dt.timezone.utc)
+    except Exception:  # noqa
+        return None
+
+
 def slot_state(cfg, state, profile, now=None):
     """Fixed posting times (`post_times_utc`, "HH:MM" in UTC): a slot is open from its time for
     `slot_window_minutes`, until the profile has a post in it. A slot nobody could use (a platform cap,
@@ -951,6 +974,22 @@ def settle_failed(cfg, state):
             if LIMIT_RE.search(msg) and v.get("profile"):
                 for p in [str(x["platform"])] if x.get("platform") else (v.get("platforms") or cfg["platforms"]):
                     hold_platform(state, holds, v["profile"], p, at, msg, x.get("restricted_until"))
+        if v.get("shelf"):      # the finished file is still on the shelf: the refusing platforms get it again later
+            if not v.get("settled"):
+                v["settled"] = True
+                ent = state["shelf"].get(cid)
+                back = sorted({str(x["platform"]) for x in failed if x.get("platform")}) or list(v.get("platforms") or [])
+                if ent is not None:
+                    ent["tries"] = int(ent.get("tries") or 0) + 1
+                    if ent["tries"] <= MAX_ATTEMPTS:
+                        for p in back:
+                            (ent.get("sent") or {}).pop(p, None)
+                    log(f"   {v.get('login')} {cid[-12:]}: the post from the shelf was refused ({why[:110]}), "
+                        + (f"it will be offered to {', '.join(back)} again" if ent["tries"] <= MAX_ATTEMPTS
+                           else "no retry left"))
+                if not any(x.get("success") for x in res):
+                    v["ok"], v["error"] = False, why[:300]
+            continue
         cand = v.get("cand") or spare.get(cid)
         done = [{**x, "at": v["at"], "profile": v.get("profile")} for x in res if x.get("success")]
         only = sorted({str(x["platform"]) for x in failed if x.get("platform")}) if done else None
@@ -1318,7 +1357,8 @@ def publish(cfg, state, c, dry, to=None, shelve=False):
     """Render the moment and post it to the platforms in `to` (by default everywhere it is still due).
     shelve: the group does not publish yet, so the finished video is stored instead of posted."""
     g = cfg["groups"][c["group"]]
-    to = list(to or c.get("platforms") or cfg["platforms"])
+    all_platforms = profile_cfg(cfg, g["profile"])["platforms"]
+    to = list(to or c.get("platforms") or all_platforms)
     log(f"=> {'shelving' if shelve else 'publishing'} [{c['kind']}] {c['login']} {c['score']}/10: "
         f"{c.get('caption') or c['title']}")
     with tempfile.TemporaryDirectory() as td:
@@ -1385,7 +1425,7 @@ def publish(cfg, state, c, dry, to=None, shelve=False):
         idem = c["id"] + (f"-r{c['attempt']}" if c.get("attempt") else "")    # a retry must not replay the refusal
         if c.get("platforms"):
             log("   retry for", ", ".join(to), "only: it is already out elsewhere")
-        elif set(to) != set(cfg["platforms"]):
+        elif set(to) != set(all_platforms):
             log("   going to", ", ".join(to), "only: the other platform takes no posts now")
         res = post(cfg, g["profile"], out, base, caption, yt_title, yt_desc, tags, idem, cover=cover,
                    cover_ms=cover_ms, platforms=to)
@@ -1402,10 +1442,15 @@ def publish(cfg, state, c, dry, to=None, shelve=False):
 
 
 def open_platforms(cfg, state, prof, dry):
-    """The profile's platforms that take a post now: not on hold and under the daily cap."""
+    """The profile's platforms that take a post now: started, not on hold and under the daily cap.
+    cfg: the profile's own settings, see profile_cfg()."""
     out, cap = [], cfg["max_posts_per_day"]
     holds = platform_holds(cfg, state).get(prof) or {}
     for p in cfg["platforms"]:
+        start = as_time((cfg.get("platform_start") or {}).get(p)) if (cfg.get("platform_start") or {}).get(p) else None
+        if start and now_utc() < start:         # e.g. a new account that is warmed up by hand first
+            log(f"{prof}: {p} takes no posts before {start:%d.%m %H:%M} UTC")
+            continue
         h = holds.get(p)
         if h and not dry and dt.datetime.fromisoformat(h["until"]) > now_utc():
             log(f"{prof}: {p} on hold until {h['until'][11:16]} UTC: {h.get('why', '')[:120]}")
@@ -1430,24 +1475,27 @@ def publish_due(cfg, state, dry):
     platform_holds(cfg, state)
     save_state(state)
     # a group with `publish: false` is still watched and judged, its moments just do not go out
-    profile_of = {gname: g["profile"] for gname, g in cfg["groups"].items() if g.get("publish", True)}
+    # (a group with `from_shelf: true` posts finished videos from the shelf instead, see shelf_due)
+    profile_of = {gname: g["profile"] for gname, g in cfg["groups"].items()
+                  if g.get("publish", True) and not g.get("from_shelf")}
     for prof in sorted(set(profile_of.values())):
-        if not pick(state, profile_of, prof, cfg["platforms"], fresh_only=dry):
+        pc = profile_cfg(cfg, prof)
+        if not pick(state, profile_of, prof, pc["platforms"], fresh_only=dry):
             continue
-        slot, why = slot_state(cfg, state, prof)
+        slot, why = slot_state(pc, state, prof)
         if not slot and not dry:
             log(f"{prof}: no posting slot now, {why}")
             continue
         gap = minutes_since_last_post(state, prof)
-        if gap < cfg.get("min_gap_minutes", 120) and not dry:
-            log(f"{prof}: last post {gap:.0f} min ago, next slot in {cfg.get('min_gap_minutes', 120) - gap:.0f} min")
+        if gap < pc.get("min_gap_minutes", 120) and not dry:
+            log(f"{prof}: last post {gap:.0f} min ago, next slot in {pc.get('min_gap_minutes', 120) - gap:.0f} min")
             continue
-        free = open_platforms(cfg, state, prof, dry)
+        free = open_platforms(pc, state, prof, dry)
         while free:
             c = pick(state, profile_of, prof, free, fresh_only=dry)
             if not c:
                 break
-            to = [p for p in (c.get("platforms") or cfg["platforms"]) if p in free]
+            to = [p for p in (c.get("platforms") or pc["platforms"]) if p in free]
             try:
                 publish(cfg, state, c, dry, to)
             except Exception as e:  # noqa
@@ -1458,13 +1506,14 @@ def publish_due(cfg, state, dry):
             save_state(state)
             free = [] if dry else [p for p in free if p not in to]
     shelve_due(cfg, state, dry)
+    shelf_due(cfg, state, dry)
 
 
 def shelve_due(cfg, state, dry, limit=2):
     """Approved moments of a group with `publish: false` are finished like a post and kept as files instead
     (artifact shelf-<run id>, 90 days; texts and the artifact name in state["shelf"]): the recording they are
     cut from does not last, the finished video does. They wait there for the group's own channel."""
-    off = {gname for gname, g in cfg["groups"].items() if not g.get("publish", True)}
+    off = {gname for gname, g in cfg["groups"].items() if not g.get("publish", True) or g.get("from_shelf")}
     waiting = sorted((c for c in state["pool"].values() if c["group"] in off), key=lambda c: c["at"])
     if dry or not waiting:
         return
@@ -1481,6 +1530,112 @@ def shelve_due(cfg, state, dry, limit=2):
                 state["posted"][c["id"]] = {"at": now_utc().isoformat(), "ok": False, "error": repr(e)[:300],
                                             "login": c["login"]}
         save_state(state)
+
+
+def shelf_file(ent, name, td):
+    """A file of a shelved video: on disk when this run shelved it, otherwise in the artifact of the run that did."""
+    local = SHELF_DIR / name
+    if local.exists():
+        return local
+    dest = Path(td) / "artifact"
+    if not dest.exists():
+        subprocess.run(["gh", "run", "download", str(ent["run"]), "-n", str(ent["artifact"]), "-D", str(dest)],
+                       check=True, capture_output=True, timeout=600)
+    hit = next(iter(dest.rglob(name)), None)
+    if not hit:
+        raise RuntimeError(f"{name} is not in the artifact {ent['artifact']}")
+    return hit
+
+
+def post_from_shelf(cfg, state, cid, to):
+    """Post a finished video from the shelf to the platforms in `to` and note on its entry where it has been."""
+    ent = state["shelf"][cid]
+    g = cfg["groups"][ent["group"]]
+    log(f"=> publishing from the shelf [{ent.get('kind')}] {ent['login']} {ent.get('score')}/10 to {', '.join(to)}: "
+        f"{ent.get('caption') or ent.get('title')}")
+    try:
+        with tempfile.TemporaryDirectory() as td:
+            video = shelf_file(ent, ent["video"], td)
+            cover = shelf_file(ent, ent["cover"], td) if ent.get("cover") else None
+            why, vol = muted(video), mean_volume(video)
+            if why or vol is None or vol < -50:     # a mute video must never go out
+                raise RuntimeError(f"the shelved video has no sound ({why or f'mean volume {vol} dB'})")
+            base, caption, yt_title, yt_desc, tags = texts(ent, g)
+            tries = int(ent.get("tries") or 0) + int(ent.get("fails") or 0)
+            idem = f"{cid}-shelf-{'-'.join(sorted(to))}" + (f"-r{tries}" if tries else "")
+            res = post(cfg, g["profile"], video, base, caption, yt_title, yt_desc, tags, idem, cover=cover,
+                       cover_ms=ent.get("cover_ms"), platforms=to)
+    except Exception as e:  # noqa
+        log("   ERROR while publishing from the shelf:", repr(e)[:400])
+        ent["fails"] = int(ent.get("fails") or 0) + 1
+        if ent["fails"] >= MAX_ATTEMPTS:        # do not let one broken file block the queue
+            for p in to:
+                ent.setdefault("sent", {})[p] = "given up"
+            ent["sent_at"] = now_utc().isoformat()
+            log(f"   {ent['login']} {cid[-12:]}: given up after {ent['fails']} failures")
+        return False
+    now = now_utc().isoformat()
+    old = state["posted"].get(cid)
+    earlier = list(ent.get("earlier") or [])
+    if old and old.get("ok"):       # where an earlier post of this video went stays counted for the daily caps
+        earlier += [{"at": old["at"], "profile": old.get("profile"), "platform": p, "success": True}
+                    for p in old.get("platforms") or [] if went_to(old, p)]
+    if earlier:
+        ent["earlier"] = earlier
+    for p in to:
+        ent.setdefault("sent", {})[p] = now
+    ent["sent_at"] = now
+    state["posted"][cid] = {"at": now, "ok": True, "profile": g["profile"], "platforms": list(to), "shelf": True,
+                            "login": ent["login"], "group": ent["group"], "url": ent.get("url"),
+                            "kind": ent.get("kind"), "score": ent.get("score"), "caption": ent.get("caption"),
+                            "vod": ent.get("vod"), "vod_t": ent.get("vod_t"), "hook": ent.get("hook"),
+                            "request_id": res.get("request_id"), **({"earlier": earlier} if earlier else {})}
+    return True
+
+
+def shelf_due(cfg, state, dry):
+    """Fill the open slot of every profile whose group posts from the shelf (`from_shelf: true` and publishing):
+    each platform that takes a post now gets the best finished video it has not had yet. The platforms can
+    get different videos, for example when one of them started later (`platform_start`) and catches up."""
+    groups_of = {}
+    for gname, g in cfg["groups"].items():
+        if g.get("from_shelf") and g.get("publish", True):
+            groups_of.setdefault(g["profile"], []).append(gname)
+    for prof, gnames in sorted(groups_of.items()):
+        if any(g.get("profile") == prof and g.get("publish", True) and not g.get("from_shelf")
+               for g in cfg["groups"].values()):        # a mistake in the config must not mix two channels
+            log(f"WARN {prof}: a group that posts from the shelf shares this profile with a group that posts "
+                f"directly; nothing goes out from the shelf until it has its own profile")
+            continue
+        pc = profile_cfg(cfg, prof)
+        for cid, v in list(state["shelf"].items()):     # out everywhere and the platforms had time to answer
+            if v.get("group") in gnames and all(p in (v.get("sent") or {}) for p in pc["platforms"]) \
+                    and age_hours(v.get("sent_at") or v["at"]) > 12:
+                del state["shelf"][cid]
+        todo = lambda p: [(cid, v) for cid, v in state["shelf"].items()
+                          if v.get("group") in gnames and v.get("video") and p not in (v.get("sent") or {})]
+        if not any(todo(p) for p in pc["platforms"]):
+            continue
+        slot, why = slot_state(pc, state, prof)
+        if not slot:
+            log(f"{prof}: no posting slot now, {why}")
+            continue
+        gap = minutes_since_last_post(state, prof)
+        if gap < pc.get("min_gap_minutes", 120):
+            log(f"{prof}: last post {gap:.0f} min ago, next slot in {pc.get('min_gap_minutes', 120) - gap:.0f} min")
+            continue
+        picks = {}
+        for p in open_platforms(pc, state, prof, dry):
+            best = max(todo(p), key=lambda kv: (kv[1].get("score") or 0, kv[1]["at"]), default=None)
+            if best:
+                picks.setdefault(best[0], []).append(p)
+        for cid, to in picks.items():
+            if dry:
+                v = state["shelf"][cid]
+                log(f"   DRY RUN, would post from the shelf to {', '.join(to)}: {v['login']} {v.get('hook')}")
+                continue
+            post_from_shelf(cfg, state, cid, to)
+            save_state(state)
 
 
 def prefer_publishing(cfg, items):
