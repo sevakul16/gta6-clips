@@ -938,21 +938,6 @@
   }
  },
  "rejected": {
-  "chat-2933453157-2959": {
-   "at": "2026-11-20T20:42:26.279695+00:00",
-   "why": "picture is almost static (motion 0.03)",
-   "login": "welovegames"
-  },
-  "chat-2934472461-1485": {
-   "at": "2026-11-20T20:44:41.928207+00:00",
-   "why": "streamer fills the screen, no gameplay",
-   "login": "frametamer666"
-  },
-  "PiliableHonorableBananaBlargNaut-a52-k2Oni16S1Ue6": {
-   "at": "2026-11-20T20:45:27.551019+00:00",
-   "why": "picture is almost static (motion 0.03)",
-   "login": "kaicenat"
-  },
   "TameTubularPlumArsonNoSexy--NrH8uDlNpeYqE1O": {
    "at": "2026-11-20T21:32:59.369956+00:00",
    "why": "editor: 4/10, Объясняет трюк с видом от первого лица через настройки и телефон, но сам показать не может, события нет, меню в вертикальном кадре обрезано.",
@@ -2930,6 +2915,123 @@
     "static_share": 0.07112970711297072,
     "peak_db": 20.67254066467285,
     "level_db": -45.479278564453125
+   },
+   "silence": []
+  },
+  "ImpossibleFlaccidFalconRitzMitz-ZTmin-k0VKcsfOi-": {
+   "id": "ImpossibleFlaccidFalconRitzMitz-ZTmin-k0VKcsfOi-",
+   "vod": "2935172718",
+   "vod_t": 100519,
+   "group": "ru",
+   "views": 1288,
+   "title": "Осуждаю!!!! Лееев!!!!!",
+   "url": "https://www.twitch.tv/leva2k/clip/ImpossibleFlaccidFalconRitzMitz-ZTmin-k0VKcsfOi-",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "leva2k",
+   "name": "leva2k",
+   "source": "Twitch clip made by a viewer, 1288 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"Осуждаю!!!! Лееев!!!!!\"",
+   "at": "2026-11-23T21:01:44.354668+00:00",
+   "cam": [
+    2232,
+    499,
+    222,
+    156
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 24.5,
+   "words": [
+    {
+     "word": " ОСУЖДАЮ!",
+     "start": 2.16,
+     "end": 3.26
+    },
+    {
+     "word": " ЕБАТЬ,",
+     "start": 7.11,
+     "end": 7.71
+    },
+    {
+     "word": " БЛЯТЬ,",
+     "start": 7.81,
+     "end": 8.11
+    },
+    {
+     "word": " ОСУЖДАЮ,",
+     "start": 8.15,
+     "end": 8.79
+    },
+    {
+     "word": " Я",
+     "start": 8.85,
+     "end": 8.93
+    },
+    {
+     "word": " НЕ",
+     "start": 8.93,
+     "end": 9.09
+    },
+    {
+     "word": " ЗНАЮ",
+     "start": 9.09,
+     "end": 9.39
+    },
+    {
+     "word": " ТОК!",
+     "start": 9.39,
+     "end": 9.95
+    },
+    {
+     "word": " ЕБАТЬ,",
+     "start": 10.07,
+     "end": 10.67
+    },
+    {
+     "word": " ЛЕВ!",
+     "start": 10.87,
+     "end": 11.21
+    },
+    {
+     "word": " ПЕСДЕЦ,",
+     "start": 12.99,
+     "end": 13.59
+    },
+    {
+     "word": " ЭТО",
+     "start": 13.67,
+     "end": 13.85
+    },
+    {
+     "word": " ЧО",
+     "start": 13.85,
+     "end": 14.11
+    },
+    {
+     "word": " ОСУЖДАЮ,",
+     "start": 14.11,
+     "end": 14.83
+    },
+    {
+     "word": " БЛЯТЬ!",
+     "start": 14.95,
+     "end": 15.51
+    },
+    {
+     "word": " ОСУЖДАЮ!",
+     "start": 18.35,
+     "end": 18.95
+    }
+   ],
+   "metrics": {
+    "motion": 0.24343859649122807,
+    "motion_p90": 0.4740491228070176,
+    "static_share": 0.0,
+    "peak_db": 31.517162322998047,
+    "level_db": -36.34536361694336
    },
    "silence": []
   }
@@ -5796,5 +5898,5 @@
    "seconds": 53.1
   }
  },
- "checked_n": 1
+ "checked_n": 2
 }
