@@ -71,6 +71,7 @@ def save_state(state):
     state["rejected"] = {k: v for k, v in state["rejected"].items() if age_hours(v["at"]) < 72}
     state["pending"] = {k: v for k, v in state["pending"].items() if age_hours(v["at"]) < 8}
     state["no_vod"] = {k: v for k, v in state["no_vod"].items() if age_hours(v["at"]) < 24}
+    state["check_errors"] = {k: v for k, v in state.get("check_errors", {}).items() if age_hours(v["at"]) < 72}
     # approved moments wait for a slot (one post per min_gap_minutes): keep them long enough to get one
     state["pool"] = {k: v for k, v in state["pool"].items() if age_hours(v["at"]) < 48}
     for v in state["posted"].values():      # the copy kept for a retry is only needed until the platforms answer
@@ -600,9 +601,32 @@ def transcribe(path, model, lang):
     pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", str(path), "-f", "s16le", "-ac", "1", "-ar", "16000", "-"],
                          capture_output=True, check=True).stdout
     audio = np.frombuffer(pcm, np.int16).astype(np.float32) / 32768.0
-    segs, _ = _whisper.transcribe(audio, language=lang, word_timestamps=True, vad_filter=True)
-    return [{"word": w.word, "start": round(w.start, 2), "end": round(w.end, 2)}
-            for s in segs for w in (s.words or [])], audio
+    try:
+        segs, _ = _whisper.transcribe(audio, language=lang, word_timestamps=True, vad_filter=True)
+        words = [{"word": w.word, "start": round(w.start, 2), "end": round(w.end, 2)}
+                 for s in segs for w in (s.words or [])]
+    except Exception as e:  # noqa
+        # faster-whisper's word alignment breaks on some recordings (an empty alignment inside find_alignment,
+        # seen 23.11 as an IndexError on an xQc clip): take the segment times and spread each segment's words
+        # over it by their length. Subtitles are a little less exact, the clip is not lost.
+        log("   WARN word timing failed, using segment timing:", repr(e)[:160])
+        segs, _ = _whisper.transcribe(audio, language=lang, word_timestamps=False, vad_filter=True)
+        words = spread_words([(s.start, s.end, s.text) for s in segs])
+    return words, audio
+
+
+def spread_words(segments):
+    """Word timings from (start, end, text) segments: each word gets a share of its segment by its length."""
+    words = []
+    for start, end, text in segments:
+        parts = text.split()
+        total = sum(len(p) for p in parts) or 1
+        t = float(start)
+        for p in parts:
+            d = (float(end) - float(start)) * len(p) / total
+            words.append({"word": " " + p, "start": round(t, 2), "end": round(t + d, 2)})
+            t += d
+    return words
 
 
 # ---------------------------------------------------------------- render
@@ -1793,6 +1817,12 @@ def main():
                 evaluate(cfg, state, c, td)
         except Exception as e:  # noqa
             log("   ERROR while checking:", repr(e)[:400])
+            # a candidate that breaks the check every time must not take its group's turn in every run
+            errs = state.setdefault("check_errors", {})
+            n = errs.get(c["id"], {}).get("n", 0) + 1
+            errs[c["id"]] = {"n": n, "at": now_utc().isoformat()}
+            if n >= 2:
+                reject(state, c, f"the check failed {n} times: {repr(e)[:120]}")
         save_state(state)
     state["checked_n"] = (int(state.get("checked_n", 0)) + checked) % 3000   # keeps the 2:1 turn order between runs
     log(f"Checked {checked} candidate(s); waiting for the editor: {len(state['pending'])}; "
