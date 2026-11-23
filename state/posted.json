@@ -2599,253 +2599,184 @@
    "kind": "clip",
    "vod": "2936145175",
    "vod_t": 336
+  },
+  "chat-2937968840-764": {
+   "at": "2026-11-23T12:28:52.701297+00:00",
+   "why": "editor: no webcam in the picture",
+   "login": "whoplohoyparen",
+   "kind": "chat",
+   "vod": "2937968840",
+   "vod_t": 34372.251579
+  },
+  "chat-2938237575-133": {
+   "at": "2026-11-23T12:28:52.701714+00:00",
+   "why": "editor: no webcam in the picture",
+   "login": "melharucos",
+   "kind": "chat",
+   "vod": "2938237575",
+   "vod_t": 5986.832399
   }
  },
  "pending": {
-  "chat-2937968840-764": {
-   "id": "chat-2937968840-764",
-   "url": "https://www.twitch.tv/videos/2937968840",
-   "section": [
-    34372.251579,
-    34428.251579
-   ],
-   "kind": "chat",
-   "views": 37,
-   "title": "",
-   "vod": "2937968840",
-   "vod_t": 34372.251579,
+  "TameIgnorantSharkDBstyle-lkSOD5Ahq8O6NSVK": {
+   "id": "TameIgnorantSharkDBstyle-lkSOD5Ahq8O6NSVK",
+   "vod": "2936127926",
+   "vod_t": 5901,
    "group": "ru",
-   "login": "whoplohoyparen",
-   "name": "WHOPLOHOYPAREN",
-   "viewers": 6133,
-   "chat_score": 7.4,
-   "found_at": "2026-11-23T11:24:27.031921+00:00",
-   "spike_at": "2026-11-23T11:08:54.251579+00:00",
-   "chat": [
-    "2x ...",
-    "2x конец",
-    "@strexizz_ умерла",
-    "есть девочки в чате как Люси? ищу жену чтобы грабануть Дикси",
-    "пхахпахпхпа",
-    "(",
-    "КОСТЫЧ СОСИ ЕПТА ШУЧУ НЕ БАНЬ",
-    "КОСТЯ, ДАЙ ОЦЕНКУ СЮЖЕТКЕ И ПЕРСАМ ОТ 0 ДО 10",
-    "БОЯТЬ",
-    "с 0"
-   ],
-   "source": "cut from the live stream at a chat spike: 37 chatters in 15 s, 7.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-23T11:24:50.662789+00:00",
+   "views": 4965,
+   "title": "Когда анимация не сработала",
+   "url": "https://www.twitch.tv/sergeycrey/clip/TameIgnorantSharkDBstyle-lkSOD5Ahq8O6NSVK",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "sergeycrey",
+   "name": "sergeycrey",
+   "source": "Twitch clip made by a viewer, 4965 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"Когда анимация не сработала\"",
+   "at": "2026-11-23T12:28:48.065915+00:00",
    "cam": null,
    "size": [
     1920,
     1080
    ],
-   "dur": 58.0,
+   "dur": 30.0,
    "words": [
     {
-     "word": " Надеюсь",
-     "start": 46.16,
-     "end": 46.6
+     "word": " Поехали!",
+     "start": 8.5,
+     "end": 9.18
     },
     {
-     "word": " с",
-     "start": 46.6,
-     "end": 46.72
+     "word": " Было",
+     "start": 14.37,
+     "end": 14.69
     },
     {
-     "word": " самого",
-     "start": 46.72,
-     "end": 46.94
+     "word": " щас!",
+     "start": 14.69,
+     "end": 15.09
     },
     {
-     "word": " начала",
-     "start": 46.94,
-     "end": 47.3
+     "word": " Это",
+     "start": 15.47,
+     "end": 15.67
     },
     {
-     "word": " давай",
-     "start": 47.3,
-     "end": 47.7
+     "word": " чё",
+     "start": 15.67,
+     "end": 15.93
     },
     {
-     "word": " побежать",
-     "start": 47.7,
-     "end": 48.94
+     "word": " щас",
+     "start": 15.93,
+     "end": 16.21
     },
     {
-     "word": " всех",
-     "start": 48.94,
-     "end": 49.16
+     "word": " было?",
+     "start": 16.21,
+     "end": 16.37
     },
     {
-     "word": " вот",
-     "start": 49.16,
-     "end": 49.34
+     "word": " Вы",
+     "start": 16.49,
+     "end": 16.51
     },
     {
-     "word": " этот",
-     "start": 49.34,
-     "end": 49.5
+     "word": " видели",
+     "start": 16.51,
+     "end": 16.87
     },
     {
-     "word": " пострелять",
-     "start": 49.5,
-     "end": 50.14
+     "word": " это?",
+     "start": 16.87,
+     "end": 17.17
     },
     {
-     "word": " время",
-     "start": 50.14,
-     "end": 51.24
+     "word": " Клипуйте",
+     "start": 19.79,
+     "end": 20.47
     },
     {
-     "word": " пострелять",
-     "start": 51.24,
-     "end": 52.3
+     "word": " нахер!",
+     "start": 20.47,
+     "end": 20.97
     },
     {
-     "word": " между",
-     "start": 52.3,
-     "end": 52.58
+     "word": " Это",
+     "start": 21.07,
+     "end": 21.17
     },
     {
-     "word": " нами",
-     "start": 52.58,
-     "end": 53.08
+     "word": " надо",
+     "start": 21.17,
+     "end": 21.35
+    },
+    {
+     "word": " выгружать!",
+     "start": 21.35,
+     "end": 22.09
+    },
+    {
+     "word": " Это",
+     "start": 22.31,
+     "end": 22.81
+    },
+    {
+     "word": " чё",
+     "start": 22.81,
+     "end": 23.19
+    },
+    {
+     "word": " было?",
+     "start": 23.19,
+     "end": 23.45
+    },
+    {
+     "word": " Это",
+     "start": 24.99,
+     "end": 25.67
+    },
+    {
+     "word": " чё",
+     "start": 25.67,
+     "end": 26.13
+    },
+    {
+     "word": " было?",
+     "start": 26.13,
+     "end": 26.41
+    },
+    {
+     "word": " Садись!",
+     "start": 27.49,
+     "end": 28.17
+    },
+    {
+     "word": " Ой,",
+     "start": 28.57,
+     "end": 28.77
+    },
+    {
+     "word": " а",
+     "start": 29.19,
+     "end": 29.51
+    },
+    {
+     "word": " чё",
+     "start": 29.51,
+     "end": 29.75
+    },
+    {
+     "word": " садись?",
+     "start": 29.75,
+     "end": 29.99
     }
    ],
    "metrics": {
-    "motion": 0.15965277777777778,
-    "motion_p90": 0.41430555555555554,
-    "static_share": 0.22077922077922077,
-    "peak_db": 5.007177352905273,
-    "level_db": -28.053462982177734
-   },
-   "silence": []
-  },
-  "chat-2938237575-133": {
-   "id": "chat-2938237575-133",
-   "url": "https://www.twitch.tv/videos/2938237575",
-   "section": [
-    5986.832399,
-    6042.832399
-   ],
-   "kind": "chat",
-   "views": 35,
-   "title": "",
-   "vod": "2938237575",
-   "vod_t": 5986.832399,
-   "group": "ru",
-   "login": "melharucos",
-   "name": "melharucos",
-   "viewers": 4301,
-   "chat_score": 4.38,
-   "found_at": "2026-11-23T11:45:36.491093+00:00",
-   "spike_at": "2026-11-23T11:36:43.832399+00:00",
-   "chat": [
-    "18x -20",
-    "3x )))))",
-    "2x ошибка",
-    "2x не очень",
-    "TaaCN -20",
-    "Хорошо водишь и сохраняешь тачку",
-    "-20 󠀀",
-    "пойдёт",
-    "Иноагент",
-    "o7",
-    "Неправильный ответ",
-    "ошибся...."
-   ],
-   "source": "cut from the live stream at a chat spike: 35 chatters in 15 s, 4.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-23T11:46:06.599981+00:00",
-   "cam": null,
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 63.0,
-   "words": [
-    {
-     "word": " Давай",
-     "start": 42.9,
-     "end": 43.04
-    },
-    {
-     "word": " проверим",
-     "start": 43.04,
-     "end": 43.5
-    },
-    {
-     "word": " твою",
-     "start": 43.5,
-     "end": 43.74
-    },
-    {
-     "word": " готовность",
-     "start": 43.74,
-     "end": 44.1
-    },
-    {
-     "word": " к",
-     "start": 44.1,
-     "end": 44.26
-    },
-    {
-     "word": " полету,",
-     "start": 44.26,
-     "end": 44.64
-    },
-    {
-     "word": " как",
-     "start": 44.76,
-     "end": 44.92
-    },
-    {
-     "word": " ты",
-     "start": 44.92,
-     "end": 45.1
-    },
-    {
-     "word": " относишься",
-     "start": 45.1,
-     "end": 45.72
-    },
-    {
-     "word": " к",
-     "start": 45.72,
-     "end": 45.78
-    },
-    {
-     "word": " Тайваню.",
-     "start": 45.78,
-     "end": 46.48
-    },
-    {
-     "word": " Нормальный",
-     "start": 49.61,
-     "end": 50.25
-    },
-    {
-     "word": " ответ?",
-     "start": 50.25,
-     "end": 50.51
-    },
-    {
-     "word": " Очень.",
-     "start": 59.54,
-     "end": 60.1
-    },
-    {
-     "word": " Бля.",
-     "start": 60.52,
-     "end": 61.02
-    }
-   ],
-   "metrics": {
-    "motion": 0.44916666666666666,
-    "motion_p90": 0.5877777777777777,
-    "static_share": 0.0,
-    "peak_db": 7.155437469482422,
-    "level_db": -30.163997650146484
+    "motion": 0.19854166666666667,
+    "motion_p90": 0.5230833333333333,
+    "static_share": 0.17647058823529413,
+    "peak_db": 7.022480010986328,
+    "level_db": -26.162925720214844
    },
    "silence": []
   }
