@@ -1683,19 +1683,22 @@ def shelf_due(cfg, state, dry):
             save_state(state)
 
 
-def prefer_publishing(cfg, items):
+def prefer_publishing(cfg, items, done=0):
     """Candidates of groups that post straight from the queue go first, two for every one of a group that only
-    collects or posts from its shelf."""
+    collects or posts from its shelf. `done` is how many candidates earlier runs have checked: the pattern goes
+    on from there. With a full queue a run checks one candidate, and without this the second kind never got a
+    turn (23.11: not one English top clip was checked in a day, the 200 000-view ones aged out unseen)."""
     # a group that posts from the shelf has a stock of finished videos: it is not the one that runs dry
     direct = lambda c: cfg["groups"][c["group"]].get("publish", True) and not cfg["groups"][c["group"]].get("from_shelf")
     quiet = [c for c in items if not direct(c)]
     out = [c for c in items if direct(c)]
     if not quiet or not out:
         return items
-    mixed = []
+    mixed, n = [], int(done or 0)
     while out or quiet:
-        mixed += out[:2] + quiet[:1]
-        out, quiet = out[2:], quiet[1:]
+        src = quiet if (quiet and (n % 3 == 2 or not out)) else out
+        mixed.append(src.pop(0))
+        n += 1
     return mixed
 
 
@@ -1777,7 +1780,8 @@ def main():
     hot_first = int((cfg.get("top_clips") or {}).get("per_run", 2))
     ids = {c["id"] for c in hot}
     clips = [c for c in clips if c["id"] not in ids]
-    order = prefer_publishing(cfg, hot[:hot_first] + new[:max(1, limit - 2)] + clips + hot[hot_first:])
+    order = prefer_publishing(cfg, hot[:hot_first] + new[:max(1, limit - 2)] + clips + hot[hot_first:],
+                              state.get("checked_n", 0))
     log(f"Waiting for the editor or a slot: {waiting}; checking up to {limit} new candidate(s)")
     checked = 0
     for c in order:
@@ -1790,6 +1794,7 @@ def main():
         except Exception as e:  # noqa
             log("   ERROR while checking:", repr(e)[:400])
         save_state(state)
+    state["checked_n"] = (int(state.get("checked_n", 0)) + checked) % 3000   # keeps the 2:1 turn order between runs
     log(f"Checked {checked} candidate(s); waiting for the editor: {len(state['pending'])}; "
         f"approved and waiting for a slot: {len(state['pool'])}")
     REVIEW_DIR.mkdir(parents=True, exist_ok=True)
