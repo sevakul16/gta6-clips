@@ -872,11 +872,6 @@
   }
  },
  "rejected": {
-  "PolishedFilthyPepperPogChamp-JyCp4Ghv6G_jqaEJ": {
-   "at": "2026-11-20T10:47:06.534498+00:00",
-   "why": "picture is almost static (motion 0.02)",
-   "login": "buster"
-  },
   "RepleteExuberantMartenSSSsss-50i_ZNqHtqmFK4Wt": {
    "at": "2026-11-20T11:30:50.049945+00:00",
    "why": "editor: 2/10, Cutscene close-up of a woman in a towel while the streamer talks about a supplement shop link; ad talk, no gameplay",
@@ -2755,6 +2750,327 @@
     "level_db": -35.34613800048828
    },
    "silence": []
+  },
+  "chat-2937968840-742": {
+   "id": "chat-2937968840-742",
+   "url": "https://www.twitch.tv/videos/2937968840",
+   "section": [
+    33370.621474,
+    33426.621474
+   ],
+   "kind": "chat",
+   "views": 50,
+   "title": "",
+   "vod": "2937968840",
+   "vod_t": 33370.621474,
+   "group": "ru",
+   "login": "whoplohoyparen",
+   "name": "WHOPLOHOYPAREN",
+   "viewers": 5990,
+   "chat_score": 6.25,
+   "found_at": "2026-11-23T11:03:10.108900+00:00",
+   "spike_at": "2026-11-23T10:52:12.621474+00:00",
+   "chat": [
+    "5x не наши",
+    "2x Одноклассники",
+    "2x нет",
+    "так вот сейчас и увидим ебать",
+    "Не твои",
+    "@Gizzynet пзд я тут живу сукааа",
+    "@WHOPLOHOYPAREN Мендес \"документ приготовил\"",
+    "Это Мендес - мы ж Картели ломали",
+    "убить его хотят",
+    "Ну давай смотреть",
+    "карэел"
+   ],
+   "source": "cut from the live stream at a chat spike: 50 chatters in 15 s, 6.2x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-23T11:03:35.750842+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 57.0,
+   "words": [
+    {
+     "word": " Блядь,",
+     "start": 7.28,
+     "end": 8.06
+    },
+    {
+     "word": " полицейское",
+     "start": 8.28,
+     "end": 8.7
+    },
+    {
+     "word": " участие",
+     "start": 8.7,
+     "end": 9.08
+    },
+    {
+     "word": " по",
+     "start": 9.08,
+     "end": 9.24
+    },
+    {
+     "word": " Вантейске.",
+     "start": 9.24,
+     "end": 10.12
+    },
+    {
+     "word": " Что",
+     "start": 10.12,
+     "end": 10.48
+    },
+    {
+     "word": " случилось?",
+     "start": 10.48,
+     "end": 11.02
+    },
+    {
+     "word": " Кто",
+     "start": 24.28,
+     "end": 24.56
+    },
+    {
+     "word": " это,",
+     "start": 24.56,
+     "end": 24.76
+    },
+    {
+     "word": " блядь,",
+     "start": 24.86,
+     "end": 25.12
+    },
+    {
+     "word": " что",
+     "start": 25.12,
+     "end": 25.32
+    },
+    {
+     "word": " за",
+     "start": 25.32,
+     "end": 25.44
+    },
+    {
+     "word": " брат?",
+     "start": 25.44,
+     "end": 25.64
+    },
+    {
+     "word": " Стойте,",
+     "start": 32.24,
+     "end": 32.72
+    },
+    {
+     "word": " объясните,",
+     "start": 32.86,
+     "end": 33.32
+    },
+    {
+     "word": " а",
+     "start": 33.48,
+     "end": 33.48
+    },
+    {
+     "word": " почему",
+     "start": 33.48,
+     "end": 33.72
+    },
+    {
+     "word": " они",
+     "start": 33.72,
+     "end": 34.02
+    },
+    {
+     "word": " нападают",
+     "start": 34.02,
+     "end": 34.54
+    },
+    {
+     "word": " сейчас?",
+     "start": 34.54,
+     "end": 34.72
+    },
+    {
+     "word": " Я",
+     "start": 35.06,
+     "end": 35.14
+    },
+    {
+     "word": " что",
+     "start": 35.14,
+     "end": 35.36
+    },
+    {
+     "word": "-то",
+     "start": 35.36,
+     "end": 35.46
+    },
+    {
+     "word": " не",
+     "start": 35.46,
+     "end": 35.82
+    },
+    {
+     "word": " понял,",
+     "start": 35.82,
+     "end": 36.14
+    },
+    {
+     "word": " бьёт.",
+     "start": 36.28,
+     "end": 36.56
+    },
+    {
+     "word": " Я",
+     "start": 42.07,
+     "end": 42.27
+    },
+    {
+     "word": " вот",
+     "start": 42.27,
+     "end": 42.37
+    },
+    {
+     "word": " не",
+     "start": 42.37,
+     "end": 42.51
+    },
+    {
+     "word": " пойму",
+     "start": 42.51,
+     "end": 42.79
+    },
+    {
+     "word": " это,",
+     "start": 42.79,
+     "end": 43.01
+    },
+    {
+     "word": " это",
+     "start": 43.19,
+     "end": 43.59
+    },
+    {
+     "word": " наши",
+     "start": 43.59,
+     "end": 43.91
+    },
+    {
+     "word": " или",
+     "start": 43.91,
+     "end": 44.15
+    },
+    {
+     "word": " это",
+     "start": 44.15,
+     "end": 44.21
+    },
+    {
+     "word": " не",
+     "start": 44.21,
+     "end": 44.29
+    },
+    {
+     "word": " наши",
+     "start": 44.29,
+     "end": 44.59
+    },
+    {
+     "word": " же?",
+     "start": 44.59,
+     "end": 44.87
+    },
+    {
+     "word": " Картел?",
+     "start": 47.54,
+     "end": 48.02
+    },
+    {
+     "word": " Ну,",
+     "start": 48.5,
+     "end": 48.7
+    },
+    {
+     "word": " картел,",
+     "start": 48.78,
+     "end": 49.16
+    },
+    {
+     "word": " ну",
+     "start": 49.24,
+     "end": 49.3
+    },
+    {
+     "word": " а",
+     "start": 49.3,
+     "end": 49.42
+    },
+    {
+     "word": " с",
+     "start": 49.42,
+     "end": 49.5
+    },
+    {
+     "word": " хуя",
+     "start": 49.5,
+     "end": 49.8
+    },
+    {
+     "word": " ли",
+     "start": 49.8,
+     "end": 49.92
+    },
+    {
+     "word": " он",
+     "start": 49.92,
+     "end": 50.06
+    },
+    {
+     "word": " тут?",
+     "start": 50.06,
+     "end": 50.26
+    },
+    {
+     "word": " Они,",
+     "start": 53.19,
+     "end": 53.37
+    },
+    {
+     "word": " наоборот,",
+     "start": 53.41,
+     "end": 53.87
+    },
+    {
+     "word": " хотят",
+     "start": 54.01,
+     "end": 54.21
+    },
+    {
+     "word": " же",
+     "start": 54.21,
+     "end": 54.49
+    },
+    {
+     "word": " секса.",
+     "start": 54.49,
+     "end": 55.13
+    }
+   ],
+   "metrics": {
+    "motion": 0.08965277777777778,
+    "motion_p90": 0.4978472222222223,
+    "static_share": 0.44052863436123346,
+    "peak_db": 11.792204856872559,
+    "level_db": -26.23607635498047
+   },
+   "silence": [
+    [
+     36.9,
+     1.6
+    ]
+   ]
   }
  },
  "pool": {
