@@ -1538,6 +1538,33 @@ def shelve_due(cfg, state, dry, limit=2):
         save_state(state)
 
 
+_connected = {}
+
+
+def connected_platforms(profile):
+    """Platforms with an account connected to the upload-post profile right now. None when it cannot be told
+    (no key, no answer). The answer carries account names, so nothing of it goes to the log."""
+    if profile in _connected:
+        return _connected[profile]
+    key, out = os.environ.get("UPLOAD_POST_KEY"), None
+    if key:
+        try:
+            r = requests.get(f"https://api.upload-post.com/api/uploadposts/users/{profile}", timeout=30,
+                             headers={"Authorization": "Apikey " + key})
+            if r.status_code == 404:        # the profile is not created yet
+                out = set()
+            elif r.ok:
+                acc = (r.json().get("profile") or {}).get("social_accounts") or {}
+                out = {str(p).lower() for p, v in acc.items()
+                       if isinstance(v, dict) and v and not v.get("reauth_required")}
+            else:
+                log(f"   WARN upload-post answered {r.status_code} to the question about the profile {profile}")
+        except Exception as e:  # noqa
+            log("   WARN could not ask upload-post about the profile:", type(e).__name__)
+    _connected[profile] = out
+    return out
+
+
 def shelf_file(ent, name, td):
     """A file of a shelved video: on disk when this run shelved it, otherwise in the artifact of the run that did."""
     local = SHELF_DIR / name
@@ -1630,8 +1657,20 @@ def shelf_due(cfg, state, dry):
         if gap < pc.get("min_gap_minutes", 120):
             log(f"{prof}: last post {gap:.0f} min ago, next slot in {pc.get('min_gap_minutes', 120) - gap:.0f} min")
             continue
+        free = open_platforms(pc, state, prof, dry)
+        if not free:
+            continue
+        # the accounts may be connected to the profile later than the code is ready: post only where one is,
+        # and never count a missing connection as a failed post (it would use up the videos' attempts)
+        linked = connected_platforms(prof)
+        if linked is None:
+            log(f"{prof}: could not check which accounts are connected in upload-post, the shelf waits")
+            continue
+        for p in free:
+            if p not in linked:
+                log(f"{prof}: {p} is not connected to the upload-post profile yet, it gets no posts")
         picks = {}
-        for p in open_platforms(pc, state, prof, dry):
+        for p in [p for p in free if p in linked]:
             best = max(todo(p), key=lambda kv: (kv[1].get("score") or 0, kv[1]["at"]), default=None)
             if best:
                 picks.setdefault(best[0], []).append(p)
@@ -1645,9 +1684,12 @@ def shelf_due(cfg, state, dry):
 
 
 def prefer_publishing(cfg, items):
-    """Candidates of groups that publish now go first, two for every one of a group that only collects."""
-    quiet = [c for c in items if not cfg["groups"][c["group"]].get("publish", True)]
-    out = [c for c in items if cfg["groups"][c["group"]].get("publish", True)]
+    """Candidates of groups that post straight from the queue go first, two for every one of a group that only
+    collects or posts from its shelf."""
+    # a group that posts from the shelf has a stock of finished videos: it is not the one that runs dry
+    direct = lambda c: cfg["groups"][c["group"]].get("publish", True) and not cfg["groups"][c["group"]].get("from_shelf")
+    quiet = [c for c in items if not direct(c)]
+    out = [c for c in items if direct(c)]
     if not quiet or not out:
         return items
     mixed = []
