@@ -3178,6 +3178,137 @@
     "level_db": -30.744590759277344
    },
    "silence": []
+  },
+  "DaintyInquisitiveAnacondaNomNom-IpyTF_N1Cr2osjS-": {
+   "id": "DaintyInquisitiveAnacondaNomNom-IpyTF_N1Cr2osjS-",
+   "url": "https://www.twitch.tv/bratishkinoff/clip/DaintyInquisitiveAnacondaNomNom-IpyTF_N1Cr2osjS-",
+   "section": null,
+   "kind": "clip",
+   "views": 314,
+   "title": "В ПЯТИ САНТИМЕТРАХ ОТ ВЕРНОЙ ГИБЕЛИ",
+   "vod": "2937199120",
+   "vod_t": 10542,
+   "group": "ru",
+   "login": "bratishkinoff",
+   "name": "bratishkinOFF",
+   "source": "Twitch clip made by a viewer, 314 views, titled \"В ПЯТИ САНТИМЕТРАХ ОТ ВЕРНОЙ ГИБЕЛИ\"",
+   "at": "2026-11-23T06:44:50.041354+00:00",
+   "cam": [
+    54,
+    651,
+    520,
+    366
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 30.0,
+   "words": [
+    {
+     "word": " Let",
+     "start": 1.55,
+     "end": 1.87
+    },
+    {
+     "word": " me",
+     "start": 1.87,
+     "end": 2.05
+    },
+    {
+     "word": " two",
+     "start": 2.05,
+     "end": 2.31
+    },
+    {
+     "word": " inches",
+     "start": 2.31,
+     "end": 2.47
+    },
+    {
+     "word": " from",
+     "start": 2.47,
+     "end": 2.73
+    },
+    {
+     "word": " certain",
+     "start": 2.73,
+     "end": 3.11
+    },
+    {
+     "word": " depth,",
+     "start": 3.11,
+     "end": 3.47
+    },
+    {
+     "word": " holy",
+     "start": 3.91,
+     "end": 4.33
+    },
+    {
+     "word": " crap.",
+     "start": 4.33,
+     "end": 4.85
+    },
+    {
+     "word": " Seriously,",
+     "start": 5.83,
+     "end": 6.17
+    },
+    {
+     "word": " I",
+     "start": 6.41,
+     "end": 6.43
+    },
+    {
+     "word": " have",
+     "start": 6.43,
+     "end": 6.51
+    },
+    {
+     "word": " two",
+     "start": 6.51,
+     "end": 6.71
+    },
+    {
+     "word": " inches",
+     "start": 6.71,
+     "end": 6.97
+    },
+    {
+     "word": " from",
+     "start": 6.97,
+     "end": 7.19
+    },
+    {
+     "word": " certain",
+     "start": 7.19,
+     "end": 7.51
+    },
+    {
+     "word": " depth.",
+     "start": 7.51,
+     "end": 7.89
+    },
+    {
+     "word": " Got",
+     "start": 8.43,
+     "end": 8.63
+    },
+    {
+     "word": " it?",
+     "start": 8.63,
+     "end": 9.03
+    }
+   ],
+   "metrics": {
+    "motion": 0.6227954144620811,
+    "motion_p90": 0.8191504997060554,
+    "static_share": 0.0,
+    "peak_db": 5.888330459594727,
+    "level_db": -34.33605194091797
+   },
+   "silence": []
   }
  },
  "pool": {
