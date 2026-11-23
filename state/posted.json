@@ -905,16 +905,6 @@
   }
  },
  "rejected": {
-  "chat-2933453157-2482": {
-   "at": "2026-11-20T14:52:04.732890+00:00",
-   "why": "picture is almost static (motion 0.01)",
-   "login": "welovegames"
-  },
-  "chat-2934772009-413": {
-   "at": "2026-11-20T14:52:21.202252+00:00",
-   "why": "picture is almost static (motion 0.01)",
-   "login": "steel"
-  },
   "BillowingPricklyGalagoCopyThis-8ZPoPDcW87d5iCgG": {
    "at": "2026-11-20T15:15:23.154502+00:00",
    "why": "picture is almost static (motion 0.02)",
@@ -2765,6 +2755,263 @@
     "static_share": 0.0,
     "peak_db": 16.29477310180664,
     "level_db": -36.51812744140625
+   },
+   "silence": []
+  },
+  "YawningMoldyKimchiPlanking-8Krq9dF98okFJ2q8": {
+   "id": "YawningMoldyKimchiPlanking-8Krq9dF98okFJ2q8",
+   "vod": "2937117399",
+   "vod_t": 20991,
+   "group": "ru",
+   "views": 2073,
+   "title": "я тебя сьем",
+   "url": "https://www.twitch.tv/tusoved/clip/YawningMoldyKimchiPlanking-8Krq9dF98okFJ2q8",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "tusoved",
+   "name": "TUSOVED",
+   "source": "Twitch clip made by a viewer, 2073 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"я тебя сьем\"",
+   "at": "2026-11-23T15:01:44.511283+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 30.0,
+   "words": [
+    {
+     "word": " Кстати,",
+     "start": 0.0,
+     "end": 0.16
+    },
+    {
+     "word": " не",
+     "start": 0.22,
+     "end": 0.32
+    },
+    {
+     "word": " толстый,",
+     "start": 0.32,
+     "end": 0.82
+    },
+    {
+     "word": " я",
+     "start": 0.94,
+     "end": 1.18
+    },
+    {
+     "word": " вроде",
+     "start": 1.18,
+     "end": 1.36
+    },
+    {
+     "word": " после",
+     "start": 1.36,
+     "end": 2.62
+    },
+    {
+     "word": " операции",
+     "start": 2.62,
+     "end": 4.1
+    },
+    {
+     "word": " это",
+     "start": 4.1,
+     "end": 4.6
+    },
+    {
+     "word": " самое.",
+     "start": 4.6,
+     "end": 5.22
+    },
+    {
+     "word": " А",
+     "start": 6.88,
+     "end": 7.24
+    },
+    {
+     "word": " мне",
+     "start": 7.24,
+     "end": 7.34
+    },
+    {
+     "word": " то,",
+     "start": 7.34,
+     "end": 7.5
+    },
+    {
+     "word": " что",
+     "start": 7.56,
+     "end": 7.7
+    },
+    {
+     "word": " да,",
+     "start": 7.7,
+     "end": 7.84
+    },
+    {
+     "word": " эти",
+     "start": 7.96,
+     "end": 8.08
+    },
+    {
+     "word": " или",
+     "start": 8.08,
+     "end": 8.24
+    },
+    {
+     "word": " нет.",
+     "start": 8.24,
+     "end": 8.56
+    },
+    {
+     "word": " Мне",
+     "start": 11.75,
+     "end": 12.11
+    },
+    {
+     "word": " пока",
+     "start": 12.11,
+     "end": 12.35
+    },
+    {
+     "word": " вроде",
+     "start": 12.35,
+     "end": 12.63
+    },
+    {
+     "word": " потанцуйте",
+     "start": 12.63,
+     "end": 15.25
+    },
+    {
+     "word": " с",
+     "start": 15.25,
+     "end": 15.41
+    },
+    {
+     "word": " публикой,",
+     "start": 15.41,
+     "end": 15.81
+    },
+    {
+     "word": " с",
+     "start": 15.91,
+     "end": 15.99
+    },
+    {
+     "word": " кем",
+     "start": 15.99,
+     "end": 16.09
+    },
+    {
+     "word": " же",
+     "start": 16.09,
+     "end": 16.21
+    },
+    {
+     "word": " потанцевать",
+     "start": 16.21,
+     "end": 16.91
+    },
+    {
+     "word": " интересно.",
+     "start": 16.91,
+     "end": 17.27
+    },
+    {
+     "word": " А",
+     "start": 22.4,
+     "end": 22.7
+    },
+    {
+     "word": " с",
+     "start": 22.7,
+     "end": 22.82
+    },
+    {
+     "word": " кем?",
+     "start": 22.82,
+     "end": 22.94
+    },
+    {
+     "word": " Почему",
+     "start": 23.06,
+     "end": 23.14
+    },
+    {
+     "word": " она",
+     "start": 23.14,
+     "end": 23.32
+    },
+    {
+     "word": " мне",
+     "start": 23.32,
+     "end": 23.46
+    },
+    {
+     "word": " не",
+     "start": 23.46,
+     "end": 23.58
+    },
+    {
+     "word": " даёт?",
+     "start": 23.58,
+     "end": 23.72
+    },
+    {
+     "word": " Мне",
+     "start": 23.94,
+     "end": 24.1
+    },
+    {
+     "word": " обязательно",
+     "start": 24.1,
+     "end": 24.58
+    },
+    {
+     "word": " вот",
+     "start": 24.58,
+     "end": 24.82
+    },
+    {
+     "word": " здесь,",
+     "start": 24.82,
+     "end": 25.18
+    },
+    {
+     "word": " здесь,",
+     "start": 28.66,
+     "end": 28.88
+    },
+    {
+     "word": " сюда,",
+     "start": 28.98,
+     "end": 29.18
+    },
+    {
+     "word": " детка,",
+     "start": 29.32,
+     "end": 29.6
+    },
+    {
+     "word": " я",
+     "start": 29.68,
+     "end": 29.72
+    },
+    {
+     "word": " тебя...",
+     "start": 29.72,
+     "end": 29.98
+    }
+   ],
+   "metrics": {
+    "motion": 0.36736111111111114,
+    "motion_p90": 0.5179305555555556,
+    "static_share": 0.0,
+    "peak_db": 23.962949752807617,
+    "level_db": -38.43413543701172
    },
    "silence": []
   }
