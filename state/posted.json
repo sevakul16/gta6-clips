@@ -872,11 +872,6 @@
   }
  },
  "rejected": {
-  "chat-2933453157-2248": {
-   "at": "2026-11-20T11:52:43.023647+00:00",
-   "why": "picture is almost static (motion 0.01)",
-   "login": "welovegames"
-  },
   "chat-2934472461-857": {
    "at": "2026-11-20T12:38:29.323269+00:00",
    "why": "picture is almost static (motion 0.00)",
@@ -2596,6 +2591,14 @@
    "at": "2026-11-23T11:24:55.105986+00:00",
    "why": "editor: no webcam in the picture",
    "login": "whoplohoyparen"
+  },
+  "ToughTenuousEchidnaKippa-PQxz4CmGueZYi9Mq": {
+   "at": "2026-11-23T12:07:29.539782+00:00",
+   "why": "streamer fills the screen, no gameplay",
+   "login": "gilticus",
+   "kind": "clip",
+   "vod": "2936145175",
+   "vod_t": 336
   }
  },
  "pending": {
