@@ -21,13 +21,24 @@ named below.
    `python tools/editor.py set <id> --score N --what "one sentence, what is on screen and what happens" --caption "..."`
    - `--no-gameplay` when GTA 6 gameplay or an in-game cutscene is not on screen for most of the clip.
    - `--gambling` when betting or casino branding is visible inside the lime or yellow box.
-   - `--keep A B` (seconds) to cut dead time: keep the build-up, the moment and the reaction.
+   - `--keep A B` (seconds) to cut dead time. Since 23.11 cut tight: aim at 15-30 s, start at most 3-5 s
+     before the event (only as much build-up as the viewer needs to get the joke) and end right after the
+     reaction. The first posts showed weak reactions from feed viewers (about one like per hundred plays),
+     and a slow start is the first suspect. A clip that needs 40 s of build-up to work is a weaker clip.
    - `--cam X Y W H` (fractions of the frame, 0..1) when there is no lime box or it is not on the webcam,
      and a webcam is visible. With no webcam at all leave it out: the clip is then rejected.
 5. Publish the verdicts: `python tools/editor.py push`.
 6. Check that the pipeline loop is alive: `gh run list --workflow clips.yml --limit 5`. If no run is queued or
    in progress and `autorun` in config.yaml is not false, start it:
    `gh workflow run clips.yml --ref main -f dry_run=false -f chain=true`.
+
+## Where candidates come from
+
+`source` in the json says it. "One of the most viewed GTA 6 clips on Twitch right now" (config `top_clips`,
+since 23.11) is a clip that thousands of people already watched on Twitch, from any channel in our languages:
+these are checked first and, with an equal score, are posted first. Judge them by the same rules (a view
+count is not a reason to pass nudity, betting banners, a missing webcam or an unreadable picture); the
+channel may be unknown, so check the overlays and give `--cam` when the detector missed the webcam.
 
 ## How to score
 

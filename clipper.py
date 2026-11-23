@@ -213,6 +213,27 @@ class Twitch:
         return self.get("clips", {"broadcaster_id": broadcaster_id, "first": 50,
                                   "started_at": since.strftime("%Y-%m-%dT%H:%M:%SZ")})
 
+    def pages(self, path, params, n):
+        """Up to n pages of a paginated list."""
+        out, cursor = [], None
+        for _ in range(max(1, n)):
+            r = requests.get("https://api.twitch.tv/helix/" + path, headers=self.h,
+                             params=dict(params, **({"after": cursor} if cursor else {})), timeout=30)
+            r.raise_for_status()
+            j = r.json()
+            out += j.get("data") or []
+            cursor = (j.get("pagination") or {}).get("cursor")
+            if not cursor or not j.get("data"):
+                break
+        return out
+
+    def users_by_id(self, ids):
+        out, ids = {}, sorted(ids)
+        for i in range(0, len(ids), 100):
+            for u in self.get("users", [("id", x) for x in ids[i:i + 100]]):
+                out[u["id"]] = u
+        return out
+
 
 def find_candidates(cfg, state):
     tw = Twitch(os.environ["TWITCH_CLIENT_ID"], os.environ["TWITCH_CLIENT_SECRET"])
@@ -254,6 +275,70 @@ def find_candidates(cfg, state):
                                         f"titled \"{c.get('title') or ''}\""})
     cands.sort(key=lambda c: c["views"], reverse=True)
     log(f"New viewer clips to check: {len(cands)}")
+    return by_language(cands)
+
+
+def find_top_clips(cfg, state):
+    """Moments that already took off: the most viewed clips of the game over the last day or two, from any
+    channel on Twitch in our languages. A clip that thousands of people watched on Twitch has shown that it
+    works for people who were not in the stream, which a chat spike or a 300-view clip has not."""
+    tc = cfg.get("top_clips") or {}
+    if not tc.get("enabled"):
+        return []
+    tw = Twitch(os.environ["TWITCH_CLIENT_ID"], os.environ["TWITCH_CLIENT_SECRET"])
+    gid = tw.game_id(cfg["game"])
+    since = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=tc.get("lookback_hours", 48))
+             ).strftime("%Y-%m-%dT%H:%M:%SZ")
+    group_of_lang = {g.get("language"): gname for gname, g in cfg["groups"].items() if g.get("language")}
+    floors = tc.get("min_views") or {}
+    floor = lambda gname: int(floors.get(gname, 1000)) if isinstance(floors, dict) else int(floors)
+    found = {}
+    for c in tw.pages("clips", {"game_id": gid, "first": 100, "started_at": since}, int(tc.get("pages", 5))):
+        found[c["id"]] = c
+    # the game-wide list is mostly English: add the clips of the biggest live channels of each language
+    for lang in group_of_lang:
+        try:
+            live = tw.get("streams", {"game_id": gid, "language": lang, "first": int(tc.get("live_channels", 20))})
+        except Exception as e:  # noqa
+            log("WARN top clips: live list", lang, repr(e)[:120])
+            continue
+        for st in live:
+            try:
+                for c in tw.get("clips", {"broadcaster_id": st["user_id"], "first": 20, "started_at": since}):
+                    if c["game_id"] == gid:
+                        c["language"] = c.get("language") or lang
+                        found[c["id"]] = c
+            except Exception as e:  # noqa
+                log("WARN top clips", st.get("user_login"), repr(e)[:120])
+    seen = [v for k in ("posted", "pool", "pending", "shelf") for v in state[k].values()]
+    seen += [v for v in state["rejected"].values() if v.get("kind") == "clip"]
+    picked, per_channel = [], Counter()
+    for c in sorted(found.values(), key=lambda c: c["view_count"], reverse=True):
+        gname = group_of_lang.get((c.get("language") or "").split("-")[0].lower())
+        if not gname or c["game_id"] != gid or known(state, c["id"]) or c["view_count"] < floor(gname):
+            continue
+        if not (cfg["min_duration"] <= c["duration"] <= cfg["max_duration"]):
+            continue
+        cand = {"id": c["id"], "vod": c.get("video_id") or None, "vod_t": c.get("vod_offset"), "group": gname,
+                "bid": c["broadcaster_id"], "views": c["view_count"], "title": c.get("title") or "", "url": c["url"]}
+        # several viewers clip the same moment: only the most viewed copy goes on
+        if any(overlaps(cand, o) for o in picked + seen) or per_channel[c["broadcaster_id"]] >= int(tc.get("per_channel", 3)):
+            continue
+        per_channel[c["broadcaster_id"]] += 1
+        picked.append(cand)
+    users = tw.users_by_id({c["bid"] for c in picked}) if picked else {}
+    cands = []
+    for c in picked:
+        u = users.get(c.pop("bid"))
+        if not u:
+            continue
+        cands.append({**c, "section": None, "kind": "clip", "hot": True, "login": u["login"], "name": u["display_name"],
+                      "source": f"Twitch clip made by a viewer, {c['views']} views: one of the most viewed "
+                                f"GTA 6 clips on Twitch right now, titled \"{c['title']}\""})
+    for gname in cfg["groups"]:
+        mine = [c for c in cands if c["group"] == gname]
+        log(f"Top clips {gname}: {len(mine)} new at {floor(gname)}+ views"
+            + (": " + ", ".join(f"{c['login']} {c['views']}" for c in mine[:6]) if mine else ""))
     return by_language(cands)
 
 
@@ -936,7 +1021,8 @@ def overlaps(a, b):
 
 def reject(state, c, why, **extra):
     log(f"   rejected: {why}")
-    state["rejected"][c["id"]] = {"at": now_utc().isoformat(), "why": why, "login": c["login"]}
+    state["rejected"][c["id"]] = {"at": now_utc().isoformat(), "why": why, "login": c["login"], "kind": c.get("kind"),
+                                  "vod": c.get("vod"), "vod_t": c.get("vod_t")}
     report(c, "rejected", why=why, **extra)
 
 
@@ -1171,7 +1257,7 @@ def pick(state, profile_of, prof, platforms, fresh_only=False):
     for v in sorted(state["posted"].values(), key=lambda v: v["at"]):
         if v.get("ok") and v.get("group") and v.get("profile") == prof:
             last = v["group"]
-    key = lambda c: (c["score"], c.get("viewers") or 0, age_hours(c["at"]))
+    key = lambda c: (c["score"], 1 if c.get("hot") else 0, c.get("viewers") or 0, age_hours(c["at"]))
     cands = [c for c in state["pool"].values()
              if profile_of.get(c["group"]) == prof and not (fresh_only and c.get("previewed"))
              and (not c.get("platforms") or set(c["platforms"]) & set(platforms))]
@@ -1474,12 +1560,21 @@ def main():
     except Exception as e:  # noqa
         log("WARN viewer clips failed:", repr(e))
         clips = []
-    # chat moments first: a spike cannot be found again later, a viewer clip can wait for the next run
+    try:
+        hot = find_top_clips(cfg, state)
+    except Exception as e:  # noqa
+        log("WARN top clips failed:", repr(e))
+        hot = []
+    # the most viewed clips of the day go first: they have already shown that they work outside the stream.
+    # then chat moments: a spike cannot be found again later, a viewer clip can wait for the next run
     # the editor's time is the scarce resource: stop feeding the queue when enough is already waiting,
     # but always look at the strongest fresh moment of the run
     waiting = len(state["pending"]) + len(state["pool"])
     limit = min(int(jc.get("max_checked_per_run", 8)), max(1, int(jc.get("queue_target", 10)) - waiting))
-    order = prefer_publishing(cfg, new[:max(1, limit - 2)] + clips)
+    hot_first = int((cfg.get("top_clips") or {}).get("per_run", 2))
+    ids = {c["id"] for c in hot}
+    clips = [c for c in clips if c["id"] not in ids]
+    order = prefer_publishing(cfg, hot[:hot_first] + new[:max(1, limit - 2)] + clips + hot[hot_first:])
     log(f"Waiting for the editor or a slot: {waiting}; checking up to {limit} new candidate(s)")
     checked = 0
     for c in order:
