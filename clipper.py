@@ -154,8 +154,14 @@ def slot_state(cfg, state, profile, now=None):
         return True, ""
     now = now or now_utc()
     day = now.replace(hour=0, minute=0, second=0, microsecond=0)
-    slots = sorted(day + dt.timedelta(days=d, hours=int(t[:2]), minutes=int(t[3:5]))
-                   for d in (-1, 0, 1) for t in times)
+    slots = []
+    for t in times:         # "HH:MM", or "HH:MM from YYYY-MM-DD" for a slot that is added later (a slow start)
+        since = as_time(t.split("from", 1)[1]) if "from" in t else None
+        slots += [x for x in (day + dt.timedelta(days=d, hours=int(t[:2]), minutes=int(t[3:5])) for d in (-1, 0, 1, 2))
+                  if not since or x >= since]
+    slots.sort()
+    if not [x for x in slots if x <= now]:      # every slot of the profile still lies ahead
+        return False, f"next slot {min(slots):%d.%m %H:%M} UTC"
     cur = max(s for s in slots if s <= now)
     nxt = min(s for s in slots if s > now)
     posts = post_times(state, profile)
