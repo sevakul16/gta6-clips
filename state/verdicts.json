@@ -1214,5 +1214,31 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "AmericanBrainyBibimbapLitty-jvof5DpCKXXQWLAu": {
+  "at": "2026-11-23T17:14:33.449313+00:00",
+  "moment_score": 2,
+  "what_happens": "Рекламная вставка: стример рассказывает про магазин ключей и промокод, пока персонаж идёт по тёмному коридору отеля; в игре ничего не происходит",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "PiliableTemperedCarrotUncleNox-P8rBkId_YdlKhS01": {
+  "at": "2026-11-23T17:14:33.510937+00:00",
+  "moment_score": 6,
+  "what_happens": "Стример едет на квадроцикле через коровью ферму, корова сбивает его с квадрика, он возмущённо отчитывает бурёнку, возвращается к квадроциклу и уезжает",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Ехал мимо фермы, а корова решила иначе 🐄",
+  "keep_start": 4.0,
+  "keep_end": 29.0,
+  "cam": [
+   0.766,
+   0.34,
+   0.232,
+   0.29
+  ],
+  "hook": "Корова сбила с квадрика",
+  "cover_at": 16.5
  }
 }
