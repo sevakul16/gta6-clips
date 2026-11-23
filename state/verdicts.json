@@ -1,87 +1,4 @@
 {
- "CoyKindCroissantKappaRoss-LmxpIbjFpQxa_KWr": {
-  "at": "2026-11-21T17:15:53.472870+00:00",
-  "moment_score": 1,
-  "what_happens": "Стрип-клуб, приватный танец: нагота, игрового события нет",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "EsteemedNimbleFiddleheadsDeIlluminati-TmdqJ61X2fr2_9BE": {
-  "at": "2026-11-21T17:15:53.523599+00:00",
-  "moment_score": 6,
-  "what_happens": "Уходит от полиции на мотоцикле, говорит «не подсказывайте под руку, я не первый день на мотоцикле» и через несколько секунд влетает в опору эстакады; игрок хватается за голову и смеётся. Ночь, картинка тёмная, вебки мелкие, поэтому 6. В записи уже есть титры",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Сказал, что не первый день на мотоцикле, и тут же влетел в столб 🤦",
-  "cam": [
-   0.0,
-   0.576,
-   0.179,
-   0.224
-  ],
-  "hook": "Не учите меня ездить",
-  "cover_at": 20.7,
-  "no_subs": true
- },
- "PhilanthropicTolerantCheddarSoBayed-3ILkBkbamB741prg": {
-  "at": "2026-11-21T17:15:53.572030+00:00",
-  "moment_score": 1,
-  "what_happens": "Стрип-клуб, полуголые танцовщицы и разговоры о ценах: нагота, события нет",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2934772009-2473": {
-  "at": "2026-11-21T17:15:53.615201+00:00",
-  "moment_score": 3,
-  "what_happens": "Тренировка Люсии в зале (мини-игра и катсцены), чат тестирует донаты; события нет, логотип BetBoom заходит в зону вебки",
-  "gameplay_visible": true,
-  "gambling_ad": true,
-  "caption": ""
- },
- "chat-2935172718-1758": {
-  "at": "2026-11-21T17:15:53.660117+00:00",
-  "moment_score": 3,
-  "what_happens": "Высадка на берег и перестрелка под подсказки напарника, всплеск чата из-за голосования да/нет про аукционы: игрового события нет",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2935934475-611": {
-  "at": "2026-11-21T17:15:53.712354+00:00",
-  "moment_score": 2,
-  "what_happens": "Конец донатофона: конфетти, поздравления в чате, стример уходит из кадра; это событие стрима, а не игры",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2936066900-298": {
-  "at": "2026-11-21T17:15:53.763342+00:00",
-  "moment_score": 3,
-  "what_happens": "Катсцена: на Люсию нападают в доме, пожар, чат переживает за змею; только катсцена и спойлер",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2936158697-140": {
-  "at": "2026-11-21T17:15:53.807679+00:00",
-  "moment_score": 6,
-  "what_happens": "Едет на кроссовом мотоцикле, замечает бродячую собаку на рельсах и сбивает её, чат в ужасе (43 раза D:), стример в шоке, потом смеётся и успокаивает чат; первые 40 секунд пустые, оставлен конец. Английский, на полку",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "He spotted a stray dog on the tracks. It went badly and chat lost it 😬",
-  "keep_start": 40.0,
-  "keep_end": 58.6,
-  "cam": [
-   0.005,
-   0.42,
-   0.172,
-   0.215
-  ],
-  "hook": "Not the stray dog",
-  "cover_at": 45.0
- },
  "chat-2936081791-338": {
   "at": "2026-11-21T18:14:09.962141+00:00",
   "moment_score": 5,
@@ -1240,5 +1157,13 @@
   ],
   "hook": "Корова сбила с квадрика",
   "cover_at": 16.5
+ },
+ "YummyBoldMarjoramPoooound-rbL9rWbZL6z7iya6": {
+  "at": "2026-11-23T18:13:49.724472+00:00",
+  "moment_score": 2,
+  "what_happens": "Загрузочные экраны игры с артами и логотипом, затем ночная панорама города; стример говорит по телефону, что его забанили. Игрового события нет",
+  "gameplay_visible": false,
+  "gambling_ad": false,
+  "caption": ""
  }
 }
