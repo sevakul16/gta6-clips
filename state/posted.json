@@ -938,11 +938,6 @@
   }
  },
  "rejected": {
-  "chat-2933453157-2893": {
-   "at": "2026-11-20T19:56:36.231502+00:00",
-   "why": "picture is almost static (motion 0.00)",
-   "login": "welovegames"
-  },
   "FamousBlushingFennelAllenHuhu-dja4WvPYHg5tH04i": {
    "at": "2026-11-20T20:20:56.266379+00:00",
    "why": "editor: 5/10, Баг: лошадь стоит вертикально у стены конюшни, стример беззвучно смеётся; лошадь видна мелко до последних секунд, реакции не слышно, звук -47 дБ",
@@ -3206,6 +3201,53 @@
     "static_share": 0.08403361344537816,
     "peak_db": 6.751316070556641,
     "level_db": -25.33938217163086
+   },
+   "silence": []
+  },
+  "OpenExuberantPepperoniPanicVis-vXRCU1qc5UVZa-7m": {
+   "id": "OpenExuberantPepperoniPanicVis-vXRCU1qc5UVZa-7m",
+   "vod": "2934472461",
+   "vod_t": 69005,
+   "group": "ru",
+   "views": 1381,
+   "title": "СКВОЗЬ СТЕНУ",
+   "url": "https://www.twitch.tv/frametamer666/clip/OpenExuberantPepperoniPanicVis-vXRCU1qc5UVZa-7m",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "frametamer666",
+   "name": "frametamer666",
+   "source": "Twitch clip made by a viewer, 1381 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"СКВОЗЬ СТЕНУ\"",
+   "at": "2026-11-23T19:57:07.161267+00:00",
+   "cam": [
+    27,
+    432,
+    483,
+    339
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 17.3,
+   "words": [
+    {
+     "word": " Хого",
+     "start": 11.47,
+     "end": 11.93
+    },
+    {
+     "word": " хуя.",
+     "start": 11.93,
+     "end": 12.25
+    }
+   ],
+   "metrics": {
+    "motion": 0.291007493755204,
+    "motion_p90": 0.745976837483915,
+    "static_share": 0.014705882352941176,
+    "peak_db": 6.769817352294922,
+    "level_db": -35.47413635253906
    },
    "silence": []
   }
