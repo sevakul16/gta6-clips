@@ -888,373 +888,23 @@
    "vod_t": 4575,
    "hook": "Тигр в фургоне",
    "request_id": "484a17cb225340bfb2dde6107a99d2d6",
-   "cand": {
-    "id": "UgliestLachrymosePigPeanutButterJellyTime-GmBYjZuZhVtGTBYq",
-    "url": "https://www.twitch.tv/bratishkinoff/clip/UgliestLachrymosePigPeanutButterJellyTime-GmBYjZuZhVtGTBYq",
-    "section": null,
-    "kind": "clip",
-    "views": 321,
-    "title": "БратишкинДроп",
-    "vod": "2936028839",
-    "vod_t": 4575,
-    "group": "ru",
-    "login": "bratishkinoff",
-    "name": "bratishkinOFF",
-    "source": "Twitch clip made by a viewer, 321 views, titled \"БратишкинДроп\"",
-    "at": "2026-11-22T01:34:22.936303+00:00",
-    "cam": [
-     0,
-     563,
-     621,
-     437
-    ],
-    "size": [
-     2560,
-     1440
-    ],
-    "dur": 59.6,
-    "words": [
-     {
-      "word": " Блять!",
-      "start": 3.02,
-      "end": 3.72
-     },
-     {
-      "word": " Тигр",
-      "start": 3.84,
-      "end": 4.4
-     },
-     {
-      "word": " блять!",
-      "start": 4.4,
-      "end": 4.94
-     },
-     {
-      "word": " Вы",
-      "start": 5.36,
-      "end": 5.72
-     },
-     {
-      "word": " что",
-      "start": 5.72,
-      "end": 5.92
-     },
-     {
-      "word": " ебанутые!",
-      "start": 5.92,
-      "end": 6.68
-     },
-     {
-      "word": " Ну,",
-      "start": 6.7,
-      "end": 6.86
-     },
-     {
-      "word": " воевэ",
-      "start": 6.9,
-      "end": 7.5
-     },
-     {
-      "word": " блять!",
-      "start": 7.5,
-      "end": 7.88
-     },
-     {
-      "word": " Ёбь",
-      "start": 9.1,
-      "end": 9.8
-     },
-     {
-      "word": " твою",
-      "start": 9.8,
-      "end": 10.14
-     },
-     {
-      "word": " мать,",
-      "start": 10.14,
-      "end": 10.5
-     },
-     {
-      "word": " Мася!",
-      "start": 10.62,
-      "end": 10.98
-     },
-     {
-      "word": " Это",
-      "start": 11.1,
-      "end": 11.26
-     },
-     {
-      "word": " ты,",
-      "start": 11.26,
-      "end": 11.56
-     },
-     {
-      "word": " Мася!",
-      "start": 11.64,
-      "end": 12.04
-     },
-     {
-      "word": " Блять!",
-      "start": 12.12,
-      "end": 12.82
-     },
-     {
-      "word": " Да",
-      "start": 13.64,
-      "end": 13.88
-     },
-     {
-      "word": " и",
-      "start": 13.88,
-      "end": 14.08
-     },
-     {
-      "word": " бать",
-      "start": 14.08,
-      "end": 14.44
-     },
-     {
-      "word": " меня",
-      "start": 14.44,
-      "end": 14.7
-     },
-     {
-      "word": " в",
-      "start": 14.7,
-      "end": 14.96
-     },
-     {
-      "word": " рот",
-      "start": 14.96,
-      "end": 15.14
-     },
-     {
-      "word": " как",
-      "start": 15.14,
-      "end": 15.4
-     },
-     {
-      "word": " один!",
-      "start": 15.4,
-      "end": 15.76
-     },
-     {
-      "word": " Блять!",
-      "start": 15.92,
-      "end": 16.3
-     },
-     {
-      "word": " Три",
-      "start": 16.46,
-      "end": 16.6
-     },
-     {
-      "word": " тигр",
-      "start": 16.6,
-      "end": 16.88
-     },
-     {
-      "word": " выволился",
-      "start": 16.88,
-      "end": 17.4
-     },
-     {
-      "word": " блять!",
-      "start": 17.4,
-      "end": 17.76
-     },
-     {
-      "word": " Муся",
-      "start": 18.62,
-      "end": 19.06
-     },
-     {
-      "word": "-муся",
-      "start": 19.06,
-      "end": 19.44
-     },
-     {
-      "word": "-муся!",
-      "start": 19.44,
-      "end": 19.82
-     },
-     {
-      "word": " ААА!",
-      "start": 19.9,
-      "end": 20.48
-     },
-     {
-      "word": " Муся,",
-      "start": 20.56,
-      "end": 21.0
-     },
-     {
-      "word": " м난ёк!",
-      "start": 21.08,
-      "end": 21.38
-     },
-     {
-      "word": " Блять!",
-      "start": 24.71,
-      "end": 25.21
-     },
-     {
-      "word": " Ебаный",
-      "start": 29.46,
-      "end": 30.16
-     },
-     {
-      "word": " в",
-      "start": 30.16,
-      "end": 30.34
-     },
-     {
-      "word": " рот!",
-      "start": 30.34,
-      "end": 30.6
-     },
-     {
-      "word": " Стой!",
-      "start": 30.82,
-      "end": 31.22
-     },
-     {
-      "word": " Стой,",
-      "start": 35.46,
-      "end": 35.84
-     },
-     {
-      "word": " сука!",
-      "start": 35.96,
-      "end": 36.24
-     },
-     {
-      "word": " Я",
-      "start": 36.98,
-      "end": 37.3
-     },
-     {
-      "word": " его",
-      "start": 37.3,
-      "end": 37.46
-     },
-     {
-      "word": " сейчас",
-      "start": 37.46,
-      "end": 37.62
-     },
-     {
-      "word": " поймаю!",
-      "start": 37.62,
-      "end": 38.14
-     },
-     {
-      "word": " Пиздец,",
-      "start": 46.21,
-      "end": 46.77
-     },
-     {
-      "word": " зря",
-      "start": 46.83,
-      "end": 46.91
-     },
-     {
-      "word": " я",
-      "start": 46.91,
-      "end": 47.03
-     },
-     {
-      "word": " пока",
-      "start": 47.03,
-      "end": 47.27
-     },
-     {
-      "word": " не",
-      "start": 47.27,
-      "end": 47.59
-     },
-     {
-      "word": " залез.",
-      "start": 47.59,
-      "end": 48.13
-     },
-     {
-      "word": " Побежал,",
-      "start": 49.41,
-      "end": 49.81
-     },
-     {
-      "word": " побежал,",
-      "start": 49.89,
-      "end": 50.23
-     },
-     {
-      "word": " у",
-      "start": 50.25,
-      "end": 50.31
-     },
-     {
-      "word": " меня",
-      "start": 50.31,
-      "end": 50.41
-     },
-     {
-      "word": " боится",
-      "start": 50.41,
-      "end": 50.81
-     },
-     {
-      "word": " блять.",
-      "start": 50.81,
-      "end": 51.09
-     },
-     {
-      "word": " Жанин",
-      "start": 51.37,
-      "end": 51.75
-     },
-     {
-      "word": " Кабан,",
-      "start": 51.75,
-      "end": 52.31
-     },
-     {
-      "word": " побежал!",
-      "start": 52.41,
-      "end": 53.03
-     }
-    ],
-    "metrics": {
-     "motion": 0.6166967237751728,
-     "motion_p90": 0.7526901112113015,
-     "static_share": 0.0,
-     "peak_db": 12.315771102905273,
-     "level_db": -31.470932006835938
+   "result": [
+    {
+     "platform": "youtube",
+     "success": true,
+     "post_url": "https://www.youtube.com/watch?v=y6MnP30WmaI",
+     "thumbnail_set": false,
+     "thumbnail_pending": true
     },
-    "silence": [],
-    "caption": "Открыл фургон, а оттуда выпрыгнул тигр 🐅",
-    "hook": "Тигр в фургоне",
-    "cover_at": 21.9,
-    "score": 7,
-    "keep": [
-     0.0,
-     40.0
-    ]
-   }
+    {
+     "platform": "tiktok",
+     "success": true,
+     "post_url": "https://www.tiktok.com/@gta6.viral42/video/7711354653702688033"
+    }
+   ]
   }
  },
  "rejected": {
-  "chat-2934808223-206": {
-   "at": "2026-11-20T13:44:47.922644+00:00",
-   "why": "picture is almost static (motion 0.03)",
-   "login": "skywhywalker"
-  },
-  "chat-2934872080-55": {
-   "at": "2026-11-20T13:46:32.058584+00:00",
-   "why": "picture is almost static (motion 0.02)",
-   "login": "cohhcarnage"
-  },
   "EnticingNeighborlyOilNononoCat-1J6SJ7Tymp6kH8GV": {
    "at": "2026-11-20T14:30:23.800228+00:00",
    "why": "editor: 1/10, Приватный танец в стрип-клубе от первого лица, голая грудь в кадре: нагота, не публикуем",
@@ -3333,6 +2983,328 @@
     "static_share": 0.0,
     "peak_db": 13.101388931274414,
     "level_db": -33.09950637817383
+   },
+   "silence": []
+  },
+  "DepressedColorfulOtterOMGScoots-TJi4ykXoAbUoywsh": {
+   "id": "DepressedColorfulOtterOMGScoots-TJi4ykXoAbUoywsh",
+   "vod": "2936140043",
+   "vod_t": 13797,
+   "group": "ru",
+   "views": 2957,
+   "title": "поня ультует",
+   "url": "https://www.twitch.tv/rostislav_999/clip/DepressedColorfulOtterOMGScoots-TJi4ykXoAbUoywsh",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "rostislav_999",
+   "name": "rostislav_999",
+   "source": "Twitch clip made by a viewer, 2957 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"поня ультует\"",
+   "at": "2026-11-23T13:57:28.458214+00:00",
+   "cam": [
+    113,
+    520,
+    184,
+    130
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 36.5,
+   "words": [
+    {
+     "word": " Не",
+     "start": 1.55,
+     "end": 2.07
+    },
+    {
+     "word": " понял.",
+     "start": 2.07,
+     "end": 2.49
+    },
+    {
+     "word": " Джо,",
+     "start": 2.79,
+     "end": 3.07
+    },
+    {
+     "word": " ты",
+     "start": 3.15,
+     "end": 3.21
+    },
+    {
+     "word": " такой...",
+     "start": 3.21,
+     "end": 3.83
+    },
+    {
+     "word": " А",
+     "start": 3.83,
+     "end": 4.09
+    },
+    {
+     "word": " нет,",
+     "start": 4.09,
+     "end": 4.27
+    },
+    {
+     "word": " мы",
+     "start": 4.39,
+     "end": 4.49
+    },
+    {
+     "word": " один",
+     "start": 4.49,
+     "end": 4.71
+    },
+    {
+     "word": " из",
+     "start": 4.71,
+     "end": 4.89
+    },
+    {
+     "word": " такой",
+     "start": 4.89,
+     "end": 5.15
+    },
+    {
+     "word": " видели,",
+     "start": 5.15,
+     "end": 5.57
+    },
+    {
+     "word": " да,",
+     "start": 5.71,
+     "end": 5.85
+    },
+    {
+     "word": " Джо?",
+     "start": 6.01,
+     "end": 6.15
+    },
+    {
+     "word": " Я",
+     "start": 6.79,
+     "end": 7.15
+    },
+    {
+     "word": " не",
+     "start": 7.15,
+     "end": 7.37
+    },
+    {
+     "word": " один.",
+     "start": 7.37,
+     "end": 7.73
+    },
+    {
+     "word": " О,",
+     "start": 15.94,
+     "end": 16.38
+    },
+    {
+     "word": " в",
+     "start": 16.7,
+     "end": 16.84
+    },
+    {
+     "word": " Гольф",
+     "start": 16.84,
+     "end": 17.14
+    },
+    {
+     "word": " играют!",
+     "start": 17.14,
+     "end": 17.54
+    },
+    {
+     "word": " Я",
+     "start": 17.68,
+     "end": 17.84
+    },
+    {
+     "word": " такой",
+     "start": 17.84,
+     "end": 17.96
+    },
+    {
+     "word": " в",
+     "start": 17.96,
+     "end": 18.12
+    },
+    {
+     "word": " Клиспи",
+     "start": 18.12,
+     "end": 18.5
+    },
+    {
+     "word": " первый",
+     "start": 18.5,
+     "end": 18.58
+    },
+    {
+     "word": " раз",
+     "start": 18.58,
+     "end": 18.78
+    },
+    {
+     "word": " вижу!",
+     "start": 18.78,
+     "end": 19.0
+    },
+    {
+     "word": " Смотри,",
+     "start": 19.48,
+     "end": 19.92
+    },
+    {
+     "word": " смотри,",
+     "start": 20.46,
+     "end": 20.72
+    },
+    {
+     "word": " смотри!",
+     "start": 21.12,
+     "end": 21.5
+    },
+    {
+     "word": " Держи,",
+     "start": 22.2,
+     "end": 22.64
+    },
+    {
+     "word": " блять!",
+     "start": 22.72,
+     "end": 22.82
+    },
+    {
+     "word": " Базовый",
+     "start": 29.3,
+     "end": 29.74
+    },
+    {
+     "word": " отель.",
+     "start": 29.74,
+     "end": 30.12
+    },
+    {
+     "word": " Вот",
+     "start": 30.7,
+     "end": 30.88
+    },
+    {
+     "word": " вчера",
+     "start": 30.88,
+     "end": 31.08
+    },
+    {
+     "word": " такой",
+     "start": 31.08,
+     "end": 31.32
+    },
+    {
+     "word": " же",
+     "start": 31.32,
+     "end": 31.48
+    },
+    {
+     "word": " был,",
+     "start": 31.48,
+     "end": 31.64
+    },
+    {
+     "word": " я",
+     "start": 31.72,
+     "end": 31.76
+    },
+    {
+     "word": " вышел",
+     "start": 31.76,
+     "end": 32.06
+    },
+    {
+     "word": " с",
+     "start": 32.06,
+     "end": 32.16
+    },
+    {
+     "word": " вашего",
+     "start": 32.16,
+     "end": 32.44
+    },
+    {
+     "word": " отеля,",
+     "start": 32.44,
+     "end": 32.74
+    },
+    {
+     "word": " если",
+     "start": 32.84,
+     "end": 32.9
+    },
+    {
+     "word": " что,",
+     "start": 32.9,
+     "end": 33.1
+    },
+    {
+     "word": " вот",
+     "start": 33.12,
+     "end": 33.18
+    },
+    {
+     "word": " зашел",
+     "start": 33.18,
+     "end": 33.44
+    },
+    {
+     "word": " в",
+     "start": 33.44,
+     "end": 33.54
+    },
+    {
+     "word": " соседнюю",
+     "start": 33.54,
+     "end": 33.9
+    },
+    {
+     "word": " комнату,",
+     "start": 33.9,
+     "end": 34.18
+    },
+    {
+     "word": " там",
+     "start": 34.24,
+     "end": 34.32
+    },
+    {
+     "word": " вот",
+     "start": 34.32,
+     "end": 34.4
+    },
+    {
+     "word": " такая",
+     "start": 34.4,
+     "end": 34.58
+    },
+    {
+     "word": " тема",
+     "start": 34.58,
+     "end": 34.9
+    },
+    {
+     "word": " была.",
+     "start": 34.9,
+     "end": 35.04
+    }
+   ],
+   "metrics": {
+    "motion": 0.24380630630630631,
+    "motion_p90": 0.694510135135135,
+    "static_share": 0.0,
+    "peak_db": 9.598943710327148,
+    "level_db": -27.170753479003906
    },
    "silence": []
   }
