@@ -938,36 +938,6 @@
   }
  },
  "rejected": {
-  "HelpfulInquisitiveRatNinjaGrumpy-IB9QIT9aKlOR2spw": {
-   "at": "2026-11-20T19:33:29.025624+00:00",
-   "why": "editor: 3/10, Десять секунд перестрелки у мотеля и реплика чату; отдельного момента нет",
-   "login": "buster"
-  },
-  "chat-2933453157-2799": {
-   "at": "2026-11-20T19:33:29.026665+00:00",
-   "why": "editor: 3/10, Ночью обносит склад, чат требует освободить попугая, он не понимает как и открывает карту; развязки нет",
-   "login": "welovegames"
-  },
-  "chat-2934472461-1335": {
-   "at": "2026-11-20T19:33:29.027210+00:00",
-   "why": "editor: 3/10, Катается на самокате и обещает прыжок через копов, прыжка в отрезке нет; чат пишет про зависшую картинку доната поверх игры",
-   "login": "frametamer666"
-  },
-  "chat-2934897780-387": {
-   "at": "2026-11-20T19:33:29.027697+00:00",
-   "why": "editor: 3/10, Перестрелка в тёмном здании, кадр почти чёрный, рамка вебкамеры мимо; ясного события нет",
-   "login": "hutchmf"
-  },
-  "chat-2934897780-422": {
-   "at": "2026-11-20T19:33:29.028237+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "hutchmf"
-  },
-  "chat-2934989101-298": {
-   "at": "2026-11-20T19:33:29.029422+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "edison"
-  },
   "chat-2933453157-2893": {
    "at": "2026-11-20T19:56:36.231502+00:00",
    "why": "picture is almost static (motion 0.00)",
@@ -2543,920 +2513,33 @@
    "kind": "clip",
    "vod": "2934772009",
    "vod_t": 130658
+  },
+  "ProtectiveRelatedLarkNerfBlueBlaster-6uZdnOFd3WRA9Xc5": {
+   "at": "2026-11-23T19:14:49.687113+00:00",
+   "why": "editor: no webcam in the picture",
+   "login": "orkpod",
+   "kind": "clip",
+   "vod": "2937320908",
+   "vod_t": 17642
+  },
+  "CarefulTardySpiderCorgiDerp-jJ5FgohAKoSf4m1V": {
+   "at": "2026-11-23T19:14:49.687511+00:00",
+   "why": "editor: 1/10, Приватный танец в стрип-клубе: крупные планы танцора в стрингах от первого лица почти весь ролик. Откровенная сцена, площадки такое ограничивают",
+   "login": "gensyxa",
+   "kind": "clip",
+   "vod": "2936470542",
+   "vod_t": 6678
+  },
+  "MoistFamousSquirrelTebowing-nCZyFYRP9AJbfWU_": {
+   "at": "2026-11-23T19:14:49.687813+00:00",
+   "why": "editor: 2/10, Рекламная вставка: стример читает про магазин ключей и промокод, пока гидросамолёт летит над морем в сюжетной сцене; события в игре нет",
+   "login": "leva2k",
+   "kind": "clip",
+   "vod": "2935172718",
+   "vod_t": 93231
   }
  },
  "pending": {
-  "ProtectiveRelatedLarkNerfBlueBlaster-6uZdnOFd3WRA9Xc5": {
-   "id": "ProtectiveRelatedLarkNerfBlueBlaster-6uZdnOFd3WRA9Xc5",
-   "vod": "2937320908",
-   "vod_t": 17642,
-   "group": "ru",
-   "views": 1565,
-   "title": "ПОМОГ БЛОГЕРУ",
-   "url": "https://www.twitch.tv/orkpod/clip/ProtectiveRelatedLarkNerfBlueBlaster-6uZdnOFd3WRA9Xc5",
-   "section": null,
-   "kind": "clip",
-   "hot": true,
-   "login": "orkpod",
-   "name": "orkpod",
-   "source": "Twitch clip made by a viewer, 1565 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"ПОМОГ БЛОГЕРУ\"",
-   "at": "2026-11-23T18:17:09.365752+00:00",
-   "cam": null,
-   "size": [
-    2560,
-    1440
-   ],
-   "dur": 30.0,
-   "words": [
-    {
-     "word": " Так,",
-     "start": 0.0,
-     "end": 0.44
-    },
-    {
-     "word": " так,",
-     "start": 0.72,
-     "end": 0.72
-    },
-    {
-     "word": " ребят,",
-     "start": 0.82,
-     "end": 1.24
-    },
-    {
-     "word": " у",
-     "start": 1.3,
-     "end": 1.36
-    },
-    {
-     "word": " нас",
-     "start": 1.36,
-     "end": 1.5
-    },
-    {
-     "word": " блогер.",
-     "start": 1.5,
-     "end": 2.16
-    },
-    {
-     "word": " Привет,",
-     "start": 4.84,
-     "end": 5.42
-    },
-    {
-     "word": " что",
-     "start": 5.68,
-     "end": 5.84
-    },
-    {
-     "word": " ты",
-     "start": 5.84,
-     "end": 5.98
-    },
-    {
-     "word": " делаешь?",
-     "start": 5.98,
-     "end": 6.3
-    },
-    {
-     "word": " Фанат",
-     "start": 6.5,
-     "end": 6.74
-    },
-    {
-     "word": " вяле,",
-     "start": 6.74,
-     "end": 7.18
-    },
-    {
-     "word": " гляньте,",
-     "start": 7.34,
-     "end": 7.62
-    },
-    {
-     "word": " гляньте.",
-     "start": 7.74,
-     "end": 8.04
-    },
-    {
-     "word": " Что",
-     "start": 8.1,
-     "end": 8.24
-    },
-    {
-     "word": " это",
-     "start": 8.24,
-     "end": 8.36
-    },
-    {
-     "word": " ты",
-     "start": 8.36,
-     "end": 8.46
-    },
-    {
-     "word": " делаешь?",
-     "start": 8.46,
-     "end": 8.9
-    },
-    {
-     "word": " Обычно",
-     "start": 10.12,
-     "end": 10.7
-    },
-    {
-     "word": " фанаты",
-     "start": 10.7,
-     "end": 11.08
-    },
-    {
-     "word": " за",
-     "start": 11.08,
-     "end": 11.2
-    },
-    {
-     "word": " такое",
-     "start": 11.2,
-     "end": 11.38
-    },
-    {
-     "word": " доплачивают.",
-     "start": 11.38,
-     "end": 11.96
-    },
-    {
-     "word": " А,",
-     "start": 12.9,
-     "end": 13.1
-    },
-    {
-     "word": " че,",
-     "start": 13.78,
-     "end": 14.98
-    },
-    {
-     "word": " нет,",
-     "start": 15.08,
-     "end": 15.24
-    },
-    {
-     "word": " а.",
-     "start": 15.72,
-     "end": 15.86
-    },
-    {
-     "word": " Так,",
-     "start": 18.52,
-     "end": 19.1
-    },
-    {
-     "word": " так.",
-     "start": 19.26,
-     "end": 19.44
-    },
-    {
-     "word": " Вот",
-     "start": 23.08,
-     "end": 23.66
-    },
-    {
-     "word": " так",
-     "start": 23.66,
-     "end": 24.24
-    },
-    {
-     "word": " надо,",
-     "start": 24.24,
-     "end": 24.58
-    },
-    {
-     "word": " тупой",
-     "start": 24.84,
-     "end": 25.22
-    },
-    {
-     "word": " блогер.",
-     "start": 25.22,
-     "end": 25.88
-    },
-    {
-     "word": " Все",
-     "start": 28.66,
-     "end": 29.02
-    },
-    {
-     "word": " вы",
-     "start": 29.02,
-     "end": 29.3
-    },
-    {
-     "word": " на",
-     "start": 29.3,
-     "end": 29.48
-    },
-    {
-     "word": " хрен...",
-     "start": 29.48,
-     "end": 29.94
-    }
-   ],
-   "metrics": {
-    "motion": 0.211875,
-    "motion_p90": 0.6486666666666667,
-    "static_share": 0.03361344537815126,
-    "peak_db": 6.266510963439941,
-    "level_db": -18.527206420898438
-   },
-   "silence": []
-  },
-  "CarefulTardySpiderCorgiDerp-jJ5FgohAKoSf4m1V": {
-   "id": "CarefulTardySpiderCorgiDerp-jJ5FgohAKoSf4m1V",
-   "vod": "2936470542",
-   "vod_t": 6678,
-   "group": "ru",
-   "views": 1566,
-   "title": "ОГО",
-   "url": "https://www.twitch.tv/gensyxa/clip/CarefulTardySpiderCorgiDerp-jJ5FgohAKoSf4m1V",
-   "section": null,
-   "kind": "clip",
-   "hot": true,
-   "login": "gensyxa",
-   "name": "GENSYXA",
-   "source": "Twitch clip made by a viewer, 1566 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"ОГО\"",
-   "at": "2026-11-23T18:30:03.511332+00:00",
-   "cam": [
-    2087,
-    432,
-    327,
-    230
-   ],
-   "size": [
-    2560,
-    1440
-   ],
-   "dur": 37.9,
-   "words": [
-    {
-     "word": " Как",
-     "start": 0.0,
-     "end": 0.1
-    },
-    {
-     "word": " я",
-     "start": 0.1,
-     "end": 0.22
-    },
-    {
-     "word": " тут",
-     "start": 0.22,
-     "end": 0.32
-    },
-    {
-     "word": " оказалась?",
-     "start": 0.32,
-     "end": 1.2
-    },
-    {
-     "word": " Джейсон",
-     "start": 4.15,
-     "end": 4.59
-    },
-    {
-     "word": " Джейсон,",
-     "start": 6.19,
-     "end": 6.63
-    },
-    {
-     "word": " ты",
-     "start": 6.75,
-     "end": 6.89
-    },
-    {
-     "word": " где?",
-     "start": 6.89,
-     "end": 7.19
-    },
-    {
-     "word": " Блин,",
-     "start": 7.43,
-     "end": 7.65
-    },
-    {
-     "word": " слева",
-     "start": 7.73,
-     "end": 8.11
-    },
-    {
-     "word": " там",
-     "start": 8.11,
-     "end": 8.33
-    },
-    {
-     "word": " А,",
-     "start": 8.33,
-     "end": 9.03
-    },
-    {
-     "word": " так",
-     "start": 9.15,
-     "end": 9.19
-    },
-    {
-     "word": " это",
-     "start": 9.19,
-     "end": 9.39
-    },
-    {
-     "word": " было",
-     "start": 9.39,
-     "end": 9.61
-    },
-    {
-     "word": " все",
-     "start": 9.61,
-     "end": 9.87
-    },
-    {
-     "word": " время?",
-     "start": 9.87,
-     "end": 10.27
-    },
-    {
-     "word": " Нет,",
-     "start": 13.73,
-     "end": 14.17
-    },
-    {
-     "word": " я",
-     "start": 14.37,
-     "end": 14.45
-    },
-    {
-     "word": " не",
-     "start": 14.45,
-     "end": 14.57
-    },
-    {
-     "word": " уберу",
-     "start": 14.57,
-     "end": 14.95
-    },
-    {
-     "word": " руки",
-     "start": 14.95,
-     "end": 15.33
-    },
-    {
-     "word": " Нет,",
-     "start": 15.33,
-     "end": 15.63
-    },
-    {
-     "word": " не",
-     "start": 15.79,
-     "end": 15.85
-    },
-    {
-     "word": " уберу,",
-     "start": 15.85,
-     "end": 16.21
-    },
-    {
-     "word": " я",
-     "start": 16.51,
-     "end": 16.67
-    },
-    {
-     "word": " не",
-     "start": 16.67,
-     "end": 16.81
-    },
-    {
-     "word": " уберу",
-     "start": 16.81,
-     "end": 17.09
-    },
-    {
-     "word": " руки",
-     "start": 17.09,
-     "end": 17.67
-    },
-    {
-     "word": " Я",
-     "start": 18.19,
-     "end": 18.51
-    },
-    {
-     "word": " только",
-     "start": 18.51,
-     "end": 18.69
-    },
-    {
-     "word": " это",
-     "start": 18.69,
-     "end": 18.91
-    },
-    {
-     "word": " и",
-     "start": 18.91,
-     "end": 19.01
-    },
-    {
-     "word": " могу",
-     "start": 19.01,
-     "end": 19.23
-    },
-    {
-     "word": " сделать,",
-     "start": 19.23,
-     "end": 19.65
-    },
-    {
-     "word": " по",
-     "start": 19.81,
-     "end": 19.91
-    },
-    {
-     "word": " ходу",
-     "start": 19.91,
-     "end": 20.51
-    },
-    {
-     "word": " Присидите",
-     "start": 22.34,
-     "end": 22.78
-    },
-    {
-     "word": " ли",
-     "start": 22.78,
-     "end": 22.98
-    },
-    {
-     "word": " в",
-     "start": 22.98,
-     "end": 23.08
-    },
-    {
-     "word": " этот",
-     "start": 23.08,
-     "end": 23.18
-    },
-    {
-     "word": " момент?",
-     "start": 23.18,
-     "end": 23.56
-    },
-    {
-     "word": " Мне",
-     "start": 36.1,
-     "end": 36.32
-    },
-    {
-     "word": " вас",
-     "start": 36.32,
-     "end": 36.46
-    },
-    {
-     "word": " смотрите,",
-     "start": 36.46,
-     "end": 36.74
-    },
-    {
-     "word": " даже",
-     "start": 36.9,
-     "end": 37.1
-    },
-    {
-     "word": " шрам",
-     "start": 37.1,
-     "end": 37.64
-    }
-   ],
-   "metrics": {
-    "motion": 0.4931487397941072,
-    "motion_p90": 0.665743698970536,
-    "static_share": 0.0,
-    "peak_db": 5.079074859619141,
-    "level_db": -16.548254013061523
-   },
-   "silence": []
-  },
-  "MoistFamousSquirrelTebowing-nCZyFYRP9AJbfWU_": {
-   "id": "MoistFamousSquirrelTebowing-nCZyFYRP9AJbfWU_",
-   "vod": "2935172718",
-   "vod_t": 93231,
-   "group": "ru",
-   "views": 1439,
-   "title": "ггсел",
-   "url": "https://www.twitch.tv/leva2k/clip/MoistFamousSquirrelTebowing-nCZyFYRP9AJbfWU_",
-   "section": null,
-   "kind": "clip",
-   "hot": true,
-   "login": "leva2k",
-   "name": "leva2k",
-   "source": "Twitch clip made by a viewer, 1439 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"ггсел\"",
-   "at": "2026-11-23T18:51:58.122948+00:00",
-   "cam": [
-    2266,
-    561,
-    294,
-    206
-   ],
-   "size": [
-    2560,
-    1440
-   ],
-   "dur": 39.6,
-   "words": [
-    {
-     "word": " А,",
-     "start": 0.0,
-     "end": 0.42
-    },
-    {
-     "word": " кстати,",
-     "start": 1.24,
-     "end": 1.6
-    },
-    {
-     "word": " я",
-     "start": 1.88,
-     "end": 1.96
-    },
-    {
-     "word": " вам",
-     "start": 1.96,
-     "end": 2.06
-    },
-    {
-     "word": " хотел",
-     "start": 2.06,
-     "end": 2.26
-    },
-    {
-     "word": " сказать,",
-     "start": 2.26,
-     "end": 2.64
-    },
-    {
-     "word": " кто",
-     "start": 3.12,
-     "end": 4.22
-    },
-    {
-     "word": " смотрит",
-     "start": 4.22,
-     "end": 4.68
-    },
-    {
-     "word": " стрим",
-     "start": 4.68,
-     "end": 5.2
-    },
-    {
-     "word": " и",
-     "start": 5.2,
-     "end": 5.72
-    },
-    {
-     "word": " вам",
-     "start": 5.72,
-     "end": 6.42
-    },
-    {
-     "word": " понравилось",
-     "start": 6.42,
-     "end": 6.84
-    },
-    {
-     "word": " играю",
-     "start": 6.84,
-     "end": 7.34
-    },
-    {
-     "word": " и",
-     "start": 7.34,
-     "end": 7.38
-    },
-    {
-     "word": " подумали,",
-     "start": 7.38,
-     "end": 7.8
-    },
-    {
-     "word": " где",
-     "start": 7.86,
-     "end": 7.98
-    },
-    {
-     "word": " же",
-     "start": 7.98,
-     "end": 8.1
-    },
-    {
-     "word": " купить",
-     "start": 8.1,
-     "end": 8.36
-    },
-    {
-     "word": " GTA",
-     "start": 8.36,
-     "end": 8.64
-    },
-    {
-     "word": " 6,",
-     "start": 8.64,
-     "end": 9.18
-    },
-    {
-     "word": " то",
-     "start": 9.76,
-     "end": 9.84
-    },
-    {
-     "word": " GTA",
-     "start": 9.84,
-     "end": 10.02
-    },
-    {
-     "word": " 6",
-     "start": 10.02,
-     "end": 10.36
-    },
-    {
-     "word": " вы",
-     "start": 10.36,
-     "end": 10.48
-    },
-    {
-     "word": " можете",
-     "start": 10.48,
-     "end": 10.74
-    },
-    {
-     "word": " купить",
-     "start": 10.74,
-     "end": 11.76
-    },
-    {
-     "word": " на",
-     "start": 11.76,
-     "end": 11.94
-    },
-    {
-     "word": " GGSL,",
-     "start": 11.94,
-     "end": 12.68
-    },
-    {
-     "word": " то",
-     "start": 13.02,
-     "end": 13.08
-    },
-    {
-     "word": " есть",
-     "start": 13.08,
-     "end": 13.18
-    },
-    {
-     "word": " по",
-     "start": 13.18,
-     "end": 13.34
-    },
-    {
-     "word": " ссылке",
-     "start": 13.34,
-     "end": 13.58
-    },
-    {
-     "word": " в",
-     "start": 13.58,
-     "end": 13.68
-    },
-    {
-     "word": " описании,",
-     "start": 13.68,
-     "end": 13.98
-    },
-    {
-     "word": " вы",
-     "start": 14.6,
-     "end": 14.92
-    },
-    {
-     "word": " можете",
-     "start": 14.92,
-     "end": 15.18
-    },
-    {
-     "word": " перейти",
-     "start": 15.18,
-     "end": 15.58
-    },
-    {
-     "word": " на",
-     "start": 15.58,
-     "end": 15.8
-    },
-    {
-     "word": " GGSL",
-     "start": 15.8,
-     "end": 16.88
-    },
-    {
-     "word": " и",
-     "start": 16.88,
-     "end": 17.34
-    },
-    {
-     "word": " там",
-     "start": 17.34,
-     "end": 17.48
-    },
-    {
-     "word": " приобрести",
-     "start": 17.48,
-     "end": 17.94
-    },
-    {
-     "word": " свою",
-     "start": 17.94,
-     "end": 18.14
-    },
-    {
-     "word": " GTA",
-     "start": 18.14,
-     "end": 18.5
-    },
-    {
-     "word": " 6.",
-     "start": 18.5,
-     "end": 18.98
-    },
-    {
-     "word": " Также",
-     "start": 19.16,
-     "end": 19.5
-    },
-    {
-     "word": " подписка",
-     "start": 19.5,
-     "end": 20.06
-    },
-    {
-     "word": " начат",
-     "start": 20.06,
-     "end": 20.32
-    },
-    {
-     "word": " GPD,",
-     "start": 20.32,
-     "end": 20.74
-    },
-    {
-     "word": " или",
-     "start": 21.06,
-     "end": 21.2
-    },
-    {
-     "word": " на",
-     "start": 21.2,
-     "end": 21.38
-    },
-    {
-     "word": " Spotify,",
-     "start": 21.38,
-     "end": 21.72
-    },
-    {
-     "word": " или",
-     "start": 22.36,
-     "end": 22.5
-    },
-    {
-     "word": " на",
-     "start": 22.5,
-     "end": 22.68
-    },
-    {
-     "word": " другую",
-     "start": 22.68,
-     "end": 23.06
-    },
-    {
-     "word": " нейросесть,",
-     "start": 23.06,
-     "end": 23.66
-    },
-    {
-     "word": " да",
-     "start": 24.0,
-     "end": 24.08
-    },
-    {
-     "word": " всё",
-     "start": 24.08,
-     "end": 24.32
-    },
-    {
-     "word": " что",
-     "start": 24.32,
-     "end": 24.56
-    },
-    {
-     "word": " угодно,",
-     "start": 24.56,
-     "end": 24.86
-    },
-    {
-     "word": " любые",
-     "start": 24.98,
-     "end": 25.3
-    },
-    {
-     "word": " цифровые",
-     "start": 25.3,
-     "end": 25.8
-    },
-    {
-     "word": " товары,",
-     "start": 25.8,
-     "end": 26.24
-    },
-    {
-     "word": " на",
-     "start": 26.4,
-     "end": 26.54
-    },
-    {
-     "word": " GGSL.",
-     "start": 26.54,
-     "end": 27.48
-    },
-    {
-     "word": " А",
-     "start": 27.48,
-     "end": 27.66
-    },
-    {
-     "word": " по",
-     "start": 27.66,
-     "end": 27.78
-    },
-    {
-     "word": "-моему,",
-     "start": 27.78,
-     "end": 28.04
-    },
-    {
-     "word": " промоходу",
-     "start": 28.14,
-     "end": 28.58
-    },
-    {
-     "word": " «Лёва",
-     "start": 28.58,
-     "end": 28.82
-    },
-    {
-     "word": " 2К»",
-     "start": 28.82,
-     "end": 30.26
-    },
-    {
-     "word": " скидка",
-     "start": 30.26,
-     "end": 30.82
-    },
-    {
-     "word": " без",
-     "start": 30.82,
-     "end": 31.88
-    },
-    {
-     "word": " комиссии",
-     "start": 31.88,
-     "end": 32.46
-    },
-    {
-     "word": " пополнения",
-     "start": 32.46,
-     "end": 33.04
-    },
-    {
-     "word": " стима.",
-     "start": 33.04,
-     "end": 33.46
-    }
-   ],
-   "metrics": {
-    "motion": 0.20137073411997455,
-    "motion_p90": 0.5671447749593725,
-    "static_share": 0.006369426751592357,
-    "peak_db": 7.456693649291992,
-    "level_db": -29.574283599853516
-   },
-   "silence": []
-  },
   "BlatantPeacefulEggplantVoteNay-l-zhet_0V9toGzLo": {
    "id": "BlatantPeacefulEggplantVoteNay-l-zhet_0V9toGzLo",
    "vod": "2936452781",
@@ -3786,6 +2869,343 @@
     "static_share": 0.014285714285714285,
     "peak_db": 12.260749816894531,
     "level_db": -29.44615936279297
+   },
+   "silence": []
+  },
+  "SilkyHelplessSashimiYouWHY-ogRIBuaM9Nsr0LfH": {
+   "id": "SilkyHelplessSashimiYouWHY-ogRIBuaM9Nsr0LfH",
+   "vod": "2937407818",
+   "vod_t": 6738,
+   "group": "ru",
+   "views": 1452,
+   "title": "ггсел",
+   "url": "https://www.twitch.tv/steel/clip/SilkyHelplessSashimiYouWHY-ogRIBuaM9Nsr0LfH",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "steel",
+   "name": "steel",
+   "source": "Twitch clip made by a viewer, 1452 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"ггсел\"",
+   "at": "2026-11-23T19:35:44.017202+00:00",
+   "cam": [
+    216,
+    318,
+    218,
+    153
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 30.0,
+   "words": [
+    {
+     "word": " Соня,",
+     "start": 0.62,
+     "end": 1.34
+    },
+    {
+     "word": " скажи,",
+     "start": 1.58,
+     "end": 2.72
+    },
+    {
+     "word": " какой",
+     "start": 2.74,
+     "end": 2.92
+    },
+    {
+     "word": " там",
+     "start": 2.92,
+     "end": 3.1
+    },
+    {
+     "word": " аккаунт",
+     "start": 3.1,
+     "end": 3.52
+    },
+    {
+     "word": " надо?",
+     "start": 3.52,
+     "end": 3.66
+    },
+    {
+     "word": " Блин,",
+     "start": 4.52,
+     "end": 4.56
+    },
+    {
+     "word": " X",
+     "start": 4.64,
+     "end": 4.7
+    },
+    {
+     "word": "-box?",
+     "start": 4.7,
+     "end": 4.82
+    },
+    {
+     "word": " Посмотрите",
+     "start": 5.36,
+     "end": 5.76
+    },
+    {
+     "word": " на",
+     "start": 5.76,
+     "end": 5.96
+    },
+    {
+     "word": " GDSL,",
+     "start": 5.96,
+     "end": 6.42
+    },
+    {
+     "word": " пацаны,",
+     "start": 6.54,
+     "end": 6.78
+    },
+    {
+     "word": " я",
+     "start": 6.86,
+     "end": 6.92
+    },
+    {
+     "word": " на",
+     "start": 6.92,
+     "end": 7.0
+    },
+    {
+     "word": " GDSL",
+     "start": 7.0,
+     "end": 7.5
+    },
+    {
+     "word": " покупал",
+     "start": 7.5,
+     "end": 8.0
+    },
+    {
+     "word": " этажку.",
+     "start": 8.0,
+     "end": 9.34
+    },
+    {
+     "word": " Посмотрите",
+     "start": 10.24,
+     "end": 10.64
+    },
+    {
+     "word": " на",
+     "start": 10.64,
+     "end": 10.84
+    },
+    {
+     "word": " GDSL",
+     "start": 10.84,
+     "end": 12.18
+    },
+    {
+     "word": " для",
+     "start": 12.18,
+     "end": 12.18
+    },
+    {
+     "word": " Юрчика,",
+     "start": 12.18,
+     "end": 13.14
+    },
+    {
+     "word": " понял?",
+     "start": 13.3,
+     "end": 13.38
+    },
+    {
+     "word": " Хочу",
+     "start": 13.98,
+     "end": 14.26
+    },
+    {
+     "word": " вам",
+     "start": 14.26,
+     "end": 14.38
+    },
+    {
+     "word": " развереть",
+     "start": 14.38,
+     "end": 14.7
+    },
+    {
+     "word": " Юр",
+     "start": 14.7,
+     "end": 15.22
+    },
+    {
+     "word": " и",
+     "start": 15.22,
+     "end": 15.32
+    },
+    {
+     "word": " Соню",
+     "start": 15.32,
+     "end": 15.66
+    },
+    {
+     "word": " и",
+     "start": 15.66,
+     "end": 15.82
+    },
+    {
+     "word": " Рев.",
+     "start": 15.82,
+     "end": 16.0
+    },
+    {
+     "word": " Блин,",
+     "start": 16.26,
+     "end": 16.42
+    },
+    {
+     "word": " патронов",
+     "start": 16.56,
+     "end": 17.08
+    },
+    {
+     "word": " нету,",
+     "start": 17.08,
+     "end": 17.46
+    },
+    {
+     "word": " я",
+     "start": 17.5,
+     "end": 17.58
+    },
+    {
+     "word": " ему",
+     "start": 17.58,
+     "end": 17.76
+    },
+    {
+     "word": " с",
+     "start": 17.76,
+     "end": 18.16
+    },
+    {
+     "word": " товарищами.",
+     "start": 21.3,
+     "end": 22.5
+    },
+    {
+     "word": " Удочка,",
+     "start": 23.46,
+     "end": 23.86
+    },
+    {
+     "word": " не",
+     "start": 23.94,
+     "end": 24.04
+    },
+    {
+     "word": " уебу",
+     "start": 24.04,
+     "end": 24.34
+    },
+    {
+     "word": " я",
+     "start": 24.34,
+     "end": 24.46
+    },
+    {
+     "word": " его,",
+     "start": 24.46,
+     "end": 24.56
+    },
+    {
+     "word": " что",
+     "start": 24.6,
+     "end": 24.7
+    },
+    {
+     "word": " ли?",
+     "start": 24.7,
+     "end": 24.84
+    },
+    {
+     "word": " Бери",
+     "start": 25.12,
+     "end": 25.18
+    },
+    {
+     "word": " этот",
+     "start": 25.18,
+     "end": 26.3
+    },
+    {
+     "word": " ствол.",
+     "start": 26.3,
+     "end": 26.66
+    },
+    {
+     "word": " Почему",
+     "start": 26.82,
+     "end": 27.06
+    },
+    {
+     "word": " ты",
+     "start": 27.06,
+     "end": 27.2
+    },
+    {
+     "word": " как",
+     "start": 27.2,
+     "end": 27.32
+    },
+    {
+     "word": " этот",
+     "start": 27.32,
+     "end": 27.6
+    },
+    {
+     "word": " сказал",
+     "start": 27.6,
+     "end": 27.94
+    },
+    {
+     "word": " этого",
+     "start": 27.94,
+     "end": 28.5
+    },
+    {
+     "word": " мужика?",
+     "start": 28.5,
+     "end": 28.9
+    },
+    {
+     "word": " Как",
+     "start": 29.04,
+     "end": 29.04
+    },
+    {
+     "word": " это",
+     "start": 29.04,
+     "end": 29.16
+    },
+    {
+     "word": " зовут?",
+     "start": 29.16,
+     "end": 29.32
+    },
+    {
+     "word": " Амельхан.",
+     "start": 29.52,
+     "end": 29.92
+    }
+   ],
+   "metrics": {
+    "motion": 0.31499824376536706,
+    "motion_p90": 0.5421145064980681,
+    "static_share": 0.08403361344537816,
+    "peak_db": 6.751316070556641,
+    "level_db": -25.33938217163086
    },
    "silence": []
   }
