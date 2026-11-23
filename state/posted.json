@@ -2706,6 +2706,68 @@
     "level_db": -25.557838439941406
    },
    "silence": []
+  },
+  "FlirtyCooperativeWombatSaltBae-VmpUus5hRgNgeEfk": {
+   "id": "FlirtyCooperativeWombatSaltBae-VmpUus5hRgNgeEfk",
+   "vod": "2936361328",
+   "vod_t": 43298,
+   "group": "ru",
+   "views": 1045,
+   "title": "12 час стрима",
+   "url": "https://www.twitch.tv/stray228/clip/FlirtyCooperativeWombatSaltBae-VmpUus5hRgNgeEfk",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "stray228",
+   "name": "Stray228",
+   "source": "Twitch clip made by a viewer, 1045 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"12 час стрима\"",
+   "at": "2026-11-23T23:55:19.187037+00:00",
+   "cam": [
+    1623,
+    157,
+    285,
+    200
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 30.0,
+   "words": [
+    {
+     "word": " в",
+     "start": 0.0,
+     "end": 0.26
+    },
+    {
+     "word": " его",
+     "start": 0.26,
+     "end": 0.46
+    },
+    {
+     "word": " принципе",
+     "start": 0.46,
+     "end": 1.28
+    },
+    {
+     "word": " кто",
+     "start": 1.28,
+     "end": 1.58
+    },
+    {
+     "word": "-то",
+     "start": 1.58,
+     "end": 1.76
+    }
+   ],
+   "metrics": {
+    "motion": 0.42898032200357783,
+    "motion_p90": 0.5084651162790698,
+    "static_share": 0.0,
+    "peak_db": 2.1378936767578125,
+    "level_db": -23.795013427734375
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -5699,5 +5761,6 @@
    "seconds": 53.1
   }
  },
- "checked_n": 10
+ "checked_n": 11,
+ "check_errors": {}
 }
