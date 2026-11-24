@@ -938,36 +938,6 @@
   }
  },
  "rejected": {
-  "chat-2934132437-2686": {
-   "at": "2026-11-21T07:29:51.498236+00:00",
-   "why": "editor: 4/10, Катсцена с мутантом, похожим на Халка, затем находит в сарае мутировавшую клубнику и ест её; чем это кончилось, в клип не попало, сам почти молчит.",
-   "login": "ludwig"
-  },
-  "chat-2935760785-211": {
-   "at": "2026-11-21T07:29:51.498571+00:00",
-   "why": "editor: 5/10, Ночью грабит двух женщин у фургона, те дают отпор, он залезает на крышу и сбрасывает полезшую за ним; чат в восторге, но картинка тёмная, фигуры мелкие, вебкамера крошечная, на телефоне будет непонятно.",
-   "login": "jerma985"
-  },
-  "chat-2935613960-417": {
-   "at": "2026-11-21T07:29:51.499708+00:00",
-   "why": "editor: 5/10, Миссия на грузовом вертолёте под пятью звёздами: вертолёт врезается в башню, WASTED; речи стримера нет, картинка тёмная, провал миссии без реакции.",
-   "login": "kaicenat"
-  },
-  "chat-2935613960-436": {
-   "at": "2026-11-21T07:29:51.500136+00:00",
-   "why": "editor: 2/10, Едет на красном суперкаре под диалог, открывает меню паузы и проверяет, слышит ли его чат; события в игре нет.",
-   "login": "kaicenat"
-  },
-  "HeartlessCooperativeParrotPeoplesChamp-LsOvSZqni_d7vKs0": {
-   "at": "2026-11-21T07:29:51.500552+00:00",
-   "why": "editor: 3/10, Идёт за соседкой в спальню под сюжетный диалог про квартплату; события нет, только разговор персонажей.",
-   "login": "kaicenat"
-  },
-  "AbstruseEnchantingStingrayDoubleRainbow-hkb9KnbkkVBT-Rc3": {
-   "at": "2026-11-21T07:29:51.500971+00:00",
-   "why": "editor: 1/10, Склад с секс-роботами: откровенные реплики и откровенные кадры в конце; сексуальный контент, площадки такое удаляют.",
-   "login": "kaicenat"
-  },
   "chat-2935591442-549": {
    "at": "2026-11-21T07:51:40.058652+00:00",
    "why": "picture is almost static (motion 0.02)",
@@ -2386,380 +2356,54 @@
    "kind": "clip",
    "vod": "2938328156",
    "vod_t": 20220
+  },
+  "StormyAbstruseTubersFreakinStinkin-WcoQ6j5V34NnsVKX": {
+   "at": "2026-11-24T07:32:00.648351+00:00",
+   "why": "editor: 4/10, Night flight, she flies the plane into a skyscraper roof on purpose, it sits there, slides off, WASTED. Dark picture, she says herself it was not as good as she thought, chat calls it anticlimactic; a plane flown into a tower is also imagery we do not post.",
+   "login": "eviemeowie",
+   "kind": "clip",
+   "vod": "2938020682",
+   "vod_t": 20455
+  },
+  "chat-2939012870-318": {
+   "at": "2026-11-24T07:32:00.648749+00:00",
+   "why": "editor: 3/10, A minute of sloppy driving: bumps two cars, runs over a pedestrian, chat laughs at his driving. He says nothing, only game dialogue is heard, tiny webcam, no single moment.",
+   "login": "fanum",
+   "kind": "chat",
+   "vod": "2939012870",
+   "vod_t": 14296.034815
+  },
+  "BlueBlitheMarjoramWoofer-ZSasg_aIiI5hO6pA": {
+   "at": "2026-11-24T07:32:00.649337+00:00",
+   "why": "editor: no webcam in the picture",
+   "login": "caseoh_",
+   "kind": "clip",
+   "vod": "2937666104",
+   "vod_t": 6399
   }
  },
  "pending": {
-  "StormyAbstruseTubersFreakinStinkin-WcoQ6j5V34NnsVKX": {
-   "id": "StormyAbstruseTubersFreakinStinkin-WcoQ6j5V34NnsVKX",
-   "vod": "2938020682",
-   "vod_t": 20455,
-   "group": "en",
-   "views": 5396,
-   "title": "Parked",
-   "url": "https://www.twitch.tv/eviemeowie/clip/StormyAbstruseTubersFreakinStinkin-WcoQ6j5V34NnsVKX",
+  "CrowdedCalmPizzaCoolStoryBob-wY0-hAXLqHFWQ88d": {
+   "id": "CrowdedCalmPizzaCoolStoryBob-wY0-hAXLqHFWQ88d",
+   "vod": "2937323377",
+   "vod_t": 5970,
+   "group": "ru",
+   "views": 1007,
+   "title": "tslk",
+   "url": "https://www.twitch.tv/rostislav_999/clip/CrowdedCalmPizzaCoolStoryBob-wY0-hAXLqHFWQ88d",
    "section": null,
    "kind": "clip",
    "hot": true,
-   "login": "eviemeowie",
-   "name": "eviemeowie",
-   "source": "Twitch clip made by a viewer, 5396 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"Parked\"",
-   "at": "2026-11-24T06:26:33.097309+00:00",
+   "login": "rostislav_999",
+   "name": "rostislav_999",
+   "source": "Twitch clip made by a viewer, 1007 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"tslk\"",
+   "at": "2026-11-24T07:31:52.699418+00:00",
    "cam": [
-    1302,
-    266,
-    617,
-    434
+    52,
+    486,
+    231,
+    162
    ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 28.9,
-   "words": [
-    {
-     "word": " What",
-     "start": 6.9,
-     "end": 7.38
-    },
-    {
-     "word": " the",
-     "start": 7.38,
-     "end": 7.56
-    },
-    {
-     "word": " fuck",
-     "start": 7.56,
-     "end": 7.9
-    },
-    {
-     "word": " wow,",
-     "start": 10.39,
-     "end": 11.37
-    },
-    {
-     "word": " it's",
-     "start": 11.43,
-     "end": 11.63
-    },
-    {
-     "word": " not",
-     "start": 11.63,
-     "end": 11.83
-    },
-    {
-     "word": " one",
-     "start": 11.83,
-     "end": 12.05
-    },
-    {
-     "word": " up",
-     "start": 12.05,
-     "end": 12.27
-    },
-    {
-     "word": " as",
-     "start": 12.27,
-     "end": 12.89
-    },
-    {
-     "word": " good",
-     "start": 22.08,
-     "end": 22.42
-    },
-    {
-     "word": " as",
-     "start": 22.42,
-     "end": 22.68
-    },
-    {
-     "word": " I",
-     "start": 22.68,
-     "end": 22.8
-    },
-    {
-     "word": " thought",
-     "start": 22.8,
-     "end": 23.02
-    },
-    {
-     "word": " it'd",
-     "start": 23.02,
-     "end": 23.28
-    },
-    {
-     "word": " be",
-     "start": 23.28,
-     "end": 23.48
-    },
-    {
-     "word": " Not",
-     "start": 26.22,
-     "end": 26.74
-    },
-    {
-     "word": " like",
-     "start": 26.74,
-     "end": 27.2
-    },
-    {
-     "word": " I",
-     "start": 27.2,
-     "end": 28.0
-    },
-    {
-     "word": " guess",
-     "start": 28.0,
-     "end": 28.26
-    },
-    {
-     "word": " it's",
-     "start": 28.26,
-     "end": 28.54
-    },
-    {
-     "word": " not",
-     "start": 28.54,
-     "end": 28.74
-    }
-   ],
-   "metrics": {
-    "motion": 0.2719621673613338,
-    "motion_p90": 0.5464091054825266,
-    "static_share": 0.2,
-    "peak_db": 9.56467342376709,
-    "level_db": -20.965478897094727
-   },
-   "silence": []
-  },
-  "chat-2939012870-318": {
-   "id": "chat-2939012870-318",
-   "url": "https://www.twitch.tv/videos/2939012870",
-   "section": [
-    14296.034815,
-    14352.034815
-   ],
-   "kind": "chat",
-   "views": 38,
-   "title": "",
-   "vod": "2939012870",
-   "vod_t": 14296.034815,
-   "group": "en",
-   "login": "fanum",
-   "name": "Fanum",
-   "viewers": 7295,
-   "chat_score": 7.6,
-   "found_at": "2026-11-24T06:47:55.567128+00:00",
-   "spike_at": "2026-11-24T06:41:13.034815+00:00",
-   "chat": [
-    "nigga trolling",
-    "BRO YOURE WILIN",
-    "this nga shelov36Imcryin",
-    "wth",
-    "fanumYKTV",
-    "THAT SHUT ASS",
-    "LMFAOOOOOOOOOOOO",
-    "bro'\\"
-   ],
-   "source": "cut from the live stream at a chat spike: 38 chatters in 15 s, 7.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-24T06:48:46.632448+00:00",
-   "cam": [
-    122,
-    459,
-    239,
-    168
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 59.7,
-   "words": [
-    {
-     "word": " The",
-     "start": 13.39,
-     "end": 13.69
-    },
-    {
-     "word": " Drake",
-     "start": 13.69,
-     "end": 13.85
-    },
-    {
-     "word": " one",
-     "start": 13.85,
-     "end": 14.01
-    },
-    {
-     "word": " just",
-     "start": 14.01,
-     "end": 14.17
-    },
-    {
-     "word": " hit",
-     "start": 14.17,
-     "end": 14.29
-    },
-    {
-     "word": " me",
-     "start": 14.29,
-     "end": 14.41
-    },
-    {
-     "word": " up",
-     "start": 14.41,
-     "end": 14.61
-    },
-    {
-     "word": " asking",
-     "start": 14.61,
-     "end": 15.47
-    },
-    {
-     "word": " if",
-     "start": 15.47,
-     "end": 15.67
-    },
-    {
-     "word": " we",
-     "start": 15.67,
-     "end": 15.75
-    },
-    {
-     "word": " could",
-     "start": 15.75,
-     "end": 15.85
-    },
-    {
-     "word": " help",
-     "start": 15.85,
-     "end": 15.99
-    },
-    {
-     "word": " with",
-     "start": 15.99,
-     "end": 16.11
-    },
-    {
-     "word": " some",
-     "start": 16.11,
-     "end": 16.23
-    },
-    {
-     "word": " trouble",
-     "start": 16.23,
-     "end": 16.49
-    },
-    {
-     "word": " to",
-     "start": 16.49,
-     "end": 16.77
-    },
-    {
-     "word": " he",
-     "start": 16.77,
-     "end": 17.49
-    },
-    {
-     "word": " still",
-     "start": 17.49,
-     "end": 17.79
-    },
-    {
-     "word": " needs",
-     "start": 17.79,
-     "end": 18.01
-    },
-    {
-     "word": " our",
-     "start": 18.01,
-     "end": 18.17
-    },
-    {
-     "word": " help.",
-     "start": 18.17,
-     "end": 18.41
-    },
-    {
-     "word": " Yeah,",
-     "start": 18.61,
-     "end": 18.95
-    },
-    {
-     "word": " he's",
-     "start": 19.03,
-     "end": 19.55
-    },
-    {
-     "word": " almost",
-     "start": 19.55,
-     "end": 19.71
-    },
-    {
-     "word": " there",
-     "start": 19.71,
-     "end": 19.89
-    },
-    {
-     "word": " with",
-     "start": 19.89,
-     "end": 20.01
-    },
-    {
-     "word": " the",
-     "start": 20.01,
-     "end": 20.09
-    },
-    {
-     "word": " dogs",
-     "start": 20.09,
-     "end": 20.35
-    },
-    {
-     "word": " They",
-     "start": 20.81,
-     "end": 21.15
-    },
-    {
-     "word": " just",
-     "start": 21.15,
-     "end": 21.33
-    },
-    {
-     "word": " need",
-     "start": 21.33,
-     "end": 21.51
-    },
-    {
-     "word": " like",
-     "start": 21.51,
-     "end": 21.65
-    }
-   ],
-   "metrics": {
-    "motion": 0.4822151224707135,
-    "motion_p90": 0.6122754703585375,
-    "static_share": 0.029411764705882353,
-    "peak_db": 4.7655029296875,
-    "level_db": -14.768901824951172
-   },
-   "silence": []
-  },
-  "BlueBlitheMarjoramWoofer-ZSasg_aIiI5hO6pA": {
-   "id": "BlueBlitheMarjoramWoofer-ZSasg_aIiI5hO6pA",
-   "vod": "2937666104",
-   "vod_t": 6399,
-   "group": "en",
-   "views": 5018,
-   "title": "nice scooter",
-   "url": "https://www.twitch.tv/caseoh_/clip/BlueBlitheMarjoramWoofer-ZSasg_aIiI5hO6pA",
-   "section": null,
-   "kind": "clip",
-   "hot": true,
-   "login": "caseoh_",
-   "name": "caseoh_",
-   "source": "Twitch clip made by a viewer, 5018 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"nice scooter\"",
-   "at": "2026-11-24T07:10:10.889282+00:00",
-   "cam": null,
    "size": [
     1920,
     1080
@@ -2767,62 +2411,247 @@
    "dur": 30.0,
    "words": [
     {
-     "word": " You're",
-     "start": 3.7,
-     "end": 4.0
+     "word": " Жесть.",
+     "start": 1.42,
+     "end": 2.14
     },
     {
-     "word": " Annalisa",
-     "start": 4.0,
-     "end": 4.42
-    },
-    {
-     "word": " with",
-     "start": 4.42,
+     "word": " Мерно",
+     "start": 4.14,
      "end": 4.58
     },
     {
-     "word": " the",
+     "word": " я",
      "start": 4.58,
-     "end": 4.68
+     "end": 4.7
     },
     {
-     "word": " five,",
-     "start": 4.68,
-     "end": 4.9
+     "word": " же",
+     "start": 4.7,
+     "end": 4.82
     },
     {
-     "word": " thank",
-     "start": 5.16,
-     "end": 5.16
+     "word": " так.",
+     "start": 4.82,
+     "end": 5.06
     },
     {
-     "word": " you.",
-     "start": 5.16,
-     "end": 5.38
+     "word": " Еп!",
+     "start": 6.1,
+     "end": 6.54
     },
     {
-     "word": " Nice",
-     "start": 11.3,
-     "end": 11.64
+     "word": " Ты",
+     "start": 7.28,
+     "end": 7.58
     },
     {
-     "word": " shooter,",
-     "start": 11.64,
-     "end": 11.88
+     "word": " посмотри,",
+     "start": 7.58,
+     "end": 8.08
     },
     {
-     "word": " idiot!",
-     "start": 12.04,
-     "end": 12.14
+     "word": " где",
+     "start": 8.14,
+     "end": 8.32
+    },
+    {
+     "word": " мы.",
+     "start": 8.32,
+     "end": 8.54
+    },
+    {
+     "word": " Где?",
+     "start": 9.64,
+     "end": 10.06
+    },
+    {
+     "word": " За",
+     "start": 10.44,
+     "end": 10.66
+    },
+    {
+     "word": " наш",
+     "start": 10.66,
+     "end": 10.86
+    },
+    {
+     "word": " дом?",
+     "start": 10.86,
+     "end": 11.1
+    },
+    {
+     "word": " Нет,",
+     "start": 11.96,
+     "end": 12.34
+    },
+    {
+     "word": " это",
+     "start": 12.7,
+     "end": 12.84
+    },
+    {
+     "word": " Сан",
+     "start": 12.84,
+     "end": 13.16
+    },
+    {
+     "word": " Андреевский",
+     "start": 13.16,
+     "end": 13.7
+    },
+    {
+     "word": " район,",
+     "start": 13.7,
+     "end": 14.08
+    },
+    {
+     "word": " ты",
+     "start": 14.12,
+     "end": 14.24
+    },
+    {
+     "word": " че",
+     "start": 14.24,
+     "end": 14.36
+    },
+    {
+     "word": " ебанулся?",
+     "start": 14.36,
+     "end": 14.88
+    },
+    {
+     "word": " Погажи.",
+     "start": 15.58,
+     "end": 16.06
+    },
+    {
+     "word": " Вот,",
+     "start": 16.38,
+     "end": 16.72
+    },
+    {
+     "word": " ты",
+     "start": 16.8,
+     "end": 16.9
+    },
+    {
+     "word": " че",
+     "start": 16.9,
+     "end": 17.0
+    },
+    {
+     "word": " не",
+     "start": 17.0,
+     "end": 17.14
+    },
+    {
+     "word": " помнишь?",
+     "start": 17.14,
+     "end": 17.58
+    },
+    {
+     "word": " А,",
+     "start": 18.02,
+     "end": 18.4
+    },
+    {
+     "word": " ну",
+     "start": 18.5,
+     "end": 18.66
+    },
+    {
+     "word": " да.",
+     "start": 18.66,
+     "end": 18.9
+    },
+    {
+     "word": " Пацаны,",
+     "start": 21.49,
+     "end": 22.01
+    },
+    {
+     "word": " делайте",
+     "start": 22.13,
+     "end": 22.45
+    },
+    {
+     "word": " клипчик",
+     "start": 22.45,
+     "end": 22.91
+    },
+    {
+     "word": "-то.",
+     "start": 22.91,
+     "end": 23.09
+    },
+    {
+     "word": " Овечкин.",
+     "start": 24.25,
+     "end": 24.89
+    },
+    {
+     "word": " Нет,",
+     "start": 25.05,
+     "end": 25.35
+    },
+    {
+     "word": " это",
+     "start": 25.79,
+     "end": 26.13
+    },
+    {
+     "word": " Первый",
+     "start": 26.13,
+     "end": 26.37
+    },
+    {
+     "word": " Мир.",
+     "start": 26.37,
+     "end": 26.51
+    },
+    {
+     "word": " Нет,",
+     "start": 26.65,
+     "end": 26.75
+    },
+    {
+     "word": " это",
+     "start": 27.07,
+     "end": 27.07
+    },
+    {
+     "word": " мы",
+     "start": 27.07,
+     "end": 27.27
+    },
+    {
+     "word": " сейчас",
+     "start": 27.27,
+     "end": 27.43
+    },
+    {
+     "word": " зателку.",
+     "start": 27.43,
+     "end": 27.89
+    },
+    {
+     "word": " Все,",
+     "start": 29.17,
+     "end": 29.47
+    },
+    {
+     "word": " заброшен.",
+     "start": 29.55,
+     "end": 29.99
     }
    ],
    "metrics": {
-    "motion": 0.5903472222222222,
-    "motion_p90": 0.682625,
+    "motion": 0.5078723404255319,
+    "motion_p90": 0.6270496453900709,
     "static_share": 0.0,
-    "peak_db": 5.323699951171875,
-    "level_db": -30.85434341430664
+    "peak_db": 14.926017761230469,
+    "level_db": -39.52714920043945
    },
    "silence": []
   }
@@ -5391,6 +5220,6 @@
    "seconds": 23.1
   }
  },
- "checked_n": 36,
+ "checked_n": 37,
  "check_errors": {}
 }
