@@ -987,236 +987,23 @@
    "vod_t": 8958,
    "hook": "Джейсон, уходи!",
    "request_id": "7ea2d2162f154bd2ab4a1940253fbbf7",
-   "cand": {
-    "id": "IntelligentTenderTubersStinkyCheese-NUsVy8C3L1AMr34o",
-    "vod": "2936127926",
-    "vod_t": 8958,
-    "group": "ru",
-    "views": 3719,
-    "title": "Смотрите прикол покажу",
-    "url": "https://www.twitch.tv/sergeycrey/clip/IntelligentTenderTubersStinkyCheese-NUsVy8C3L1AMr34o",
-    "section": null,
-    "kind": "clip",
-    "hot": true,
-    "login": "sergeycrey",
-    "name": "sergeycrey",
-    "source": "Twitch clip made by a viewer, 3719 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"Смотрите прикол покажу\"",
-    "at": "2026-11-23T14:18:39.694528+00:00",
-    "cam": [
-     26,
-     351,
-     389,
-     274
-    ],
-    "size": [
-     1920,
-     1080
-    ],
-    "dur": 32.8,
-    "words": [
-     {
-      "word": " О",
-      "start": 0.0,
-      "end": 0.0
-     },
-     {
-      "word": " чем",
-      "start": 0.0,
-      "end": 0.12
-     },
-     {
-      "word": " мы",
-      "start": 0.12,
-      "end": 0.26
-     },
-     {
-      "word": " можем",
-      "start": 0.26,
-      "end": 0.46
-     },
-     {
-      "word": " сделать?",
-      "start": 0.46,
-      "end": 0.88
-     },
-     {
-      "word": " Смотрите",
-      "start": 1.56,
-      "end": 1.94
-     },
-     {
-      "word": " прикол,",
-      "start": 1.94,
-      "end": 2.4
-     },
-     {
-      "word": " еще",
-      "start": 2.48,
-      "end": 2.56
-     },
-     {
-      "word": " покажу.",
-      "start": 2.56,
-      "end": 2.96
-     },
-     {
-      "word": " Джейсон,",
-      "start": 9.48,
-      "end": 10.08
-     },
-     {
-      "word": " отойди.",
-      "start": 10.2,
-      "end": 10.56
-     },
-     {
-      "word": " Ой,",
-      "start": 12.04,
-      "end": 12.54
-     },
-     {
-      "word": " Джейсон,",
-      "start": 12.66,
-      "end": 12.92
-     },
-     {
-      "word": " уходи!",
-      "start": 13.02,
-      "end": 13.38
-     },
-     {
-      "word": " Какой",
-      "start": 16.8,
-      "end": 17.52
-     },
-     {
-      "word": " ты,",
-      "start": 17.52,
-      "end": 17.78
-     },
-     {
-      "word": " Боже,",
-      "start": 18.02,
-      "end": 18.4
-     },
-     {
-      "word": " Джейсон!",
-      "start": 18.68,
-      "end": 19.38
-     },
-     {
-      "word": " Джейсон,",
-      "start": 20.3,
-      "end": 21.02
-     },
-     {
-      "word": " я",
-      "start": 21.06,
-      "end": 21.18
-     },
-     {
-      "word": " же",
-      "start": 21.18,
-      "end": 21.32
-     },
-     {
-      "word": " говорю,",
-      "start": 21.32,
-      "end": 21.56
-     },
-     {
-      "word": " уходи!",
-      "start": 21.8,
-      "end": 22.34
-     },
-     {
-      "word": " Ты",
-      "start": 22.42,
-      "end": 22.5
-     },
-     {
-      "word": " чего",
-      "start": 22.5,
-      "end": 22.64
-     },
-     {
-      "word": " стоишь,",
-      "start": 22.64,
-      "end": 23.06
-     },
-     {
-      "word": " тыкаешь!",
-      "start": 23.16,
-      "end": 23.78
-     },
-     {
-      "word": " Боже!",
-      "start": 24.92,
-      "end": 25.64
-     },
-     {
-      "word": " Дже...",
-      "start": 26.54,
-      "end": 27.26
-     },
-     {
-      "word": " Дже...",
-      "start": 27.26,
-      "end": 27.98
-     },
-     {
-      "word": " Саный,",
-      "start": 28.6,
-      "end": 28.96
-     },
-     {
-      "word": " ты",
-      "start": 28.98,
-      "end": 29.08
-     },
-     {
-      "word": " Джейсон,",
-      "start": 29.08,
-      "end": 29.76
-     },
-     {
-      "word": " мать",
-      "start": 29.88,
-      "end": 30.14
-     },
-     {
-      "word": " твою!",
-      "start": 30.14,
-      "end": 30.64
-     }
-    ],
-    "metrics": {
-     "motion": 0.1564236111111111,
-     "motion_p90": 0.5296319444444446,
-     "static_share": 0.16923076923076924,
-     "peak_db": 10.15611457824707,
-     "level_db": -29.546443939208984
+   "result": [
+    {
+     "platform": "youtube",
+     "success": true,
+     "post_url": "https://www.youtube.com/watch?v=iF2MAFO1JcY",
+     "thumbnail_set": false,
+     "thumbnail_pending": true
     },
-    "silence": [],
-    "cam_src": "editor",
-    "caption": "Хотел показать прикол с бомбой, но Джейсон встал не туда 💀",
-    "hook": "Джейсон, уходи!",
-    "cover_at": 12.3,
-    "no_subs": true,
-    "score": 6,
-    "keep": [
-     0.0,
-     20.0
-    ]
-   }
+    {
+     "platform": "tiktok",
+     "success": true,
+     "post_url": "https://www.tiktok.com/@gta6.viral42/video/7711727274038529313"
+    }
+   ]
   }
  },
  "rejected": {
-  "chat-2935925087-440": {
-   "at": "2026-11-21T13:55:26.483258+00:00",
-   "why": "picture is almost static (motion 0.02)",
-   "login": "melharucos"
-  },
   "chat-2935760785-802": {
    "at": "2026-11-21T14:21:09.576272+00:00",
    "why": "editor: 5/10, Трюковой прыжок с доктором в багажнике и смешная реплика про космический корабль, но ночь, картинка тёмная, камера крошечная",
@@ -2732,6 +2519,346 @@
     "static_share": 0.1646090534979424,
     "peak_db": 6.161687850952148,
     "level_db": -33.04580307006836
+   },
+   "silence": []
+  },
+  "chat-2939161873-543": {
+   "id": "chat-2939161873-543",
+   "url": "https://www.twitch.tv/videos/2939161873",
+   "section": [
+    24401.647836,
+    24457.647836
+   ],
+   "kind": "chat",
+   "views": 35,
+   "title": "",
+   "vod": "2939161873",
+   "vod_t": 24401.647836,
+   "group": "en",
+   "login": "ironmouse",
+   "name": "ironmouse",
+   "viewers": 9736,
+   "chat_score": 7.0,
+   "found_at": "2026-11-24T14:02:27.363230+00:00",
+   "spike_at": "2026-11-24T13:46:49.647836+00:00",
+   "chat": [
+    "17x om",
+    "3x LOL",
+    "pffft",
+    "smh L mouse",
+    "KEKWWA",
+    "mouse lol",
+    "boop",
+    "HAH",
+    "meatMONKA",
+    "Donut"
+   ],
+   "source": "cut from the live stream at a chat spike: 35 chatters in 15 s, 7.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-24T14:03:08.316011+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 63.8,
+   "words": [
+    {
+     "word": " Oh,",
+     "start": 0.0,
+     "end": 0.1
+    },
+    {
+     "word": " they",
+     "start": 0.18,
+     "end": 0.18
+    },
+    {
+     "word": " got",
+     "start": 0.18,
+     "end": 0.26
+    },
+    {
+     "word": " a",
+     "start": 0.26,
+     "end": 0.4
+    },
+    {
+     "word": " pajarita",
+     "start": 0.4,
+     "end": 0.88
+    },
+    {
+     "word": " sucia.",
+     "start": 0.88,
+     "end": 1.52
+    },
+    {
+     "word": " Oh,",
+     "start": 4.44,
+     "end": 4.88
+    },
+    {
+     "word": " what",
+     "start": 4.92,
+     "end": 5.02
+    },
+    {
+     "word": " if",
+     "start": 5.02,
+     "end": 5.12
+    },
+    {
+     "word": " I",
+     "start": 5.12,
+     "end": 5.22
+    },
+    {
+     "word": " give",
+     "start": 5.22,
+     "end": 5.38
+    },
+    {
+     "word": " her",
+     "start": 5.38,
+     "end": 5.52
+    },
+    {
+     "word": " a",
+     "start": 5.52,
+     "end": 5.66
+    },
+    {
+     "word": " beer?",
+     "start": 5.66,
+     "end": 5.96
+    },
+    {
+     "word": " A",
+     "start": 15.5,
+     "end": 15.72
+    },
+    {
+     "word": " beer",
+     "start": 15.72,
+     "end": 15.98
+    },
+    {
+     "word": " for",
+     "start": 15.98,
+     "end": 16.24
+    },
+    {
+     "word": " you,",
+     "start": 16.24,
+     "end": 16.48
+    },
+    {
+     "word": " mi",
+     "start": 16.58,
+     "end": 16.66
+    },
+    {
+     "word": " amor?",
+     "start": 16.66,
+     "end": 16.82
+    },
+    {
+     "word": " How",
+     "start": 20.64,
+     "end": 20.9
+    },
+    {
+     "word": " do",
+     "start": 20.9,
+     "end": 20.98
+    },
+    {
+     "word": " I",
+     "start": 20.98,
+     "end": 21.06
+    },
+    {
+     "word": " offer",
+     "start": 21.06,
+     "end": 21.38
+    },
+    {
+     "word": " this",
+     "start": 21.38,
+     "end": 21.64
+    },
+    {
+     "word": " to",
+     "start": 21.64,
+     "end": 21.82
+    },
+    {
+     "word": " you?",
+     "start": 21.82,
+     "end": 21.96
+    },
+    {
+     "word": " Oh,",
+     "start": 23.64,
+     "end": 24.08
+    },
+    {
+     "word": " never",
+     "start": 24.28,
+     "end": 24.42
+    },
+    {
+     "word": " mind.",
+     "start": 24.42,
+     "end": 24.74
+    },
+    {
+     "word": " I",
+     "start": 24.96,
+     "end": 25.08
+    },
+    {
+     "word": " can't",
+     "start": 25.08,
+     "end": 25.32
+    },
+    {
+     "word": " give",
+     "start": 25.32,
+     "end": 25.42
+    },
+    {
+     "word": " it",
+     "start": 25.42,
+     "end": 25.56
+    },
+    {
+     "word": " to",
+     "start": 25.56,
+     "end": 25.68
+    },
+    {
+     "word": " her.",
+     "start": 25.68,
+     "end": 25.78
+    },
+    {
+     "word": " See,",
+     "start": 25.92,
+     "end": 25.92
+    },
+    {
+     "word": " I",
+     "start": 26.14,
+     "end": 26.34
+    },
+    {
+     "word": " was",
+     "start": 26.34,
+     "end": 26.6
+    },
+    {
+     "word": " with",
+     "start": 26.6,
+     "end": 26.82
+    },
+    {
+     "word": " you.",
+     "start": 26.82,
+     "end": 26.98
+    },
+    {
+     "word": " Ah,",
+     "start": 35.26,
+     "end": 35.48
+    },
+    {
+     "word": " damn",
+     "start": 35.6,
+     "end": 35.74
+    },
+    {
+     "word": " it.",
+     "start": 35.74,
+     "end": 35.96
+    },
+    {
+     "word": " Excuse",
+     "start": 41.04,
+     "end": 41.48
+    },
+    {
+     "word": " me.",
+     "start": 41.48,
+     "end": 41.84
+    },
+    {
+     "word": " She's",
+     "start": 43.56,
+     "end": 44.0
+    },
+    {
+     "word": " already",
+     "start": 44.0,
+     "end": 44.22
+    },
+    {
+     "word": " drinking",
+     "start": 44.22,
+     "end": 44.68
+    },
+    {
+     "word": " a",
+     "start": 44.68,
+     "end": 44.96
+    },
+    {
+     "word": " fucking",
+     "start": 44.96,
+     "end": 45.16
+    },
+    {
+     "word": " beer!",
+     "start": 45.16,
+     "end": 45.56
+    },
+    {
+     "word": " Are",
+     "start": 49.73,
+     "end": 50.17
+    },
+    {
+     "word": " you",
+     "start": 50.17,
+     "end": 50.61
+    },
+    {
+     "word": " gonna",
+     "start": 50.61,
+     "end": 50.75
+    },
+    {
+     "word": " go",
+     "start": 50.75,
+     "end": 50.91
+    },
+    {
+     "word": " pee",
+     "start": 50.91,
+     "end": 51.09
+    },
+    {
+     "word": " pee?",
+     "start": 51.09,
+     "end": 51.29
+    }
+   ],
+   "metrics": {
+    "motion": 0.3176041666666667,
+    "motion_p90": 0.5881319444444446,
+    "static_share": 0.03937007874015748,
+    "peak_db": 11.387191772460938,
+    "level_db": -27.584125518798828
    },
    "silence": []
   }
@@ -5091,6 +5218,6 @@
    "seconds": 30.1
   }
  },
- "checked_n": 59,
+ "checked_n": 60,
  "check_errors": {}
 }
