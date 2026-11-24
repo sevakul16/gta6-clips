@@ -937,5 +937,47 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "chat-2939223873-106": {
+  "at": "2026-11-24T11:14:41.152153+00:00",
+  "moment_score": 6,
+  "what_happens": "Getaway with three stars: the car smashes its nose on the overpass, stands upright on its bumper, lands, then slides upside down along the divider and a police SUV pins it; he leans into the camera shouting how is that possible. The detected cam box sits too low, corrected.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Уходил от копов, и машину дважды перевернуло 🤯",
+  "keep_start": 22.0,
+  "keep_end": 50.0,
+  "cam": [
+   0.0,
+   0.425,
+   0.208,
+   0.26
+  ],
+  "hook": "Как это возможно?!",
+  "cover_at": 29.5
+ },
+ "DistinctFastTubersHumbleLife-ssZnojQt4J-jym-9": {
+  "at": "2026-11-24T11:14:41.209241+00:00",
+  "moment_score": 3,
+  "what_happens": "A staged skit: he walks his character through a ruined shack voicing a tech CEO coming back to his company. No game event, a joke about a real person that needs context, sponsor banners over the picture; the detected box is a promo banner, the streamer sits behind a face filter.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939116173-417": {
+  "at": "2026-11-24T11:14:41.262080+00:00",
+  "moment_score": 2,
+  "what_happens": "Bedroom scene after the couple's sex scene, both characters in underwear, while she tells chat about banning an underage viewer. Stream talk over a sexual scene, no game event.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939200535-122": {
+  "at": "2026-11-24T11:14:41.315961+00:00",
+  "moment_score": 3,
+  "what_happens": "Lucia walks through a pawn shop and a cafe while he chats with viewers about what game comes next. No event; bank and betting promo banners on screen.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
  }
 }
