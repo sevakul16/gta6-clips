@@ -1,28 +1,4 @@
 {
- "chat-2937180390-682": {
-  "at": "2026-11-22T20:13:38.034913+00:00",
-  "moment_score": 1,
-  "what_happens": "Ночная поездка за заказом с аварией в конце, но веб-камеры стримера в кадре нет: ролик с реакцией собрать не из чего.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "StylishFairChowderDoritosChip-SQ1GCE6-ymT6ih7l": {
-  "at": "2026-11-22T20:13:38.094893+00:00",
-  "moment_score": 1,
-  "what_happens": "Сцена в стрип-клубе: приватный танец, героиня почти раздета. Такой контент не публикуем ни на одной площадке.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2937163636-750": {
-  "at": "2026-11-22T20:13:38.152155+00:00",
-  "moment_score": 3,
-  "what_happens": "Ночная сюжетная проходка: герои идут к гаражу, открывают его и собирают инструменты. Темно, камера крошечная, события и реакции нет.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2936786153-1540": {
   "at": "2026-11-22T21:14:40.655652+00:00",
   "moment_score": 3,
@@ -1026,6 +1002,50 @@
   "at": "2026-11-24T19:14:32.828208+00:00",
   "moment_score": 3,
   "what_happens": "Scripted mission escape on a dirt bike at dusk with only game dialogue; dark picture, no event of the streamer's own and no reaction",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "WonderfulCuriousLobsterChefFrank-qfyn1_cjxtYuxS6o": {
+  "at": "2026-11-24T20:15:36.539260+00:00",
+  "moment_score": 7,
+  "what_happens": "A scooter courier delivers the car, the streamer thanks him and knocks him down pulling away, then the courier is hit again by traffic, drops the scooter and walks off; the streamer narrates and laughs hard. Complete three-beat gag, clear webcam",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Курьер привёз машину и попал под неё. Потом под вторую. Потом ушёл пешком 😭",
+  "keep_start": 8.0,
+  "keep_end": 48.0,
+  "cam": [
+   0.068,
+   0.315,
+   0.204,
+   0.255
+  ],
+  "hook": "Курьеру не повезло",
+  "cover_at": 34.2
+ },
+ "chat-2939308400-503": {
+  "at": "2026-11-24T20:15:36.585861+00:00",
+  "moment_score": 6,
+  "what_happens": "Sunset ride on a sport bike: 'this thing is sick, this is what we need', seconds later a car T-bones the bike, slow-motion ragdoll and Wasted. Clear setup and payoff in a bright picture; the streamer goes silent after the crash and the webcam is small",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "\"This thing is sick, this is what we need.\" Seconds later 💀",
+  "keep_start": 33.0,
+  "keep_end": 57.0,
+  "cam": [
+   0.79,
+   0.44,
+   0.164,
+   0.205
+  ],
+  "hook": "This is what we need",
+  "cover_at": 49.8
+ },
+ "chat-2939365510-421": {
+  "at": "2026-11-24T20:15:36.629329+00:00",
+  "moment_score": 5,
+  "what_happens": "Orders a car delivery, says thank you and runs over the scooter courier while driving off; the hit lasts a second, the streamer does not react to it, and the first 35 s are running, the map and phone menus",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
