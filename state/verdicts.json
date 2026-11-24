@@ -1,20 +1,4 @@
 {
- "chat-2937163636-956": {
-  "at": "2026-11-22T23:13:17.109875+00:00",
-  "moment_score": 5,
-  "what_happens": "Стример стартует на суперкаре с места на ночной эстакаде и через несколько секунд влетает в отбойник. Провал виден, но полминуты машина просто стоит, стример молчит, камера крошечная.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2937392051-556": {
-  "at": "2026-11-22T23:13:17.157092+00:00",
-  "moment_score": 4,
-  "what_happens": "Погоня на гидроцикле: стример не может попасть по цели, оказывается в воде и проваливает задание. Сам момент падения не читается, развязка обычная.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2937478169-485": {
   "at": "2026-11-23T00:13:51.663885+00:00",
   "moment_score": 1,
@@ -1056,6 +1040,34 @@
   "at": "2026-11-24T22:14:26.053816+00:00",
   "moment_score": 5,
   "what_happens": "Says he has it all under control, eleven seconds later crashes the van into roadworks and gets Wasted; the irony is there, but the streamer sits turned away with the same blank face throughout, the cutout webcam is tiny and the picture is grey rain",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939518459-368": {
+  "at": "2026-11-24T23:14:36.533916+00:00",
+  "moment_score": 6,
+  "what_happens": "Rides a dirt bike down a steep cliff and lands straight into the side of an SUV passing on the road below; chat shouts about the timing and the streamer falls back laughing. Short clear gag with a visible reaction, no spoken line",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Спуск со скалы на байке закончился ровно в проезжавшей машине 😭",
+  "keep_start": 31.0,
+  "keep_end": 47.0,
+  "hook": "Идеальный тайминг",
+  "cover_at": 40.6
+ },
+ "chat-2939344770-703": {
+  "at": "2026-11-24T23:14:36.582657+00:00",
+  "moment_score": 4,
+  "what_happens": "Loses a fist fight to a huge club bouncer and gets Wasted while joking that it is like fighting himself; an ordinary fight loss in a dark blue room, tiny cutout webcam",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939339874-710": {
+  "at": "2026-11-24T23:14:36.623850+00:00",
+  "moment_score": 2,
+  "what_happens": "Dark mission cutscene and stealth walk while he asks chat to vote plus or minus on going to sleep; a chat poll, no game event, tiny webcam",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
