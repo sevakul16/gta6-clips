@@ -971,16 +971,6 @@
   }
  },
  "rejected": {
-  "chat-2935183263-1456": {
-   "at": "2026-11-21T12:48:57.490762+00:00",
-   "why": "picture is almost static (motion 0.02)",
-   "login": "marlon"
-  },
-  "chat-2935437958-1123": {
-   "at": "2026-11-21T12:49:00.648150+00:00",
-   "why": "no sound in the recording (16 s of 56 s are silent)",
-   "login": "fanum"
-  },
   "chat-2935925087-368": {
    "at": "2026-11-21T13:11:09.167588+00:00",
    "why": "picture is almost static (motion 0.02)",
@@ -2974,6 +2964,118 @@
      4.2
     ]
    ]
+  },
+  "chat-2939214988-268": {
+   "id": "chat-2939214988-268",
+   "url": "https://www.twitch.tv/videos/2939214988",
+   "section": [
+    12054.183601,
+    12110.183601
+   ],
+   "kind": "chat",
+   "views": 55,
+   "title": "",
+   "vod": "2939214988",
+   "vod_t": 12054.183601,
+   "group": "ru",
+   "login": "blackufa",
+   "name": "BlackUFA",
+   "viewers": 3985,
+   "chat_score": 6.11,
+   "found_at": "2026-11-24T12:57:53.601801+00:00",
+   "spike_at": "2026-11-24T12:44:31.183601+00:00",
+   "chat": [
+    "16x LUL",
+    "3x KEKL",
+    "2x KEKW",
+    "2x Ахах",
+    "уииии",
+    "KEKG",
+    "лоол",
+    "KEKG KEKYou",
+    "А,эах,хах,х",
+    "едрить полетело",
+    "валыну то убери",
+    "главное не приивлекай внимание"
+   ],
+   "source": "cut from the live stream at a chat spike: 55 chatters in 15 s, 6.1x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-24T12:58:27.317471+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 59.2,
+   "words": [
+    {
+     "word": " Живым",
+     "start": 28.02,
+     "end": 28.42
+    },
+    {
+     "word": " я",
+     "start": 28.42,
+     "end": 28.54
+    },
+    {
+     "word": " до",
+     "start": 28.54,
+     "end": 28.7
+    },
+    {
+     "word": " туда",
+     "start": 28.7,
+     "end": 28.88
+    },
+    {
+     "word": " не",
+     "start": 28.88,
+     "end": 29.06
+    },
+    {
+     "word": " доеду,",
+     "start": 29.06,
+     "end": 29.48
+    },
+    {
+     "word": " это",
+     "start": 29.5,
+     "end": 29.56
+    },
+    {
+     "word": " такое",
+     "start": 29.56,
+     "end": 29.76
+    },
+    {
+     "word": " ощущение.",
+     "start": 29.76,
+     "end": 30.28
+    },
+    {
+     "word": " А,",
+     "start": 57.58,
+     "end": 57.98
+    },
+    {
+     "word": " яви,",
+     "start": 58.18,
+     "end": 58.52
+    },
+    {
+     "word": " яви!",
+     "start": 58.64,
+     "end": 59.08
+    }
+   ],
+   "metrics": {
+    "motion": 0.40718750000000004,
+    "motion_p90": 0.601736111111111,
+    "static_share": 0.0,
+    "peak_db": 7.260730743408203,
+    "level_db": -24.916454315185547
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -5527,6 +5629,6 @@
    "seconds": 23.1
   }
  },
- "checked_n": 56,
+ "checked_n": 57,
  "check_errors": {}
 }
