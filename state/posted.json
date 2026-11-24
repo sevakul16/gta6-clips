@@ -2334,9 +2334,345 @@
    "kind": "chat",
    "vod": "2939191063",
    "vod_t": 24074.564915
+  },
+  "chat-2939308400-207": {
+   "at": "2026-11-24T15:51:47.003816+00:00",
+   "why": "picture is almost static (motion 0.01)",
+   "login": "nickmercs",
+   "kind": "chat",
+   "vod": "2939308400",
+   "vod_t": 9273.998111
   }
  },
- "pending": {},
+ "pending": {
+  "KawaiiRacySandpiperPhilosoraptor-gIcZlJerGyBm0-3J": {
+   "id": "KawaiiRacySandpiperPhilosoraptor-gIcZlJerGyBm0-3J",
+   "vod": "2937323377",
+   "vod_t": 6965,
+   "group": "ru",
+   "views": 1003,
+   "title": "knpk",
+   "url": "https://www.twitch.tv/rostislav_999/clip/KawaiiRacySandpiperPhilosoraptor-gIcZlJerGyBm0-3J",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "rostislav_999",
+   "name": "rostislav_999",
+   "source": "Twitch clip made by a viewer, 1003 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"knpk\"",
+   "at": "2026-11-24T15:52:09.178253+00:00",
+   "cam": [
+    67,
+    535,
+    193,
+    135
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 25.8,
+   "words": [
+    {
+     "word": " как",
+     "start": 7.22,
+     "end": 7.7
+    },
+    {
+     "word": " мне",
+     "start": 7.7,
+     "end": 7.84
+    },
+    {
+     "word": " пришесть?",
+     "start": 7.84,
+     "end": 8.24
+    },
+    {
+     "word": " на",
+     "start": 8.7,
+     "end": 8.84
+    },
+    {
+     "word": " нолик",
+     "start": 8.84,
+     "end": 9.2
+    },
+    {
+     "word": " на",
+     "start": 9.2,
+     "end": 9.32
+    },
+    {
+     "word": " нолик",
+     "start": 9.32,
+     "end": 11.44
+    },
+    {
+     "word": " ебаный",
+     "start": 11.44,
+     "end": 12.06
+    },
+    {
+     "word": " в",
+     "start": 12.06,
+     "end": 12.12
+    },
+    {
+     "word": " рот",
+     "start": 12.12,
+     "end": 12.28
+    },
+    {
+     "word": " не",
+     "start": 12.28,
+     "end": 12.34
+    },
+    {
+     "word": " садится",
+     "start": 12.34,
+     "end": 12.78
+    },
+    {
+     "word": " на",
+     "start": 12.78,
+     "end": 13.1
+    },
+    {
+     "word": " не",
+     "start": 13.1,
+     "end": 14.18
+    },
+    {
+     "word": " садится",
+     "start": 14.18,
+     "end": 18.66
+    },
+    {
+     "word": " она",
+     "start": 22.27,
+     "end": 22.43
+    },
+    {
+     "word": " не",
+     "start": 22.43,
+     "end": 22.67
+    },
+    {
+     "word": " садится",
+     "start": 22.67,
+     "end": 23.11
+    },
+    {
+     "word": " ну",
+     "start": 23.11,
+     "end": 23.27
+    },
+    {
+     "word": " что",
+     "start": 23.27,
+     "end": 23.43
+    },
+    {
+     "word": " мне",
+     "start": 23.43,
+     "end": 23.57
+    },
+    {
+     "word": " сделать",
+     "start": 23.57,
+     "end": 23.85
+    }
+   ],
+   "metrics": {
+    "motion": 0.35869258946182025,
+    "motion_p90": 0.6181036911806143,
+    "static_share": 0.20588235294117646,
+    "peak_db": 10.71505355834961,
+    "level_db": -37.21516418457031
+   },
+   "silence": []
+  },
+  "chat-2938915006-1176": {
+   "id": "chat-2938915006-1176",
+   "url": "https://www.twitch.tv/videos/2938915006",
+   "section": [
+    52913.988437,
+    52969.988437
+   ],
+   "kind": "chat",
+   "views": 96,
+   "title": "",
+   "vod": "2938915006",
+   "vod_t": 52913.988437,
+   "group": "ru",
+   "login": "frametamer666",
+   "name": "frametamer666",
+   "viewers": 7445,
+   "chat_score": 6.4,
+   "found_at": "2026-11-24T15:51:12.675759+00:00",
+   "spike_at": "2026-11-24T15:35:39.988437+00:00",
+   "chat": [
+    "32x BigSad",
+    "11x framet1Cry",
+    "6x NotLikeThis",
+    "3x GayPride",
+    "3x framet1Wuw",
+    "3x ПИЗДЕЦ",
+    "3x F",
+    "2x НЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕТ",
+    "2x НЕЕЕЕЕТ",
+    "2x ((((",
+    "2x FFFF",
+    "2x ff",
+    "да похуй на гея",
+    "В ПАМЯТЬ ПОЛУ, РЕСПЕКТ",
+    "Трек в темя бля(((((((",
+    "Нннннннеееееееетттттт",
+    "FFFFFFFFFFFFFFFF",
+    "Жаль",
+    "вот и тачка наша",
+    "Похуй дай угла"
+   ],
+   "source": "cut from the live stream at a chat spike: 96 chatters in 15 s, 6.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-24T15:52:41.397026+00:00",
+   "cam": [
+    46,
+    343,
+    390,
+    274
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " Бля,",
+     "start": 3.06,
+     "end": 3.7
+    },
+    {
+     "word": " печально,",
+     "start": 3.82,
+     "end": 4.44
+    },
+    {
+     "word": " пиздец.",
+     "start": 4.58,
+     "end": 5.18
+    },
+    {
+     "word": " Груз",
+     "start": 10.6,
+     "end": 11.16
+    },
+    {
+     "word": " наш,",
+     "start": 11.16,
+     "end": 11.42
+    },
+    {
+     "word": " пиздец!",
+     "start": 11.62,
+     "end": 12.02
+    },
+    {
+     "word": " Поехали",
+     "start": 12.16,
+     "end": 12.7
+    },
+    {
+     "word": " в",
+     "start": 12.7,
+     "end": 12.8
+    },
+    {
+     "word": " стрипуху!",
+     "start": 12.8,
+     "end": 13.4
+    },
+    {
+     "word": " Отмоим",
+     "start": 14.24,
+     "end": 14.98
+    },
+    {
+     "word": " это",
+     "start": 14.98,
+     "end": 15.16
+    },
+    {
+     "word": " всё,",
+     "start": 15.16,
+     "end": 15.4
+    },
+    {
+     "word": " смоем",
+     "start": 15.7,
+     "end": 16.08
+    },
+    {
+     "word": " себя",
+     "start": 16.08,
+     "end": 16.32
+    },
+    {
+     "word": " всю",
+     "start": 16.32,
+     "end": 16.58
+    },
+    {
+     "word": " грузь.",
+     "start": 16.58,
+     "end": 17.04
+    },
+    {
+     "word": " Бля,",
+     "start": 24.24,
+     "end": 24.58
+    },
+    {
+     "word": " мне",
+     "start": 24.66,
+     "end": 24.74
+    },
+    {
+     "word": " как",
+     "start": 24.74,
+     "end": 24.9
+    },
+    {
+     "word": " будто...",
+     "start": 24.9,
+     "end": 25.68
+    },
+    {
+     "word": " Ебать!",
+     "start": 40.0,
+     "end": 40.78
+    },
+    {
+     "word": " Блядь!",
+     "start": 42.32,
+     "end": 42.71
+    },
+    {
+     "word": " Блядь!",
+     "start": 46.2,
+     "end": 46.98
+    }
+   ],
+   "metrics": {
+    "motion": 0.28172850412249706,
+    "motion_p90": 0.5811248527679623,
+    "static_share": 0.09417040358744394,
+    "peak_db": 14.428492546081543,
+    "level_db": -27.569826126098633
+   },
+   "silence": []
+  }
+ },
  "pool": {
   "chat-2937188320-775": {
    "id": "chat-2937188320-775",
@@ -4718,6 +5054,6 @@
    "seconds": 22.1
   }
  },
- "checked_n": 65,
+ "checked_n": 68,
  "check_errors": {}
 }
