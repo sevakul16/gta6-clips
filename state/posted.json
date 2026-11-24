@@ -971,11 +971,6 @@
   }
  },
  "rejected": {
-  "chat-2935925087-102": {
-   "at": "2026-11-21T09:46:11.886480+00:00",
-   "why": "picture is almost static (motion 0.02)",
-   "login": "melharucos"
-  },
   "chat-2935437958-956": {
    "at": "2026-11-21T10:30:59.142063+00:00",
    "why": "picture is almost static (motion 0.04)",
@@ -2871,6 +2866,109 @@
     "static_share": 0.01680672268907563,
     "peak_db": 10.33065414428711,
     "level_db": -29.626131057739258
+   },
+   "silence": []
+  },
+  "chat-2939116173-366": {
+   "id": "chat-2939116173-366",
+   "url": "https://www.twitch.tv/videos/2939116173",
+   "section": [
+    16450.04279,
+    16506.04279
+   ],
+   "kind": "chat",
+   "views": 51,
+   "title": "",
+   "vod": "2939116173",
+   "vod_t": 16450.04279,
+   "group": "en",
+   "login": "39daph",
+   "name": "39daph",
+   "viewers": 3402,
+   "chat_score": 10.2,
+   "found_at": "2026-11-24T10:03:17.523481+00:00",
+   "spike_at": "2026-11-24T09:51:25.042790+00:00",
+   "chat": [
+    "19x OMEGALUL",
+    "3x UH OH",
+    "2x KEKW",
+    "2x Gulp",
+    "2x LMFAO",
+    "jason save her",
+    "JASON HELP",
+    "OMEGALUL oh no",
+    "OMEGALUL getting jumped",
+    "o7",
+    "daph1V1",
+    "jason kill them",
+    "nice timing lol"
+   ],
+   "source": "cut from the live stream at a chat spike: 51 chatters in 15 s, 10.2x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-24T10:03:52.768282+00:00",
+   "cam": [
+    0,
+    47,
+    478,
+    336
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 63.2,
+   "words": [
+    {
+     "word": " I",
+     "start": 3.34,
+     "end": 3.56
+    },
+    {
+     "word": " think",
+     "start": 3.56,
+     "end": 3.72
+    },
+    {
+     "word": " I've",
+     "start": 3.72,
+     "end": 3.94
+    },
+    {
+     "word": " hit",
+     "start": 3.94,
+     "end": 4.06
+    },
+    {
+     "word": " every",
+     "start": 4.06,
+     "end": 4.36
+    },
+    {
+     "word": " single",
+     "start": 4.36,
+     "end": 4.68
+    },
+    {
+     "word": " one",
+     "start": 4.68,
+     "end": 4.9
+    },
+    {
+     "word": " of",
+     "start": 4.9,
+     "end": 4.94
+    },
+    {
+     "word": " them",
+     "start": 4.94,
+     "end": 5.34
+    }
+   ],
+   "metrics": {
+    "motion": 0.04705438066465256,
+    "motion_p90": 0.25146525679758314,
+    "static_share": 0.21825396825396826,
+    "peak_db": 9.614494323730469,
+    "level_db": -39.75679397583008
    },
    "silence": []
   }
@@ -5227,6 +5325,6 @@
    "seconds": 23.1
   }
  },
- "checked_n": 46,
+ "checked_n": 47,
  "check_errors": {}
 }
