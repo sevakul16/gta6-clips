@@ -1004,11 +1004,6 @@
   }
  },
  "rejected": {
-  "chat-2934772009-2350": {
-   "at": "2026-11-21T15:06:59.788992+00:00",
-   "why": "picture is almost static (motion 0.03)",
-   "login": "steel"
-  },
   "chat-2936052672-175": {
    "at": "2026-11-21T15:29:09.413322+00:00",
    "why": "editor: 1/10, Стрип-клуб, приватный танец с почти голой танцовщицей",
@@ -3335,6 +3330,654 @@
     "static_share": 0.08968609865470852,
     "peak_db": 11.371072769165039,
     "level_db": -29.94269371032715
+   },
+   "silence": []
+  },
+  "chat-2939191063-535": {
+   "id": "chat-2939191063-535",
+   "url": "https://www.twitch.tv/videos/2939191063",
+   "section": [
+    24074.564915,
+    24130.564915
+   ],
+   "kind": "chat",
+   "views": 37,
+   "title": "",
+   "vod": "2939191063",
+   "vod_t": 24074.564915,
+   "group": "en",
+   "login": "singsing",
+   "name": "singsing",
+   "viewers": 3143,
+   "chat_score": 7.4,
+   "found_at": "2026-11-24T15:07:09.392093+00:00",
+   "spike_at": "2026-11-24T14:58:26.564915+00:00",
+   "chat": [
+    "5x KEK",
+    "3x CINEMA",
+    "2x donkWalk",
+    "2x Gachi",
+    "no music KEK",
+    "catJAM it's great",
+    "no music slowmo OME",
+    "Holy awkward",
+    "slowmo without music KEK",
+    "enable music",
+    "catJAM",
+    "GIGACHAD GIGAWOMAN GIGACHAD"
+   ],
+   "source": "cut from the live stream at a chat spike: 37 chatters in 15 s, 7.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-24T15:07:49.096301+00:00",
+   "cam": [
+    0,
+    70,
+    470,
+    331
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 61.0,
+   "words": [
+    {
+     "word": " Surprise",
+     "start": 1.41,
+     "end": 1.85
+    },
+    {
+     "word": " motherfucker.",
+     "start": 1.85,
+     "end": 2.29
+    },
+    {
+     "word": " You",
+     "start": 2.75,
+     "end": 2.83
+    },
+    {
+     "word": " found",
+     "start": 2.83,
+     "end": 3.09
+    },
+    {
+     "word": " us.",
+     "start": 3.09,
+     "end": 3.39
+    },
+    {
+     "word": " Should",
+     "start": 3.39,
+     "end": 3.71
+    },
+    {
+     "word": " I",
+     "start": 3.71,
+     "end": 3.87
+    },
+    {
+     "word": " wait?",
+     "start": 3.87,
+     "end": 4.09
+    },
+    {
+     "word": " No,",
+     "start": 4.39,
+     "end": 4.75
+    },
+    {
+     "word": " we're",
+     "start": 4.83,
+     "end": 4.97
+    },
+    {
+     "word": " ready.",
+     "start": 4.97,
+     "end": 5.27
+    },
+    {
+     "word": " Hey",
+     "start": 5.81,
+     "end": 6.07
+    },
+    {
+     "word": " y",
+     "start": 6.07,
+     "end": 6.39
+    },
+    {
+     "word": "'all",
+     "start": 6.39,
+     "end": 6.47
+    },
+    {
+     "word": " needed",
+     "start": 6.47,
+     "end": 6.65
+    },
+    {
+     "word": " a",
+     "start": 6.65,
+     "end": 6.81
+    },
+    {
+     "word": " driver",
+     "start": 6.81,
+     "end": 7.11
+    },
+    {
+     "word": " and",
+     "start": 7.11,
+     "end": 7.47
+    },
+    {
+     "word": " I",
+     "start": 7.47,
+     "end": 7.61
+    },
+    {
+     "word": " delivered",
+     "start": 7.61,
+     "end": 7.99
+    },
+    {
+     "word": " on",
+     "start": 7.99,
+     "end": 8.63
+    },
+    {
+     "word": " our",
+     "start": 8.63,
+     "end": 8.79
+    },
+    {
+     "word": " way",
+     "start": 8.79,
+     "end": 9.13
+    },
+    {
+     "word": " Nate,",
+     "start": 10.05,
+     "end": 10.49
+    },
+    {
+     "word": " I",
+     "start": 10.59,
+     "end": 10.71
+    },
+    {
+     "word": " still",
+     "start": 10.71,
+     "end": 10.87
+    },
+    {
+     "word": " don't",
+     "start": 10.87,
+     "end": 11.05
+    },
+    {
+     "word": " know",
+     "start": 11.05,
+     "end": 11.17
+    },
+    {
+     "word": " what",
+     "start": 11.17,
+     "end": 11.29
+    },
+    {
+     "word": " we're",
+     "start": 11.29,
+     "end": 11.43
+    },
+    {
+     "word": " doing",
+     "start": 11.43,
+     "end": 11.71
+    },
+    {
+     "word": " You",
+     "start": 12.59,
+     "end": 13.03
+    },
+    {
+     "word": " brought",
+     "start": 13.03,
+     "end": 13.27
+    },
+    {
+     "word": " him",
+     "start": 13.27,
+     "end": 13.37
+    },
+    {
+     "word": " a",
+     "start": 13.37,
+     "end": 13.47
+    },
+    {
+     "word": " driver.",
+     "start": 13.47,
+     "end": 13.81
+    },
+    {
+     "word": " Yeah,",
+     "start": 14.07,
+     "end": 14.39
+    },
+    {
+     "word": " we",
+     "start": 14.41,
+     "end": 14.53
+    },
+    {
+     "word": " did",
+     "start": 14.53,
+     "end": 14.71
+    },
+    {
+     "word": " doc",
+     "start": 14.71,
+     "end": 15.11
+    },
+    {
+     "word": " and",
+     "start": 15.11,
+     "end": 15.35
+    },
+    {
+     "word": " I",
+     "start": 15.35,
+     "end": 15.47
+    },
+    {
+     "word": " still",
+     "start": 15.47,
+     "end": 15.61
+    },
+    {
+     "word": " know",
+     "start": 15.61,
+     "end": 15.77
+    },
+    {
+     "word": " who",
+     "start": 15.77,
+     "end": 15.87
+    },
+    {
+     "word": " the",
+     "start": 15.87,
+     "end": 15.99
+    },
+    {
+     "word": " fuck",
+     "start": 15.99,
+     "end": 16.17
+    },
+    {
+     "word": " they",
+     "start": 16.17,
+     "end": 16.41
+    },
+    {
+     "word": " are.",
+     "start": 16.41,
+     "end": 16.67
+    },
+    {
+     "word": " It's",
+     "start": 16.75,
+     "end": 17.19
+    },
+    {
+     "word": " you",
+     "start": 17.19,
+     "end": 17.59
+    },
+    {
+     "word": " yo",
+     "start": 17.59,
+     "end": 18.03
+    },
+    {
+     "word": " Me",
+     "start": 18.93,
+     "end": 19.37
+    },
+    {
+     "word": " fuck.",
+     "start": 19.37,
+     "end": 19.81
+    },
+    {
+     "word": " Yeah,",
+     "start": 20.11,
+     "end": 20.19
+    },
+    {
+     "word": " great.",
+     "start": 20.19,
+     "end": 21.01
+    },
+    {
+     "word": " Okay.",
+     "start": 21.29,
+     "end": 21.73
+    },
+    {
+     "word": " Is",
+     "start": 21.91,
+     "end": 22.35
+    },
+    {
+     "word": " there",
+     "start": 22.35,
+     "end": 22.53
+    },
+    {
+     "word": " anything",
+     "start": 22.53,
+     "end": 22.77
+    },
+    {
+     "word": " else",
+     "start": 22.77,
+     "end": 23.05
+    },
+    {
+     "word": " I",
+     "start": 23.05,
+     "end": 23.17
+    },
+    {
+     "word": " should",
+     "start": 23.17,
+     "end": 23.21
+    },
+    {
+     "word": " probably",
+     "start": 23.21,
+     "end": 23.43
+    },
+    {
+     "word": " know",
+     "start": 23.43,
+     "end": 23.59
+    },
+    {
+     "word": " about",
+     "start": 23.59,
+     "end": 23.81
+    },
+    {
+     "word": " like",
+     "start": 23.81,
+     "end": 24.59
+    },
+    {
+     "word": " what",
+     "start": 24.59,
+     "end": 24.71
+    },
+    {
+     "word": " we're",
+     "start": 24.71,
+     "end": 24.79
+    },
+    {
+     "word": " doing",
+     "start": 24.79,
+     "end": 25.01
+    },
+    {
+     "word": " You",
+     "start": 25.01,
+     "end": 25.01
+    },
+    {
+     "word": " know,",
+     "start": 25.01,
+     "end": 25.57
+    },
+    {
+     "word": " just",
+     "start": 25.71,
+     "end": 25.85
+    },
+    {
+     "word": " ask",
+     "start": 25.85,
+     "end": 26.23
+    },
+    {
+     "word": " a",
+     "start": 26.23,
+     "end": 26.39
+    },
+    {
+     "word": " G",
+     "start": 26.39,
+     "end": 26.57
+    },
+    {
+     "word": " whatever.",
+     "start": 26.57,
+     "end": 26.81
+    },
+    {
+     "word": " All",
+     "start": 27.13,
+     "end": 27.17
+    },
+    {
+     "word": " right.",
+     "start": 27.17,
+     "end": 27.33
+    },
+    {
+     "word": " He's",
+     "start": 27.39,
+     "end": 27.55
+    },
+    {
+     "word": " chill.",
+     "start": 27.55,
+     "end": 27.83
+    },
+    {
+     "word": " He's",
+     "start": 27.99,
+     "end": 28.09
+    },
+    {
+     "word": " chill.",
+     "start": 28.09,
+     "end": 28.41
+    },
+    {
+     "word": " You're",
+     "start": 28.49,
+     "end": 28.83
+    },
+    {
+     "word": " late.",
+     "start": 28.83,
+     "end": 29.09
+    },
+    {
+     "word": " You",
+     "start": 29.35,
+     "end": 29.83
+    },
+    {
+     "word": " get",
+     "start": 29.83,
+     "end": 29.95
+    },
+    {
+     "word": " the",
+     "start": 29.95,
+     "end": 30.07
+    },
+    {
+     "word": " drive",
+     "start": 30.07,
+     "end": 30.33
+    },
+    {
+     "word": " Cool,",
+     "start": 31.07,
+     "end": 31.55
+    },
+    {
+     "word": " huh?",
+     "start": 31.63,
+     "end": 31.81
+    },
+    {
+     "word": " Yeah,",
+     "start": 33.15,
+     "end": 33.63
+    },
+    {
+     "word": " cool",
+     "start": 33.63,
+     "end": 34.11
+    },
+    {
+     "word": " Should",
+     "start": 38.83,
+     "end": 39.31
+    },
+    {
+     "word": " I",
+     "start": 39.31,
+     "end": 39.75
+    },
+    {
+     "word": " have",
+     "start": 39.75,
+     "end": 40.11
+    },
+    {
+     "word": " brought",
+     "start": 40.11,
+     "end": 40.39
+    },
+    {
+     "word": " a",
+     "start": 40.39,
+     "end": 40.53
+    },
+    {
+     "word": " bigger",
+     "start": 40.53,
+     "end": 40.71
+    },
+    {
+     "word": " weapon?",
+     "start": 40.71,
+     "end": 41.09
+    },
+    {
+     "word": " I",
+     "start": 43.69,
+     "end": 44.17
+    },
+    {
+     "word": " think",
+     "start": 44.17,
+     "end": 44.29
+    },
+    {
+     "word": " that's",
+     "start": 44.29,
+     "end": 44.51
+    },
+    {
+     "word": " supposed",
+     "start": 44.51,
+     "end": 44.65
+    },
+    {
+     "word": " to",
+     "start": 44.65,
+     "end": 44.77
+    },
+    {
+     "word": " be",
+     "start": 44.77,
+     "end": 44.85
+    },
+    {
+     "word": " music",
+     "start": 44.85,
+     "end": 45.11
+    },
+    {
+     "word": " here",
+     "start": 45.11,
+     "end": 45.45
+    }
+   ],
+   "metrics": {
+    "motion": 0.288595166163142,
+    "motion_p90": 0.5642296072507554,
+    "static_share": 0.0,
+    "peak_db": 10.480875015258789,
+    "level_db": -40.21010971069336
+   },
+   "silence": []
+  },
+  "RepleteBoredPeachDatSheffy-Vsg-DWbVi3tcAORl": {
+   "id": "RepleteBoredPeachDatSheffy-Vsg-DWbVi3tcAORl",
+   "url": "https://www.twitch.tv/bratishkinoff/clip/RepleteBoredPeachDatSheffy-Vsg-DWbVi3tcAORl",
+   "section": null,
+   "kind": "clip",
+   "views": 300,
+   "title": "абсолют синема",
+   "vod": "2938328156",
+   "vod_t": 12624,
+   "group": "ru",
+   "login": "bratishkinoff",
+   "name": "bratishkinOFF",
+   "source": "Twitch clip made by a viewer, 300 views, titled \"абсолют синема\"",
+   "at": "2026-11-24T15:08:10.579909+00:00",
+   "cam": [
+    87,
+    642,
+    491,
+    345
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 30.0,
+   "words": [
+    {
+     "word": " НЕБАТЬ!",
+     "start": 19.6,
+     "end": 21.3
+    },
+    {
+     "word": " Идеально",
+     "start": 25.19,
+     "end": 25.81
+    },
+    {
+     "word": " нахуй!",
+     "start": 25.81,
+     "end": 26.27
+    }
+   ],
+   "metrics": {
+    "motion": 0.2486127336448598,
+    "motion_p90": 0.38256425233644864,
+    "static_share": 0.01680672268907563,
+    "peak_db": 5.374757766723633,
+    "level_db": -30.36065101623535
    },
    "silence": []
   }
@@ -5694,6 +6337,6 @@
    "seconds": 30.1
   }
  },
- "checked_n": 62,
+ "checked_n": 64,
  "check_errors": {}
 }
