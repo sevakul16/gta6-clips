@@ -1049,5 +1049,29 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "chat-2939363532-460": {
+  "at": "2026-11-24T21:13:56.003798+00:00",
+  "moment_score": 3,
+  "what_happens": "Night drive while asking chat to rate the graphics, chat answers 7/10; a chat poll and opinion talk, no game event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939344770-511": {
+  "at": "2026-11-24T21:13:56.061074+00:00",
+  "moment_score": 4,
+  "what_happens": "Highway heist mission: steals a taxi, drives the wrong way, gets Wasted and wonders if he should have reversed; an ordinary mission fail told mostly by game dialogue, tiny webcam, the restart fills the last third",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939344770-552": {
+  "at": "2026-11-24T21:13:56.109256+00:00",
+  "moment_score": 2,
+  "what_happens": "Cutscene in a van followed by a scripted drone flight to a rooftop pool; only game dialogue, no event and no reaction",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
  }
 }
