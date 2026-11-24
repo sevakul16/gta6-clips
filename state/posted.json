@@ -1037,21 +1037,6 @@
   }
  },
  "rejected": {
-  "chat-2936063961-499": {
-   "at": "2026-11-21T18:52:09.386278+00:00",
-   "why": "picture is almost static (motion 0.00)",
-   "login": "whoplohoyparen"
-  },
-  "chat-2936063961-501": {
-   "at": "2026-11-21T18:53:29.078753+00:00",
-   "why": "picture is almost static (motion 0.00)",
-   "login": "whoplohoyparen"
-  },
-  "TemperedRepleteDonkeyTheThing-lkz_hzo0bncc6YzR": {
-   "at": "2026-11-21T18:53:50.075186+00:00",
-   "why": "same moment is already posted or queued",
-   "login": "evelone2004"
-  },
   "chat-2935925087-809": {
    "at": "2026-11-21T19:16:21.426071+00:00",
    "why": "editor: 4/10, Перестрелка в миссии: холл, лифт, крыша; сорок секунд без слов, потом его почти убивают и он ругается на оптические прицелы. Чёткого события нет",
@@ -2371,6 +2356,22 @@
    "kind": "chat",
    "vod": "2938915006",
    "vod_t": 64318.205858
+  },
+  "OutstandingPoorMuleTooSpicy-EPG7Mkqz0hYMboIi": {
+   "at": "2026-11-24T19:11:44.621791+00:00",
+   "why": "picture is almost static (motion 0.02)",
+   "login": "caseoh_",
+   "kind": "clip",
+   "vod": "2937666104",
+   "vod_t": 8882
+  },
+  "chat-2939550825-46": {
+   "at": "2026-11-24T19:12:03.903759+00:00",
+   "why": "streamer fills the screen, no gameplay",
+   "login": "jynxzi",
+   "kind": "chat",
+   "vod": "2939550825",
+   "vod_t": 2054.483504
   }
  },
  "pending": {
@@ -5046,6 +5047,6 @@
    "seconds": 22.1
   }
  },
- "checked_n": 80,
+ "checked_n": 82,
  "check_errors": {}
 }
