@@ -938,21 +938,6 @@
   }
  },
  "rejected": {
-  "chat-2935449800-251": {
-   "at": "2026-11-21T01:57:27.033203+00:00",
-   "why": "picture is almost static (motion 0.00)",
-   "login": "theburntpeanut"
-  },
-  "chat-2935383720-325": {
-   "at": "2026-11-21T01:58:13.445595+00:00",
-   "why": "streamer fills the screen, no gameplay",
-   "login": "xqc"
-  },
-  "chat-2935613960-40": {
-   "at": "2026-11-21T01:59:09.116390+00:00",
-   "why": "streamer fills the screen, no gameplay",
-   "login": "kaicenat"
-  },
   "GeniusExquisiteTruffleTheRinger-yaF0AG72JWEGGrCQ": {
    "at": "2026-11-21T02:21:24.624336+00:00",
    "why": "editor: 4/10, Злится и гоняется с кулаками за отдыхающим на пляже, обычная драка без развязки, много мата.",
@@ -3350,6 +3335,463 @@
     "static_share": 0.06060606060606061,
     "peak_db": 10.370536804199219,
     "level_db": -30.214229583740234
+   },
+   "silence": []
+  },
+  "OutstandingFairCobblerPraiseIt-Oz-2zy8DKMNXaovr": {
+   "id": "OutstandingFairCobblerPraiseIt-Oz-2zy8DKMNXaovr",
+   "vod": "2936703252",
+   "vod_t": 4133,
+   "group": "en",
+   "views": 12211,
+   "title": "push ping ping crazy B****😭😭😂",
+   "url": "https://www.twitch.tv/drupy876/clip/OutstandingFairCobblerPraiseIt-Oz-2zy8DKMNXaovr",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "drupy876",
+   "name": "drupy876",
+   "source": "Twitch clip made by a viewer, 12211 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"push ping ping crazy B****😭😭😂\"",
+   "at": "2026-11-24T02:05:40.392697+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 30.0,
+   "words": [
+    {
+     "word": " attitude",
+     "start": 0.0,
+     "end": 0.48
+    },
+    {
+     "word": " I've",
+     "start": 0.48,
+     "end": 0.86
+    },
+    {
+     "word": " been",
+     "start": 0.86,
+     "end": 0.96
+    },
+    {
+     "word": " looking",
+     "start": 0.96,
+     "end": 1.18
+    },
+    {
+     "word": " for",
+     "start": 1.18,
+     "end": 1.5
+    },
+    {
+     "word": " now",
+     "start": 1.5,
+     "end": 1.7
+    },
+    {
+     "word": " you",
+     "start": 1.7,
+     "end": 1.84
+    },
+    {
+     "word": " don't",
+     "start": 1.84,
+     "end": 2.02
+    },
+    {
+     "word": " worry",
+     "start": 2.02,
+     "end": 2.38
+    },
+    {
+     "word": " Laurie",
+     "start": 2.38,
+     "end": 2.74
+    },
+    {
+     "word": " and",
+     "start": 2.74,
+     "end": 2.96
+    },
+    {
+     "word": " I",
+     "start": 2.96,
+     "end": 3.16
+    },
+    {
+     "word": " we've",
+     "start": 3.16,
+     "end": 3.88
+    },
+    {
+     "word": " been",
+     "start": 3.88,
+     "end": 4.0
+    },
+    {
+     "word": " figuring",
+     "start": 4.0,
+     "end": 4.32
+    },
+    {
+     "word": " it",
+     "start": 4.32,
+     "end": 4.56
+    },
+    {
+     "word": " out",
+     "start": 4.56,
+     "end": 4.8
+    },
+    {
+     "word": " and",
+     "start": 4.8,
+     "end": 5.0
+    },
+    {
+     "word": " you",
+     "start": 5.0,
+     "end": 5.28
+    },
+    {
+     "word": " me",
+     "start": 5.28,
+     "end": 5.84
+    },
+    {
+     "word": " we're",
+     "start": 5.84,
+     "end": 6.14
+    },
+    {
+     "word": " gonna",
+     "start": 6.14,
+     "end": 6.26
+    },
+    {
+     "word": " go",
+     "start": 6.26,
+     "end": 6.44
+    },
+    {
+     "word": " inside",
+     "start": 6.44,
+     "end": 6.78
+    },
+    {
+     "word": " talk",
+     "start": 6.78,
+     "end": 7.42
+    },
+    {
+     "word": " she's",
+     "start": 7.42,
+     "end": 8.44
+    },
+    {
+     "word": " gonna",
+     "start": 8.44,
+     "end": 8.64
+    },
+    {
+     "word": " hang",
+     "start": 8.64,
+     "end": 9.28
+    },
+    {
+     "word": " back",
+     "start": 9.28,
+     "end": 9.6
+    },
+    {
+     "word": " a",
+     "start": 9.6,
+     "end": 9.84
+    },
+    {
+     "word": " little",
+     "start": 9.84,
+     "end": 10.0
+    },
+    {
+     "word": " bit",
+     "start": 10.0,
+     "end": 10.26
+    },
+    {
+     "word": " and",
+     "start": 10.26,
+     "end": 10.52
+    },
+    {
+     "word": " keep",
+     "start": 10.52,
+     "end": 10.96
+    },
+    {
+     "word": " an",
+     "start": 10.96,
+     "end": 11.14
+    },
+    {
+     "word": " eye",
+     "start": 11.14,
+     "end": 11.36
+    },
+    {
+     "word": " on",
+     "start": 11.36,
+     "end": 11.56
+    },
+    {
+     "word": " thing",
+     "start": 11.56,
+     "end": 11.8
+    },
+    {
+     "word": " so",
+     "start": 11.8,
+     "end": 12.5
+    },
+    {
+     "word": " what",
+     "start": 12.5,
+     "end": 12.64
+    },
+    {
+     "word": " you",
+     "start": 12.64,
+     "end": 12.78
+    },
+    {
+     "word": " got",
+     "start": 12.78,
+     "end": 12.96
+    },
+    {
+     "word": " for",
+     "start": 12.96,
+     "end": 13.16
+    },
+    {
+     "word": " me",
+     "start": 13.16,
+     "end": 13.3
+    },
+    {
+     "word": " babe",
+     "start": 13.3,
+     "end": 13.52
+    },
+    {
+     "word": " you",
+     "start": 13.52,
+     "end": 14.28
+    },
+    {
+     "word": " got",
+     "start": 14.28,
+     "end": 14.42
+    },
+    {
+     "word": " one",
+     "start": 14.42,
+     "end": 14.56
+    },
+    {
+     "word": " Jason",
+     "start": 14.56,
+     "end": 14.82
+    },
+    {
+     "word": " I'm",
+     "start": 14.82,
+     "end": 15.46
+    },
+    {
+     "word": " good",
+     "start": 15.46,
+     "end": 15.62
+    },
+    {
+     "word": " okay",
+     "start": 15.62,
+     "end": 16.48
+    },
+    {
+     "word": " any",
+     "start": 16.48,
+     "end": 17.74
+    },
+    {
+     "word": " of",
+     "start": 17.74,
+     "end": 17.88
+    },
+    {
+     "word": " those",
+     "start": 17.88,
+     "end": 18.02
+    },
+    {
+     "word": " guys",
+     "start": 18.02,
+     "end": 18.28
+    },
+    {
+     "word": " even",
+     "start": 18.28,
+     "end": 18.56
+    },
+    {
+     "word": " look",
+     "start": 18.56,
+     "end": 18.92
+    },
+    {
+     "word": " at",
+     "start": 18.92,
+     "end": 19.1
+    },
+    {
+     "word": " you",
+     "start": 19.1,
+     "end": 19.22
+    },
+    {
+     "word": " funny",
+     "start": 19.22,
+     "end": 19.44
+    },
+    {
+     "word": " grip",
+     "start": 19.44,
+     "end": 20.22
+    },
+    {
+     "word": " grip",
+     "start": 20.22,
+     "end": 20.58
+    },
+    {
+     "word": " grab",
+     "start": 20.58,
+     "end": 21.0
+    },
+    {
+     "word": " push",
+     "start": 21.0,
+     "end": 21.48
+    },
+    {
+     "word": " ping",
+     "start": 21.48,
+     "end": 21.98
+    },
+    {
+     "word": " ping",
+     "start": 21.98,
+     "end": 22.44
+    },
+    {
+     "word": " ping",
+     "start": 22.44,
+     "end": 22.9
+    },
+    {
+     "word": " you",
+     "start": 22.9,
+     "end": 24.62
+    },
+    {
+     "word": " got",
+     "start": 24.62,
+     "end": 24.78
+    },
+    {
+     "word": " that",
+     "start": 24.78,
+     "end": 24.98
+    },
+    {
+     "word": " I",
+     "start": 24.98,
+     "end": 25.9
+    },
+    {
+     "word": " think",
+     "start": 25.9,
+     "end": 26.5
+    },
+    {
+     "word": " I",
+     "start": 26.5,
+     "end": 26.66
+    },
+    {
+     "word": " can",
+     "start": 26.66,
+     "end": 26.78
+    },
+    {
+     "word": " manage",
+     "start": 26.78,
+     "end": 27.06
+    },
+    {
+     "word": " lucky",
+     "start": 27.06,
+     "end": 27.5
+    },
+    {
+     "word": " for",
+     "start": 27.5,
+     "end": 27.76
+    },
+    {
+     "word": " you",
+     "start": 27.76,
+     "end": 27.98
+    },
+    {
+     "word": " this",
+     "start": 27.98,
+     "end": 28.22
+    },
+    {
+     "word": " girl",
+     "start": 28.22,
+     "end": 28.46
+    },
+    {
+     "word": " don't",
+     "start": 28.46,
+     "end": 28.74
+    },
+    {
+     "word": " go",
+     "start": 28.74,
+     "end": 28.84
+    },
+    {
+     "word": " anywhere",
+     "start": 28.84,
+     "end": 29.3
+    },
+    {
+     "word": " without",
+     "start": 29.3,
+     "end": 29.72
+    }
+   ],
+   "metrics": {
+    "motion": 0.15631944444444446,
+    "motion_p90": 0.47238888888888886,
+    "static_share": 0.0,
+    "peak_db": 3.433216094970703,
+    "level_db": -35.80131530761719
    },
    "silence": []
   }
@@ -6345,6 +6787,6 @@
    "seconds": 53.1
   }
  },
- "checked_n": 16,
+ "checked_n": 17,
  "check_errors": {}
 }
