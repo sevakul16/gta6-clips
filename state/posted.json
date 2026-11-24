@@ -2365,329 +2365,531 @@
    "kind": "chat",
    "vod": "2939200535",
    "vod_t": 5450.564654
+  },
+  "chat-2939116173-484": {
+   "at": "2026-11-24T12:15:23.381073+00:00",
+   "why": "editor: 2/10, The first 20 s are a social-media page with someone else's video, which is what chat laughs at; then she walks around a mansion naming the cars. No game event.",
+   "login": "39daph",
+   "kind": "chat",
+   "vod": "2939116173",
+   "vod_t": 21758.44946
+  },
+  "chat-2939191063-286": {
+   "at": "2026-11-24T12:15:23.381472+00:00",
+   "why": "editor: no webcam in the picture",
+   "login": "singsing",
+   "kind": "chat",
+   "vod": "2939191063",
+   "vod_t": 12854.822078
   }
  },
  "pending": {
-  "chat-2939116173-484": {
-   "id": "chat-2939116173-484",
+  "chat-2939116173-541": {
+   "id": "chat-2939116173-541",
    "url": "https://www.twitch.tv/videos/2939116173",
    "section": [
-    21758.44946,
-    21814.44946
+    24307.254168,
+    24363.254168
    ],
    "kind": "chat",
-   "views": 37,
+   "views": 38,
    "title": "",
    "vod": "2939116173",
-   "vod_t": 21758.44946,
+   "vod_t": 24307.254168,
    "group": "en",
    "login": "39daph",
    "name": "39daph",
-   "viewers": 3787,
-   "chat_score": 9.25,
-   "found_at": "2026-11-24T11:31:15.838675+00:00",
-   "spike_at": "2026-11-24T11:19:53.449460+00:00",
+   "viewers": 4287,
+   "chat_score": 9.5,
+   "found_at": "2026-11-24T12:14:35.215737+00:00",
+   "spike_at": "2026-11-24T12:02:22.254168+00:00",
    "chat": [
-    "22x OMEGALUL",
-    "6x KEKW",
-    "classic",
-    "@jamiira_ 3",
-    "LOOOOOOOOOOL",
-    "LMFAOOOO",
-    "LUL",
-    "A classic daphWeird",
-    "nice",
-    "om"
+    "14x OMEGALUL",
+    "3x KEKW",
+    "2x LMAO",
+    "2x LMFAO",
+    "oops!",
+    "elisOmega ??",
+    "Y",
+    "pffft",
+    "HAHAHAHAHAHA dudeeeeeeee",
+    "PogO daph",
+    "OMEGALUL 󠀀",
+    "Cyring"
    ],
-   "source": "cut from the live stream at a chat spike: 37 chatters in 15 s, 9.2x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-24T11:32:00.484680+00:00",
+   "source": "cut from the live stream at a chat spike: 38 chatters in 15 s, 9.5x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-24T12:15:20.330619+00:00",
    "cam": [
-    1382,
-    564,
-    537,
-    378
+    1403,
+    572,
+    516,
+    363
    ],
    "size": [
     1920,
     1080
    ],
-   "dur": 61.2,
+   "dur": 60.2,
    "words": [
     {
-     "word": " You're",
-     "start": 24.5,
-     "end": 24.74
+     "word": " death",
+     "start": 0.24,
+     "end": 0.8
     },
     {
-     "word": " back.",
-     "start": 24.74,
-     "end": 24.96
+     "word": " your",
+     "start": 0.8,
+     "end": 2.4
+    },
+    {
+     "word": " motherfucking",
+     "start": 2.4,
+     "end": 3.5
+    },
+    {
+     "word": " fucks",
+     "start": 3.5,
+     "end": 4.3
+    },
+    {
+     "word": " let's",
+     "start": 4.3,
+     "end": 5.0
+    },
+    {
+     "word": " go",
+     "start": 5.0,
+     "end": 5.14
+    },
+    {
+     "word": " no",
+     "start": 5.14,
+     "end": 5.82
+    },
+    {
+     "word": " we",
+     "start": 5.82,
+     "end": 5.96
+    },
+    {
+     "word": " have",
+     "start": 5.96,
+     "end": 6.14
+    },
+    {
+     "word": " some",
+     "start": 6.14,
+     "end": 6.34
+    },
+    {
+     "word": " fun",
+     "start": 6.34,
+     "end": 6.66
+    },
+    {
+     "word": " actually",
+     "start": 6.66,
+     "end": 7.26
+    },
+    {
+     "word": " there",
+     "start": 7.26,
+     "end": 9.16
+    },
+    {
+     "word": " won't",
+     "start": 10.54,
+     "end": 10.7
+    },
+    {
+     "word": " even",
+     "start": 10.7,
+     "end": 10.84
+    },
+    {
+     "word": " come",
+     "start": 10.84,
+     "end": 11.06
+    },
+    {
+     "word": " after",
+     "start": 11.06,
+     "end": 11.26
+    },
+    {
+     "word": " you",
+     "start": 11.26,
+     "end": 11.58
+    },
+    {
+     "word": " look",
+     "start": 11.58,
+     "end": 14.42
     },
     {
      "word": " I",
-     "start": 34.85,
-     "end": 35.15
+     "start": 16.56,
+     "end": 17.58
     },
     {
-     "word": " love",
-     "start": 35.15,
-     "end": 35.43
+     "word": " thought",
+     "start": 17.58,
+     "end": 17.8
     },
     {
-     "word": " cross",
-     "start": 35.43,
-     "end": 35.89
+     "word": " I",
+     "start": 17.8,
+     "end": 18.32
     },
     {
-     "word": " calls.",
-     "start": 35.89,
-     "end": 36.29
+     "word": " thought",
+     "start": 18.32,
+     "end": 18.52
     },
     {
-     "word": " What?",
+     "word": " if",
+     "start": 18.52,
+     "end": 18.7
+    },
+    {
+     "word": " I",
+     "start": 18.7,
+     "end": 18.78
+    },
+    {
+     "word": " just",
+     "start": 18.78,
+     "end": 18.98
+    },
+    {
+     "word": " put",
+     "start": 18.98,
+     "end": 19.2
+    },
+    {
+     "word": " like",
+     "start": 19.2,
+     "end": 19.56
+    },
+    {
+     "word": " one",
+     "start": 19.56,
+     "end": 20.46
+    },
+    {
+     "word": " bullet",
+     "start": 20.46,
+     "end": 21.38
+    },
+    {
+     "word": " in",
+     "start": 21.38,
+     "end": 21.62
+    },
+    {
+     "word": " his",
+     "start": 21.62,
+     "end": 21.8
+    },
+    {
+     "word": " calf",
+     "start": 21.8,
+     "end": 22.14
+    },
+    {
+     "word": " it'd",
+     "start": 22.14,
+     "end": 22.62
+    },
+    {
+     "word": " be",
+     "start": 22.62,
+     "end": 22.72
+    },
+    {
+     "word": " fine",
+     "start": 22.72,
+     "end": 23.18
+    },
+    {
+     "word": " really",
+     "start": 23.18,
+     "end": 24.3
+    },
+    {
+     "word": " I",
+     "start": 25.64,
+     "end": 25.86
+    },
+    {
+     "word": " wanted",
+     "start": 25.86,
+     "end": 26.12
+    },
+    {
+     "word": " to",
+     "start": 26.12,
+     "end": 26.36
+    },
+    {
+     "word": " see",
+     "start": 26.36,
+     "end": 26.54
+    },
+    {
+     "word": " if",
+     "start": 26.54,
+     "end": 26.7
+    },
+    {
+     "word": " it",
+     "start": 26.7,
+     "end": 26.78
+    },
+    {
+     "word": " was",
+     "start": 26.78,
+     "end": 26.94
+    },
+    {
+     "word": " okay",
+     "start": 26.94,
+     "end": 27.28
+    },
+    {
+     "word": " to",
+     "start": 27.28,
+     "end": 27.5
+    },
+    {
+     "word": " hurt",
+     "start": 27.5,
+     "end": 27.74
+    },
+    {
+     "word": " him",
+     "start": 27.74,
+     "end": 27.92
+    },
+    {
+     "word": " just",
+     "start": 27.92,
+     "end": 28.1
+    },
+    {
+     "word": " a",
+     "start": 28.1,
+     "end": 28.34
+    },
+    {
+     "word": " little",
+     "start": 28.34,
+     "end": 28.56
+    },
+    {
+     "word": " bit",
+     "start": 28.56,
+     "end": 28.92
+    },
+    {
+     "word": " his",
+     "start": 33.05,
+     "end": 35.23
+    },
+    {
+     "word": " legs",
+     "start": 35.23,
+     "end": 36.53
+    },
+    {
+     "word": " were",
+     "start": 36.53,
+     "end": 36.75
+    },
+    {
+     "word": " calling",
      "start": 36.75,
-     "end": 37.03
-    },
-    {
-     "word": " A",
-     "start": 37.33,
-     "end": 37.87
-    },
-    {
-     "word": " lot",
-     "start": 37.87,
-     "end": 37.97
-    },
-    {
-     "word": " of",
-     "start": 37.97,
-     "end": 38.09
-    },
-    {
-     "word": " cars",
-     "start": 38.09,
-     "end": 38.27
+     "end": 37.19
     },
     {
      "word": " out",
-     "start": 38.27,
-     "end": 38.47
+     "start": 37.19,
+     "end": 37.55
     },
     {
-     "word": " from.",
-     "start": 38.47,
-     "end": 38.71
+     "word": " to",
+     "start": 37.55,
+     "end": 37.69
     },
     {
-     "word": " Ooh,",
-     "start": 41.06,
-     "end": 41.24
+     "word": " me",
+     "start": 37.69,
+     "end": 37.87
     },
     {
-     "word": " a",
-     "start": 41.36,
-     "end": 41.36
+     "word": " I",
+     "start": 37.87,
+     "end": 38.03
     },
     {
-     "word": " Bentley.",
-     "start": 41.36,
-     "end": 41.86
+     "word": " had",
+     "start": 38.03,
+     "end": 38.23
     },
     {
-     "word": " This",
-     "start": 42.88,
-     "end": 43.44
+     "word": " to",
+     "start": 38.23,
+     "end": 38.45
     },
     {
-     "word": " is",
-     "start": 43.44,
-     "end": 43.66
+     "word": " see",
+     "start": 38.45,
+     "end": 38.81
     },
     {
-     "word": " a",
-     "start": 43.66,
-     "end": 43.84
+     "word": " your",
+     "start": 40.89,
+     "end": 41.53
     },
     {
-     "word": " Lamborghini",
-     "start": 43.84,
-     "end": 44.68
+     "word": " motherfucking",
+     "start": 41.53,
+     "end": 42.17
     },
     {
-     "word": " and",
-     "start": 44.68,
-     "end": 44.98
+     "word": " fucks",
+     "start": 42.17,
+     "end": 42.93
     },
     {
-     "word": " this",
-     "start": 44.98,
-     "end": 45.32
+     "word": " let's",
+     "start": 42.93,
+     "end": 43.61
     },
     {
-     "word": " is",
-     "start": 45.32,
-     "end": 45.52
+     "word": " go",
+     "start": 43.61,
+     "end": 43.77
     },
     {
-     "word": " a",
-     "start": 45.52,
-     "end": 45.68
+     "word": " no",
+     "start": 43.77,
+     "end": 44.49
     },
     {
-     "word": " Lamborghini.",
-     "start": 45.68,
-     "end": 46.68
+     "word": " we",
+     "start": 44.49,
+     "end": 44.65
     },
     {
-     "word": " This",
-     "start": 47.8,
-     "end": 47.98
+     "word": " had",
+     "start": 44.65,
+     "end": 44.81
     },
     {
-     "word": " is",
-     "start": 47.98,
-     "end": 48.2
+     "word": " some",
+     "start": 44.81,
+     "end": 45.01
     },
     {
-     "word": " a",
-     "start": 48.2,
-     "end": 48.44
+     "word": " fun",
+     "start": 45.01,
+     "end": 45.33
     },
     {
-     "word": " Lamborghini.",
-     "start": 48.44,
-     "end": 49.42
+     "word": " actually",
+     "start": 45.33,
+     "end": 45.83
     },
     {
-     "word": " This",
-     "start": 51.0,
-     "end": 51.26
+     "word": " I",
+     "start": 45.83,
+     "end": 46.95
     },
     {
-     "word": " is",
-     "start": 51.26,
-     "end": 51.4
+     "word": " didn't",
+     "start": 46.95,
+     "end": 49.55
     },
     {
-     "word": " a",
-     "start": 51.4,
-     "end": 51.56
+     "word": " think",
+     "start": 49.55,
+     "end": 49.69
     },
     {
-     "word": " Lamborghini.",
-     "start": 51.56,
-     "end": 52.5
+     "word": " it",
+     "start": 49.69,
+     "end": 49.79
     },
     {
-     "word": " It's",
-     "start": 52.9,
-     "end": 53.06
+     "word": " was",
+     "start": 49.79,
+     "end": 49.99
     },
     {
-     "word": " definitely",
-     "start": 53.06,
-     "end": 53.32
+     "word": " plank",
+     "start": 49.99,
+     "end": 50.83
     },
     {
-     "word": " something.",
-     "start": 53.32,
-     "end": 53.7
+     "word": " they",
+     "start": 50.83,
+     "end": 51.53
     },
     {
-     "word": " Go",
-     "start": 54.94,
-     "end": 55.5
+     "word": " come",
+     "start": 51.53,
+     "end": 51.73
     },
     {
-     "word": " back.",
-     "start": 55.5,
-     "end": 55.78
+     "word": " for",
+     "start": 51.73,
+     "end": 51.89
     },
     {
-     "word": " You",
-     "start": 56.42,
-     "end": 56.6
+     "word": " your",
+     "start": 51.89,
+     "end": 52.01
     },
     {
-     "word": " trying",
-     "start": 56.6,
-     "end": 56.96
+     "word": " family",
+     "start": 52.01,
+     "end": 52.49
     },
     {
-     "word": " doors",
-     "start": 56.96,
-     "end": 57.2
+     "word": " your",
+     "start": 52.49,
+     "end": 52.79
     },
     {
-     "word": " and",
-     "start": 57.2,
-     "end": 57.38
+     "word": " friends",
+     "start": 52.79,
+     "end": 53.23
     },
     {
-     "word": " windows.",
-     "start": 57.38,
-     "end": 57.66
+     "word": " fucking",
+     "start": 53.23,
+     "end": 55.07
+    },
+    {
+     "word": " hairdressers",
+     "start": 55.07,
+     "end": 56.19
     }
    ],
    "metrics": {
-    "motion": 0.38070987654320987,
-    "motion_p90": 0.7445293209876543,
-    "static_share": 0.08196721311475409,
-    "peak_db": 9.755191802978516,
-    "level_db": -41.82683563232422
+    "motion": 0.05500153421294876,
+    "motion_p90": 0.15263884627186253,
+    "static_share": 0.20416666666666666,
+    "peak_db": 15.746017456054688,
+    "level_db": -41.835575103759766
    },
-   "silence": []
-  },
-  "chat-2939191063-286": {
-   "id": "chat-2939191063-286",
-   "url": "https://www.twitch.tv/videos/2939191063",
-   "section": [
-    12854.822078,
-    12910.822078
-   ],
-   "kind": "chat",
-   "views": 56,
-   "title": "",
-   "vod": "2939191063",
-   "vod_t": 12854.822078,
-   "group": "en",
-   "login": "singsing",
-   "name": "singsing",
-   "viewers": 3086,
-   "chat_score": 5.6,
-   "found_at": "2026-11-24T11:52:49.599311+00:00",
-   "spike_at": "2026-11-24T11:51:26.822078+00:00",
-   "chat": [
-    "17x KEK",
-    "4x WICKED",
-    "3x o7",
-    "2x ICANT",
-    "COGGERS",
-    "KEK ͏",
-    "OMEGALOOOOL",
-    "human crayon",
-    "are we deadass",
-    "DESERVED xdx",
-    "haahahahah",
-    "LUL"
-   ],
-   "source": "cut from the live stream at a chat spike: 56 chatters in 15 s, 5.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-24T11:53:48.383945+00:00",
-   "cam": null,
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 61.0,
-   "words": [],
-   "metrics": {
-    "motion": 0.5313194444444445,
-    "motion_p90": 0.6932500000000001,
-    "static_share": 0.01646090534979424,
-    "peak_db": 5.311004638671875,
-    "level_db": -31.364669799804688
-   },
-   "silence": []
+   "silence": [
+    [
+     23.7,
+     1.6
+    ]
+   ]
   }
  },
  "pool": {
@@ -5241,6 +5443,6 @@
    "seconds": 23.1
   }
  },
- "checked_n": 53,
+ "checked_n": 54,
  "check_errors": {}
 }
