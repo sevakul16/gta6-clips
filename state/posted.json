@@ -938,16 +938,6 @@
   }
  },
  "rejected": {
-  "chat-2935613960-274": {
-   "at": "2026-11-21T04:54:37.693881+00:00",
-   "why": "picture is almost static (motion 0.02)",
-   "login": "kaicenat"
-  },
-  "chat-2935449800-486": {
-   "at": "2026-11-21T04:54:47.563302+00:00",
-   "why": "picture is almost static (motion 0.00)",
-   "login": "theburntpeanut"
-  },
   "chat-2935383720-534": {
    "at": "2026-11-21T05:17:09.991249+00:00",
    "why": "editor: 5/10, Ограбление офиса: в суматохе хватает напарницу, выходит и угоняет минивэн; чат смеётся, но сам почти молчит и без пояснений непонятно, что произошло.",
@@ -2379,6 +2369,14 @@
    "kind": "clip",
    "vod": "2938162458",
    "vod_t": 19909
+  },
+  "ImpartialSeductiveOrangeEleGiggle-UMDD_bE-Q7q3rN3X": {
+   "at": "2026-11-24T04:59:53.673953+00:00",
+   "why": "picture is almost static (motion 0.03)",
+   "login": "woolieversus",
+   "kind": "clip",
+   "vod": "2936501633",
+   "vod_t": 10495
   }
  },
  "pending": {
@@ -5357,6 +5355,6 @@
    "seconds": 53.1
   }
  },
- "checked_n": 25,
+ "checked_n": 26,
  "check_errors": {}
 }
