@@ -938,11 +938,6 @@
   }
  },
  "rejected": {
-  "chat-2935059680-1152": {
-   "at": "2026-11-21T07:08:14.321650+00:00",
-   "why": "picture is almost static (motion 0.03)",
-   "login": "lacy"
-  },
   "chat-2934132437-2686": {
    "at": "2026-11-21T07:29:51.498236+00:00",
    "why": "editor: 4/10, Катсцена с мутантом, похожим на Халка, затем находит в сарае мутировавшую клубнику и ест её; чем это кончилось, в клип не попало, сам почти молчит.",
@@ -2746,6 +2741,88 @@
     "static_share": 0.029411764705882353,
     "peak_db": 4.7655029296875,
     "level_db": -14.768901824951172
+   },
+   "silence": []
+  },
+  "BlueBlitheMarjoramWoofer-ZSasg_aIiI5hO6pA": {
+   "id": "BlueBlitheMarjoramWoofer-ZSasg_aIiI5hO6pA",
+   "vod": "2937666104",
+   "vod_t": 6399,
+   "group": "en",
+   "views": 5018,
+   "title": "nice scooter",
+   "url": "https://www.twitch.tv/caseoh_/clip/BlueBlitheMarjoramWoofer-ZSasg_aIiI5hO6pA",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "caseoh_",
+   "name": "caseoh_",
+   "source": "Twitch clip made by a viewer, 5018 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"nice scooter\"",
+   "at": "2026-11-24T07:10:10.889282+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 30.0,
+   "words": [
+    {
+     "word": " You're",
+     "start": 3.7,
+     "end": 4.0
+    },
+    {
+     "word": " Annalisa",
+     "start": 4.0,
+     "end": 4.42
+    },
+    {
+     "word": " with",
+     "start": 4.42,
+     "end": 4.58
+    },
+    {
+     "word": " the",
+     "start": 4.58,
+     "end": 4.68
+    },
+    {
+     "word": " five,",
+     "start": 4.68,
+     "end": 4.9
+    },
+    {
+     "word": " thank",
+     "start": 5.16,
+     "end": 5.16
+    },
+    {
+     "word": " you.",
+     "start": 5.16,
+     "end": 5.38
+    },
+    {
+     "word": " Nice",
+     "start": 11.3,
+     "end": 11.64
+    },
+    {
+     "word": " shooter,",
+     "start": 11.64,
+     "end": 11.88
+    },
+    {
+     "word": " idiot!",
+     "start": 12.04,
+     "end": 12.14
+    }
+   ],
+   "metrics": {
+    "motion": 0.5903472222222222,
+    "motion_p90": 0.682625,
+    "static_share": 0.0,
+    "peak_db": 5.323699951171875,
+    "level_db": -30.85434341430664
    },
    "silence": []
   }
@@ -5314,6 +5391,6 @@
    "seconds": 23.1
   }
  },
- "checked_n": 35,
+ "checked_n": 36,
  "check_errors": {}
 }
