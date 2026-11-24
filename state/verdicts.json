@@ -1,24 +1,4 @@
 {
- "chat-2936683310-526": {
-  "at": "2026-11-22T06:13:29.578852+00:00",
-  "moment_score": 6,
-  "what_happens": "Пять звёзд, разбитая машина зажата между спецназом и полицией: он врезается в столб, протискивается между машинами и подбирает напарника прямо на переходе, чат кричит про спасение. День, всё видно, стример орёт в кадре. Речи почти нет и нет одной ясной развязки, поэтому 6. Обрезаю до открытия карты.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Five stars, a wrecked car and half the city's police on him 😳",
-  "keep_start": 0.0,
-  "keep_end": 34.0,
-  "hook": "Five-star escape",
-  "cover_at": 20.5
- },
- "chat-2936392772-854": {
-  "at": "2026-11-22T06:13:29.628038+00:00",
-  "moment_score": 2,
-  "what_happens": "Мини-игра с камерой внутри сейфа: тёмная картинка, чат подсказывает, куда вести кабель. Игрового события нет, звук очень тихий, камера крошечная.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2936816213-426": {
   "at": "2026-11-22T07:13:11.088087+00:00",
   "moment_score": 1,
@@ -921,6 +901,41 @@
   "at": "2026-11-24T05:15:31.129266+00:00",
   "moment_score": 5,
   "what_happens": "He walks up to the closed club, bouncers knock his character down, WASTED. Ordinary NPC beat-down, the streamer sits stone-faced, the only line comes over a black loading screen that fills the last third.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "RudeBlueStapleResidentSleeper-hN6aHqGrcSgwB2Dl": {
+  "at": "2026-11-24T06:14:08.181675+00:00",
+  "moment_score": 7,
+  "what_happens": "Flying the mission plane he says he is so locked in, then presses triangle by accident, his character jumps out mid-air, MISSION FAILED: Jason abandoned the plane; he stares down asking if he really pressed triangle. Real webcam (cutout, top right), the detector missed it. Captions are burned in.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "\"I'm so locked in right now\" and then he pressed triangle 💀",
+  "keep_start": 0.0,
+  "keep_end": 23.0,
+  "cam": [
+   0.76,
+   0.31,
+   0.2,
+   0.25
+  ],
+  "hook": "Wrong button mid-flight",
+  "cover_at": 13.8,
+  "no_subs": true
+ },
+ "KnottyTameRhinocerosHeyGirl-OgpyqkXK-_K-KA15": {
+  "at": "2026-11-24T06:14:08.229818+00:00",
+  "moment_score": 2,
+  "what_happens": "The game's ending cutscene from start to finish (both leads shot dead on the bridge): a story spoiler, no gameplay event, he watches silently.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939012870-257": {
+  "at": "2026-11-24T06:14:08.280017+00:00",
+  "moment_score": 3,
+  "what_happens": "He walks his character around the apartment and puts him to bed while chat jokes that the character got fat. No game event, tiny webcam, almost no speech.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
