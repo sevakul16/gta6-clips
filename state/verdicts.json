@@ -1,33 +1,4 @@
 {
- "StrangeBraveMetalTooSpicy-UH8IjfR9zts7Ypha": {
-  "at": "2026-11-22T10:13:28.412124+00:00",
-  "moment_score": 2,
-  "what_happens": "Сюжетная катсцена под конец игры (93% сюжета) с пистолетом у головы полуголого персонажа. Спойлер финала, геймплея нет, камера крошечная.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "",
-  "no_subs": true
- },
- "chat-2936706130-814": {
-  "at": "2026-11-22T10:13:28.461126+00:00",
-  "moment_score": 7,
-  "what_happens": "Перестрелка на крыше перед эвакуацией: кричит, что сейчас умрёт, всё-таки добирается до вертолёта, и его убивают прямо на взлёте: wasted. Потом возмущается: «а что я должен был с этим сделать?». Понятная дуга с развязкой, громкая реакция, чат смеётся. Вместо лица аватар. Обрезаю начало и чёрный экран после смерти.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "He finally made it to the helicopter. It did not help 💀",
-  "keep_start": 4.0,
-  "keep_end": 46.0,
-  "hook": "Made it to the chopper",
-  "cover_at": 13.3
- },
- "chat-2936934156-523": {
-  "at": "2026-11-22T10:13:28.506172+00:00",
-  "moment_score": 1,
-  "what_happens": "Конец стрима: сохранение, карта, главный экран приставки и прощание с чатом. Игрового события нет.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2937141420-109": {
   "at": "2026-11-22T11:17:13.308947+00:00",
   "moment_score": 1,
@@ -939,6 +910,30 @@
   "at": "2026-11-24T09:13:49.492698+00:00",
   "moment_score": 2,
   "what_happens": "He decides to stop for the night and save the last mission for tomorrow, the map is open most of the time, chat begs him to stay. Stream talk, no game event; peanut avatar instead of a webcam.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "BlightedTenderSpindleDerp-zkEnt6d4rar1sSgu": {
+  "at": "2026-11-24T10:13:35.539545+00:00",
+  "moment_score": 4,
+  "what_happens": "An ordinary motel-yard shootout as Lucia, he counts kills one to six out loud. No single moment or punchline, flat face; a bookmaker promo banner sits inside the webcam frame.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939116173-366": {
+  "at": "2026-11-24T10:13:35.584933+00:00",
+  "moment_score": 3,
+  "what_happens": "She parks at night and walks away from the camera; while her chair is empty NPCs beat up her character and chat laughs. No streamer in the frame during the event, no reaction, very dark picture.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939161873-196": {
+  "at": "2026-11-24T10:13:35.630039+00:00",
+  "moment_score": 4,
+  "what_happens": "Shows Lucia the pink car, opens the door for her, the relationship meter goes to 3/4. Sweet but nothing happens; the streamer is a VTuber avatar, there is no webcam.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
