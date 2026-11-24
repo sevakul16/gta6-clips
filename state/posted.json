@@ -938,11 +938,6 @@
   }
  },
  "rejected": {
-  "RepleteUgliestPuffinTBTacoRight-Upp-JRyoQDHYxSW5": {
-   "at": "2026-11-21T00:05:19.232699+00:00",
-   "why": "picture is almost static (motion 0.01)",
-   "login": "buster"
-  },
   "chat-2935094894-570": {
    "at": "2026-11-21T00:26:25.133608+00:00",
    "why": "download failed",
@@ -2447,29 +2442,45 @@
    "kind": "clip",
    "vod": "2937368267",
    "vod_t": 7669
+  },
+  "HeadstrongEnticingCaribouYouWHY-21AEM9lyZUMqp8ER": {
+   "at": "2026-11-24T00:17:13.832571+00:00",
+   "why": "editor: 3/10, Стример с тремя звёздами обыскивает тёмный склад и подбирает гранаты, удивляясь, что полиция не стреляет; заканчивается меню паузы. Конкретного события нет",
+   "login": "tusoved",
+   "kind": "clip",
+   "vod": "2937117399",
+   "vod_t": 8424
+  },
+  "FlirtyCooperativeWombatSaltBae-VmpUus5hRgNgeEfk": {
+   "at": "2026-11-24T00:17:13.832976+00:00",
+   "why": "editor: 2/10, Трактор полминуты тащит машину на тросе по полю вдоль железной дороги, стример молча улыбается. Ничего не происходит, рамка камеры попала на рекламный баннер",
+   "login": "stray228",
+   "kind": "clip",
+   "vod": "2936361328",
+   "vod_t": 43298
   }
  },
  "pending": {
-  "HeadstrongEnticingCaribouYouWHY-21AEM9lyZUMqp8ER": {
-   "id": "HeadstrongEnticingCaribouYouWHY-21AEM9lyZUMqp8ER",
-   "vod": "2937117399",
-   "vod_t": 8424,
-   "group": "ru",
-   "views": 1053,
-   "title": "копы не стреляют а звезды растут",
-   "url": "https://www.twitch.tv/tusoved/clip/HeadstrongEnticingCaribouYouWHY-21AEM9lyZUMqp8ER",
+  "ResilientDrabGrasshopperWow-fKAbKH4GGUaEC2dl": {
+   "id": "ResilientDrabGrasshopperWow-fKAbKH4GGUaEC2dl",
+   "vod": "2937629817",
+   "vod_t": 37658,
+   "group": "en",
+   "views": 24488,
+   "title": "xQc on GTA 6 locking players into a relationship",
+   "url": "https://www.twitch.tv/xqc/clip/ResilientDrabGrasshopperWow-fKAbKH4GGUaEC2dl",
    "section": null,
    "kind": "clip",
    "hot": true,
-   "login": "tusoved",
-   "name": "TUSOVED",
-   "source": "Twitch clip made by a viewer, 1053 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"копы не стреляют а звезды растут\"",
-   "at": "2026-11-23T23:33:43.017167+00:00",
+   "login": "xqc",
+   "name": "xQc",
+   "source": "Twitch clip made by a viewer, 24488 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"xQc on GTA 6 locking players into a relationship\"",
+   "at": "2026-11-24T00:17:06.522585+00:00",
    "cam": [
-    65,
-    391,
-    365,
-    257
+    46,
+    50,
+    529,
+    372
    ],
    "size": [
     1920,
@@ -2478,294 +2489,427 @@
    "dur": 30.0,
    "words": [
     {
-     "word": " Осколочная",
-     "start": 0.82,
-     "end": 1.72
-    },
-    {
-     "word": " граната",
-     "start": 1.72,
-     "end": 2.28
-    },
-    {
-     "word": " Просто",
-     "start": 5.47,
-     "end": 5.97
-    },
-    {
-     "word": " понимаешь",
-     "start": 5.97,
-     "end": 6.55
-    },
-    {
-     "word": " они",
-     "start": 6.55,
-     "end": 6.71
-    },
-    {
-     "word": " скопами",
-     "start": 6.71,
-     "end": 7.15
-    },
-    {
-     "word": " там",
-     "start": 7.15,
-     "end": 7.31
-    },
-    {
-     "word": " почему",
-     "start": 7.31,
-     "end": 7.57
-    },
-    {
-     "word": "-то",
-     "start": 7.57,
-     "end": 7.69
-    },
-    {
-     "word": " не",
-     "start": 7.69,
-     "end": 7.81
-    },
-    {
-     "word": " перестреливаются",
-     "start": 7.81,
-     "end": 8.53
-    },
-    {
-     "word": " до",
-     "start": 8.53,
-     "end": 8.65
-    },
-    {
-     "word": " сих",
-     "start": 8.65,
-     "end": 8.79
-    },
-    {
-     "word": " пор",
-     "start": 8.79,
-     "end": 8.99
-    },
-    {
-     "word": " у",
-     "start": 8.99,
-     "end": 9.03
-    },
-    {
-     "word": " меня",
-     "start": 9.03,
-     "end": 9.09
-    },
-    {
-     "word": " вопрос",
-     "start": 9.09,
-     "end": 9.35
-    },
-    {
-     "word": " почему",
-     "start": 9.35,
-     "end": 9.77
-    },
-    {
-     "word": " Как",
-     "start": 9.77,
-     "end": 10.79
-    },
-    {
-     "word": " будто",
-     "start": 12.65,
-     "end": 12.81
-    },
-    {
-     "word": " бы",
-     "start": 12.81,
-     "end": 12.91
-    },
-    {
-     "word": " уже",
-     "start": 12.91,
-     "end": 13.03
-    },
-    {
-     "word": " пора",
-     "start": 13.03,
-     "end": 13.39
-    },
-    {
-     "word": " нет",
-     "start": 13.39,
-     "end": 13.63
-    },
-    {
-     "word": " Да",
-     "start": 13.63,
-     "end": 14.65
-    },
-    {
-     "word": " я",
-     "start": 16.06,
-     "end": 16.16
-    },
-    {
-     "word": " да",
-     "start": 16.16,
-     "end": 16.56
-    },
-    {
-     "word": " мне",
-     "start": 16.56,
-     "end": 16.8
-    },
-    {
-     "word": " да",
-     "start": 16.8,
-     "end": 17.18
-    },
-    {
-     "word": " глаз",
-     "start": 17.18,
-     "end": 17.46
-    },
-    {
-     "word": " поди",
-     "start": 17.46,
-     "end": 17.82
-    },
-    {
-     "word": " боже",
-     "start": 17.82,
-     "end": 18.0
-    },
-    {
-     "word": " вот",
-     "start": 18.0,
-     "end": 18.18
-    },
-    {
-     "word": " сюда",
-     "start": 18.18,
-     "end": 18.42
-    },
-    {
-     "word": " залезь",
-     "start": 18.42,
-     "end": 18.74
-    },
-    {
-     "word": " Чем",
-     "start": 21.16,
-     "end": 21.52
-    },
-    {
-     "word": " больше",
-     "start": 21.52,
-     "end": 21.84
-    },
-    {
-     "word": " звезда",
-     "start": 21.84,
-     "end": 22.62
-    },
-    {
-     "word": " да",
-     "start": 22.62,
-     "end": 22.96
-    },
-    {
-     "word": " А",
-     "start": 26.36,
-     "end": 26.68
-    },
-    {
-     "word": " че",
-     "start": 26.68,
-     "end": 27.02
-    },
-    {
-     "word": " так",
-     "start": 27.02,
-     "end": 27.26
-    },
-    {
-     "word": " много",
-     "start": 27.26,
-     "end": 28.06
-    },
-    {
-     "word": " здесь?",
-     "start": 28.06,
-     "end": 28.58
-    }
-   ],
-   "metrics": {
-    "motion": 0.49287645210783954,
-    "motion_p90": 0.6661065244392489,
-    "static_share": 0.14285714285714285,
-    "peak_db": 12.631479263305664,
-    "level_db": -25.557838439941406
-   },
-   "silence": []
-  },
-  "FlirtyCooperativeWombatSaltBae-VmpUus5hRgNgeEfk": {
-   "id": "FlirtyCooperativeWombatSaltBae-VmpUus5hRgNgeEfk",
-   "vod": "2936361328",
-   "vod_t": 43298,
-   "group": "ru",
-   "views": 1045,
-   "title": "12 час стрима",
-   "url": "https://www.twitch.tv/stray228/clip/FlirtyCooperativeWombatSaltBae-VmpUus5hRgNgeEfk",
-   "section": null,
-   "kind": "clip",
-   "hot": true,
-   "login": "stray228",
-   "name": "Stray228",
-   "source": "Twitch clip made by a viewer, 1045 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"12 час стрима\"",
-   "at": "2026-11-23T23:55:19.187037+00:00",
-   "cam": [
-    1623,
-    157,
-    285,
-    200
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 30.0,
-   "words": [
-    {
-     "word": " в",
+     "word": " Knowing",
      "start": 0.0,
-     "end": 0.26
+     "end": 0.45
     },
     {
-     "word": " его",
-     "start": 0.26,
-     "end": 0.46
+     "word": " for",
+     "start": 0.45,
+     "end": 0.65
     },
     {
-     "word": " принципе",
-     "start": 0.46,
-     "end": 1.28
+     "word": " a",
+     "start": 0.65,
+     "end": 0.71
     },
     {
-     "word": " кто",
-     "start": 1.28,
-     "end": 1.58
+     "word": " fact",
+     "start": 0.71,
+     "end": 0.97
     },
     {
-     "word": "-то",
-     "start": 1.58,
-     "end": 1.76
+     "word": " from",
+     "start": 0.97,
+     "end": 1.23
+    },
+    {
+     "word": " the",
+     "start": 1.23,
+     "end": 1.43
+    },
+    {
+     "word": " get-go",
+     "start": 1.43,
+     "end": 1.81
+    },
+    {
+     "word": " that",
+     "start": 1.81,
+     "end": 2.07
+    },
+    {
+     "word": " your",
+     "start": 2.07,
+     "end": 2.33
+    },
+    {
+     "word": " character",
+     "start": 2.33,
+     "end": 2.92
+    },
+    {
+     "word": " is",
+     "start": 2.92,
+     "end": 3.05
+    },
+    {
+     "word": " locked",
+     "start": 3.05,
+     "end": 3.43
+    },
+    {
+     "word": " and",
+     "start": 3.43,
+     "end": 3.63
+    },
+    {
+     "word": " we'll",
+     "start": 3.63,
+     "end": 3.95
+    },
+    {
+     "word": " can't",
+     "start": 3.95,
+     "end": 4.28
+    },
+    {
+     "word": " do",
+     "start": 4.28,
+     "end": 4.41
+    },
+    {
+     "word": " any",
+     "start": 4.41,
+     "end": 4.6
+    },
+    {
+     "word": " of",
+     "start": 4.6,
+     "end": 4.73
+    },
+    {
+     "word": " that",
+     "start": 4.73,
+     "end": 4.99
+    },
+    {
+     "word": " is",
+     "start": 4.99,
+     "end": 5.12
+    },
+    {
+     "word": " Generally",
+     "start": 5.94,
+     "end": 6.81
+    },
+    {
+     "word": " bad,",
+     "start": 6.81,
+     "end": 7.2
+    },
+    {
+     "word": " especially",
+     "start": 7.2,
+     "end": 8.17
+    },
+    {
+     "word": " when",
+     "start": 8.17,
+     "end": 8.55
+    },
+    {
+     "word": " your",
+     "start": 8.55,
+     "end": 8.94
+    },
+    {
+     "word": " audience",
+     "start": 8.94,
+     "end": 9.72
+    },
+    {
+     "word": " is",
+     "start": 9.72,
+     "end": 9.91
+    },
+    {
+     "word": " mostly",
+     "start": 9.91,
+     "end": 10.49
+    },
+    {
+     "word": " men",
+     "start": 10.49,
+     "end": 10.78
+    },
+    {
+     "word": " Mostly",
+     "start": 11.72,
+     "end": 12.18
+    },
+    {
+     "word": " degenerates",
+     "start": 12.18,
+     "end": 13.02
+    },
+    {
+     "word": " and",
+     "start": 13.02,
+     "end": 13.25
+    },
+    {
+     "word": " most",
+     "start": 13.25,
+     "end": 13.56
+    },
+    {
+     "word": " people",
+     "start": 13.56,
+     "end": 14.02
+    },
+    {
+     "word": " that",
+     "start": 14.02,
+     "end": 14.33
+    },
+    {
+     "word": " don't",
+     "start": 14.33,
+     "end": 14.71
+    },
+    {
+     "word": " really",
+     "start": 14.71,
+     "end": 15.17
+    },
+    {
+     "word": " have",
+     "start": 15.17,
+     "end": 15.47
+    },
+    {
+     "word": " dating",
+     "start": 15.47,
+     "end": 15.93
+    },
+    {
+     "word": " options.",
+     "start": 15.93,
+     "end": 16.55
+    },
+    {
+     "word": " I",
+     "start": 16.55,
+     "end": 16.62
+    },
+    {
+     "word": " mean",
+     "start": 16.62,
+     "end": 16.93
+    },
+    {
+     "word": " buddy",
+     "start": 16.93,
+     "end": 17.31
+    },
+    {
+     "word": " like",
+     "start": 17.31,
+     "end": 17.62
+    },
+    {
+     "word": " Locking",
+     "start": 18.48,
+     "end": 18.88
+    },
+    {
+     "word": " them",
+     "start": 18.88,
+     "end": 19.11
+    },
+    {
+     "word": " into",
+     "start": 19.11,
+     "end": 19.34
+    },
+    {
+     "word": " force",
+     "start": 19.34,
+     "end": 19.63
+    },
+    {
+     "word": " choice,",
+     "start": 19.63,
+     "end": 20.04
+    },
+    {
+     "word": " but",
+     "start": 20.04,
+     "end": 20.21
+    },
+    {
+     "word": " you're",
+     "start": 20.21,
+     "end": 20.56
+    },
+    {
+     "word": " gonna",
+     "start": 20.56,
+     "end": 20.84
+    },
+    {
+     "word": " lose",
+     "start": 20.84,
+     "end": 21.07
+    },
+    {
+     "word": " your",
+     "start": 21.07,
+     "end": 21.31
+    },
+    {
+     "word": " audience",
+     "start": 21.31,
+     "end": 21.77
+    },
+    {
+     "word": " a",
+     "start": 21.77,
+     "end": 21.82
+    },
+    {
+     "word": " lot",
+     "start": 21.82,
+     "end": 22.0
+    },
+    {
+     "word": " is",
+     "start": 22.0,
+     "end": 22.11
+    },
+    {
+     "word": " what",
+     "start": 22.11,
+     "end": 22.34
+    },
+    {
+     "word": " it",
+     "start": 22.34,
+     "end": 22.46
+    },
+    {
+     "word": " is.",
+     "start": 22.46,
+     "end": 22.63
+    },
+    {
+     "word": " I",
+     "start": 22.63,
+     "end": 22.69
+    },
+    {
+     "word": " mean",
+     "start": 22.69,
+     "end": 22.92
+    },
+    {
+     "word": " How",
+     "start": 23.48,
+     "end": 23.73
+    },
+    {
+     "word": " hard",
+     "start": 23.73,
+     "end": 24.06
+    },
+    {
+     "word": " is",
+     "start": 24.06,
+     "end": 24.23
+    },
+    {
+     "word": " it",
+     "start": 24.23,
+     "end": 24.4
+    },
+    {
+     "word": " to",
+     "start": 24.4,
+     "end": 24.56
+    },
+    {
+     "word": " understand?",
+     "start": 24.56,
+     "end": 25.48
+    },
+    {
+     "word": " It's",
+     "start": 25.68,
+     "end": 25.91
+    },
+    {
+     "word": " such",
+     "start": 25.91,
+     "end": 26.14
+    },
+    {
+     "word": " an",
+     "start": 26.14,
+     "end": 26.25
+    },
+    {
+     "word": " easy",
+     "start": 26.25,
+     "end": 26.48
+    },
+    {
+     "word": " thing",
+     "start": 26.48,
+     "end": 26.76
+    },
+    {
+     "word": " that",
+     "start": 26.76,
+     "end": 26.99
+    },
+    {
+     "word": " to",
+     "start": 26.99,
+     "end": 27.1
+    },
+    {
+     "word": " see",
+     "start": 27.1,
+     "end": 27.27
+    },
+    {
+     "word": " ahead",
+     "start": 27.27,
+     "end": 27.56
+    },
+    {
+     "word": " of",
+     "start": 27.56,
+     "end": 27.67
+    },
+    {
+     "word": " time",
+     "start": 27.67,
+     "end": 27.9
+    },
+    {
+     "word": " before",
+     "start": 27.9,
+     "end": 28.24
+    },
+    {
+     "word": " happens",
+     "start": 28.24,
+     "end": 28.64
+    },
+    {
+     "word": " You",
+     "start": 30.0,
+     "end": 32.0
     }
    ],
    "metrics": {
-    "motion": 0.42898032200357783,
-    "motion_p90": 0.5084651162790698,
+    "motion": 0.5314043209876543,
+    "motion_p90": 0.7201851851851852,
     "static_share": 0.0,
-    "peak_db": 2.1378936767578125,
-    "level_db": -23.795013427734375
+    "peak_db": 3.226581573486328,
+    "level_db": -27.128925323486328
    },
    "silence": []
   }
@@ -5761,6 +5905,6 @@
    "seconds": 53.1
   }
  },
- "checked_n": 11,
+ "checked_n": 12,
  "check_errors": {}
 }
