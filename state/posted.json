@@ -1212,41 +1212,6 @@
   }
  },
  "rejected": {
-  "MushyPricklyTildeTBTacoLeft-rXTJpZcqa-lOKIoR": {
-   "at": "2026-11-21T13:33:55.322357+00:00",
-   "why": "picture is almost static (motion 0.01)",
-   "login": "buster"
-  },
-  "chat-2936004347-123": {
-   "at": "2026-11-21T13:33:55.697863+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "skywhywalker"
-  },
-  "TrappedSpinelessGrassKreygasm-qVWNrdYCN0YNq0JV": {
-   "at": "2026-11-21T13:33:55.698322+00:00",
-   "why": "editor: 4/10, Селфи Лусии на фоне трупа и вынос тела в воду под напев стримера; почти голое тело в кадре большую часть ролика, реакции мало, звук очень тихий",
-   "login": "t2x2"
-  },
-  "chat-2935956429-248": {
-   "at": "2026-11-21T13:33:55.698702+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "blackufa"
-  },
-  "GlutenFreeRichGarlicWoofer-NRr9gRWqOxl09BD5": {
-   "at": "2026-11-21T13:33:55.699160+00:00",
-   "why": "editor: 4/10, Одна катсцена с шуткой про ребёнка, который смотрит стримы; геймплея нет",
-   "login": "kaicenat"
-  },
-  "chat-2935760785-711": {
-   "at": "2026-11-21T13:33:55.699614+00:00",
-   "why": "editor: 2/10, Чат обсуждает внешность стримера в очках, игрового события нет, картинка тёмная",
-   "login": "jerma985"
-  },
-  "chat-2935437958-1114": {
-   "at": "2026-11-21T13:33:55.700091+00:00",
-   "why": "editor: 1/10, Конец стрима: сохранение, карта и прощание с чатом",
-   "login": "fanum"
-  },
   "chat-2935925087-440": {
    "at": "2026-11-21T13:55:26.483258+00:00",
    "why": "picture is almost static (motion 0.02)",
@@ -2591,6 +2556,14 @@
    "kind": "chat",
    "vod": "2939214988",
    "vod_t": 12054.183601
+  },
+  "chat-2937392051-3677": {
+   "at": "2026-11-24T13:41:41.323219+00:00",
+   "why": "picture is almost static (motion 0.01)",
+   "login": "leva2k",
+   "kind": "chat",
+   "vod": "2937392051",
+   "vod_t": 165439.471878
   }
  },
  "pending": {
@@ -5118,6 +5091,6 @@
    "seconds": 30.1
   }
  },
- "checked_n": 58,
+ "checked_n": 59,
  "check_errors": {}
 }
