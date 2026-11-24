@@ -2429,232 +2429,796 @@
    "kind": "clip",
    "vod": "2937629817",
    "vod_t": 37658
+  },
+  "ScaryFilthyKeyboardOSkomodo-LUT0vAptcXKHGd5A": {
+   "at": "2026-11-24T01:22:23.692350+00:00",
+   "why": "editor: no gameplay on screen",
+   "login": "t2x2",
+   "kind": "clip",
+   "vod": "2937219114",
+   "vod_t": 27431
   }
  },
  "pending": {
-  "ScaryFilthyKeyboardOSkomodo-LUT0vAptcXKHGd5A": {
-   "id": "ScaryFilthyKeyboardOSkomodo-LUT0vAptcXKHGd5A",
-   "url": "https://www.twitch.tv/t2x2/clip/ScaryFilthyKeyboardOSkomodo-LUT0vAptcXKHGd5A",
+  "DullPrettyCaterpillarKappaWealth-_PBk2Ut1sJ0GUkqc": {
+   "id": "DullPrettyCaterpillarKappaWealth-_PBk2Ut1sJ0GUkqc",
+   "vod": "2937629817",
+   "vod_t": 36661,
+   "group": "en",
+   "views": 16327,
+   "title": "xQc finishes GTA 6 after 62 hours and rates it a 9/10",
+   "url": "https://www.twitch.tv/xqc/clip/DullPrettyCaterpillarKappaWealth-_PBk2Ut1sJ0GUkqc",
    "section": null,
    "kind": "clip",
-   "views": 725,
-   "title": "Лаки зашла на стрим в мерче",
-   "vod": "2937219114",
-   "vod_t": 27431,
-   "group": "ru",
-   "login": "t2x2",
-   "name": "T2x2",
-   "source": "Twitch clip made by a viewer, 725 views, titled \"Лаки зашла на стрим в мерче\"",
-   "at": "2026-11-24T01:00:07.908991+00:00",
+   "hot": true,
+   "login": "xqc",
+   "name": "xQc",
+   "source": "Twitch clip made by a viewer, 16327 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"xQc finishes GTA 6 after 62 hours and rates it a 9/10\"",
+   "at": "2026-11-24T01:22:17.353617+00:00",
    "cam": [
-    1937,
-    930,
-    460,
-    324
+    99,
+    60,
+    462,
+    325
    ],
    "size": [
-    2560,
-    1440
+    1920,
+    1080
    ],
-   "dur": 44.4,
+   "dur": 60.0,
    "words": [
     {
-     "word": " Хе",
-     "start": 1.49,
-     "end": 1.93
+     "word": " In",
+     "start": 0.14,
+     "end": 0.64
     },
     {
-     "word": "-хе",
-     "start": 1.93,
-     "end": 2.17
+     "word": " its",
+     "start": 0.64,
+     "end": 0.76
     },
     {
-     "word": "-хе!",
-     "start": 4.25,
-     "end": 4.63
+     "word": " current",
+     "start": 0.76,
+     "end": 1.1
     },
     {
-     "word": " Бедная",
-     "start": 4.71,
-     "end": 5.33
+     "word": " state,",
+     "start": 1.1,
+     "end": 1.56
     },
     {
-     "word": " собака,",
-     "start": 5.33,
-     "end": 6.01
+     "word": " and",
+     "start": 1.9,
+     "end": 2.2
     },
     {
-     "word": " блядь!",
-     "start": 6.23,
-     "end": 6.75
+     "word": " this",
+     "start": 2.2,
+     "end": 2.38
     },
     {
-     "word": " Ха",
-     "start": 6.89,
-     "end": 7.03
+     "word": " is",
+     "start": 2.38,
+     "end": 2.48
     },
     {
-     "word": "-ха",
-     "start": 7.03,
-     "end": 7.49
+     "word": " a",
+     "start": 2.48,
+     "end": 2.58
     },
     {
-     "word": "-ха",
-     "start": 7.49,
-     "end": 8.17
+     "word": " solid",
+     "start": 2.58,
+     "end": 3.14
     },
     {
-     "word": "-ха!",
-     "start": 8.17,
-     "end": 8.21
+     "word": " 9",
+     "start": 8.9,
+     "end": 9.34
     },
     {
-     "word": " Бедный",
-     "start": 10.48,
-     "end": 11.3
+     "word": ".1",
+     "start": 9.34,
+     "end": 9.78
     },
     {
-     "word": " пёс,",
-     "start": 11.3,
-     "end": 12.16
+     "word": " flat",
+     "start": 9.78,
+     "end": 10.2
     },
     {
-     "word": " блядь!",
-     "start": 12.26,
-     "end": 12.98
+     "word": " No,",
+     "start": 11.82,
+     "end": 12.26
     },
     {
-     "word": " Шоу",
-     "start": 16.7,
-     "end": 17.42
+     "word": " maybe",
+     "start": 12.32,
+     "end": 12.5
     },
     {
-     "word": "-ты!",
-     "start": 17.42,
-     "end": 17.66
+     "word": " even",
+     "start": 12.5,
+     "end": 12.76
     },
     {
-     "word": " Попалась,",
-     "start": 17.84,
-     "end": 18.48
+     "word": " just",
+     "start": 12.76,
+     "end": 13.04
     },
     {
-     "word": " да?",
-     "start": 18.7,
-     "end": 18.82
+     "word": " 90",
+     "start": 13.04,
+     "end": 13.4
     },
     {
-     "word": " Иди",
-     "start": 19.28,
-     "end": 19.44
+     "word": " 90",
+     "start": 13.4,
+     "end": 14.18
     },
     {
-     "word": " сюда!",
-     "start": 19.44,
-     "end": 19.8
+     "word": " 90,",
+     "start": 14.18,
+     "end": 14.66
     },
     {
-     "word": " Кхм!",
-     "start": 20.8,
-     "end": 21.18
+     "word": " you",
+     "start": 14.66,
+     "end": 15.14
     },
     {
-     "word": " Она",
-     "start": 25.06,
-     "end": 25.56
+     "word": " know",
+     "start": 15.14,
+     "end": 15.24
     },
     {
-     "word": " в",
-     "start": 25.56,
-     "end": 25.78
+     "word": " 90",
+     "start": 15.24,
+     "end": 15.58
     },
     {
-     "word": " мерче,",
-     "start": 25.78,
-     "end": 26.24
+     "word": " I'm",
+     "start": 17.56,
+     "end": 18.0
     },
     {
-     "word": " а!",
-     "start": 26.48,
-     "end": 26.48
+     "word": " not",
+     "start": 18.0,
+     "end": 18.12
     },
     {
-     "word": " В",
-     "start": 27.34,
-     "end": 27.62
+     "word": " gonna",
+     "start": 18.12,
+     "end": 18.26
     },
     {
-     "word": " новом",
-     "start": 27.62,
-     "end": 27.98
+     "word": " go",
+     "start": 18.26,
+     "end": 18.42
     },
     {
-     "word": " мерче,",
-     "start": 27.98,
-     "end": 28.66
+     "word": " above",
+     "start": 18.42,
+     "end": 18.68
     },
     {
-     "word": " да?",
-     "start": 28.82,
-     "end": 29.14
+     "word": " the",
+     "start": 18.68,
+     "end": 18.86
     },
     {
-     "word": " Поппинс!",
-     "start": 30.36,
-     "end": 31.24
+     "word": " 9",
+     "start": 18.86,
+     "end": 19.02
     },
     {
-     "word": " Поппирус!",
-     "start": 32.22,
-     "end": 33.1
+     "word": ".9",
+     "start": 19.02,
+     "end": 19.3
     },
     {
-     "word": " Попка!",
-     "start": 34.14,
-     "end": 34.78
+     "word": ".0.",
+     "start": 19.3,
+     "end": 19.6
     },
     {
-     "word": " Она",
-     "start": 36.87,
+     "word": " I",
+     "start": 19.64,
+     "end": 19.7
+    },
+    {
+     "word": " think",
+     "start": 19.7,
+     "end": 19.82
+    },
+    {
+     "word": " it's",
+     "start": 19.82,
+     "end": 20.0
+    },
+    {
+     "word": " just",
+     "start": 20.0,
+     "end": 20.12
+    },
+    {
+     "word": " that",
+     "start": 20.12,
+     "end": 20.34
+    },
+    {
+     "word": " it's",
+     "start": 20.34,
+     "end": 20.58
+    },
+    {
+     "word": " it's",
+     "start": 20.58,
+     "end": 21.0
+    },
+    {
+     "word": " as",
+     "start": 21.0,
+     "end": 21.04
+    },
+    {
+     "word": " high",
+     "start": 21.04,
+     "end": 21.2
+    },
+    {
+     "word": " as",
+     "start": 21.2,
+     "end": 21.28
+    },
+    {
+     "word": " I'll",
+     "start": 21.28,
+     "end": 21.36
+    },
+    {
+     "word": " go",
+     "start": 21.36,
+     "end": 21.48
+    },
+    {
+     "word": " for",
+     "start": 21.48,
+     "end": 21.62
+    },
+    {
+     "word": " it",
+     "start": 21.62,
+     "end": 21.88
+    },
+    {
+     "word": " I'd",
+     "start": 23.67,
+     "end": 24.45
+    },
+    {
+     "word": " be",
+     "start": 24.45,
+     "end": 24.51
+    },
+    {
+     "word": " surprised",
+     "start": 24.51,
+     "end": 24.77
+    },
+    {
+     "word": " if",
+     "start": 24.77,
+     "end": 24.95
+    },
+    {
+     "word": " I",
+     "start": 24.95,
+     "end": 25.07
+    },
+    {
+     "word": " if",
+     "start": 25.07,
+     "end": 25.23
+    },
+    {
+     "word": " I",
+     "start": 25.23,
+     "end": 25.31
+    },
+    {
+     "word": " moved",
+     "start": 25.31,
+     "end": 25.45
+    },
+    {
+     "word": " away",
+     "start": 25.45,
+     "end": 25.61
+    },
+    {
+     "word": " from",
+     "start": 25.61,
+     "end": 25.71
+    },
+    {
+     "word": " it,",
+     "start": 25.71,
+     "end": 25.87
+    },
+    {
+     "word": " but",
+     "start": 25.87,
+     "end": 26.93
+    },
+    {
+     "word": " they're",
+     "start": 26.93,
+     "end": 27.13
+    },
+    {
+     "word": " lucky",
+     "start": 27.13,
+     "end": 27.41
+    },
+    {
+     "word": " because",
+     "start": 27.41,
+     "end": 27.77
+    },
+    {
+     "word": " I",
+     "start": 27.77,
+     "end": 28.79
+    },
+    {
+     "word": " had",
+     "start": 28.79,
+     "end": 29.03
+    },
+    {
+     "word": " this",
+     "start": 29.03,
+     "end": 29.35
+    },
+    {
+     "word": " Program",
+     "start": 30.29,
+     "end": 30.73
+    },
+    {
+     "word": " that",
+     "start": 30.73,
+     "end": 31.17
+    },
+    {
+     "word": " made",
+     "start": 31.17,
+     "end": 31.95
+    },
+    {
+     "word": " the",
+     "start": 31.95,
+     "end": 32.11
+    },
+    {
+     "word": " game",
+     "start": 32.11,
+     "end": 32.37
+    },
+    {
+     "word": " a",
+     "start": 32.37,
+     "end": 32.99
+    },
+    {
+     "word": " lot",
+     "start": 32.99,
+     "end": 33.31
+    },
+    {
+     "word": " more",
+     "start": 33.31,
+     "end": 33.53
+    },
+    {
+     "word": " fun",
+     "start": 33.53,
+     "end": 33.75
+    },
+    {
+     "word": " to",
+     "start": 33.75,
+     "end": 33.87
+    },
+    {
+     "word": " play",
+     "start": 33.87,
+     "end": 34.05
+    },
+    {
+     "word": " Without",
+     "start": 34.87,
+     "end": 35.33
+    },
+    {
+     "word": " this",
+     "start": 35.33,
+     "end": 35.49
+    },
+    {
+     "word": " without",
+     "start": 35.49,
+     "end": 35.67
+    },
+    {
+     "word": " this",
+     "start": 35.67,
+     "end": 35.85
+    },
+    {
+     "word": " program",
+     "start": 35.85,
+     "end": 36.09
+    },
+    {
+     "word": " this",
+     "start": 36.09,
+     "end": 36.35
+    },
+    {
+     "word": " game's",
+     "start": 36.35,
+     "end": 36.67
+    },
+    {
+     "word": " this",
+     "start": 36.67,
+     "end": 36.83
+    },
+    {
+     "word": " game's",
+     "start": 36.83,
+     "end": 37.11
+    },
+    {
+     "word": " a",
+     "start": 37.11,
      "end": 37.19
     },
     {
-     "word": " в",
+     "word": " solid",
      "start": 37.19,
-     "end": 37.39
+     "end": 37.41
     },
     {
-     "word": " мерче",
-     "start": 37.39,
-     "end": 37.79
+     "word": " fucking",
+     "start": 37.41,
+     "end": 37.73
     },
     {
-     "word": " тоже,",
-     "start": 37.79,
-     "end": 38.19
+     "word": " 7",
+     "start": 37.73,
+     "end": 38.47
     },
     {
-     "word": " смотри!",
-     "start": 38.67,
-     "end": 38.91
+     "word": ".8.",
+     "start": 38.47,
+     "end": 38.93
     },
     {
-     "word": " Попка!",
-     "start": 39.91,
-     "end": 41.33
+     "word": " It",
+     "start": 39.09,
+     "end": 39.45
     },
     {
-     "word": " Молодец!",
-     "start": 42.75,
-     "end": 44.07
+     "word": " is",
+     "start": 39.45,
+     "end": 39.59
+    },
+    {
+     "word": " what",
+     "start": 39.59,
+     "end": 39.69
+    },
+    {
+     "word": " it",
+     "start": 39.69,
+     "end": 39.75
+    },
+    {
+     "word": " is",
+     "start": 39.75,
+     "end": 40.11
+    },
+    {
+     "word": " Which",
+     "start": 42.09,
+     "end": 42.55
+    },
+    {
+     "word": " means",
+     "start": 42.55,
+     "end": 43.01
+    },
+    {
+     "word": " that",
+     "start": 43.01,
+     "end": 43.13
+    },
+    {
+     "word": " the",
+     "start": 43.13,
+     "end": 43.21
+    },
+    {
+     "word": " PC",
+     "start": 43.21,
+     "end": 43.41
+    },
+    {
+     "word": " release",
+     "start": 43.41,
+     "end": 43.73
+    },
+    {
+     "word": " with",
+     "start": 44.43,
+     "end": 44.89
+    },
+    {
+     "word": " with",
+     "start": 44.89,
+     "end": 45.35
+    },
+    {
+     "word": " the",
+     "start": 45.35,
+     "end": 45.49
+    },
+    {
+     "word": " slight",
+     "start": 45.49,
+     "end": 45.77
+    },
+    {
+     "word": " bugs",
+     "start": 45.77,
+     "end": 46.11
+    },
+    {
+     "word": " that",
+     "start": 46.11,
+     "end": 46.23
+    },
+    {
+     "word": " the",
+     "start": 46.23,
+     "end": 46.39
+    },
+    {
+     "word": " game",
+     "start": 46.39,
+     "end": 46.59
+    },
+    {
+     "word": " has",
+     "start": 46.59,
+     "end": 46.91
+    },
+    {
+     "word": " with",
+     "start": 46.91,
+     "end": 47.67
+    },
+    {
+     "word": " the",
+     "start": 47.67,
+     "end": 47.97
+    },
+    {
+     "word": " performance",
+     "start": 47.97,
+     "end": 48.53
+    },
+    {
+     "word": " issues",
+     "start": 48.53,
+     "end": 48.81
+    },
+    {
+     "word": " of",
+     "start": 48.81,
+     "end": 49.03
+    },
+    {
+     "word": " the",
+     "start": 49.03,
+     "end": 49.09
+    },
+    {
+     "word": " game",
+     "start": 49.09,
+     "end": 49.25
+    },
+    {
+     "word": " currently",
+     "start": 49.25,
+     "end": 49.51
+    },
+    {
+     "word": " has",
+     "start": 49.51,
+     "end": 50.29
+    },
+    {
+     "word": " with",
+     "start": 50.29,
+     "end": 50.87
+    },
+    {
+     "word": " All",
+     "start": 50.87,
+     "end": 51.71
+    },
+    {
+     "word": " the",
+     "start": 51.71,
+     "end": 51.83
+    },
+    {
+     "word": " all",
+     "start": 51.83,
+     "end": 52.11
+    },
+    {
+     "word": " the",
+     "start": 52.11,
+     "end": 52.23
+    },
+    {
+     "word": " rest",
+     "start": 52.23,
+     "end": 52.37
+    },
+    {
+     "word": " of",
+     "start": 52.37,
+     "end": 52.45
+    },
+    {
+     "word": " the",
+     "start": 52.45,
+     "end": 52.55
+    },
+    {
+     "word": " stuff",
+     "start": 52.55,
+     "end": 52.73
+    },
+    {
+     "word": " that's",
+     "start": 52.73,
+     "end": 52.99
+    },
+    {
+     "word": " maybe",
+     "start": 52.99,
+     "end": 53.11
+    },
+    {
+     "word": " optimized",
+     "start": 53.11,
+     "end": 53.45
+    },
+    {
+     "word": " and",
+     "start": 53.45,
+     "end": 53.75
+    },
+    {
+     "word": " looked",
+     "start": 53.75,
+     "end": 53.87
+    },
+    {
+     "word": " better",
+     "start": 53.87,
+     "end": 54.13
+    },
+    {
+     "word": " PC",
+     "start": 54.13,
+     "end": 54.81
+    },
+    {
+     "word": " release",
+     "start": 54.81,
+     "end": 55.09
+    },
+    {
+     "word": " and",
+     "start": 55.09,
+     "end": 55.21
+    },
+    {
+     "word": " all",
+     "start": 55.21,
+     "end": 55.31
+    },
+    {
+     "word": " it",
+     "start": 55.31,
+     "end": 55.54
+    },
+    {
+     "word": " I",
+     "start": 55.93,
+     "end": 56.27
+    },
+    {
+     "word": " can",
+     "start": 56.27,
+     "end": 56.35
+    },
+    {
+     "word": " definitely",
+     "start": 56.35,
+     "end": 56.55
+    },
+    {
+     "word": " see",
+     "start": 56.55,
+     "end": 56.71
+    },
+    {
+     "word": " this",
+     "start": 56.71,
+     "end": 56.83
+    },
+    {
+     "word": " game",
+     "start": 56.83,
+     "end": 56.95
+    },
+    {
+     "word": " going",
+     "start": 56.95,
+     "end": 57.13
+    },
+    {
+     "word": " even",
+     "start": 57.13,
+     "end": 57.43
+    },
+    {
+     "word": " above",
+     "start": 57.43,
+     "end": 58.05
+    },
+    {
+     "word": " above",
+     "start": 58.65,
+     "end": 59.11
+    },
+    {
+     "word": " a",
+     "start": 59.11,
+     "end": 59.31
+    },
+    {
+     "word": " nine",
+     "start": 59.31,
+     "end": 59.49
     }
    ],
    "metrics": {
-    "motion": 0.0655499963744471,
-    "motion_p90": 0.11545210644623305,
-    "static_share": 0.03389830508474576,
-    "peak_db": 15.165136337280273,
-    "level_db": -34.77190017700195
+    "motion": 0.2803576795912233,
+    "motion_p90": 0.6606402164111813,
+    "static_share": 0.058577405857740586,
+    "peak_db": 4.724943161010742,
+    "level_db": -28.932350158691406
    },
    "silence": []
   }
@@ -5650,6 +6214,6 @@
    "seconds": 53.1
   }
  },
- "checked_n": 14,
+ "checked_n": 15,
  "check_errors": {}
 }
