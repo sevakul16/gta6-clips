@@ -1,28 +1,4 @@
 {
- "chat-2937180390-119": {
-  "at": "2026-11-22T13:13:35.760523+00:00",
-  "moment_score": 1,
-  "what_happens": "Вебкамеры в кадре нет, поэтому не беру. Сам момент хороший: просит дать порулить самолётом, «я справлюсь», и сразу врезается в кусты, задание провалено.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2935172718-3392": {
-  "at": "2026-11-22T13:13:35.812414+00:00",
-  "moment_score": 2,
-  "what_happens": "Чат смеётся над тем, что он поджёг траву вместо машины, но этого в клипе не видно: сначала карта, потом поездка на квадроцикле и разговор со зрителями. Развязка осталась за кадром.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "UglyFancyPeanutOSkomodo-zY_ODEVtxn_1WsCc": {
-  "at": "2026-11-22T13:13:35.865401+00:00",
-  "moment_score": 3,
-  "what_happens": "Плывёт на лодке под сюжетный телефонный разговор и садится на мель в камышах. Событие слабое, реакции почти нет, это самый конец сюжета (98%).",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "AnimatedAbstruseCobraSquadGoals-X0At7is64u3z9_ak": {
   "at": "2026-11-22T14:13:54.760847+00:00",
   "moment_score": 2,
@@ -968,6 +944,40 @@
   "at": "2026-11-24T12:13:27.029489+00:00",
   "moment_score": 4,
   "what_happens": "45 s of weaving through traffic on a motorbike, then a crash on the bridge, the rider slides along the grating, WASTED. The streamer does not say a word, his webcam is small and dark; a plain crash with no reaction.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939116173-541": {
+  "at": "2026-11-24T13:14:33.405440+00:00",
+  "moment_score": 6,
+  "what_happens": "Escorting a hostage at gunpoint she puts one bullet in his calf to see what happens: MISSION FAILED, Monty died. She laughs and explains she only wanted to hurt him a little, his legs were calling out to her. Night scene, the picture is dark; the detected cam box is a bit too wide, corrected.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Thought one bullet in his calf would be fine. Mission failed 💀",
+  "keep_start": 9.0,
+  "keep_end": 39.0,
+  "cam": [
+   0.818,
+   0.55,
+   0.18,
+   0.225
+  ],
+  "hook": "One bullet in his calf",
+  "cover_at": 22.1
+ },
+ "ArborealArbitrarySpiderChefFrank-mMCq-Tz5Uoy8F0Yi": {
+  "at": "2026-11-24T13:14:33.494025+00:00",
+  "moment_score": 2,
+  "what_happens": "Drone mission over a rooftop pool: topless and thong-clad NPCs fill the frame, he flies the drone into a topless woman and fails the mission. Nudity on screen.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939214988-268": {
+  "at": "2026-11-24T13:14:33.556613+00:00",
+  "moment_score": 5,
+  "what_happens": "Drives a bucket truck with the boom up down the highway, clips a road sign and finally tips the truck over in the grass. Fun to watch but there is no webcam in the picture and he barely speaks.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
