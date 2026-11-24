@@ -1,69 +1,4 @@
 {
- "FurtiveEvilKeyboardSmoocherZ-aJ3pQCO9eas1BID9": {
-  "at": "2026-11-22T01:15:35.276455+00:00",
-  "moment_score": 7,
-  "what_happens": "Ночью на заправке задел компанию, без остановки извиняется, пока дерётся со всей бандой, а потом заходит в магазин: «Здрасте, можно покушать?». Смешная дуга с развязкой, реакция в кадре, картинка ночная, но заправка освещена. Субтитры уже вшиты в клип.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Задел парней на заправке, извинялся всю драку и пошёл за едой 😅",
-  "hook": "Извини, не увидел",
-  "cover_at": 15.9,
-  "no_subs": true
- },
- "UgliestLachrymosePigPeanutButterJellyTime-GmBYjZuZhVtGTBYq": {
-  "at": "2026-11-22T01:15:35.319246+00:00",
-  "moment_score": 7,
-  "what_happens": "Открывает заднюю дверь фургона, оттуда выпрыгивает тигр и нападает, стример орёт и убегает по траве. Сильное событие и живая реакция, день, всё видно. Вторая половина просто бег, поэтому оставляю первые 40 секунд. Баннеры ставок у правого края вне обеих рамок.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Открыл фургон, а оттуда выпрыгнул тигр 🐅",
-  "keep_start": 0.0,
-  "keep_end": 40.0,
-  "hook": "Тигр в фургоне",
-  "cover_at": 21.9
- },
- "chat-2936518555-308": {
-  "at": "2026-11-22T01:15:35.360235+00:00",
-  "moment_score": 2,
-  "what_happens": "Катсцена ограбления на стройке, всплеск чата из-за голосования про VIP. Игрового события и реакции на него нет.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2936392772-478": {
-  "at": "2026-11-22T01:15:35.401756+00:00",
-  "moment_score": 2,
-  "what_happens": "Гостья за рулём понимает, что она в эфире у Людвига, дальше меню магазина. Это событие стрима, а не игры.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2936386266-516": {
-  "at": "2026-11-22T02:13:52.757101+00:00",
-  "moment_score": 6,
-  "what_happens": "Уходит от погони и на пустой дороге влетает в ограждение моста: героиню выбрасывает из машины, дверь оторвана, чат смеётся. Событие понятное, день, всё видно, реакция спокойная, поэтому только 6. Оставляю отрезок с аварией, рамка камеры поправлена вручную.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Escaped the cops, then lost to a bridge wall 💀",
-  "keep_start": 36.0,
-  "keep_end": 57.0,
-  "cam": [
-   0.0,
-   0.15,
-   0.26,
-   0.325
-  ],
-  "hook": "Through the windshield",
-  "cover_at": 51.3
- },
- "chat-2936683310-178": {
-  "at": "2026-11-22T02:13:52.800613+00:00",
-  "moment_score": 2,
-  "what_happens": "Пьяный персонаж бредёт ночью, картинка тёмная и размытая, потом карта, и чат голосует, куда ехать. Игрового события нет.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2936452781-547": {
   "at": "2026-11-22T03:14:00.068497+00:00",
   "moment_score": 6,
@@ -1008,6 +943,30 @@
   "moment_score": 2,
   "what_happens": "Стример ставит игру на паузу и показывает на камеру свою собаку в мерче; игры на экране нет почти весь ролик",
   "gameplay_visible": false,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "DullPrettyCaterpillarKappaWealth-_PBk2Ut1sJ0GUkqc": {
+  "at": "2026-11-24T02:14:17.425264+00:00",
+  "moment_score": 3,
+  "what_happens": "The streamer gives his final rating of the game, a nine out of ten, while his character stands on a pier. Talk only, no game event on screen",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "GiftedCleverPhoneOneHand-Tq6nO3NrTG8uZMWL": {
+  "at": "2026-11-24T02:14:17.477883+00:00",
+  "moment_score": 5,
+  "what_happens": "На заправке незнакомец жалуется на роботов, герой отвечает, что его убьют сигареты, тот уезжает, и вдалеке гремит взрыв. Забавная сценка, но взрыв далеко и мелко, а стример почти не реагирует",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "OutstandingFairCobblerPraiseIt-Oz-2zy8DKMNXaovr": {
+  "at": "2026-11-24T02:14:17.521971+00:00",
+  "moment_score": 3,
+  "what_happens": "Story cutscene in a boat workshop where a woman with a pistol explains how she handles trouble. Cutscene only, no webcam and no streamer reaction in the picture",
+  "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
  }
