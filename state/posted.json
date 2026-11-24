@@ -971,41 +971,6 @@
   }
  },
  "rejected": {
-  "chat-2935679784-461": {
-   "at": "2026-11-21T09:22:23.171311+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "yourragegaming"
-  },
-  "chat-2935679784-484": {
-   "at": "2026-11-21T09:22:23.171576+00:00",
-   "why": "editor: 3/10, Ночью вылетает с дороги на траву, затем катсцена с поцелуями в мотеле; момент слабый, большая часть ролика катсцена, вебкамера перекрывает кадр игры.",
-   "login": "yourragegaming"
-  },
-  "chat-2934132437-2864": {
-   "at": "2026-11-21T09:22:23.171800+00:00",
-   "why": "editor: 3/10, Пробует кнопку поцелуя с напарницей в кафе и шутит про одиноких людей, потом идёт по переулку; события нет.",
-   "login": "ludwig"
-  },
-  "chat-2935562437-630": {
-   "at": "2026-11-21T09:22:23.172118+00:00",
-   "why": "editor: 2/10, Приезжает в мотель платить аренду и ищет банкомат, чат подсказывает; события нет.",
-   "login": "summit1g"
-  },
-  "chat-2935562437-666": {
-   "at": "2026-11-21T09:22:23.172380+00:00",
-   "why": "editor: 4/10, Последний круг кольцевой гонки и первое место, молчит почти весь ролик; чистая победа без события и реакции.",
-   "login": "summit1g"
-  },
-  "chat-2935059680-1311": {
-   "at": "2026-11-21T09:22:23.172731+00:00",
-   "why": "editor: 2/10, Ночная поездка под сюжетный диалог, спрашивает чат про NDA; события в игре нет, картинка тёмная.",
-   "login": "lacy"
-  },
-  "BlightedFairClipsmomArgieB8-XGFR8aQH_Xx3zNEI": {
-   "at": "2026-11-21T09:22:23.173070+00:00",
-   "why": "editor: 3/10, Бежит по мосту, WASTED, после перезапуска едет на красной машине под диалог; рядовая гибель без понятной причины и реакции.",
-   "login": "kaicenat"
-  },
   "chat-2935925087-102": {
    "at": "2026-11-21T09:46:11.886480+00:00",
    "why": "picture is almost static (motion 0.02)",
@@ -2434,7 +2399,482 @@
    "vod_t": 29998.187658
   }
  },
- "pending": {},
+ "pending": {
+  "chat-2939161873-196": {
+   "id": "chat-2939161873-196",
+   "url": "https://www.twitch.tv/videos/2939161873",
+   "section": [
+    8822.689279,
+    8878.689279
+   ],
+   "kind": "chat",
+   "views": 40,
+   "title": "",
+   "vod": "2939161873",
+   "vod_t": 8822.689279,
+   "group": "en",
+   "login": "ironmouse",
+   "name": "ironmouse",
+   "viewers": 6223,
+   "chat_score": 2.58,
+   "found_at": "2026-11-24T09:41:18.465532+00:00",
+   "spike_at": "2026-11-24T09:27:10.689279+00:00",
+   "chat": [
+    "14x RIZZ",
+    "10x aww",
+    "2x ironmouseLOVE",
+    "2x SoCute",
+    "RIZZ u have a wife now mousey",
+    "Pog",
+    "WideAmongUsGaySex",
+    "LUCIA IS TALLER THAN MOUSE om",
+    "3/4?",
+    "my pleasure",
+    "emm",
+    "ironmouseWow"
+   ],
+   "source": "cut from the live stream at a chat spike: 40 chatters in 15 s, 2.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-24T09:41:51.681504+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 59.2,
+   "words": [
+    {
+     "word": " Okay.",
+     "start": 0.0,
+     "end": 0.2
+    },
+    {
+     "word": " Yeah.",
+     "start": 3.94,
+     "end": 4.5
+    },
+    {
+     "word": " Hey.",
+     "start": 5.72,
+     "end": 6.18
+    },
+    {
+     "word": " Look",
+     "start": 6.24,
+     "end": 6.24
+    },
+    {
+     "word": " how",
+     "start": 6.24,
+     "end": 8.26
+    },
+    {
+     "word": " beautiful",
+     "start": 8.26,
+     "end": 8.72
+    },
+    {
+     "word": " my",
+     "start": 8.72,
+     "end": 9.06
+    },
+    {
+     "word": " shit",
+     "start": 9.06,
+     "end": 9.28
+    },
+    {
+     "word": " car",
+     "start": 9.28,
+     "end": 9.56
+    },
+    {
+     "word": " is",
+     "start": 9.56,
+     "end": 9.76
+    },
+    {
+     "word": " now.",
+     "start": 9.76,
+     "end": 10.04
+    },
+    {
+     "word": " It's",
+     "start": 10.24,
+     "end": 10.38
+    },
+    {
+     "word": " pink.",
+     "start": 10.38,
+     "end": 10.72
+    },
+    {
+     "word": " What",
+     "start": 11.26,
+     "end": 11.68
+    },
+    {
+     "word": " do",
+     "start": 11.68,
+     "end": 11.7
+    },
+    {
+     "word": " you",
+     "start": 11.7,
+     "end": 11.7
+    },
+    {
+     "word": " think?",
+     "start": 11.7,
+     "end": 11.92
+    },
+    {
+     "word": " Awww.",
+     "start": 16.34,
+     "end": 16.9
+    },
+    {
+     "word": " He",
+     "start": 17.84,
+     "end": 17.98
+    },
+    {
+     "word": " hated",
+     "start": 17.98,
+     "end": 18.26
+    },
+    {
+     "word": " it.",
+     "start": 18.26,
+     "end": 19.14
+    },
+    {
+     "word": " Hold",
+     "start": 20.5,
+     "end": 21.06
+    },
+    {
+     "word": " on",
+     "start": 21.06,
+     "end": 21.62
+    },
+    {
+     "word": " my",
+     "start": 21.62,
+     "end": 21.78
+    },
+    {
+     "word": " dear,",
+     "start": 21.78,
+     "end": 22.0
+    },
+    {
+     "word": " let",
+     "start": 22.16,
+     "end": 22.22
+    },
+    {
+     "word": " me",
+     "start": 22.22,
+     "end": 22.32
+    },
+    {
+     "word": " open",
+     "start": 22.32,
+     "end": 22.48
+    },
+    {
+     "word": " the",
+     "start": 22.48,
+     "end": 22.66
+    },
+    {
+     "word": " door",
+     "start": 22.66,
+     "end": 22.78
+    },
+    {
+     "word": " for",
+     "start": 22.78,
+     "end": 22.98
+    },
+    {
+     "word": " you.",
+     "start": 22.98,
+     "end": 23.14
+    },
+    {
+     "word": " My,",
+     "start": 23.32,
+     "end": 23.4
+    },
+    {
+     "word": " my",
+     "start": 23.46,
+     "end": 23.76
+    },
+    {
+     "word": " sweet.",
+     "start": 23.76,
+     "end": 24.12
+    },
+    {
+     "word": " After",
+     "start": 27.74,
+     "end": 28.02
+    },
+    {
+     "word": " you",
+     "start": 28.02,
+     "end": 28.24
+    },
+    {
+     "word": " my",
+     "start": 28.24,
+     "end": 29.8
+    },
+    {
+     "word": " sweet.",
+     "start": 29.8,
+     "end": 30.22
+    },
+    {
+     "word": " Um.",
+     "start": 30.82,
+     "end": 31.06
+    },
+    {
+     "word": " You're",
+     "start": 33.78,
+     "end": 34.5
+    },
+    {
+     "word": " welcome.",
+     "start": 34.5,
+     "end": 34.92
+    },
+    {
+     "word": " I'm",
+     "start": 38.32,
+     "end": 38.54
+    },
+    {
+     "word": " a",
+     "start": 38.54,
+     "end": 38.7
+    },
+    {
+     "word": " gentle",
+     "start": 38.7,
+     "end": 39.0
+    },
+    {
+     "word": " man.",
+     "start": 39.0,
+     "end": 39.84
+    },
+    {
+     "word": " What",
+     "start": 40.2,
+     "end": 40.3
+    },
+    {
+     "word": " can",
+     "start": 40.3,
+     "end": 40.58
+    },
+    {
+     "word": " I",
+     "start": 40.58,
+     "end": 40.74
+    },
+    {
+     "word": " say?",
+     "start": 40.74,
+     "end": 40.94
+    },
+    {
+     "word": " They're",
+     "start": 41.36,
+     "end": 42.08
+    },
+    {
+     "word": " crazy",
+     "start": 42.08,
+     "end": 42.66
+    },
+    {
+     "word": " in",
+     "start": 42.66,
+     "end": 43.02
+    },
+    {
+     "word": " love.",
+     "start": 43.02,
+     "end": 43.52
+    },
+    {
+     "word": " Three",
+     "start": 44.02,
+     "end": 44.16
+    },
+    {
+     "word": " out",
+     "start": 44.16,
+     "end": 44.36
+    },
+    {
+     "word": " of",
+     "start": 44.36,
+     "end": 44.5
+    },
+    {
+     "word": " four.",
+     "start": 44.5,
+     "end": 44.98
+    }
+   ],
+   "metrics": {
+    "motion": 0.2951736111111111,
+    "motion_p90": 0.513125,
+    "static_share": 0.1440677966101695,
+    "peak_db": 14.532909393310547,
+    "level_db": -32.307350158691406
+   },
+   "silence": []
+  },
+  "BlightedTenderSpindleDerp-zkEnt6d4rar1sSgu": {
+   "id": "BlightedTenderSpindleDerp-zkEnt6d4rar1sSgu",
+   "vod": "2938288604",
+   "vod_t": 9992,
+   "group": "ru",
+   "views": 1021,
+   "title": "ВСМ/ПОНЕДЕЛЬНИК ?",
+   "url": "https://www.twitch.tv/sasavot/clip/BlightedTenderSpindleDerp-zkEnt6d4rar1sSgu",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "sasavot",
+   "name": "sasavot",
+   "source": "Twitch clip made by a viewer, 1021 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"ВСМ/ПОНЕДЕЛЬНИК ?\"",
+   "at": "2026-11-24T09:42:23.452400+00:00",
+   "cam": [
+    0,
+    394,
+    772,
+    543
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 30.0,
+   "words": [
+    {
+     "word": " 1",
+     "start": 2.58,
+     "end": 3.16
+    },
+    {
+     "word": " 2",
+     "start": 4.18,
+     "end": 4.98
+    },
+    {
+     "word": " 3",
+     "start": 6.86,
+     "end": 7.6
+    },
+    {
+     "word": " 4",
+     "start": 10.52,
+     "end": 11.32
+    },
+    {
+     "word": " О,",
+     "start": 12.48,
+     "end": 12.88
+    },
+    {
+     "word": " денечком",
+     "start": 13.46,
+     "end": 13.76
+    },
+    {
+     "word": " закидался",
+     "start": 13.76,
+     "end": 14.22
+    },
+    {
+     "word": " А,",
+     "start": 16.74,
+     "end": 17.2
+    },
+    {
+     "word": " блять,",
+     "start": 17.5,
+     "end": 17.82
+    },
+    {
+     "word": " 4",
+     "start": 17.98,
+     "end": 18.34
+    },
+    {
+     "word": " 5",
+     "start": 18.34,
+     "end": 19.52
+    },
+    {
+     "word": " КД,",
+     "start": 20.48,
+     "end": 20.88
+    },
+    {
+     "word": " КД,",
+     "start": 21.0,
+     "end": 21.22
+    },
+    {
+     "word": " КД,",
+     "start": 21.24,
+     "end": 21.56
+    },
+    {
+     "word": " КД!",
+     "start": 21.58,
+     "end": 22.18
+    },
+    {
+     "word": " 6",
+     "start": 22.22,
+     "end": 22.62
+    },
+    {
+     "word": " О,",
+     "start": 22.62,
+     "end": 23.38
+    },
+    {
+     "word": " по",
+     "start": 25.32,
+     "end": 25.36
+    },
+    {
+     "word": " приехали",
+     "start": 25.36,
+     "end": 25.82
+    }
+   ],
+   "metrics": {
+    "motion": 0.4865589278675601,
+    "motion_p90": 0.6806621994481671,
+    "static_share": 0.01680672268907563,
+    "peak_db": 10.33065414428711,
+    "level_db": -29.626131057739258
+   },
+   "silence": []
+  }
+ },
  "pool": {
   "chat-2937188320-775": {
    "id": "chat-2937188320-775",
@@ -4787,6 +5227,6 @@
    "seconds": 23.1
   }
  },
- "checked_n": 44,
+ "checked_n": 46,
  "check_errors": {}
 }
