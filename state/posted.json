@@ -971,11 +971,6 @@
   }
  },
  "rejected": {
-  "chat-2935760785-614": {
-   "at": "2026-11-21T11:42:38.089523+00:00",
-   "why": "picture is almost static (motion 0.01)",
-   "login": "jerma985"
-  },
   "TardyAuspiciousClipzPMSTwin-2sFr-zEyc6tZ1reA": {
    "at": "2026-11-21T12:26:35.618425+00:00",
    "why": "editor: 1/10, Сцена в душе от первого лица с голым телом, звука почти нет",
@@ -2640,6 +2635,57 @@
     "static_share": 0.08196721311475409,
     "peak_db": 9.755191802978516,
     "level_db": -41.82683563232422
+   },
+   "silence": []
+  },
+  "chat-2939191063-286": {
+   "id": "chat-2939191063-286",
+   "url": "https://www.twitch.tv/videos/2939191063",
+   "section": [
+    12854.822078,
+    12910.822078
+   ],
+   "kind": "chat",
+   "views": 56,
+   "title": "",
+   "vod": "2939191063",
+   "vod_t": 12854.822078,
+   "group": "en",
+   "login": "singsing",
+   "name": "singsing",
+   "viewers": 3086,
+   "chat_score": 5.6,
+   "found_at": "2026-11-24T11:52:49.599311+00:00",
+   "spike_at": "2026-11-24T11:51:26.822078+00:00",
+   "chat": [
+    "17x KEK",
+    "4x WICKED",
+    "3x o7",
+    "2x ICANT",
+    "COGGERS",
+    "KEK ͏",
+    "OMEGALOOOOL",
+    "human crayon",
+    "are we deadass",
+    "DESERVED xdx",
+    "haahahahah",
+    "LUL"
+   ],
+   "source": "cut from the live stream at a chat spike: 56 chatters in 15 s, 5.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-24T11:53:48.383945+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 61.0,
+   "words": [],
+   "metrics": {
+    "motion": 0.5313194444444445,
+    "motion_p90": 0.6932500000000001,
+    "static_share": 0.01646090534979424,
+    "peak_db": 5.311004638671875,
+    "level_db": -31.364669799804688
    },
    "silence": []
   }
@@ -5195,6 +5241,6 @@
    "seconds": 23.1
   }
  },
- "checked_n": 52,
+ "checked_n": 53,
  "check_errors": {}
 }
