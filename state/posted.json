@@ -938,11 +938,6 @@
   }
  },
  "rejected": {
-  "chat-2935444297-635": {
-   "at": "2026-11-21T06:45:26.069830+00:00",
-   "why": "picture is almost static (motion 0.00)",
-   "login": "whoplohoyparen"
-  },
   "chat-2935059680-1152": {
    "at": "2026-11-21T07:08:14.321650+00:00",
    "why": "picture is almost static (motion 0.03)",
@@ -2388,6 +2383,14 @@
    "kind": "chat",
    "vod": "2939012870",
    "vod_t": 11538.133348
+  },
+  "DeliciousHardDragonflyPicoMause-lDdNKuvODLZgXqP2": {
+   "at": "2026-11-24T06:48:28.411810+00:00",
+   "why": "streamer fills the screen, no gameplay",
+   "login": "bratishkinoff",
+   "kind": "clip",
+   "vod": "2938328156",
+   "vod_t": 20220
   }
  },
  "pending": {
@@ -2530,6 +2533,219 @@
     "static_share": 0.2,
     "peak_db": 9.56467342376709,
     "level_db": -20.965478897094727
+   },
+   "silence": []
+  },
+  "chat-2939012870-318": {
+   "id": "chat-2939012870-318",
+   "url": "https://www.twitch.tv/videos/2939012870",
+   "section": [
+    14296.034815,
+    14352.034815
+   ],
+   "kind": "chat",
+   "views": 38,
+   "title": "",
+   "vod": "2939012870",
+   "vod_t": 14296.034815,
+   "group": "en",
+   "login": "fanum",
+   "name": "Fanum",
+   "viewers": 7295,
+   "chat_score": 7.6,
+   "found_at": "2026-11-24T06:47:55.567128+00:00",
+   "spike_at": "2026-11-24T06:41:13.034815+00:00",
+   "chat": [
+    "nigga trolling",
+    "BRO YOURE WILIN",
+    "this nga shelov36Imcryin",
+    "wth",
+    "fanumYKTV",
+    "THAT SHUT ASS",
+    "LMFAOOOOOOOOOOOO",
+    "bro'\\"
+   ],
+   "source": "cut from the live stream at a chat spike: 38 chatters in 15 s, 7.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-24T06:48:46.632448+00:00",
+   "cam": [
+    122,
+    459,
+    239,
+    168
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 59.7,
+   "words": [
+    {
+     "word": " The",
+     "start": 13.39,
+     "end": 13.69
+    },
+    {
+     "word": " Drake",
+     "start": 13.69,
+     "end": 13.85
+    },
+    {
+     "word": " one",
+     "start": 13.85,
+     "end": 14.01
+    },
+    {
+     "word": " just",
+     "start": 14.01,
+     "end": 14.17
+    },
+    {
+     "word": " hit",
+     "start": 14.17,
+     "end": 14.29
+    },
+    {
+     "word": " me",
+     "start": 14.29,
+     "end": 14.41
+    },
+    {
+     "word": " up",
+     "start": 14.41,
+     "end": 14.61
+    },
+    {
+     "word": " asking",
+     "start": 14.61,
+     "end": 15.47
+    },
+    {
+     "word": " if",
+     "start": 15.47,
+     "end": 15.67
+    },
+    {
+     "word": " we",
+     "start": 15.67,
+     "end": 15.75
+    },
+    {
+     "word": " could",
+     "start": 15.75,
+     "end": 15.85
+    },
+    {
+     "word": " help",
+     "start": 15.85,
+     "end": 15.99
+    },
+    {
+     "word": " with",
+     "start": 15.99,
+     "end": 16.11
+    },
+    {
+     "word": " some",
+     "start": 16.11,
+     "end": 16.23
+    },
+    {
+     "word": " trouble",
+     "start": 16.23,
+     "end": 16.49
+    },
+    {
+     "word": " to",
+     "start": 16.49,
+     "end": 16.77
+    },
+    {
+     "word": " he",
+     "start": 16.77,
+     "end": 17.49
+    },
+    {
+     "word": " still",
+     "start": 17.49,
+     "end": 17.79
+    },
+    {
+     "word": " needs",
+     "start": 17.79,
+     "end": 18.01
+    },
+    {
+     "word": " our",
+     "start": 18.01,
+     "end": 18.17
+    },
+    {
+     "word": " help.",
+     "start": 18.17,
+     "end": 18.41
+    },
+    {
+     "word": " Yeah,",
+     "start": 18.61,
+     "end": 18.95
+    },
+    {
+     "word": " he's",
+     "start": 19.03,
+     "end": 19.55
+    },
+    {
+     "word": " almost",
+     "start": 19.55,
+     "end": 19.71
+    },
+    {
+     "word": " there",
+     "start": 19.71,
+     "end": 19.89
+    },
+    {
+     "word": " with",
+     "start": 19.89,
+     "end": 20.01
+    },
+    {
+     "word": " the",
+     "start": 20.01,
+     "end": 20.09
+    },
+    {
+     "word": " dogs",
+     "start": 20.09,
+     "end": 20.35
+    },
+    {
+     "word": " They",
+     "start": 20.81,
+     "end": 21.15
+    },
+    {
+     "word": " just",
+     "start": 21.15,
+     "end": 21.33
+    },
+    {
+     "word": " need",
+     "start": 21.33,
+     "end": 21.51
+    },
+    {
+     "word": " like",
+     "start": 21.51,
+     "end": 21.65
+    }
+   ],
+   "metrics": {
+    "motion": 0.4822151224707135,
+    "motion_p90": 0.6122754703585375,
+    "static_share": 0.029411764705882353,
+    "peak_db": 4.7655029296875,
+    "level_db": -14.768901824951172
    },
    "silence": []
   }
@@ -5098,6 +5314,6 @@
    "seconds": 23.1
   }
  },
- "checked_n": 33,
+ "checked_n": 35,
  "check_errors": {}
 }
