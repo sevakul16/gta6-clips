@@ -1,58 +1,4 @@
 {
- "chat-2936786153-1540": {
-  "at": "2026-11-22T21:14:40.655652+00:00",
-  "moment_score": 3,
-  "what_happens": "Поездка на такси и чтение доната с просьбой передать привет, чат голосует, кому он достанется. Игрового события нет, это разговор со зрителями.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2937188320-775": {
-  "at": "2026-11-22T21:14:40.707775+00:00",
-  "moment_score": 6,
-  "what_happens": "Стример обещает 10 сабок, если врежется по дороге домой, лезет переключать радио и тут же влетает в фургон, а потом кричит, что это не считается. Полролика на экране меню радио, но шутка понятна и развязка видна.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Пообещал 10 сабок, если врежется, и тут же полез переключать музыку",
-  "keep_start": 21.0,
-  "keep_end": 50.0,
-  "cam": [
-   0.0,
-   0.295,
-   0.196,
-   0.245
-  ],
-  "hook": "Спор на 10 сабок",
-  "cover_at": 42.9
- },
- "chat-2937203120-723": {
-  "at": "2026-11-22T21:14:40.753556+00:00",
-  "moment_score": 6,
-  "what_happens": "Гонка: стример лидирует до 96%, жмёт нитро, врезается и финиширует вторым, после чего ругает «сценарий». Понятный провал у самого финиша, картинка сумеречная, но читается.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Лидировал всю гонку и врезался перед самым финишем",
-  "keep_start": 30.0,
-  "keep_end": 57.0,
-  "hook": "Потерял победу на 97%",
-  "cover_at": 43.7
- },
- "chat-2937407818-416": {
-  "at": "2026-11-22T22:13:55.991781+00:00",
-  "moment_score": 2,
-  "what_happens": "Стримера поздравляют с днём рождения, пока в игре идёт разведка в бинокль. Это разговор на стриме, игрового события нет.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2937503083-319": {
-  "at": "2026-11-22T22:13:56.038781+00:00",
-  "moment_score": 3,
-  "what_happens": "Телефонный разговор по сюжету, затем стример обсуждает режим чата и идёт продавать добычу. События и реакции нет.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2937163636-956": {
   "at": "2026-11-22T23:13:17.109875+00:00",
   "moment_score": 5,
@@ -1070,6 +1016,46 @@
   "at": "2026-11-24T21:13:56.109256+00:00",
   "moment_score": 2,
   "what_happens": "Cutscene in a van followed by a scripted drone flight to a rooftop pool; only game dialogue, no event and no reaction",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "CredulousConcernedDuckAliens-KXzr7E3q5t55CkrC": {
+  "at": "2026-11-24T22:14:25.874604+00:00",
+  "moment_score": 5,
+  "what_happens": "Supercar leaves the road onto rocks and ends up teetering on a canal wall, he gets out and orders another car; a mild mishap with almost no speech, a small face cutout cut off at the chin, and the last 10 s are phone menus",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "LovelyArborealClipsdadWholeWheat-HGG54FgBZH13uhHV": {
+  "at": "2026-11-24T22:14:25.928026+00:00",
+  "moment_score": 4,
+  "what_happens": "Parks at night and spends the clip swearing at a character who stands and stares; a rant with heavy profanity and no game event, and the picture is almost black",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2938915006-1667": {
+  "at": "2026-11-24T22:14:25.972878+00:00",
+  "moment_score": 1,
+  "what_happens": "Character in a thong bikini shown from behind for the whole clip while the streamer and a guest trade a crude sex joke; thong close-ups, no game event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939550825-255": {
+  "at": "2026-11-24T22:14:26.014135+00:00",
+  "moment_score": 3,
+  "what_happens": "Walks out of the apartment during mission dialogue and asks what breed a passing dog is, chat spams PARDON at a word that sounded off; talk without a game event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939344770-644": {
+  "at": "2026-11-24T22:14:26.053816+00:00",
+  "moment_score": 5,
+  "what_happens": "Says he has it all under control, eleven seconds later crashes the van into roadworks and gets Wasted; the irony is there, but the streamer sits turned away with the same blank face throughout, the cutout webcam is tiny and the picture is grey rain",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
