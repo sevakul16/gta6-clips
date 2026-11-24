@@ -2373,645 +2373,323 @@
    "kind": "chat",
    "vod": "2939296973",
    "vod_t": 21704.144833
+  },
+  "chat-2939365510-421": {
+   "at": "2026-11-24T20:18:39.606420+00:00",
+   "why": "editor: 5/10, Orders a car delivery, says thank you and runs over the scooter courier while driving off; the hit lasts a second, the streamer does not react to it, and the first 35 s are running, the map and phone menus",
+   "login": "elajjaz",
+   "kind": "chat",
+   "vod": "2939365510",
+   "vod_t": 18946.809341
   }
  },
  "pending": {
-  "WonderfulCuriousLobsterChefFrank-qfyn1_cjxtYuxS6o": {
-   "id": "WonderfulCuriousLobsterChefFrank-qfyn1_cjxtYuxS6o",
-   "vod": null,
-   "vod_t": null,
+  "chat-2939363532-460": {
+   "id": "chat-2939363532-460",
+   "url": "https://www.twitch.tv/videos/2939363532",
+   "section": [
+    20702.944506,
+    20758.944506
+   ],
+   "kind": "chat",
+   "views": 41,
+   "title": "",
+   "vod": "2939363532",
+   "vod_t": 20702.944506,
    "group": "ru",
-   "views": 1072,
-   "title": "курьеру не повезло 3 раза, бежит уволняться",
-   "url": "https://www.twitch.tv/k4rankul/clip/WonderfulCuriousLobsterChefFrank-qfyn1_cjxtYuxS6o",
-   "section": null,
-   "kind": "clip",
-   "hot": true,
-   "login": "k4rankul",
-   "name": "k4rankul",
-   "source": "Twitch clip made by a viewer, 1072 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"курьеру не повезло 3 раза, бежит уволняться\"",
-   "at": "2026-11-24T19:33:41.663359+00:00",
+   "login": "welovegames",
+   "name": "WELOVEGAMES",
+   "viewers": 3904,
+   "chat_score": 5.86,
+   "found_at": "2026-11-24T20:16:50.731592+00:00",
+   "spike_at": "2026-11-24T20:16:07.944506+00:00",
+   "chat": [
+    "3x Норм",
+    "7\\10",
+    "супер",
+    "7/10",
+    "в таком битрейте не разглядеть особо",
+    "Топ, но мыло",
+    "на уровне начала 2000-х",
+    "Как и в 5-ой части)",
+    "клева но мыльненько."
+   ],
+   "source": "cut from the live stream at a chat spike: 41 chatters in 15 s, 5.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-24T20:18:34.903459+00:00",
    "cam": [
-    57,
-    339,
-    504,
-    354
+    0,
+    261,
+    554,
+    390
    ],
    "size": [
     1920,
     1080
    ],
-   "dur": 48.3,
+   "dur": 59.0,
    "words": [
     {
-     "word": " куда",
-     "start": 4.5,
-     "end": 5.08
+     "word": " Крошмадам",
+     "start": 5.75,
+     "end": 6.59
     },
     {
-     "word": " вы",
-     "start": 5.08,
-     "end": 5.22
+     "word": " напилась.",
+     "start": 6.59,
+     "end": 6.95
     },
     {
-     "word": " мне...",
-     "start": 5.22,
-     "end": 5.54
+     "word": " Её",
+     "start": 9.07,
+     "end": 9.57
     },
     {
-     "word": " ебать",
-     "start": 5.54,
-     "end": 6.12
+     "word": " полиция",
+     "start": 9.57,
+     "end": 9.99
     },
     {
-     "word": " там",
-     "start": 6.12,
-     "end": 6.22
+     "word": " решили",
+     "start": 9.99,
+     "end": 11.79
     },
     {
-     "word": " типа",
-     "start": 6.22,
-     "end": 6.46
+     "word": " ашторфовать.",
+     "start": 11.79,
+     "end": 12.57
     },
     {
-     "word": " сбили,",
-     "start": 6.46,
-     "end": 7.0
+     "word": " Завождение",
+     "start": 13.03,
+     "end": 13.87
     },
     {
-     "word": " ёп,",
-     "start": 7.16,
-     "end": 7.5
+     "word": " в...",
+     "start": 13.87,
+     "end": 15.35
     },
     {
-     "word": " братуха",
-     "start": 7.58,
-     "end": 8.32
+     "word": " Я",
+     "start": 15.35,
+     "end": 16.05
     },
     {
-     "word": " спасибо",
-     "start": 8.32,
-     "end": 9.06
+     "word": " оно",
+     "start": 16.05,
+     "end": 16.21
     },
     {
-     "word": " для",
-     "start": 13.54,
-     "end": 14.02
+     "word": " видел.",
+     "start": 16.21,
+     "end": 16.37
     },
     {
-     "word": " тебя",
-     "start": 14.02,
-     "end": 14.26
+     "word": " Как",
+     "start": 30.59,
+     "end": 30.75
     },
     {
-     "word": " так...",
-     "start": 14.26,
-     "end": 14.86
+     "word": " вам",
+     "start": 30.75,
+     "end": 30.91
     },
     {
-     "word": " о,",
-     "start": 14.86,
-     "end": 15.04
+     "word": " графика",
+     "start": 30.91,
+     "end": 31.41
     },
     {
-     "word": " извини",
-     "start": 15.18,
-     "end": 15.62
+     "word": " в",
+     "start": 31.41,
+     "end": 31.75
     },
     {
-     "word": " бля,",
-     "start": 17.4,
-     "end": 17.88
+     "word": " ГТ6?",
+     "start": 31.75,
+     "end": 32.29
     },
     {
-     "word": " ему",
-     "start": 18.02,
-     "end": 18.12
+     "word": " Что",
+     "start": 35.06,
+     "end": 35.58
+    },
+    {
+     "word": " скажете?",
+     "start": 35.58,
+     "end": 36.0
+    },
+    {
+     "word": " Я",
+     "start": 37.36,
+     "end": 37.58
+    },
+    {
+     "word": " понимаю,",
+     "start": 37.58,
+     "end": 37.76
     },
     {
      "word": " что",
-     "start": 18.12,
-     "end": 18.3
+     "start": 37.9,
+     "end": 37.98
     },
     {
-     "word": "-то",
-     "start": 18.3,
-     "end": 18.4
+     "word": " стрим",
+     "start": 37.98,
+     "end": 38.3
     },
     {
-     "word": " вообще",
-     "start": 18.4,
-     "end": 18.68
+     "word": " это,",
+     "start": 38.3,
+     "end": 38.54
     },
     {
-     "word": " сегодня",
-     "start": 18.68,
-     "end": 18.9
-    },
-    {
-     "word": " у",
-     "start": 18.9,
-     "end": 19.0
-    },
-    {
-     "word": " него",
-     "start": 19.0,
-     "end": 19.16
-    },
-    {
-     "word": " рабочий",
-     "start": 19.16,
-     "end": 19.54
-    },
-    {
-     "word": " день",
-     "start": 19.54,
-     "end": 19.64
+     "word": " конечно,",
+     "start": 38.94,
+     "end": 39.48
     },
     {
      "word": " не",
-     "start": 19.64,
-     "end": 19.82
+     "start": 41.32,
+     "end": 41.46
     },
     {
-     "word": " задался,",
-     "start": 19.82,
-     "end": 20.24
+     "word": " показатель,",
+     "start": 41.46,
+     "end": 42.18
     },
     {
-     "word": " да,",
-     "start": 20.4,
-     "end": 20.46
+     "word": " потому",
+     "start": 42.18,
+     "end": 42.42
     },
     {
-     "word": " ну",
-     "start": 20.5,
-     "end": 20.6
+     "word": " что",
+     "start": 42.42,
+     "end": 42.7
     },
     {
-     "word": " нахуй",
-     "start": 20.6,
-     "end": 21.58
+     "word": " все",
+     "start": 42.7,
+     "end": 43.0
     },
     {
-     "word": " он",
-     "start": 41.25,
-     "end": 41.73
+     "word": " смотрят",
+     "start": 43.0,
+     "end": 43.42
     },
     {
-     "word": " уже...",
-     "start": 41.73,
-     "end": 42.15
+     "word": " там",
+     "start": 43.42,
+     "end": 43.54
     },
     {
-     "word": " он",
-     "start": 42.15,
-     "end": 42.41
+     "word": " в",
+     "start": 43.54,
+     "end": 43.86
     },
     {
-     "word": " уже",
-     "start": 42.41,
-     "end": 42.57
+     "word": " 720,",
+     "start": 43.86,
+     "end": 44.22
     },
     {
-     "word": " самокат",
-     "start": 42.57,
-     "end": 43.15
+     "word": " Full",
+     "start": 44.68,
+     "end": 44.8
     },
     {
-     "word": " бросил,",
-     "start": 43.15,
-     "end": 43.55
+     "word": " HD,",
+     "start": 44.8,
+     "end": 45.14
     },
     {
-     "word": " он",
-     "start": 43.67,
-     "end": 43.67
+     "word": " и",
+     "start": 45.32,
+     "end": 45.34
     },
     {
-     "word": " думает,",
-     "start": 43.67,
-     "end": 44.01
+     "word": " кто",
+     "start": 45.34,
+     "end": 45.46
     },
     {
-     "word": " ну",
-     "start": 44.07,
-     "end": 44.19
+     "word": "-то",
+     "start": 45.46,
+     "end": 45.58
     },
     {
-     "word": " его",
-     "start": 44.19,
-     "end": 44.35
+     "word": " в",
+     "start": 45.58,
+     "end": 45.64
     },
     {
-     "word": " нахуй",
-     "start": 44.35,
-     "end": 44.89
+     "word": " 2К.",
+     "start": 45.64,
+     "end": 46.02
     },
     {
-     "word": " пешком",
-     "start": 45.79,
-     "end": 46.27
+     "word": " Очень",
+     "start": 49.66,
+     "end": 50.16
     },
     {
-     "word": " пошел,",
-     "start": 46.27,
-     "end": 46.75
+     "word": " нравится.",
+     "start": 50.16,
+     "end": 50.56
     },
     {
-     "word": " блять",
-     "start": 46.79,
-     "end": 47.13
+     "word": " Красивые.",
+     "start": 50.88,
+     "end": 51.52
+    },
+    {
+     "word": " Нормыло",
+     "start": 54.26,
+     "end": 54.9
+    },
+    {
+     "word": " 610.",
+     "start": 54.9,
+     "end": 55.54
+    },
+    {
+     "word": " Ждём",
+     "start": 55.76,
+     "end": 55.92
+    },
+    {
+     "word": " на",
+     "start": 55.92,
+     "end": 56.06
+    },
+    {
+     "word": " ПК.",
+     "start": 56.06,
+     "end": 56.34
+    },
+    {
+     "word": " Амяк.",
+     "start": 56.72,
+     "end": 57.12
+    },
+    {
+     "word": " Амяк.",
+     "start": 57.42,
+     "end": 57.88
+    },
+    {
+     "word": " Дорогой.",
+     "start": 58.24,
+     "end": 58.7
     }
    ],
    "metrics": {
-    "motion": 0.4123951182303585,
-    "motion_p90": 0.6654538520213578,
-    "static_share": 0.0,
-    "peak_db": 20.22431182861328,
-    "level_db": -40.54278564453125
-   },
-   "silence": []
-  },
-  "chat-2939308400-503": {
-   "id": "chat-2939308400-503",
-   "url": "https://www.twitch.tv/videos/2939308400",
-   "section": [
-    22628.512761,
-    22684.512761
-   ],
-   "kind": "chat",
-   "views": 45,
-   "title": "",
-   "vod": "2939308400",
-   "vod_t": 22628.512761,
-   "group": "en",
-   "login": "nickmercs",
-   "name": "NICKMERCS",
-   "viewers": 6956,
-   "chat_score": 7.5,
-   "found_at": "2026-11-24T19:33:12.022372+00:00",
-   "spike_at": "2026-11-24T19:16:24.512761+00:00",
-   "chat": [
-    "4x lmao",
-    "3x LUL",
-    "3x LMFAO",
-    "feels good",
-    "Kappa LUL",
-    "LMAOOOOOOOOO",
-    "Bro…",
-    "LMAOOO",
-    "N JUST LIKE WE CALLED IT",
-    "🤣😭😂",
-    "Bikers Fault KEKW"
-   ],
-   "source": "cut from the live stream at a chat spike: 45 chatters in 15 s, 7.5x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-24T19:34:01.050045+00:00",
-   "cam": null,
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 65.0,
-   "words": [
-    {
-     "word": " Ride",
-     "start": 34.77,
-     "end": 34.97
-    },
-    {
-     "word": " this",
-     "start": 34.97,
-     "end": 35.19
-    },
-    {
-     "word": " motherfucker",
-     "start": 35.19,
-     "end": 35.71
-    },
-    {
-     "word": " bro,",
-     "start": 35.71,
-     "end": 36.19
-    },
-    {
-     "word": " this",
-     "start": 38.28,
-     "end": 38.44
-    },
-    {
-     "word": " thing",
-     "start": 38.44,
-     "end": 38.56
-    },
-    {
-     "word": " is",
-     "start": 38.56,
-     "end": 38.7
-    },
-    {
-     "word": " sick,",
-     "start": 38.7,
-     "end": 39.1
-    },
-    {
-     "word": " this",
-     "start": 40.02,
-     "end": 40.24
-    },
-    {
-     "word": " is",
-     "start": 40.24,
-     "end": 40.3
-    },
-    {
-     "word": " what",
-     "start": 40.3,
-     "end": 40.38
-    },
-    {
-     "word": " we",
-     "start": 40.38,
-     "end": 40.54
-    },
-    {
-     "word": " need.",
-     "start": 40.54,
-     "end": 40.92
-    }
-   ],
-   "metrics": {
-    "motion": 0.30569444444444444,
-    "motion_p90": 0.48973611111111115,
-    "static_share": 0.09652509652509653,
-    "peak_db": 7.9390716552734375,
-    "level_db": -30.552555084228516
-   },
-   "silence": [
-    [
-     59.8,
-     1.8
-    ]
-   ]
-  },
-  "chat-2939365510-421": {
-   "id": "chat-2939365510-421",
-   "url": "https://www.twitch.tv/videos/2939365510",
-   "section": [
-    18946.809341,
-    19002.809341
-   ],
-   "kind": "chat",
-   "views": 39,
-   "title": "",
-   "vod": "2939365510",
-   "vod_t": 18946.809341,
-   "group": "en",
-   "login": "elajjaz",
-   "name": "Elajjaz",
-   "viewers": 6651,
-   "chat_score": 3.9,
-   "found_at": "2026-11-24T19:55:18.252753+00:00",
-   "spike_at": "2026-11-24T19:50:00.809341+00:00",
-   "chat": [
-    "10x D:",
-    "2x LUL",
-    "2x Corncerned",
-    "HAHAHHAHAHAH",
-    "@Elajjaz based on this game, do you think you'd make a good girlfriend?",
-    "Jackass 🤙",
-    "D: no discount next time",
-    "fuck that guy in particular I guess SMH",
-    "deserved tbh",
-    "Fuck that scooter in specific",
-    "catDespair ela"
-   ],
-   "source": "cut from the live stream at a chat spike: 39 chatters in 15 s, 3.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-24T19:55:52.595582+00:00",
-   "cam": [
-    0,
-    416,
-    516,
-    363
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 63.5,
-   "words": [
-    {
-     "word": " Yoink",
-     "start": 10.58,
-     "end": 11.2
-    },
-    {
-     "word": " a",
-     "start": 11.2,
-     "end": 11.3
-    },
-    {
-     "word": " car.",
-     "start": 11.3,
-     "end": 11.62
-    },
-    {
-     "word": " Why",
-     "start": 11.94,
-     "end": 12.46
-    },
-    {
-     "word": " the",
-     "start": 12.46,
-     "end": 12.6
-    },
-    {
-     "word": " fuck",
-     "start": 12.6,
-     "end": 12.74
-    },
-    {
-     "word": " am",
-     "start": 12.74,
-     "end": 12.84
-    },
-    {
-     "word": " I",
-     "start": 12.84,
-     "end": 12.94
-    },
-    {
-     "word": " running?",
-     "start": 12.94,
-     "end": 13.18
-    },
-    {
-     "word": " It's",
-     "start": 17.68,
-     "end": 18.02
-    },
-    {
-     "word": " gonna",
-     "start": 18.02,
-     "end": 18.12
-    },
-    {
-     "word": " be",
-     "start": 18.12,
-     "end": 18.26
-    },
-    {
-     "word": " a",
-     "start": 18.26,
-     "end": 18.36
-    },
-    {
-     "word": " long",
-     "start": 18.36,
-     "end": 18.58
-    },
-    {
-     "word": " run,",
-     "start": 18.58,
-     "end": 18.86
-    },
-    {
-     "word": " brother",
-     "start": 18.92,
-     "end": 19.18
-    },
-    {
-     "word": " Yo,",
-     "start": 19.94,
-     "end": 20.46
-    },
-    {
-     "word": " stop",
-     "start": 20.76,
-     "end": 21.06
-    },
-    {
-     "word": " just",
-     "start": 21.06,
-     "end": 21.48
-    },
-    {
-     "word": " get",
-     "start": 21.48,
-     "end": 21.96
-    },
-    {
-     "word": " your",
-     "start": 21.96,
-     "end": 22.12
-    },
-    {
-     "word": " own",
-     "start": 22.12,
-     "end": 22.3
-    },
-    {
-     "word": " car",
-     "start": 22.3,
-     "end": 22.56
-    },
-    {
-     "word": " Thank",
-     "start": 35.27,
-     "end": 35.79
-    },
-    {
-     "word": " you",
-     "start": 35.79,
-     "end": 36.25
-    },
-    {
-     "word": " This",
-     "start": 53.23,
-     "end": 53.75
-    },
-    {
-     "word": " car",
-     "start": 53.75,
-     "end": 54.13
-    },
-    {
-     "word": " is",
-     "start": 54.13,
-     "end": 54.43
-    },
-    {
-     "word": " so",
-     "start": 54.43,
-     "end": 54.85
-    },
-    {
-     "word": " fast.",
-     "start": 54.85,
-     "end": 55.29
-    },
-    {
-     "word": " It's",
-     "start": 55.33,
-     "end": 55.59
-    },
-    {
-     "word": " insane",
-     "start": 55.59,
-     "end": 56.09
-    },
-    {
-     "word": " Yeah,",
-     "start": 58.63,
-     "end": 59.15
-    },
-    {
-     "word": " I",
-     "start": 59.19,
-     "end": 59.35
-    },
-    {
-     "word": " should",
-     "start": 59.35,
-     "end": 59.53
-    },
-    {
-     "word": " probably",
-     "start": 59.53,
-     "end": 59.81
-    },
-    {
-     "word": " bring",
-     "start": 59.81,
-     "end": 60.01
-    },
-    {
-     "word": " Jason",
-     "start": 60.01,
-     "end": 60.25
-    },
-    {
-     "word": " with",
-     "start": 60.25,
-     "end": 60.49
-    },
-    {
-     "word": " me",
-     "start": 60.49,
-     "end": 60.63
-    },
-    {
-     "word": " actually",
-     "start": 60.63,
-     "end": 60.95
-    }
-   ],
-   "metrics": {
-    "motion": 0.43372200061368515,
-    "motion_p90": 0.728521018717398,
-    "static_share": 0.03557312252964427,
-    "peak_db": 8.742025375366211,
-    "level_db": -31.233776092529297
+    "motion": 0.3169036088111233,
+    "motion_p90": 0.4527730042180909,
+    "static_share": 0.00425531914893617,
+    "peak_db": 12.15572738647461,
+    "level_db": -29.283695220947266
    },
    "silence": []
   }
@@ -4273,6 +3951,272 @@
     22.0,
     50.0
    ]
+  },
+  "WonderfulCuriousLobsterChefFrank-qfyn1_cjxtYuxS6o": {
+   "id": "WonderfulCuriousLobsterChefFrank-qfyn1_cjxtYuxS6o",
+   "vod": null,
+   "vod_t": null,
+   "group": "ru",
+   "views": 1072,
+   "title": "курьеру не повезло 3 раза, бежит уволняться",
+   "url": "https://www.twitch.tv/k4rankul/clip/WonderfulCuriousLobsterChefFrank-qfyn1_cjxtYuxS6o",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "k4rankul",
+   "name": "k4rankul",
+   "source": "Twitch clip made by a viewer, 1072 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"курьеру не повезло 3 раза, бежит уволняться\"",
+   "at": "2026-11-24T20:18:39.605544+00:00",
+   "cam": [
+    130,
+    340,
+    391,
+    275
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 48.3,
+   "words": [
+    {
+     "word": " куда",
+     "start": 4.5,
+     "end": 5.08
+    },
+    {
+     "word": " вы",
+     "start": 5.08,
+     "end": 5.22
+    },
+    {
+     "word": " мне...",
+     "start": 5.22,
+     "end": 5.54
+    },
+    {
+     "word": " ебать",
+     "start": 5.54,
+     "end": 6.12
+    },
+    {
+     "word": " там",
+     "start": 6.12,
+     "end": 6.22
+    },
+    {
+     "word": " типа",
+     "start": 6.22,
+     "end": 6.46
+    },
+    {
+     "word": " сбили,",
+     "start": 6.46,
+     "end": 7.0
+    },
+    {
+     "word": " ёп,",
+     "start": 7.16,
+     "end": 7.5
+    },
+    {
+     "word": " братуха",
+     "start": 7.58,
+     "end": 8.32
+    },
+    {
+     "word": " спасибо",
+     "start": 8.32,
+     "end": 9.06
+    },
+    {
+     "word": " для",
+     "start": 13.54,
+     "end": 14.02
+    },
+    {
+     "word": " тебя",
+     "start": 14.02,
+     "end": 14.26
+    },
+    {
+     "word": " так...",
+     "start": 14.26,
+     "end": 14.86
+    },
+    {
+     "word": " о,",
+     "start": 14.86,
+     "end": 15.04
+    },
+    {
+     "word": " извини",
+     "start": 15.18,
+     "end": 15.62
+    },
+    {
+     "word": " бля,",
+     "start": 17.4,
+     "end": 17.88
+    },
+    {
+     "word": " ему",
+     "start": 18.02,
+     "end": 18.12
+    },
+    {
+     "word": " что",
+     "start": 18.12,
+     "end": 18.3
+    },
+    {
+     "word": "-то",
+     "start": 18.3,
+     "end": 18.4
+    },
+    {
+     "word": " вообще",
+     "start": 18.4,
+     "end": 18.68
+    },
+    {
+     "word": " сегодня",
+     "start": 18.68,
+     "end": 18.9
+    },
+    {
+     "word": " у",
+     "start": 18.9,
+     "end": 19.0
+    },
+    {
+     "word": " него",
+     "start": 19.0,
+     "end": 19.16
+    },
+    {
+     "word": " рабочий",
+     "start": 19.16,
+     "end": 19.54
+    },
+    {
+     "word": " день",
+     "start": 19.54,
+     "end": 19.64
+    },
+    {
+     "word": " не",
+     "start": 19.64,
+     "end": 19.82
+    },
+    {
+     "word": " задался,",
+     "start": 19.82,
+     "end": 20.24
+    },
+    {
+     "word": " да,",
+     "start": 20.4,
+     "end": 20.46
+    },
+    {
+     "word": " ну",
+     "start": 20.5,
+     "end": 20.6
+    },
+    {
+     "word": " нахуй",
+     "start": 20.6,
+     "end": 21.58
+    },
+    {
+     "word": " он",
+     "start": 41.25,
+     "end": 41.73
+    },
+    {
+     "word": " уже...",
+     "start": 41.73,
+     "end": 42.15
+    },
+    {
+     "word": " он",
+     "start": 42.15,
+     "end": 42.41
+    },
+    {
+     "word": " уже",
+     "start": 42.41,
+     "end": 42.57
+    },
+    {
+     "word": " самокат",
+     "start": 42.57,
+     "end": 43.15
+    },
+    {
+     "word": " бросил,",
+     "start": 43.15,
+     "end": 43.55
+    },
+    {
+     "word": " он",
+     "start": 43.67,
+     "end": 43.67
+    },
+    {
+     "word": " думает,",
+     "start": 43.67,
+     "end": 44.01
+    },
+    {
+     "word": " ну",
+     "start": 44.07,
+     "end": 44.19
+    },
+    {
+     "word": " его",
+     "start": 44.19,
+     "end": 44.35
+    },
+    {
+     "word": " нахуй",
+     "start": 44.35,
+     "end": 44.89
+    },
+    {
+     "word": " пешком",
+     "start": 45.79,
+     "end": 46.27
+    },
+    {
+     "word": " пошел,",
+     "start": 46.27,
+     "end": 46.75
+    },
+    {
+     "word": " блять",
+     "start": 46.79,
+     "end": 47.13
+    }
+   ],
+   "metrics": {
+    "motion": 0.4123951182303585,
+    "motion_p90": 0.6654538520213578,
+    "static_share": 0.0,
+    "peak_db": 20.22431182861328,
+    "level_db": -40.54278564453125
+   },
+   "silence": [],
+   "cam_src": "editor",
+   "caption": "Курьер привёз машину и попал под неё. Потом под вторую. Потом ушёл пешком 😭",
+   "hook": "Курьеру не повезло",
+   "cover_at": 34.2,
+   "score": 7,
+   "keep": [
+    8.0,
+    48.0
+   ]
   }
  },
  "no_vod": {},
@@ -5094,8 +5038,34 @@
    "cover_ms": 200,
    "volume": -18.0,
    "seconds": 22.1
+  },
+  "chat-2939308400-503": {
+   "artifact": "shelf-45475442389",
+   "run": "45475442389",
+   "at": "2026-11-24T20:18:59.407554+00:00",
+   "found": "2026-11-24T20:18:39.605926+00:00",
+   "login": "nickmercs",
+   "name": "NICKMERCS",
+   "group": "en",
+   "kind": "chat",
+   "score": 6,
+   "url": "https://www.twitch.tv/videos/2939308400",
+   "section": [
+    22628.512761,
+    22684.512761
+   ],
+   "vod": "2939308400",
+   "vod_t": 22628.512761,
+   "title": "",
+   "caption": "\"This thing is sick, this is what we need.\" Seconds later 💀",
+   "hook": "This is what we need",
+   "video": "nickmercs_39308400-503_vertical.mp4",
+   "cover": "nickmercs_39308400-503_cover.jpg",
+   "cover_ms": 200,
+   "volume": -18.1,
+   "seconds": 24.1
   }
  },
- "checked_n": 85,
+ "checked_n": 86,
  "check_errors": {}
 }
