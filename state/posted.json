@@ -2404,6 +2404,14 @@
    "kind": "clip",
    "vod": "2936703252",
    "vod_t": 4133
+  },
+  "PrettyCorrectThymeThunBeast-m31TteYlcmIq793I": {
+   "at": "2026-11-24T02:48:07.297765+00:00",
+   "why": "picture is almost static (motion 0.01)",
+   "login": "buster",
+   "kind": "clip",
+   "vod": "2938532610",
+   "vod_t": 9687
   }
  },
  "pending": {},
@@ -5398,6 +5406,6 @@
    "seconds": 53.1
   }
  },
- "checked_n": 18,
+ "checked_n": 19,
  "check_errors": {}
 }
