@@ -938,11 +938,6 @@
   }
  },
  "rejected": {
-  "chat-2934472461-1829": {
-   "at": "2026-11-21T00:47:57.745560+00:00",
-   "why": "picture is almost static (motion 0.01)",
-   "login": "frametamer666"
-  },
   "chat-2935383720-236": {
    "at": "2026-11-21T01:33:25.629249+00:00",
    "why": "editor: 3/10, Кат-сцена и погрузка фургона, чат ждёт взрыва, но развязки в клипе нет.",
@@ -2436,7 +2431,234 @@
    "vod_t": 37658
   }
  },
- "pending": {},
+ "pending": {
+  "ScaryFilthyKeyboardOSkomodo-LUT0vAptcXKHGd5A": {
+   "id": "ScaryFilthyKeyboardOSkomodo-LUT0vAptcXKHGd5A",
+   "url": "https://www.twitch.tv/t2x2/clip/ScaryFilthyKeyboardOSkomodo-LUT0vAptcXKHGd5A",
+   "section": null,
+   "kind": "clip",
+   "views": 725,
+   "title": "Лаки зашла на стрим в мерче",
+   "vod": "2937219114",
+   "vod_t": 27431,
+   "group": "ru",
+   "login": "t2x2",
+   "name": "T2x2",
+   "source": "Twitch clip made by a viewer, 725 views, titled \"Лаки зашла на стрим в мерче\"",
+   "at": "2026-11-24T01:00:07.908991+00:00",
+   "cam": [
+    1937,
+    930,
+    460,
+    324
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 44.4,
+   "words": [
+    {
+     "word": " Хе",
+     "start": 1.49,
+     "end": 1.93
+    },
+    {
+     "word": "-хе",
+     "start": 1.93,
+     "end": 2.17
+    },
+    {
+     "word": "-хе!",
+     "start": 4.25,
+     "end": 4.63
+    },
+    {
+     "word": " Бедная",
+     "start": 4.71,
+     "end": 5.33
+    },
+    {
+     "word": " собака,",
+     "start": 5.33,
+     "end": 6.01
+    },
+    {
+     "word": " блядь!",
+     "start": 6.23,
+     "end": 6.75
+    },
+    {
+     "word": " Ха",
+     "start": 6.89,
+     "end": 7.03
+    },
+    {
+     "word": "-ха",
+     "start": 7.03,
+     "end": 7.49
+    },
+    {
+     "word": "-ха",
+     "start": 7.49,
+     "end": 8.17
+    },
+    {
+     "word": "-ха!",
+     "start": 8.17,
+     "end": 8.21
+    },
+    {
+     "word": " Бедный",
+     "start": 10.48,
+     "end": 11.3
+    },
+    {
+     "word": " пёс,",
+     "start": 11.3,
+     "end": 12.16
+    },
+    {
+     "word": " блядь!",
+     "start": 12.26,
+     "end": 12.98
+    },
+    {
+     "word": " Шоу",
+     "start": 16.7,
+     "end": 17.42
+    },
+    {
+     "word": "-ты!",
+     "start": 17.42,
+     "end": 17.66
+    },
+    {
+     "word": " Попалась,",
+     "start": 17.84,
+     "end": 18.48
+    },
+    {
+     "word": " да?",
+     "start": 18.7,
+     "end": 18.82
+    },
+    {
+     "word": " Иди",
+     "start": 19.28,
+     "end": 19.44
+    },
+    {
+     "word": " сюда!",
+     "start": 19.44,
+     "end": 19.8
+    },
+    {
+     "word": " Кхм!",
+     "start": 20.8,
+     "end": 21.18
+    },
+    {
+     "word": " Она",
+     "start": 25.06,
+     "end": 25.56
+    },
+    {
+     "word": " в",
+     "start": 25.56,
+     "end": 25.78
+    },
+    {
+     "word": " мерче,",
+     "start": 25.78,
+     "end": 26.24
+    },
+    {
+     "word": " а!",
+     "start": 26.48,
+     "end": 26.48
+    },
+    {
+     "word": " В",
+     "start": 27.34,
+     "end": 27.62
+    },
+    {
+     "word": " новом",
+     "start": 27.62,
+     "end": 27.98
+    },
+    {
+     "word": " мерче,",
+     "start": 27.98,
+     "end": 28.66
+    },
+    {
+     "word": " да?",
+     "start": 28.82,
+     "end": 29.14
+    },
+    {
+     "word": " Поппинс!",
+     "start": 30.36,
+     "end": 31.24
+    },
+    {
+     "word": " Поппирус!",
+     "start": 32.22,
+     "end": 33.1
+    },
+    {
+     "word": " Попка!",
+     "start": 34.14,
+     "end": 34.78
+    },
+    {
+     "word": " Она",
+     "start": 36.87,
+     "end": 37.19
+    },
+    {
+     "word": " в",
+     "start": 37.19,
+     "end": 37.39
+    },
+    {
+     "word": " мерче",
+     "start": 37.39,
+     "end": 37.79
+    },
+    {
+     "word": " тоже,",
+     "start": 37.79,
+     "end": 38.19
+    },
+    {
+     "word": " смотри!",
+     "start": 38.67,
+     "end": 38.91
+    },
+    {
+     "word": " Попка!",
+     "start": 39.91,
+     "end": 41.33
+    },
+    {
+     "word": " Молодец!",
+     "start": 42.75,
+     "end": 44.07
+    }
+   ],
+   "metrics": {
+    "motion": 0.0655499963744471,
+    "motion_p90": 0.11545210644623305,
+    "static_share": 0.03389830508474576,
+    "peak_db": 15.165136337280273,
+    "level_db": -34.77190017700195
+   },
+   "silence": []
+  }
+ },
  "pool": {
   "chat-2936452781-547": {
    "id": "chat-2936452781-547",
@@ -5428,6 +5650,6 @@
    "seconds": 53.1
   }
  },
- "checked_n": 13,
+ "checked_n": 14,
  "check_errors": {}
 }
