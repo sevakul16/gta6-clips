@@ -971,46 +971,6 @@
   }
  },
  "rejected": {
-  "TardyAuspiciousClipzPMSTwin-2sFr-zEyc6tZ1reA": {
-   "at": "2026-11-21T12:26:35.618425+00:00",
-   "why": "editor: 1/10, Сцена в душе от первого лица с голым телом, звука почти нет",
-   "login": "bratishkinoff"
-  },
-  "chat-2935925087-265": {
-   "at": "2026-11-21T12:26:35.618645+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "melharucos"
-  },
-  "chat-2935934475-215": {
-   "at": "2026-11-21T12:26:35.618882+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "welovegames"
-  },
-  "chat-2935934475-229": {
-   "at": "2026-11-21T12:26:35.619116+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "welovegames"
-  },
-  "chat-2935760785-612": {
-   "at": "2026-11-21T12:26:35.619379+00:00",
-   "why": "editor: 5/10, Трюковой прыжок во время погони, чат в восторге, но сумерки, прыжок снят издалека и плохо читается, камера крошечная",
-   "login": "jerma985"
-  },
-  "BloodyOilyWasabiVoteNay-iA3QTvyzrlB0a4qv": {
-   "at": "2026-11-21T12:26:35.619613+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "xqc"
-  },
-  "BoredCaringTarsierEagleEye-lI97BIO6fMCIPGWz": {
-   "at": "2026-11-21T12:26:35.619896+00:00",
-   "why": "editor: 2/10, Мини-игра с массажем девушек в стрингах, откровенный контент",
-   "login": "kaicenat"
-  },
-  "chat-2935850220-474": {
-   "at": "2026-11-21T12:26:35.620273+00:00",
-   "why": "editor: 2/10, Персонаж прыгает с крыши, стример шутит про самоубийство; тема не для публикации",
-   "login": "39daph"
-  },
   "chat-2935183263-1456": {
    "at": "2026-11-21T12:48:57.490762+00:00",
    "why": "picture is almost static (motion 0.02)",
@@ -2381,6 +2341,14 @@
    "kind": "chat",
    "vod": "2939191063",
    "vod_t": 12854.822078
+  },
+  "chat-2937392051-3581": {
+   "at": "2026-11-24T12:36:59.271608+00:00",
+   "why": "picture is almost static (motion 0.03)",
+   "login": "leva2k",
+   "kind": "chat",
+   "vod": "2937392051",
+   "vod_t": 161109.730487
   }
  },
  "pending": {
@@ -2888,6 +2856,122 @@
     [
      23.7,
      1.6
+    ]
+   ]
+  },
+  "ArborealArbitrarySpiderChefFrank-mMCq-Tz5Uoy8F0Yi": {
+   "id": "ArborealArbitrarySpiderChefFrank-mMCq-Tz5Uoy8F0Yi",
+   "vod": "2938215294",
+   "vod_t": 12813,
+   "group": "ru",
+   "views": 1025,
+   "title": "WW",
+   "url": "https://www.twitch.tv/zloyn/clip/ArborealArbitrarySpiderChefFrank-mMCq-Tz5Uoy8F0Yi",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "zloyn",
+   "name": "ZLOYn",
+   "source": "Twitch clip made by a viewer, 1025 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"WW\"",
+   "at": "2026-11-24T12:36:32.106285+00:00",
+   "cam": [
+    110,
+    492,
+    369,
+    260
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 41.8,
+   "words": [
+    {
+     "word": " БЛЯТЬ,",
+     "start": 9.33,
+     "end": 10.05
+    },
+    {
+     "word": " БЛЯТЬ!",
+     "start": 10.05,
+     "end": 10.77
+    },
+    {
+     "word": " Пацаны,",
+     "start": 11.83,
+     "end": 12.27
+    },
+    {
+     "word": " в",
+     "start": 12.35,
+     "end": 12.45
+    },
+    {
+     "word": " сиську",
+     "start": 12.45,
+     "end": 12.75
+    },
+    {
+     "word": " приехался,",
+     "start": 12.75,
+     "end": 13.29
+    },
+    {
+     "word": " извините.",
+     "start": 13.41,
+     "end": 13.93
+    },
+    {
+     "word": " Послушать",
+     "start": 28.74,
+     "end": 29.46
+    },
+    {
+     "word": " челом",
+     "start": 29.46,
+     "end": 29.82
+    },
+    {
+     "word": " надо.",
+     "start": 29.82,
+     "end": 30.0
+    },
+    {
+     "word": " Ох,",
+     "start": 35.04,
+     "end": 35.7
+    },
+    {
+     "word": " ебать,",
+     "start": 35.78,
+     "end": 36.02
+    },
+    {
+     "word": " осуждаю,",
+     "start": 36.1,
+     "end": 36.62
+    },
+    {
+     "word": " блять.",
+     "start": 36.72,
+     "end": 36.9
+    }
+   ],
+   "metrics": {
+    "motion": 0.348410847062254,
+    "motion_p90": 0.6272780288671818,
+    "static_share": 0.30120481927710846,
+    "peak_db": 16.557039260864258,
+    "level_db": -40.20356750488281
+   },
+   "silence": [
+    [
+     14.2,
+     1.6
+    ],
+    [
+     17.0,
+     4.2
     ]
    ]
   }
@@ -5443,6 +5527,6 @@
    "seconds": 23.1
   }
  },
- "checked_n": 54,
+ "checked_n": 56,
  "check_errors": {}
 }
