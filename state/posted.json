@@ -1070,21 +1070,6 @@
   }
  },
  "rejected": {
-  "TastyTemperedCookieWoofer-lmxY1UZsDAI9JKAV": {
-   "at": "2026-11-22T10:32:28.764879+00:00",
-   "why": "same moment is already posted or queued",
-   "login": "t2x2"
-  },
-  "StrangeBraveMetalTooSpicy-UH8IjfR9zts7Ypha": {
-   "at": "2026-11-22T10:32:29.046217+00:00",
-   "why": "editor: 2/10, Сюжетная катсцена под конец игры (93% сюжета) с пистолетом у головы полуголого персонажа. Спойлер финала, геймплея нет, камера крошечная.",
-   "login": "evelone2004"
-  },
-  "chat-2936934156-523": {
-   "at": "2026-11-22T10:32:29.047265+00:00",
-   "why": "editor: 1/10, Конец стрима: сохранение, карта, главный экран приставки и прощание с чатом. Игрового события нет.",
-   "login": "fanum"
-  },
   "chat-2936816213-745": {
    "at": "2026-11-22T10:54:31.386605+00:00",
    "why": "picture is almost static (motion 0.00)",
@@ -3286,6 +3271,332 @@
     "level_db": -27.397724151611328
    },
    "silence": []
+  },
+  "chat-2939983603-657": {
+   "id": "chat-2939983603-657",
+   "url": "https://www.twitch.tv/videos/2939983603",
+   "section": [
+    29554.155883,
+    29610.155883
+   ],
+   "kind": "chat",
+   "views": 44,
+   "title": "",
+   "vod": "2939983603",
+   "vod_t": 29554.155883,
+   "group": "en",
+   "login": "yourragegaming",
+   "name": "yourragegaming",
+   "viewers": 7588,
+   "chat_score": 3.67,
+   "found_at": "2026-11-25T10:41:04.426165+00:00",
+   "spike_at": "2026-11-25T10:38:36.155883+00:00",
+   "chat": [
+    "6x LOL",
+    "4x gg",
+    "3x geeg",
+    "2x pfft",
+    "2x NotLikeThis",
+    "2x o7",
+    "2x LOL -20K",
+    "2x LMAOOO",
+    "LMAOOOOOOOOOOOOOOOOOOOOOOOOO",
+    "HAH",
+    "LMAOAAOOOAOAOA",
+    "LMOAOOO",
+    "straight ass",
+    "Crumb",
+    "OMGGGGGGGGGGGGGGG",
+    "KEKW"
+   ],
+   "source": "cut from the live stream at a chat spike: 44 chatters in 15 s, 3.7x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-25T10:41:31.975239+00:00",
+   "cam": [
+    1395,
+    710,
+    525,
+    369
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [],
+   "metrics": {
+    "motion": 0.3322338140533906,
+    "motion_p90": 0.670082847499233,
+    "static_share": 0.04484304932735426,
+    "peak_db": 13.577141761779785,
+    "level_db": -27.560230255126953
+   },
+   "silence": []
+  },
+  "chat-2939339874-1661": {
+   "id": "chat-2939339874-1661",
+   "url": "https://www.twitch.tv/videos/2939339874",
+   "section": [
+    74706.156306,
+    74762.156306
+   ],
+   "kind": "chat",
+   "views": 35,
+   "title": "",
+   "vod": "2939339874",
+   "vod_t": 74706.156306,
+   "group": "ru",
+   "login": "leva2k",
+   "name": "leva2k",
+   "viewers": 5114,
+   "chat_score": 5.0,
+   "found_at": "2026-11-25T10:41:04.264053+00:00",
+   "spike_at": "2026-11-25T10:38:36.156306+00:00",
+   "chat": [
+    "3x xD",
+    "2x )))",
+    "2x ФАКТ",
+    "зачем ты в стену стреляешь ?",
+    "))",
+    "зомби за джостиком",
+    "пвхвапхвап",
+    "Да да, по говори",
+    "Мб ЖИЛЕТ",
+    "ФАКТ ͏",
+    "LUL"
+   ],
+   "source": "cut from the live stream at a chat spike: 35 chatters in 15 s, 5.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-25T10:42:05.327136+00:00",
+   "cam": [
+    1580,
+    482,
+    231,
+    162
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 57.3,
+   "words": [
+    {
+     "word": " 9",
+     "start": 1.17,
+     "end": 1.71
+    },
+    {
+     "word": " часа!",
+     "start": 1.71,
+     "end": 2.95
+    },
+    {
+     "word": " Альфа",
+     "start": 2.95,
+     "end": 3.47
+    },
+    {
+     "word": " будет",
+     "start": 3.47,
+     "end": 3.51
+    },
+    {
+     "word": " говорить",
+     "start": 3.51,
+     "end": 3.79
+    },
+    {
+     "word": " с",
+     "start": 3.79,
+     "end": 3.95
+    },
+    {
+     "word": " брючью.",
+     "start": 3.95,
+     "end": 4.25
+    },
+    {
+     "word": " Мы",
+     "start": 4.59,
+     "end": 4.89
+    },
+    {
+     "word": " должны",
+     "start": 4.89,
+     "end": 5.13
+    },
+    {
+     "word": " начать",
+     "start": 5.13,
+     "end": 5.37
+    },
+    {
+     "word": " разговаривать.",
+     "start": 5.37,
+     "end": 5.71
+    },
+    {
+     "word": " Я",
+     "start": 12.42,
+     "end": 13.06
+    },
+    {
+     "word": " не",
+     "start": 13.06,
+     "end": 13.18
+    },
+    {
+     "word": " знаю.",
+     "start": 13.18,
+     "end": 13.3
+    },
+    {
+     "word": " Это",
+     "start": 13.78,
+     "end": 14.08
+    },
+    {
+     "word": " профессионал.",
+     "start": 14.08,
+     "end": 14.68
+    },
+    {
+     "word": " Это",
+     "start": 49.94,
+     "end": 50.66
+    },
+    {
+     "word": " не",
+     "start": 50.66,
+     "end": 50.88
+    },
+    {
+     "word": " стойка!",
+     "start": 50.88,
+     "end": 51.56
+    },
+    {
+     "word": " Это",
+     "start": 52.08,
+     "end": 52.8
+    },
+    {
+     "word": " не",
+     "start": 52.8,
+     "end": 52.8
+    },
+    {
+     "word": " стойка!",
+     "start": 52.8,
+     "end": 52.8
+    },
+    {
+     "word": " Это",
+     "start": 52.8,
+     "end": 52.82
+    },
+    {
+     "word": " не",
+     "start": 52.82,
+     "end": 52.98
+    },
+    {
+     "word": " стойка!",
+     "start": 52.98,
+     "end": 53.3
+    }
+   ],
+   "metrics": {
+    "motion": 0.26841359773371104,
+    "motion_p90": 0.5408215297450425,
+    "static_share": 0.16666666666666666,
+    "peak_db": 16.318099975585938,
+    "level_db": -28.269031524658203
+   },
+   "silence": []
+  },
+  "chat-2940085270-457": {
+   "id": "chat-2940085270-457",
+   "url": "https://www.twitch.tv/videos/2940085270",
+   "section": [
+    20541.166457,
+    20597.166457
+   ],
+   "kind": "chat",
+   "views": 45,
+   "title": "",
+   "vod": "2940085270",
+   "vod_t": 20541.166457,
+   "group": "en",
+   "login": "maximilian_dood",
+   "name": "Maximilian_DOOD",
+   "viewers": 7214,
+   "chat_score": 3.21,
+   "found_at": "2026-11-25T10:41:04.667540+00:00",
+   "spike_at": "2026-11-25T10:27:26.166457+00:00",
+   "chat": [
+    "14x LUL",
+    "2x oh no",
+    "monkaS",
+    "LMAOOOO",
+    "lmao max",
+    "oh boy",
+    "LMAO",
+    "lmao insane behavior",
+    "MAXXXXXXXXX",
+    "MAX LMAO"
+   ],
+   "source": "cut from the live stream at a chat spike: 45 chatters in 15 s, 3.2x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-25T10:42:25.440135+00:00",
+   "cam": [
+    11,
+    772,
+    436,
+    307
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 57.0,
+   "words": [
+    {
+     "word": " Aim",
+     "start": 4.11,
+     "end": 4.79
+    },
+    {
+     "word": " and",
+     "start": 4.79,
+     "end": 4.95
+    },
+    {
+     "word": " R1,",
+     "start": 4.95,
+     "end": 5.55
+    },
+    {
+     "word": " L2",
+     "start": 13.42,
+     "end": 14.78
+    },
+    {
+     "word": " on",
+     "start": 14.78,
+     "end": 15.04
+    },
+    {
+     "word": " him.",
+     "start": 15.04,
+     "end": 15.18
+    }
+   ],
+   "metrics": {
+    "motion": 0.39315538323889054,
+    "motion_p90": 0.7064270802266627,
+    "static_share": 0.02643171806167401,
+    "peak_db": 7.590976715087891,
+    "level_db": -35.71834182739258
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -5292,7 +5603,7 @@
    "seconds": 20.6
   }
  },
- "checked_n": 161,
+ "checked_n": 164,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
