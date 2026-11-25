@@ -1,20 +1,4 @@
 {
- "chat-2937683915-902": {
-  "at": "2026-11-23T08:13:32.653232+00:00",
-  "moment_score": 5,
-  "what_happens": "Сюжетная миссия: герой в наручниках идёт за сумкой, как велела напарница, и его тут же убивают, стример возмущается «она же сказала взять сумку». Реплика смешная, но картинка тёмная, треть ролика заскриптована, провал рядовой.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2937929074-511": {
-  "at": "2026-11-23T08:13:32.695930+00:00",
-  "moment_score": 3,
-  "what_happens": "Перестрелка с полицией из задней двери фургона и жалобы стримера на прицел геймпада, затем катсцена. Темно, яркого события нет.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2938023226-457": {
   "at": "2026-11-23T09:13:40.193476+00:00",
   "moment_score": 1,
@@ -1229,6 +1213,26 @@
   "at": "2026-11-25T07:14:22.818460+00:00",
   "moment_score": 3,
   "what_happens": "Night flight in a jet with fighter jets called in, dark picture, the end of the chase is outside the clip. A peanut avatar instead of a webcam.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940085270-207": {
+  "at": "2026-11-25T08:13:40.348528+00:00",
+  "moment_score": 6,
+  "what_happens": "Walks into the pawn shop in a face wrap, pulls the gun to scare the clerk and shoots him by accident: 'I didn't mean to shoot him, oh shit', then 'okay, well, can I have the stuff?'. Clean accident with a funny line and a laughing chat; the first 38 s are a drive and a menu, cut off.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Just wanted to show the gun at the pawn shop. The trigger had other plans 💀",
+  "keep_start": 40.0,
+  "keep_end": 60.5,
+  "hook": "Didn't mean to shoot",
+  "cover_at": 46.8
+ },
+ "chat-2939339874-1440": {
+  "at": "2026-11-25T08:13:40.391374+00:00",
+  "moment_score": 4,
+  "what_happens": "Night helicopter defence with a launcher: misses the pursuers and the helicopter is shot down. Almost black picture, tiny webcam, an ordinary mission failure.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
