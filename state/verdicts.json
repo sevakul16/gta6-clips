@@ -1106,5 +1106,31 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "LitigiousNaiveHorseradishPeteZaroll-8_k23aP-Jtri0HQd": {
+  "at": "2026-11-25T02:17:36.773728+00:00",
+  "moment_score": 6,
+  "what_happens": "Says how stressed the drive is, loses the red supercar on the highway, it flips onto its roof against the barrier and is wrecked, 'the car!'. Real webcam top left, the detector missed it. Tight cut on the crash; the later SUV-in-a-sand-pit beat is 40 s away.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Stressed already, and then the supercar lands on its roof on the highway 💀",
+  "keep_start": 0.0,
+  "keep_end": 17.0,
+  "cam": [
+   0.0,
+   0.128,
+   0.21,
+   0.2625
+  ],
+  "hook": "Not the supercar",
+  "cover_at": 10.0
+ },
+ "chat-2939580472-562": {
+  "at": "2026-11-25T02:17:36.810442+00:00",
+  "moment_score": 2,
+  "what_happens": "Night drive with a phone-call dialogue, then the map; chat spams a viewer's name and the talk is about chat. No game event.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
  }
 }
