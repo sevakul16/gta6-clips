@@ -23,6 +23,7 @@ import subprocess
 import sys
 import tempfile
 import time
+import traceback
 from collections import Counter
 from pathlib import Path
 
@@ -1816,7 +1817,9 @@ def main():
             with tempfile.TemporaryDirectory() as td:
                 evaluate(cfg, state, c, td)
         except Exception as e:  # noqa
-            log("   ERROR while checking:", repr(e)[:400])
+            # where it broke, so that a repeating failure can be found without re-running the candidate
+            where = " < ".join(f"{f.name}:{f.lineno}" for f in reversed(traceback.extract_tb(e.__traceback__)[-3:]))
+            log("   ERROR while checking:", repr(e)[:400], "at", where)
             # a candidate that breaks the check every time must not take its group's turn in every run
             errs = state.setdefault("check_errors", {})
             n = errs.get(c["id"], {}).get("n", 0) + 1
