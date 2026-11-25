@@ -1,28 +1,4 @@
 {
- "chat-2937967708-211": {
-  "at": "2026-11-23T05:13:09.683682+00:00",
-  "moment_score": 3,
-  "what_happens": "Стример забирает починенную машину из гаража, грузит багажник и обсуждает с чатом причёску героя. Разговор со зрителями, игрового события нет.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2936392772-2706": {
-  "at": "2026-11-23T05:13:09.726565+00:00",
-  "moment_score": 2,
-  "what_happens": "Сцена дома на диване и просмотр внутриигрового телевизора с политической сатирой про мигрантов. Игрового события нет, тема политическая.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2937791413-532": {
-  "at": "2026-11-23T05:13:09.777286+00:00",
-  "moment_score": 3,
-  "what_happens": "Ограбление подсобки магазина: перестрелка и сбор добычи без единой реплики стримера. Смысл момента не читается, в субтитрах игры на экране расовое оскорбление.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2936392772-2758": {
   "at": "2026-11-23T06:13:30.592418+00:00",
   "moment_score": 2,
@@ -1175,6 +1151,46 @@
   "at": "2026-11-25T04:13:43.466357+00:00",
   "moment_score": 2,
   "what_happens": "Hiding in a bush from the police: a static view of leaves for almost a minute while explaining the outfit to chat. Talk only.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939925318-223": {
+  "at": "2026-11-25T05:14:31.741188+00:00",
+  "moment_score": 4,
+  "what_happens": "Half the clip is a dock cutscene, then a close shootout where shot after shot misses one enemy while chat jokes about the aim. The streamer is almost silent, the webcam is tiny; an in-joke for the channel, not a moment for a stranger.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939925318-272": {
+  "at": "2026-11-25T05:14:31.782649+00:00",
+  "moment_score": 3,
+  "what_happens": "Night mission: carries a caged chimp on a forklift through a dark compound while chat pre-types a meme. Nothing happens, the picture is very dark.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939925318-274": {
+  "at": "2026-11-25T05:14:31.825869+00:00",
+  "moment_score": 2,
+  "what_happens": "Story cutscene only: the freed chimp twerks and then masturbates. Sexual gag in a cutscene, no gameplay by the streamer.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939866004-361": {
+  "at": "2026-11-25T05:14:31.862684+00:00",
+  "moment_score": 3,
+  "what_happens": "Scripted vault mission walk and an elevator dialogue with wine jokes picked from options. A peanut avatar instead of a webcam, no game event.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939866004-385": {
+  "at": "2026-11-25T05:14:31.905450+00:00",
+  "moment_score": 2,
+  "what_happens": "Story cutscene only: the airport deal goes wrong and a character is shot. A spoiler, and a peanut avatar instead of a webcam.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
