@@ -3759,6 +3759,729 @@
     "level_db": -23.602581024169922
    },
    "silence": []
+  },
+  "chat-2939750097-457": {
+   "id": "chat-2939750097-457",
+   "url": "https://www.twitch.tv/videos/2939750097",
+   "section": [
+    20554.310788,
+    20610.310788
+   ],
+   "kind": "chat",
+   "views": 83,
+   "title": "",
+   "vod": "2939750097",
+   "vod_t": 20554.310788,
+   "group": "en",
+   "login": "emiru",
+   "name": "Emiru",
+   "viewers": 13143,
+   "chat_score": 3.61,
+   "found_at": "2026-11-25T04:03:18.193241+00:00",
+   "spike_at": "2026-11-25T03:47:55.310788+00:00",
+   "chat": [
+    "20x Pink",
+    "8x LOL",
+    "7x CAUGHT",
+    "6x sus",
+    "6x PepoSure",
+    "4x mhm",
+    "3x xdd",
+    "2x OfCourse",
+    "2x LO",
+    "2x sure",
+    "Hahahaha",
+    "@Bonnie CAUGHT",
+    "wideJason ok yeah",
+    "kick streamers XD",
+    "kick streamer lol",
+    "Pink eggscuses",
+    "changing clothes would have been a strat",
+    "you give Jason new clothes sus"
+   ],
+   "source": "cut from the live stream at a chat spike: 83 chatters in 15 s, 3.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-25T04:04:00.073920+00:00",
+   "cam": [
+    0,
+    184,
+    529,
+    372
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 60.0,
+   "words": [
+    {
+     "word": " I'm",
+     "start": 0.27,
+     "end": 0.59
+    },
+    {
+     "word": " hiding",
+     "start": 0.59,
+     "end": 0.85
+    },
+    {
+     "word": " in",
+     "start": 0.85,
+     "end": 1.15
+    },
+    {
+     "word": " the",
+     "start": 1.15,
+     "end": 1.23
+    },
+    {
+     "word": " bushes.",
+     "start": 1.23,
+     "end": 1.55
+    },
+    {
+     "word": " It'll",
+     "start": 7.19,
+     "end": 7.53
+    },
+    {
+     "word": " be",
+     "start": 7.53,
+     "end": 7.63
+    },
+    {
+     "word": " way",
+     "start": 7.63,
+     "end": 7.79
+    },
+    {
+     "word": " harder",
+     "start": 7.79,
+     "end": 8.09
+    },
+    {
+     "word": " for",
+     "start": 8.09,
+     "end": 8.29
+    },
+    {
+     "word": " them",
+     "start": 8.29,
+     "end": 8.43
+    },
+    {
+     "word": " if",
+     "start": 8.43,
+     "end": 8.59
+    },
+    {
+     "word": " we",
+     "start": 8.59,
+     "end": 8.71
+    },
+    {
+     "word": " split",
+     "start": 8.71,
+     "end": 8.91
+    },
+    {
+     "word": " up.",
+     "start": 8.91,
+     "end": 9.31
+    },
+    {
+     "word": " Sure,",
+     "start": 9.51,
+     "end": 9.99
+    },
+    {
+     "word": " let's",
+     "start": 10.03,
+     "end": 10.23
+    },
+    {
+     "word": " do",
+     "start": 10.23,
+     "end": 10.35
+    },
+    {
+     "word": " it.",
+     "start": 10.35,
+     "end": 10.61
+    },
+    {
+     "word": " They'll",
+     "start": 10.99,
+     "end": 11.37
+    },
+    {
+     "word": " never",
+     "start": 11.37,
+     "end": 11.67
+    },
+    {
+     "word": " find",
+     "start": 11.67,
+     "end": 12.03
+    },
+    {
+     "word": " me",
+     "start": 12.03,
+     "end": 12.25
+    },
+    {
+     "word": " in",
+     "start": 12.25,
+     "end": 12.41
+    },
+    {
+     "word": " the",
+     "start": 12.41,
+     "end": 12.49
+    },
+    {
+     "word": " bushes.",
+     "start": 12.49,
+     "end": 12.89
+    },
+    {
+     "word": " How",
+     "start": 22.09,
+     "end": 22.35
+    },
+    {
+     "word": " long",
+     "start": 22.35,
+     "end": 22.59
+    },
+    {
+     "word": " will",
+     "start": 22.59,
+     "end": 22.79
+    },
+    {
+     "word": " it",
+     "start": 22.79,
+     "end": 22.95
+    },
+    {
+     "word": " take,",
+     "start": 22.95,
+     "end": 23.13
+    },
+    {
+     "word": " you",
+     "start": 23.31,
+     "end": 23.39
+    },
+    {
+     "word": " think?",
+     "start": 23.39,
+     "end": 23.61
+    },
+    {
+     "word": " How",
+     "start": 27.75,
+     "end": 28.17
+    },
+    {
+     "word": " long?",
+     "start": 28.17,
+     "end": 28.41
+    },
+    {
+     "word": " Why",
+     "start": 31.2,
+     "end": 31.5
+    },
+    {
+     "word": " is",
+     "start": 31.5,
+     "end": 31.68
+    },
+    {
+     "word": " she",
+     "start": 31.68,
+     "end": 31.78
+    },
+    {
+     "word": " in",
+     "start": 31.78,
+     "end": 31.88
+    },
+    {
+     "word": " a",
+     "start": 31.88,
+     "end": 31.98
+    },
+    {
+     "word": " v",
+     "start": 31.98,
+     "end": 32.06
+    },
+    {
+     "word": "-",
+     "start": 32.06,
+     "end": 32.08
+    },
+    {
+     "word": " No!",
+     "start": 32.08,
+     "end": 32.58
+    },
+    {
+     "word": " Because",
+     "start": 32.82,
+     "end": 33.06
+    },
+    {
+     "word": " I",
+     "start": 33.06,
+     "end": 33.34
+    },
+    {
+     "word": " had",
+     "start": 33.34,
+     "end": 33.58
+    },
+    {
+     "word": " to",
+     "start": 33.58,
+     "end": 33.76
+    },
+    {
+     "word": " get",
+     "start": 33.76,
+     "end": 33.96
+    },
+    {
+     "word": " her",
+     "start": 33.96,
+     "end": 34.16
+    },
+    {
+     "word": " a",
+     "start": 34.16,
+     "end": 34.48
+    },
+    {
+     "word": " mud",
+     "start": 34.48,
+     "end": 35.36
+    },
+    {
+     "word": " run",
+     "start": 35.36,
+     "end": 35.74
+    },
+    {
+     "word": " outfit.",
+     "start": 35.74,
+     "end": 36.28
+    },
+    {
+     "word": " And",
+     "start": 36.76,
+     "end": 37.08
+    },
+    {
+     "word": " then",
+     "start": 37.08,
+     "end": 37.22
+    },
+    {
+     "word": " I",
+     "start": 37.22,
+     "end": 37.38
+    },
+    {
+     "word": " have",
+     "start": 37.38,
+     "end": 37.62
+    },
+    {
+     "word": " it.",
+     "start": 37.62,
+     "end": 37.72
+    },
+    {
+     "word": " I",
+     "start": 37.8,
+     "end": 37.9
+    },
+    {
+     "word": " was",
+     "start": 37.9,
+     "end": 38.08
+    },
+    {
+     "word": " literally",
+     "start": 38.08,
+     "end": 38.42
+    },
+    {
+     "word": " trying",
+     "start": 38.42,
+     "end": 38.84
+    },
+    {
+     "word": " to",
+     "start": 38.84,
+     "end": 39.02
+    },
+    {
+     "word": " buy",
+     "start": 39.02,
+     "end": 39.26
+    },
+    {
+     "word": " her",
+     "start": 39.26,
+     "end": 39.44
+    },
+    {
+     "word": " more",
+     "start": 39.44,
+     "end": 39.62
+    },
+    {
+     "word": " clothes",
+     "start": 39.62,
+     "end": 40.02
+    },
+    {
+     "word": " right",
+     "start": 40.02,
+     "end": 40.4
+    },
+    {
+     "word": " now.",
+     "start": 40.4,
+     "end": 40.94
+    },
+    {
+     "word": " And",
+     "start": 41.52,
+     "end": 41.86
+    },
+    {
+     "word": " then",
+     "start": 41.86,
+     "end": 42.06
+    },
+    {
+     "word": " these",
+     "start": 42.06,
+     "end": 42.44
+    },
+    {
+     "word": " kick",
+     "start": 42.44,
+     "end": 42.74
+    },
+    {
+     "word": " streamers",
+     "start": 42.74,
+     "end": 43.48
+    },
+    {
+     "word": " were",
+     "start": 43.48,
+     "end": 43.7
+    },
+    {
+     "word": " driving",
+     "start": 43.7,
+     "end": 44.18
+    },
+    {
+     "word": " by",
+     "start": 44.18,
+     "end": 44.56
+    },
+    {
+     "word": " and",
+     "start": 44.56,
+     "end": 45.12
+    },
+    {
+     "word": " they",
+     "start": 45.12,
+     "end": 45.22
+    },
+    {
+     "word": " left",
+     "start": 45.22,
+     "end": 45.42
+    },
+    {
+     "word": " a",
+     "start": 45.42,
+     "end": 45.58
+    },
+    {
+     "word": " gun",
+     "start": 45.58,
+     "end": 45.88
+    },
+    {
+     "word": " and",
+     "start": 45.88,
+     "end": 46.12
+    },
+    {
+     "word": " I",
+     "start": 46.12,
+     "end": 46.2
+    },
+    {
+     "word": " was",
+     "start": 46.2,
+     "end": 46.26
+    },
+    {
+     "word": " like,",
+     "start": 46.26,
+     "end": 46.42
+    },
+    {
+     "word": " Oh,",
+     "start": 46.46,
+     "end": 46.7
+    },
+    {
+     "word": " I",
+     "start": 46.76,
+     "end": 46.96
+    },
+    {
+     "word": " want",
+     "start": 46.96,
+     "end": 47.12
+    },
+    {
+     "word": " the",
+     "start": 47.12,
+     "end": 47.28
+    },
+    {
+     "word": " gun",
+     "start": 47.28,
+     "end": 47.52
+    },
+    {
+     "word": " so",
+     "start": 47.52,
+     "end": 47.66
+    },
+    {
+     "word": " I",
+     "start": 47.66,
+     "end": 47.74
+    },
+    {
+     "word": " picked",
+     "start": 47.74,
+     "end": 47.92
+    },
+    {
+     "word": " up",
+     "start": 47.92,
+     "end": 48.06
+    },
+    {
+     "word": " the",
+     "start": 48.06,
+     "end": 48.2
+    },
+    {
+     "word": " gun",
+     "start": 48.2,
+     "end": 48.48
+    },
+    {
+     "word": " and",
+     "start": 48.48,
+     "end": 49.02
+    },
+    {
+     "word": " then",
+     "start": 49.02,
+     "end": 49.12
+    },
+    {
+     "word": " all",
+     "start": 49.12,
+     "end": 49.32
+    },
+    {
+     "word": " of",
+     "start": 49.32,
+     "end": 49.42
+    },
+    {
+     "word": " a",
+     "start": 49.42,
+     "end": 49.5
+    },
+    {
+     "word": " sudden",
+     "start": 49.5,
+     "end": 49.7
+    },
+    {
+     "word": " the",
+     "start": 49.7,
+     "end": 49.86
+    },
+    {
+     "word": " police",
+     "start": 49.86,
+     "end": 50.16
+    },
+    {
+     "word": " were",
+     "start": 50.16,
+     "end": 50.4
+    },
+    {
+     "word": " chasing",
+     "start": 50.4,
+     "end": 50.64
+    },
+    {
+     "word": " me",
+     "start": 50.64,
+     "end": 50.84
+    },
+    {
+     "word": " so",
+     "start": 50.84,
+     "end": 50.96
+    },
+    {
+     "word": " I",
+     "start": 50.96,
+     "end": 51.1
+    },
+    {
+     "word": " have",
+     "start": 51.1,
+     "end": 51.2
+    },
+    {
+     "word": " to",
+     "start": 51.2,
+     "end": 51.28
+    },
+    {
+     "word": " wait",
+     "start": 51.28,
+     "end": 51.54
+    },
+    {
+     "word": " for",
+     "start": 51.54,
+     "end": 51.74
+    },
+    {
+     "word": " them",
+     "start": 51.74,
+     "end": 51.92
+    },
+    {
+     "word": " to",
+     "start": 51.92,
+     "end": 52.26
+    },
+    {
+     "word": " forget",
+     "start": 52.26,
+     "end": 52.58
+    },
+    {
+     "word": " about",
+     "start": 52.58,
+     "end": 52.86
+    },
+    {
+     "word": " me",
+     "start": 52.86,
+     "end": 53.04
+    },
+    {
+     "word": " and",
+     "start": 53.04,
+     "end": 53.14
+    },
+    {
+     "word": " I'm",
+     "start": 53.14,
+     "end": 53.22
+    },
+    {
+     "word": " hiding",
+     "start": 53.22,
+     "end": 53.48
+    },
+    {
+     "word": " in",
+     "start": 53.48,
+     "end": 53.72
+    },
+    {
+     "word": " this",
+     "start": 53.72,
+     "end": 53.86
+    },
+    {
+     "word": " bush",
+     "start": 53.86,
+     "end": 54.22
+    },
+    {
+     "word": " to",
+     "start": 54.22,
+     "end": 54.44
+    },
+    {
+     "word": " go",
+     "start": 54.44,
+     "end": 54.54
+    },
+    {
+     "word": " buy",
+     "start": 54.54,
+     "end": 54.76
+    },
+    {
+     "word": " her",
+     "start": 54.76,
+     "end": 54.9
+    },
+    {
+     "word": " clothes.",
+     "start": 54.9,
+     "end": 55.48
+    },
+    {
+     "word": " That's",
+     "start": 59.48,
+     "end": 59.84
+    },
+    {
+     "word": "-",
+     "start": 59.84,
+     "end": 59.86
+    }
+   ],
+   "metrics": {
+    "motion": 0.15308641975308643,
+    "motion_p90": 0.4091512345679014,
+    "static_share": 0.0,
+    "peak_db": 19.187297821044922,
+    "level_db": -34.96571350097656
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -5593,7 +6316,7 @@
    "seconds": 30.1
   }
  },
- "checked_n": 125,
+ "checked_n": 126,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
