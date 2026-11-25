@@ -1,12 +1,4 @@
 {
- "chat-2937929074-227": {
-  "at": "2026-11-23T04:13:21.926319+00:00",
-  "moment_score": 2,
-  "what_happens": "Прогулка по сюжету, потом пауза и разговор с чатом о том, включать ли музыку из-за DMCA. Разговор на стриме, игрового события нет.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2937967708-211": {
   "at": "2026-11-23T05:13:09.683682+00:00",
   "moment_score": 3,
@@ -1154,5 +1146,37 @@
   ],
   "hook": "I was spamming square",
   "cover_at": 45.5
+ },
+ "chat-2939580472-678": {
+  "at": "2026-11-25T04:13:43.348443+00:00",
+  "moment_score": 4,
+  "what_happens": "Mission firefight in a dark corridor: waits for enemies to peek, shoots, moves up. Ordinary shooting in a very dark picture, no standout moment.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939580472-685": {
+  "at": "2026-11-25T04:13:43.385730+00:00",
+  "moment_score": 5,
+  "what_happens": "Five stars at night: runs with a bag, takes a truck, drives through fog into a police block and is Wasted, head in hand. An ordinary mission failure in a dark foggy picture; the payoff is a stream punishment wheel.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939750097-415": {
+  "at": "2026-11-25T04:13:43.428323+00:00",
+  "moment_score": 2,
+  "what_happens": "Character in a bikini from behind in the dark, then phone banking while a donation message about furries is read out. No game event.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939750097-457": {
+  "at": "2026-11-25T04:13:43.466357+00:00",
+  "moment_score": 2,
+  "what_happens": "Hiding in a bush from the police: a static view of leaves for almost a minute while explaining the outfit to chat. Talk only.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
  }
 }
