@@ -1,20 +1,4 @@
 {
- "chat-2937968840-764": {
-  "at": "2026-11-23T12:13:47.518894+00:00",
-  "moment_score": 3,
-  "what_happens": "Тёмная перестрелка в финальном задании против Мендеса, героиня погибает, дальше чёрный экран; стример почти весь ролик молчит, это спойлер концовки",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2938237575-133": {
-  "at": "2026-11-23T12:13:47.575720+00:00",
-  "moment_score": 3,
-  "what_happens": "Минуту просто едет по городу, событие только в разговоре: политическая шутка про Тайвань и социальный рейтинг",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "TameIgnorantSharkDBstyle-lkSOD5Ahq8O6NSVK": {
   "at": "2026-11-23T13:13:35.928117+00:00",
   "moment_score": 2,
@@ -1281,6 +1265,50 @@
   "at": "2026-11-25T11:13:48.688539+00:00",
   "moment_score": 2,
   "what_happens": "Underwater mission swim with game dialogue while the chat answers a poll about hours left to the finale; no game event, dark footage",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939770213-1029": {
+  "at": "2026-11-25T12:15:03.539122+00:00",
+  "moment_score": 6,
+  "what_happens": "Praises the supercar's handling as better than any car driven so far, then loses it at the exit and the car flips onto its nose under the overpass; 'how the hell am I still alive'. Ironic setup and payoff, good sound, readable at dusk",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Praised the supercar's handling, then flipped it on the very next exit 💀",
+  "keep_start": 23.0,
+  "keep_end": 57.0,
+  "hook": "How am I still alive?",
+  "cover_at": 47.8
+ },
+ "chat-2939770213-1041": {
+  "at": "2026-11-25T12:15:03.590022+00:00",
+  "moment_score": 2,
+  "what_happens": "Scripted hotel mission: opening doors onto a group sex party and a candle-lit room. Sexual content, no gameplay event of the streamer's own",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939770213-1078": {
+  "at": "2026-11-25T12:15:03.639667+00:00",
+  "moment_score": 5,
+  "what_happens": "Accidentally bails out of the seaplane mid-flight, funny, but the streamer is silent at the moment and the punchline plays over a static pause map for half of any tight cut; the same joke is already on the shelf",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939339874-1730": {
+  "at": "2026-11-25T12:15:03.689190+00:00",
+  "moment_score": 2,
+  "what_happens": "Late-story cutscene (a spoiler), then the pause menu while a donation question about business ideas is answered. No gameplay event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939339874-1750": {
+  "at": "2026-11-25T12:15:03.729956+00:00",
+  "moment_score": 2,
+  "what_happens": "Cutscene and getting into a car while a vulgar donation message about a real streamer is read out, then the stats menu. Donation banter, no game event",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
