@@ -1136,11 +1136,6 @@
   }
  },
  "rejected": {
-  "chat-2937465519-397": {
-   "at": "2026-11-22T22:10:15.330546+00:00",
-   "why": "picture is almost static (motion 0.02)",
-   "login": "lacy"
-  },
   "chat-2937407818-416": {
    "at": "2026-11-22T22:31:46.969163+00:00",
    "why": "editor: 2/10, Стримера поздравляют с днём рождения, пока в игре идёт разведка в бинокль. Это разговор на стриме, игрового события нет.",
@@ -3112,6 +3107,22 @@
    "kind": "chat",
    "vod": "2940300523",
    "vod_t": 28296.651688
+  },
+  "BlatantWimpySoymilkPrimeMe-8lBVgEuJ9jryDXOd": {
+   "at": "2026-11-25T22:11:28.789355+00:00",
+   "why": "picture is almost static (motion 0.02)",
+   "login": "tminnzy",
+   "kind": "clip",
+   "vod": "2940095593",
+   "vod_t": 6991
+  },
+  "HomelyHotAnacondaCeilingCat-JfA-75nxoOeNl1lj": {
+   "at": "2026-11-25T22:11:51.404293+00:00",
+   "why": "picture is almost static (motion 0.03)",
+   "login": "joe_bartolozzi",
+   "kind": "clip",
+   "vod": "2938650249",
+   "vod_t": 9441
   }
  },
  "pending": {
@@ -6200,7 +6211,7 @@
    "seconds": 34.1
   }
  },
- "checked_n": 225,
+ "checked_n": 227,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
