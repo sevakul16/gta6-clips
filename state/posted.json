@@ -1218,21 +1218,6 @@
   }
  },
  "rejected": {
-  "chat-2937180390-119": {
-   "at": "2026-11-22T13:25:54.779924+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "skywhywalker"
-  },
-  "chat-2935172718-3392": {
-   "at": "2026-11-22T13:25:54.780344+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "leva2k"
-  },
-  "UglyFancyPeanutOSkomodo-zY_ODEVtxn_1WsCc": {
-   "at": "2026-11-22T13:25:54.780836+00:00",
-   "why": "editor: 3/10, Плывёт на лодке под сюжетный телефонный разговор и садится на мель в камышах. Событие слабое, реакции почти нет, это самый конец сюжета (98%).",
-   "login": "evelone2004"
-  },
   "chat-2936816213-1036": {
    "at": "2026-11-22T14:31:39.160258+00:00",
    "why": "picture is almost static (motion 0.00)",
@@ -3106,6 +3091,501 @@
     "static_share": 0.12890625,
     "peak_db": 4.517555236816406,
     "level_db": -33.239906311035156
+   },
+   "silence": []
+  },
+  "chat-2939339874-1884": {
+   "id": "chat-2939339874-1884",
+   "url": "https://www.twitch.tv/videos/2939339874",
+   "section": [
+    84762.391722,
+    84818.391722
+   ],
+   "kind": "chat",
+   "views": 49,
+   "title": "",
+   "vod": "2939339874",
+   "vod_t": 84762.391722,
+   "group": "ru",
+   "login": "leva2k",
+   "name": "leva2k",
+   "viewers": 5171,
+   "chat_score": 6.12,
+   "found_at": "2026-11-25T13:37:50.244582+00:00",
+   "spike_at": "2026-11-25T13:26:12.391722+00:00",
+   "chat": [
+    "4x ))",
+    "3x )",
+    "2x GoodOne",
+    "SMOrc",
+    "Ахахаххаахха",
+    "хвахзавзхавзхзавхзхвахзав",
+    "тут нет нихерна но",
+    "Полицию апнули?",
+    "МЕРТВА",
+    "нахуй кота за яйца тянуть, 5кк соберешь на 99 процентах, если так играть будешь,",
+    "хах"
+   ],
+   "source": "cut from the live stream at a chat spike: 49 chatters in 15 s, 6.1x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-25T13:38:22.349216+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 63.3,
+   "words": [
+    {
+     "word": " Сука",
+     "start": 50.16,
+     "end": 51.32
+    },
+    {
+     "word": " это",
+     "start": 51.32,
+     "end": 51.52
+    },
+    {
+     "word": " ебаный",
+     "start": 51.52,
+     "end": 52.08
+    },
+    {
+     "word": " мисклик",
+     "start": 52.08,
+     "end": 52.68
+    }
+   ],
+   "metrics": {
+    "motion": 0.25753472222222223,
+    "motion_p90": 0.4499791666666667,
+    "static_share": 0.11904761904761904,
+    "peak_db": 4.397207260131836,
+    "level_db": -31.583417892456055
+   },
+   "silence": []
+  },
+  "chat-2940206845-326": {
+   "id": "chat-2940206845-326",
+   "url": "https://www.twitch.tv/videos/2940206845",
+   "section": [
+    14633.426804,
+    14689.426804
+   ],
+   "kind": "chat",
+   "views": 50,
+   "title": "",
+   "vod": "2940206845",
+   "vod_t": 14633.426804,
+   "group": "en",
+   "login": "singsing",
+   "name": "singsing",
+   "viewers": 3398,
+   "chat_score": 8.33,
+   "found_at": "2026-11-25T13:37:50.063387+00:00",
+   "spike_at": "2026-11-25T13:34:32.426804+00:00",
+   "chat": [
+    "8x BAG",
+    "3x dropped bag",
+    "3x THE BAG",
+    "3x -1 bag",
+    "2x dropped a bag",
+    "-1 bag lol",
+    "Bag @singsing",
+    "-1 BaG Classic",
+    "YE BAG",
+    "KEK",
+    "o7 bag",
+    "jason KEK",
+    "bag on the floor"
+   ],
+   "source": "cut from the live stream at a chat spike: 50 chatters in 15 s, 8.3x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-25T13:38:45.877261+00:00",
+   "cam": [
+    4,
+    79,
+    411,
+    289
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 59.0,
+   "words": [
+    {
+     "word": " What's",
+     "start": 4.3,
+     "end": 4.72
+    },
+    {
+     "word": " happening?",
+     "start": 4.72,
+     "end": 4.88
+    },
+    {
+     "word": " Why",
+     "start": 5.3,
+     "end": 5.4
+    },
+    {
+     "word": " is",
+     "start": 5.4,
+     "end": 5.46
+    },
+    {
+     "word": " he",
+     "start": 5.46,
+     "end": 5.5
+    },
+    {
+     "word": " stuck?",
+     "start": 5.5,
+     "end": 5.68
+    },
+    {
+     "word": " Why",
+     "start": 6.58,
+     "end": 6.68
+    },
+    {
+     "word": " is",
+     "start": 6.68,
+     "end": 6.76
+    },
+    {
+     "word": " he",
+     "start": 6.76,
+     "end": 6.82
+    },
+    {
+     "word": " stuck?",
+     "start": 6.82,
+     "end": 7.0
+    },
+    {
+     "word": " Oh,",
+     "start": 7.72,
+     "end": 7.92
+    },
+    {
+     "word": " there's",
+     "start": 8.08,
+     "end": 8.2
+    },
+    {
+     "word": " like",
+     "start": 8.2,
+     "end": 8.3
+    },
+    {
+     "word": " a",
+     "start": 8.3,
+     "end": 8.38
+    },
+    {
+     "word": " fucking",
+     "start": 8.38,
+     "end": 8.52
+    },
+    {
+     "word": " bug",
+     "start": 8.52,
+     "end": 8.72
+    },
+    {
+     "word": " on",
+     "start": 8.72,
+     "end": 8.86
+    },
+    {
+     "word": " this!",
+     "start": 8.86,
+     "end": 9.08
+    },
+    {
+     "word": " I",
+     "start": 12.04,
+     "end": 12.34
+    },
+    {
+     "word": " think",
+     "start": 20.86,
+     "end": 21.0
+    },
+    {
+     "word": " the",
+     "start": 21.0,
+     "end": 21.28
+    },
+    {
+     "word": " vaults",
+     "start": 21.28,
+     "end": 21.6
+    },
+    {
+     "word": " are",
+     "start": 21.6,
+     "end": 21.62
+    },
+    {
+     "word": " not",
+     "start": 21.62,
+     "end": 21.78
+    },
+    {
+     "word": " worth",
+     "start": 21.78,
+     "end": 21.96
+    },
+    {
+     "word": "-",
+     "start": 21.96,
+     "end": 22.16
+    },
+    {
+     "word": " I",
+     "start": 22.16,
+     "end": 22.18
+    },
+    {
+     "word": " decided",
+     "start": 22.18,
+     "end": 22.42
+    },
+    {
+     "word": " not",
+     "start": 22.42,
+     "end": 22.58
+    },
+    {
+     "word": " the",
+     "start": 22.58,
+     "end": 22.64
+    },
+    {
+     "word": " vaults,",
+     "start": 22.64,
+     "end": 22.92
+    },
+    {
+     "word": " the",
+     "start": 22.94,
+     "end": 23.0
+    },
+    {
+     "word": " deposits",
+     "start": 23.0,
+     "end": 23.24
+    },
+    {
+     "word": " are",
+     "start": 23.24,
+     "end": 23.38
+    },
+    {
+     "word": " not",
+     "start": 23.38,
+     "end": 23.48
+    },
+    {
+     "word": " worth.",
+     "start": 23.48,
+     "end": 23.76
+    },
+    {
+     "word": " I'm",
+     "start": 25.18,
+     "end": 25.5
+    },
+    {
+     "word": " trying",
+     "start": 25.5,
+     "end": 25.56
+    },
+    {
+     "word": " to",
+     "start": 25.56,
+     "end": 25.66
+    },
+    {
+     "word": " just",
+     "start": 25.66,
+     "end": 25.78
+    },
+    {
+     "word": " get",
+     "start": 25.78,
+     "end": 25.9
+    },
+    {
+     "word": " the",
+     "start": 25.9,
+     "end": 26.04
+    },
+    {
+     "word": " bills",
+     "start": 26.04,
+     "end": 26.28
+    },
+    {
+     "word": " in",
+     "start": 26.28,
+     "end": 26.46
+    },
+    {
+     "word": " and",
+     "start": 26.46,
+     "end": 26.54
+    },
+    {
+     "word": " get",
+     "start": 26.54,
+     "end": 26.62
+    },
+    {
+     "word": " the",
+     "start": 26.62,
+     "end": 26.78
+    },
+    {
+     "word": " fuck",
+     "start": 26.78,
+     "end": 27.0
+    },
+    {
+     "word": " out.",
+     "start": 27.0,
+     "end": 27.26
+    }
+   ],
+   "metrics": {
+    "motion": 0.4969316081330869,
+    "motion_p90": 0.735630314232902,
+    "static_share": 0.0,
+    "peak_db": 5.760063171386719,
+    "level_db": -29.304502487182617
+   },
+   "silence": []
+  },
+  "chat-2940206845-318": {
+   "id": "chat-2940206845-318",
+   "url": "https://www.twitch.tv/videos/2940206845",
+   "section": [
+    14298.386256,
+    14354.386256
+   ],
+   "kind": "chat",
+   "views": 35,
+   "title": "",
+   "vod": "2940206845",
+   "vod_t": 14298.386256,
+   "group": "en",
+   "login": "singsing",
+   "name": "singsing",
+   "viewers": 3398,
+   "chat_score": 5.0,
+   "found_at": "2026-11-25T13:37:50.567979+00:00",
+   "spike_at": "2026-11-25T13:28:57.386256+00:00",
+   "chat": [
+    "18x KEK",
+    "2x OMEGALOOOOL",
+    "2x WAHAHAHA",
+    "FailFish",
+    "BRO",
+    "7.5/10 - near perfect open world experience, most detailed game ever created in ",
+    "OME",
+    "@Sulfuroid uuh",
+    "u fucked up",
+    "what is happening",
+    "@miyauwww glitch"
+   ],
+   "source": "cut from the live stream at a chat spike: 35 chatters in 15 s, 5.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-25T13:39:11.653103+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 64.0,
+   "words": [
+    {
+     "word": " Oh",
+     "start": 8.43,
+     "end": 9.83
+    },
+    {
+     "word": " What",
+     "start": 13.19,
+     "end": 15.61
+    },
+    {
+     "word": " is",
+     "start": 15.61,
+     "end": 29.85
+    },
+    {
+     "word": " this",
+     "start": 29.85,
+     "end": 29.87
+    },
+    {
+     "word": " Oh",
+     "start": 49.91,
+     "end": 50.27
+    },
+    {
+     "word": " You",
+     "start": 61.29,
+     "end": 61.65
+    },
+    {
+     "word": " don't",
+     "start": 61.65,
+     "end": 62.01
+    },
+    {
+     "word": " like",
+     "start": 62.01,
+     "end": 62.19
+    },
+    {
+     "word": " to",
+     "start": 62.19,
+     "end": 62.29
+    },
+    {
+     "word": " go",
+     "start": 62.29,
+     "end": 62.47
+    },
+    {
+     "word": " in",
+     "start": 62.47,
+     "end": 62.65
+    },
+    {
+     "word": " oh",
+     "start": 62.65,
+     "end": 63.05
+    },
+    {
+     "word": " my",
+     "start": 63.05,
+     "end": 63.23
+    },
+    {
+     "word": " god",
+     "start": 63.23,
+     "end": 63.41
+    }
+   ],
+   "metrics": {
+    "motion": 0.35347222222222224,
+    "motion_p90": 0.5171527777777778,
+    "static_share": 0.00784313725490196,
+    "peak_db": 6.891632080078125,
+    "level_db": -32.491214752197266
    },
    "silence": []
   }
@@ -5171,7 +5651,7 @@
    "seconds": 34.1
   }
  },
- "checked_n": 175,
+ "checked_n": 178,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
