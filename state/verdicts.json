@@ -1,23 +1,4 @@
 {
- "NimbleBreakableSashimiOSkomodo-U2N2CyddVjE3-F1y": {
-  "at": "2026-11-23T02:13:32.359654+00:00",
-  "moment_score": 7,
-  "what_happens": "Стример через баг протискивается в запертый гараж, открывает ворота изнутри и находит там гиперкар Thrax, на котором сразу уезжает. Понятный трюк, видимая развязка, живая реакция.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Пролез в закрытый гараж через баг и уехал на гиперкаре",
-  "hook": "Баг на гиперкар",
-  "cover_at": 26.9,
-  "no_subs": true
- },
- "chat-2937407818-738": {
-  "at": "2026-11-23T02:13:32.416964+00:00",
-  "moment_score": 1,
-  "what_happens": "Розыгрыш PS5 в чате и просмотр чужого стрима с концовкой. Своей игры в кадре нет, это разговор на стриме.",
-  "gameplay_visible": false,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2936392772-2547": {
   "at": "2026-11-23T03:13:30.964356+00:00",
   "moment_score": 5,
@@ -1098,6 +1079,30 @@
   "at": "2026-11-25T01:14:28.983505+00:00",
   "moment_score": 3,
   "what_happens": "Goes to sleep and a scripted abduction dream sequence plays; cutscene only, the streamer just watches",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939580472-545": {
+  "at": "2026-11-25T02:15:35.821578+00:00",
+  "moment_score": 3,
+  "what_happens": "Scripted mission beat and a cutscene: a man is dunked into a pool from a crane, then game dialogue. The streamer only watches, no reaction of his own.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939674772-382": {
+  "at": "2026-11-25T02:15:35.861315+00:00",
+  "moment_score": 3,
+  "what_happens": "Bird-watching through binoculars for a bingo card, a mockingbird is found. No game event, nothing happens.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939838008-148": {
+  "at": "2026-11-25T02:15:35.897338+00:00",
+  "moment_score": 5,
+  "what_happens": "Ship shootout, a propane tank next to the player explodes and he is Wasted. An ordinary death, the streamer is almost silent, the webcam is tiny.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
