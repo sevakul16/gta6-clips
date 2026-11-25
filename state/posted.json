@@ -3264,6 +3264,231 @@
     "level_db": -39.84419631958008
    },
    "silence": []
+  },
+  "chat-2939866004-526": {
+   "id": "chat-2939866004-526",
+   "url": "https://www.twitch.tv/videos/2939866004",
+   "section": [
+    23653.480508,
+    23709.480508
+   ],
+   "kind": "chat",
+   "views": 172,
+   "title": "",
+   "vod": "2939866004",
+   "vod_t": 23653.480508,
+   "group": "en",
+   "login": "theburntpeanut",
+   "name": "TheBurntPeanut",
+   "viewers": 53602,
+   "chat_score": 3.66,
+   "found_at": "2026-11-25T07:00:44.269828+00:00",
+   "spike_at": "2026-11-25T06:50:26.480508+00:00",
+   "chat": [
+    "17x Jump",
+    "5x Land",
+    "4x gg",
+    "3x LUL",
+    "3x LOL",
+    "2x O7",
+    "2x Pull over",
+    "2x lmao",
+    "2x restart",
+    "2x Parachute",
+    "2x jump!",
+    "2x Landing gear up",
+    "HOLY what a nice game KEKW",
+    "boat",
+    "THATS GTA COMMON SENSE",
+    "360",
+    "go out with a bang",
+    "raise landing gear",
+    "winnable",
+    "Maybe Lucia is in a jet?"
+   ],
+   "source": "cut from the live stream at a chat spike: 172 chatters in 15 s, 3.7x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-25T07:01:30.844224+00:00",
+   "cam": [
+    288,
+    756,
+    422,
+    324
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 59.0,
+   "words": [
+    {
+     "word": " —Deployed",
+     "start": 0.0,
+     "end": 1.18
+    },
+    {
+     "word": " F",
+     "start": 19.55,
+     "end": 19.91
+    },
+    {
+     "word": "-16",
+     "start": 19.91,
+     "end": 20.83
+    },
+    {
+     "word": " fighter",
+     "start": 20.83,
+     "end": 21.23
+    },
+    {
+     "word": " jets.",
+     "start": 21.23,
+     "end": 21.59
+    },
+    {
+     "word": " —Midget",
+     "start": 32.21,
+     "end": 32.51
+    },
+    {
+     "word": " and",
+     "start": 32.51,
+     "end": 33.25
+    },
+    {
+     "word": " Midget",
+     "start": 34.79,
+     "end": 35.27
+    },
+    {
+     "word": " and",
+     "start": 35.27,
+     "end": 35.93
+    },
+    {
+     "word": " Midget",
+     "start": 37.75,
+     "end": 38.09
+    },
+    {
+     "word": " and",
+     "start": 38.09,
+     "end": 38.79
+    },
+    {
+     "word": " Midget",
+     "start": 40.81,
+     "end": 40.89
+    },
+    {
+     "word": " and",
+     "start": 40.89,
+     "end": 40.89
+    },
+    {
+     "word": " Midget...",
+     "start": 40.89,
+     "end": 41.63
+    },
+    {
+     "word": " —You",
+     "start": 53.28,
+     "end": 53.74
+    },
+    {
+     "word": " can't",
+     "start": 53.74,
+     "end": 54.08
+    },
+    {
+     "word": " be",
+     "start": 54.08,
+     "end": 54.08
+    },
+    {
+     "word": " serious!",
+     "start": 54.08,
+     "end": 54.28
+    },
+    {
+     "word": " You",
+     "start": 54.9,
+     "end": 55.04
+    },
+    {
+     "word": " can't",
+     "start": 55.04,
+     "end": 55.32
+    },
+    {
+     "word": " be",
+     "start": 55.32,
+     "end": 55.4
+    },
+    {
+     "word": " serious!",
+     "start": 55.4,
+     "end": 55.58
+    },
+    {
+     "word": " —You",
+     "start": 56.22,
+     "end": 56.38
+    },
+    {
+     "word": " can't!",
+     "start": 56.38,
+     "end": 56.9
+    },
+    {
+     "word": " You",
+     "start": 56.96,
+     "end": 57.16
+    },
+    {
+     "word": " just",
+     "start": 57.16,
+     "end": 57.32
+    },
+    {
+     "word": " can't",
+     "start": 57.32,
+     "end": 57.68
+    },
+    {
+     "word": " be",
+     "start": 57.68,
+     "end": 57.78
+    },
+    {
+     "word": " you",
+     "start": 57.78,
+     "end": 58.32
+    },
+    {
+     "word": " can't",
+     "start": 58.32,
+     "end": 58.64
+    },
+    {
+     "word": " be",
+     "start": 58.64,
+     "end": 58.7
+    },
+    {
+     "word": " serious...",
+     "start": 58.7,
+     "end": 58.88
+    }
+   ],
+   "metrics": {
+    "motion": 0.05906511350059737,
+    "motion_p90": 0.1694295101553166,
+    "static_share": 0.08936170212765958,
+    "peak_db": 4.308929443359375,
+    "level_db": -20.584993362426758
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -5506,7 +5731,7 @@
    "seconds": 27.6
   }
  },
- "checked_n": 141,
+ "checked_n": 142,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
