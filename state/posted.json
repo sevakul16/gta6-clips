@@ -4673,6 +4673,430 @@
     "level_db": -36.4658088684082
    },
    "silence": []
+  },
+  "chat-2939866004-385": {
+   "id": "chat-2939866004-385",
+   "url": "https://www.twitch.tv/videos/2939866004",
+   "section": [
+    17290.00317,
+    17346.00317
+   ],
+   "kind": "chat",
+   "views": 81,
+   "title": "",
+   "vod": "2939866004",
+   "vod_t": 17290.00317,
+   "group": "en",
+   "login": "theburntpeanut",
+   "name": "TheBurntPeanut",
+   "viewers": 57924,
+   "chat_score": 5.79,
+   "found_at": "2026-11-25T05:10:20.826850+00:00",
+   "spike_at": "2026-11-25T05:04:23.003170+00:00",
+   "chat": [
+    "6x NOOOO",
+    "4x D:",
+    "3x NOOOOO",
+    "3x nooooooo",
+    "2x NOOOOOOOOO",
+    "2x NATE",
+    "2x OH SHIT",
+    "2x LUL",
+    "2x KEKW",
+    "2x nooo",
+    "2x RIP NATE",
+    "KEKW ͏",
+    "Nate a real one",
+    "thats the marshall",
+    "Omg he took the bullet for her omg wait I feel bad for juice head",
+    "air marshall",
+    "nate never got his twinks",
+    "Nate was kewl",
+    "NO NATEEEEE"
+   ],
+   "source": "cut from the live stream at a chat spike: 81 chatters in 15 s, 5.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-25T05:10:53.400242+00:00",
+   "cam": [
+    288,
+    756,
+    422,
+    324
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " Whoa",
+     "start": 0.0,
+     "end": 0.5
+    },
+    {
+     "word": " whoa,",
+     "start": 0.5,
+     "end": 0.88
+    },
+    {
+     "word": " man.",
+     "start": 0.98,
+     "end": 1.16
+    },
+    {
+     "word": " No,",
+     "start": 1.32,
+     "end": 1.46
+    },
+    {
+     "word": " come",
+     "start": 1.48,
+     "end": 1.68
+    },
+    {
+     "word": " on.",
+     "start": 1.68,
+     "end": 1.82
+    },
+    {
+     "word": " She's",
+     "start": 1.84,
+     "end": 2.36
+    },
+    {
+     "word": " one",
+     "start": 2.36,
+     "end": 2.54
+    },
+    {
+     "word": " of",
+     "start": 2.54,
+     "end": 2.66
+    },
+    {
+     "word": " us.",
+     "start": 2.66,
+     "end": 2.98
+    },
+    {
+     "word": " Don't",
+     "start": 3.3,
+     "end": 3.82
+    },
+    {
+     "word": " move",
+     "start": 3.82,
+     "end": 4.06
+    },
+    {
+     "word": " bitch",
+     "start": 4.06,
+     "end": 4.34
+    },
+    {
+     "word": " Nate",
+     "start": 4.34,
+     "end": 4.88
+    },
+    {
+     "word": " check",
+     "start": 4.88,
+     "end": 5.52
+    },
+    {
+     "word": " the",
+     "start": 5.52,
+     "end": 5.66
+    },
+    {
+     "word": " bag",
+     "start": 5.66,
+     "end": 5.92
+    },
+    {
+     "word": " Okay,",
+     "start": 7.34,
+     "end": 7.86
+    },
+    {
+     "word": " oh",
+     "start": 7.86,
+     "end": 8.38
+    },
+    {
+     "word": " shit",
+     "start": 12.83,
+     "end": 13.15
+    },
+    {
+     "word": " shit.",
+     "start": 13.15,
+     "end": 13.81
+    },
+    {
+     "word": " They",
+     "start": 13.95,
+     "end": 14.17
+    },
+    {
+     "word": " tell",
+     "start": 14.17,
+     "end": 14.35
+    },
+    {
+     "word": " me",
+     "start": 14.35,
+     "end": 14.47
+    },
+    {
+     "word": " the",
+     "start": 14.47,
+     "end": 14.55
+    },
+    {
+     "word": " money's",
+     "start": 14.55,
+     "end": 14.89
+    },
+    {
+     "word": " there.",
+     "start": 14.89,
+     "end": 15.05
+    },
+    {
+     "word": " No",
+     "start": 15.47,
+     "end": 15.99
+    },
+    {
+     "word": " money,",
+     "start": 15.99,
+     "end": 16.25
+    },
+    {
+     "word": " bro",
+     "start": 16.29,
+     "end": 16.73
+    },
+    {
+     "word": " You",
+     "start": 18.19,
+     "end": 18.71
+    },
+    {
+     "word": " see",
+     "start": 18.71,
+     "end": 19.05
+    },
+    {
+     "word": " This",
+     "start": 22.61,
+     "end": 23.13
+    },
+    {
+     "word": " area",
+     "start": 23.13,
+     "end": 23.65
+    },
+    {
+     "word": " is",
+     "start": 23.65,
+     "end": 23.79
+    },
+    {
+     "word": " restricted",
+     "start": 23.79,
+     "end": 24.19
+    },
+    {
+     "word": " sir.",
+     "start": 24.19,
+     "end": 25.43
+    },
+    {
+     "word": " What",
+     "start": 25.55,
+     "end": 26.07
+    },
+    {
+     "word": " is",
+     "start": 26.07,
+     "end": 26.43
+    },
+    {
+     "word": " the",
+     "start": 26.43,
+     "end": 26.57
+    },
+    {
+     "word": " No",
+     "start": 27.29,
+     "end": 27.81
+    },
+    {
+     "word": " That's",
+     "start": 33.46,
+     "end": 33.98
+    },
+    {
+     "word": " gonna",
+     "start": 33.98,
+     "end": 34.04
+    },
+    {
+     "word": " kill",
+     "start": 34.04,
+     "end": 34.26
+    },
+    {
+     "word": " me",
+     "start": 34.26,
+     "end": 34.4
+    },
+    {
+     "word": " anyways",
+     "start": 34.4,
+     "end": 34.8
+    },
+    {
+     "word": " stupid",
+     "start": 34.8,
+     "end": 35.7
+    },
+    {
+     "word": " motherfuckers",
+     "start": 35.7,
+     "end": 36.3
+    },
+    {
+     "word": " That",
+     "start": 42.69,
+     "end": 43.11
+    },
+    {
+     "word": " guy",
+     "start": 43.11,
+     "end": 43.45
+    },
+    {
+     "word": " have",
+     "start": 43.45,
+     "end": 43.59
+    },
+    {
+     "word": " a",
+     "start": 43.59,
+     "end": 43.69
+    },
+    {
+     "word": " guy",
+     "start": 43.69,
+     "end": 43.87
+    },
+    {
+     "word": " he's",
+     "start": 43.87,
+     "end": 44.09
+    },
+    {
+     "word": " gonna",
+     "start": 44.09,
+     "end": 44.19
+    },
+    {
+     "word": " play",
+     "start": 44.19,
+     "end": 44.81
+    },
+    {
+     "word": " And",
+     "start": 46.85,
+     "end": 47.27
+    },
+    {
+     "word": " you",
+     "start": 47.27,
+     "end": 47.69
+    },
+    {
+     "word": " tell",
+     "start": 47.69,
+     "end": 47.89
+    },
+    {
+     "word": " me",
+     "start": 47.89,
+     "end": 48.03
+    },
+    {
+     "word": " where",
+     "start": 48.03,
+     "end": 48.17
+    },
+    {
+     "word": " the",
+     "start": 48.17,
+     "end": 48.25
+    },
+    {
+     "word": " fuck",
+     "start": 48.25,
+     "end": 48.47
+    },
+    {
+     "word": " you",
+     "start": 48.47,
+     "end": 48.57
+    },
+    {
+     "word": " got",
+     "start": 48.57,
+     "end": 48.71
+    },
+    {
+     "word": " my",
+     "start": 48.71,
+     "end": 48.87
+    },
+    {
+     "word": " money",
+     "start": 48.87,
+     "end": 49.13
+    },
+    {
+     "word": " Everybody",
+     "start": 53.83,
+     "end": 54.25
+    },
+    {
+     "word": " on",
+     "start": 54.25,
+     "end": 54.67
+    },
+    {
+     "word": " that",
+     "start": 54.67,
+     "end": 54.85
+    },
+    {
+     "word": " fucking",
+     "start": 54.85,
+     "end": 55.11
+    },
+    {
+     "word": " plane",
+     "start": 55.11,
+     "end": 55.45
+    }
+   ],
+   "metrics": {
+    "motion": 0.24731182795698925,
+    "motion_p90": 0.5439217443249702,
+    "static_share": 0.008968609865470852,
+    "peak_db": 8.257625579833984,
+    "level_db": -27.793434143066406
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -6507,7 +6931,7 @@
    "seconds": 30.1
   }
  },
- "checked_n": 131,
+ "checked_n": 132,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
