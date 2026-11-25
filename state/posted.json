@@ -1136,11 +1136,6 @@
   }
  },
  "rejected": {
-  "chat-2937203120-585": {
-   "at": "2026-11-22T18:54:40.015148+00:00",
-   "why": "picture is almost static (motion 0.01)",
-   "login": "recrent"
-  },
   "chat-2937392051-270": {
    "at": "2026-11-22T19:16:08.938085+00:00",
    "why": "no sound in the recording (11 s of 60 s are silent)",
@@ -5758,6 +5753,168 @@
     "level_db": -30.819019317626953
    },
    "silence": []
+  },
+  "AuspiciousBrainyOrcaPupper-5eiY5qb-FEoyrOU4": {
+   "id": "AuspiciousBrainyOrcaPupper-5eiY5qb-FEoyrOU4",
+   "vod": "2938958441",
+   "vod_t": 16855,
+   "group": "en",
+   "views": 5002,
+   "title": "VAPORIZED",
+   "url": "https://www.twitch.tv/vinesauce/clip/AuspiciousBrainyOrcaPupper-5eiY5qb-FEoyrOU4",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "vinesauce",
+   "name": "Vinesauce",
+   "source": "Twitch clip made by a viewer, 5002 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"VAPORIZED\"",
+   "at": "2026-11-25T19:13:05.725422+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 47.4,
+   "words": [
+    {
+     "word": " All",
+     "start": 0.27,
+     "end": 0.81
+    },
+    {
+     "word": " right,",
+     "start": 0.81,
+     "end": 0.99
+    },
+    {
+     "word": " well",
+     "start": 1.09,
+     "end": 1.17
+    },
+    {
+     "word": " do",
+     "start": 1.17,
+     "end": 1.33
+    },
+    {
+     "word": " you",
+     "start": 1.33,
+     "end": 1.39
+    },
+    {
+     "word": " want",
+     "start": 1.39,
+     "end": 1.47
+    },
+    {
+     "word": " to",
+     "start": 1.47,
+     "end": 1.53
+    },
+    {
+     "word": " go",
+     "start": 1.53,
+     "end": 1.61
+    },
+    {
+     "word": " on",
+     "start": 1.61,
+     "end": 1.69
+    },
+    {
+     "word": " a",
+     "start": 1.69,
+     "end": 1.73
+    },
+    {
+     "word": " mission?",
+     "start": 1.73,
+     "end": 1.99
+    },
+    {
+     "word": " We're",
+     "start": 4.68,
+     "end": 5.04
+    },
+    {
+     "word": " gonna",
+     "start": 5.04,
+     "end": 5.12
+    },
+    {
+     "word": " go",
+     "start": 5.12,
+     "end": 5.22
+    },
+    {
+     "word": " find",
+     "start": 5.22,
+     "end": 5.46
+    },
+    {
+     "word": " Donnie's",
+     "start": 5.46,
+     "end": 5.9
+    },
+    {
+     "word": " drugs",
+     "start": 5.9,
+     "end": 6.08
+    },
+    {
+     "word": " you",
+     "start": 6.08,
+     "end": 6.32
+    },
+    {
+     "word": " down",
+     "start": 6.32,
+     "end": 6.58
+    },
+    {
+     "word": " Is",
+     "start": 38.85,
+     "end": 39.21
+    },
+    {
+     "word": " it",
+     "start": 39.21,
+     "end": 39.31
+    },
+    {
+     "word": " even",
+     "start": 39.31,
+     "end": 39.47
+    },
+    {
+     "word": " worth",
+     "start": 39.47,
+     "end": 39.73
+    },
+    {
+     "word": " looking",
+     "start": 39.73,
+     "end": 40.13
+    },
+    {
+     "word": " for",
+     "start": 40.13,
+     "end": 40.39
+    },
+    {
+     "word": " her",
+     "start": 40.39,
+     "end": 40.59
+    }
+   ],
+   "metrics": {
+    "motion": 0.46041666666666664,
+    "motion_p90": 0.6940416666666667,
+    "static_share": 0.12698412698412698,
+    "peak_db": 10.080265045166016,
+    "level_db": -25.281618118286133
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -7533,7 +7690,7 @@
    "seconds": 34.1
   }
  },
- "checked_n": 210,
+ "checked_n": 211,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
