@@ -170,4 +170,12 @@ jobs:
           git pull -q --rebase || true
           if grep -Eq '^autorun:\s*false' config.yaml; then echo "autorun is off, the loop stops here"; exit 0; fi
           [ -f out/.listened ] || sleep 600    # nobody was live: wait before looking again
-          gh workflow run clips.yml --ref main -f dry_run=false -f chain=true
+          # GitHub sometimes answers the dispatch with a 5xx and the loop would stop until the watchdog: try again a few times
+          for i in 1 2 3 4; do
+            if gh workflow run clips.yml --ref main -f dry_run=false -f chain=true; then exit 0; fi
+            sleep $((i * 30))
+            n=$(gh run list --workflow clips.yml --limit 20 --json status,databaseId --jq "[.[] | select(.status != \"completed\" and .databaseId != ${GITHUB_RUN_ID})] | length" || echo 0)
+            if [ "$n" != "0" ]; then echo "the next run is already there"; exit 0; fi
+            echo "dispatch failed (attempt $i), trying again"
+          done
+          exit 1
