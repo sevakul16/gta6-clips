@@ -4119,6 +4119,165 @@
     "level_db": -39.92833709716797
    },
    "silence": []
+  },
+  "chat-2939770213-1078": {
+   "id": "chat-2939770213-1078",
+   "url": "https://www.twitch.tv/videos/2939770213",
+   "section": [
+    48477.293065,
+    48533.293065
+   ],
+   "kind": "chat",
+   "views": 57,
+   "title": "",
+   "vod": "2939770213",
+   "vod_t": 48477.293065,
+   "group": "en",
+   "login": "kyedae",
+   "name": "Kyedae",
+   "viewers": 3824,
+   "chat_score": 19.0,
+   "found_at": "2026-11-25T12:10:10.743594+00:00",
+   "spike_at": "2026-11-25T11:56:58.293065+00:00",
+   "chat": [
+    "6x LOL",
+    "4x LO",
+    "4x LMAO",
+    "2x BRO",
+    "2x LUL",
+    "2x o",
+    "in the big 2026",
+    "😂🤣",
+    "LMFAOOOO",
+    "LOOOOOOOL",
+    "Oh my wor",
+    "lmaoo",
+    "@pluupluuplu Not 13 years or 2 billion worth tho",
+    "girl......."
+   ],
+   "source": "cut from the live stream at a chat spike: 57 chatters in 15 s, 19.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-25T12:10:35.270534+00:00",
+   "cam": [
+    70,
+    535,
+    403,
+    283
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " Oh,",
+     "start": 0.0,
+     "end": 0.18
+    },
+    {
+     "word": " my",
+     "start": 0.26,
+     "end": 0.42
+    },
+    {
+     "word": " lord.",
+     "start": 0.42,
+     "end": 0.64
+    },
+    {
+     "word": " Okay,",
+     "start": 23.03,
+     "end": 23.35
+    },
+    {
+     "word": " damn.",
+     "start": 23.35,
+     "end": 23.67
+    },
+    {
+     "word": " Wait,",
+     "start": 50.0,
+     "end": 50.32
+    },
+    {
+     "word": " why",
+     "start": 50.4,
+     "end": 50.52
+    },
+    {
+     "word": " did",
+     "start": 50.52,
+     "end": 50.62
+    },
+    {
+     "word": " I",
+     "start": 50.62,
+     "end": 50.7
+    },
+    {
+     "word": " do",
+     "start": 50.7,
+     "end": 50.86
+    },
+    {
+     "word": " that?",
+     "start": 50.86,
+     "end": 51.08
+    },
+    {
+     "word": " Oh,",
+     "start": 53.66,
+     "end": 53.98
+    },
+    {
+     "word": " my",
+     "start": 54.1,
+     "end": 54.22
+    },
+    {
+     "word": " God.",
+     "start": 54.22,
+     "end": 54.54
+    },
+    {
+     "word": " Wait,",
+     "start": 55.0,
+     "end": 55.22
+    },
+    {
+     "word": " why",
+     "start": 55.32,
+     "end": 55.48
+    },
+    {
+     "word": " did",
+     "start": 55.48,
+     "end": 55.58
+    },
+    {
+     "word": " I",
+     "start": 55.58,
+     "end": 55.7
+    },
+    {
+     "word": " do",
+     "start": 55.7,
+     "end": 55.84
+    },
+    {
+     "word": " that?",
+     "start": 55.84,
+     "end": 55.92
+    }
+   ],
+   "metrics": {
+    "motion": 0.0866543438077634,
+    "motion_p90": 0.24922735674676527,
+    "static_share": 0.17937219730941703,
+    "peak_db": 3.8225250244140625,
+    "level_db": -25.859989166259766
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -6125,7 +6284,7 @@
    "seconds": 20.6
   }
  },
- "checked_n": 169,
+ "checked_n": 170,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
