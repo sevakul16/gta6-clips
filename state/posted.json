@@ -1037,11 +1037,6 @@
   }
  },
  "rejected": {
-  "chat-2936392772-854": {
-   "at": "2026-11-22T06:33:27.159425+00:00",
-   "why": "editor: 2/10, Мини-игра с камерой внутри сейфа: тёмная картинка, чат подсказывает, куда вести кабель. Игрового события нет, звук очень тихий, камера крошечная.",
-   "login": "ludwig"
-  },
   "chat-2936816213-426": {
    "at": "2026-11-22T07:16:27.412077+00:00",
    "why": "editor: no gameplay on screen",
@@ -2578,7 +2573,699 @@
    "vod_t": 15981.939691
   }
  },
- "pending": {},
+ "pending": {
+  "chat-2940077001-154": {
+   "id": "chat-2940077001-154",
+   "url": "https://www.twitch.tv/videos/2940077001",
+   "section": [
+    6924.36346,
+    6980.36346
+   ],
+   "kind": "chat",
+   "views": 52,
+   "title": "",
+   "vod": "2940077001",
+   "vod_t": 6924.36346,
+   "group": "en",
+   "login": "moistcr1tikal",
+   "name": "moistcr1tikal",
+   "viewers": 3897,
+   "chat_score": 7.43,
+   "found_at": "2026-11-25T06:38:28.109314+00:00",
+   "spike_at": "2026-11-25T06:27:00.363460+00:00",
+   "chat": [
+    "7x GAYGE",
+    "2x LUL",
+    "2x WOAH",
+    "2x WHAT",
+    "2x Awww",
+    "HUH",
+    "sogI",
+    "give him a kiss",
+    "aww",
+    "ROMANCE HIM",
+    "Now kiss",
+    "HAAAAAH",
+    "yooooo"
+   ],
+   "source": "cut from the live stream at a chat spike: 52 chatters in 15 s, 7.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-25T06:39:00.319856+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 60.0,
+   "words": [
+    {
+     "word": " No,",
+     "start": 33.1,
+     "end": 34.5
+    },
+    {
+     "word": " yeah",
+     "start": 34.52,
+     "end": 35.26
+    },
+    {
+     "word": " Just",
+     "start": 35.36,
+     "end": 35.7
+    },
+    {
+     "word": " not",
+     "start": 35.7,
+     "end": 36.7
+    },
+    {
+     "word": " meeting",
+     "start": 36.7,
+     "end": 36.98
+    },
+    {
+     "word": " a",
+     "start": 36.98,
+     "end": 37.14
+    },
+    {
+     "word": " brother",
+     "start": 37.14,
+     "end": 37.44
+    },
+    {
+     "word": " falling",
+     "start": 37.44,
+     "end": 38.08
+    },
+    {
+     "word": " in",
+     "start": 38.08,
+     "end": 38.26
+    },
+    {
+     "word": " love,",
+     "start": 38.26,
+     "end": 38.5
+    },
+    {
+     "word": " huh?",
+     "start": 38.56,
+     "end": 39.08
+    },
+    {
+     "word": " Oh",
+     "start": 40.54,
+     "end": 41.4
+    },
+    {
+     "word": " I",
+     "start": 48.54,
+     "end": 49.4
+    },
+    {
+     "word": " got",
+     "start": 49.4,
+     "end": 50.26
+    },
+    {
+     "word": " you",
+     "start": 50.26,
+     "end": 54.46
+    },
+    {
+     "word": " man",
+     "start": 56.48,
+     "end": 56.72
+    }
+   ],
+   "metrics": {
+    "motion": 0.18618055555555554,
+    "motion_p90": 0.43837500000000007,
+    "static_share": 0.02510460251046025,
+    "peak_db": 11.843658447265625,
+    "level_db": -31.934345245361328
+   },
+   "silence": []
+  },
+  "chat-2939925318-415": {
+   "id": "chat-2939925318-415",
+   "url": "https://www.twitch.tv/videos/2939925318",
+   "section": [
+    18660.390948,
+    18716.390948
+   ],
+   "kind": "chat",
+   "views": 83,
+   "title": "",
+   "vod": "2939925318",
+   "vod_t": 18660.390948,
+   "group": "en",
+   "login": "supertf",
+   "name": "supertf",
+   "viewers": 6137,
+   "chat_score": 5.93,
+   "found_at": "2026-11-25T06:38:28.246275+00:00",
+   "spike_at": "2026-11-25T06:31:30.390948+00:00",
+   "chat": [
+    "31x o",
+    "17x SEXO",
+    "12x Orange",
+    "3x OOOO",
+    "2x oh wow",
+    "2x oh",
+    "2x BouncinOnIt",
+    "2x ohSHIT",
+    "2x holy arms",
+    "2x hi aga",
+    "2x o ͏",
+    "THOSE ARMS Orange",
+    "armed robbery gets me going too I get it",
+    "that fuckass hair bro....",
+    "dont look man",
+    "sex scene OOOO",
+    "her arm is as big as jasons",
+    "Orange wowzers!",
+    "mouth agape"
+   ],
+   "source": "cut from the live stream at a chat spike: 83 chatters in 15 s, 5.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-25T06:39:28.189727+00:00",
+   "cam": [
+    47,
+    331,
+    365,
+    257
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 63.9,
+   "words": [
+    {
+     "word": " Well,",
+     "start": 1.1,
+     "end": 1.58
+    },
+    {
+     "word": " you're",
+     "start": 1.7,
+     "end": 1.98
+    },
+    {
+     "word": " still",
+     "start": 1.98,
+     "end": 2.08
+    },
+    {
+     "word": " pretty",
+     "start": 2.08,
+     "end": 2.28
+    },
+    {
+     "word": " jazzed",
+     "start": 2.28,
+     "end": 2.7
+    },
+    {
+     "word": " up.",
+     "start": 2.7,
+     "end": 2.88
+    },
+    {
+     "word": " A",
+     "start": 3.06,
+     "end": 3.16
+    },
+    {
+     "word": " little.",
+     "start": 3.16,
+     "end": 3.46
+    },
+    {
+     "word": " Huge.",
+     "start": 4.96,
+     "end": 5.44
+    },
+    {
+     "word": " Easy.",
+     "start": 8.12,
+     "end": 8.58
+    },
+    {
+     "word": " Imagine",
+     "start": 13.55,
+     "end": 14.03
+    },
+    {
+     "word": " leaving",
+     "start": 14.03,
+     "end": 14.29
+    },
+    {
+     "word": " a",
+     "start": 14.29,
+     "end": 14.47
+    },
+    {
+     "word": " bank,",
+     "start": 14.47,
+     "end": 14.73
+    },
+    {
+     "word": " thousands",
+     "start": 14.91,
+     "end": 15.21
+    },
+    {
+     "word": " of",
+     "start": 15.21,
+     "end": 15.33
+    },
+    {
+     "word": " dollars",
+     "start": 15.33,
+     "end": 15.53
+    },
+    {
+     "word": " under",
+     "start": 15.53,
+     "end": 15.77
+    },
+    {
+     "word": " your",
+     "start": 15.77,
+     "end": 15.91
+    },
+    {
+     "word": " arms",
+     "start": 15.91,
+     "end": 16.27
+    },
+    {
+     "word": " and",
+     "start": 16.27,
+     "end": 16.47
+    },
+    {
+     "word": " you",
+     "start": 16.47,
+     "end": 16.71
+    },
+    {
+     "word": " look",
+     "start": 16.71,
+     "end": 16.91
+    },
+    {
+     "word": " to",
+     "start": 16.91,
+     "end": 17.07
+    },
+    {
+     "word": " your",
+     "start": 17.07,
+     "end": 17.19
+    },
+    {
+     "word": " getaway",
+     "start": 17.19,
+     "end": 17.51
+    },
+    {
+     "word": " driver.",
+     "start": 17.51,
+     "end": 17.95
+    },
+    {
+     "word": " It's",
+     "start": 18.13,
+     "end": 18.39
+    },
+    {
+     "word": " super.",
+     "start": 18.39,
+     "end": 18.65
+    },
+    {
+     "word": " Yeah.",
+     "start": 18.79,
+     "end": 19.27
+    },
+    {
+     "word": " Your",
+     "start": 19.57,
+     "end": 19.67
+    },
+    {
+     "word": " money's",
+     "start": 19.67,
+     "end": 20.15
+    },
+    {
+     "word": " safe.",
+     "start": 20.15,
+     "end": 20.35
+    },
+    {
+     "word": " Not",
+     "start": 21.35,
+     "end": 21.83
+    },
+    {
+     "word": " much",
+     "start": 21.83,
+     "end": 21.99
+    },
+    {
+     "word": " we",
+     "start": 21.99,
+     "end": 22.17
+    },
+    {
+     "word": " can",
+     "start": 22.17,
+     "end": 22.37
+    },
+    {
+     "word": " do.",
+     "start": 22.37,
+     "end": 22.59
+    },
+    {
+     "word": " Not",
+     "start": 23.31,
+     "end": 23.49
+    },
+    {
+     "word": " like",
+     "start": 23.49,
+     "end": 23.63
+    },
+    {
+     "word": " we",
+     "start": 23.63,
+     "end": 23.71
+    },
+    {
+     "word": " can",
+     "start": 23.71,
+     "end": 23.83
+    },
+    {
+     "word": " go",
+     "start": 23.83,
+     "end": 23.97
+    },
+    {
+     "word": " anywhere.",
+     "start": 23.97,
+     "end": 24.19
+    },
+    {
+     "word": " We're",
+     "start": 25.33,
+     "end": 25.55
+    },
+    {
+     "word": " almost",
+     "start": 25.55,
+     "end": 25.67
+    },
+    {
+     "word": " there.",
+     "start": 25.67,
+     "end": 25.95
+    },
+    {
+     "word": " Way",
+     "start": 26.61,
+     "end": 26.73
+    },
+    {
+     "word": " long.",
+     "start": 26.73,
+     "end": 26.93
+    },
+    {
+     "word": " Oh.",
+     "start": 27.71,
+     "end": 28.19
+    },
+    {
+     "word": " Yeah.",
+     "start": 28.43,
+     "end": 28.69
+    },
+    {
+     "word": " Okay.",
+     "start": 30.27,
+     "end": 30.75
+    },
+    {
+     "word": " Okay.",
+     "start": 39.09,
+     "end": 40.01
+    },
+    {
+     "word": " Oh,",
+     "start": 40.01,
+     "end": 40.43
+    },
+    {
+     "word": " oh,",
+     "start": 40.57,
+     "end": 40.81
+    },
+    {
+     "word": " oh,",
+     "start": 40.99,
+     "end": 41.25
+    },
+    {
+     "word": " oh,",
+     "start": 41.25,
+     "end": 42.41
+    },
+    {
+     "word": " oh,",
+     "start": 42.71,
+     "end": 43.19
+    },
+    {
+     "word": " oh.",
+     "start": 43.19,
+     "end": 44.43
+    },
+    {
+     "word": " Oh.",
+     "start": 48.67,
+     "end": 49.59
+    },
+    {
+     "word": " What",
+     "start": 49.59,
+     "end": 50.11
+    },
+    {
+     "word": " do",
+     "start": 50.11,
+     "end": 50.21
+    },
+    {
+     "word": " you",
+     "start": 50.21,
+     "end": 50.27
+    },
+    {
+     "word": " say",
+     "start": 50.27,
+     "end": 50.41
+    },
+    {
+     "word": " we",
+     "start": 50.41,
+     "end": 50.59
+    },
+    {
+     "word": " just",
+     "start": 50.59,
+     "end": 52.11
+    },
+    {
+     "word": " take",
+     "start": 52.11,
+     "end": 52.33
+    },
+    {
+     "word": " that",
+     "start": 52.33,
+     "end": 52.49
+    },
+    {
+     "word": " back",
+     "start": 52.49,
+     "end": 52.69
+    },
+    {
+     "word": " over",
+     "start": 52.69,
+     "end": 52.91
+    },
+    {
+     "word": " there",
+     "start": 52.91,
+     "end": 53.17
+    },
+    {
+     "word": " and",
+     "start": 53.17,
+     "end": 53.37
+    },
+    {
+     "word": " grab",
+     "start": 53.37,
+     "end": 54.31
+    },
+    {
+     "word": " Tommy",
+     "start": 54.31,
+     "end": 54.71
+    },
+    {
+     "word": " off",
+     "start": 54.71,
+     "end": 54.97
+    },
+    {
+     "word": " your",
+     "start": 54.97,
+     "end": 55.09
+    },
+    {
+     "word": " head",
+     "start": 55.09,
+     "end": 55.33
+    },
+    {
+     "word": " and",
+     "start": 55.33,
+     "end": 55.47
+    },
+    {
+     "word": " just",
+     "start": 55.47,
+     "end": 57.75
+    },
+    {
+     "word": " disappear.",
+     "start": 57.75,
+     "end": 58.41
+    },
+    {
+     "word": " Just",
+     "start": 58.79,
+     "end": 59.19
+    },
+    {
+     "word": " one",
+     "start": 59.19,
+     "end": 59.65
+    },
+    {
+     "word": " bag?",
+     "start": 59.65,
+     "end": 60.07
+    },
+    {
+     "word": " That's",
+     "start": 60.47,
+     "end": 60.83
+    },
+    {
+     "word": " not",
+     "start": 60.83,
+     "end": 61.03
+    },
+    {
+     "word": " enough.",
+     "start": 61.03,
+     "end": 61.29
+    },
+    {
+     "word": " No.",
+     "start": 61.95,
+     "end": 62.47
+    }
+   ],
+   "metrics": {
+    "motion": 0.2735105140186916,
+    "motion_p90": 0.6233644859813084,
+    "static_share": 0.058823529411764705,
+    "peak_db": 16.467727661132812,
+    "level_db": -36.75840759277344
+   },
+   "silence": []
+  },
+  "chat-2939887842-457": {
+   "id": "chat-2939887842-457",
+   "url": "https://www.twitch.tv/videos/2939887842",
+   "section": [
+    20540.37885,
+    20596.37885
+   ],
+   "kind": "chat",
+   "views": 76,
+   "title": "",
+   "vod": "2939887842",
+   "vod_t": 20540.37885,
+   "group": "en",
+   "login": "rdcgaming",
+   "name": "RDCgaming",
+   "viewers": 6818,
+   "chat_score": 4.75,
+   "found_at": "2026-11-25T06:38:28.385254+00:00",
+   "spike_at": "2026-11-25T06:22:55.378850+00:00",
+   "chat": [
+    "4x rdcTexasEd",
+    "3x Lmao",
+    "3x How",
+    "2x 😂😂😂😂",
+    "2x LMAOOOOO",
+    "2x 🤣🤣🤣",
+    "2x LMAOOOO",
+    "2x BRUH",
+    "2x 🤣🤣🤣🤣",
+    "2x LMAOOO",
+    "2x 😂😂😂",
+    "2x CLIP IT",
+    "You was doing one thing and got distracted",
+    "😭😂😂😂😂",
+    "w no death playthrough",
+    "Did the gas blow up",
+    "IM FUCKING CRYING!!! I KNEW THAT SHIT WOULD HAPPEN!!!",
+    "He was gonna die the sam way mark",
+    "the FL pothole aint no joke",
+    "mans thought it was normal to ride with an open tub of petrol"
+   ],
+   "source": "cut from the live stream at a chat spike: 76 chatters in 15 s, 4.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-25T06:39:48.656809+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 63.0,
+   "words": [],
+   "metrics": {
+    "motion": 0.2684722222222222,
+    "motion_p90": 0.5672916666666666,
+    "static_share": 0.10358565737051793,
+    "peak_db": 11.933782577514648,
+    "level_db": -39.84419631958008
+   },
+   "silence": []
+  }
+ },
  "pool": {
   "chat-2937392051-2489": {
    "id": "chat-2937392051-2489",
@@ -4819,7 +5506,7 @@
    "seconds": 27.6
   }
  },
- "checked_n": 138,
+ "checked_n": 141,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
