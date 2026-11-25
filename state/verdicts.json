@@ -1,32 +1,4 @@
 {
- "chat-2937478169-485": {
-  "at": "2026-11-23T00:13:51.663885+00:00",
-  "moment_score": 1,
-  "what_happens": "Сюжетная сцена в номере с полностью голым персонажем, веб-камеры в кадре нет. Нагота: не публикуем ни на одной площадке.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2937407818-600": {
-  "at": "2026-11-23T00:13:51.720473+00:00",
-  "moment_score": 2,
-  "what_happens": "Финальная сюжетная сцена Джейсона и Люсии и выбор «Продолжить или отложить», чат голосует. Спойлер концовки и опрос чата, игрового события нет.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2937683915-278": {
-  "at": "2026-11-23T00:13:51.780266+00:00",
-  "moment_score": 6,
-  "what_happens": "Стример видит, как банда запинывает человека, кричит «это мой кент» и в одиночку укладывает троих, а потом понимает, что спасти того всё равно не вышло. Светлая картинка, понятная драка, живая речь.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Влетел в драку с целой бандой, чтобы спасти «кента»",
-  "keep_start": 3.0,
-  "keep_end": 45.0,
-  "hook": "Это мой кент!",
-  "cover_at": 14.2
- },
  "BreakableGoodGullJKanStyle-LEB24prn2GMlp1We": {
   "at": "2026-11-23T01:13:58.696625+00:00",
   "moment_score": 4,
@@ -1068,6 +1040,56 @@
   "at": "2026-11-24T23:14:36.623850+00:00",
   "moment_score": 2,
   "what_happens": "Dark mission cutscene and stealth walk while he asks chat to vote plus or minus on going to sleep; a chat poll, no game event, tiny webcam",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2939674772-226": {
+  "at": "2026-11-25T00:14:44.856416+00:00",
+  "moment_score": 6,
+  "what_happens": "Follows a stray dog to its yard, presses grab and puts the woman standing there in a hold instead; chat erupts and he apologises, saying he thought he would grab the mailbox. Unexpected accident with a spoken reaction, clear webcam",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Followed a dog home, pressed grab, and it was not the mailbox 💀",
+  "keep_start": 41.0,
+  "keep_end": 61.0,
+  "cam": [
+   0.04,
+   0.575,
+   0.2,
+   0.25
+  ],
+  "hook": "Grabbed the wrong thing",
+  "cover_at": 49.1
+ },
+ "chat-2939478678-497": {
+  "at": "2026-11-25T00:14:44.895964+00:00",
+  "moment_score": 6,
+  "what_happens": "No webcam in the picture. Says the helmet is overrated and seconds later is thrown off the motorbike on the highway and tumbles down the road; a clean setup and payoff, but there is no streamer in the frame",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "AgileUninterestedLegShadyLulu-KPjWiRfIWszUpRxC": {
+  "at": "2026-11-25T00:14:44.945428+00:00",
+  "moment_score": 3,
+  "what_happens": "Two streamers in a blindfold challenge on a beach throw a grenade at a small dog and swear about it; cruelty to a pet as the joke, mostly challenge chatter and menus",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "BitterStylishLemurSSSsss-bthG6IGi-VdPRf1u": {
+  "at": "2026-11-25T00:14:44.993995+00:00",
+  "moment_score": 2,
+  "what_happens": "Only the streamer in his room talking about 2v2 wagers; no game picture at all",
+  "gameplay_visible": false,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "MistyFastChickpeaBatChest-1l50Cnz_nbghKxmh": {
+  "at": "2026-11-25T00:14:45.047257+00:00",
+  "moment_score": 4,
+  "what_happens": "Police ram his car and he hits a wall twice during a chase; an ordinary chase crash in 19 s with two tiny webcams",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
