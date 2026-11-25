@@ -42,13 +42,19 @@ def loudness(pcm):
     return {"peak_db": float(np.percentile(db, 95) - np.median(db)), "level_db": float(np.median(db))}
 
 
-def verdict(m, cam, fullcam, cfg, cam_required=True):
-    """Return (ok, reason). Thresholds live in config.yaml -> quality."""
+def verdict(m, cam, fullcam, cfg, cam_required=True, hot=False):
+    """Return (ok, reason). Thresholds live in config.yaml -> quality.
+
+    hot: a clip viewers have already picked (one of the most viewed on Twitch). A still scene with one burst
+    of action is common there, so a low median is fine as long as something does move; the editor decides.
+    """
     q = cfg.get("quality") or {}
     if fullcam:
         return False, "streamer fills the screen, no gameplay"
     if cam_required and q.get("require_cam", True) and not cam:
         return False, "no webcam found"
+    if hot and m["motion_p90"] >= q.get("hot_min_motion_p90", 0.15):
+        return True, "ok"
     if m["motion"] < q.get("min_motion", 0.08):
         return False, f"picture is almost static (motion {m['motion']:.2f})"
     if m["static_share"] > q.get("max_static_share", 0.5):

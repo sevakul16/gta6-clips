@@ -1282,7 +1282,7 @@ def evaluate(cfg, state, c, td):
     m = quality.motion(src, cam, vw, vh)
     tag = f"{c['login']}_{c['id'][-12:]}"
     # in review mode the editor can still point at a webcam the detector missed
-    ok, why = quality.verdict(m, cam, fullcam, cfg, cam_required=mode != "review")
+    ok, why = quality.verdict(m, cam, fullcam, cfg, cam_required=mode != "review", hot=bool(c.get("hot")))
     log(f"   {vw}x{vh} {dur:.0f}s, cam {cam}, motion {m['motion']:.2f} (p90 {m['motion_p90']:.2f}), "
         f"static {m['static_share']:.0%}")
     if not ok:
