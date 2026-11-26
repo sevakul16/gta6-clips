@@ -3341,859 +3341,141 @@
    "kind": "chat",
    "vod": "2940864084",
    "vod_t": 21579.906161
+  },
+  "BombasticPolishedSlothTwitchRPG-UC0k9k0NkWzYpdMF": {
+   "at": "2026-11-26T07:20:36.108096+00:00",
+   "why": "editor: 4/10, Dark night police chase, then half of the 15 s clip is the red death screen; the moment Lucia goes under the wheels is not visible",
+   "login": "recrent",
+   "kind": "clip",
+   "vod": "2940381736",
+   "vod_t": 14614
+  },
+  "chat-2940864084-453": {
+   "at": "2026-11-26T07:20:36.108567+00:00",
+   "why": "editor: 5/10, Peanut avatar instead of a webcam. Picks up a friend by helicopter, clips a building and wrecks it on the street, then says 'let's take a car'. Decent gag, but no real webcam",
+   "login": "theburntpeanut",
+   "kind": "chat",
+   "vod": "2940864084",
+   "vod_t": 20384.219028
+  },
+  "chat-2941109160-55": {
+   "at": "2026-11-26T07:20:36.109039+00:00",
+   "why": "editor: 5/10, Takes a crop duster gig and flies the plane into a barn half a minute later; the game texts 'your crop duster is kinda destroyed'. The streamer barely speaks, the joke is the game's, a cut with the setup would run 45 s",
+   "login": "maximilian_dood",
+   "kind": "chat",
+   "vod": "2941109160",
+   "vod_t": 2441.454691
   }
  },
  "pending": {
-  "BombasticPolishedSlothTwitchRPG-UC0k9k0NkWzYpdMF": {
-   "id": "BombasticPolishedSlothTwitchRPG-UC0k9k0NkWzYpdMF",
-   "url": "https://www.twitch.tv/recrent/clip/BombasticPolishedSlothTwitchRPG-UC0k9k0NkWzYpdMF",
+  "ImpossibleRealSwordCorgiDerp-vk-lFoxUWkn5RHRS": {
+   "id": "ImpossibleRealSwordCorgiDerp-vk-lFoxUWkn5RHRS",
+   "url": "https://www.twitch.tv/bratishkinoff/clip/ImpossibleRealSwordCorgiDerp-vk-lFoxUWkn5RHRS",
    "section": null,
    "kind": "clip",
-   "views": 300,
-   "title": "Минус Лусия",
-   "vod": "2940381736",
-   "vod_t": 14614,
+   "views": 304,
+   "title": "умный в гору не пойдет он в нее залетит",
+   "vod": "2940292392",
+   "vod_t": 42708,
    "group": "ru",
-   "login": "recrent",
-   "name": "Recrent",
-   "source": "Twitch clip made by a viewer, 300 views, titled \"Минус Лусия\"",
-   "at": "2026-11-26T06:14:45.393202+00:00",
+   "login": "bratishkinoff",
+   "name": "bratishkinOFF",
+   "source": "Twitch clip made by a viewer, 304 views, titled \"умный в гору не пойдет он в нее залетит\"",
+   "at": "2026-11-26T07:20:28.751788+00:00",
    "cam": [
-    152,
-    629,
-    323,
-    227
+    18,
+    582,
+    478,
+    336
    ],
    "size": [
     2560,
     1440
    ],
-   "dur": 15.5,
+   "dur": 24.8,
    "words": [
     {
-     "word": " Люсия",
-     "start": 10.61,
-     "end": 11.17
-    },
-    {
-     "word": " прыгнула",
-     "start": 11.17,
-     "end": 11.59
-    },
-    {
-     "word": " под",
-     "start": 11.59,
-     "end": 11.67
-    },
-    {
-     "word": " колеса,",
-     "start": 11.67,
-     "end": 12.09
-    },
-    {
-     "word": " я",
-     "start": 12.15,
-     "end": 12.21
-    },
-    {
-     "word": " ее",
-     "start": 12.21,
-     "end": 12.41
-    },
-    {
-     "word": " убил.",
-     "start": 12.41,
-     "end": 12.75
-    },
-    {
-     "word": " Это",
-     "start": 13.59,
-     "end": 14.23
-    },
-    {
-     "word": " просто",
-     "start": 14.23,
-     "end": 14.55
-    },
-    {
-     "word": " какая",
-     "start": 14.55,
-     "end": 14.83
-    },
-    {
-     "word": "-то",
-     "start": 14.83,
-     "end": 15.03
-    },
-    {
-     "word": " хуйня.",
-     "start": 15.03,
-     "end": 15.39
-    }
-   ],
-   "metrics": {
-    "motion": 0.17302094426695067,
-    "motion_p90": 0.5106141285055024,
-    "static_share": 0.16393442622950818,
-    "peak_db": 3.492593765258789,
-    "level_db": -21.944568634033203
-   },
-   "silence": []
-  },
-  "chat-2940864084-453": {
-   "id": "chat-2940864084-453",
-   "url": "https://www.twitch.tv/videos/2940864084",
-   "section": [
-    20384.219028,
-    20440.219028
-   ],
-   "kind": "chat",
-   "views": 178,
-   "title": "",
-   "vod": "2940864084",
-   "vod_t": 20384.219028,
-   "group": "en",
-   "login": "theburntpeanut",
-   "name": "TheBurntPeanut",
-   "viewers": 52161,
-   "chat_score": 6.85,
-   "found_at": "2026-11-26T06:14:05.911986+00:00",
-   "spike_at": "2026-11-26T06:05:38.219028+00:00",
-   "chat": [
-    "22x Lol",
-    "19x LUL",
-    "11x Lmao",
-    "3x tbpeanutWelp",
-    "3x LMFAO",
-    "3x hahahaha",
-    "3x welp",
-    "2x D:",
-    "2x HAH",
-    "2x LMAOOO",
-    "2x bro",
-    "2x HAHAHAHAHAHA",
-    "tbpeanutTypeShi",
-    "ofc",
-    "This vehicle is no longer functional",
-    "very smooth",
-    "Expected as much lmaoo",
-    "Hahaha",
-    "SeemsGood",
-    "CLIP FARMER"
-   ],
-   "source": "cut from the live stream at a chat spike: 178 chatters in 15 s, 6.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-26T06:15:14.312443+00:00",
-   "cam": [
-    288,
-    756,
-    422,
-    324
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 60.0,
-   "words": [
-    {
-     "word": " You",
+     "word": " Айси!",
      "start": 0.0,
-     "end": 0.24
+     "end": 0.66
     },
     {
-     "word": " busy?",
-     "start": 0.24,
-     "end": 0.54
+     "word": " Айси!",
+     "start": 0.9,
+     "end": 1.16
     },
     {
-     "word": " Wanna",
-     "start": 0.96,
-     "end": 1.22
+     "word": " Я",
+     "start": 1.16,
+     "end": 1.16
     },
     {
-     "word": " hang",
-     "start": 1.22,
-     "end": 1.44
+     "word": " практически",
+     "start": 1.16,
+     "end": 1.34
     },
     {
-     "word": " out?",
-     "start": 1.44,
-     "end": 1.64
+     "word": " Forget",
+     "start": 1.34,
+     "end": 1.8
     },
     {
-     "word": " Always.",
-     "start": 1.98,
+     "word": " My",
+     "start": 1.8,
      "end": 2.32
     },
     {
-     "word": " You",
-     "start": 2.86,
-     "end": 3.0
+     "word": " Armacy!",
+     "start": 4.02,
+     "end": 4.8
     },
     {
-     "word": " gave",
-     "start": 3.0,
-     "end": 3.2
+     "word": " Ман",
+     "start": 4.94,
+     "end": 5.34
     },
     {
-     "word": " me.",
-     "start": 3.2,
-     "end": 3.38
+     "word": " soreль",
+     "start": 5.34,
+     "end": 5.64
     },
     {
-     "word": " Well,",
-     "start": 3.88,
-     "end": 4.14
+     "word": " с",
+     "start": 5.64,
+     "end": 5.74
     },
     {
-     "word": " I",
-     "start": 4.22,
-     "end": 4.22
+     "word": " impossible,",
+     "start": 5.74,
+     "end": 6.0
     },
     {
-     "word": " can't",
-     "start": 4.22,
-     "end": 4.4
-    },
-    {
-     "word": " really...",
-     "start": 4.4,
-     "end": 5.1
-    },
-    {
-     "word": " I'll",
-     "start": 5.1,
-     "end": 5.48
-    },
-    {
-     "word": " get",
-     "start": 5.48,
-     "end": 5.66
-    },
-    {
-     "word": " you",
-     "start": 5.66,
-     "end": 5.8
-    },
-    {
-     "word": " right",
-     "start": 5.8,
-     "end": 5.98
-    },
-    {
-     "word": " now.",
-     "start": 5.98,
-     "end": 6.22
-    },
-    {
-     "word": " Um...",
-     "start": 9.79,
-     "end": 10.19
-    },
-    {
-     "word": " I",
-     "start": 10.19,
-     "end": 10.31
-    },
-    {
-     "word": " guess",
-     "start": 10.31,
-     "end": 10.45
-    },
-    {
-     "word": " I",
-     "start": 10.45,
-     "end": 10.59
-    },
-    {
-     "word": " can",
-     "start": 10.59,
-     "end": 10.61
-    },
-    {
-     "word": " make",
-     "start": 10.61,
-     "end": 10.75
-    },
-    {
-     "word": " a",
-     "start": 10.75,
-     "end": 10.83
-    },
-    {
-     "word": " little",
-     "start": 10.83,
-     "end": 11.05
-    },
-    {
-     "word": " detour,",
-     "start": 11.05,
-     "end": 11.57
-    },
-    {
-     "word": " just",
-     "start": 11.59,
-     "end": 11.79
-    },
-    {
-     "word": " keep",
-     "start": 11.79,
-     "end": 11.97
-    },
-    {
-     "word": " an",
-     "start": 11.97,
-     "end": 12.11
-    },
-    {
-     "word": " eye",
-     "start": 12.11,
-     "end": 12.27
-    },
-    {
-     "word": " on",
-     "start": 12.27,
-     "end": 12.47
-    },
-    {
-     "word": " them.",
-     "start": 12.47,
-     "end": 12.61
-    },
-    {
-     "word": " Just",
-     "start": 15.17,
-     "end": 15.41
-    },
-    {
-     "word": " don't",
-     "start": 15.41,
-     "end": 15.65
-    },
-    {
-     "word": " lose",
-     "start": 15.65,
-     "end": 15.97
-    },
-    {
-     "word": " them,",
-     "start": 15.97,
-     "end": 16.13
-    },
-    {
-     "word": " okay?",
-     "start": 16.17,
-     "end": 16.53
-    },
-    {
-     "word": " Oh,",
-     "start": 30.34,
-     "end": 30.74
-    },
-    {
-     "word": " that's",
-     "start": 30.98,
-     "end": 31.16
-    },
-    {
-     "word": " a",
-     "start": 31.16,
-     "end": 31.24
-    },
-    {
-     "word": " seagull",
-     "start": 31.24,
-     "end": 31.66
-    },
-    {
-     "word": " in",
-     "start": 31.66,
-     "end": 31.76
-    },
-    {
-     "word": " my",
-     "start": 31.76,
-     "end": 31.9
-    },
-    {
-     "word": " back",
-     "start": 31.9,
-     "end": 32.24
-    },
-    {
-     "word": " rotor.",
-     "start": 32.24,
-     "end": 32.56
-    },
-    {
-     "word": " Probably",
-     "start": 33.56,
-     "end": 33.96
-    },
-    {
-     "word": " not",
-     "start": 33.96,
-     "end": 34.1
-    },
-    {
-     "word": " good",
-     "start": 34.1,
-     "end": 34.42
-    },
-    {
-     "word": " for",
-     "start": 34.42,
-     "end": 34.6
-    },
-    {
-     "word": " the",
-     "start": 34.6,
-     "end": 34.68
-    },
-    {
-     "word": " helicopter.",
-     "start": 34.68,
-     "end": 34.9
-    },
-    {
-     "word": " Alright,",
-     "start": 35.66,
-     "end": 36.06
-    },
-    {
-     "word": " hop",
-     "start": 36.22,
-     "end": 36.36
-    },
-    {
-     "word": " in,",
-     "start": 36.36,
-     "end": 36.56
-    },
-    {
-     "word": " gees!",
-     "start": 36.64,
-     "end": 36.86
-    },
-    {
-     "word": " Whee!",
-     "start": 43.67,
-     "end": 44.07
-    },
-    {
-     "word": " Whee!",
-     "start": 48.63,
-     "end": 49.03
-    },
-    {
-     "word": " Ah,",
-     "start": 50.7,
-     "end": 50.94
-    },
-    {
-     "word": " you",
-     "start": 51.08,
-     "end": 51.2
-    },
-    {
-     "word": " know",
-     "start": 51.2,
-     "end": 51.26
-    },
-    {
-     "word": " what?",
-     "start": 51.26,
-     "end": 51.46
-    },
-    {
-     "word": " You",
-     "start": 51.96,
-     "end": 52.36
-    },
-    {
-     "word": " know",
-     "start": 52.36,
-     "end": 52.46
-    },
-    {
-     "word": " what?",
-     "start": 52.46,
-     "end": 52.62
-    },
-    {
-     "word": " Let's",
-     "start": 52.72,
-     "end": 52.88
-    },
-    {
-     "word": " take",
-     "start": 52.88,
-     "end": 52.98
-    },
-    {
-     "word": " a",
-     "start": 52.98,
-     "end": 53.08
-    },
-    {
-     "word": " car.",
-     "start": 53.08,
-     "end": 53.28
-    },
-    {
-     "word": " Let's",
-     "start": 53.62,
-     "end": 53.92
-    },
-    {
-     "word": " take",
-     "start": 53.92,
-     "end": 54.1
-    },
-    {
-     "word": " a",
-     "start": 54.1,
-     "end": 54.24
-    },
-    {
-     "word": " car.",
-     "start": 54.24,
-     "end": 54.48
-    },
-    {
-     "word": " You",
-     "start": 55.42,
-     "end": 55.78
-    },
-    {
-     "word": " know",
-     "start": 55.78,
-     "end": 56.14
-    },
-    {
-     "word": " what?",
-     "start": 56.14,
-     "end": 56.3
-    },
-    {
-     "word": " Let's",
-     "start": 57.0,
-     "end": 57.2
-    },
-    {
-     "word": " take",
-     "start": 57.2,
-     "end": 57.28
-    },
-    {
-     "word": " a",
-     "start": 57.28,
-     "end": 57.36
-    },
-    {
-     "word": " car,",
-     "start": 57.36,
-     "end": 57.52
-    },
-    {
-     "word": " guys.",
-     "start": 57.6,
-     "end": 57.7
-    },
-    {
-     "word": " Let's",
-     "start": 58.58,
-     "end": 58.94
-    },
-    {
-     "word": " take",
-     "start": 58.94,
-     "end": 59.08
-    },
-    {
-     "word": " ourselves",
-     "start": 59.08,
-     "end": 59.44
-    },
-    {
-     "word": " a",
-     "start": 59.44,
-     "end": 59.8
-    },
-    {
-     "word": " car.",
-     "start": 59.8,
-     "end": 59.86
-    }
-   ],
-   "metrics": {
-    "motion": 0.373805256869773,
-    "motion_p90": 0.5203554360812426,
-    "static_share": 0.1506276150627615,
-    "peak_db": 9.33442497253418,
-    "level_db": -29.423259735107422
-   },
-   "silence": []
-  },
-  "PopularFantasticDragonSeemsGood-a6qGkM8-9eU9cre4": {
-   "id": "PopularFantasticDragonSeemsGood-a6qGkM8-9eU9cre4",
-   "vod": "2938915006",
-   "vod_t": 152480,
-   "group": "ru",
-   "views": 1013,
-   "title": "колиззия 2",
-   "url": "https://www.twitch.tv/frametamer666/clip/PopularFantasticDragonSeemsGood-a6qGkM8-9eU9cre4",
-   "section": null,
-   "kind": "clip",
-   "hot": true,
-   "login": "frametamer666",
-   "name": "frametamer666",
-   "source": "Twitch clip made by a viewer, 1013 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"колиззия 2\"",
-   "at": "2026-11-26T06:58:15.605513+00:00",
-   "cam": [
-    0,
-    317,
-    525,
-    369
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 18.5,
-   "words": [
-    {
-     "word": " Он",
-     "start": 0.0,
-     "end": 0.52
-    },
-    {
-     "word": " гораздо",
-     "start": 0.52,
-     "end": 0.76
-    },
-    {
-     "word": " сильнее",
-     "start": 0.76,
-     "end": 1.28
-    },
-    {
-     "word": " тянет,",
-     "start": 1.28,
-     "end": 1.72
-    },
-    {
-     "word": " чем",
-     "start": 1.72,
-     "end": 1.9
-    },
-    {
-     "word": " он",
-     "start": 1.9,
-     "end": 2.02
-    },
-    {
-     "word": " тянет",
-     "start": 2.02,
-     "end": 2.68
-    },
-    {
-     "word": " газом.",
-     "start": 2.68,
-     "end": 3.64
-    },
-    {
-     "word": " Поняли?",
-     "start": 3.78,
-     "end": 4.06
-    },
-    {
-     "word": " Вот",
-     "start": 4.6,
-     "end": 4.66
-    },
-    {
-     "word": " если",
-     "start": 4.66,
-     "end": 4.98
-    },
-    {
-     "word": " я",
-     "start": 4.98,
-     "end": 5.16
+     "word": " собрался",
+     "start": 6.36,
+     "end": 6.76
     },
     {
      "word": " в",
-     "start": 5.16,
-     "end": 5.26
+     "start": 6.76,
+     "end": 7.04
     },
     {
-     "word": " дом,",
-     "start": 5.26,
-     "end": 5.46
+     "word": " правильном",
+     "start": 7.04,
+     "end": 7.58
     },
     {
-     "word": " например...",
-     "start": 5.86,
-     "end": 6.56
-    },
-    {
-     "word": " ДАНУ",
-     "start": 6.56,
-     "end": 7.1
-    },
-    {
-     "word": " НАХУЙ!",
-     "start": 7.1,
-     "end": 8.16
-    },
-    {
-     "word": " Сука",
-     "start": 11.4,
-     "end": 12.1
-    },
-    {
-     "word": " вторая!",
-     "start": 12.1,
-     "end": 12.8
-    },
-    {
-     "word": " Смотрите.",
-     "start": 15.16,
-     "end": 16.06
-    },
-    {
-     "word": " Да",
-     "start": 16.82,
-     "end": 17.08
-    },
-    {
-     "word": " ну",
-     "start": 17.08,
-     "end": 17.22
-    },
-    {
-     "word": " почему?",
-     "start": 17.22,
-     "end": 17.56
+     "word": " patriarch,",
+     "start": 14.46,
+     "end": 14.68
     }
    ],
    "metrics": {
-    "motion": 0.5040024630541872,
-    "motion_p90": 0.7357142857142858,
+    "motion": 0.37038926957282403,
+    "motion_p90": 0.6038999854206152,
     "static_share": 0.0,
-    "peak_db": 7.143187999725342,
-    "level_db": -14.485111236572266
-   },
-   "silence": []
-  },
-  "chat-2941109160-55": {
-   "id": "chat-2941109160-55",
-   "url": "https://www.twitch.tv/videos/2941109160",
-   "section": [
-    2441.454691,
-    2497.454691
-   ],
-   "kind": "chat",
-   "views": 68,
-   "title": "",
-   "vod": "2941109160",
-   "vod_t": 2441.454691,
-   "group": "en",
-   "login": "maximilian_dood",
-   "name": "Maximilian_DOOD",
-   "viewers": 3527,
-   "chat_score": 6.8,
-   "found_at": "2026-11-26T06:57:43.214952+00:00",
-   "spike_at": "2026-11-26T06:44:00.454691+00:00",
-   "chat": [
-    "12x LUL",
-    "6x LMAO",
-    "4x lol",
-    "3x LMAOOOOO",
-    "2x NotLikeThis",
-    "2x KEKW",
-    "2x WELP",
-    "Lmao 🤣",
-    "doodWut",
-    "LMAOOOO",
-    "Great landing Max",
-    "welp...",
-    "Max.... LUL",
-    "Went how I figured",
-    "well gg"
-   ],
-   "source": "cut from the live stream at a chat spike: 68 chatters in 15 s, 6.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-26T06:58:38.567083+00:00",
-   "cam": [
-    5,
-    781,
-    424,
-    298
-   ],
-   "size": [
-    1920,
-    1080
-   ],
-   "dur": 57.0,
-   "words": [
-    {
-     "word": " Yeah,",
-     "start": 0.59,
-     "end": 1.11
-    },
-    {
-     "word": " sure.",
-     "start": 1.15,
-     "end": 1.37
-    },
-    {
-     "word": " I'll",
-     "start": 1.55,
-     "end": 1.67
-    },
-    {
-     "word": " take",
-     "start": 1.67,
-     "end": 1.79
-    },
-    {
-     "word": " the",
-     "start": 1.79,
-     "end": 1.91
-    },
-    {
-     "word": " gig",
-     "start": 1.91,
-     "end": 2.09
-    },
-    {
-     "word": " He's",
-     "start": 10.18,
-     "end": 10.54
-    },
-    {
-     "word": " very",
-     "start": 10.54,
-     "end": 10.82
-    },
-    {
-     "word": " trustworthy",
-     "start": 10.82,
-     "end": 11.32
-    },
-    {
-     "word": " Wow",
-     "start": 55.32,
-     "end": 56.72
-    }
-   ],
-   "metrics": {
-    "motion": 0.21007407407407408,
-    "motion_p90": 0.5826962962962964,
-    "static_share": 0.22026431718061673,
-    "peak_db": 6.389196395874023,
-    "level_db": -32.025360107421875
+    "peak_db": 5.972484588623047,
+    "level_db": -27.828189849853516
    },
    "silence": []
   }
@@ -5311,6 +4593,163 @@
     10.0,
     34.0
    ]
+  },
+  "PopularFantasticDragonSeemsGood-a6qGkM8-9eU9cre4": {
+   "id": "PopularFantasticDragonSeemsGood-a6qGkM8-9eU9cre4",
+   "vod": "2938915006",
+   "vod_t": 152480,
+   "group": "ru",
+   "views": 1013,
+   "title": "колиззия 2",
+   "url": "https://www.twitch.tv/frametamer666/clip/PopularFantasticDragonSeemsGood-a6qGkM8-9eU9cre4",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "frametamer666",
+   "name": "frametamer666",
+   "source": "Twitch clip made by a viewer, 1013 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"колиззия 2\"",
+   "at": "2026-11-26T07:20:36.107779+00:00",
+   "cam": [
+    0,
+    317,
+    525,
+    369
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 18.5,
+   "words": [
+    {
+     "word": " Он",
+     "start": 0.0,
+     "end": 0.52
+    },
+    {
+     "word": " гораздо",
+     "start": 0.52,
+     "end": 0.76
+    },
+    {
+     "word": " сильнее",
+     "start": 0.76,
+     "end": 1.28
+    },
+    {
+     "word": " тянет,",
+     "start": 1.28,
+     "end": 1.72
+    },
+    {
+     "word": " чем",
+     "start": 1.72,
+     "end": 1.9
+    },
+    {
+     "word": " он",
+     "start": 1.9,
+     "end": 2.02
+    },
+    {
+     "word": " тянет",
+     "start": 2.02,
+     "end": 2.68
+    },
+    {
+     "word": " газом.",
+     "start": 2.68,
+     "end": 3.64
+    },
+    {
+     "word": " Поняли?",
+     "start": 3.78,
+     "end": 4.06
+    },
+    {
+     "word": " Вот",
+     "start": 4.6,
+     "end": 4.66
+    },
+    {
+     "word": " если",
+     "start": 4.66,
+     "end": 4.98
+    },
+    {
+     "word": " я",
+     "start": 4.98,
+     "end": 5.16
+    },
+    {
+     "word": " в",
+     "start": 5.16,
+     "end": 5.26
+    },
+    {
+     "word": " дом,",
+     "start": 5.26,
+     "end": 5.46
+    },
+    {
+     "word": " например...",
+     "start": 5.86,
+     "end": 6.56
+    },
+    {
+     "word": " ДАНУ",
+     "start": 6.56,
+     "end": 7.1
+    },
+    {
+     "word": " НАХУЙ!",
+     "start": 7.1,
+     "end": 8.16
+    },
+    {
+     "word": " Сука",
+     "start": 11.4,
+     "end": 12.1
+    },
+    {
+     "word": " вторая!",
+     "start": 12.1,
+     "end": 12.8
+    },
+    {
+     "word": " Смотрите.",
+     "start": 15.16,
+     "end": 16.06
+    },
+    {
+     "word": " Да",
+     "start": 16.82,
+     "end": 17.08
+    },
+    {
+     "word": " ну",
+     "start": 17.08,
+     "end": 17.22
+    },
+    {
+     "word": " почему?",
+     "start": 17.22,
+     "end": 17.56
+    }
+   ],
+   "metrics": {
+    "motion": 0.5040024630541872,
+    "motion_p90": 0.7357142857142858,
+    "static_share": 0.0,
+    "peak_db": 7.143187999725342,
+    "level_db": -14.485111236572266
+   },
+   "silence": [],
+   "caption": "Пикап на тросе снова выстрелил в небо, перелетел особняк и упал к бассейну 😂",
+   "hook": "Пикап над особняком",
+   "cover_at": 6.9,
+   "score": 7,
+   "keep": null
   }
  },
  "no_vod": {
@@ -6369,7 +5808,7 @@
    "seconds": 26.1
   }
  },
- "checked_n": 270,
+ "checked_n": 271,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
