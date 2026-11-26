@@ -4154,6 +4154,550 @@
     "level_db": -26.579242706298828
    },
    "silence": []
+  },
+  "FurryInquisitiveSwordBrokeBack-5SIOik-M_5vJpDsB": {
+   "id": "FurryInquisitiveSwordBrokeBack-5SIOik-M_5vJpDsB",
+   "url": "https://www.twitch.tv/bratishkinoff/clip/FurryInquisitiveSwordBrokeBack-5SIOik-M_5vJpDsB",
+   "section": null,
+   "kind": "clip",
+   "views": 319,
+   "title": "призрак",
+   "vod": "2940292392",
+   "vod_t": 10530,
+   "group": "ru",
+   "login": "bratishkinoff",
+   "name": "bratishkinOFF",
+   "source": "Twitch clip made by a viewer, 319 views, titled \"призрак\"",
+   "at": "2026-11-26T02:57:36.275902+00:00",
+   "cam": [
+    2202,
+    537,
+    235,
+    165
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 40.1,
+   "words": [
+    {
+     "word": " Оно!",
+     "start": 0.0,
+     "end": 0.26
+    },
+    {
+     "word": " Оно!",
+     "start": 0.44,
+     "end": 0.84
+    },
+    {
+     "word": " Оно!",
+     "start": 1.06,
+     "end": 1.4
+    },
+    {
+     "word": " Стой!",
+     "start": 15.47,
+     "end": 16.27
+    },
+    {
+     "word": " Блядь,",
+     "start": 16.89,
+     "end": 17.31
+    },
+    {
+     "word": " злой!",
+     "start": 17.31,
+     "end": 17.83
+    }
+   ],
+   "metrics": {
+    "motion": 0.14067772778402698,
+    "motion_p90": 0.2947131608548932,
+    "static_share": 0.018867924528301886,
+    "peak_db": 8.045673370361328,
+    "level_db": -28.299041748046875
+   },
+   "silence": []
+  },
+  "chat-2940500640-732": {
+   "id": "chat-2940500640-732",
+   "url": "https://www.twitch.tv/videos/2940500640",
+   "section": [
+    32924.206605,
+    32980.206605
+   ],
+   "kind": "chat",
+   "views": 42,
+   "title": "",
+   "vod": "2940500640",
+   "vod_t": 32924.206605,
+   "group": "en",
+   "login": "shroud",
+   "name": "shroud",
+   "viewers": 9196,
+   "chat_score": 6.0,
+   "found_at": "2026-11-26T02:56:54.847441+00:00",
+   "spike_at": "2026-11-26T02:47:47.206605+00:00",
+   "chat": [
+    "NODDERRS",
+    "The entire loop of the game is heists",
+    "that’s how you make money",
+    "that car falling apart LOL",
+    "do watever u want",
+    "you need tons of money",
+    "youre not batman without robin",
+    "@imnothimothy_ same StonksUp"
+   ],
+   "source": "cut from the live stream at a chat spike: 42 chatters in 15 s, 6.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-26T02:58:10.404418+00:00",
+   "cam": [
+    27,
+    567,
+    407,
+    286
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 60.0,
+   "words": [
+    {
+     "word": " Sorry,",
+     "start": 5.74,
+     "end": 6.3
+    },
+    {
+     "word": " I'm",
+     "start": 6.48,
+     "end": 6.74
+    },
+    {
+     "word": " just",
+     "start": 6.74,
+     "end": 6.84
+    },
+    {
+     "word": " driving",
+     "start": 6.84,
+     "end": 7.06
+    },
+    {
+     "word": " around.",
+     "start": 7.06,
+     "end": 7.3
+    },
+    {
+     "word": " Hey,",
+     "start": 9.91,
+     "end": 10.39
+    },
+    {
+     "word": " what's",
+     "start": 10.39,
+     "end": 10.55
+    },
+    {
+     "word": " this?",
+     "start": 10.55,
+     "end": 10.73
+    },
+    {
+     "word": " Oh",
+     "start": 12.47,
+     "end": 12.95
+    },
+    {
+     "word": " That's",
+     "start": 14.85,
+     "end": 15.33
+    },
+    {
+     "word": " big",
+     "start": 15.33,
+     "end": 15.75
+    },
+    {
+     "word": " money",
+     "start": 15.75,
+     "end": 16.17
+    },
+    {
+     "word": " Wait,",
+     "start": 17.43,
+     "end": 17.91
+    },
+    {
+     "word": " it's",
+     "start": 17.93,
+     "end": 18.09
+    },
+    {
+     "word": " right",
+     "start": 18.09,
+     "end": 18.31
+    },
+    {
+     "word": " next",
+     "start": 18.31,
+     "end": 18.53
+    },
+    {
+     "word": " to",
+     "start": 18.53,
+     "end": 18.73
+    },
+    {
+     "word": " where",
+     "start": 18.73,
+     "end": 18.87
+    },
+    {
+     "word": " I",
+     "start": 18.87,
+     "end": 19.01
+    },
+    {
+     "word": " did",
+     "start": 19.01,
+     "end": 19.57
+    },
+    {
+     "word": " the",
+     "start": 19.57,
+     "end": 19.89
+    },
+    {
+     "word": " dirty",
+     "start": 19.89,
+     "end": 20.39
+    },
+    {
+     "word": " Okay,",
+     "start": 21.71,
+     "end": 22.19
+    },
+    {
+     "word": " we'll",
+     "start": 22.21,
+     "end": 22.33
+    },
+    {
+     "word": " go",
+     "start": 22.33,
+     "end": 22.43
+    },
+    {
+     "word": " in",
+     "start": 22.43,
+     "end": 22.51
+    },
+    {
+     "word": " this",
+     "start": 22.51,
+     "end": 22.61
+    },
+    {
+     "word": " pawn",
+     "start": 22.61,
+     "end": 22.79
+    },
+    {
+     "word": " shop",
+     "start": 22.79,
+     "end": 23.07
+    },
+    {
+     "word": " is",
+     "start": 23.07,
+     "end": 23.75
+    },
+    {
+     "word": " Am",
+     "start": 24.61,
+     "end": 24.99
+    },
+    {
+     "word": " I",
+     "start": 24.99,
+     "end": 25.15
+    },
+    {
+     "word": " supposed",
+     "start": 25.15,
+     "end": 25.43
+    },
+    {
+     "word": " to",
+     "start": 25.43,
+     "end": 25.79
+    },
+    {
+     "word": " be",
+     "start": 25.79,
+     "end": 25.89
+    },
+    {
+     "word": " robbing",
+     "start": 25.89,
+     "end": 26.23
+    },
+    {
+     "word": " stuff",
+     "start": 26.23,
+     "end": 26.41
+    },
+    {
+     "word": " like",
+     "start": 26.41,
+     "end": 26.65
+    },
+    {
+     "word": " this",
+     "start": 26.65,
+     "end": 26.87
+    },
+    {
+     "word": " or",
+     "start": 26.87,
+     "end": 27.11
+    },
+    {
+     "word": " is",
+     "start": 27.11,
+     "end": 27.25
+    },
+    {
+     "word": " this",
+     "start": 27.25,
+     "end": 27.37
+    },
+    {
+     "word": " bad?",
+     "start": 27.37,
+     "end": 27.69
+    },
+    {
+     "word": " like",
+     "start": 29.17,
+     "end": 29.65
+    },
+    {
+     "word": " Like",
+     "start": 32.02,
+     "end": 32.5
+    },
+    {
+     "word": " how",
+     "start": 32.5,
+     "end": 32.98
+    },
+    {
+     "word": " do",
+     "start": 32.98,
+     "end": 33.06
+    },
+    {
+     "word": " I",
+     "start": 33.06,
+     "end": 33.1
+    },
+    {
+     "word": " say",
+     "start": 33.1,
+     "end": 33.22
+    },
+    {
+     "word": " this",
+     "start": 33.22,
+     "end": 33.48
+    },
+    {
+     "word": " like",
+     "start": 33.48,
+     "end": 34.2
+    },
+    {
+     "word": " should",
+     "start": 34.2,
+     "end": 34.42
+    },
+    {
+     "word": " I",
+     "start": 34.42,
+     "end": 34.56
+    },
+    {
+     "word": " play",
+     "start": 34.56,
+     "end": 34.86
+    },
+    {
+     "word": " the",
+     "start": 34.86,
+     "end": 35.02
+    },
+    {
+     "word": " game",
+     "start": 35.02,
+     "end": 35.2
+    },
+    {
+     "word": " without",
+     "start": 35.2,
+     "end": 35.44
+    },
+    {
+     "word": " robbing",
+     "start": 35.44,
+     "end": 35.9
+    },
+    {
+     "word": " stuff",
+     "start": 35.9,
+     "end": 36.1
+    },
+    {
+     "word": " like",
+     "start": 36.1,
+     "end": 36.34
+    },
+    {
+     "word": " this?",
+     "start": 36.34,
+     "end": 36.62
+    },
+    {
+     "word": " Or",
+     "start": 37.74,
+     "end": 38.22
+    },
+    {
+     "word": " is",
+     "start": 38.22,
+     "end": 38.34
+    },
+    {
+     "word": " that",
+     "start": 38.34,
+     "end": 38.44
+    },
+    {
+     "word": " kind",
+     "start": 38.44,
+     "end": 38.64
+    },
+    {
+     "word": " of",
+     "start": 38.64,
+     "end": 38.72
+    },
+    {
+     "word": " like",
+     "start": 38.72,
+     "end": 38.84
+    },
+    {
+     "word": " the",
+     "start": 38.84,
+     "end": 38.96
+    },
+    {
+     "word": " point?",
+     "start": 38.96,
+     "end": 39.24
+    },
+    {
+     "word": " That",
+     "start": 39.24,
+     "end": 40.2
+    },
+    {
+     "word": " sounds",
+     "start": 41.83,
+     "end": 42.07
+    },
+    {
+     "word": " really",
+     "start": 42.07,
+     "end": 42.53
+    },
+    {
+     "word": " stupid",
+     "start": 42.53,
+     "end": 43.01
+    },
+    {
+     "word": " when",
+     "start": 43.01,
+     "end": 43.21
+    },
+    {
+     "word": " I",
+     "start": 43.21,
+     "end": 43.33
+    },
+    {
+     "word": " say",
+     "start": 43.33,
+     "end": 43.49
+    },
+    {
+     "word": " it",
+     "start": 43.49,
+     "end": 43.59
+    },
+    {
+     "word": " out",
+     "start": 43.59,
+     "end": 43.69
+    },
+    {
+     "word": " loud,",
+     "start": 43.69,
+     "end": 43.89
+    },
+    {
+     "word": " but",
+     "start": 43.99,
+     "end": 44.25
+    },
+    {
+     "word": " Yeah,",
+     "start": 46.01,
+     "end": 46.51
+    },
+    {
+     "word": " you",
+     "start": 56.37,
+     "end": 56.87
+    },
+    {
+     "word": " do",
+     "start": 56.87,
+     "end": 57.05
+    },
+    {
+     "word": " you",
+     "start": 57.05,
+     "end": 57.31
+    },
+    {
+     "word": " okay",
+     "start": 57.31,
+     "end": 58.25
+    }
+   ],
+   "metrics": {
+    "motion": 0.3611090573012939,
+    "motion_p90": 0.5177227356746765,
+    "static_share": 0.1297071129707113,
+    "peak_db": 15.648262023925781,
+    "level_db": -34.83869171142578
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -6252,7 +6796,7 @@
    "seconds": 26.1
   }
  },
- "checked_n": 249,
+ "checked_n": 251,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
