@@ -1,20 +1,4 @@
 {
- "chat-2939344770-362": {
-  "at": "2026-11-24T19:14:32.772387+00:00",
-  "moment_score": 5,
-  "what_happens": "Freshly delivered car hits a light pole on the highway and the character flies through the windshield in slow motion; a good visual gag, but the streamer says nothing for the whole minute (no speech at all) and sits turned away in a tiny webcam, so there is no reaction to show",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2939296973-483": {
-  "at": "2026-11-24T19:14:32.828208+00:00",
-  "moment_score": 3,
-  "what_happens": "Scripted mission escape on a dirt bike at dusk with only game dialogue; dark picture, no event of the streamer's own and no reaction",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "WonderfulCuriousLobsterChefFrank-qfyn1_cjxtYuxS6o": {
   "at": "2026-11-24T20:15:36.539260+00:00",
   "moment_score": 7,
@@ -1764,5 +1748,55 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "chat-2940388399-2102": {
+  "at": "2026-11-26T19:19:07.390205+00:00",
+  "moment_score": 4,
+  "what_happens": "Night mission shootout by a warehouse: takes cover behind a pillar, gets shot, WASTED, restarts. Streamer silent until 34 s; an ordinary mission death.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941361927-254": {
+  "at": "2026-11-26T19:19:07.428809+00:00",
+  "moment_score": 2,
+  "what_happens": "Story cutscene at the airport: the deal goes wrong and a crew member is shot (chat: NOOOO NATE). Cutscene only and a story spoiler.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "ZealousAgreeablePoultryHeyGuys-IOxAVg64-JTLdcyR": {
+  "at": "2026-11-26T19:19:07.474187+00:00",
+  "moment_score": 4,
+  "what_happens": "Cargo ship: plants a sticky bomb on a container door, blows it, walks the deck, something drops into the water; wonders if there was a reason to steal it. No clear event or reaction; the source has burned-in captions.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941339641-371": {
+  "at": "2026-11-26T19:19:07.526618+00:00",
+  "moment_score": 5,
+  "what_happens": "Seaplane flown low over roads, clips a bird and ends up in the trees; 'Landed. Nailed it.' Mild crash, setup and payoff 40 s apart; second plane crash of the same streamer this hour, the barrel-roll one is stronger.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941339641-344": {
+  "at": "2026-11-26T19:19:07.575313+00:00",
+  "moment_score": 6,
+  "what_happens": "Stunt biplane mission: the instructor asks for a loop or a barrel roll, 'A barrel roll? Like that?', the plane rolls into the city and the mission fails (The plane was destroyed); 'Oh, I thought you said crash. Sorry, I kind of blocked out everything else.' Self-own with a verbal setup and a funny line; the last 9 s of the cut are the fail screen under the line.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Asked for a barrel roll, heard \"crash\" 😅",
+  "keep_start": 33.0,
+  "keep_end": 55.0,
+  "cam": [
+   0.76,
+   0.43,
+   0.24,
+   0.3
+  ],
+  "hook": "Do a barrel roll",
+  "cover_at": 41.0
  }
 }
