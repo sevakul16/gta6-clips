@@ -1714,5 +1714,35 @@
    0.18,
    0.225
   ]
+ },
+ "chat-2941187177-384": {
+  "at": "2026-11-26T15:13:40.650160+00:00",
+  "moment_score": 3,
+  "what_happens": "No webcam in the layout. Bank vault loot and escape on foot with the bag, weapon wheel and map screens, streamer says one word; chat jokes about the bag. No event.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940434423-1770": {
+  "at": "2026-11-26T15:13:40.701719+00:00",
+  "moment_score": 5,
+  "what_happens": "Storm night mission: takes an RPG from a police trunk, promises to punish the gunner, stands up and dies from one bullet; chat laughs 'punished'. Good self-own but the picture is nearly black, the cam is tiny and dark, and the last third is pause menu and black screens.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941274494-144": {
+  "at": "2026-11-26T15:13:40.753932+00:00",
+  "moment_score": 5,
+  "what_happens": "45 s of silent motorcycle riding on a highway, then flies off a bridge over a marina into the water and laughs 'not bad'. Generic bike crash, streamer silent until the end, small cutout cam.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "",
+  "cam": [
+   0.0,
+   0.4,
+   0.2,
+   0.25
+  ]
  }
 }
