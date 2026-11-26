@@ -1136,11 +1136,6 @@
   }
  },
  "rejected": {
-  "chat-2937407818-738": {
-   "at": "2026-11-23T02:28:46.483519+00:00",
-   "why": "editor: no gameplay on screen",
-   "login": "steel"
-  },
   "chat-2937517119-764": {
    "at": "2026-11-23T03:32:52.840893+00:00",
    "why": "picture is almost static (motion 0.04)",
@@ -3241,6 +3236,14 @@
    "kind": "chat",
    "vod": "2940864084",
    "vod_t": 4686.772951
+  },
+  "chat-2940749005-342": {
+   "at": "2026-11-26T02:35:18.178097+00:00",
+   "why": "streamer fills the screen, no gameplay",
+   "login": "penta",
+   "kind": "chat",
+   "vod": "2940749005",
+   "vod_t": 15379.467921
   }
  },
  "pending": {
@@ -3361,6 +3364,794 @@
     "static_share": 0.3574468085106383,
     "peak_db": 10.962791442871094,
     "level_db": -43.88856506347656
+   },
+   "silence": []
+  },
+  "chat-2940574635-603": {
+   "id": "chat-2940574635-603",
+   "url": "https://www.twitch.tv/videos/2940574635",
+   "section": [
+    27123.306853,
+    27179.306853
+   ],
+   "kind": "chat",
+   "views": 117,
+   "title": "",
+   "vod": "2940574635",
+   "vod_t": 27123.306853,
+   "group": "en",
+   "login": "jerma985",
+   "name": "Jerma985",
+   "viewers": 13127,
+   "chat_score": 4.03,
+   "found_at": "2026-11-26T02:34:44.358106+00:00",
+   "spike_at": "2026-11-26T02:31:16.306853+00:00",
+   "chat": [
+    "16x OMEGALUL",
+    "10x APPLE",
+    "8x LUL",
+    "7x OMEGALUL ͏",
+    "4x LOL",
+    "3x +2",
+    "2x LMFAO",
+    "2x LMAO",
+    "2x GIGACHAD",
+    "2x ofc",
+    "2x OMEGALUL apple break",
+    "2x ICANT",
+    "OMEGALUL realistic game",
+    "pos ignored his gf until he needed her help",
+    "NOO WAY LMAO",
+    "Classic",
+    "AHAHAHAHA",
+    "the apple bandit",
+    "apple up",
+    "you’re not real i’m giggling"
+   ],
+   "source": "cut from the live stream at a chat spike: 117 chatters in 15 s, 4.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-26T02:35:35.680022+00:00",
+   "cam": [
+    0,
+    543,
+    508,
+    357
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 59.0,
+   "words": [
+    {
+     "word": " All",
+     "start": 4.91,
+     "end": 5.41
+    },
+    {
+     "word": " right.",
+     "start": 5.41,
+     "end": 5.75
+    },
+    {
+     "word": " All",
+     "start": 5.77,
+     "end": 5.85
+    },
+    {
+     "word": " right.",
+     "start": 5.85,
+     "end": 6.11
+    },
+    {
+     "word": " All",
+     "start": 6.19,
+     "end": 6.21
+    },
+    {
+     "word": " right.",
+     "start": 6.21,
+     "end": 6.49
+    },
+    {
+     "word": " All",
+     "start": 6.85,
+     "end": 6.89
+    },
+    {
+     "word": " right.",
+     "start": 6.89,
+     "end": 6.89
+    },
+    {
+     "word": " All",
+     "start": 6.89,
+     "end": 6.99
+    },
+    {
+     "word": " right.",
+     "start": 6.99,
+     "end": 8.09
+    },
+    {
+     "word": " I",
+     "start": 8.71,
+     "end": 9.19
+    },
+    {
+     "word": " just",
+     "start": 9.19,
+     "end": 9.33
+    },
+    {
+     "word": " had",
+     "start": 9.33,
+     "end": 9.45
+    },
+    {
+     "word": " to",
+     "start": 9.45,
+     "end": 9.51
+    },
+    {
+     "word": " get",
+     "start": 9.51,
+     "end": 9.59
+    },
+    {
+     "word": " a",
+     "start": 9.59,
+     "end": 9.69
+    },
+    {
+     "word": " little",
+     "start": 9.69,
+     "end": 9.81
+    },
+    {
+     "word": " dessert",
+     "start": 9.81,
+     "end": 10.21
+    },
+    {
+     "word": " would",
+     "start": 10.21,
+     "end": 11.23
+    },
+    {
+     "word": " use",
+     "start": 33.92,
+     "end": 34.16
+    },
+    {
+     "word": " some",
+     "start": 34.16,
+     "end": 34.48
+    },
+    {
+     "word": " help",
+     "start": 34.48,
+     "end": 34.78
+    }
+   ],
+   "metrics": {
+    "motion": 0.5418994413407822,
+    "motion_p90": 0.7508379888268156,
+    "static_share": 0.029787234042553193,
+    "peak_db": 16.887624740600586,
+    "level_db": -33.84756851196289
+   },
+   "silence": []
+  },
+  "chat-2940864084-168": {
+   "id": "chat-2940864084-168",
+   "url": "https://www.twitch.tv/videos/2940864084",
+   "section": [
+    7537.997427,
+    7593.997427
+   ],
+   "kind": "chat",
+   "views": 117,
+   "title": "",
+   "vod": "2940864084",
+   "vod_t": 7537.997427,
+   "group": "en",
+   "login": "theburntpeanut",
+   "name": "TheBurntPeanut",
+   "viewers": 39498,
+   "chat_score": 2.72,
+   "found_at": "2026-11-26T02:34:44.535086+00:00",
+   "spike_at": "2026-11-26T02:31:31.997427+00:00",
+   "chat": [
+    "8x no",
+    "2x pier",
+    "2x Yes",
+    "2x boardwalk",
+    "2x right",
+    "It’s a building going into the ocean",
+    "Just kurder every1",
+    "its like a lemonade but dumber",
+    "Its like Lemonade",
+    "Dylan down this is picking out apples out of the garbage can",
+    "sorry dont know",
+    "its a mall",
+    "MANDDYYYY"
+   ],
+   "source": "cut from the live stream at a chat spike: 117 chatters in 15 s, 2.7x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-26T02:35:57.583610+00:00",
+   "cam": [
+    288,
+    756,
+    422,
+    324
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 64.0,
+   "words": [
+    {
+     "word": " Don't",
+     "start": 0.66,
+     "end": 1.26
+    },
+    {
+     "word": " worry.",
+     "start": 1.26,
+     "end": 1.62
+    },
+    {
+     "word": " It's",
+     "start": 1.62,
+     "end": 1.9
+    },
+    {
+     "word": " just",
+     "start": 1.9,
+     "end": 2.18
+    },
+    {
+     "word": " there's",
+     "start": 2.18,
+     "end": 2.92
+    },
+    {
+     "word": " some",
+     "start": 2.92,
+     "end": 3.1
+    },
+    {
+     "word": " cosmetic",
+     "start": 3.1,
+     "end": 3.56
+    },
+    {
+     "word": " damage.",
+     "start": 3.56,
+     "end": 4.18
+    },
+    {
+     "word": " No",
+     "start": 4.48,
+     "end": 4.88
+    },
+    {
+     "word": " real",
+     "start": 4.88,
+     "end": 5.2
+    },
+    {
+     "word": " damage",
+     "start": 5.2,
+     "end": 5.54
+    },
+    {
+     "word": " to",
+     "start": 5.54,
+     "end": 5.82
+    },
+    {
+     "word": " the",
+     "start": 5.82,
+     "end": 5.94
+    },
+    {
+     "word": " engine.",
+     "start": 5.94,
+     "end": 6.24
+    },
+    {
+     "word": " We're",
+     "start": 6.44,
+     "end": 6.5
+    },
+    {
+     "word": " all",
+     "start": 6.5,
+     "end": 6.72
+    },
+    {
+     "word": " gone",
+     "start": 6.72,
+     "end": 7.04
+    },
+    {
+     "word": " Okay,",
+     "start": 17.62,
+     "end": 18.02
+    },
+    {
+     "word": " we're",
+     "start": 18.02,
+     "end": 18.42
+    },
+    {
+     "word": " at",
+     "start": 18.42,
+     "end": 18.52
+    },
+    {
+     "word": " the",
+     "start": 18.52,
+     "end": 18.64
+    },
+    {
+     "word": " beach",
+     "start": 18.64,
+     "end": 18.86
+    },
+    {
+     "word": " now.",
+     "start": 18.86,
+     "end": 19.12
+    },
+    {
+     "word": " We're",
+     "start": 19.18,
+     "end": 19.32
+    },
+    {
+     "word": " still",
+     "start": 19.32,
+     "end": 19.48
+    },
+    {
+     "word": " in",
+     "start": 19.48,
+     "end": 19.6
+    },
+    {
+     "word": " danger",
+     "start": 19.6,
+     "end": 19.72
+    },
+    {
+     "word": " guys.",
+     "start": 19.72,
+     "end": 20.2
+    },
+    {
+     "word": " Where's",
+     "start": 20.6,
+     "end": 21.0
+    },
+    {
+     "word": " that",
+     "start": 21.0,
+     "end": 21.24
+    },
+    {
+     "word": " was",
+     "start": 21.24,
+     "end": 21.36
+    },
+    {
+     "word": " clean",
+     "start": 21.36,
+     "end": 21.58
+    },
+    {
+     "word": "-taking",
+     "start": 21.58,
+     "end": 21.84
+    },
+    {
+     "word": " good",
+     "start": 21.84,
+     "end": 22.06
+    },
+    {
+     "word": " sir",
+     "start": 22.06,
+     "end": 22.24
+    },
+    {
+     "word": " Like",
+     "start": 22.94,
+     "end": 23.34
+    },
+    {
+     "word": " we're",
+     "start": 23.34,
+     "end": 23.54
+    },
+    {
+     "word": " no",
+     "start": 23.54,
+     "end": 23.64
+    },
+    {
+     "word": " reaction",
+     "start": 23.64,
+     "end": 23.94
+    },
+    {
+     "word": " like",
+     "start": 23.94,
+     "end": 24.84
+    },
+    {
+     "word": " we're",
+     "start": 24.84,
+     "end": 25.18
+    },
+    {
+     "word": " no",
+     "start": 25.18,
+     "end": 25.38
+    },
+    {
+     "word": " reaction.",
+     "start": 25.38,
+     "end": 25.92
+    },
+    {
+     "word": " I",
+     "start": 26.08,
+     "end": 26.12
+    },
+    {
+     "word": " do",
+     "start": 26.12,
+     "end": 26.24
+    },
+    {
+     "word": " that",
+     "start": 26.24,
+     "end": 26.34
+    },
+    {
+     "word": " type",
+     "start": 26.34,
+     "end": 26.52
+    },
+    {
+     "word": " of",
+     "start": 26.52,
+     "end": 26.6
+    },
+    {
+     "word": " stuff",
+     "start": 26.6,
+     "end": 26.72
+    },
+    {
+     "word": " all",
+     "start": 26.72,
+     "end": 26.92
+    },
+    {
+     "word": " the",
+     "start": 26.92,
+     "end": 27.0
+    },
+    {
+     "word": " time,",
+     "start": 27.0,
+     "end": 27.24
+    },
+    {
+     "word": " buddy",
+     "start": 27.32,
+     "end": 27.52
+    },
+    {
+     "word": " I",
+     "start": 27.52,
+     "end": 28.0
+    },
+    {
+     "word": " do",
+     "start": 28.0,
+     "end": 28.2
+    },
+    {
+     "word": " that",
+     "start": 28.2,
+     "end": 28.34
+    },
+    {
+     "word": " stuff",
+     "start": 28.34,
+     "end": 28.54
+    },
+    {
+     "word": " all",
+     "start": 28.54,
+     "end": 28.74
+    },
+    {
+     "word": " the",
+     "start": 28.74,
+     "end": 28.82
+    },
+    {
+     "word": " time",
+     "start": 28.82,
+     "end": 29.12
+    },
+    {
+     "word": " It's",
+     "start": 29.8,
+     "end": 30.2
+    },
+    {
+     "word": " how",
+     "start": 30.2,
+     "end": 30.34
+    },
+    {
+     "word": " I",
+     "start": 30.34,
+     "end": 30.46
+    },
+    {
+     "word": " do",
+     "start": 30.46,
+     "end": 30.62
+    },
+    {
+     "word": " it's",
+     "start": 30.62,
+     "end": 31.04
+    },
+    {
+     "word": " actually",
+     "start": 31.04,
+     "end": 31.26
+    },
+    {
+     "word": " my",
+     "start": 31.26,
+     "end": 31.44
+    },
+    {
+     "word": " signature",
+     "start": 31.44,
+     "end": 31.74
+    },
+    {
+     "word": " move",
+     "start": 31.74,
+     "end": 32.24
+    },
+    {
+     "word": " Hmm.",
+     "start": 33.22,
+     "end": 33.62
+    },
+    {
+     "word": " Okay.",
+     "start": 33.7,
+     "end": 34.1
+    },
+    {
+     "word": " We're",
+     "start": 34.12,
+     "end": 34.26
+    },
+    {
+     "word": " on",
+     "start": 34.26,
+     "end": 34.48
+    },
+    {
+     "word": " the",
+     "start": 34.48,
+     "end": 34.62
+    },
+    {
+     "word": " beach.",
+     "start": 34.62,
+     "end": 34.9
+    },
+    {
+     "word": " Let",
+     "start": 35.06,
+     "end": 35.08
+    },
+    {
+     "word": " me",
+     "start": 35.08,
+     "end": 35.14
+    },
+    {
+     "word": " see",
+     "start": 35.14,
+     "end": 35.24
+    },
+    {
+     "word": " what",
+     "start": 35.24,
+     "end": 35.36
+    },
+    {
+     "word": " Google",
+     "start": 35.36,
+     "end": 35.5
+    },
+    {
+     "word": " says",
+     "start": 35.5,
+     "end": 35.76
+    },
+    {
+     "word": " Near",
+     "start": 36.38,
+     "end": 36.78
+    },
+    {
+     "word": " a",
+     "start": 36.78,
+     "end": 37.02
+    },
+    {
+     "word": " beach",
+     "start": 37.02,
+     "end": 37.4
+    },
+    {
+     "word": " promenade.",
+     "start": 37.4,
+     "end": 38.2
+    },
+    {
+     "word": " Does",
+     "start": 38.34,
+     "end": 38.48
+    },
+    {
+     "word": " anyone",
+     "start": 38.48,
+     "end": 38.98
+    },
+    {
+     "word": " know?",
+     "start": 38.98,
+     "end": 39.64
+    },
+    {
+     "word": " What",
+     "start": 41.0,
+     "end": 41.8
+    },
+    {
+     "word": " a",
+     "start": 41.8,
+     "end": 42.0
+    },
+    {
+     "word": " beach",
+     "start": 42.0,
+     "end": 42.56
+    },
+    {
+     "word": " promenade",
+     "start": 42.56,
+     "end": 43.84
+    },
+    {
+     "word": " is",
+     "start": 43.84,
+     "end": 44.2
+    },
+    {
+     "word": " Right",
+     "start": 45.56,
+     "end": 46.4
+    },
+    {
+     "word": " answers",
+     "start": 46.4,
+     "end": 46.84
+    },
+    {
+     "word": " only",
+     "start": 46.84,
+     "end": 47.34
+    },
+    {
+     "word": " right",
+     "start": 47.34,
+     "end": 47.76
+    },
+    {
+     "word": " answers",
+     "start": 47.76,
+     "end": 48.14
+    },
+    {
+     "word": " only",
+     "start": 48.14,
+     "end": 48.56
+    },
+    {
+     "word": " It's",
+     "start": 51.68,
+     "end": 52.52
+    },
+    {
+     "word": " right",
+     "start": 52.52,
+     "end": 52.9
+    },
+    {
+     "word": " there",
+     "start": 52.9,
+     "end": 53.84
+    },
+    {
+     "word": " Bees",
+     "start": 56.27,
+     "end": 56.85
+    },
+    {
+     "word": " prominent",
+     "start": 56.85,
+     "end": 57.07
+    },
+    {
+     "word": " is",
+     "start": 57.07,
+     "end": 57.31
+    },
+    {
+     "word": " a",
+     "start": 57.31,
+     "end": 57.39
+    },
+    {
+     "word": " bathroom",
+     "start": 57.39,
+     "end": 57.87
+    },
+    {
+     "word": " So",
+     "start": 61.6,
+     "end": 62.14
+    },
+    {
+     "word": " what",
+     "start": 62.14,
+     "end": 62.24
+    },
+    {
+     "word": " that",
+     "start": 62.24,
+     "end": 62.32
+    },
+    {
+     "word": " is",
+     "start": 62.32,
+     "end": 62.62
+    }
+   ],
+   "metrics": {
+    "motion": 0.06690561529271206,
+    "motion_p90": 0.6265382317801673,
+    "static_share": 0.01568627450980392,
+    "peak_db": 7.467477798461914,
+    "level_db": -26.579242706298828
    },
    "silence": []
   }
@@ -5461,7 +6252,7 @@
    "seconds": 26.1
   }
  },
- "checked_n": 246,
+ "checked_n": 249,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
