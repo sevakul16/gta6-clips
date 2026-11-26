@@ -1136,21 +1136,6 @@
   }
  },
  "rejected": {
-  "DaintyInquisitiveAnacondaNomNom-IpyTF_N1Cr2osjS-": {
-   "at": "2026-11-23T07:28:33.503199+00:00",
-   "why": "editor: 4/10, Герой достаёт баскетбольный мяч из багажника полицейской машины, пугает им прохожего и бросает мяч с эстакады. Стример молчит, смысл происходящего без контекста не читается.",
-   "login": "bratishkinoff"
-  },
-  "chat-2936392772-2855": {
-   "at": "2026-11-23T07:28:33.503546+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "ludwig"
-  },
-  "chat-2937968840-419": {
-   "at": "2026-11-23T07:28:33.503975+00:00",
-   "why": "editor: 3/10, Сюжетная сцена с выбором «помочь или отказаться», чат голосует. Катсцена и опрос чата, своей игры и реакции нет.",
-   "login": "whoplohoyparen"
-  },
   "chat-2938023226-431": {
    "at": "2026-11-23T08:11:09.368530+00:00",
    "why": "picture is almost static (motion 0.02)",
@@ -3476,6 +3461,344 @@
     "static_share": 0.0,
     "peak_db": 5.972484588623047,
     "level_db": -27.828189849853516
+   },
+   "silence": []
+  },
+  "GoldenGlutenFreeJaguarPhilosoraptor-J_K4IASoUmzqCk9z": {
+   "id": "GoldenGlutenFreeJaguarPhilosoraptor-J_K4IASoUmzqCk9z",
+   "url": "https://www.twitch.tv/bratishkinoff/clip/GoldenGlutenFreeJaguarPhilosoraptor-J_K4IASoUmzqCk9z",
+   "section": null,
+   "kind": "clip",
+   "views": 300,
+   "title": "Grand Theft Auto VI clip at 33m52s",
+   "vod": "2940292392",
+   "vod_t": 2032,
+   "group": "ru",
+   "login": "bratishkinoff",
+   "name": "bratishkinOFF",
+   "source": "Twitch clip made by a viewer, 300 views, titled \"Grand Theft Auto VI clip at 33m52s\"",
+   "at": "2026-11-26T07:41:49.192134+00:00",
+   "cam": [
+    242,
+    668,
+    390,
+    274
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 40.0,
+   "words": [
+    {
+     "word": " Да",
+     "start": 4.82,
+     "end": 5.36
+    },
+    {
+     "word": " иди",
+     "start": 5.36,
+     "end": 5.64
+    },
+    {
+     "word": " нахуй",
+     "start": 5.64,
+     "end": 6.02
+    },
+    {
+     "word": " отсюда",
+     "start": 6.02,
+     "end": 6.42
+    },
+    {
+     "word": " уже",
+     "start": 6.42,
+     "end": 6.68
+    },
+    {
+     "word": " у",
+     "start": 6.68,
+     "end": 6.84
+    },
+    {
+     "word": " ёбища",
+     "start": 6.84,
+     "end": 7.3
+    },
+    {
+     "word": " блять",
+     "start": 7.3,
+     "end": 7.56
+    },
+    {
+     "word": " Долго",
+     "start": 8.48,
+     "end": 9.02
+    },
+    {
+     "word": " танцуешь?",
+     "start": 9.02,
+     "end": 9.56
+    },
+    {
+     "word": " Бох",
+     "start": 17.16,
+     "end": 17.7
+    },
+    {
+     "word": " ты",
+     "start": 17.7,
+     "end": 17.86
+    },
+    {
+     "word": " мой!",
+     "start": 17.86,
+     "end": 18.08
+    },
+    {
+     "word": " Это",
+     "start": 18.3,
+     "end": 18.42
+    },
+    {
+     "word": " тебя",
+     "start": 18.42,
+     "end": 18.6
+    },
+    {
+     "word": " папа",
+     "start": 18.6,
+     "end": 18.88
+    },
+    {
+     "word": " так",
+     "start": 18.88,
+     "end": 19.02
+    },
+    {
+     "word": " научил",
+     "start": 19.02,
+     "end": 19.44
+    },
+    {
+     "word": " делать?",
+     "start": 19.44,
+     "end": 19.74
+    },
+    {
+     "word": " Бох",
+     "start": 19.88,
+     "end": 20.12
+    },
+    {
+     "word": " ты",
+     "start": 20.12,
+     "end": 20.3
+    },
+    {
+     "word": " мой,",
+     "start": 20.3,
+     "end": 20.4
+    },
+    {
+     "word": " маме",
+     "start": 20.5,
+     "end": 20.68
+    },
+    {
+     "word": " на",
+     "start": 20.68,
+     "end": 20.78
+    },
+    {
+     "word": " гордость",
+     "start": 20.78,
+     "end": 21.24
+    },
+    {
+     "word": " Иди",
+     "start": 37.08,
+     "end": 37.62
+    },
+    {
+     "word": " отсюда",
+     "start": 37.62,
+     "end": 38.02
+    },
+    {
+     "word": " пожалуйста",
+     "start": 38.02,
+     "end": 38.34
+    }
+   ],
+   "metrics": {
+    "motion": 0.09053763440860214,
+    "motion_p90": 0.6322437275985665,
+    "static_share": 0.031446540880503145,
+    "peak_db": 13.507606506347656,
+    "level_db": -34.755523681640625
+   },
+   "silence": []
+  },
+  "chat-2941109160-108": {
+   "id": "chat-2941109160-108",
+   "url": "https://www.twitch.tv/videos/2941109160",
+   "section": [
+    4823.757004,
+    4879.757004
+   ],
+   "kind": "chat",
+   "views": 37,
+   "title": "",
+   "vod": "2941109160",
+   "vod_t": 4823.757004,
+   "group": "en",
+   "login": "maximilian_dood",
+   "name": "Maximilian_DOOD",
+   "viewers": 5808,
+   "chat_score": 6.17,
+   "found_at": "2026-11-26T07:41:15.450594+00:00",
+   "spike_at": "2026-11-26T07:23:42.757004+00:00",
+   "chat": [
+    "11x LUL",
+    "2x EZ",
+    "2x doodLUL",
+    "2x LOL",
+    "coxSweat",
+    "Take off mask and hat",
+    "max...",
+    "LMAOOO",
+    "Okay these thieves are worse",
+    "MAX doodLUL",
+    "wait lmao",
+    "Quick trip"
+   ],
+   "source": "cut from the live stream at a chat spike: 37 chatters in 15 s, 6.2x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-26T07:42:07.685143+00:00",
+   "cam": [
+    16,
+    784,
+    420,
+    295
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 60.0,
+   "words": [
+    {
+     "word": " He's",
+     "start": 0.0,
+     "end": 0.14
+    },
+    {
+     "word": " right",
+     "start": 0.14,
+     "end": 0.26
+    },
+    {
+     "word": " there.",
+     "start": 0.26,
+     "end": 0.46
+    },
+    {
+     "word": " Okay.",
+     "start": 0.56,
+     "end": 0.7
+    },
+    {
+     "word": " Let's",
+     "start": 0.84,
+     "end": 1.04
+    },
+    {
+     "word": " get",
+     "start": 1.04,
+     "end": 1.12
+    },
+    {
+     "word": " the",
+     "start": 1.12,
+     "end": 1.22
+    },
+    {
+     "word": " fuck",
+     "start": 1.22,
+     "end": 1.34
+    },
+    {
+     "word": " out",
+     "start": 1.34,
+     "end": 1.52
+    },
+    {
+     "word": " of",
+     "start": 1.52,
+     "end": 1.58
+    },
+    {
+     "word": " here",
+     "start": 1.58,
+     "end": 1.74
+    },
+    {
+     "word": " Bro",
+     "start": 45.37,
+     "end": 45.69
+    },
+    {
+     "word": " Bro,",
+     "start": 47.23,
+     "end": 47.55
+    },
+    {
+     "word": " I",
+     "start": 47.59,
+     "end": 47.67
+    },
+    {
+     "word": " ran",
+     "start": 47.67,
+     "end": 47.87
+    },
+    {
+     "word": " over",
+     "start": 47.87,
+     "end": 48.07
+    },
+    {
+     "word": " a",
+     "start": 48.07,
+     "end": 48.25
+    },
+    {
+     "word": " bike",
+     "start": 48.25,
+     "end": 48.67
+    },
+    {
+     "word": " and",
+     "start": 48.67,
+     "end": 49.17
+    },
+    {
+     "word": " it",
+     "start": 49.17,
+     "end": 49.33
+    },
+    {
+     "word": " fucking",
+     "start": 49.33,
+     "end": 49.77
+    }
+   ],
+   "metrics": {
+    "motion": 0.41585185185185186,
+    "motion_p90": 0.6850518518518519,
+    "static_share": 0.0794979079497908,
+    "peak_db": 12.246095657348633,
+    "level_db": -37.92451477050781
    },
    "silence": []
   }
@@ -5808,7 +6131,7 @@
    "seconds": 26.1
   }
  },
- "checked_n": 271,
+ "checked_n": 273,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
