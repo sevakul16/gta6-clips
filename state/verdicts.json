@@ -1,48 +1,4 @@
 {
- "WonderfulCuriousLobsterChefFrank-qfyn1_cjxtYuxS6o": {
-  "at": "2026-11-24T20:15:36.539260+00:00",
-  "moment_score": 7,
-  "what_happens": "A scooter courier delivers the car, the streamer thanks him and knocks him down pulling away, then the courier is hit again by traffic, drops the scooter and walks off; the streamer narrates and laughs hard. Complete three-beat gag, clear webcam",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Курьер привёз машину и попал под неё. Потом под вторую. Потом ушёл пешком 😭",
-  "keep_start": 8.0,
-  "keep_end": 48.0,
-  "cam": [
-   0.068,
-   0.315,
-   0.204,
-   0.255
-  ],
-  "hook": "Курьеру не повезло",
-  "cover_at": 34.2
- },
- "chat-2939308400-503": {
-  "at": "2026-11-24T20:15:36.585861+00:00",
-  "moment_score": 6,
-  "what_happens": "Sunset ride on a sport bike: 'this thing is sick, this is what we need', seconds later a car T-bones the bike, slow-motion ragdoll and Wasted. Clear setup and payoff in a bright picture; the streamer goes silent after the crash and the webcam is small",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "\"This thing is sick, this is what we need.\" Seconds later 💀",
-  "keep_start": 33.0,
-  "keep_end": 57.0,
-  "cam": [
-   0.79,
-   0.44,
-   0.164,
-   0.205
-  ],
-  "hook": "This is what we need",
-  "cover_at": 49.8
- },
- "chat-2939365510-421": {
-  "at": "2026-11-24T20:15:36.629329+00:00",
-  "moment_score": 5,
-  "what_happens": "Orders a car delivery, says thank you and runs over the scooter courier while driving off; the hit lasts a second, the streamer does not react to it, and the first 35 s are running, the map and phone menus",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2939363532-460": {
   "at": "2026-11-24T21:13:56.003798+00:00",
   "moment_score": 3,
@@ -1804,6 +1760,38 @@
   "moment_score": 1,
   "what_happens": "Sponsor read on a full-screen webcam (key shop banner, QR code), then the streamer eats on camera. No game on screen.",
   "gameplay_visible": false,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941301054-528": {
+  "at": "2026-11-26T21:13:33.459951+00:00",
+  "moment_score": 2,
+  "what_happens": "Drives a hypercar to a gas station, then changes Lucia's outfit in the inventory wheel and equips body armor; she ends up in bikini bottoms shown from behind, chat reacts to that. No game event.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941336641-459": {
+  "at": "2026-11-26T21:13:33.500330+00:00",
+  "moment_score": 5,
+  "what_happens": "Rides a motorbike with a passenger after a cash truck, shoots at it and ends up lying on the crosswalk, then runs back to the bike. Chat laughs at the aim; the streamer is silent from 34 s on, the boast is 45 s before the fall. Generic chase fail.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941320995-530": {
+  "at": "2026-11-26T21:13:33.552898+00:00",
+  "moment_score": 2,
+  "what_happens": "Story cutscene at the airport: the deal goes wrong, guns drawn, no money in the bag. Cutscene only and a story spoiler; betting banner next to the webcam.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941327623-527": {
+  "at": "2026-11-26T21:13:33.592963+00:00",
+  "moment_score": 2,
+  "what_happens": "A van in shallow water, then the stream drops and comes back on a full-screen webcam scene; talk about the bitrate, then the map. A technical break, no game event.",
+  "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
  }
