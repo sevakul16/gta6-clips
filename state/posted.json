@@ -3682,6 +3682,14 @@
    "kind": "chat",
    "vod": "2941519554",
    "vod_t": 13384.547524
+  },
+  "EnjoyableShakingCougarBleedPurple-jV0SMhq0muM86Dch": {
+   "at": "2026-11-26T23:13:37.007407+00:00",
+   "why": "streamer fills the screen, no gameplay",
+   "login": "gilticus",
+   "kind": "clip",
+   "vod": "2941316267",
+   "vod_t": 13907
   }
  },
  "pending": {
@@ -7052,7 +7060,7 @@
    "seconds": 22.1
   }
  },
- "checked_n": 343,
+ "checked_n": 344,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
