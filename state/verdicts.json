@@ -1,40 +1,4 @@
 {
- "DependableAltruisticPuddingWoofer-38vW2HMKzpX8dZzN": {
-  "at": "2026-11-23T23:14:01.758788+00:00",
-  "moment_score": 3,
-  "what_happens": "Подработка сантехником: герой прочищает засорённую раковину и лезет под неё с ключом, стример брезгливо комментирует. Обычная мини-игра без события, вебкамера тёмная, лица почти не видно",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2937392051-2489": {
-  "at": "2026-11-23T23:14:01.803041+00:00",
-  "moment_score": 6,
-  "what_happens": "Стример уходит от погони на полицейской машине по ночной трассе, пытается выключить сирену, вместо этого выпрыгивает на полном ходу и погибает; хватается за голову и объясняет, что всего лишь хотел отключить сигнализацию. Чат взорвался смехом",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Просто хотел выключить сирену на полном ходу 💀",
-  "keep_start": 39.0,
-  "keep_end": 56.0,
-  "hook": "Хотел выключить сирену",
-  "cover_at": 46.1
- },
- "HeadstrongEnticingCaribouYouWHY-21AEM9lyZUMqp8ER": {
-  "at": "2026-11-24T00:12:57.419072+00:00",
-  "moment_score": 3,
-  "what_happens": "Стример с тремя звёздами обыскивает тёмный склад и подбирает гранаты, удивляясь, что полиция не стреляет; заканчивается меню паузы. Конкретного события нет",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "FlirtyCooperativeWombatSaltBae-VmpUus5hRgNgeEfk": {
-  "at": "2026-11-24T00:12:57.473724+00:00",
-  "moment_score": 2,
-  "what_happens": "Трактор полминуты тащит машину на тросе по полю вдоль железной дороги, стример молча улыбается. Ничего не происходит, рамка камеры попала на рекламный баннер",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "ResilientDrabGrasshopperWow-fKAbKH4GGUaEC2dl": {
   "at": "2026-11-24T00:18:18.449363+00:00",
   "moment_score": 3,
@@ -1548,6 +1512,56 @@
   "at": "2026-11-25T23:13:37.534559+00:00",
   "moment_score": 2,
   "what_happens": "Scripted mission scene on an adult-film set with crude lines; no webcam in the picture, cutscene only",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940606444-308": {
+  "at": "2026-11-26T00:14:41.029663+00:00",
+  "moment_score": 6,
+  "what_happens": "Enters the big street race with the fast car, announces that now it is serious, and four seconds after the start flips the car onto its roof against a bar, then explains that off-road is just uncontrollable. Self-own with a clear setup in words, visible payoff, excuses as the reaction; the detector missed the webcam at bottom right",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Said the race just got serious. Four seconds in, the car is on its roof 💀",
+  "keep_start": 20.0,
+  "keep_end": 46.0,
+  "cam": [
+   0.79,
+   0.526,
+   0.21,
+   0.2625
+  ],
+  "hook": "Now it's serious",
+  "cover_at": 31.9
+ },
+ "chat-2940606444-356": {
+  "at": "2026-11-26T00:14:41.066756+00:00",
+  "moment_score": 5,
+  "what_happens": "Wins a street race after a clean second lap and celebrates; a clean win with no event on screen",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940292392-851": {
+  "at": "2026-11-26T00:14:41.101423+00:00",
+  "moment_score": 2,
+  "what_happens": "Scripted male strip club scene: a mock arrest on stage ends with the dancer stripped to nothing from behind; nudity, cutscene only",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940341220-718": {
+  "at": "2026-11-26T00:14:41.135939+00:00",
+  "moment_score": 4,
+  "what_happens": "Scripted night race back to the hotel with a routine crash and engine damage; dark, a generic crash",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940749005-111": {
+  "at": "2026-11-26T00:14:41.171438+00:00",
+  "moment_score": 4,
+  "what_happens": "Chat talk about the developers over a bike ride and half a minute of pause map, then a crash in the last seconds; opinion talk, the payoff is brief",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
