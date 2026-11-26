@@ -1202,30 +1202,6 @@
   }
  },
  "rejected": {
-  "FlirtyWanderingDragonHoneyBadger-iN33ZPLGQx96O79a": {
-   "at": "2026-11-23T14:18:39.215894+00:00",
-   "why": "no sound in the recording (60 s of 60 s are silent)",
-   "login": "derzko69",
-   "kind": "clip",
-   "vod": "2936003788",
-   "vod_t": 14800
-  },
-  "StrangeGiftedHippoLitFam-lz1mqeraN5OkpVOF": {
-   "at": "2026-11-23T14:18:39.694866+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "dmitry_bale",
-   "kind": "clip",
-   "vod": "2937162062",
-   "vod_t": 2235
-  },
-  "DepressedColorfulOtterOMGScoots-TJi4ykXoAbUoywsh": {
-   "at": "2026-11-23T14:18:39.696313+00:00",
-   "why": "editor: 1/10, Героиня заходит в номера отеля, где идут постельные сцены: секс в кадре",
-   "login": "rostislav_999",
-   "kind": "clip",
-   "vod": "2936140043",
-   "vod_t": 13797
-  },
   "PlainExpensiveFinchTBCheesePull-MSUiadv4EFZdyp2N": {
    "at": "2026-11-23T15:23:46.777211+00:00",
    "why": "editor: 2/10, Финальная заставка игры: героиня падает в воду, героя арестовывают на мосту; это спойлер концовки без игрового процесса",
@@ -3626,6 +3602,395 @@
     "level_db": -29.765260696411133
    },
    "silence": []
+  },
+  "chat-2940434423-1770": {
+   "id": "chat-2940434423-1770",
+   "url": "https://www.twitch.tv/videos/2940434423",
+   "section": [
+    79632.858112,
+    79688.858112
+   ],
+   "kind": "chat",
+   "views": 140,
+   "title": "",
+   "vod": "2940434423",
+   "vod_t": 79632.858112,
+   "group": "ru",
+   "login": "leva2k",
+   "name": "leva2k",
+   "viewers": 4816,
+   "chat_score": 7.37,
+   "found_at": "2026-11-26T14:39:08.539216+00:00",
+   "spike_at": "2026-11-26T14:27:30.858112+00:00",
+   "chat": [
+    "6x НАКАЗАЛ",
+    "3x SUBprise",
+    "2x LUL",
+    "2x )))",
+    "2x лучший",
+    "2x Хахахаха",
+    "2x хахахахах",
+    "2x xD",
+    "ФВЫАХФЫЪ\\ВАХФВЫЪ\\АХФВЫЪ\\АХФВЫАХЪ\\ФВЫАХЪФЫВ\\АХФВЫ\\ЪАХ",
+    "АХАХХАХАЗАЗ",
+    "неисправимый",
+    "АХАХХА",
+    "за угол встань",
+    "Броник слетел",
+    "Хахахахахахаахах",
+    "uaipedHAHA"
+   ],
+   "source": "cut from the live stream at a chat spike: 140 chatters in 15 s, 7.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-26T14:39:39.571252+00:00",
+   "cam": [
+    1590,
+    465,
+    218,
+    153
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 59.8,
+   "words": [
+    {
+     "word": " Нормально,",
+     "start": 8.91,
+     "end": 9.83
+    },
+    {
+     "word": " в",
+     "start": 10.05,
+     "end": 10.57
+    },
+    {
+     "word": " джипе,",
+     "start": 10.57,
+     "end": 11.13
+    },
+    {
+     "word": " все",
+     "start": 11.33,
+     "end": 12.19
+    },
+    {
+     "word": " нормально,",
+     "start": 12.19,
+     "end": 12.51
+    },
+    {
+     "word": " че",
+     "start": 12.73,
+     "end": 12.99
+    },
+    {
+     "word": " в",
+     "start": 12.99,
+     "end": 13.05
+    },
+    {
+     "word": " джипе,",
+     "start": 13.05,
+     "end": 13.49
+    },
+    {
+     "word": " в",
+     "start": 13.59,
+     "end": 14.31
+    },
+    {
+     "word": " джипе",
+     "start": 14.31,
+     "end": 14.65
+    },
+    {
+     "word": " с",
+     "start": 14.65,
+     "end": 14.75
+    },
+    {
+     "word": " левой",
+     "start": 14.75,
+     "end": 14.93
+    },
+    {
+     "word": " RPG,",
+     "start": 14.93,
+     "end": 15.29
+    },
+    {
+     "word": " я",
+     "start": 15.47,
+     "end": 15.47
+    },
+    {
+     "word": " понял,",
+     "start": 15.47,
+     "end": 15.71
+    },
+    {
+     "word": " все,",
+     "start": 15.81,
+     "end": 15.95
+    },
+    {
+     "word": " сейчас",
+     "start": 16.03,
+     "end": 16.09
+    },
+    {
+     "word": " я",
+     "start": 16.09,
+     "end": 16.17
+    },
+    {
+     "word": " возьму",
+     "start": 16.17,
+     "end": 16.41
+    },
+    {
+     "word": " Спасибо",
+     "start": 17.07,
+     "end": 17.55
+    },
+    {
+     "word": " В",
+     "start": 17.55,
+     "end": 18.27
+    },
+    {
+     "word": " каком",
+     "start": 18.27,
+     "end": 19.21
+    },
+    {
+     "word": " джипе?",
+     "start": 19.21,
+     "end": 19.61
+    },
+    {
+     "word": " В",
+     "start": 23.08,
+     "end": 23.48
+    },
+    {
+     "word": " этом?",
+     "start": 23.48,
+     "end": 23.72
+    },
+    {
+     "word": " Ебать",
+     "start": 25.66,
+     "end": 26.26
+    },
+    {
+     "word": " Ну",
+     "start": 27.4,
+     "end": 28.0
+    },
+    {
+     "word": " к",
+     "start": 28.0,
+     "end": 28.12
+    },
+    {
+     "word": " чему",
+     "start": 28.12,
+     "end": 28.24
+    },
+    {
+     "word": " я",
+     "start": 28.24,
+     "end": 28.32
+    },
+    {
+     "word": " накажу",
+     "start": 28.32,
+     "end": 28.58
+    },
+    {
+     "word": " этого",
+     "start": 28.58,
+     "end": 28.88
+    },
+    {
+     "word": " чмошника,",
+     "start": 28.88,
+     "end": 29.42
+    },
+    {
+     "word": " блядь",
+     "start": 29.56,
+     "end": 30.06
+    },
+    {
+     "word": " К",
+     "start": 40.01,
+     "end": 40.55
+    },
+    {
+     "word": " чему?",
+     "start": 40.55,
+     "end": 40.83
+    },
+    {
+     "word": " А,",
+     "start": 42.17,
+     "end": 42.77
+    },
+    {
+     "word": " там",
+     "start": 42.95,
+     "end": 42.95
+    },
+    {
+     "word": " одна",
+     "start": 42.95,
+     "end": 43.15
+    },
+    {
+     "word": " пуля",
+     "start": 43.15,
+     "end": 43.45
+    },
+    {
+     "word": " Мне",
+     "start": 51.3,
+     "end": 51.6
+    },
+    {
+     "word": " хуево,",
+     "start": 51.6,
+     "end": 52.04
+    },
+    {
+     "word": " блядь,",
+     "start": 52.12,
+     "end": 52.42
+    },
+    {
+     "word": " мне",
+     "start": 52.46,
+     "end": 52.64
+    },
+    {
+     "word": " хуево",
+     "start": 52.64,
+     "end": 53.1
+    }
+   ],
+   "metrics": {
+    "motion": 0.2087873213527664,
+    "motion_p90": 0.5026956275647376,
+    "static_share": 0.23109243697478993,
+    "peak_db": 12.803653717041016,
+    "level_db": -38.066429138183594
+   },
+   "silence": []
+  },
+  "chat-2941274494-144": {
+   "id": "chat-2941274494-144",
+   "url": "https://www.twitch.tv/videos/2941274494",
+   "section": [
+    6453.806182,
+    6509.806182
+   ],
+   "kind": "chat",
+   "views": 66,
+   "title": "",
+   "vod": "2941274494",
+   "vod_t": 6453.806182,
+   "group": "en",
+   "login": "cohhcarnage",
+   "name": "CohhCarnage",
+   "viewers": 10339,
+   "chat_score": 5.28,
+   "found_at": "2026-11-26T14:39:08.706624+00:00",
+   "spike_at": "2026-11-26T14:24:10.806182+00:00",
+   "chat": [
+    "17x KEKW",
+    "7x LUL",
+    "2x dead",
+    "2x cohh7",
+    "2x weeeee",
+    "i belive i can fly",
+    "rooKek",
+    "ouch",
+    "wseeeee",
+    "We're sooooaaaaarin",
+    "lol",
+    "lucky",
+    "KEKW there it is"
+   ],
+   "source": "cut from the live stream at a chat spike: 66 chatters in 15 s, 5.3x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-26T14:39:56.486404+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 60.0,
+   "words": [
+    {
+     "word": " Not",
+     "start": 52.88,
+     "end": 53.22
+    },
+    {
+     "word": " bad",
+     "start": 53.22,
+     "end": 53.48
+    },
+    {
+     "word": " man,",
+     "start": 53.48,
+     "end": 53.74
+    },
+    {
+     "word": " not",
+     "start": 53.9,
+     "end": 54.04
+    },
+    {
+     "word": " bad.",
+     "start": 54.04,
+     "end": 54.36
+    },
+    {
+     "word": " That",
+     "start": 54.6,
+     "end": 54.64
+    },
+    {
+     "word": " was",
+     "start": 54.64,
+     "end": 54.72
+    },
+    {
+     "word": " pretty",
+     "start": 54.72,
+     "end": 54.9
+    },
+    {
+     "word": " good.",
+     "start": 54.9,
+     "end": 55.14
+    },
+    {
+     "word": " Okay",
+     "start": 55.56,
+     "end": 55.98
+    }
+   ],
+   "metrics": {
+    "motion": 0.43194444444444446,
+    "motion_p90": 0.6218194444444445,
+    "static_share": 0.06694560669456066,
+    "peak_db": 6.090082168579102,
+    "level_db": -27.793054580688477
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -5920,7 +6285,7 @@
    "seconds": 26.1
   }
  },
- "checked_n": 303,
+ "checked_n": 305,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
