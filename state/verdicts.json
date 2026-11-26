@@ -1,28 +1,4 @@
 {
- "CrowdedCalmPizzaCoolStoryBob-wY0-hAXLqHFWQ88d": {
-  "at": "2026-11-24T08:14:06.998395+00:00",
-  "moment_score": 3,
-  "what_happens": "Rides a motorbike through a neighbourhood and argues with his co-host about which district it is, parks, walks to a house. Stream chatter, no game event; a sponsor banner sits on screen.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "EmpathicLitigiousTurtleShadyLulu-kKjUS1498zVbxMOw": {
-  "at": "2026-11-24T08:14:07.047404+00:00",
-  "moment_score": 2,
-  "what_happens": "A story cutscene only: the girlfriend in a bikini scolds Jason, a thong shot at the end, he comments in one line. The detected box is the game character, not a webcam.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2939095385-236": {
-  "at": "2026-11-24T08:14:07.099373+00:00",
-  "moment_score": 2,
-  "what_happens": "End of the stream: a quiet night drive during mission dialogue, then he opens the save menu and says goodnight. The chat spike is the goodbyes, not a game event.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "HumbleTolerantBisonCurseLit-qvwMFjdD7o8YMx45": {
   "at": "2026-11-24T09:13:49.410261+00:00",
   "moment_score": 2,
@@ -1659,6 +1635,22 @@
   "at": "2026-11-26T08:13:45.922006+00:00",
   "moment_score": 2,
   "what_happens": "Clothing store try-on with close-ups of the character's leggings and sexual banter; no game event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940912874-560": {
+  "at": "2026-11-26T09:13:32.986498+00:00",
+  "moment_score": 4,
+  "what_happens": "VTuber avatar, no webcam. 35 s of reading lab notes on an in-game computer, then a giant crab jumps the character in a scripted scare; the scream is the only reaction",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940864084-663": {
+  "at": "2026-11-26T09:13:33.026563+00:00",
+  "moment_score": 2,
+  "what_happens": "Peanut avatar instead of a webcam; late story cutscene with a phone call, then 20 s of pause menu. Cutscene only, story spoiler",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
