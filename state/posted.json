@@ -1218,166 +1218,20 @@
    "vod_t": 9078.177986,
    "hook": "Лови прикол!",
    "request_id": "0d86bb69b71042afbe3c30d959943c11",
-   "cand": {
-    "id": "chat-2940225214-202",
-    "url": "https://www.twitch.tv/videos/2940225214",
-    "section": [
-     9078.177986,
-     9134.177986
-    ],
-    "kind": "chat",
-    "views": 53,
-    "title": "",
-    "vod": "2940225214",
-    "vod_t": 9078.177986,
-    "group": "ru",
-    "login": "zloyn",
-    "name": "ZLOYn",
-    "viewers": 4923,
-    "chat_score": 5.3,
-    "found_at": "2026-11-25T12:53:29.678137+00:00",
-    "spike_at": "2026-11-25T12:50:37.177986+00:00",
-    "chat": [
-     "3x словил",
-     "3x Гений",
-     "2x ВЕРНИСЬ ЗА ДИСКОМ",
-     "ДЕБИЛ",
-     "ыхвжыъвъыъвэыэвэы",
-     "фуъхадфуъахдуфъх",
-     "Бож ебать",
-     "Хахахаахахахахаа",
-     "сука как он живет",
-     "ахахахахахахах",
-     "вась тебя прибило"
-    ],
-    "source": "cut from the live stream at a chat spike: 53 chatters in 15 s, 5.3x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-    "at": "2026-11-25T13:16:37.504192+00:00",
-    "cam": [
-     0,
-     459,
-     399,
-     280
-    ],
-    "size": [
-     1920,
-     1080
-    ],
-    "dur": 64.0,
-    "words": [
-     {
-      "word": " Найс!",
-      "start": 13.65,
-      "end": 14.17
-     },
-     {
-      "word": " Без",
-      "start": 14.47,
-      "end": 14.75
-     },
-     {
-      "word": " убийств!",
-      "start": 14.75,
-      "end": 15.17
-     },
-     {
-      "word": " Профессионал!",
-      "start": 15.43,
-      "end": 16.17
-     },
-     {
-      "word": " Get",
-      "start": 20.95,
-      "end": 21.33
-     },
-     {
-      "word": " fucking",
-      "start": 21.33,
-      "end": 21.79
-     },
-     {
-      "word": " up!",
-      "start": 21.79,
-      "end": 22.29
-     },
-     {
-      "word": " Лови",
-      "start": 43.85,
-      "end": 44.27
-     },
-     {
-      "word": " прикол!",
-      "start": 44.27,
-      "end": 44.75
-     },
-     {
-      "word": " Ох,",
-      "start": 48.73,
-      "end": 49.15
-     },
-     {
-      "word": " блять!",
-      "start": 49.21,
-      "end": 49.63
-     },
-     {
-      "word": " Ебать!",
-      "start": 51.86,
-      "end": 52.54
-     },
-     {
-      "word": " Я",
-      "start": 53.94,
-      "end": 54.22
-     },
-     {
-      "word": " откинул",
-      "start": 54.22,
-      "end": 54.58
-     },
-     {
-      "word": " гранату",
-      "start": 54.58,
-      "end": 55.08
-     },
-     {
-      "word": " хуёва",
-      "start": 55.08,
-      "end": 55.62
-     },
-     {
-      "word": " как",
-      "start": 55.62,
-      "end": 55.84
-     },
-     {
-      "word": "-то,",
-      "start": 55.84,
-      "end": 56.0
-     },
-     {
-      "word": " нет?",
-      "start": 56.08,
-      "end": 56.18
-     }
-    ],
-    "metrics": {
-     "motion": 0.22371601208459216,
-     "motion_p90": 0.5547432024169183,
-     "static_share": 0.0196078431372549,
-     "peak_db": 7.588960647583008,
-     "level_db": -26.378929138183594
+   "result": [
+    {
+     "platform": "youtube",
+     "success": true,
+     "post_url": "https://www.youtube.com/watch?v=fgCQkJMS7tI",
+     "thumbnail_set": false,
+     "thumbnail_pending": true
     },
-    "silence": [],
-    "cam_src": "editor",
-    "caption": "«Лови прикол!» Граната улетела, прикол прилетел обратно 💀",
-    "hook": "Лови прикол!",
-    "cover_at": 49.1,
-    "score": 6,
-    "keep": [
-     40.0,
-     57.5
-    ]
-   }
+    {
+     "platform": "tiktok",
+     "success": true,
+     "post_url": "https://www.tiktok.com/@gta6.viral42/video/7712543109464313127"
+    }
+   ]
   }
  },
  "rejected": {
@@ -4405,6 +4259,340 @@
     "level_db": -28.003807067871094
    },
    "silence": []
+  },
+  "chat-2941339641-344": {
+   "id": "chat-2941339641-344",
+   "url": "https://www.twitch.tv/videos/2941339641",
+   "section": [
+    15479.409034,
+    15535.409034
+   ],
+   "kind": "chat",
+   "views": 42,
+   "title": "",
+   "vod": "2941339641",
+   "vod_t": 15479.409034,
+   "group": "en",
+   "login": "missmikkaa",
+   "name": "MissMikkaa",
+   "viewers": 5314,
+   "chat_score": 7.0,
+   "found_at": "2026-11-26T18:48:18.955319+00:00",
+   "spike_at": "2026-11-26T18:46:41.409034+00:00",
+   "chat": [
+    "5x KEKW",
+    "3x o7",
+    "3x OMEGALUL",
+    "2x perfect",
+    "2x OfCourse",
+    "2x hahaha",
+    "Giiiirrrrl",
+    "not crash",
+    "staceyrpgDead1",
+    "me too",
+    "Lol",
+    "great at not creashing YEP",
+    "10/10",
+    "inglés no muy bueno"
+   ],
+   "source": "cut from the live stream at a chat spike: 42 chatters in 15 s, 7.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-26T18:49:01.619222+00:00",
+   "cam": [
+    1105,
+    398,
+    814,
+    573
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 65.0,
+   "words": [
+    {
+     "word": " I",
+     "start": 1.98,
+     "end": 2.46
+    },
+    {
+     "word": " wonder",
+     "start": 2.46,
+     "end": 2.58
+    },
+    {
+     "word": " what's",
+     "start": 2.58,
+     "end": 2.8
+    },
+    {
+     "word": " this",
+     "start": 2.8,
+     "end": 2.86
+    },
+    {
+     "word": " on",
+     "start": 2.86,
+     "end": 3.0
+    },
+    {
+     "word": " a",
+     "start": 3.0,
+     "end": 3.1
+    },
+    {
+     "word": " banner",
+     "start": 3.1,
+     "end": 3.44
+    },
+    {
+     "word": " there.",
+     "start": 3.44,
+     "end": 3.78
+    },
+    {
+     "word": " Oh",
+     "start": 7.32,
+     "end": 7.8
+    },
+    {
+     "word": " God,",
+     "start": 7.8,
+     "end": 8.06
+    },
+    {
+     "word": " what",
+     "start": 8.48,
+     "end": 9.14
+    },
+    {
+     "word": " is",
+     "start": 9.14,
+     "end": 9.26
+    },
+    {
+     "word": " he",
+     "start": 9.26,
+     "end": 9.34
+    },
+    {
+     "word": " doing?",
+     "start": 9.34,
+     "end": 9.58
+    },
+    {
+     "word": " I",
+     "start": 14.99,
+     "end": 15.47
+    },
+    {
+     "word": " don't",
+     "start": 15.47,
+     "end": 15.95
+    },
+    {
+     "word": " think",
+     "start": 15.95,
+     "end": 16.09
+    },
+    {
+     "word": " I",
+     "start": 16.09,
+     "end": 16.21
+    },
+    {
+     "word": " should",
+     "start": 16.21,
+     "end": 16.27
+    },
+    {
+     "word": " fly",
+     "start": 16.27,
+     "end": 16.61
+    },
+    {
+     "word": " so",
+     "start": 16.61,
+     "end": 16.81
+    },
+    {
+     "word": " crazy",
+     "start": 16.81,
+     "end": 17.13
+    },
+    {
+     "word": " anymore.",
+     "start": 17.13,
+     "end": 17.53
+    },
+    {
+     "word": " Should",
+     "start": 19.07,
+     "end": 19.21
+    },
+    {
+     "word": " I",
+     "start": 19.21,
+     "end": 19.29
+    },
+    {
+     "word": " do",
+     "start": 19.29,
+     "end": 19.39
+    },
+    {
+     "word": " a",
+     "start": 19.39,
+     "end": 19.49
+    },
+    {
+     "word": " barrel?",
+     "start": 19.49,
+     "end": 19.69
+    },
+    {
+     "word": " A",
+     "start": 35.66,
+     "end": 36.5
+    },
+    {
+     "word": " barrel",
+     "start": 36.5,
+     "end": 37.34
+    },
+    {
+     "word": " roll?",
+     "start": 37.34,
+     "end": 37.78
+    },
+    {
+     "word": " A",
+     "start": 38.38,
+     "end": 38.44
+    },
+    {
+     "word": " barrel",
+     "start": 38.44,
+     "end": 38.8
+    },
+    {
+     "word": " roll?",
+     "start": 38.8,
+     "end": 39.2
+    },
+    {
+     "word": " Like",
+     "start": 43.8,
+     "end": 44.64
+    },
+    {
+     "word": " that?",
+     "start": 44.64,
+     "end": 45.48
+    },
+    {
+     "word": " Oh,",
+     "start": 48.31,
+     "end": 48.73
+    },
+    {
+     "word": " I",
+     "start": 48.81,
+     "end": 48.87
+    },
+    {
+     "word": " thought",
+     "start": 48.87,
+     "end": 48.93
+    },
+    {
+     "word": " you",
+     "start": 48.93,
+     "end": 49.07
+    },
+    {
+     "word": " said",
+     "start": 49.07,
+     "end": 49.27
+    },
+    {
+     "word": " crash.",
+     "start": 49.27,
+     "end": 50.17
+    },
+    {
+     "word": " Sorry,",
+     "start": 51.25,
+     "end": 51.61
+    },
+    {
+     "word": " I",
+     "start": 51.75,
+     "end": 52.05
+    },
+    {
+     "word": " kind",
+     "start": 52.05,
+     "end": 52.47
+    },
+    {
+     "word": " of",
+     "start": 52.47,
+     "end": 52.57
+    },
+    {
+     "word": " blocked",
+     "start": 52.57,
+     "end": 53.21
+    },
+    {
+     "word": " out",
+     "start": 53.21,
+     "end": 53.43
+    },
+    {
+     "word": " everything",
+     "start": 53.43,
+     "end": 53.73
+    },
+    {
+     "word": " else.",
+     "start": 53.73,
+     "end": 54.17
+    },
+    {
+     "word": " Thank",
+     "start": 64.82,
+     "end": 64.82
+    },
+    {
+     "word": " you",
+     "start": 64.82,
+     "end": 64.82
+    },
+    {
+     "word": " for",
+     "start": 64.82,
+     "end": 64.82
+    },
+    {
+     "word": " watching.",
+     "start": 64.82,
+     "end": 64.9
+    }
+   ],
+   "metrics": {
+    "motion": 0.2387751436781609,
+    "motion_p90": 0.4125000000000001,
+    "static_share": 0.16602316602316602,
+    "peak_db": 12.360713958740234,
+    "level_db": -26.59311294555664
+   },
+   "silence": [
+    [
+     55.4,
+     3.4
+    ]
+   ]
   }
  },
  "pool": {
@@ -6657,7 +6845,7 @@
    "seconds": 26.1
   }
  },
- "checked_n": 321,
+ "checked_n": 322,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
