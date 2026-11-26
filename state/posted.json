@@ -4146,6 +4146,229 @@
     "level_db": -31.9486026763916
    },
    "silence": []
+  },
+  "chat-2940936974-241": {
+   "id": "chat-2940936974-241",
+   "url": "https://www.twitch.tv/videos/2940936974",
+   "section": [
+    10836.899257,
+    10892.899257
+   ],
+   "kind": "chat",
+   "views": 51,
+   "title": "",
+   "vod": "2940936974",
+   "vod_t": 10836.899257,
+   "group": "en",
+   "login": "silky",
+   "name": "Silky",
+   "viewers": 5120,
+   "chat_score": 6.38,
+   "found_at": "2026-11-26T05:07:22.367999+00:00",
+   "spike_at": "2026-11-26T04:51:59.899257+00:00",
+   "chat": [
+    "3x Lmao",
+    "3x lol",
+    "2x U so ass",
+    "2x ...",
+    "2x LMAOOOOOO",
+    "NIGGA",
+    "fuckin do bad",
+    "Bum ass nigga",
+    "Son",
+    "CUUU AINT NO WAYY",
+    "1 OF 1",
+    "UR ASS HAH",
+    "Dog shit 💩"
+   ],
+   "source": "cut from the live stream at a chat spike: 51 chatters in 15 s, 6.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-26T05:07:56.857542+00:00",
+   "cam": [
+    0,
+    534,
+    399,
+    280
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 57.8,
+   "words": [
+    {
+     "word": " Well,",
+     "start": 6.48,
+     "end": 7.02
+    },
+    {
+     "word": " how",
+     "start": 7.06,
+     "end": 7.2
+    },
+    {
+     "word": " is",
+     "start": 7.2,
+     "end": 7.36
+    },
+    {
+     "word": " it",
+     "start": 7.36,
+     "end": 7.48
+    },
+    {
+     "word": " not",
+     "start": 7.48,
+     "end": 7.72
+    },
+    {
+     "word": " more",
+     "start": 7.72,
+     "end": 7.96
+    },
+    {
+     "word": " shit,",
+     "start": 7.96,
+     "end": 8.44
+    },
+    {
+     "word": " bro?",
+     "start": 8.6,
+     "end": 9.02
+    },
+    {
+     "word": " Shit",
+     "start": 13.0,
+     "end": 13.48
+    },
+    {
+     "word": " bro",
+     "start": 34.47,
+     "end": 34.95
+    },
+    {
+     "word": " get",
+     "start": 34.95,
+     "end": 35.07
+    },
+    {
+     "word": " the",
+     "start": 35.07,
+     "end": 35.21
+    },
+    {
+     "word": " fuck",
+     "start": 35.21,
+     "end": 35.51
+    },
+    {
+     "word": " off",
+     "start": 35.51,
+     "end": 35.85
+    },
+    {
+     "word": " of",
+     "start": 35.85,
+     "end": 35.99
+    },
+    {
+     "word": " me",
+     "start": 35.99,
+     "end": 36.17
+    },
+    {
+     "word": " nigga.",
+     "start": 36.17,
+     "end": 36.45
+    },
+    {
+     "word": " Oh",
+     "start": 36.87,
+     "end": 37.35
+    },
+    {
+     "word": " my",
+     "start": 39.46,
+     "end": 39.58
+    },
+    {
+     "word": " god.",
+     "start": 39.58,
+     "end": 39.94
+    },
+    {
+     "word": " Oh",
+     "start": 39.94,
+     "end": 40.42
+    },
+    {
+     "word": " my",
+     "start": 40.42,
+     "end": 40.52
+    },
+    {
+     "word": " god.",
+     "start": 40.52,
+     "end": 40.62
+    },
+    {
+     "word": " I'm",
+     "start": 40.68,
+     "end": 40.68
+    },
+    {
+     "word": " gonna",
+     "start": 40.68,
+     "end": 40.74
+    },
+    {
+     "word": " get",
+     "start": 40.74,
+     "end": 40.86
+    },
+    {
+     "word": " locked",
+     "start": 40.86,
+     "end": 41.02
+    },
+    {
+     "word": " up.",
+     "start": 41.02,
+     "end": 41.26
+    },
+    {
+     "word": " I",
+     "start": 47.62,
+     "end": 47.86
+    },
+    {
+     "word": " had",
+     "start": 47.86,
+     "end": 47.98
+    },
+    {
+     "word": " no",
+     "start": 47.98,
+     "end": 48.1
+    },
+    {
+     "word": " energy",
+     "start": 48.1,
+     "end": 48.4
+    }
+   ],
+   "metrics": {
+    "motion": 0.25776648998822144,
+    "motion_p90": 0.5050647820965841,
+    "static_share": 0.08695652173913043,
+    "peak_db": 16.14065933227539,
+    "level_db": -38.55214309692383
+   },
+   "silence": [
+    [
+     49.8,
+     3.2
+    ]
+   ]
   }
  },
  "pool": {
@@ -6319,7 +6542,7 @@
    "seconds": 26.1
   }
  },
- "checked_n": 260,
+ "checked_n": 261,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
