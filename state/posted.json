@@ -1136,11 +1136,6 @@
   }
  },
  "rejected": {
-  "chat-2937968840-306": {
-   "at": "2026-11-23T05:40:40.787600+00:00",
-   "why": "picture is almost static (motion 0.00)",
-   "login": "whoplohoyparen"
-  },
   "chat-2937968840-344": {
    "at": "2026-11-23T06:01:41.799734+00:00",
    "why": "picture is almost static (motion 0.00)",
@@ -3316,6 +3311,22 @@
    "kind": "chat",
    "vod": "2940936974",
    "vod_t": 10836.899257
+  },
+  "chat-2940936974-298": {
+   "at": "2026-11-26T05:52:33.589656+00:00",
+   "why": "streamer fills the screen, no gameplay",
+   "login": "silky",
+   "kind": "chat",
+   "vod": "2940936974",
+   "vod_t": 13392.581712
+  },
+  "chat-2940736052-634": {
+   "at": "2026-11-26T05:53:23.404999+00:00",
+   "why": "picture is almost static (motion 0.02)",
+   "login": "berleezy",
+   "kind": "chat",
+   "vod": "2940736052",
+   "vod_t": 28498.576516
   }
  },
  "pending": {
@@ -6167,7 +6178,7 @@
    "seconds": 26.1
   }
  },
- "checked_n": 262,
+ "checked_n": 264,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
