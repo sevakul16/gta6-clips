@@ -4128,6 +4128,210 @@
      2.4
     ]
    ]
+  },
+  "MuddyKitschyJellyfishFrankerZ-nfpnlRODjcEAsiZK": {
+   "id": "MuddyKitschyJellyfishFrankerZ-nfpnlRODjcEAsiZK",
+   "vod": "2939539316",
+   "vod_t": 2788,
+   "group": "ru",
+   "views": 1009,
+   "title": "кто удивлен что с ним такое случилось?",
+   "url": "https://www.twitch.tv/afoninje/clip/MuddyKitschyJellyfishFrankerZ-nfpnlRODjcEAsiZK",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "afoninje",
+   "name": "afoninje",
+   "source": "Twitch clip made by a viewer, 1009 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"кто удивлен что с ним такое случилось?\"",
+   "at": "2026-11-26T10:57:10.243103+00:00",
+   "cam": [
+    134,
+    577,
+    327,
+    230
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 30.0,
+   "words": [
+    {
+     "word": " Окей!",
+     "start": 3.25,
+     "end": 4.19
+    },
+    {
+     "word": " Видеешь",
+     "start": 8.35,
+     "end": 8.81
+    },
+    {
+     "word": " эту",
+     "start": 8.81,
+     "end": 8.81
+    },
+    {
+     "word": " дверь",
+     "start": 8.81,
+     "end": 8.93
+    },
+    {
+     "word": " под",
+     "start": 8.93,
+     "end": 9.09
+    },
+    {
+     "word": " ландингом?",
+     "start": 9.09,
+     "end": 9.79
+    },
+    {
+     "word": " Да!",
+     "start": 9.97,
+     "end": 10.35
+    },
+    {
+     "word": " Я",
+     "start": 10.95,
+     "end": 11.13
+    },
+    {
+     "word": " буду",
+     "start": 11.13,
+     "end": 11.23
+    },
+    {
+     "word": " пытаться",
+     "start": 11.23,
+     "end": 11.55
+    },
+    {
+     "word": " уйти",
+     "start": 11.55,
+     "end": 11.75
+    },
+    {
+     "word": " в",
+     "start": 11.75,
+     "end": 11.91
+    },
+    {
+     "word": " мандир!",
+     "start": 11.91,
+     "end": 12.23
+    },
+    {
+     "word": " Прекрати!",
+     "start": 12.61,
+     "end": 13.25
+    },
+    {
+     "word": " Что",
+     "start": 15.23,
+     "end": 15.87
+    },
+    {
+     "word": " это",
+     "start": 15.87,
+     "end": 16.03
+    },
+    {
+     "word": " такое?",
+     "start": 16.03,
+     "end": 16.39
+    }
+   ],
+   "metrics": {
+    "motion": 0.07369542066027689,
+    "motion_p90": 0.24502662406815764,
+    "static_share": 0.3025210084033613,
+    "peak_db": 14.23293399810791,
+    "level_db": -27.875320434570312
+   },
+   "silence": []
+  },
+  "FurtiveAntsyToadRiPepperonis-KULnCz1Bc74zLyej": {
+   "id": "FurtiveAntsyToadRiPepperonis-KULnCz1Bc74zLyej",
+   "vod": "2939607514",
+   "vod_t": 9305,
+   "group": "ru",
+   "views": 1006,
+   "title": "лаг",
+   "url": "https://www.twitch.tv/egorkreed/clip/FurtiveAntsyToadRiPepperonis-KULnCz1Bc74zLyej",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "egorkreed",
+   "name": "egorkreed",
+   "source": "Twitch clip made by a viewer, 1006 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"лаг\"",
+   "at": "2026-11-26T10:57:25.545049+00:00",
+   "cam": [
+    30,
+    50,
+    315,
+    221
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 13.3,
+   "words": [
+    {
+     "word": " Погнали!",
+     "start": 0.0,
+     "end": 0.66
+    },
+    {
+     "word": " Погнали!",
+     "start": 2.1,
+     "end": 2.32
+    },
+    {
+     "word": " Всё,",
+     "start": 7.55,
+     "end": 8.23
+    },
+    {
+     "word": " понял,",
+     "start": 8.45,
+     "end": 8.63
+    },
+    {
+     "word": " сейчас",
+     "start": 8.77,
+     "end": 8.85
+    },
+    {
+     "word": " будет",
+     "start": 8.85,
+     "end": 9.13
+    },
+    {
+     "word": " заруба",
+     "start": 9.13,
+     "end": 9.59
+    },
+    {
+     "word": " лютая.",
+     "start": 9.59,
+     "end": 10.01
+    }
+   ],
+   "metrics": {
+    "motion": 0.13184993159069636,
+    "motion_p90": 0.38394901706632095,
+    "static_share": 0.19230769230769232,
+    "peak_db": 14.197736740112305,
+    "level_db": -35.79436492919922
+   },
+   "silence": [
+    [
+     5.3,
+     2.3
+    ]
+   ]
   }
  },
  "pool": {
@@ -6157,7 +6361,7 @@
    "seconds": 26.1
   }
  },
- "checked_n": 283,
+ "checked_n": 285,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
