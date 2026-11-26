@@ -4815,6 +4815,126 @@
     "level_db": -33.08540344238281
    },
    "silence": []
+  },
+  "chat-2940864084-266": {
+   "id": "chat-2940864084-266",
+   "url": "https://www.twitch.tv/videos/2940864084",
+   "section": [
+    11950.463795,
+    12006.463795
+   ],
+   "kind": "chat",
+   "views": 190,
+   "title": "",
+   "vod": "2940864084",
+   "vod_t": 11950.463795,
+   "group": "en",
+   "login": "theburntpeanut",
+   "name": "TheBurntPeanut",
+   "viewers": 49062,
+   "chat_score": 4.22,
+   "found_at": "2026-11-26T04:02:27.115621+00:00",
+   "spike_at": "2026-11-26T03:45:04.463795+00:00",
+   "chat": [
+    "16x LOL",
+    "16x PERFECT",
+    "12x LUL",
+    "6x KEKW",
+    "4x LMAO",
+    "3x tbpeanutWelp",
+    "3x hahahahahaha",
+    "3x LMFAO",
+    "2x WOW",
+    "2x lolol",
+    "2x LMAOOOOO",
+    "2x KEKL",
+    "ClapHands",
+    "AURA",
+    "perfect perfect!",
+    "KARMA",
+    "@COLE_BLOODED you got BibleThump | 4Head | PogChamp and lost your 1800 Peanuts L",
+    "RELOAD THE SAVE",
+    "naaahh",
+    "Deserved"
+   ],
+   "source": "cut from the live stream at a chat spike: 190 chatters in 15 s, 4.2x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-26T04:02:52.414258+00:00",
+   "cam": [
+    288,
+    756,
+    422,
+    324
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " Get",
+     "start": 1.46,
+     "end": 1.92
+    },
+    {
+     "word": " the",
+     "start": 1.92,
+     "end": 2.06
+    },
+    {
+     "word": " car,",
+     "start": 2.06,
+     "end": 2.24
+    },
+    {
+     "word": " Jesus!",
+     "start": 2.32,
+     "end": 2.44
+    },
+    {
+     "word": " Watch",
+     "start": 12.02,
+     "end": 12.24
+    },
+    {
+     "word": " out",
+     "start": 12.24,
+     "end": 12.4
+    },
+    {
+     "word": " mid",
+     "start": 12.4,
+     "end": 12.6
+    },
+    {
+     "word": "-front!",
+     "start": 12.6,
+     "end": 12.88
+    },
+    {
+     "word": " Perfect,",
+     "start": 32.36,
+     "end": 32.82
+    },
+    {
+     "word": " perfect!",
+     "start": 33.06,
+     "end": 33.22
+    },
+    {
+     "word": " Weeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+     "start": 55.4,
+     "end": 55.86
+    }
+   ],
+   "metrics": {
+    "motion": 0.2526135005973716,
+    "motion_p90": 0.504405615292712,
+    "static_share": 0.30493273542600896,
+    "peak_db": 6.833688735961914,
+    "level_db": -26.251554489135742
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -6988,7 +7108,7 @@
    "seconds": 26.1
   }
  },
- "checked_n": 255,
+ "checked_n": 256,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
