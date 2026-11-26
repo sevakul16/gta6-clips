@@ -1,46 +1,4 @@
 {
- "chat-2939255332-287": {
-  "at": "2026-11-24T15:14:08.270307+00:00",
-  "moment_score": 6,
-  "what_happens": "After a bike crash he puts a helmet on his character, rides on saying he will not test it, and is wiped out at the next junction twenty seconds later: WASTED, facepalm, 'how does that happen every time'. The detected cam box is shifted left, corrected.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Put a helmet on to be safe. Lasted about twenty seconds 💀",
-  "keep_start": 29.0,
-  "keep_end": 51.0,
-  "cam": [
-   0.795,
-   0.16,
-   0.203,
-   0.254
-  ],
-  "hook": "Helmet didn't help",
-  "cover_at": 39.2
- },
- "RepleteBoredPeachDatSheffy-Vsg-DWbVi3tcAORl": {
-  "at": "2026-11-24T15:14:08.327269+00:00",
-  "moment_score": 4,
-  "what_happens": "Lucia jumps out of a door into the river at night and swims under a bridge to lose the cops; two shouts from him at the end. The picture is nearly black for most of the clip, the event is hard to read.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2939308400-111": {
-  "at": "2026-11-24T15:14:08.386400+00:00",
-  "moment_score": 4,
-  "what_happens": "Bank job on a timer: he loots a back office and runs out pleased with himself while chat groans that he missed the safe. Only chat knows the joke, nothing readable happens on screen.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2939191063-535": {
-  "at": "2026-11-24T15:14:08.451449+00:00",
-  "moment_score": 3,
-  "what_happens": "A story cutscene before a job, shown in full; chat laughs that the slow-motion walk has no music. Cutscene only, no gameplay event.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "KawaiiRacySandpiperPhilosoraptor-gIcZlJerGyBm0-3J": {
   "at": "2026-11-24T16:14:14.960854+00:00",
   "moment_score": 4,
@@ -1744,5 +1702,45 @@
    0.2,
    0.25
   ]
+ },
+ "TangibleNiceScorpionRedCoat-1B804fZ8iOsAbRt5": {
+  "at": "2026-11-26T16:13:41.533625+00:00",
+  "moment_score": 4,
+  "what_happens": "Night bike ride to rescue Rafa, falls on the rails and dies; picture is almost black, last third is the death screen and black. Ordinary mission death, mild reaction.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940859463-1231": {
+  "at": "2026-11-26T16:13:41.590549+00:00",
+  "moment_score": 2,
+  "what_happens": "Cutscene only (influencer stream at a sneaker launch), streamer listens with a hand on the headphones; the dialogue has a racial slur in voice and subtitles, then the pause menu.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941327623-134": {
+  "at": "2026-11-26T16:13:41.637917+00:00",
+  "moment_score": 3,
+  "what_happens": "Picks Lucia up on a motorcycle before a bank job and she turns up in a thong; her bare behind sits in the centre of the gameplay crop for the back half, plus two map screens. The joke is the underwear: reject.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941189314-480": {
+  "at": "2026-11-26T16:13:41.678609+00:00",
+  "moment_score": 2,
+  "what_happens": "Walks through the airport terminal and guns down civilians on the walkway, chat spams a massacre meme; streamer almost silent. Shooting bystanders as the joke: reject.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941274494-238": {
+  "at": "2026-11-26T16:13:41.719786+00:00",
+  "moment_score": 4,
+  "what_happens": "Night follow-the-boat mission on a dirt bike: mission dialogue, rides into bushes, gets stuck and restarts from checkpoint. Very dark, no clear event, black screens at the end.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
  }
 }
