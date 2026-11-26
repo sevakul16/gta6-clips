@@ -26,7 +26,8 @@ named below.
      reaction. The first posts showed weak reactions from feed viewers (about one like per hundred plays),
      and a slow start is the first suspect. A clip that needs 40 s of build-up to work is a weaker clip.
    - `--cam X Y W H` (fractions of the frame, 0..1) when there is no lime box or it is not on the webcam,
-     and a webcam is visible. With no webcam at all leave it out: the clip is then rejected.
+     and a webcam is visible. With no webcam at all leave it out: the clip is then rejected. A drawn avatar
+     counts as a webcam only for EN streamers, see "Avatars instead of a webcam".
 5. Publish the verdicts: `python tools/editor.py push`.
 6. Check that the pipeline loop is alive: `gh run list --workflow clips.yml --limit 5`. If no run is queued or
    in progress and `autorun` in config.yaml is not false, start it:
@@ -63,6 +64,17 @@ to lie inside the kept part. Without it the frame with the most motion is used. 
 
 The caption is the on-platform text: a short hook that says what happens, truthful, in the streamer's language
 (`language` in the json), at most 80 characters, no hashtags, no streamer handle, at most one emoji.
+
+## Avatars instead of a webcam (EN channel only, since 26.11.2026)
+
+Vsevolod's choice of 26.11.2026 ("Только с аватаром"): moments of EN streamers who show a drawn avatar in
+place of a webcam (theburntpeanut's peanut, ironmouse's VTuber model) are taken in the usual layout, and the
+avatar goes to the top of the vertical video. The bar is the same as for everyone: 6 or higher, and the
+reaction has to come through (the avatar moves or changes its face, or the voice carries it). theburntpeanut
+has a box in `cam_overrides`; for ironmouse give `--cam` on the avatar (bottom right, about
+`0.75 0.68 0.22 0.275`, measure it on the frame sheet every time). Still rejected: streamers with neither a
+webcam nor an avatar on screen (the full-frame layout was not chosen) and avatar clips of RU streamers (the
+question was about the EN channel only).
 
 ## Groups that do not publish yet (`publish: false` in config.yaml)
 
