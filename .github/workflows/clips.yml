@@ -26,6 +26,10 @@ on:
         description: "Test: one Twitch clip URL through the checks and the layout (nothing is posted)"
         type: string
         default: ""
+      after:
+        description: "Set by the loop: the commit with the previous run's state; this run waits until main has it"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -41,6 +45,29 @@ jobs:
     timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}   # the branch tip, not the commit the dispatch was resolved to
+          fetch-depth: 30
+      - name: Wait for the previous run's state
+        if: ${{ inputs.after != '' }}
+        env:
+          AFTER: ${{ inputs.after }}
+        run: |
+          # 26.11.2026: a run dispatched 4 s after the previous run's state push got the commit before it,
+          # worked from a stale state (a slot could have been posted twice) and could not save its own.
+          # Never start until main has the previous run's state.
+          for i in $(seq 1 24); do
+            git fetch -q --depth=30 origin "${GITHUB_REF_NAME}"
+            if git merge-base --is-ancestor "$AFTER" FETCH_HEAD 2>/dev/null; then
+              git reset -q --hard FETCH_HEAD
+              git log -1 --format='working from %h (%cI)'
+              exit 0
+            fi
+            echo "main does not have $AFTER yet, waiting"
+            sleep 5
+          done
+          echo "::error::the previous run's state $AFTER never showed up on main"
+          exit 1
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -158,9 +185,14 @@ jobs:
           git config user.name "clips-bot"
           git config user.email "clips-bot@users.noreply.github.com"
           git add state/posted.json
-          git diff --cached --quiet && exit 0
+          if git diff --cached --quiet; then echo "STATE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"; exit 0; fi
           git commit -qm "state: update"
-          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done
+          for i in 1 2 3; do
+            if git pull -q --rebase && git push -q; then echo "STATE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"; exit 0; fi
+            git rebase --abort 2>/dev/null || true   # a conflict: main got another state while this run worked
+            sleep 5
+          done
+          echo "::error::state/posted.json was not saved: main changed under this run or the push failed"
           exit 1
       - name: Start the next run
         if: ${{ !cancelled() && inputs.chain && inputs.test_url == '' }}
@@ -172,7 +204,7 @@ jobs:
           [ -f out/.listened ] || sleep 600    # nobody was live: wait before looking again
           # GitHub sometimes answers the dispatch with a 5xx and the loop would stop until the watchdog: try again a few times
           for i in 1 2 3 4; do
-            if gh workflow run clips.yml --ref main -f dry_run=false -f chain=true; then exit 0; fi
+            if gh workflow run clips.yml --ref main -f dry_run=false -f chain=true -f after="${STATE_SHA:-}"; then exit 0; fi
             sleep $((i * 30))
             n=$(gh run list --workflow clips.yml --limit 20 --json status,databaseId --jq "[.[] | select(.status != \"completed\" and .databaseId != ${GITHUB_RUN_ID})] | length" || echo 0)
             if [ "$n" != "0" ]; then echo "the next run is already there"; exit 0; fi
