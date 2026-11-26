@@ -1202,22 +1202,6 @@
   }
  },
  "rejected": {
-  "BillowingLongNuggetsSmoocherZ-O8DWInPrIMCDdys3": {
-   "at": "2026-11-23T17:33:55.932431+00:00",
-   "why": "no sound in the recording (12 s of 30 s are silent)",
-   "login": "mirwana",
-   "kind": "clip",
-   "vod": "2936298738",
-   "vod_t": 14231
-  },
-  "AmericanBrainyBibimbapLitty-jvof5DpCKXXQWLAu": {
-   "at": "2026-11-23T17:33:56.357607+00:00",
-   "why": "editor: 2/10, Рекламная вставка: стример рассказывает про магазин ключей и промокод, пока персонаж идёт по тёмному коридору отеля; в игре ничего не происходит",
-   "login": "steel",
-   "kind": "clip",
-   "vod": "2934772009",
-   "vod_t": 127890
-  },
   "YummyBoldMarjoramPoooound-rbL9rWbZL6z7iya6": {
    "at": "2026-11-23T18:17:15.316502+00:00",
    "why": "editor: no gameplay on screen",
@@ -3593,6 +3577,14 @@
    "kind": "chat",
    "vod": "2941187177",
    "vod_t": 26897.156976
+  },
+  "chat-2940859463-1363": {
+   "at": "2026-11-26T17:37:15.998295+00:00",
+   "why": "picture is almost static (motion 0.01)",
+   "login": "frametamer666",
+   "kind": "chat",
+   "vod": "2940859463",
+   "vod_t": 61310.093195
   }
  },
  "pending": {
@@ -3766,6 +3758,287 @@
     "static_share": 0.0,
     "peak_db": 4.231754302978516,
     "level_db": -28.03647232055664
+   },
+   "silence": []
+  },
+  "CaringYummyCheddarCurseLit-iMd8atqXkFtzg86D": {
+   "id": "CaringYummyCheddarCurseLit-iMd8atqXkFtzg86D",
+   "vod": "2939639737",
+   "vod_t": 1549,
+   "group": "ru",
+   "views": 1019,
+   "title": "ЗАЛЕТЕЛ К ЛЮСИИ",
+   "url": "https://www.twitch.tv/seogaaaa/clip/CaringYummyCheddarCurseLit-iMd8atqXkFtzg86D",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "seogaaaa",
+   "name": "seogaaaa",
+   "source": "Twitch clip made by a viewer, 1019 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"ЗАЛЕТЕЛ К ЛЮСИИ\"",
+   "at": "2026-11-26T17:35:33.380183+00:00",
+   "cam": null,
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 16.7,
+   "words": [
+    {
+     "word": " Let's",
+     "start": 0.0,
+     "end": 0.58
+    },
+    {
+     "word": " go!",
+     "start": 0.58,
+     "end": 0.8
+    },
+    {
+     "word": " Люси,",
+     "start": 4.84,
+     "end": 5.36
+    },
+    {
+     "word": " жди",
+     "start": 5.52,
+     "end": 5.68
+    },
+    {
+     "word": " меня!",
+     "start": 5.68,
+     "end": 5.88
+    },
+    {
+     "word": " Ой,",
+     "start": 9.6,
+     "end": 10.12
+    },
+    {
+     "word": " я",
+     "start": 10.3,
+     "end": 10.54
+    },
+    {
+     "word": " в",
+     "start": 10.54,
+     "end": 10.64
+    },
+    {
+     "word": " Люси,",
+     "start": 10.64,
+     "end": 11.02
+    },
+    {
+     "word": " влетел,",
+     "start": 11.06,
+     "end": 11.46
+    },
+    {
+     "word": " извини,",
+     "start": 11.64,
+     "end": 12.18
+    },
+    {
+     "word": " извини",
+     "start": 12.26,
+     "end": 12.52
+    },
+    {
+     "word": " Ой,",
+     "start": 13.86,
+     "end": 14.38
+    },
+    {
+     "word": " здорово,",
+     "start": 14.38,
+     "end": 14.9
+    },
+    {
+     "word": " здорово",
+     "start": 14.9,
+     "end": 15.62
+    }
+   ],
+   "metrics": {
+    "motion": 0.2701041666666667,
+    "motion_p90": 0.4937152777777778,
+    "static_share": 0.07575757575757576,
+    "peak_db": 11.758609771728516,
+    "level_db": -32.06079864501953
+   },
+   "silence": []
+  },
+  "chat-2940388399-2102": {
+   "id": "chat-2940388399-2102",
+   "url": "https://www.twitch.tv/videos/2940388399",
+   "section": [
+    94552.129137,
+    94608.129137
+   ],
+   "kind": "chat",
+   "views": 62,
+   "title": "",
+   "vod": "2940388399",
+   "vod_t": 94552.129137,
+   "group": "en",
+   "login": "jinnytty",
+   "name": "Jinnytty",
+   "viewers": 3986,
+   "chat_score": 3.44,
+   "found_at": "2026-11-26T17:34:58.592475+00:00",
+   "spike_at": "2026-11-26T17:34:20.129137+00:00",
+   "chat": [
+    "8x YOUDIED",
+    "5x LOL",
+    "5x LUL",
+    "3x ICANT",
+    "3x haha",
+    "3x o7",
+    "2x lemao",
+    "2x SOBAD",
+    "2x NarutoRun",
+    "2x KEKW",
+    "2x yyjW",
+    "om",
+    "PANIC",
+    "pegWOO",
+    "ADHD",
+    "JINNYING",
+    "ur the one controlling him",
+    "go to bed!!!!!",
+    "he by himself"
+   ],
+   "source": "cut from the live stream at a chat spike: 62 chatters in 15 s, 3.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-26T17:36:41.787743+00:00",
+   "cam": [
+    1399,
+    108,
+    520,
+    366
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " Jason?",
+     "start": 33.68,
+     "end": 34.38
+    },
+    {
+     "word": " Why",
+     "start": 35.22,
+     "end": 35.62
+    },
+    {
+     "word": " is",
+     "start": 35.62,
+     "end": 35.9
+    },
+    {
+     "word": " he",
+     "start": 35.9,
+     "end": 36.0
+    },
+    {
+     "word": " just",
+     "start": 36.0,
+     "end": 36.22
+    },
+    {
+     "word": " running",
+     "start": 36.22,
+     "end": 36.72
+    },
+    {
+     "word": " around?",
+     "start": 36.72,
+     "end": 37.26
+    },
+    {
+     "word": " Why",
+     "start": 41.43,
+     "end": 41.63
+    },
+    {
+     "word": " is",
+     "start": 41.63,
+     "end": 41.75
+    },
+    {
+     "word": " he",
+     "start": 41.75,
+     "end": 41.85
+    },
+    {
+     "word": " just",
+     "start": 41.85,
+     "end": 41.99
+    },
+    {
+     "word": " running",
+     "start": 41.99,
+     "end": 42.31
+    },
+    {
+     "word": " around?",
+     "start": 42.31,
+     "end": 42.75
+    },
+    {
+     "word": " Okay,",
+     "start": 43.21,
+     "end": 43.43
+    },
+    {
+     "word": " okay,",
+     "start": 43.69,
+     "end": 43.69
+    },
+    {
+     "word": " okay,",
+     "start": 43.71,
+     "end": 44.07
+    },
+    {
+     "word": " okay.",
+     "start": 44.07,
+     "end": 44.59
+    },
+    {
+     "word": " I",
+     "start": 47.16,
+     "end": 47.4
+    },
+    {
+     "word": " mean",
+     "start": 47.4,
+     "end": 47.52
+    },
+    {
+     "word": " that's",
+     "start": 47.52,
+     "end": 47.78
+    },
+    {
+     "word": " coming",
+     "start": 47.78,
+     "end": 47.94
+    },
+    {
+     "word": " in.",
+     "start": 47.94,
+     "end": 48.18
+    }
+   ],
+   "metrics": {
+    "motion": 0.30523166615526237,
+    "motion_p90": 0.6240564590365143,
+    "static_share": 0.14798206278026907,
+    "peak_db": 7.033601760864258,
+    "level_db": -28.583078384399414
    },
    "silence": []
   }
@@ -6062,7 +6335,7 @@
    "seconds": 26.1
   }
  },
- "checked_n": 316,
+ "checked_n": 319,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
