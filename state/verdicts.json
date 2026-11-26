@@ -1,36 +1,4 @@
 {
- "DullPrettyCaterpillarKappaWealth-_PBk2Ut1sJ0GUkqc": {
-  "at": "2026-11-24T02:14:17.425264+00:00",
-  "moment_score": 3,
-  "what_happens": "The streamer gives his final rating of the game, a nine out of ten, while his character stands on a pier. Talk only, no game event on screen",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "GiftedCleverPhoneOneHand-Tq6nO3NrTG8uZMWL": {
-  "at": "2026-11-24T02:14:17.477883+00:00",
-  "moment_score": 5,
-  "what_happens": "На заправке незнакомец жалуется на роботов, герой отвечает, что его убьют сигареты, тот уезжает, и вдалеке гремит взрыв. Забавная сценка, но взрыв далеко и мелко, а стример почти не реагирует",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "OutstandingFairCobblerPraiseIt-Oz-2zy8DKMNXaovr": {
-  "at": "2026-11-24T02:14:17.521971+00:00",
-  "moment_score": 3,
-  "what_happens": "Story cutscene in a boat workshop where a woman with a pistol explains how she handles trouble. Cutscene only, no webcam and no streamer reaction in the picture",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2938328156-1096": {
-  "at": "2026-11-24T03:13:27.438207+00:00",
-  "moment_score": 2,
-  "what_happens": "Конец стрима: стример смотрит карту, садится в машину, останавливается и прощается со зрителями; всплеск чата это прощания. Игрового события нет",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "TenuousDependableBananaMingLee-KqfjPnql33RIJzBg": {
   "at": "2026-11-24T04:13:47.346368+00:00",
   "moment_score": 7,
@@ -1602,6 +1570,56 @@
   "at": "2026-11-26T02:13:07.208919+00:00",
   "moment_score": 3,
   "what_happens": "Dark night boat defence that ends in a retry menu; the streamer is a cartoon avatar, not a webcam, and says almost nothing",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "FurryInquisitiveSwordBrokeBack-5SIOik-M_5vJpDsB": {
+  "at": "2026-11-26T03:14:27.548020+00:00",
+  "moment_score": 6,
+  "what_happens": "Night drive in first person: green fog rolls in, the car stalls, a long-haired ghost crawls onto the hood and vanishes; streamer leans in and grimaces. Rare spooky encounter, readable without context; picture is dark and the streamer says little, so no higher",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Туман, машина глохнет, и на капот заползает призрак 👻",
+  "keep_start": 10.0,
+  "keep_end": 34.0,
+  "cam": [
+   0.012,
+   0.43,
+   0.176,
+   0.22
+  ],
+  "hook": "Призрак на капоте",
+  "cover_at": 28.4
+ },
+ "chat-2940574635-577": {
+  "at": "2026-11-26T03:14:27.593553+00:00",
+  "moment_score": 4,
+  "what_happens": "Says 'no weapons', picks a lock for 20 s, then throws a knife at a guard and deadpans 'I killed that guy'. The kill is between frames, the sound is very quiet, the irony needs a long dull middle",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940574635-603": {
+  "at": "2026-11-26T03:14:27.632661+00:00",
+  "moment_score": 4,
+  "what_happens": "On the run with three stars, calls for backup, then stops in a fruit shop to eat an apple. Mild gag, streamer says nothing about it, dark night run for most of the clip",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940864084-168": {
+  "at": "2026-11-26T03:14:27.676090+00:00",
+  "moment_score": 3,
+  "what_happens": "Peanut avatar instead of a webcam; parked car on a lawn while the streamer quizzes chat on what a beach promenade is. Talk, no game event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940500640-732": {
+  "at": "2026-11-26T03:14:27.719265+00:00",
+  "moment_score": 3,
+  "what_happens": "Night drive and map browsing while asking chat whether the game is meant to be played by robbing shops. Talk, no event",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
