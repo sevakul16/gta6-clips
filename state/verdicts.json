@@ -1623,5 +1623,29 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "chat-2940736052-450": {
+  "at": "2026-11-26T04:13:30.397666+00:00",
+  "moment_score": 3,
+  "what_happens": "Drives a green coupe and asks chat to vote 1 or 2 on the character's blue hair. Chat poll, no game event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940864084-244": {
+  "at": "2026-11-26T04:13:30.433142+00:00",
+  "moment_score": 3,
+  "what_happens": "Peanut avatar instead of a webcam; loots a back office, picks up a collectible card and teases a joke without telling it. No event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940864084-266": {
+  "at": "2026-11-26T04:13:30.469875+00:00",
+  "moment_score": 3,
+  "what_happens": "Peanut avatar instead of a webcam; night police chase, says 'perfect' and crashes, then the last 20 s are the pause menu",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
  }
 }
