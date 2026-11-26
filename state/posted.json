@@ -4933,6 +4933,254 @@
     "level_db": -30.17558479309082
    },
    "silence": []
+  },
+  "chat-2940606444-356": {
+   "id": "chat-2940606444-356",
+   "url": "https://www.twitch.tv/videos/2940606444",
+   "section": [
+    16005.280659,
+    16061.280659
+   ],
+   "kind": "chat",
+   "views": 59,
+   "title": "",
+   "vod": "2940606444",
+   "vod_t": 16005.280659,
+   "group": "en",
+   "login": "agent00",
+   "name": "Agent00",
+   "viewers": 5548,
+   "chat_score": 5.9,
+   "found_at": "2026-11-26T00:01:42.983811+00:00",
+   "spike_at": "2026-11-25T23:57:55.280659+00:00",
+   "chat": [
+    "21x WW",
+    "5x BANG",
+    "4x OOOO",
+    "4x WWW",
+    "3x HOLD",
+    "3x WWWWW",
+    "2x W",
+    "2x wwww",
+    "2x WEDIDIT",
+    "2x WW ͏",
+    "FBtouchdown",
+    "Wwwwwww",
+    "BANGGGG",
+    "Nice1",
+    "ABANGGG",
+    "wwwwwwwwww",
+    "BANGGGGG",
+    "dagamerHype"
+   ],
+   "source": "cut from the live stream at a chat spike: 59 chatters in 15 s, 5.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-26T00:02:12.817515+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.1,
+   "words": [
+    {
+     "word": " Look",
+     "start": 1.23,
+     "end": 1.77
+    },
+    {
+     "word": " there's",
+     "start": 1.77,
+     "end": 1.91
+    },
+    {
+     "word": " a",
+     "start": 1.91,
+     "end": 2.03
+    },
+    {
+     "word": " cop",
+     "start": 2.03,
+     "end": 2.19
+    },
+    {
+     "word": " Yes",
+     "start": 5.66,
+     "end": 6.2
+    },
+    {
+     "word": " Don't",
+     "start": 22.54,
+     "end": 23.08
+    },
+    {
+     "word": " ran",
+     "start": 23.08,
+     "end": 23.34
+    },
+    {
+     "word": " me",
+     "start": 23.34,
+     "end": 23.52
+    },
+    {
+     "word": " please",
+     "start": 23.52,
+     "end": 23.8
+    },
+    {
+     "word": " don't",
+     "start": 23.8,
+     "end": 24.02
+    },
+    {
+     "word": " run",
+     "start": 24.02,
+     "end": 24.16
+    },
+    {
+     "word": " me",
+     "start": 24.16,
+     "end": 24.32
+    },
+    {
+     "word": " please",
+     "start": 24.32,
+     "end": 24.7
+    },
+    {
+     "word": " this",
+     "start": 24.7,
+     "end": 25.2
+    },
+    {
+     "word": " area",
+     "start": 25.2,
+     "end": 25.4
+    },
+    {
+     "word": " is",
+     "start": 25.4,
+     "end": 25.56
+    },
+    {
+     "word": " so",
+     "start": 25.56,
+     "end": 25.66
+    },
+    {
+     "word": " sketchy",
+     "start": 25.66,
+     "end": 26.04
+    },
+    {
+     "word": " on",
+     "start": 26.04,
+     "end": 26.12
+    },
+    {
+     "word": " controller",
+     "start": 26.12,
+     "end": 26.44
+    },
+    {
+     "word": " I",
+     "start": 41.39,
+     "end": 41.93
+    },
+    {
+     "word": " did",
+     "start": 45.22,
+     "end": 45.76
+    },
+    {
+     "word": " it",
+     "start": 45.76,
+     "end": 46.14
+    },
+    {
+     "word": " I",
+     "start": 46.14,
+     "end": 47.58
+    },
+    {
+     "word": " did",
+     "start": 47.58,
+     "end": 47.8
+    },
+    {
+     "word": " it",
+     "start": 47.8,
+     "end": 48.38
+    },
+    {
+     "word": " Fuck",
+     "start": 51.84,
+     "end": 52.32
+    },
+    {
+     "word": " man,",
+     "start": 52.32,
+     "end": 52.62
+    },
+    {
+     "word": " I",
+     "start": 52.7,
+     "end": 52.76
+    },
+    {
+     "word": " gotta",
+     "start": 52.76,
+     "end": 52.88
+    },
+    {
+     "word": " escape",
+     "start": 52.88,
+     "end": 53.16
+    },
+    {
+     "word": " the",
+     "start": 53.16,
+     "end": 53.32
+    },
+    {
+     "word": " police",
+     "start": 53.32,
+     "end": 53.66
+    },
+    {
+     "word": " too.",
+     "start": 53.66,
+     "end": 53.86
+    },
+    {
+     "word": " That's",
+     "start": 54.28,
+     "end": 54.46
+    },
+    {
+     "word": " my",
+     "start": 54.46,
+     "end": 54.58
+    },
+    {
+     "word": " fucking",
+     "start": 54.58,
+     "end": 54.88
+    },
+    {
+     "word": " prize",
+     "start": 54.88,
+     "end": 55.28
+    }
+   ],
+   "metrics": {
+    "motion": 0.5686805555555555,
+    "motion_p90": 0.6913194444444445,
+    "static_share": 0.02242152466367713,
+    "peak_db": 18.035255432128906,
+    "level_db": -32.03388214111328
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -7005,7 +7253,7 @@
    "seconds": 34.1
   }
  },
- "checked_n": 235,
+ "checked_n": 236,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
