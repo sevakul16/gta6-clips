@@ -1,20 +1,4 @@
 {
- "chat-2939191063-389": {
-  "at": "2026-11-24T14:13:33.334415+00:00",
-  "moment_score": 2,
-  "what_happens": "A quiet delivery flight at dusk while chat counts numbers; the mission ends with 'all delivered'. No game event, dark picture, a couple of words from the streamer.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2939161873-543": {
-  "at": "2026-11-24T14:13:33.409074+00:00",
-  "moment_score": 4,
-  "what_happens": "Takes a beer from the fridge to give Lucia, cannot hand it over, then sees she already has one. A small domestic gag in a dark room; the streamer is a VTuber avatar, there is no webcam.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2939255332-287": {
   "at": "2026-11-24T15:14:08.270307+00:00",
   "moment_score": 6,
@@ -1669,6 +1653,66 @@
    0.66,
    0.22,
    0.275
+  ]
+ },
+ "chat-2941220112-232": {
+  "at": "2026-11-26T14:15:10.392458+00:00",
+  "moment_score": 6,
+  "what_happens": "Five stars on the military base at night: asks 'can I sit in this?', climbs into a fighter jet, officers warn, explosion, engine damaged, dead 15 s later; facepalm and doubled over laughing, chat howls (12x). Self-own with a verbal setup; picture is dark, hence 6 not 7.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Пять звёзд, военная база, истребитель. Хватило секунд на пятнадцать 😂",
+  "keep_start": 22.0,
+  "keep_end": 52.0,
+  "cam": [
+   0.0,
+   0.425,
+   0.208,
+   0.26
+  ],
+  "hook": "Я могу в это сесть?",
+  "cover_at": 38.0
+ },
+ "chat-2941301054-22": {
+  "at": "2026-11-26T14:15:10.445180+00:00",
+  "moment_score": 6,
+  "what_happens": "Rides a quad under a moving truck trailer, gets flipped and thrown off, then explains: 'expected, but I thought I'd pass underneath like in Fast and Furious'. Clear daylight picture, self-own with the line; later tanker idea and death are cut off.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "План был проехать на квадроцикле под фурой, как в «Форсаже». Не получилось 😅",
+  "keep_start": 4.0,
+  "keep_end": 20.0,
+  "hook": "Как в Форсаже",
+  "cover_at": 10.0
+ },
+ "chat-2941187177-358": {
+  "at": "2026-11-26T14:15:10.513883+00:00",
+  "moment_score": 3,
+  "what_happens": "No webcam in the layout. Stealth crawl through offices in a heist mission, chat spams a number meme; no event.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940912874-995": {
+  "at": "2026-11-26T14:15:10.560436+00:00",
+  "moment_score": 5,
+  "what_happens": "VTuber avatar, no webcam. Seaplane lands on water, then ends up in the bushes beside the airstrip, NPC swears; funny but format is rejected while avatar clips are not allowed.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940388399-1807": {
+  "at": "2026-11-26T14:15:10.613698+00:00",
+  "moment_score": 4,
+  "what_happens": "Night sniper mission seen through a scope: cannot find the target, mission failed, last third is fail and black screens. Chat mocks; ordinary mission failure with a dark unreadable picture.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "",
+  "cam": [
+   0.82,
+   0.11,
+   0.18,
+   0.225
   ]
  }
 }
