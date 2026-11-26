@@ -5118,6 +5118,350 @@
     "level_db": -25.31395149230957
    },
    "silence": []
+  },
+  "chat-2941327623-134": {
+   "id": "chat-2941327623-134",
+   "url": "https://www.twitch.tv/videos/2941327623",
+   "section": [
+    6029.930179,
+    6085.930179
+   ],
+   "kind": "chat",
+   "views": 37,
+   "title": "",
+   "vod": "2941327623",
+   "vod_t": 6029.930179,
+   "group": "ru",
+   "login": "welovegames",
+   "name": "WELOVEGAMES",
+   "viewers": 3051,
+   "chat_score": 12.33,
+   "found_at": "2026-11-26T16:07:07.562957+00:00",
+   "spike_at": "2026-11-26T15:49:19.930179+00:00",
+   "chat": [
+    "4x LUL",
+    "3x wlgRolling",
+    "2x xdd",
+    "2x wlgPeka",
+    "2x ddx",
+    "эх Люська",
+    "PewPewPew",
+    "ор",
+    "уже представляю эти новости LUL",
+    "чо за старики",
+    "А минусы? wlgPizza",
+    "переодень ее",
+    "оставь, так забавнее"
+   ],
+   "source": "cut from the live stream at a chat spike: 37 chatters in 15 s, 12.3x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-26T16:07:44.233454+00:00",
+   "cam": [
+    0,
+    273,
+    562,
+    396
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " почти",
+     "start": 3.28,
+     "end": 3.88
+    },
+    {
+     "word": " на",
+     "start": 3.88,
+     "end": 4.06
+    },
+    {
+     "word": " месте",
+     "start": 4.06,
+     "end": 4.32
+    },
+    {
+     "word": " хорошо",
+     "start": 4.32,
+     "end": 4.94
+    },
+    {
+     "word": " жду",
+     "start": 4.94,
+     "end": 6.54
+    },
+    {
+     "word": " жду",
+     "start": 8.36,
+     "end": 8.6
+    },
+    {
+     "word": " жду",
+     "start": 8.6,
+     "end": 8.88
+    },
+    {
+     "word": " о",
+     "start": 8.88,
+     "end": 9.9
+    },
+    {
+     "word": " приехала",
+     "start": 9.9,
+     "end": 10.72
+    },
+    {
+     "word": " садись",
+     "start": 12.58,
+     "end": 13.66
+    },
+    {
+     "word": " детка",
+     "start": 15.71,
+     "end": 16.93
+    },
+    {
+     "word": " садись",
+     "start": 16.93,
+     "end": 17.77
+    },
+    {
+     "word": " залезай",
+     "start": 24.84,
+     "end": 26.16
+    },
+    {
+     "word": " да",
+     "start": 26.16,
+     "end": 27.68
+    },
+    {
+     "word": " боже",
+     "start": 27.68,
+     "end": 29.82
+    },
+    {
+     "word": " почему",
+     "start": 31.13,
+     "end": 31.63
+    },
+    {
+     "word": " ты",
+     "start": 31.63,
+     "end": 31.89
+    },
+    {
+     "word": " властах",
+     "start": 31.89,
+     "end": 32.51
+    },
+    {
+     "word": " ты",
+     "start": 32.51,
+     "end": 33.27
+    },
+    {
+     "word": " ты",
+     "start": 33.27,
+     "end": 33.61
+    },
+    {
+     "word": " так",
+     "start": 33.61,
+     "end": 33.93
+    },
+    {
+     "word": " будешь",
+     "start": 33.93,
+     "end": 34.27
+    },
+    {
+     "word": " грабить",
+     "start": 34.27,
+     "end": 34.79
+    },
+    {
+     "word": " банк",
+     "start": 34.79,
+     "end": 36.39
+    },
+    {
+     "word": " ща",
+     "start": 44.6,
+     "end": 44.98
+    },
+    {
+     "word": " ща",
+     "start": 44.98,
+     "end": 45.14
+    },
+    {
+     "word": " не",
+     "start": 45.14,
+     "end": 45.24
+    },
+    {
+     "word": " знаю",
+     "start": 45.24,
+     "end": 45.4
+    },
+    {
+     "word": " как",
+     "start": 45.4,
+     "end": 45.66
+    },
+    {
+     "word": " ее",
+     "start": 45.66,
+     "end": 45.76
+    },
+    {
+     "word": " переоддить",
+     "start": 45.76,
+     "end": 46.42
+    },
+    {
+     "word": " она",
+     "start": 46.42,
+     "end": 46.58
+    },
+    {
+     "word": " не",
+     "start": 46.58,
+     "end": 46.8
+    },
+    {
+     "word": " хочет",
+     "start": 46.8,
+     "end": 47.08
+    }
+   ],
+   "metrics": {
+    "motion": 0.4665677237931573,
+    "motion_p90": 0.7402280893610373,
+    "static_share": 0.22869955156950672,
+    "peak_db": 14.563093185424805,
+    "level_db": -33.61262893676758
+   },
+   "silence": []
+  },
+  "TangibleNiceScorpionRedCoat-1B804fZ8iOsAbRt5": {
+   "id": "TangibleNiceScorpionRedCoat-1B804fZ8iOsAbRt5",
+   "url": "https://www.twitch.tv/t2x2/clip/TangibleNiceScorpionRedCoat-1B804fZ8iOsAbRt5",
+   "section": null,
+   "kind": "clip",
+   "views": 301,
+   "title": "Помощник",
+   "vod": "2940338302",
+   "vod_t": 13620,
+   "group": "ru",
+   "login": "t2x2",
+   "name": "T2x2",
+   "source": "Twitch clip made by a viewer, 301 views, titled \"Помощник\"",
+   "at": "2026-11-26T16:07:55.613543+00:00",
+   "cam": [
+    1937,
+    930,
+    460,
+    324
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 30.0,
+   "words": [
+    {
+     "word": " Рафа!",
+     "start": 0.21,
+     "end": 1.19
+    },
+    {
+     "word": " Папи",
+     "start": 1.33,
+     "end": 1.69
+    },
+    {
+     "word": " уже",
+     "start": 1.69,
+     "end": 1.93
+    },
+    {
+     "word": " идёт!",
+     "start": 1.93,
+     "end": 2.49
+    },
+    {
+     "word": " Папа!",
+     "start": 3.37,
+     "end": 4.11
+    },
+    {
+     "word": " Рафа,",
+     "start": 4.87,
+     "end": 5.27
+    },
+    {
+     "word": " всё",
+     "start": 5.33,
+     "end": 5.43
+    },
+    {
+     "word": " будет",
+     "start": 5.43,
+     "end": 5.73
+    },
+    {
+     "word": " хорошо!",
+     "start": 5.73,
+     "end": 6.37
+    },
+    {
+     "word": " Бля,",
+     "start": 7.41,
+     "end": 7.67
+    },
+    {
+     "word": " папи!",
+     "start": 7.81,
+     "end": 8.37
+    },
+    {
+     "word": " Пиздеец.",
+     "start": 9.87,
+     "end": 10.61
+    },
+    {
+     "word": " Давай,",
+     "start": 15.41,
+     "end": 15.71
+    },
+    {
+     "word": " я",
+     "start": 15.79,
+     "end": 15.89
+    },
+    {
+     "word": " за",
+     "start": 15.89,
+     "end": 16.01
+    },
+    {
+     "word": " Рафой.",
+     "start": 16.01,
+     "end": 16.39
+    }
+   ],
+   "metrics": {
+    "motion": 0.061199332898266984,
+    "motion_p90": 0.1905445580451019,
+    "static_share": 0.09243697478991597,
+    "peak_db": 11.041789054870605,
+    "level_db": -23.66623878479004
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -7412,7 +7756,7 @@
    "seconds": 26.1
   }
  },
- "checked_n": 309,
+ "checked_n": 311,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
