@@ -1,102 +1,4 @@
 {
- "chat-2940381736-281": {
-  "at": "2026-11-25T19:17:16.569928+00:00",
-  "moment_score": 2,
-  "what_happens": "Load menu and loading screens for most of the clip, then a walk to a car; no event, the scream at the end has nothing on screen",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940381736-292": {
-  "at": "2026-11-25T19:17:16.606761+00:00",
-  "moment_score": 5,
-  "what_happens": "Blows up in the bank vault on an own sticky bomb while fumbling with the loot; no setup in words, the reaction and the rant about controls run over a death screen, black and a loading screen",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940341220-338": {
-  "at": "2026-11-25T19:17:16.643412+00:00",
-  "moment_score": 4,
-  "what_happens": "Scripted activist dialogue about freeing a bear from a truck; the streamer barely speaks and the payoff with the bear comes after the clip ends",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940300523-445": {
-  "at": "2026-11-25T19:17:16.681795+00:00",
-  "moment_score": 2,
-  "what_happens": "Sponsor giveaway read for a betting brand with its QR code and bonus banner across the picture, the game is a paused map",
-  "gameplay_visible": true,
-  "gambling_ad": true,
-  "caption": ""
- },
- "chat-2940471411-139": {
-  "at": "2026-11-25T19:17:16.718274+00:00",
-  "moment_score": 4,
-  "what_happens": "Helicopter landing on a rooftop ends in a crash and wasted; no webcam in the picture, dark night footage",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "GentleSmokyGrasshopperKeepo-QQuktfF4QaMrTIOf": {
-  "at": "2026-11-25T19:17:16.755539+00:00",
-  "moment_score": 3,
-  "what_happens": "Ordinary driving after a light bump at a junction, no speech and no event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "AuspiciousBrainyOrcaPupper-5eiY5qb-FEoyrOU4": {
-  "at": "2026-11-25T19:17:16.792157+00:00",
-  "moment_score": 5,
-  "what_happens": "Passenger lying in the pickup bed is thrown out when the truck scrapes the barrier; a fair physics gag, but seen for a second from a far cinematic camera, no words during it, the spoken punchline comes only after a pause menu, and the webcam is tiny",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "PolishedFineFerretMoreCowbell-qcBvExOBZr2hky_g": {
-  "at": "2026-11-25T20:13:37.563827+00:00",
-  "moment_score": 7,
-  "what_happens": "Tows a stolen safe with a pickup and works out how to toss it over the canal; the truck goes into the water, a collision bug fires truck and safe into the sky over the rooftops and they land in a garden, with a loud arms-up celebration of the predicted bug. Clear setup, visible payoff, strong reaction, 25 s",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Пикап с сейфом упал в канал, а баг запустил его в небо 🚀",
-  "hook": "Пикап улетел в небо",
-  "cover_at": 13.7
- },
- "chat-2940338302-458": {
-  "at": "2026-11-25T20:13:37.617857+00:00",
-  "moment_score": 3,
-  "what_happens": "Argument with chat over a bag not taken on the mission, a pause menu and a routine construction-site shootout; no event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940381736-381": {
-  "at": "2026-11-25T20:13:37.667741+00:00",
-  "moment_score": 2,
-  "what_happens": "Scripted phone call about jewellery stores, then browsing the map; no event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940300523-531": {
-  "at": "2026-11-25T20:13:37.719614+00:00",
-  "moment_score": 3,
-  "what_happens": "Gym workout minigame and a steroid injection cutscene with crude commentary; no game event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940291093-555": {
-  "at": "2026-11-25T20:13:37.761839+00:00",
-  "moment_score": 2,
-  "what_happens": "Walk home that turns into a sex scene cutscene",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2940341220-493": {
   "at": "2026-11-25T21:14:13.177083+00:00",
   "moment_score": 5,
@@ -1780,6 +1682,90 @@
   "moment_score": 2,
   "what_happens": "Dark mission scene, last third is the pause menu, the streamer rants with insults; no event",
   "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942412580-122": {
+  "at": "2026-11-27T20:15:19.109069+00:00",
+  "moment_score": 6,
+  "what_happens": "Eavesdropping on a criminal arguing with his parrot behind a hedge: the parrot calls him a pussy boy, he threatens to strangle it, the parrot answers 'Harder, daddy!'; the streamer throws both hands up and breaks down laughing. Scripted encounter with funny dialogue shown in the game subtitles, strong reaction on the webcam",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "A criminal threatens to strangle a parrot. The parrot's comeback is unreal 🦜",
+  "keep_start": 25.0,
+  "keep_end": 51.0,
+  "hook": "The parrot said WHAT?",
+  "cover_at": 50.0
+ },
+ "chat-2942412580-114": {
+  "at": "2026-11-27T20:15:19.144241+00:00",
+  "moment_score": 5,
+  "what_happens": "A stranger catches fire at a gas pump and survives; a minute later 'he didn't die, which is insane... never mind'. The fire is small and far away and the punchline is only heard off screen while the picture shows a parked car",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942412580-139": {
+  "at": "2026-11-27T20:15:19.177785+00:00",
+  "moment_score": 4,
+  "what_happens": "Talk about filming cops, then a long blurry zoom on a tree effigy, the character gets high, faceplants and the screen goes black; weak picture, back part is a black screen",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "SweetZealousPieLitty-5VBtxZ2uNDT68OMF": {
+  "at": "2026-11-27T20:15:19.211841+00:00",
+  "moment_score": 2,
+  "what_happens": "Gym montage cutscene with close-ups of bodies in leggings while the streamer hums along; cutscene only",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "HonestComfortableLasagnaDxAbomb-EX0JlMQXBDsm__gQ": {
+  "at": "2026-11-27T20:15:19.245803+00:00",
+  "moment_score": 5,
+  "what_happens": "Night bike backflip attempt off a dirt pile ends in a fall, 'I wanted a flip, it bugged out'; dark, and the bookmaker ticker sits at the top inside the gameplay crop",
+  "gameplay_visible": true,
+  "gambling_ad": true,
+  "caption": ""
+ },
+ "chat-2942286375-350": {
+  "at": "2026-11-27T20:15:19.281077+00:00",
+  "moment_score": 4,
+  "what_happens": "Gas station encounter with a stranded woman who refuses help and it ends in a scuffle with her on the ground; ordinary random encounter, thin reaction",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942445595-92": {
+  "at": "2026-11-27T20:15:19.313772+00:00",
+  "moment_score": 3,
+  "what_happens": "Red-lit bank heist shootout that is hard to read, then the pause menu and a black screen while deciding to replay the mission",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942254430-411": {
+  "at": "2026-11-27T20:15:19.347457+00:00",
+  "moment_score": 2,
+  "what_happens": "First-person city drive to music with one shout at the start; no event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942367858-196": {
+  "at": "2026-11-27T20:15:19.383168+00:00",
+  "moment_score": 4,
+  "what_happens": "Night scene: cops arrive after a shootout and the streamer worries about losing the hypercar, then fetches it from a garage; very dark picture, event is not readable",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "StormyDeliciousSalamanderFUNgineer-MI30MH2fhrhqE_TS": {
+  "at": "2026-11-27T20:15:19.417110+00:00",
+  "moment_score": 2,
+  "what_happens": "Console home screen and chat window while talking about being addicted to streaming; no gameplay",
+  "gameplay_visible": false,
   "gambling_ad": false,
   "caption": ""
  }
