@@ -1,50 +1,4 @@
 {
- "chat-2939580472-605": {
-  "at": "2026-11-25T03:14:52.351132+00:00",
-  "moment_score": 7,
-  "what_happens": "On a rooftop as the old man: finds a parachute ('oh hell yeah'), asks how to use it, jumps off the tower anyway and never opens it, Wasted. Facepalm on the black screen, chat explodes. Clear setup and payoff, picture a bit dim.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Found a parachute, said \"hell yeah\", jumped, and never got it open 💀",
-  "keep_start": 33.0,
-  "keep_end": 61.0,
-  "hook": "Which button opens it?",
-  "cover_at": 50.4
- },
- "chat-2939580472-613": {
-  "at": "2026-11-25T03:14:52.389365+00:00",
-  "moment_score": 2,
-  "what_happens": "Map and a calm drive while arguing with chat about being scammed. Talk only, no game event.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2939339874-1042": {
-  "at": "2026-11-25T03:14:52.423836+00:00",
-  "moment_score": 4,
-  "what_happens": "Night airport shootout, dies behind a barrier. Ordinary mission death in a dark picture, tiny webcam, the streamer is silent until after the death.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2939750097-388": {
-  "at": "2026-11-25T03:14:52.457413+00:00",
-  "moment_score": 6,
-  "what_happens": "Pawn shop robbery: aims a gun at the staff, a local grabs the character, the button-mash struggle is lost and it ends in Wasted. 'I was spamming square!' and a joke that Jason has not worked out. Detector box is wider than the portrait webcam, corrected.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Pulled a gun on the pawn shop and lost the fight anyway 💀",
-  "keep_start": 34.0,
-  "keep_end": 64.0,
-  "cam": [
-   0.0,
-   0.19,
-   0.208,
-   0.26
-  ],
-  "hook": "I was spamming square",
-  "cover_at": 45.5
- },
  "chat-2939580472-678": {
   "at": "2026-11-25T04:13:43.348443+00:00",
   "moment_score": 4,
@@ -1751,6 +1705,30 @@
   "at": "2026-11-27T03:13:58.452436+00:00",
   "moment_score": 3,
   "what_happens": "Runs along a highway and over fences after wrecking a bike while musing that kids could grind the story mode for you. Talk without a game event; dark green-tinted webcam bottom right.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941301054-1113": {
+  "at": "2026-11-27T04:13:37.193841+00:00",
+  "moment_score": 2,
+  "what_happens": "End of the stream: the game sits in a shop inside the streaming software window while the streamer advises on capture cards and says goodbye, a QR banner covers the picture. No game event.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941744379-392": {
+  "at": "2026-11-27T04:13:37.232336+00:00",
+  "moment_score": 3,
+  "what_happens": "No webcam in the layout. Night highway ride on a scooter that ends in a fall at 46 s; no speech at all, dark picture.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941744379-396": {
+  "at": "2026-11-27T04:13:37.273160+00:00",
+  "moment_score": 2,
+  "what_happens": "No webcam in the layout. Night highway drive in a pickup listening to the in-game radio and talking about its host. No event.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
