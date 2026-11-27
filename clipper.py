@@ -73,8 +73,8 @@ def save_state(state):
     state["pending"] = {k: v for k, v in state["pending"].items() if age_hours(v["at"]) < 8}
     state["no_vod"] = {k: v for k, v in state["no_vod"].items() if age_hours(v["at"]) < 24}
     state["check_errors"] = {k: v for k, v in state.get("check_errors", {}).items() if age_hours(v["at"]) < 72}
-    # approved moments wait for a slot (one post per min_gap_minutes): keep them long enough to get one
-    state["pool"] = {k: v for k, v in state["pool"].items() if age_hours(v["at"]) < 48}
+    # approved moments wait for a slot: keep them long enough to get one
+    state["pool"] = {k: v for k, v in state["pool"].items() if age_hours(v["at"]) < POOL_HOURS}
     for v in state["posted"].values():      # the copy kept for a retry is only needed until the platforms answer
         if age_hours(v["at"]) > 8:
             v.pop("cand", None)
@@ -87,6 +87,9 @@ LIMIT_RE = re.compile(r"limit|quota|may upload|too many", re.I)
 CHANNEL_LIMIT_RE = re.compile(r"may upload|number of videos|daily limit|uploadLimit", re.I)
 MAX_ATTEMPTS = 3        # a post refused this many times is given up: an endless retry would only burn uploads
 DAY = dt.timedelta(hours=24)
+POOL_HOURS = 72         # an approved moment waits this long for a slot. With three slots a day 48 h was six chances,
+                        # and a moment lost all six to moments of the same score from bigger streams
+LAST_DAY_HOURS = 24     # with this much left it stops yielding to moments of the same score
 SHORT_HOLD = dt.timedelta(hours=3)
 
 
@@ -1317,9 +1320,9 @@ def evaluate(cfg, state, c, td):
 
 
 def pick(state, profile_of, prof, platforms, fresh_only=False):
-    """Best approved moment of the profile that can go to one of the platforms: highest score, then the
-    bigger stream, then the one waiting longest. A moment that is back in the queue for certain platforms
-    (it is out on the others) only fits those.
+    """Best approved moment of the profile that can go to one of the platforms: highest score, then one in
+    its last day in the queue, then a Twitch hit, then the bigger stream, then the one waiting longest. A
+    moment that is back in the queue for certain platforms (it is out on the others) only fits those.
 
     Languages take turns: if the previous post was RU and an EN moment of about the same strength is
     waiting, the EN one goes next (and the other way round)."""
@@ -1327,7 +1330,8 @@ def pick(state, profile_of, prof, platforms, fresh_only=False):
     for v in sorted(state["posted"].values(), key=lambda v: v["at"]):
         if v.get("ok") and v.get("group") and v.get("profile") == prof:
             last = v["group"]
-    key = lambda c: (c["score"], 1 if c.get("hot") else 0, c.get("viewers") or 0, age_hours(c["at"]))
+    last_day = lambda c: 1 if age_hours(c["at"]) > POOL_HOURS - LAST_DAY_HOURS else 0
+    key = lambda c: (c["score"], last_day(c), 1 if c.get("hot") else 0, c.get("viewers") or 0, age_hours(c["at"]))
     cands = [c for c in state["pool"].values()
              if profile_of.get(c["group"]) == prof and not (fresh_only and c.get("previewed"))
              and (not c.get("platforms") or set(c["platforms"]) & set(platforms))]
