@@ -1268,30 +1268,6 @@
   }
  },
  "rejected": {
-  "BlightedTenderSpindleDerp-zkEnt6d4rar1sSgu": {
-   "at": "2026-11-24T10:25:29.222732+00:00",
-   "why": "editor: 4/10, An ordinary motel-yard shootout as Lucia, he counts kills one to six out loud. No single moment or punchline, flat face; a bookmaker promo banner sits inside the webcam frame.",
-   "login": "sasavot",
-   "kind": "clip",
-   "vod": "2938288604",
-   "vod_t": 9992
-  },
-  "chat-2939116173-366": {
-   "at": "2026-11-24T10:25:29.223132+00:00",
-   "why": "editor: 3/10, She parks at night and walks away from the camera; while her chair is empty NPCs beat up her character and chat laughs. No streamer in the frame during the event, no reaction, very dark picture.",
-   "login": "39daph",
-   "kind": "chat",
-   "vod": "2939116173",
-   "vod_t": 16450.04279
-  },
-  "chat-2939161873-196": {
-   "at": "2026-11-24T10:25:29.223572+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "ironmouse",
-   "kind": "chat",
-   "vod": "2939161873",
-   "vod_t": 8822.689279
-  },
   "DistinctFastTubersHumbleLife-ssZnojQt4J-jym-9": {
    "at": "2026-11-24T11:32:04.439085+00:00",
    "why": "editor: 3/10, A staged skit: he walks his character through a ruined shack voicing a tech CEO coming back to his company. No game event, a joke about a real person that needs context, sponsor banners over the picture; the detected box is a promo banner, the streamer sits behind a face filter.",
@@ -3819,355 +3795,501 @@
    "kind": "chat",
    "vod": "2941891026",
    "vod_t": 26683.522337
+  },
+  "chat-2941891026-646": {
+   "at": "2026-11-27T10:26:49.209408+00:00",
+   "why": "picture is almost static (motion 0.03)",
+   "login": "39daph",
+   "kind": "chat",
+   "vod": "2941891026",
+   "vod_t": 29038.411267
+  },
+  "chat-2941998603-415": {
+   "at": "2026-11-27T10:27:03.094504+00:00",
+   "why": "picture is almost static (motion 0.00)",
+   "login": "ironmouse",
+   "kind": "chat",
+   "vod": "2941998603",
+   "vod_t": 18652.898474
+  },
+  "PiercingMistyWaspYouWHY-EsNIyexjy_mn_t_k": {
+   "at": "2026-11-27T10:27:25.949842+00:00",
+   "why": "editor: betting/casino branding in the picture",
+   "login": "voodoosh",
+   "kind": "clip",
+   "vod": "2940235901",
+   "vod_t": 31116
+  },
+  "chat-2941891026-567": {
+   "at": "2026-11-27T10:27:25.950289+00:00",
+   "why": "editor: 3/10, Runs across a lot, takes a car from a valet, bumps it into a concrete pillar and leaves it there while stepping away from the desk. No real event, very quiet sound (-41 dB), the streamer is off camera for the ending.",
+   "login": "39daph",
+   "kind": "chat",
+   "vod": "2941891026",
+   "vod_t": 25478.486639
   }
  },
  "pending": {
-  "chat-2941891026-567": {
-   "id": "chat-2941891026-567",
-   "url": "https://www.twitch.tv/videos/2941891026",
+  "chat-2941998603-417": {
+   "id": "chat-2941998603-417",
+   "url": "https://www.twitch.tv/videos/2941998603",
    "section": [
-    25478.486639,
-    25534.486639
+    18748.076794,
+    18804.076794
    ],
    "kind": "chat",
-   "views": 48,
+   "views": 36,
    "title": "",
-   "vod": "2941891026",
-   "vod_t": 25478.486639,
+   "vod": "2941998603",
+   "vod_t": 18748.076794,
    "group": "en",
-   "login": "39daph",
-   "name": "39daph",
-   "viewers": 4359,
-   "chat_score": 9.6,
-   "found_at": "2026-11-27T09:21:53.017490+00:00",
-   "spike_at": "2026-11-27T09:20:20.486639+00:00",
+   "login": "ironmouse",
+   "name": "ironmouse",
+   "viewers": 8764,
+   "chat_score": 5.14,
+   "found_at": "2026-11-27T10:26:22.982803+00:00",
+   "spike_at": "2026-11-27T10:24:35.076794+00:00",
    "chat": [
-    "11x OMEGALUL",
-    "4x LOL",
-    "2x LUL",
-    "2x Cyring",
-    "haha",
-    "hello?! OMEGALUL",
-    "LOOOOOOOOOL",
-    "??? OMEGALUL",
-    "FASTER",
-    "OMEGALUL HYPERCLAP",
-    "girl",
-    "Concerned"
+    "9x SoCute",
+    "4x smol",
+    "4x aww",
+    "3x OOO",
+    "2x https://www.youtube.com/watch?v=cxhM_vshYIk",
+    "dokibirdPoint",
+    "ironmousePATS",
+    "nowoy John Vtuber",
+    "cute",
+    "annyeong!",
+    "it looks like fortnite design",
+    "oh yeah i saw this",
+    "limesOhoho ahahaha"
    ],
-   "source": "cut from the live stream at a chat spike: 48 chatters in 15 s, 9.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-27T09:22:42.889337+00:00",
-   "cam": [
-    1424,
-    584,
-    495,
-    348
-   ],
+   "source": "cut from the live stream at a chat spike: 36 chatters in 15 s, 5.1x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-27T10:27:22.965964+00:00",
+   "cam": null,
    "size": [
     1920,
     1080
    ],
-   "dur": 64.0,
+   "dur": 65.0,
    "words": [
     {
-     "word": " Had",
-     "start": 9.2,
-     "end": 9.8
-    },
-    {
-     "word": " to",
-     "start": 9.8,
-     "end": 9.94
-    },
-    {
-     "word": " charge",
-     "start": 9.94,
-     "end": 10.26
-    },
-    {
-     "word": " up.",
-     "start": 10.26,
-     "end": 10.72
-    },
-    {
-     "word": " I'm",
-     "start": 14.28,
-     "end": 14.88
-    },
-    {
-     "word": " just",
-     "start": 14.88,
-     "end": 15.02
-    },
-    {
-     "word": " getting",
-     "start": 15.02,
-     "end": 15.26
-    },
-    {
-     "word": " him",
-     "start": 15.26,
-     "end": 15.48
-    },
-    {
-     "word": " a",
-     "start": 15.48,
-     "end": 15.58
-    },
-    {
-     "word": " McLaren",
-     "start": 15.58,
-     "end": 16.42
-    },
-    {
-     "word": " when",
-     "start": 16.42,
-     "end": 16.86
-    },
-    {
-     "word": " we're",
-     "start": 16.86,
-     "end": 17.22
-    },
-    {
-     "word": " home",
-     "start": 17.22,
-     "end": 17.62
-    },
-    {
-     "word": " What",
-     "start": 18.26,
-     "end": 18.86
-    },
-    {
-     "word": " is",
-     "start": 18.86,
-     "end": 19.02
+     "word": " Oh,",
+     "start": 3.72,
+     "end": 4.22
     },
     {
      "word": " the",
-     "start": 19.02,
-     "end": 19.14
+     "start": 5.6,
+     "end": 5.7
     },
     {
-     "word": " McLaren?",
-     "start": 19.14,
-     "end": 19.76
+     "word": " dingo",
+     "start": 5.7,
+     "end": 6.26
     },
     {
-     "word": " Is",
-     "start": 20.12,
-     "end": 20.42
+     "word": " came",
+     "start": 6.26,
+     "end": 6.56
     },
     {
-     "word": " that",
-     "start": 20.42,
-     "end": 20.52
+     "word": " out,",
+     "start": 6.56,
+     "end": 6.74
     },
     {
-     "word": " like",
-     "start": 20.52,
-     "end": 20.68
+     "word": " dingo!",
+     "start": 6.84,
+     "end": 7.06
     },
     {
-     "word": " a",
-     "start": 20.68,
-     "end": 20.78
+     "word": " Can",
+     "start": 7.2,
+     "end": 7.28
     },
     {
-     "word": " McDonald?",
-     "start": 20.78,
-     "end": 21.04
+     "word": " we",
+     "start": 7.28,
+     "end": 7.38
     },
     {
-     "word": " Yes",
-     "start": 28.19,
-     "end": 28.55
+     "word": " watch",
+     "start": 7.38,
+     "end": 7.66
+    },
+    {
+     "word": " dingo,",
+     "start": 7.66,
+     "end": 8.04
+    },
+    {
+     "word": " the",
+     "start": 8.14,
+     "end": 8.26
+    },
+    {
+     "word": " dingo?",
+     "start": 8.26,
+     "end": 8.58
+    },
+    {
+     "word": " Can",
+     "start": 8.84,
+     "end": 8.92
+    },
+    {
+     "word": " we",
+     "start": 8.92,
+     "end": 9.02
+    },
+    {
+     "word": " watch",
+     "start": 9.02,
+     "end": 9.22
+    },
+    {
+     "word": " dingo,",
+     "start": 9.22,
+     "end": 9.56
+    },
+    {
+     "word": " please?",
+     "start": 9.68,
+     "end": 9.92
+    },
+    {
+     "word": " We're",
+     "start": 17.28,
+     "end": 17.78
+    },
+    {
+     "word": " so",
+     "start": 17.78,
+     "end": 17.98
+    },
+    {
+     "word": " cute!",
+     "start": 17.98,
+     "end": 18.36
+    },
+    {
+     "word": " Wait,",
+     "start": 19.04,
+     "end": 19.3
+    },
+    {
+     "word": " hold",
+     "start": 19.4,
+     "end": 19.5
+    },
+    {
+     "word": " on!",
+     "start": 19.5,
+     "end": 19.92
+    },
+    {
+     "word": " Look",
+     "start": 27.87,
+     "end": 28.15
+    },
+    {
+     "word": " how",
+     "start": 28.15,
+     "end": 28.31
+    },
+    {
+     "word": " cute",
+     "start": 28.31,
+     "end": 28.47
+    },
+    {
+     "word": " we",
+     "start": 28.47,
+     "end": 28.67
+    },
+    {
+     "word": " look!",
+     "start": 28.67,
+     "end": 29.09
+    },
+    {
+     "word": " On",
+     "start": 30.03,
+     "end": 30.21
+    },
+    {
+     "word": " the",
+     "start": 30.21,
+     "end": 30.37
+    },
+    {
+     "word": " dingo!",
+     "start": 30.37,
+     "end": 30.93
+    },
+    {
+     "word": " Wait,",
+     "start": 32.85,
+     "end": 33.25
+    },
+    {
+     "word": " hold",
+     "start": 33.29,
+     "end": 33.39
+    },
+    {
+     "word": " on.",
+     "start": 33.39,
+     "end": 33.49
     },
     {
      "word": " I'm",
-     "start": 40.33,
-     "end": 40.93
+     "start": 33.63,
+     "end": 33.71
     },
     {
-     "word": " gonna",
-     "start": 40.93,
-     "end": 41.01
+     "word": " going",
+     "start": 33.71,
+     "end": 33.71
     },
     {
-     "word": " go",
-     "start": 41.01,
-     "end": 41.13
+     "word": " to",
+     "start": 33.71,
+     "end": 34.13
     },
     {
-     "word": " pee",
-     "start": 41.13,
-     "end": 41.29
+     "word": " mute",
+     "start": 34.13,
+     "end": 34.29
+    },
+    {
+     "word": " this.",
+     "start": 34.29,
+     "end": 34.57
+    },
+    {
+     "word": " Annyeonghaseyo!",
+     "start": 41.42,
+     "end": 41.92
+    },
+    {
+     "word": " I'm",
+     "start": 44.64,
+     "end": 44.72
+    },
+    {
+     "word": " Alex",
+     "start": 44.72,
+     "end": 44.72
+    },
+    {
+     "word": " from",
+     "start": 44.72,
+     "end": 44.92
+    },
+    {
+     "word": " the",
+     "start": 44.92,
+     "end": 45.12
+    },
+    {
+     "word": " Wild",
+     "start": 45.12,
+     "end": 45.28
+    },
+    {
+     "word": " Card",
+     "start": 45.28,
+     "end": 45.56
+    },
+    {
+     "word": " Club.",
+     "start": 45.56,
+     "end": 45.92
+    },
+    {
+     "word": " I'm",
+     "start": 46.26,
+     "end": 46.76
+    },
+    {
+     "word": " Amelie.",
+     "start": 46.76,
+     "end": 47.26
+    },
+    {
+     "word": " I'm",
+     "start": 47.36,
+     "end": 47.62
+    },
+    {
+     "word": " Doki",
+     "start": 47.62,
+     "end": 47.92
+    },
+    {
+     "word": " Bird.",
+     "start": 47.92,
+     "end": 48.26
+    },
+    {
+     "word": " And",
+     "start": 48.54,
+     "end": 48.7
+    },
+    {
+     "word": " I'm",
+     "start": 48.7,
+     "end": 49.02
+    },
+    {
+     "word": " Rin",
+     "start": 49.02,
+     "end": 49.24
+    },
+    {
+     "word": " Penrose.",
+     "start": 49.24,
+     "end": 49.68
+    },
+    {
+     "word": " The",
+     "start": 49.68,
+     "end": 50.62
+    },
+    {
+     "word": " theme",
+     "start": 50.62,
+     "end": 50.9
+    },
+    {
+     "word": " song",
+     "start": 50.9,
+     "end": 51.14
+    },
+    {
+     "word": " of",
+     "start": 51.14,
+     "end": 51.32
+    },
+    {
+     "word": " the",
+     "start": 51.32,
+     "end": 51.4
+    },
+    {
+     "word": " Wild",
+     "start": 51.4,
+     "end": 51.62
+    },
+    {
+     "word": " Card",
+     "start": 51.62,
+     "end": 51.84
+    },
+    {
+     "word": " Club",
+     "start": 51.84,
+     "end": 52.1
+    },
+    {
+     "word": " packed",
+     "start": 52.1,
+     "end": 52.4
+    },
+    {
+     "word": " with",
+     "start": 52.4,
+     "end": 52.58
+    },
+    {
+     "word": " the",
+     "start": 52.58,
+     "end": 52.68
+    },
+    {
+     "word": " chemistry",
+     "start": 52.68,
+     "end": 53.06
+    },
+    {
+     "word": " of",
+     "start": 53.06,
+     "end": 53.26
+    },
+    {
+     "word": " us",
+     "start": 53.26,
+     "end": 53.58
+    },
+    {
+     "word": " four.",
+     "start": 53.58,
+     "end": 53.88
+    },
+    {
+     "word": " And",
+     "start": 54.3,
+     "end": 54.8
+    },
+    {
+     "word": " here",
+     "start": 54.8,
+     "end": 55.04
+    },
+    {
+     "word": " is",
+     "start": 55.04,
+     "end": 55.18
+    },
+    {
+     "word": " our",
+     "start": 55.18,
+     "end": 55.34
+    },
+    {
+     "word": " song,",
+     "start": 55.34,
+     "end": 55.74
+    },
+    {
+     "word": " Click",
+     "start": 56.1,
+     "end": 56.3
+    },
+    {
+     "word": " Flick.",
+     "start": 56.3,
+     "end": 56.72
+    },
+    {
+     "word": " Hope",
+     "start": 57.1,
+     "end": 57.32
+    },
+    {
+     "word": " you",
+     "start": 57.32,
+     "end": 57.48
+    },
+    {
+     "word": " enjoy",
+     "start": 57.48,
+     "end": 57.78
+    },
+    {
+     "word": " it.",
+     "start": 57.78,
+     "end": 58.0
     }
    ],
    "metrics": {
-    "motion": 0.44946727549467275,
-    "motion_p90": 0.6402283105022831,
-    "static_share": 0.06274509803921569,
-    "peak_db": 9.618804931640625,
-    "level_db": -40.65472412109375
-   },
-   "silence": []
-  },
-  "PiercingMistyWaspYouWHY-EsNIyexjy_mn_t_k": {
-   "id": "PiercingMistyWaspYouWHY-EsNIyexjy_mn_t_k",
-   "vod": "2940235901",
-   "vod_t": 31116,
-   "group": "ru",
-   "views": 1000,
-   "title": "ни слова на матном",
-   "url": "https://www.twitch.tv/voodoosh/clip/PiercingMistyWaspYouWHY-EsNIyexjy_mn_t_k",
-   "section": null,
-   "kind": "clip",
-   "hot": true,
-   "login": "voodoosh",
-   "name": "VooDooSh",
-   "source": "Twitch clip made by a viewer, 1000 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"ни слова на матном\"",
-   "at": "2026-11-27T09:44:24.673697+00:00",
-   "cam": [
-    0,
-    813,
-    663,
-    466
-   ],
-   "size": [
-    2560,
-    1440
-   ],
-   "dur": 18.9,
-   "words": [
-    {
-     "word": " Если",
-     "start": 0.0,
-     "end": 0.24
-    },
-    {
-     "word": " ему",
-     "start": 0.24,
-     "end": 0.44
-    },
-    {
-     "word": " сказать,",
-     "start": 0.44,
-     "end": 0.82
-    },
-    {
-     "word": " что",
-     "start": 0.98,
-     "end": 1.1
-    },
-    {
-     "word": " бы",
-     "start": 1.1,
-     "end": 1.24
-    },
-    {
-     "word": " мы",
-     "start": 1.24,
-     "end": 1.32
-    },
-    {
-     "word": " разделились,",
-     "start": 1.32,
-     "end": 2.06
-    },
-    {
-     "word": " надо",
-     "start": 2.14,
-     "end": 2.28
-    },
-    {
-     "word": " нажать...",
-     "start": 2.28,
-     "end": 2.88
-    },
-    {
-     "word": " О,",
-     "start": 7.01,
-     "end": 7.27
-    },
-    {
-     "word": " видали",
-     "start": 7.49,
-     "end": 7.91
-    },
-    {
-     "word": " это!",
-     "start": 7.91,
-     "end": 8.17
-    },
-    {
-     "word": " Ты",
-     "start": 10.69,
-     "end": 11.17
-    },
-    {
-     "word": " это",
-     "start": 11.17,
-     "end": 11.37
-    },
-    {
-     "word": " видел?",
-     "start": 11.37,
-     "end": 11.61
-    },
-    {
-     "word": " Джейсон,",
-     "start": 12.17,
-     "end": 12.61
-    },
-    {
-     "word": " ты",
-     "start": 12.73,
-     "end": 12.83
-    },
-    {
-     "word": " чё,",
-     "start": 12.83,
-     "end": 13.11
-    },
-    {
-     "word": " блин?",
-     "start": 13.15,
-     "end": 13.37
-    },
-    {
-     "word": " Джейсон!",
-     "start": 14.03,
-     "end": 14.51
-    },
-    {
-     "word": " Ну",
-     "start": 15.87,
-     "end": 16.35
-    },
-    {
-     "word": " да,",
-     "start": 16.35,
-     "end": 16.53
-    },
-    {
-     "word": " иёшь,",
-     "start": 16.63,
-     "end": 16.95
-    },
-    {
-     "word": " блин.",
-     "start": 17.03,
-     "end": 17.15
-    }
-   ],
-   "metrics": {
-    "motion": 0.2751902587519026,
-    "motion_p90": 0.4975951293759513,
-    "static_share": 0.08108108108108109,
-    "peak_db": 11.906396865844727,
-    "level_db": -29.735185623168945
+    "motion": 0.04,
+    "motion_p90": 0.21351388888888892,
+    "static_share": 0.28957528957528955,
+    "peak_db": 17.61271095275879,
+    "level_db": -32.16524887084961
    },
    "silence": []
   }
@@ -5974,7 +6096,7 @@
    "seconds": 18.1
   }
  },
- "checked_n": 390,
+ "checked_n": 393,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
