@@ -4010,6 +4010,371 @@
     "level_db": -36.06692886352539
    },
    "silence": []
+  },
+  "chat-2941744379-392": {
+   "id": "chat-2941744379-392",
+   "url": "https://www.twitch.tv/videos/2941744379",
+   "section": [
+    17634.154114,
+    17690.154114
+   ],
+   "kind": "chat",
+   "views": 38,
+   "title": "",
+   "vod": "2941744379",
+   "vod_t": 17634.154114,
+   "group": "en",
+   "login": "pokelawls",
+   "name": "pokelawls",
+   "viewers": 3573,
+   "chat_score": 4.22,
+   "found_at": "2026-11-27T03:54:44.294073+00:00",
+   "spike_at": "2026-11-27T03:44:36.154114+00:00",
+   "chat": [
+    "8x LO",
+    "3x Oldheaddance",
+    "3x lol",
+    "3x o",
+    "2x OL",
+    "2x omE",
+    "2x OMEGALUL ͏",
+    "ICANT",
+    "@00nola any car can be a paul walker car if a 16 year old is in it",
+    "bro",
+    "bbruv",
+    "LO bro",
+    "LOL ͏",
+    "holy shit",
+    "AINTNOWAY"
+   ],
+   "source": "cut from the live stream at a chat spike: 38 chatters in 15 s, 4.2x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-27T03:55:07.963787+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 60.0,
+   "words": [],
+   "metrics": {
+    "motion": 0.46784722222222225,
+    "motion_p90": 0.5814027777777778,
+    "static_share": 0.0,
+    "peak_db": 4.193595886230469,
+    "level_db": -30.993160247802734
+   },
+   "silence": []
+  },
+  "chat-2941744379-396": {
+   "id": "chat-2941744379-396",
+   "url": "https://www.twitch.tv/videos/2941744379",
+   "section": [
+    17789.185825,
+    17845.185825
+   ],
+   "kind": "chat",
+   "views": 51,
+   "title": "",
+   "vod": "2941744379",
+   "vod_t": 17789.185825,
+   "group": "en",
+   "login": "pokelawls",
+   "name": "pokelawls",
+   "viewers": 3573,
+   "chat_score": 3.92,
+   "found_at": "2026-11-27T03:54:44.382127+00:00",
+   "spike_at": "2026-11-27T03:47:11.185825+00:00",
+   "chat": [
+    "19x lo",
+    "5x OMEGALUL",
+    "4x lol",
+    "ur so cringe",
+    "oh good",
+    "skill issue",
+    "KEKW",
+    "LUL",
+    "okay thats funny",
+    "Chud i just think of hasan all the time",
+    "lmao"
+   ],
+   "source": "cut from the live stream at a chat spike: 51 chatters in 15 s, 3.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-27T03:55:28.385757+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 65.0,
+   "words": [
+    {
+     "word": " Son",
+     "start": 0.0,
+     "end": 0.28
+    },
+    {
+     "word": " you",
+     "start": 0.28,
+     "end": 0.52
+    },
+    {
+     "word": " know",
+     "start": 0.52,
+     "end": 0.7
+    },
+    {
+     "word": " that",
+     "start": 0.7,
+     "end": 0.88
+    },
+    {
+     "word": " Marie,",
+     "start": 0.88,
+     "end": 1.18
+    },
+    {
+     "word": " you",
+     "start": 1.48,
+     "end": 1.66
+    },
+    {
+     "word": " know",
+     "start": 1.66,
+     "end": 1.82
+    },
+    {
+     "word": " you",
+     "start": 1.82,
+     "end": 2.0
+    },
+    {
+     "word": " were",
+     "start": 2.0,
+     "end": 2.14
+    },
+    {
+     "word": " sleeping",
+     "start": 2.14,
+     "end": 2.44
+    },
+    {
+     "word": " around",
+     "start": 2.44,
+     "end": 2.9
+    },
+    {
+     "word": " Again",
+     "start": 40.47,
+     "end": 40.93
+    },
+    {
+     "word": " this",
+     "start": 40.93,
+     "end": 41.39
+    },
+    {
+     "word": " is",
+     "start": 41.39,
+     "end": 41.49
+    },
+    {
+     "word": " that",
+     "start": 41.49,
+     "end": 41.63
+    },
+    {
+     "word": " radio",
+     "start": 41.63,
+     "end": 41.85
+    },
+    {
+     "word": " station",
+     "start": 41.85,
+     "end": 42.25
+    },
+    {
+     "word": " it",
+     "start": 42.25,
+     "end": 42.49
+    },
+    {
+     "word": " has",
+     "start": 42.49,
+     "end": 42.69
+    },
+    {
+     "word": " a",
+     "start": 42.69,
+     "end": 43.49
+    },
+    {
+     "word": " stab",
+     "start": 43.49,
+     "end": 44.51
+    },
+    {
+     "word": " rose",
+     "start": 44.51,
+     "end": 44.99
+    },
+    {
+     "word": " right",
+     "start": 44.99,
+     "end": 45.31
+    },
+    {
+     "word": " he",
+     "start": 45.31,
+     "end": 45.53
+    },
+    {
+     "word": " was",
+     "start": 45.53,
+     "end": 45.63
+    },
+    {
+     "word": " on",
+     "start": 45.63,
+     "end": 45.77
+    },
+    {
+     "word": " her",
+     "start": 45.77,
+     "end": 45.89
+    },
+    {
+     "word": " son's",
+     "start": 45.89,
+     "end": 46.37
+    },
+    {
+     "word": " stream",
+     "start": 46.37,
+     "end": 46.57
+    },
+    {
+     "word": " I",
+     "start": 47.31,
+     "end": 47.67
+    },
+    {
+     "word": " just",
+     "start": 47.67,
+     "end": 47.81
+    },
+    {
+     "word": " hear",
+     "start": 47.81,
+     "end": 47.97
+    },
+    {
+     "word": " us",
+     "start": 47.97,
+     "end": 48.13
+    },
+    {
+     "word": " on",
+     "start": 48.13,
+     "end": 48.31
+    },
+    {
+     "word": " every",
+     "start": 48.31,
+     "end": 48.51
+    },
+    {
+     "word": " time",
+     "start": 48.51,
+     "end": 48.75
+    },
+    {
+     "word": " he",
+     "start": 48.75,
+     "end": 48.93
+    },
+    {
+     "word": " talks",
+     "start": 48.93,
+     "end": 49.33
+    },
+    {
+     "word": " Kind",
+     "start": 52.07,
+     "end": 52.51
+    },
+    {
+     "word": " of",
+     "start": 52.51,
+     "end": 52.95
+    },
+    {
+     "word": " ruins",
+     "start": 52.95,
+     "end": 53.13
+    },
+    {
+     "word": " the",
+     "start": 53.13,
+     "end": 53.33
+    },
+    {
+     "word": " whole",
+     "start": 53.33,
+     "end": 53.45
+    },
+    {
+     "word": " game",
+     "start": 53.45,
+     "end": 53.67
+    },
+    {
+     "word": " for",
+     "start": 53.67,
+     "end": 53.93
+    },
+    {
+     "word": " me",
+     "start": 53.93,
+     "end": 54.41
+    },
+    {
+     "word": " No",
+     "start": 57.65,
+     "end": 58.09
+    },
+    {
+     "word": " joke",
+     "start": 58.09,
+     "end": 58.47
+    },
+    {
+     "word": " It",
+     "start": 59.99,
+     "end": 60.43
+    },
+    {
+     "word": " don't",
+     "start": 60.43,
+     "end": 60.87
+    },
+    {
+     "word": " kill",
+     "start": 60.87,
+     "end": 61.03
+    },
+    {
+     "word": " me",
+     "start": 61.03,
+     "end": 61.23
+    }
+   ],
+   "metrics": {
+    "motion": 0.26743055555555556,
+    "motion_p90": 0.5471111111111111,
+    "static_share": 0.0,
+    "peak_db": 9.70383071899414,
+    "level_db": -29.324312210083008
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -6288,7 +6653,7 @@
    "seconds": 22.1
   }
  },
- "checked_n": 363,
+ "checked_n": 365,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
