@@ -1268,30 +1268,6 @@
   }
  },
  "rejected": {
-  "DistinctFastTubersHumbleLife-ssZnojQt4J-jym-9": {
-   "at": "2026-11-24T11:32:04.439085+00:00",
-   "why": "editor: 3/10, A staged skit: he walks his character through a ruined shack voicing a tech CEO coming back to his company. No game event, a joke about a real person that needs context, sponsor banners over the picture; the detected box is a promo banner, the streamer sits behind a face filter.",
-   "login": "orkpod",
-   "kind": "clip",
-   "vod": "2938356384",
-   "vod_t": 16607
-  },
-  "chat-2939116173-417": {
-   "at": "2026-11-24T11:32:04.439643+00:00",
-   "why": "editor: 2/10, Bedroom scene after the couple's sex scene, both characters in underwear, while she tells chat about banning an underage viewer. Stream talk over a sexual scene, no game event.",
-   "login": "39daph",
-   "kind": "chat",
-   "vod": "2939116173",
-   "vod_t": 18743.162411
-  },
-  "chat-2939200535-122": {
-   "at": "2026-11-24T11:32:04.440102+00:00",
-   "why": "editor: no webcam in the picture",
-   "login": "melharucos",
-   "kind": "chat",
-   "vod": "2939200535",
-   "vod_t": 5450.564654
-  },
   "chat-2939116173-484": {
    "at": "2026-11-24T12:15:23.381073+00:00",
    "why": "editor: 2/10, The first 20 s are a social-media page with someone else's video, which is what chat laughs at; then she walks around a mansion naming the cars. No game event.",
@@ -4053,6 +4029,76 @@
     "level_db": -23.092105865478516
    },
    "silence": []
+  },
+  "chat-2941998603-519": {
+   "id": "chat-2941998603-519",
+   "url": "https://www.twitch.tv/videos/2941998603",
+   "section": [
+    23329.993363,
+    23385.993363
+   ],
+   "kind": "chat",
+   "views": 36,
+   "title": "",
+   "vod": "2941998603",
+   "vod_t": 23329.993363,
+   "group": "en",
+   "login": "ironmouse",
+   "name": "ironmouse",
+   "viewers": 9336,
+   "chat_score": 4.5,
+   "found_at": "2026-11-27T11:52:44.851871+00:00",
+   "spike_at": "2026-11-27T11:40:56.993363+00:00",
+   "chat": [
+    "17x om",
+    "4x LOL",
+    "HAH",
+    "great moves",
+    "om he did a flip",
+    "help-",
+    "ironmouseCHATSLEEP",
+    "OW",
+    "jason cant stop eating shit xD",
+    "SHE DID THE SPEED FLIP om"
+   ],
+   "source": "cut from the live stream at a chat spike: 36 chatters in 15 s, 4.5x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-27T11:53:31.730066+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 62.9,
+   "words": [
+    {
+     "word": " The",
+     "start": 1.52,
+     "end": 1.98
+    },
+    {
+     "word": " one",
+     "start": 1.98,
+     "end": 2.08
+    },
+    {
+     "word": " and",
+     "start": 2.08,
+     "end": 2.18
+    },
+    {
+     "word": " athlete",
+     "start": 2.18,
+     "end": 2.44
+    }
+   ],
+   "metrics": {
+    "motion": 0.14430555555555555,
+    "motion_p90": 0.38461111111111107,
+    "static_share": 0.1,
+    "peak_db": 11.820384979248047,
+    "level_db": -25.409738540649414
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -5857,7 +5903,7 @@
    "seconds": 18.1
   }
  },
- "checked_n": 397,
+ "checked_n": 398,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
