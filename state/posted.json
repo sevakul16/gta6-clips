@@ -4222,6 +4222,184 @@
     "level_db": -34.01401901245117
    },
    "silence": []
+  },
+  "chat-2941731348-186": {
+   "id": "chat-2941731348-186",
+   "url": "https://www.twitch.tv/videos/2941731348",
+   "section": [
+    8349.899472,
+    8405.899472
+   ],
+   "kind": "chat",
+   "views": 118,
+   "title": "",
+   "vod": "2941731348",
+   "vod_t": 8349.899472,
+   "group": "en",
+   "login": "avoidingthepuddle",
+   "name": "AvoidingThePuddle",
+   "viewers": 3168,
+   "chat_score": 6.21,
+   "found_at": "2026-11-27T01:01:49.585975+00:00",
+   "spike_at": "2026-11-27T00:51:11.899472+00:00",
+   "chat": [
+    "15x LUL",
+    "14x atpCap",
+    "13x atpRtsd",
+    "6x Lol",
+    "6x LMAO",
+    "3x not buggy huh",
+    "2x atpSpiner",
+    "2x 3 billion LUL",
+    "2x 3 billion",
+    "2x LUL 3 billion",
+    "Hhahahahahhaa",
+    "this didnt happen during my run",
+    "3 billion atpRtsd",
+    "ggs",
+    "bogged",
+    "kill the truck",
+    "atpCap 3 billion",
+    "sick"
+   ],
+   "source": "cut from the live stream at a chat spike: 118 chatters in 15 s, 6.2x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-27T01:02:14.900136+00:00",
+   "cam": null,
+   "size": [
+    1280,
+    720
+   ],
+   "dur": 62.4,
+   "words": [
+    {
+     "word": " We're",
+     "start": 35.02,
+     "end": 35.5
+    },
+    {
+     "word": " in",
+     "start": 35.5,
+     "end": 35.58
+    },
+    {
+     "word": " trouble",
+     "start": 35.58,
+     "end": 35.86
+    },
+    {
+     "word": " are",
+     "start": 35.86,
+     "end": 36.96
+    },
+    {
+     "word": " we",
+     "start": 36.96,
+     "end": 37.08
+    },
+    {
+     "word": " gonna",
+     "start": 37.08,
+     "end": 37.2
+    },
+    {
+     "word": " steal",
+     "start": 37.2,
+     "end": 37.48
+    },
+    {
+     "word": " that",
+     "start": 37.48,
+     "end": 37.78
+    },
+    {
+     "word": " follow",
+     "start": 41.69,
+     "end": 42.77
+    },
+    {
+     "word": " what",
+     "start": 42.77,
+     "end": 44.27
+    },
+    {
+     "word": " follow",
+     "start": 44.27,
+     "end": 45.87
+    },
+    {
+     "word": " Lucia",
+     "start": 45.87,
+     "end": 46.47
+    },
+    {
+     "word": " Oh,",
+     "start": 48.35,
+     "end": 48.91
+    },
+    {
+     "word": " and",
+     "start": 53.36,
+     "end": 53.92
+    },
+    {
+     "word": " I",
+     "start": 53.92,
+     "end": 54.06
+    },
+    {
+     "word": " can't",
+     "start": 54.06,
+     "end": 54.4
+    },
+    {
+     "word": " move",
+     "start": 54.4,
+     "end": 54.56
+    },
+    {
+     "word": " this",
+     "start": 54.56,
+     "end": 54.78
+    },
+    {
+     "word": " car.",
+     "start": 54.78,
+     "end": 55.08
+    },
+    {
+     "word": " Can",
+     "start": 55.16,
+     "end": 55.4
+    },
+    {
+     "word": " I",
+     "start": 55.4,
+     "end": 55.5
+    },
+    {
+     "word": " push",
+     "start": 55.5,
+     "end": 55.72
+    },
+    {
+     "word": " it?",
+     "start": 55.72,
+     "end": 55.88
+    },
+    {
+     "word": " Whoa?",
+     "start": 56.02,
+     "end": 56.58
+    }
+   ],
+   "metrics": {
+    "motion": 0.30277777777777776,
+    "motion_p90": 0.4827500000000001,
+    "static_share": 0.13654618473895583,
+    "peak_db": 22.70343017578125,
+    "level_db": -46.95918273925781
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -6500,7 +6678,7 @@
    "seconds": 22.1
   }
  },
- "checked_n": 351,
+ "checked_n": 352,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
