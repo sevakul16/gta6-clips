@@ -1235,14 +1235,6 @@
   }
  },
  "rejected": {
-  "DeliciousHardDragonflyPicoMause-lDdNKuvODLZgXqP2": {
-   "at": "2026-11-24T06:48:28.411810+00:00",
-   "why": "streamer fills the screen, no gameplay",
-   "login": "bratishkinoff",
-   "kind": "clip",
-   "vod": "2938328156",
-   "vod_t": 20220
-  },
   "StormyAbstruseTubersFreakinStinkin-WcoQ6j5V34NnsVKX": {
    "at": "2026-11-24T07:32:00.648351+00:00",
    "why": "editor: 4/10, Night flight, she flies the plane into a skyscraper roof on purpose, it sits there, slides off, WASTED. Dark picture, she says herself it was not as good as she thought, chat calls it anticlimactic; a plane flown into a tower is also imagery we do not post.",
@@ -3925,6 +3917,149 @@
     "level_db": -36.96917724609375
    },
    "silence": []
+  },
+  "chat-2941744379-619": {
+   "id": "chat-2941744379-619",
+   "url": "https://www.twitch.tv/videos/2941744379",
+   "section": [
+    27832.84567,
+    27888.84567
+   ],
+   "kind": "chat",
+   "views": 39,
+   "title": "",
+   "vod": "2941744379",
+   "vod_t": 27832.84567,
+   "group": "en",
+   "login": "pokelawls",
+   "name": "pokelawls",
+   "viewers": 3031,
+   "chat_score": 3.55,
+   "found_at": "2026-11-27T06:49:07.902622+00:00",
+   "spike_at": "2026-11-27T06:34:34.845670+00:00",
+   "chat": [
+    "4x no",
+    "3x LO",
+    "2x CAUGHT",
+    "2x go in the back",
+    "2x OMEGALUL",
+    "PONCH",
+    "wtf",
+    "?",
+    "just leave",
+    "HAHAHAAHHA",
+    "om",
+    "DAMNNNN",
+    "LMFAO"
+   ],
+   "source": "cut from the live stream at a chat spike: 39 chatters in 15 s, 3.5x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-27T06:49:35.688220+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 59.0,
+   "words": [
+    {
+     "word": " Oh",
+     "start": 4.54,
+     "end": 5.22
+    },
+    {
+     "word": " my",
+     "start": 5.22,
+     "end": 5.5
+    },
+    {
+     "word": " god,",
+     "start": 5.5,
+     "end": 5.84
+    },
+    {
+     "word": " oh",
+     "start": 6.78,
+     "end": 6.9
+    },
+    {
+     "word": " my",
+     "start": 6.9,
+     "end": 7.04
+    },
+    {
+     "word": " god,",
+     "start": 7.04,
+     "end": 7.68
+    },
+    {
+     "word": " oh",
+     "start": 11.08,
+     "end": 11.64
+    },
+    {
+     "word": " my",
+     "start": 11.64,
+     "end": 11.8
+    },
+    {
+     "word": " god",
+     "start": 11.8,
+     "end": 12.14
+    },
+    {
+     "word": " Do",
+     "start": 24.1,
+     "end": 24.78
+    },
+    {
+     "word": " I",
+     "start": 28.82,
+     "end": 29.5
+    },
+    {
+     "word": " shoot",
+     "start": 29.5,
+     "end": 29.7
+    },
+    {
+     "word": " the",
+     "start": 29.7,
+     "end": 29.84
+    },
+    {
+     "word": " camera,",
+     "start": 29.84,
+     "end": 30.14
+    },
+    {
+     "word": " what",
+     "start": 36.33,
+     "end": 36.95
+    },
+    {
+     "word": " do",
+     "start": 36.95,
+     "end": 37.03
+    },
+    {
+     "word": " I",
+     "start": 37.03,
+     "end": 37.11
+    },
+    {
+     "word": " do?",
+     "start": 37.11,
+     "end": 37.33
+    }
+   ],
+   "metrics": {
+    "motion": 0.41541666666666666,
+    "motion_p90": 0.8053055555555555,
+    "static_share": 0.2680851063829787,
+    "peak_db": 12.593177795410156,
+    "level_db": -37.350685119628906
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -5821,7 +5956,7 @@
    "seconds": 22.1
   }
  },
- "checked_n": 373,
+ "checked_n": 374,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
