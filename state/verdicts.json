@@ -1,44 +1,4 @@
 {
- "chat-2939339874-1867": {
-  "at": "2026-11-25T14:14:10.110108+00:00",
-  "moment_score": 4,
-  "what_happens": "Jet-ski escape with a passenger ends under the hull of a yacht and a death screen, then loading; ordinary chase death, streamer silent until a short rant, tiny webcam",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2939339874-1884": {
-  "at": "2026-11-25T14:14:10.159561+00:00",
-  "moment_score": 4,
-  "what_happens": "Night bike chase, falls off and dies, 'misclick'. Generic chase crash in a dark picture, tiny webcam",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940206845-326": {
-  "at": "2026-11-25T14:14:10.211419+00:00",
-  "moment_score": 4,
-  "what_happens": "Loots deposit boxes and leaves the bank; the chat jokes about a dropped bag that is not readable in the picture and the streamer does not react to it. No clear event, tiny dark webcam",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940206845-318": {
-  "at": "2026-11-25T14:14:10.273090+00:00",
-  "moment_score": 4,
-  "what_happens": "Stumbles on an armoured-truck robbery, shoot-out and looting with a nearly silent streamer; the odd glitch at the truck doors comes in the last seconds and is cut off",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940291093-100": {
-  "at": "2026-11-25T14:14:10.330156+00:00",
-  "moment_score": 3,
-  "what_happens": "Scripted story beat: a scared man backs to the edge of a building and falls to his death while being told to calm down. Ledge-fall death theme, no gameplay event of the streamer's own",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "DaintySteamyRabbitHassanChop-TdGqaN9x5TLmjmZU": {
   "at": "2026-11-25T15:14:18.418550+00:00",
   "moment_score": 2,
@@ -1660,5 +1620,53 @@
   ],
   "hook": "Too late to save",
   "cover_at": 50.4
+ },
+ "ResourcefulGrossLemurRaccAttack-fBgT5c5d23KdvOq2": {
+  "at": "2026-11-27T14:14:33.273404+00:00",
+  "moment_score": 5,
+  "what_happens": "Surrounded by police, the streamer begs the companion to get into the supercar; the car drives off without the player ('did you see that, where did he go?') and is next seen with a smashed front while the player is shot at. Funny line and a laugh on cam, but only 10 s and the second half is hard to read: the camera jumps to a top view and it is unclear what happened to the car.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940859463-2983": {
+  "at": "2026-11-27T14:14:33.316577+00:00",
+  "moment_score": 2,
+  "what_happens": "Donation messages over a story dialogue in a dark flat, then half a minute of the streamer dancing full screen in the room for a donation. Donation banter, no game event, second half has no gameplay.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940859463-3003": {
+  "at": "2026-11-27T14:14:33.357859+00:00",
+  "moment_score": 1,
+  "what_happens": "The streamer dances full screen in the room next to a dance emote for a donation. No GTA gameplay at all.",
+  "gameplay_visible": false,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941998603-662": {
+  "at": "2026-11-27T14:14:33.397178+00:00",
+  "moment_score": 2,
+  "what_happens": "Avatar streamer (ironmouse). Story cutscene: tourists, a walk through a pavilion and an arrest by two fake cops. Cutscene only with a story spoiler, no player event.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941998603-675": {
+  "at": "2026-11-27T14:14:33.437535+00:00",
+  "moment_score": 4,
+  "what_happens": "Avatar streamer (ironmouse). Night shootout while carrying wounded Jason to a boat, ends wasted and 'I'm so pissed'. An ordinary mission death in very dark footage, the avatar is barely visible against the night.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942196441-40": {
+  "at": "2026-11-27T14:14:33.492101+00:00",
+  "moment_score": 2,
+  "what_happens": "Highway drive in a sports car while the streamer talks about groups trying to crack the PC version. Opinion talk, no game event.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
  }
 }
