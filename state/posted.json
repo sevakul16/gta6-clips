@@ -1235,14 +1235,6 @@
   }
  },
  "rejected": {
-  "ScaryFilthyKeyboardOSkomodo-LUT0vAptcXKHGd5A": {
-   "at": "2026-11-24T01:22:23.692350+00:00",
-   "why": "editor: no gameplay on screen",
-   "login": "t2x2",
-   "kind": "clip",
-   "vod": "2937219114",
-   "vod_t": 27431
-  },
   "SmoggyCleverMosquitoTBTacoRight-RVBfPSPbe5p5k44q": {
    "at": "2026-11-24T02:26:40.741337+00:00",
    "why": "no sound in the recording (29 s of 60 s are silent)",
@@ -3722,682 +3714,433 @@
    "kind": "chat",
    "vod": "2941535822",
    "vod_t": 18246.049116
+  },
+  "TalentedTawdryAsparagusChefFrank-bUhdiKNJpSWJ8CoE": {
+   "at": "2026-11-27T01:23:35.679704+00:00",
+   "why": "picture is almost static (motion 0.01)",
+   "login": "adm1tr1pow",
+   "kind": "clip",
+   "vod": "2941509019",
+   "vod_t": 6805
+  },
+  "chat-2940859463-1907": {
+   "at": "2026-11-27T01:23:53.549152+00:00",
+   "why": "editor: 2/10, End of the stream: save menu at 61%, the map, then a full-screen webcam while saying it is three in the morning and time to sleep. No game event.",
+   "login": "frametamer666",
+   "kind": "chat",
+   "vod": "2940859463",
+   "vod_t": 85773.338097
+  },
+  "chat-2941731348-155": {
+   "at": "2026-11-27T01:23:53.549652+00:00",
+   "why": "editor: no webcam in the picture",
+   "login": "avoidingthepuddle",
+   "kind": "chat",
+   "vod": "2941731348",
+   "vod_t": 6944.055382
+  },
+  "chat-2941731348-186": {
+   "at": "2026-11-27T01:23:53.550070+00:00",
+   "why": "editor: no webcam in the picture",
+   "login": "avoidingthepuddle",
+   "kind": "chat",
+   "vod": "2941731348",
+   "vod_t": 8349.899472
   }
  },
  "pending": {
-  "chat-2940859463-1907": {
-   "id": "chat-2940859463-1907",
-   "url": "https://www.twitch.tv/videos/2940859463",
+  "chat-2941731348-226": {
+   "id": "chat-2941731348-226",
+   "url": "https://www.twitch.tv/videos/2941731348",
    "section": [
-    85773.338097,
-    85829.338097
+    10143.66237,
+    10199.66237
    ],
    "kind": "chat",
-   "views": 35,
+   "views": 46,
    "title": "",
-   "vod": "2940859463",
-   "vod_t": 85773.338097,
-   "group": "ru",
-   "login": "frametamer666",
-   "name": "frametamer666",
-   "viewers": 4634,
-   "chat_score": 5.0,
-   "found_at": "2026-11-27T00:18:46.014474+00:00",
-   "spike_at": "2026-11-27T00:09:48.338097+00:00",
+   "vod": "2941731348",
+   "vod_t": 10143.66237,
+   "group": "en",
+   "login": "avoidingthepuddle",
+   "name": "AvoidingThePuddle",
+   "viewers": 3494,
+   "chat_score": 3.29,
+   "found_at": "2026-11-27T01:23:03.403456+00:00",
+   "spike_at": "2026-11-27T01:21:05.662370+00:00",
    "chat": [
-    "8x WWW",
-    "2x спать",
-    "2x ОООО",
-    "2x WWWW",
-    "2x W",
-    "Сашааа, аук на то что мы будем смотреть на фоне, пока ты спишь!!",
-    "bbprohDansdans",
-    "Мне нравится только 3 часа",
-    "НИЗУЯ",
-    "Как он заебался уже",
-    "framet1Eben",
-    "МАШКА НУ НАША",
-    "WW"
+    "6x atpRtsd",
+    "6x atpCap",
+    "6x LUL",
+    "3x monkaS",
+    "3x lmao",
+    "2x LOL",
+    "2x evaded",
+    "nice",
+    "Perfect",
+    "atpSpiner",
+    "submarine",
+    "nice submarine",
+    "shoot LUL",
+    "evasive for sure!",
+    "they got ace combat in gta"
    ],
-   "source": "cut from the live stream at a chat spike: 35 chatters in 15 s, 5.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-27T00:19:23.926597+00:00",
-   "cam": [
-    10,
-    324,
-    516,
-    363
-   ],
+   "source": "cut from the live stream at a chat spike: 46 chatters in 15 s, 3.3x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-27T01:23:50.628751+00:00",
+   "cam": null,
    "size": [
-    1920,
-    1080
+    1280,
+    720
    ],
    "dur": 56.0,
    "words": [
     {
-     "word": " 61,",
-     "start": 3.82,
-     "end": 4.54
+     "word": " Chew",
+     "start": 2.35,
+     "end": 2.95
     },
     {
-     "word": " бля,",
-     "start": 4.94,
-     "end": 5.36
+     "word": " the",
+     "start": 2.95,
+     "end": 3.05
     },
     {
-     "word": " да",
-     "start": 5.86,
-     "end": 6.0
+     "word": " music",
+     "start": 3.05,
+     "end": 3.61
     },
     {
-     "word": " ну",
-     "start": 6.0,
-     "end": 6.26
-    },
-    {
-     "word": " нахуй,",
-     "start": 6.26,
-     "end": 7.4
-    },
-    {
-     "word": " выкусываем,",
-     "start": 7.4,
-     "end": 8.38
-    },
-    {
-     "word": " блядь,",
-     "start": 8.44,
-     "end": 8.72
-    },
-    {
-     "word": " по",
-     "start": 8.76,
-     "end": 8.86
-    },
-    {
-     "word": " полной",
-     "start": 8.86,
-     "end": 9.16
-    },
-    {
-     "word": " программе.",
-     "start": 9.16,
-     "end": 9.94
-    },
-    {
-     "word": " Блядь,",
-     "start": 20.88,
-     "end": 21.34
-    },
-    {
-     "word": " да",
-     "start": 21.62,
-     "end": 21.82
-    },
-    {
-     "word": " надо",
-     "start": 21.82,
-     "end": 22.02
-    },
-    {
-     "word": " спать",
-     "start": 22.02,
-     "end": 22.34
-    },
-    {
-     "word": " итиная.",
-     "start": 22.34,
-     "end": 22.74
-    },
-    {
-     "word": " Ра",
-     "start": 32.46,
-     "end": 32.78
-    },
-    {
-     "word": "-па",
-     "start": 32.78,
-     "end": 32.92
-    },
-    {
-     "word": "-па",
-     "start": 32.92,
-     "end": 33.2
-    },
-    {
-     "word": "-па",
-     "start": 33.2,
-     "end": 33.52
-    },
-    {
-     "word": "-па.",
-     "start": 33.52,
-     "end": 33.72
-    },
-    {
-     "word": " Ну,",
-     "start": 33.96,
-     "end": 34.06
-    },
-    {
-     "word": " в",
-     "start": 34.1,
-     "end": 34.14
-    },
-    {
-     "word": " тех,",
-     "start": 34.14,
-     "end": 34.22
-    },
-    {
-     "word": " кстати,",
-     "start": 34.24,
-     "end": 34.4
-    },
-    {
-     "word": " что",
-     "start": 34.58,
-     "end": 34.66
-    },
-    {
-     "word": "-то",
-     "start": 34.66,
-     "end": 34.78
-    },
-    {
-     "word": " три",
-     "start": 34.78,
-     "end": 34.98
-    },
-    {
-     "word": " часа",
-     "start": 34.98,
-     "end": 35.2
-    },
-    {
-     "word": " ночи.",
-     "start": 35.2,
-     "end": 35.58
-    }
-   ],
-   "metrics": {
-    "motion": 0.14743786437557532,
-    "motion_p90": 0.650398895366677,
-    "static_share": 0.17488789237668162,
-    "peak_db": 11.569318771362305,
-    "level_db": -25.161611557006836
-   },
-   "silence": []
-  },
-  "chat-2941731348-155": {
-   "id": "chat-2941731348-155",
-   "url": "https://www.twitch.tv/videos/2941731348",
-   "section": [
-    6944.055382,
-    7000.055382
-   ],
-   "kind": "chat",
-   "views": 57,
-   "title": "",
-   "vod": "2941731348",
-   "vod_t": 6944.055382,
-   "group": "en",
-   "login": "avoidingthepuddle",
-   "name": "AvoidingThePuddle",
-   "viewers": 3526,
-   "chat_score": 3.0,
-   "found_at": "2026-11-27T00:40:18.973390+00:00",
-   "spike_at": "2026-11-27T00:27:46.055382+00:00",
-   "chat": [
-    "7x atpRtsd",
-    "6x LUL",
-    "6x lmao",
-    "2x atpDance",
-    "2x DinoDance",
-    "2x atpChar",
-    "2x PogChamp",
-    "atpRtsd4",
-    "atpCap",
-    "AHAHAHHA",
-    "haanMinionDance majinoNeko",
-    "grinding",
-    "atpVaalle",
-    "LOL",
-    "atpRtsd2"
-   ],
-   "source": "cut from the live stream at a chat spike: 57 chatters in 15 s, 3.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-27T00:40:54.311119+00:00",
-   "cam": null,
-   "size": [
-    1280,
-    720
-   ],
-   "dur": 56.4,
-   "words": [
-    {
-     "word": " Einstein",
-     "start": 0.0,
-     "end": 0.48
-    },
-    {
-     "word": " do",
-     "start": 0.48,
-     "end": 1.82
-    },
-    {
-     "word": " some",
-     "start": 3.23,
-     "end": 3.41
-    },
-    {
-     "word": " dance",
-     "start": 3.41,
-     "end": 3.69
-    },
-    {
-     "word": " moves",
-     "start": 3.69,
-     "end": 4.29
-    },
-    {
-     "word": " Hold",
-     "start": 9.57,
-     "end": 10.55
-    },
-    {
-     "word": " R2",
-     "start": 10.55,
-     "end": 11.55
-    },
-    {
-     "word": " to",
-     "start": 11.55,
-     "end": 11.99
-    },
-    {
-     "word": " start",
-     "start": 11.99,
-     "end": 12.17
-    },
-    {
-     "word": " dancing.",
-     "start": 12.17,
-     "end": 12.65
-    },
-    {
-     "word": " I",
-     "start": 25.0,
-     "end": 25.58
-    },
-    {
-     "word": " think",
-     "start": 25.58,
-     "end": 25.72
-    },
-    {
-     "word": " I",
-     "start": 25.72,
-     "end": 25.84
-    },
-    {
-     "word": " scored",
-     "start": 25.84,
-     "end": 26.12
-    },
-    {
-     "word": " girl",
-     "start": 26.12,
-     "end": 26.56
-    },
-    {
-     "word": " friend",
-     "start": 26.56,
-     "end": 26.8
-    },
-    {
-     "word": " points",
-     "start": 26.8,
-     "end": 27.16
-    },
-    {
-     "word": " right",
-     "start": 27.16,
-     "end": 27.44
-    },
-    {
-     "word": " there",
-     "start": 27.44,
-     "end": 27.8
-    },
-    {
-     "word": " Oh",
-     "start": 36.12,
-     "end": 36.56
-    },
-    {
-     "word": " shit",
-     "start": 36.56,
-     "end": 37.22
-    },
-    {
-     "word": " moving",
-     "start": 37.22,
-     "end": 38.2
-    },
-    {
-     "word": " in",
-     "start": 38.2,
-     "end": 38.76
-    },
-    {
-     "word": " things",
-     "start": 38.76,
-     "end": 39.5
-    },
-    {
-     "word": " are",
-     "start": 39.5,
-     "end": 39.68
-    },
-    {
-     "word": " getting",
-     "start": 39.68,
-     "end": 39.94
-    },
-    {
-     "word": " romantic",
-     "start": 39.94,
-     "end": 40.8
-    },
-    {
-     "word": " Dude",
-     "start": 41.62,
-     "end": 42.12
-    },
-    {
-     "word": " that",
-     "start": 42.12,
-     "end": 42.4
-    },
-    {
-     "word": " baby",
-     "start": 42.4,
-     "end": 42.78
-    },
-    {
-     "word": " in",
-     "start": 42.78,
-     "end": 43.08
-    },
-    {
-     "word": " that",
-     "start": 43.08,
-     "end": 43.26
-    },
-    {
-     "word": " fucking",
-     "start": 43.26,
-     "end": 43.8
-    },
-    {
-     "word": " pregnant",
-     "start": 43.8,
-     "end": 44.46
-    },
-    {
-     "word": " lady's",
-     "start": 44.46,
-     "end": 45.06
-    },
-    {
-     "word": " getting",
-     "start": 45.06,
-     "end": 45.22
-    },
-    {
-     "word": " fucked",
-     "start": 45.22,
-     "end": 45.72
-    },
-    {
-     "word": " up",
-     "start": 45.72,
-     "end": 46.0
-    },
-    {
-     "word": " right",
-     "start": 46.0,
-     "end": 46.26
+     "word": " Okay,",
+     "start": 5.92,
+     "end": 6.52
     },
     {
      "word": " now",
-     "start": 46.26,
-     "end": 46.66
-    },
-    {
-     "word": " You're",
-     "start": 48.16,
-     "end": 49.04
-    },
-    {
-     "word": " getting",
-     "start": 49.04,
-     "end": 49.92
-    },
-    {
-     "word": " fucking",
-     "start": 49.92,
-     "end": 50.2
-    },
-    {
-     "word": " tossed",
-     "start": 50.2,
-     "end": 50.66
-    },
-    {
-     "word": " around",
-     "start": 50.66,
-     "end": 51.14
-    },
-    {
-     "word": " dude",
-     "start": 51.14,
-     "end": 51.92
-    },
-    {
-     "word": " The",
-     "start": 51.92,
-     "end": 53.58
-    },
-    {
-     "word": " hell",
-     "start": 53.58,
-     "end": 53.94
-    }
-   ],
-   "metrics": {
-    "motion": 0.335625,
-    "motion_p90": 0.5364305555555556,
-    "static_share": 0.0,
-    "peak_db": 17.039831161499023,
-    "level_db": -34.01401901245117
-   },
-   "silence": []
-  },
-  "chat-2941731348-186": {
-   "id": "chat-2941731348-186",
-   "url": "https://www.twitch.tv/videos/2941731348",
-   "section": [
-    8349.899472,
-    8405.899472
-   ],
-   "kind": "chat",
-   "views": 118,
-   "title": "",
-   "vod": "2941731348",
-   "vod_t": 8349.899472,
-   "group": "en",
-   "login": "avoidingthepuddle",
-   "name": "AvoidingThePuddle",
-   "viewers": 3168,
-   "chat_score": 6.21,
-   "found_at": "2026-11-27T01:01:49.585975+00:00",
-   "spike_at": "2026-11-27T00:51:11.899472+00:00",
-   "chat": [
-    "15x LUL",
-    "14x atpCap",
-    "13x atpRtsd",
-    "6x Lol",
-    "6x LMAO",
-    "3x not buggy huh",
-    "2x atpSpiner",
-    "2x 3 billion LUL",
-    "2x 3 billion",
-    "2x LUL 3 billion",
-    "Hhahahahahhaa",
-    "this didnt happen during my run",
-    "3 billion atpRtsd",
-    "ggs",
-    "bogged",
-    "kill the truck",
-    "atpCap 3 billion",
-    "sick"
-   ],
-   "source": "cut from the live stream at a chat spike: 118 chatters in 15 s, 6.2x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
-   "at": "2026-11-27T01:02:14.900136+00:00",
-   "cam": null,
-   "size": [
-    1280,
-    720
-   ],
-   "dur": 62.4,
-   "words": [
-    {
-     "word": " We're",
-     "start": 35.02,
-     "end": 35.5
-    },
-    {
-     "word": " in",
-     "start": 35.5,
-     "end": 35.58
-    },
-    {
-     "word": " trouble",
-     "start": 35.58,
-     "end": 35.86
-    },
-    {
-     "word": " are",
-     "start": 35.86,
-     "end": 36.96
-    },
-    {
-     "word": " we",
-     "start": 36.96,
-     "end": 37.08
-    },
-    {
-     "word": " gonna",
-     "start": 37.08,
-     "end": 37.2
-    },
-    {
-     "word": " steal",
-     "start": 37.2,
-     "end": 37.48
-    },
-    {
-     "word": " that",
-     "start": 37.48,
-     "end": 37.78
-    },
-    {
-     "word": " follow",
-     "start": 41.69,
-     "end": 42.77
-    },
-    {
-     "word": " what",
-     "start": 42.77,
-     "end": 44.27
-    },
-    {
-     "word": " follow",
-     "start": 44.27,
-     "end": 45.87
-    },
-    {
-     "word": " Lucia",
-     "start": 45.87,
-     "end": 46.47
-    },
-    {
-     "word": " Oh,",
-     "start": 48.35,
-     "end": 48.91
-    },
-    {
-     "word": " and",
-     "start": 53.36,
-     "end": 53.92
+     "start": 6.54,
+     "end": 6.82
     },
     {
      "word": " I",
-     "start": 53.92,
-     "end": 54.06
+     "start": 6.82,
+     "end": 6.94
     },
     {
-     "word": " can't",
-     "start": 54.06,
-     "end": 54.4
-    },
-    {
-     "word": " move",
-     "start": 54.4,
-     "end": 54.56
+     "word": " got",
+     "start": 6.94,
+     "end": 7.06
     },
     {
      "word": " this",
-     "start": 54.56,
-     "end": 54.78
+     "start": 7.06,
+     "end": 7.36
     },
     {
-     "word": " car.",
-     "start": 54.78,
-     "end": 55.08
+     "word": " airplane.",
+     "start": 7.36,
+     "end": 7.78
     },
     {
-     "word": " Can",
-     "start": 55.16,
-     "end": 55.4
+     "word": " It'll",
+     "start": 8.0,
+     "end": 8.3
+    },
+    {
+     "word": " help",
+     "start": 8.3,
+     "end": 8.44
+    },
+    {
+     "word": " me",
+     "start": 8.44,
+     "end": 8.58
+    },
+    {
+     "word": " fly",
+     "start": 8.58,
+     "end": 8.92
+    },
+    {
+     "word": " it",
+     "start": 8.92,
+     "end": 9.12
+    },
+    {
+     "word": " anywhere",
+     "start": 9.12,
+     "end": 9.64
+    },
+    {
+     "word": " and",
+     "start": 9.64,
+     "end": 10.02
+    },
+    {
+     "word": " Then",
+     "start": 11.58,
+     "end": 11.92
     },
     {
      "word": " I",
-     "start": 55.4,
-     "end": 55.5
+     "start": 11.92,
+     "end": 12.48
     },
     {
-     "word": " push",
-     "start": 55.5,
-     "end": 55.72
+     "word": " could",
+     "start": 12.48,
+     "end": 12.64
     },
     {
-     "word": " it?",
-     "start": 55.72,
-     "end": 55.88
+     "word": " go",
+     "start": 12.64,
+     "end": 12.82
     },
     {
-     "word": " Whoa?",
-     "start": 56.02,
-     "end": 56.58
+     "word": " find",
+     "start": 12.82,
+     "end": 13.16
+    },
+    {
+     "word": " one",
+     "start": 13.16,
+     "end": 13.94
+    },
+    {
+     "word": " of",
+     "start": 13.94,
+     "end": 14.02
+    },
+    {
+     "word": " those",
+     "start": 14.02,
+     "end": 14.16
+    },
+    {
+     "word": " things",
+     "start": 14.16,
+     "end": 14.46
+    },
+    {
+     "word": " Those",
+     "start": 15.58,
+     "end": 16.18
+    },
+    {
+     "word": " cranes",
+     "start": 16.18,
+     "end": 16.74
+    },
+    {
+     "word": " Go",
+     "start": 21.56,
+     "end": 22.06
+    },
+    {
+     "word": " to",
+     "start": 22.06,
+     "end": 22.18
+    },
+    {
+     "word": " Vice",
+     "start": 22.18,
+     "end": 22.42
+    },
+    {
+     "word": " City.",
+     "start": 22.42,
+     "end": 22.86
+    },
+    {
+     "word": " Is",
+     "start": 23.16,
+     "end": 23.76
+    },
+    {
+     "word": " it",
+     "start": 23.76,
+     "end": 23.9
+    },
+    {
+     "word": " north",
+     "start": 23.9,
+     "end": 24.24
+    },
+    {
+     "word": " or",
+     "start": 24.24,
+     "end": 24.98
+    },
+    {
+     "word": " east",
+     "start": 24.98,
+     "end": 25.3
+    },
+    {
+     "word": " or",
+     "start": 25.3,
+     "end": 25.62
+    },
+    {
+     "word": " something?",
+     "start": 25.62,
+     "end": 25.86
+    },
+    {
+     "word": " Is",
+     "start": 26.18,
+     "end": 26.4
+    },
+    {
+     "word": " that",
+     "start": 26.4,
+     "end": 26.58
+    },
+    {
+     "word": " Vice",
+     "start": 26.58,
+     "end": 26.8
+    },
+    {
+     "word": " City",
+     "start": 26.8,
+     "end": 27.02
+    },
+    {
+     "word": " over",
+     "start": 27.02,
+     "end": 27.16
+    },
+    {
+     "word": " there?",
+     "start": 27.16,
+     "end": 27.32
+    },
+    {
+     "word": " I've",
+     "start": 27.78,
+     "end": 28.34
+    },
+    {
+     "word": " tried",
+     "start": 28.34,
+     "end": 28.54
+    },
+    {
+     "word": " that",
+     "start": 28.54,
+     "end": 28.78
+    },
+    {
+     "word": " before",
+     "start": 28.78,
+     "end": 29.22
+    },
+    {
+     "word": " They",
+     "start": 30.62,
+     "end": 31.22
+    },
+    {
+     "word": " start",
+     "start": 31.22,
+     "end": 31.46
+    },
+    {
+     "word": " shooting",
+     "start": 31.46,
+     "end": 31.82
+    },
+    {
+     "word": " you",
+     "start": 31.82,
+     "end": 32.08
+    },
+    {
+     "word": " down",
+     "start": 32.08,
+     "end": 32.44
+    },
+    {
+     "word": " which",
+     "start": 32.44,
+     "end": 33.28
+    },
+    {
+     "word": " sucks",
+     "start": 33.28,
+     "end": 33.7
+    },
+    {
+     "word": " and",
+     "start": 33.7,
+     "end": 34.6
+    },
+    {
+     "word": " this",
+     "start": 40.87,
+     "end": 41.05
+    },
+    {
+     "word": " game",
+     "start": 41.05,
+     "end": 41.23
+    },
+    {
+     "word": " has",
+     "start": 41.23,
+     "end": 41.39
+    },
+    {
+     "word": " nice",
+     "start": 41.39,
+     "end": 41.65
+    },
+    {
+     "word": " graphics",
+     "start": 41.65,
+     "end": 42.27
+    },
+    {
+     "word": " Holy",
+     "start": 43.71,
+     "end": 44.27
+    },
+    {
+     "word": " shit",
+     "start": 44.27,
+     "end": 44.95
+    },
+    {
+     "word": " Better",
+     "start": 45.67,
+     "end": 46.23
+    },
+    {
+     "word": " take",
+     "start": 46.23,
+     "end": 46.53
+    },
+    {
+     "word": " evasive",
+     "start": 46.53,
+     "end": 46.89
+    },
+    {
+     "word": " maneuvers",
+     "start": 46.89,
+     "end": 47.61
+    },
+    {
+     "word": " Okay",
+     "start": 47.61,
+     "end": 48.05
     }
    ],
    "metrics": {
-    "motion": 0.30277777777777776,
-    "motion_p90": 0.4827500000000001,
-    "static_share": 0.13654618473895583,
-    "peak_db": 22.70343017578125,
-    "level_db": -46.95918273925781
+    "motion": 0.29,
+    "motion_p90": 0.5442222222222223,
+    "static_share": 0.0,
+    "peak_db": 11.636402130126953,
+    "level_db": -33.87851333618164
    },
    "silence": []
   }
@@ -6678,7 +6421,7 @@
    "seconds": 22.1
   }
  },
- "checked_n": 352,
+ "checked_n": 354,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
