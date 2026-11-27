@@ -1,44 +1,4 @@
 {
- "chat-2939770213-933": {
-  "at": "2026-11-25T11:13:48.538488+00:00",
-  "moment_score": 5,
-  "what_happens": "Seaplane nosedives into the water on the landing approach, mission failed; streamer stays quiet through the flight and reacts only with a hand over the mouth and a late mild remark over the fail and loading screens. Ordinary mission fail, half of a tight cut would be a black screen",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2939983603-657": {
-  "at": "2026-11-25T11:13:48.579161+00:00",
-  "moment_score": 4,
-  "what_happens": "Dark red-tinted shoot-out after looting a safe, ordinary death (loses the cash), no speech recognised, and the last 8 s are the stream's ending screen instead of gameplay",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2939339874-1661": {
-  "at": "2026-11-25T11:13:48.614445+00:00",
-  "moment_score": 4,
-  "what_happens": "Generic death in a dark ship-interior mission, picture mostly unreadable, tiny cam; the complaint after the death carries no event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940085270-457": {
-  "at": "2026-11-25T11:13:48.651214+00:00",
-  "moment_score": 4,
-  "what_happens": "Grabs a gas can from a pickup bed and starts pouring it around an occupied truck; the clip ends on the weapon wheel before anything happens, payoff is outside the clip, streamer nearly silent",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2939339874-1670": {
-  "at": "2026-11-25T11:13:48.688539+00:00",
-  "moment_score": 2,
-  "what_happens": "Underwater mission swim with game dialogue while the chat answers a poll about hours left to the finale; no game event, dark footage",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2939770213-1029": {
   "at": "2026-11-25T12:15:03.539122+00:00",
   "moment_score": 6,
@@ -1673,6 +1633,38 @@
   "at": "2026-11-27T10:14:46.104167+00:00",
   "moment_score": 3,
   "what_happens": "Runs across a lot, takes a car from a valet, bumps it into a concrete pillar and leaves it there while stepping away from the desk. No real event, very quiet sound (-41 dB), the streamer is off camera for the ending.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941998603-417": {
+  "at": "2026-11-27T11:14:07.016729+00:00",
+  "moment_score": 1,
+  "what_happens": "Paused map for 25 s, then a full-screen music video of a VTuber group watched on stream. No GTA gameplay and third-party music video.",
+  "gameplay_visible": false,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941998603-443": {
+  "at": "2026-11-27T11:14:07.063081+00:00",
+  "moment_score": 3,
+  "what_happens": "Avatar streamer (ironmouse). Long quiet drive in Donnie's car that ends with running over a deer in a field; the chat mourns, the streamer says almost nothing for 30 s and the radio talks over the ending. An animal hit as the only event, weak.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941998603-446": {
+  "at": "2026-11-27T11:14:07.112267+00:00",
+  "moment_score": 4,
+  "what_happens": "Avatar streamer (ironmouse). Drives the car into a swamp to destroy it, it will not sink, pours petrol on it standing in the water, then the objective changes to leave the area. Mildly funny but slow, no sharp moment in 65 s, the streamer nearly silent and quiet (-37 dB).",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941998603-468": {
+  "at": "2026-11-27T11:14:07.168119+00:00",
+  "moment_score": 4,
+  "what_happens": "Avatar streamer (ironmouse). Walk along a beach, a sudden scare from an animal at 37 s and a startled turn; the animal sits at the left edge outside the vertical crop, so the cause is not visible, and the radio talks over the moment. Before and after it is just driving and walking.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
