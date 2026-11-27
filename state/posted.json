@@ -4369,6 +4369,413 @@
     "level_db": -51.29057312011719
    },
    "silence": []
+  },
+  "chat-2941731348-276": {
+   "id": "chat-2941731348-276",
+   "url": "https://www.twitch.tv/videos/2941731348",
+   "section": [
+    12395.654761,
+    12451.654761
+   ],
+   "kind": "chat",
+   "views": 37,
+   "title": "",
+   "vod": "2941731348",
+   "vod_t": 12395.654761,
+   "group": "en",
+   "login": "avoidingthepuddle",
+   "name": "AvoidingThePuddle",
+   "viewers": 3064,
+   "chat_score": 4.62,
+   "found_at": "2026-11-27T02:06:45.174750+00:00",
+   "spike_at": "2026-11-27T01:58:37.654761+00:00",
+   "chat": [
+    "8x atpRtsd",
+    "5x LUL",
+    "2x lmao",
+    "2x atpRtsd4",
+    "this game made my kids violent",
+    "atpRtsd start some fucken chaos",
+    "atpTopSpeed",
+    "yyjJoy",
+    "monkaS ?",
+    "yes",
+    "Technically this is grand theft auto if you carry em away",
+    "atpPrettyGood"
+   ],
+   "source": "cut from the live stream at a chat spike: 37 chatters in 15 s, 4.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-27T02:07:12.785072+00:00",
+   "cam": null,
+   "size": [
+    1280,
+    720
+   ],
+   "dur": 57.3,
+   "words": [
+    {
+     "word": " play",
+     "start": 22.9,
+     "end": 23.38
+    },
+    {
+     "word": " this",
+     "start": 23.38,
+     "end": 23.64
+    },
+    {
+     "word": " game",
+     "start": 23.64,
+     "end": 23.86
+    },
+    {
+     "word": " and",
+     "start": 23.86,
+     "end": 24.04
+    },
+    {
+     "word": " then",
+     "start": 24.04,
+     "end": 24.2
+    },
+    {
+     "word": " go",
+     "start": 24.2,
+     "end": 24.5
+    },
+    {
+     "word": " and",
+     "start": 24.5,
+     "end": 24.7
+    },
+    {
+     "word": " commit",
+     "start": 24.7,
+     "end": 25.02
+    },
+    {
+     "word": " crimes",
+     "start": 25.02,
+     "end": 25.7
+    },
+    {
+     "word": " as",
+     "start": 25.7,
+     "end": 26.78
+    },
+    {
+     "word": " a",
+     "start": 26.78,
+     "end": 26.94
+    },
+    {
+     "word": " result",
+     "start": 26.94,
+     "end": 27.28
+    },
+    {
+     "word": " I",
+     "start": 27.28,
+     "end": 29.24
+    },
+    {
+     "word": " never",
+     "start": 29.24,
+     "end": 29.42
+    },
+    {
+     "word": " really",
+     "start": 29.42,
+     "end": 29.66
+    },
+    {
+     "word": " thought",
+     "start": 29.66,
+     "end": 29.96
+    },
+    {
+     "word": " that",
+     "start": 29.96,
+     "end": 30.2
+    },
+    {
+     "word": " that",
+     "start": 30.2,
+     "end": 30.36
+    },
+    {
+     "word": " was",
+     "start": 30.36,
+     "end": 30.54
+    },
+    {
+     "word": " the",
+     "start": 30.54,
+     "end": 30.72
+    },
+    {
+     "word": " case",
+     "start": 30.72,
+     "end": 31.02
+    },
+    {
+     "word": " with",
+     "start": 31.02,
+     "end": 31.26
+    },
+    {
+     "word": " games",
+     "start": 31.26,
+     "end": 31.56
+    },
+    {
+     "word": " but",
+     "start": 31.56,
+     "end": 31.88
+    },
+    {
+     "word": " right",
+     "start": 31.88,
+     "end": 32.16
+    },
+    {
+     "word": " now",
+     "start": 32.16,
+     "end": 32.5
+    },
+    {
+     "word": " I'm",
+     "start": 32.5,
+     "end": 32.92
+    },
+    {
+     "word": " thinking",
+     "start": 32.92,
+     "end": 33.24
+    },
+    {
+     "word": " after",
+     "start": 33.24,
+     "end": 33.64
+    },
+    {
+     "word": " I'm",
+     "start": 33.64,
+     "end": 33.82
+    },
+    {
+     "word": " done",
+     "start": 33.82,
+     "end": 34.06
+    },
+    {
+     "word": " streaming",
+     "start": 34.06,
+     "end": 34.48
+    },
+    {
+     "word": " I'm",
+     "start": 34.48,
+     "end": 34.76
+    },
+    {
+     "word": " gonna",
+     "start": 34.76,
+     "end": 34.88
+    },
+    {
+     "word": " go",
+     "start": 34.88,
+     "end": 35.0
+    },
+    {
+     "word": " look",
+     "start": 35.0,
+     "end": 35.22
+    },
+    {
+     "word": " for",
+     "start": 35.22,
+     "end": 35.44
+    },
+    {
+     "word": " a",
+     "start": 35.44,
+     "end": 35.58
+    },
+    {
+     "word": " crane",
+     "start": 35.58,
+     "end": 36.2
+    },
+    {
+     "word": " I'm",
+     "start": 36.2,
+     "end": 38.8
+    },
+    {
+     "word": " gonna",
+     "start": 38.8,
+     "end": 38.9
+    },
+    {
+     "word": " go",
+     "start": 38.9,
+     "end": 39.08
+    },
+    {
+     "word": " for",
+     "start": 39.08,
+     "end": 39.28
+    },
+    {
+     "word": " a",
+     "start": 39.28,
+     "end": 39.44
+    },
+    {
+     "word": " walk",
+     "start": 39.44,
+     "end": 39.86
+    },
+    {
+     "word": " see",
+     "start": 39.86,
+     "end": 40.74
+    },
+    {
+     "word": " if",
+     "start": 40.74,
+     "end": 40.86
+    },
+    {
+     "word": " I",
+     "start": 40.86,
+     "end": 40.98
+    },
+    {
+     "word": " can't",
+     "start": 40.98,
+     "end": 41.3
+    },
+    {
+     "word": " find",
+     "start": 41.3,
+     "end": 41.5
+    },
+    {
+     "word": " a",
+     "start": 41.5,
+     "end": 41.68
+    },
+    {
+     "word": " crane",
+     "start": 41.68,
+     "end": 42.18
+    },
+    {
+     "word": " see",
+     "start": 42.18,
+     "end": 44.1
+    },
+    {
+     "word": " what",
+     "start": 44.1,
+     "end": 44.3
+    },
+    {
+     "word": " I",
+     "start": 44.3,
+     "end": 44.42
+    },
+    {
+     "word": " can",
+     "start": 44.42,
+     "end": 44.52
+    },
+    {
+     "word": " get",
+     "start": 44.52,
+     "end": 44.7
+    },
+    {
+     "word": " myself",
+     "start": 44.7,
+     "end": 45.12
+    },
+    {
+     "word": " into",
+     "start": 45.12,
+     "end": 45.58
+    },
+    {
+     "word": " tonight",
+     "start": 45.58,
+     "end": 46.02
+    },
+    {
+     "word": " you",
+     "start": 46.02,
+     "end": 47.12
+    },
+    {
+     "word": " know",
+     "start": 49.71,
+     "end": 49.91
+    },
+    {
+     "word": " I'm",
+     "start": 49.91,
+     "end": 50.73
+    },
+    {
+     "word": " gonna",
+     "start": 50.73,
+     "end": 50.79
+    },
+    {
+     "word": " find",
+     "start": 50.79,
+     "end": 51.01
+    },
+    {
+     "word": " a",
+     "start": 51.01,
+     "end": 51.17
+    },
+    {
+     "word": " crane",
+     "start": 51.17,
+     "end": 51.41
+    },
+    {
+     "word": " that",
+     "start": 51.41,
+     "end": 51.71
+    },
+    {
+     "word": " sounds",
+     "start": 51.71,
+     "end": 51.95
+    },
+    {
+     "word": " pretty",
+     "start": 51.95,
+     "end": 52.23
+    },
+    {
+     "word": " cool",
+     "start": 52.23,
+     "end": 52.55
+    }
+   ],
+   "metrics": {
+    "motion": 0.15250000000000002,
+    "motion_p90": 0.3209791666666667,
+    "static_share": 0.0,
+    "peak_db": 15.761661529541016,
+    "level_db": -36.72854232788086
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -6647,7 +7054,7 @@
    "seconds": 22.1
   }
  },
- "checked_n": 356,
+ "checked_n": 357,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
