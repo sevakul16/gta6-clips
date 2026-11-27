@@ -1301,14 +1301,6 @@
   }
  },
  "rejected": {
-  "chat-2939296973-347": {
-   "at": "2026-11-24T16:59:28.421150+00:00",
-   "why": "picture is almost static (motion 0.01)",
-   "login": "cohhcarnage",
-   "kind": "chat",
-   "vod": "2939296973",
-   "vod_t": 15589.350378
-  },
   "DarlingGiftedCheeseWoofer-AYlHEKGmN_awQ6yz": {
    "at": "2026-11-24T17:20:58.835338+00:00",
    "why": "editor: 1/10, Cutscene with a fully naked man shown from the front for most of the clip; nudity, and no game event by the streamer",
@@ -5530,6 +5522,324 @@
     "level_db": -47.64997482299805
    },
    "silence": []
+  },
+  "ThoughtfulWittyMartenSwiftRage-PAbpCfYqKPxZKeLv": {
+   "id": "ThoughtfulWittyMartenSwiftRage-PAbpCfYqKPxZKeLv",
+   "vod": "2939244497",
+   "vod_t": 8828,
+   "group": "ru",
+   "views": 1817,
+   "title": "Бигфут раскрыт",
+   "url": "https://www.twitch.tv/happydies/clip/ThoughtfulWittyMartenSwiftRage-PAbpCfYqKPxZKeLv",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "happydies",
+   "name": "HappyDies",
+   "source": "Twitch clip made by a viewer, 1817 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"Бигфут раскрыт\"",
+   "at": "2026-11-27T17:06:43.075162+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 31.2,
+   "words": [
+    {
+     "word": " О!",
+     "start": 3.06,
+     "end": 3.64
+    },
+    {
+     "word": " Жизнь!",
+     "start": 15.12,
+     "end": 15.92
+    }
+   ],
+   "metrics": {
+    "motion": 0.24569444444444444,
+    "motion_p90": 0.6479861111111112,
+    "static_share": 0.016129032258064516,
+    "peak_db": 8.407119750976562,
+    "level_db": -41.23360824584961
+   },
+   "silence": []
+  },
+  "SplendidFlaccidTofuWow-EYQws6PCV-kYBEf3": {
+   "id": "SplendidFlaccidTofuWow-EYQws6PCV-kYBEf3",
+   "url": "https://www.twitch.tv/bratishkinoff/clip/SplendidFlaccidTofuWow-EYQws6PCV-kYBEf3",
+   "section": null,
+   "kind": "clip",
+   "views": 314,
+   "title": "АХАХАХАХАХАХА",
+   "vod": "2941301054",
+   "vod_t": 30387,
+   "group": "ru",
+   "login": "bratishkinoff",
+   "name": "bratishkinOFF",
+   "source": "Twitch clip made by a viewer, 314 views, titled \"АХАХАХАХАХАХА\"",
+   "at": "2026-11-27T17:07:17.538456+00:00",
+   "cam": [
+    56,
+    944,
+    495,
+    348
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 32.9,
+   "words": [
+    {
+     "word": " вот",
+     "start": 0.4,
+     "end": 0.9
+    },
+    {
+     "word": " все",
+     "start": 0.9,
+     "end": 1.12
+    },
+    {
+     "word": " ради",
+     "start": 1.12,
+     "end": 1.3
+    },
+    {
+     "word": " сисик",
+     "start": 1.3,
+     "end": 1.78
+    },
+    {
+     "word": " все",
+     "start": 1.78,
+     "end": 2.06
+    },
+    {
+     "word": " ради",
+     "start": 2.06,
+     "end": 2.26
+    },
+    {
+     "word": " сисик",
+     "start": 2.26,
+     "end": 2.66
+    },
+    {
+     "word": " вот",
+     "start": 2.66,
+     "end": 2.8
+    },
+    {
+     "word": " в",
+     "start": 2.8,
+     "end": 2.92
+    },
+    {
+     "word": " этом",
+     "start": 2.92,
+     "end": 3.1
+    },
+    {
+     "word": " в",
+     "start": 3.1,
+     "end": 3.36
+    },
+    {
+     "word": " этой",
+     "start": 3.36,
+     "end": 3.48
+    },
+    {
+     "word": " жизни",
+     "start": 3.48,
+     "end": 3.68
+    },
+    {
+     "word": " делается",
+     "start": 3.68,
+     "end": 4.18
+    },
+    {
+     "word": " блять",
+     "start": 4.18,
+     "end": 4.44
+    },
+    {
+     "word": " это",
+     "start": 4.44,
+     "end": 4.68
+    },
+    {
+     "word": " проблема",
+     "start": 4.68,
+     "end": 5.12
+    },
+    {
+     "word": " это",
+     "start": 5.12,
+     "end": 5.5
+    },
+    {
+     "word": " проблема",
+     "start": 5.5,
+     "end": 5.82
+    },
+    {
+     "word": " человечества",
+     "start": 5.82,
+     "end": 6.68
+    },
+    {
+     "word": " я",
+     "start": 7.62,
+     "end": 8.34
+    },
+    {
+     "word": " взрываюсь",
+     "start": 8.34,
+     "end": 8.76
+    },
+    {
+     "word": " на",
+     "start": 8.76,
+     "end": 8.88
+    },
+    {
+     "word": " хуй",
+     "start": 8.88,
+     "end": 9.5
+    },
+    {
+     "word": " сиськами",
+     "start": 13.51,
+     "end": 14.23
+    },
+    {
+     "word": " голыми",
+     "start": 14.23,
+     "end": 14.95
+    },
+    {
+     "word": " мальютки",
+     "start": 14.95,
+     "end": 15.83
+    },
+    {
+     "word": " мои",
+     "start": 15.83,
+     "end": 16.29
+    },
+    {
+     "word": " две",
+     "start": 16.29,
+     "end": 17.21
+    },
+    {
+     "word": " мои",
+     "start": 17.21,
+     "end": 17.45
+    },
+    {
+     "word": " мальютки",
+     "start": 17.45,
+     "end": 18.09
+    },
+    {
+     "word": " виртуальны",
+     "start": 18.09,
+     "end": 19.13
+    },
+    {
+     "word": " лиза",
+     "start": 22.15,
+     "end": 22.87
+    },
+    {
+     "word": " да",
+     "start": 22.87,
+     "end": 23.79
+    },
+    {
+     "word": " я",
+     "start": 27.7,
+     "end": 27.82
+    },
+    {
+     "word": " что",
+     "start": 27.82,
+     "end": 27.98
+    },
+    {
+     "word": "-то",
+     "start": 27.98,
+     "end": 28.1
+    },
+    {
+     "word": " по",
+     "start": 28.1,
+     "end": 28.24
+    },
+    {
+     "word": " привычке",
+     "start": 28.24,
+     "end": 28.66
+    },
+    {
+     "word": " опять",
+     "start": 28.66,
+     "end": 28.92
+    },
+    {
+     "word": " на",
+     "start": 28.92,
+     "end": 29.1
+    },
+    {
+     "word": " хуле",
+     "start": 29.1,
+     "end": 29.34
+    },
+    {
+     "word": " фон",
+     "start": 29.34,
+     "end": 29.58
+    },
+    {
+     "word": " натянула",
+     "start": 29.58,
+     "end": 30.1
+    },
+    {
+     "word": " надбал",
+     "start": 30.1,
+     "end": 30.44
+    },
+    {
+     "word": " куртку",
+     "start": 30.44,
+     "end": 31.24
+    },
+    {
+     "word": " спасибо",
+     "start": 31.24,
+     "end": 31.98
+    },
+    {
+     "word": " украин",
+     "start": 31.98,
+     "end": 32.82
+    }
+   ],
+   "metrics": {
+    "motion": 0.6087908878504673,
+    "motion_p90": 0.7493428738317757,
+    "static_share": 0.0,
+    "peak_db": 5.762054443359375,
+    "level_db": -24.74911880493164
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -7012,7 +7322,7 @@
    "seconds": 19.1
   }
  },
- "checked_n": 435,
+ "checked_n": 437,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
