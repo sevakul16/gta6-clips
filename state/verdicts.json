@@ -1682,5 +1682,55 @@
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
+ },
+ "chat-2941744379-772": {
+  "at": "2026-11-27T09:13:55.767350+00:00",
+  "moment_score": 2,
+  "what_happens": "No webcam and no avatar in the layout (pokelawls). Getaway drive after a robbery with the radio on, no single event, the streamer silent.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941744379-775": {
+  "at": "2026-11-27T09:13:55.821722+00:00",
+  "moment_score": 2,
+  "what_happens": "No webcam and no avatar in the layout (pokelawls). A car parked inside a palm bush while a radio song plays; music only, nothing happens.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941891026-518": {
+  "at": "2026-11-27T09:13:55.865293+00:00",
+  "moment_score": 6,
+  "what_happens": "Bike ride up an overpass ramp in daylight: the bike hits a car, both riders fly over its hood, and Jason ends upside down against the barrier at the very edge. Live reaction 'he's gonna fall off the ledge... oh thank God', shock then laughter on cam, chat 21x. First 22 s are the map menu, so cut to 34-52. Webcam box set by hand (detector box is too wide).",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "One car on the ramp and Jason nearly flew off the overpass 😳",
+  "keep_start": 34.0,
+  "keep_end": 52.0,
+  "cam": [
+   0.818,
+   0.545,
+   0.18,
+   0.225
+  ],
+  "hook": "Almost off the overpass",
+  "cover_at": 43.5
+ },
+ "chat-2941891026-522": {
+  "at": "2026-11-27T09:13:55.904340+00:00",
+  "moment_score": 4,
+  "what_happens": "Told to split up, Jason wanders off, climbs a ladder and jumps down; the streamer is puzzled. Mild companion-AI oddity without a payoff, very quiet sound (-46 dB).",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941891026-533": {
+  "at": "2026-11-27T09:13:55.954312+00:00",
+  "moment_score": 2,
+  "what_happens": "Scripted gym scene: the trainer's booty-workout talk during squats, camera on leggings close-ups. Sexualised content and dialogue, no player event.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
  }
 }
