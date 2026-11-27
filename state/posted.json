@@ -4508,6 +4508,416 @@
     "level_db": -30.55229949951172
    },
    "silence": []
+  },
+  "chat-2941744379-569": {
+   "id": "chat-2941744379-569",
+   "url": "https://www.twitch.tv/videos/2941744379",
+   "section": [
+    25594.461662,
+    25650.461662
+   ],
+   "kind": "chat",
+   "views": 36,
+   "title": "",
+   "vod": "2941744379",
+   "vod_t": 25594.461662,
+   "group": "en",
+   "login": "pokelawls",
+   "name": "pokelawls",
+   "viewers": 3109,
+   "chat_score": 4.5,
+   "found_at": "2026-11-27T06:04:44.450077+00:00",
+   "spike_at": "2026-11-27T05:57:16.461662+00:00",
+   "chat": [
+    "4x byeah",
+    "4x Leanin",
+    "TITS ASS DRUG MONEY",
+    "AlienPls",
+    "Catting",
+    "Chairs",
+    "LO wtf",
+    "@pokelawls start a byeah counter on screen",
+    "yuh",
+    "you missed the free 500k house btw"
+   ],
+   "source": "cut from the live stream at a chat spike: 36 chatters in 15 s, 4.5x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-27T06:05:19.849276+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 60.0,
+   "words": [
+    {
+     "word": " I",
+     "start": 0.85,
+     "end": 1.29
+    },
+    {
+     "word": " guess",
+     "start": 1.29,
+     "end": 1.49
+    },
+    {
+     "word": " we're",
+     "start": 1.49,
+     "end": 1.71
+    },
+    {
+     "word": " in",
+     "start": 1.71,
+     "end": 1.81
+    },
+    {
+     "word": " Vice",
+     "start": 1.81,
+     "end": 1.95
+    },
+    {
+     "word": " City.",
+     "start": 1.95,
+     "end": 2.25
+    },
+    {
+     "word": " Yeah,",
+     "start": 4.43,
+     "end": 4.71
+    },
+    {
+     "word": " sure",
+     "start": 4.77,
+     "end": 5.01
+    },
+    {
+     "word": " looks",
+     "start": 5.01,
+     "end": 5.25
+    },
+    {
+     "word": " like",
+     "start": 5.25,
+     "end": 5.57
+    },
+    {
+     "word": " it.",
+     "start": 5.57,
+     "end": 5.83
+    },
+    {
+     "word": " Hello?",
+     "start": 7.55,
+     "end": 7.99
+    },
+    {
+     "word": " Anyone",
+     "start": 9.53,
+     "end": 9.97
+    },
+    {
+     "word": " home?",
+     "start": 9.97,
+     "end": 10.41
+    },
+    {
+     "word": " Uh",
+     "start": 13.44,
+     "end": 13.62
+    },
+    {
+     "word": "-oh.",
+     "start": 13.62,
+     "end": 13.82
+    },
+    {
+     "word": " I",
+     "start": 14.56,
+     "end": 14.74
+    },
+    {
+     "word": " guess",
+     "start": 14.74,
+     "end": 14.9
+    },
+    {
+     "word": " this",
+     "start": 14.9,
+     "end": 15.06
+    },
+    {
+     "word": " is",
+     "start": 15.06,
+     "end": 15.16
+    },
+    {
+     "word": " a",
+     "start": 15.16,
+     "end": 15.26
+    },
+    {
+     "word": " work",
+     "start": 15.26,
+     "end": 15.44
+    },
+    {
+     "word": "-from",
+     "start": 15.44,
+     "end": 15.58
+    },
+    {
+     "word": "-home",
+     "start": 15.58,
+     "end": 15.72
+    },
+    {
+     "word": " situation,",
+     "start": 15.72,
+     "end": 16.16
+    },
+    {
+     "word": " huh?",
+     "start": 16.34,
+     "end": 16.5
+    },
+    {
+     "word": " Yeah,",
+     "start": 17.48,
+     "end": 17.92
+    },
+    {
+     "word": " you",
+     "start": 18.28,
+     "end": 18.52
+    },
+    {
+     "word": " could",
+     "start": 18.52,
+     "end": 18.64
+    },
+    {
+     "word": " dance",
+     "start": 18.64,
+     "end": 18.86
+    },
+    {
+     "word": " for",
+     "start": 18.86,
+     "end": 19.02
+    },
+    {
+     "word": " me",
+     "start": 19.02,
+     "end": 19.16
+    },
+    {
+     "word": " later.",
+     "start": 19.16,
+     "end": 19.48
+    },
+    {
+     "word": " It's",
+     "start": 19.92,
+     "end": 20.12
+    },
+    {
+     "word": " too",
+     "start": 20.12,
+     "end": 20.28
+    },
+    {
+     "word": " late",
+     "start": 20.28,
+     "end": 20.44
+    },
+    {
+     "word": " tonight.",
+     "start": 20.44,
+     "end": 20.76
+    },
+    {
+     "word": " What",
+     "start": 22.18,
+     "end": 22.62
+    },
+    {
+     "word": " do",
+     "start": 22.62,
+     "end": 23.06
+    },
+    {
+     "word": " you",
+     "start": 23.06,
+     "end": 23.1
+    },
+    {
+     "word": " want",
+     "start": 23.1,
+     "end": 23.2
+    },
+    {
+     "word": " to",
+     "start": 23.2,
+     "end": 23.26
+    },
+    {
+     "word": " do",
+     "start": 23.26,
+     "end": 23.34
+    },
+    {
+     "word": " with",
+     "start": 23.34,
+     "end": 23.4
+    },
+    {
+     "word": " the",
+     "start": 23.4,
+     "end": 23.48
+    },
+    {
+     "word": " bag?",
+     "start": 23.48,
+     "end": 23.7
+    },
+    {
+     "word": " Yeah,",
+     "start": 24.8,
+     "end": 25.16
+    },
+    {
+     "word": " I",
+     "start": 25.24,
+     "end": 25.34
+    },
+    {
+     "word": " don't",
+     "start": 25.34,
+     "end": 25.34
+    },
+    {
+     "word": " know.",
+     "start": 25.34,
+     "end": 25.54
+    },
+    {
+     "word": " You",
+     "start": 26.02,
+     "end": 26.12
+    },
+    {
+     "word": " put",
+     "start": 26.12,
+     "end": 26.3
+    },
+    {
+     "word": " it",
+     "start": 26.3,
+     "end": 26.38
+    },
+    {
+     "word": " right",
+     "start": 26.38,
+     "end": 26.52
+    },
+    {
+     "word": " there.",
+     "start": 26.52,
+     "end": 26.74
+    },
+    {
+     "word": " Okay,",
+     "start": 27.82,
+     "end": 28.26
+    },
+    {
+     "word": " I'm",
+     "start": 28.26,
+     "end": 28.7
+    },
+    {
+     "word": " too",
+     "start": 28.7,
+     "end": 28.86
+    },
+    {
+     "word": " tired",
+     "start": 28.86,
+     "end": 29.1
+    },
+    {
+     "word": " to",
+     "start": 29.1,
+     "end": 29.28
+    },
+    {
+     "word": " clean.",
+     "start": 29.28,
+     "end": 29.46
+    },
+    {
+     "word": " Yeah,",
+     "start": 30.26,
+     "end": 30.7
+    },
+    {
+     "word": " me",
+     "start": 30.78,
+     "end": 30.96
+    },
+    {
+     "word": " too.",
+     "start": 30.96,
+     "end": 31.18
+    },
+    {
+     "word": " Yeah.",
+     "start": 32.84,
+     "end": 33.28
+    },
+    {
+     "word": " Maybe",
+     "start": 34.1,
+     "end": 34.54
+    },
+    {
+     "word": " just",
+     "start": 34.54,
+     "end": 34.76
+    },
+    {
+     "word": " a",
+     "start": 34.76,
+     "end": 34.92
+    },
+    {
+     "word": " shit.",
+     "start": 34.92,
+     "end": 35.04
+    },
+    {
+     "word": " Okay,",
+     "start": 35.04,
+     "end": 35.24
+    },
+    {
+     "word": " good",
+     "start": 35.34,
+     "end": 35.46
+    },
+    {
+     "word": " idea.",
+     "start": 35.46,
+     "end": 35.72
+    }
+   ],
+   "metrics": {
+    "motion": 0.3367361111111111,
+    "motion_p90": 0.5847777777777778,
+    "static_share": 0.09205020920502092,
+    "peak_db": 8.504507064819336,
+    "level_db": -31.94698715209961
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -6786,7 +7196,7 @@
    "seconds": 22.1
   }
  },
- "checked_n": 370,
+ "checked_n": 371,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
