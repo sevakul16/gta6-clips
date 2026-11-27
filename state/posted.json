@@ -1235,14 +1235,6 @@
   }
  },
  "rejected": {
-  "PrettyCorrectThymeThunBeast-m31TteYlcmIq793I": {
-   "at": "2026-11-24T02:48:07.297765+00:00",
-   "why": "picture is almost static (motion 0.01)",
-   "login": "buster",
-   "kind": "clip",
-   "vod": "2938532610",
-   "vod_t": 9687
-  },
   "ArtsyGenerousAniseDendiFace-NxwfD1GOBiYOHbfx": {
    "at": "2026-11-24T03:32:32.210755+00:00",
    "why": "picture is almost static (motion 0.03)",
@@ -3746,6 +3738,14 @@
    "kind": "chat",
    "vod": "2941744379",
    "vod_t": 10188.053436
+  },
+  "chat-2941731348-330": {
+   "at": "2026-11-27T02:50:32.108106+00:00",
+   "why": "picture is almost static (motion 0.00)",
+   "login": "avoidingthepuddle",
+   "kind": "chat",
+   "vod": "2941731348",
+   "vod_t": 14852.301953
   }
  },
  "pending": {
@@ -3949,6 +3949,846 @@
     "static_share": 0.09210526315789473,
     "peak_db": 12.163740158081055,
     "level_db": -41.29525375366211
+   },
+   "silence": []
+  },
+  "KindTacitFloofBuddhaBar-tmFb0wmfjQyNnfwR": {
+   "id": "KindTacitFloofBuddhaBar-tmFb0wmfjQyNnfwR",
+   "vod": null,
+   "vod_t": null,
+   "group": "en",
+   "views": 5104,
+   "title": "gas sniffa",
+   "url": "https://www.twitch.tv/yoon_froggy/clip/KindTacitFloofBuddhaBar-tmFb0wmfjQyNnfwR",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "yoon_froggy",
+   "name": "Yoon_Froggy",
+   "source": "Twitch clip made by a viewer, 5104 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"gas sniffa\"",
+   "at": "2026-11-27T02:50:02.513722+00:00",
+   "cam": [
+    1256,
+    204,
+    663,
+    466
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 25.1,
+   "words": [
+    {
+     "word": " are",
+     "start": 0.0,
+     "end": 0.16
+    },
+    {
+     "word": " ending",
+     "start": 0.16,
+     "end": 0.62
+    },
+    {
+     "word": " what",
+     "start": 0.62,
+     "end": 1.72
+    },
+    {
+     "word": " is",
+     "start": 8.82,
+     "end": 9.0
+    },
+    {
+     "word": " it",
+     "start": 9.0,
+     "end": 9.16
+    },
+    {
+     "word": " doing",
+     "start": 9.16,
+     "end": 9.5
+    },
+    {
+     "word": " hey",
+     "start": 9.5,
+     "end": 10.2
+    },
+    {
+     "word": " you",
+     "start": 10.2,
+     "end": 11.32
+    },
+    {
+     "word": " okay",
+     "start": 11.32,
+     "end": 11.62
+    },
+    {
+     "word": " yeah",
+     "start": 11.62,
+     "end": 12.2
+    },
+    {
+     "word": " okay",
+     "start": 12.2,
+     "end": 12.92
+    },
+    {
+     "word": " wait",
+     "start": 12.92,
+     "end": 13.44
+    },
+    {
+     "word": " what",
+     "start": 13.44,
+     "end": 13.66
+    },
+    {
+     "word": " the",
+     "start": 13.66,
+     "end": 13.84
+    },
+    {
+     "word": " fuck",
+     "start": 13.84,
+     "end": 14.1
+    },
+    {
+     "word": " is",
+     "start": 14.1,
+     "end": 14.26
+    },
+    {
+     "word": " that",
+     "start": 14.26,
+     "end": 15.22
+    },
+    {
+     "word": " you're",
+     "start": 16.02,
+     "end": 16.6
+    },
+    {
+     "word": " all",
+     "start": 16.6,
+     "end": 16.76
+    },
+    {
+     "word": " better",
+     "start": 16.76,
+     "end": 17.12
+    },
+    {
+     "word": " I",
+     "start": 17.12,
+     "end": 17.82
+    },
+    {
+     "word": " need",
+     "start": 17.82,
+     "end": 18.12
+    },
+    {
+     "word": " your",
+     "start": 18.12,
+     "end": 18.34
+    },
+    {
+     "word": " help",
+     "start": 18.34,
+     "end": 18.52
+    },
+    {
+     "word": " out",
+     "start": 18.52,
+     "end": 18.7
+    },
+    {
+     "word": " here",
+     "start": 18.7,
+     "end": 18.98
+    },
+    {
+     "word": " they",
+     "start": 18.98,
+     "end": 19.52
+    },
+    {
+     "word": " can",
+     "start": 19.52,
+     "end": 19.64
+    },
+    {
+     "word": " care",
+     "start": 19.64,
+     "end": 19.88
+    },
+    {
+     "word": " of",
+     "start": 19.88,
+     "end": 20.0
+    },
+    {
+     "word": " things",
+     "start": 20.0,
+     "end": 20.2
+    },
+    {
+     "word": " people",
+     "start": 20.2,
+     "end": 20.62
+    },
+    {
+     "word": " still",
+     "start": 20.62,
+     "end": 20.86
+    },
+    {
+     "word": " do",
+     "start": 20.86,
+     "end": 21.12
+    },
+    {
+     "word": " that",
+     "start": 21.12,
+     "end": 21.34
+    },
+    {
+     "word": " no",
+     "start": 21.34,
+     "end": 22.3
+    },
+    {
+     "word": " good",
+     "start": 22.3,
+     "end": 22.62
+    },
+    {
+     "word": " yeah",
+     "start": 22.62,
+     "end": 23.38
+    },
+    {
+     "word": " I",
+     "start": 23.38,
+     "end": 24.72
+    },
+    {
+     "word": " just",
+     "start": 24.72,
+     "end": 24.9
+    }
+   ],
+   "metrics": {
+    "motion": 0.019646365422396856,
+    "motion_p90": 0.2914702030124428,
+    "static_share": 0.5151515151515151,
+    "peak_db": 16.1378116607666,
+    "level_db": -37.43794250488281
+   },
+   "silence": []
+  },
+  "chat-2941731348-320": {
+   "id": "chat-2941731348-320",
+   "url": "https://www.twitch.tv/videos/2941731348",
+   "section": [
+    14392.388957,
+    14448.388957
+   ],
+   "kind": "chat",
+   "views": 37,
+   "title": "",
+   "vod": "2941731348",
+   "vod_t": 14392.388957,
+   "group": "en",
+   "login": "avoidingthepuddle",
+   "name": "AvoidingThePuddle",
+   "viewers": 3124,
+   "chat_score": 6.17,
+   "found_at": "2026-11-27T02:49:37.067101+00:00",
+   "spike_at": "2026-11-27T02:31:54.388957+00:00",
+   "chat": [
+    "9x atpRtsd",
+    "2x LUL",
+    "2x atpRtsd4",
+    "2x true",
+    "2x lol",
+    "LUL ͏",
+    "just how elon play POE",
+    "ad0ptPants",
+    "duelist squire",
+    "@AvoidingThePuddle n0pants is right there",
+    "free mappers",
+    "elon has mappers",
+    "Have n0pants do it"
+   ],
+   "source": "cut from the live stream at a chat spike: 37 chatters in 15 s, 6.2x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-27T02:50:20.310199+00:00",
+   "cam": null,
+   "size": [
+    1280,
+    720
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " I",
+     "start": 0.27,
+     "end": 0.75
+    },
+    {
+     "word": " am",
+     "start": 0.75,
+     "end": 0.87
+    },
+    {
+     "word": " okay",
+     "start": 0.87,
+     "end": 1.15
+    },
+    {
+     "word": " But",
+     "start": 2.49,
+     "end": 3.05
+    },
+    {
+     "word": " I",
+     "start": 3.05,
+     "end": 3.15
+    },
+    {
+     "word": " probably",
+     "start": 3.15,
+     "end": 3.39
+    },
+    {
+     "word": " need",
+     "start": 3.39,
+     "end": 3.61
+    },
+    {
+     "word": " a",
+     "start": 3.61,
+     "end": 3.73
+    },
+    {
+     "word": " new",
+     "start": 3.73,
+     "end": 3.85
+    },
+    {
+     "word": " bike.",
+     "start": 3.85,
+     "end": 4.17
+    },
+    {
+     "word": " I",
+     "start": 4.27,
+     "end": 4.35
+    },
+    {
+     "word": " bet",
+     "start": 4.35,
+     "end": 4.47
+    },
+    {
+     "word": " you",
+     "start": 4.47,
+     "end": 4.61
+    },
+    {
+     "word": " this",
+     "start": 4.61,
+     "end": 4.77
+    },
+    {
+     "word": " bike's",
+     "start": 4.77,
+     "end": 5.23
+    },
+    {
+     "word": " fucked",
+     "start": 5.23,
+     "end": 5.35
+    },
+    {
+     "word": " up",
+     "start": 5.35,
+     "end": 5.99
+    },
+    {
+     "word": " I",
+     "start": 6.95,
+     "end": 7.51
+    },
+    {
+     "word": " as",
+     "start": 7.51,
+     "end": 7.77
+    },
+    {
+     "word": " hell",
+     "start": 7.77,
+     "end": 8.09
+    },
+    {
+     "word": " Fuck",
+     "start": 10.04,
+     "end": 10.5
+    },
+    {
+     "word": " an",
+     "start": 10.5,
+     "end": 10.76
+    },
+    {
+     "word": " ass",
+     "start": 10.76,
+     "end": 11.08
+    },
+    {
+     "word": " hell",
+     "start": 11.08,
+     "end": 11.66
+    },
+    {
+     "word": " I'm",
+     "start": 11.66,
+     "end": 12.68
+    },
+    {
+     "word": " tempted",
+     "start": 14.8,
+     "end": 15.16
+    },
+    {
+     "word": " to",
+     "start": 15.16,
+     "end": 15.46
+    },
+    {
+     "word": " like",
+     "start": 15.46,
+     "end": 15.74
+    },
+    {
+     "word": " man",
+     "start": 15.74,
+     "end": 16.5
+    },
+    {
+     "word": " if",
+     "start": 16.5,
+     "end": 17.06
+    },
+    {
+     "word": " only",
+     "start": 17.06,
+     "end": 17.36
+    },
+    {
+     "word": " that",
+     "start": 17.36,
+     "end": 18.06
+    },
+    {
+     "word": " must",
+     "start": 18.06,
+     "end": 18.3
+    },
+    {
+     "word": " be",
+     "start": 18.3,
+     "end": 18.5
+    },
+    {
+     "word": " one",
+     "start": 18.5,
+     "end": 18.78
+    },
+    {
+     "word": " cool",
+     "start": 18.78,
+     "end": 19.12
+    },
+    {
+     "word": " thing",
+     "start": 19.12,
+     "end": 19.32
+    },
+    {
+     "word": " about",
+     "start": 19.32,
+     "end": 19.56
+    },
+    {
+     "word": " having",
+     "start": 19.56,
+     "end": 19.94
+    },
+    {
+     "word": " kids",
+     "start": 19.94,
+     "end": 20.5
+    },
+    {
+     "word": " You",
+     "start": 21.1,
+     "end": 21.6
+    },
+    {
+     "word": " could",
+     "start": 21.6,
+     "end": 21.78
+    },
+    {
+     "word": " get",
+     "start": 21.78,
+     "end": 22.06
+    },
+    {
+     "word": " them",
+     "start": 22.06,
+     "end": 22.3
+    },
+    {
+     "word": " to",
+     "start": 22.3,
+     "end": 22.48
+    },
+    {
+     "word": " do",
+     "start": 22.48,
+     "end": 22.82
+    },
+    {
+     "word": " shit",
+     "start": 22.82,
+     "end": 23.24
+    },
+    {
+     "word": " like",
+     "start": 23.24,
+     "end": 23.64
+    },
+    {
+     "word": " farm",
+     "start": 23.64,
+     "end": 24.2
+    },
+    {
+     "word": " shit",
+     "start": 24.2,
+     "end": 24.62
+    },
+    {
+     "word": " for",
+     "start": 24.62,
+     "end": 24.96
+    },
+    {
+     "word": " you",
+     "start": 24.96,
+     "end": 25.26
+    },
+    {
+     "word": " like",
+     "start": 25.26,
+     "end": 25.78
+    },
+    {
+     "word": " if",
+     "start": 25.78,
+     "end": 25.96
+    },
+    {
+     "word": " I",
+     "start": 25.96,
+     "end": 26.12
+    },
+    {
+     "word": " had",
+     "start": 26.12,
+     "end": 26.26
+    },
+    {
+     "word": " a",
+     "start": 26.26,
+     "end": 26.32
+    },
+    {
+     "word": " kid",
+     "start": 26.32,
+     "end": 26.7
+    },
+    {
+     "word": " He",
+     "start": 26.7,
+     "end": 27.38
+    },
+    {
+     "word": " could",
+     "start": 27.38,
+     "end": 27.58
+    },
+    {
+     "word": " play",
+     "start": 27.58,
+     "end": 27.82
+    },
+    {
+     "word": " this",
+     "start": 27.82,
+     "end": 28.06
+    },
+    {
+     "word": " trash",
+     "start": 28.06,
+     "end": 28.64
+    },
+    {
+     "word": " and",
+     "start": 28.64,
+     "end": 29.4
+    },
+    {
+     "word": " do",
+     "start": 29.4,
+     "end": 29.58
+    },
+    {
+     "word": " the",
+     "start": 29.58,
+     "end": 29.72
+    },
+    {
+     "word": " story",
+     "start": 29.72,
+     "end": 30.08
+    },
+    {
+     "word": " mode",
+     "start": 30.08,
+     "end": 30.32
+    },
+    {
+     "word": " for",
+     "start": 30.32,
+     "end": 30.62
+    },
+    {
+     "word": " me",
+     "start": 30.62,
+     "end": 30.84
+    },
+    {
+     "word": " And",
+     "start": 30.84,
+     "end": 31.36
+    },
+    {
+     "word": " then",
+     "start": 31.36,
+     "end": 31.46
+    },
+    {
+     "word": " he",
+     "start": 31.46,
+     "end": 31.58
+    },
+    {
+     "word": " would",
+     "start": 31.58,
+     "end": 31.68
+    },
+    {
+     "word": " unlock",
+     "start": 31.68,
+     "end": 32.18
+    },
+    {
+     "word": " all",
+     "start": 32.18,
+     "end": 32.56
+    },
+    {
+     "word": " the",
+     "start": 32.56,
+     "end": 32.76
+    },
+    {
+     "word": " fucking",
+     "start": 32.76,
+     "end": 33.3
+    },
+    {
+     "word": " shit",
+     "start": 33.3,
+     "end": 33.74
+    },
+    {
+     "word": " and",
+     "start": 33.74,
+     "end": 33.98
+    },
+    {
+     "word": " then",
+     "start": 33.98,
+     "end": 34.08
+    },
+    {
+     "word": " I'd",
+     "start": 34.08,
+     "end": 34.28
+    },
+    {
+     "word": " take",
+     "start": 34.28,
+     "end": 34.54
+    },
+    {
+     "word": " the",
+     "start": 34.54,
+     "end": 34.76
+    },
+    {
+     "word": " game",
+     "start": 34.76,
+     "end": 35.08
+    },
+    {
+     "word": " away",
+     "start": 35.08,
+     "end": 35.32
+    },
+    {
+     "word": " and",
+     "start": 35.32,
+     "end": 35.66
+    },
+    {
+     "word": " you're",
+     "start": 35.66,
+     "end": 36.2
+    },
+    {
+     "word": " grounded",
+     "start": 36.2,
+     "end": 36.7
+    },
+    {
+     "word": " and",
+     "start": 36.7,
+     "end": 37.62
+    },
+    {
+     "word": " shit",
+     "start": 37.62,
+     "end": 37.96
+    },
+    {
+     "word": " And",
+     "start": 37.96,
+     "end": 38.32
+    },
+    {
+     "word": " then",
+     "start": 38.32,
+     "end": 38.5
+    },
+    {
+     "word": " then",
+     "start": 38.5,
+     "end": 38.84
+    },
+    {
+     "word": " I",
+     "start": 38.84,
+     "end": 39.06
+    },
+    {
+     "word": " could",
+     "start": 39.06,
+     "end": 39.22
+    },
+    {
+     "word": " play",
+     "start": 39.22,
+     "end": 39.54
+    },
+    {
+     "word": " it",
+     "start": 39.54,
+     "end": 39.84
+    },
+    {
+     "word": " Yeah,",
+     "start": 40.64,
+     "end": 41.28
+    },
+    {
+     "word": " you",
+     "start": 41.38,
+     "end": 41.68
+    },
+    {
+     "word": " have",
+     "start": 41.68,
+     "end": 41.92
+    },
+    {
+     "word": " mappers",
+     "start": 41.92,
+     "end": 42.82
+    },
+    {
+     "word": " Holy",
+     "start": 45.8,
+     "end": 46.44
+    },
+    {
+     "word": " shit,",
+     "start": 46.44,
+     "end": 47.08
+    },
+    {
+     "word": " you",
+     "start": 47.16,
+     "end": 47.48
+    },
+    {
+     "word": " have",
+     "start": 47.48,
+     "end": 47.8
+    },
+    {
+     "word": " mappers",
+     "start": 47.8,
+     "end": 49.04
+    },
+    {
+     "word": " You're",
+     "start": 54.99,
+     "end": 55.63
+    },
+    {
+     "word": " running",
+     "start": 55.63,
+     "end": 55.85
+    },
+    {
+     "word": " a",
+     "start": 55.85,
+     "end": 55.97
+    }
+   ],
+   "metrics": {
+    "motion": 0.45479166666666665,
+    "motion_p90": 0.6170000000000001,
+    "static_share": 0.0,
+    "peak_db": 16.27391815185547,
+    "level_db": -35.04948043823242
    },
    "silence": []
   }
@@ -6229,7 +7069,7 @@
    "seconds": 22.1
   }
  },
- "checked_n": 358,
+ "checked_n": 361,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
