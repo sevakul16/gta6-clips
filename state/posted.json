@@ -1235,22 +1235,6 @@
   }
  },
  "rejected": {
-  "GentleEntertainingBaconTooSpicy-wELyr-EdMzzdf-zb": {
-   "at": "2026-11-24T00:38:40.129349+00:00",
-   "why": "picture is almost static (motion 0.02)",
-   "login": "melharucos",
-   "kind": "clip",
-   "vod": "2937119294",
-   "vod_t": 30854
-  },
-  "ResilientDrabGrasshopperWow-fKAbKH4GGUaEC2dl": {
-   "at": "2026-11-24T00:38:40.504810+00:00",
-   "why": "editor: 3/10, The streamer rants that locking the characters into a relationship will cost the game its audience while his character just jogs down a street. An opinion take with no game event on screen",
-   "login": "xqc",
-   "kind": "clip",
-   "vod": "2937629817",
-   "vod_t": 37658
-  },
   "ScaryFilthyKeyboardOSkomodo-LUT0vAptcXKHGd5A": {
    "at": "2026-11-24T01:22:23.692350+00:00",
    "why": "editor: no gameplay on screen",
@@ -3943,6 +3927,301 @@
     "level_db": -25.161611557006836
    },
    "silence": []
+  },
+  "chat-2941731348-155": {
+   "id": "chat-2941731348-155",
+   "url": "https://www.twitch.tv/videos/2941731348",
+   "section": [
+    6944.055382,
+    7000.055382
+   ],
+   "kind": "chat",
+   "views": 57,
+   "title": "",
+   "vod": "2941731348",
+   "vod_t": 6944.055382,
+   "group": "en",
+   "login": "avoidingthepuddle",
+   "name": "AvoidingThePuddle",
+   "viewers": 3526,
+   "chat_score": 3.0,
+   "found_at": "2026-11-27T00:40:18.973390+00:00",
+   "spike_at": "2026-11-27T00:27:46.055382+00:00",
+   "chat": [
+    "7x atpRtsd",
+    "6x LUL",
+    "6x lmao",
+    "2x atpDance",
+    "2x DinoDance",
+    "2x atpChar",
+    "2x PogChamp",
+    "atpRtsd4",
+    "atpCap",
+    "AHAHAHHA",
+    "haanMinionDance majinoNeko",
+    "grinding",
+    "atpVaalle",
+    "LOL",
+    "atpRtsd2"
+   ],
+   "source": "cut from the live stream at a chat spike: 57 chatters in 15 s, 3.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-27T00:40:54.311119+00:00",
+   "cam": null,
+   "size": [
+    1280,
+    720
+   ],
+   "dur": 56.4,
+   "words": [
+    {
+     "word": " Einstein",
+     "start": 0.0,
+     "end": 0.48
+    },
+    {
+     "word": " do",
+     "start": 0.48,
+     "end": 1.82
+    },
+    {
+     "word": " some",
+     "start": 3.23,
+     "end": 3.41
+    },
+    {
+     "word": " dance",
+     "start": 3.41,
+     "end": 3.69
+    },
+    {
+     "word": " moves",
+     "start": 3.69,
+     "end": 4.29
+    },
+    {
+     "word": " Hold",
+     "start": 9.57,
+     "end": 10.55
+    },
+    {
+     "word": " R2",
+     "start": 10.55,
+     "end": 11.55
+    },
+    {
+     "word": " to",
+     "start": 11.55,
+     "end": 11.99
+    },
+    {
+     "word": " start",
+     "start": 11.99,
+     "end": 12.17
+    },
+    {
+     "word": " dancing.",
+     "start": 12.17,
+     "end": 12.65
+    },
+    {
+     "word": " I",
+     "start": 25.0,
+     "end": 25.58
+    },
+    {
+     "word": " think",
+     "start": 25.58,
+     "end": 25.72
+    },
+    {
+     "word": " I",
+     "start": 25.72,
+     "end": 25.84
+    },
+    {
+     "word": " scored",
+     "start": 25.84,
+     "end": 26.12
+    },
+    {
+     "word": " girl",
+     "start": 26.12,
+     "end": 26.56
+    },
+    {
+     "word": " friend",
+     "start": 26.56,
+     "end": 26.8
+    },
+    {
+     "word": " points",
+     "start": 26.8,
+     "end": 27.16
+    },
+    {
+     "word": " right",
+     "start": 27.16,
+     "end": 27.44
+    },
+    {
+     "word": " there",
+     "start": 27.44,
+     "end": 27.8
+    },
+    {
+     "word": " Oh",
+     "start": 36.12,
+     "end": 36.56
+    },
+    {
+     "word": " shit",
+     "start": 36.56,
+     "end": 37.22
+    },
+    {
+     "word": " moving",
+     "start": 37.22,
+     "end": 38.2
+    },
+    {
+     "word": " in",
+     "start": 38.2,
+     "end": 38.76
+    },
+    {
+     "word": " things",
+     "start": 38.76,
+     "end": 39.5
+    },
+    {
+     "word": " are",
+     "start": 39.5,
+     "end": 39.68
+    },
+    {
+     "word": " getting",
+     "start": 39.68,
+     "end": 39.94
+    },
+    {
+     "word": " romantic",
+     "start": 39.94,
+     "end": 40.8
+    },
+    {
+     "word": " Dude",
+     "start": 41.62,
+     "end": 42.12
+    },
+    {
+     "word": " that",
+     "start": 42.12,
+     "end": 42.4
+    },
+    {
+     "word": " baby",
+     "start": 42.4,
+     "end": 42.78
+    },
+    {
+     "word": " in",
+     "start": 42.78,
+     "end": 43.08
+    },
+    {
+     "word": " that",
+     "start": 43.08,
+     "end": 43.26
+    },
+    {
+     "word": " fucking",
+     "start": 43.26,
+     "end": 43.8
+    },
+    {
+     "word": " pregnant",
+     "start": 43.8,
+     "end": 44.46
+    },
+    {
+     "word": " lady's",
+     "start": 44.46,
+     "end": 45.06
+    },
+    {
+     "word": " getting",
+     "start": 45.06,
+     "end": 45.22
+    },
+    {
+     "word": " fucked",
+     "start": 45.22,
+     "end": 45.72
+    },
+    {
+     "word": " up",
+     "start": 45.72,
+     "end": 46.0
+    },
+    {
+     "word": " right",
+     "start": 46.0,
+     "end": 46.26
+    },
+    {
+     "word": " now",
+     "start": 46.26,
+     "end": 46.66
+    },
+    {
+     "word": " You're",
+     "start": 48.16,
+     "end": 49.04
+    },
+    {
+     "word": " getting",
+     "start": 49.04,
+     "end": 49.92
+    },
+    {
+     "word": " fucking",
+     "start": 49.92,
+     "end": 50.2
+    },
+    {
+     "word": " tossed",
+     "start": 50.2,
+     "end": 50.66
+    },
+    {
+     "word": " around",
+     "start": 50.66,
+     "end": 51.14
+    },
+    {
+     "word": " dude",
+     "start": 51.14,
+     "end": 51.92
+    },
+    {
+     "word": " The",
+     "start": 51.92,
+     "end": 53.58
+    },
+    {
+     "word": " hell",
+     "start": 53.58,
+     "end": 53.94
+    }
+   ],
+   "metrics": {
+    "motion": 0.335625,
+    "motion_p90": 0.5364305555555556,
+    "static_share": 0.0,
+    "peak_db": 17.039831161499023,
+    "level_db": -34.01401901245117
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -6221,7 +6500,7 @@
    "seconds": 22.1
   }
  },
- "checked_n": 350,
+ "checked_n": 351,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
