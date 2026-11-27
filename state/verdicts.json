@@ -1,54 +1,4 @@
 {
- "chat-2939580472-545": {
-  "at": "2026-11-25T02:15:35.821578+00:00",
-  "moment_score": 3,
-  "what_happens": "Scripted mission beat and a cutscene: a man is dunked into a pool from a crane, then game dialogue. The streamer only watches, no reaction of his own.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2939674772-382": {
-  "at": "2026-11-25T02:15:35.861315+00:00",
-  "moment_score": 3,
-  "what_happens": "Bird-watching through binoculars for a bingo card, a mockingbird is found. No game event, nothing happens.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2939838008-148": {
-  "at": "2026-11-25T02:15:35.897338+00:00",
-  "moment_score": 5,
-  "what_happens": "Ship shootout, a propane tank next to the player explodes and he is Wasted. An ordinary death, the streamer is almost silent, the webcam is tiny.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "LitigiousNaiveHorseradishPeteZaroll-8_k23aP-Jtri0HQd": {
-  "at": "2026-11-25T02:17:36.773728+00:00",
-  "moment_score": 6,
-  "what_happens": "Says how stressed the drive is, loses the red supercar on the highway, it flips onto its roof against the barrier and is wrecked, 'the car!'. Real webcam top left, the detector missed it. Tight cut on the crash; the later SUV-in-a-sand-pit beat is 40 s away.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Stressed already, and then the supercar lands on its roof on the highway 💀",
-  "keep_start": 0.0,
-  "keep_end": 17.0,
-  "cam": [
-   0.0,
-   0.128,
-   0.21,
-   0.2625
-  ],
-  "hook": "Not the supercar",
-  "cover_at": 10.0
- },
- "chat-2939580472-562": {
-  "at": "2026-11-25T02:17:36.810442+00:00",
-  "moment_score": 2,
-  "what_happens": "Night drive with a phone-call dialogue, then the map; chat spams a viewer's name and the talk is about chat. No game event.",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2939580472-605": {
   "at": "2026-11-25T03:14:52.351132+00:00",
   "moment_score": 7,
@@ -1769,6 +1719,38 @@
   "at": "2026-11-27T02:13:42.491549+00:00",
   "moment_score": 3,
   "what_happens": "No webcam in the layout. Scouts a yard through binoculars, then a pit bull attacks and takes the character down; the streamer cannot find the kick button. Almost silent sound (-51 dB).",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "KindTacitFloofBuddhaBar-tmFb0wmfjQyNnfwR": {
+  "at": "2026-11-27T03:13:58.316403+00:00",
+  "moment_score": 3,
+  "what_happens": "Lucia stands by a shack during a phone call with Jason while a tiny figure far in the field huffs from a gas can; 'what is it doing'. The joke is a barely visible background detail, the picture hardly moves.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941301054-1101": {
+  "at": "2026-11-27T03:13:58.362130+00:00",
+  "moment_score": 1,
+  "what_happens": "Wardrobe menu glitch: Lucia shown without bottoms while the streamer explains how the outfit trick works. Nudity through most of the clip, no event.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941731348-292": {
+  "at": "2026-11-27T03:13:58.414003+00:00",
+  "moment_score": 4,
+  "what_happens": "Takes a coffee at a dealership, walks out, pulls a gun on a police car, steals it, rams a pedestrian at a gas station and is wasted. Streamer silent from 7 to 46 s, quiet sound; the laugh is a bystander being run over. Webcam is a dark green-tinted panel bottom right.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2941731348-320": {
+  "at": "2026-11-27T03:13:58.452436+00:00",
+  "moment_score": 3,
+  "what_happens": "Runs along a highway and over fences after wrecking a bike while musing that kids could grind the story mode for you. Talk without a game event; dark green-tinted webcam bottom right.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
