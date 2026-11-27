@@ -1,36 +1,4 @@
 {
- "HardVictoriousPeafowlTwitchRPG-j8Q8j8GsgrudaSJH": {
-  "at": "2026-11-25T23:13:37.429375+00:00",
-  "moment_score": 2,
-  "what_happens": "Steals an SUV from locals and drives off gloating; a routine car theft, and the punchline is shouted with a racial slur",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940381736-590": {
-  "at": "2026-11-25T23:13:37.467248+00:00",
-  "moment_score": 2,
-  "what_happens": "Quiet night drive to a mission marker while chat votes on whether to keep playing; no event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940381736-602": {
-  "at": "2026-11-25T23:13:37.501173+00:00",
-  "moment_score": 2,
-  "what_happens": "Talk about the number of endings over a drive, story cutscenes and a pause menu; opinion talk with spoilers, no event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940471411-455": {
-  "at": "2026-11-25T23:13:37.534559+00:00",
-  "moment_score": 2,
-  "what_happens": "Scripted mission scene on an adult-film set with crude lines; no webcam in the picture, cutscene only",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2940606444-308": {
   "at": "2026-11-26T00:14:41.029663+00:00",
   "moment_score": 6,
@@ -1832,6 +1800,58 @@
   "moment_score": 1,
   "what_happens": "End of the stream: full-screen webcam goodbye and the save menu; no gameplay",
   "gameplay_visible": false,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942254430-650": {
+  "at": "2026-11-27T23:15:09.281825+00:00",
+  "moment_score": 6,
+  "what_happens": "Verbal setup then self-own: says he will show how he lands planes, professionally, no joke; the small plane then comes down on a highway junction among cars, ends across the road with smoke at the nose and a knocked-down sign, character climbs out. Streamer deadpan, chat laughs. Clean speech, betting widgets outside both boxes",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Обещание посадить самолёт профессионально закончилось посреди дороги 😅",
+  "keep_start": 26.0,
+  "keep_end": 51.0,
+  "hook": "Сажаю профессионально",
+  "cover_at": 47.5
+ },
+ "chat-2942254430-647": {
+  "at": "2026-11-27T23:15:09.316617+00:00",
+  "moment_score": 5,
+  "what_happens": "Pickup somersaults off the road near the airfield and lands back on its wheels, chat calls it a salto; but only one frame of it, the cause is not visible and the streamer keeps talking about the 45k payout instead of reacting; speech garbled",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942254430-640": {
+  "at": "2026-11-27T23:15:09.350001+00:00",
+  "moment_score": 3,
+  "what_happens": "Night drive, phone message that the bag is sold and the money did not arrive; streamer rages at Jason with heavy profanity. Story talk, no game event, dark picture",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942412891-369": {
+  "at": "2026-11-27T23:15:09.383189+00:00",
+  "moment_score": 2,
+  "what_happens": "Cutscene only (photo studio scene of chapter 3, story spoiler) with pause menu screens in between; no gameplay event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942477402-262": {
+  "at": "2026-11-27T23:15:09.417227+00:00",
+  "moment_score": 3,
+  "what_happens": "Leaving a hair salon, looking at the map for a tattoo and mod shop, slow night drive; chatter with viewers, no event. Webcam is at bottom-left though the detector missed it",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942641007-56": {
+  "at": "2026-11-27T23:15:09.451137+00:00",
+  "moment_score": 2,
+  "what_happens": "No webcam in the picture; quiet highway drive during story dialogue while the streamer advertises a sub discount and asks about a radio host. No event",
+  "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
  }
