@@ -1235,14 +1235,6 @@
   }
  },
  "rejected": {
-  "ImpartialSeductiveOrangeEleGiggle-UMDD_bE-Q7q3rN3X": {
-   "at": "2026-11-24T04:59:53.673953+00:00",
-   "why": "picture is almost static (motion 0.03)",
-   "login": "woolieversus",
-   "kind": "clip",
-   "vod": "2936501633",
-   "vod_t": 10495
-  },
   "CloudyJoyousAlmondBibleThump--4P8K4-5MiTiWMjA": {
    "at": "2026-11-24T05:21:12.881652+00:00",
    "why": "picture is almost static (motion 0.02)",
@@ -4795,6 +4787,132 @@
     "level_db": -30.792118072509766
    },
    "silence": []
+  },
+  "chat-2941744379-483": {
+   "id": "chat-2941744379-483",
+   "url": "https://www.twitch.tv/videos/2941744379",
+   "section": [
+    21735.957415,
+    21791.957415
+   ],
+   "kind": "chat",
+   "views": 62,
+   "title": "",
+   "vod": "2941744379",
+   "vod_t": 21735.957415,
+   "group": "en",
+   "login": "pokelawls",
+   "name": "pokelawls",
+   "viewers": 4304,
+   "chat_score": 2.95,
+   "found_at": "2026-11-27T05:00:26.120437+00:00",
+   "spike_at": "2026-11-27T04:52:57.957415+00:00",
+   "chat": [
+    "8x EZ",
+    "6x o",
+    "5x LO",
+    "2x HUH",
+    "2x OH MY",
+    "2x OMG",
+    "2x LOL",
+    "2x OOOO",
+    "beanie in florida",
+    "pokeRun",
+    "LOL fixed",
+    "IT WORKED OMEGALUL",
+    "OOOO HOLY",
+    "WHAT",
+    "Can't wait for PC underwear mod",
+    "omE"
+   ],
+   "source": "cut from the live stream at a chat spike: 62 chatters in 15 s, 3.0x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-27T05:00:52.506208+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 62.0,
+   "words": [
+    {
+     "word": " You",
+     "start": 20.89,
+     "end": 21.53
+    },
+    {
+     "word": " gotta",
+     "start": 21.53,
+     "end": 21.85
+    },
+    {
+     "word": " put",
+     "start": 21.85,
+     "end": 22.07
+    },
+    {
+     "word": " some",
+     "start": 22.07,
+     "end": 22.29
+    },
+    {
+     "word": " clothes",
+     "start": 22.29,
+     "end": 22.59
+    },
+    {
+     "word": " on",
+     "start": 22.59,
+     "end": 22.83
+    },
+    {
+     "word": " first.",
+     "start": 22.83,
+     "end": 23.21
+    },
+    {
+     "word": " What",
+     "start": 23.51,
+     "end": 23.87
+    },
+    {
+     "word": " do",
+     "start": 23.87,
+     "end": 23.93
+    },
+    {
+     "word": " you",
+     "start": 23.93,
+     "end": 24.01
+    },
+    {
+     "word": " mean?",
+     "start": 24.01,
+     "end": 24.45
+    },
+    {
+     "word": " One",
+     "start": 51.74,
+     "end": 52.06
+    },
+    {
+     "word": " second",
+     "start": 56.93,
+     "end": 57.57
+    },
+    {
+     "word": " guys",
+     "start": 57.57,
+     "end": 57.89
+    }
+   ],
+   "metrics": {
+    "motion": 0.44458333333333333,
+    "motion_p90": 0.6809444444444445,
+    "static_share": 0.1700404858299595,
+    "peak_db": 16.535728454589844,
+    "level_db": -47.94145584106445
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -7073,7 +7191,7 @@
    "seconds": 22.1
   }
  },
- "checked_n": 367,
+ "checked_n": 368,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
