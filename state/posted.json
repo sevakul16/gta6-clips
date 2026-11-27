@@ -3811,6 +3811,14 @@
    "kind": "chat",
    "vod": "2941891026",
    "vod_t": 23980.589504
+  },
+  "chat-2941891026-593": {
+   "at": "2026-11-27T09:44:48.780410+00:00",
+   "why": "streamer fills the screen, no gameplay",
+   "login": "39daph",
+   "kind": "chat",
+   "vod": "2941891026",
+   "vod_t": 26683.522337
   }
  },
  "pending": {
@@ -4003,6 +4011,163 @@
     "static_share": 0.06274509803921569,
     "peak_db": 9.618804931640625,
     "level_db": -40.65472412109375
+   },
+   "silence": []
+  },
+  "PiercingMistyWaspYouWHY-EsNIyexjy_mn_t_k": {
+   "id": "PiercingMistyWaspYouWHY-EsNIyexjy_mn_t_k",
+   "vod": "2940235901",
+   "vod_t": 31116,
+   "group": "ru",
+   "views": 1000,
+   "title": "ни слова на матном",
+   "url": "https://www.twitch.tv/voodoosh/clip/PiercingMistyWaspYouWHY-EsNIyexjy_mn_t_k",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "voodoosh",
+   "name": "VooDooSh",
+   "source": "Twitch clip made by a viewer, 1000 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"ни слова на матном\"",
+   "at": "2026-11-27T09:44:24.673697+00:00",
+   "cam": [
+    0,
+    813,
+    663,
+    466
+   ],
+   "size": [
+    2560,
+    1440
+   ],
+   "dur": 18.9,
+   "words": [
+    {
+     "word": " Если",
+     "start": 0.0,
+     "end": 0.24
+    },
+    {
+     "word": " ему",
+     "start": 0.24,
+     "end": 0.44
+    },
+    {
+     "word": " сказать,",
+     "start": 0.44,
+     "end": 0.82
+    },
+    {
+     "word": " что",
+     "start": 0.98,
+     "end": 1.1
+    },
+    {
+     "word": " бы",
+     "start": 1.1,
+     "end": 1.24
+    },
+    {
+     "word": " мы",
+     "start": 1.24,
+     "end": 1.32
+    },
+    {
+     "word": " разделились,",
+     "start": 1.32,
+     "end": 2.06
+    },
+    {
+     "word": " надо",
+     "start": 2.14,
+     "end": 2.28
+    },
+    {
+     "word": " нажать...",
+     "start": 2.28,
+     "end": 2.88
+    },
+    {
+     "word": " О,",
+     "start": 7.01,
+     "end": 7.27
+    },
+    {
+     "word": " видали",
+     "start": 7.49,
+     "end": 7.91
+    },
+    {
+     "word": " это!",
+     "start": 7.91,
+     "end": 8.17
+    },
+    {
+     "word": " Ты",
+     "start": 10.69,
+     "end": 11.17
+    },
+    {
+     "word": " это",
+     "start": 11.17,
+     "end": 11.37
+    },
+    {
+     "word": " видел?",
+     "start": 11.37,
+     "end": 11.61
+    },
+    {
+     "word": " Джейсон,",
+     "start": 12.17,
+     "end": 12.61
+    },
+    {
+     "word": " ты",
+     "start": 12.73,
+     "end": 12.83
+    },
+    {
+     "word": " чё,",
+     "start": 12.83,
+     "end": 13.11
+    },
+    {
+     "word": " блин?",
+     "start": 13.15,
+     "end": 13.37
+    },
+    {
+     "word": " Джейсон!",
+     "start": 14.03,
+     "end": 14.51
+    },
+    {
+     "word": " Ну",
+     "start": 15.87,
+     "end": 16.35
+    },
+    {
+     "word": " да,",
+     "start": 16.35,
+     "end": 16.53
+    },
+    {
+     "word": " иёшь,",
+     "start": 16.63,
+     "end": 16.95
+    },
+    {
+     "word": " блин.",
+     "start": 17.03,
+     "end": 17.15
+    }
+   ],
+   "metrics": {
+    "motion": 0.2751902587519026,
+    "motion_p90": 0.4975951293759513,
+    "static_share": 0.08108108108108109,
+    "peak_db": 11.906396865844727,
+    "level_db": -29.735185623168945
    },
    "silence": []
   }
@@ -5809,7 +5974,7 @@
    "seconds": 18.1
   }
  },
- "checked_n": 388,
+ "checked_n": 390,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
