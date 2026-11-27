@@ -1,44 +1,4 @@
 {
- "chat-2940341220-493": {
-  "at": "2026-11-25T21:14:13.177083+00:00",
-  "moment_score": 5,
-  "what_happens": "Sings along to the radio on a mission with explosives in the van, bumps traffic and the van blows up: mission failed, blames the song. A fair self-own with a punchline, but the crash is hidden under the fail screen and the last 12 s are a fail screen and black with licensed music through the whole cut",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940341220-514": {
-  "at": "2026-11-25T21:14:13.214903+00:00",
-  "moment_score": 5,
-  "what_happens": "Runs along the elevated rail track, misjumps a ledge and falls to a wasted screen; an ordinary death with no setup, the reaction runs over black",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940338302-514": {
-  "at": "2026-11-25T21:14:13.250024+00:00",
-  "moment_score": 2,
-  "what_happens": "Mission menu, a quiet van drive and the progress screen while talking about ending the stream; no event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940300523-611": {
-  "at": "2026-11-25T21:14:13.284916+00:00",
-  "moment_score": 3,
-  "what_happens": "Story cutscene by the pool with scripted dialogue; cutscene only, dark",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940300523-629": {
-  "at": "2026-11-25T21:14:13.319516+00:00",
-  "moment_score": 3,
-  "what_happens": "Scripted nightclub mission scene with a drink, then an argument with chat about what the character said; dark, no game event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2940235901-878": {
   "at": "2026-11-25T22:13:26.262317+00:00",
   "moment_score": 4,
@@ -1766,6 +1726,80 @@
   "moment_score": 2,
   "what_happens": "Console home screen and chat window while talking about being addicted to streaming; no gameplay",
   "gameplay_visible": false,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942384261-259": {
+  "at": "2026-11-27T21:14:55.147252+00:00",
+  "moment_score": 6,
+  "what_happens": "Takes a small car onto the train tracks asking 'is this a bad idea?', loses control on the railway bridge and the car ends up wedged upside down in the truss, then a dry 'please advise'; clear daylight picture, verbal setup and a visible payoff",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Asked if driving on the train tracks was a bad idea. The bridge answered 😅",
+  "keep_start": 18.0,
+  "keep_end": 46.0,
+  "cam": [
+   0.0,
+   0.17,
+   0.19,
+   0.2375
+  ],
+  "hook": "Is this a bad idea?",
+  "cover_at": 40.1
+ },
+ "chat-2942286375-397": {
+  "at": "2026-11-27T21:14:55.182447+00:00",
+  "moment_score": 5,
+  "what_happens": "Jokes that the murdered rideshare driver cannot leave a bad review, then the ride app says temporarily suspended; the setup runs over plain driving, the phone message is not readable in the frames and the best line comes after 20 s of silence",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942286375-421": {
+  "at": "2026-11-27T21:14:55.227831+00:00",
+  "moment_score": 5,
+  "what_happens": "Jewelry store robbery: long silent scouting, shoots the staff, then rages about who set the alarm off; quiet sound, slow first half, shooting unarmed staff up close is the picture",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942286375-432": {
+  "at": "2026-11-27T21:14:55.263294+00:00",
+  "moment_score": 3,
+  "what_happens": "Dark street scene, keeps dropping the gun by accident and complains about console controls; no distinct event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "ArborealTacitPonyCmonBruh-NfimEUb_MibVfn2o": {
+  "at": "2026-11-27T21:14:55.308977+00:00",
+  "moment_score": 1,
+  "what_happens": "Lucia runs topless across the road the whole clip; nudity",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942254430-484": {
+  "at": "2026-11-27T21:14:55.344244+00:00",
+  "moment_score": 2,
+  "what_happens": "Story scene in the apartment, then a third-party video opened in a browser; no gameplay event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942254430-487": {
+  "at": "2026-11-27T21:14:55.389621+00:00",
+  "moment_score": 2,
+  "what_happens": "Highway drive during story dialogue with the streamer mimicking the lines; no event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2940859463-3548": {
+  "at": "2026-11-27T21:14:55.424375+00:00",
+  "moment_score": 4,
+  "what_happens": "Police chase in an SUV with a couple of bumps and a crash cam while reading a donation and discussing a challenge; generic chase, no single moment",
+  "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
  }
