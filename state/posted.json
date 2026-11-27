@@ -3900,6 +3900,14 @@
    "kind": "chat",
    "vod": "2940859463",
    "vod_t": 134413.219546
+  },
+  "chat-2941998603-691": {
+   "at": "2026-11-27T14:08:56.098552+00:00",
+   "why": "picture is almost static (motion 0.00)",
+   "login": "ironmouse",
+   "kind": "chat",
+   "vod": "2941998603",
+   "vod_t": 31096.946744
   }
  },
  "pending": {
@@ -5748,6 +5756,329 @@
     "level_db": -19.30231285095215
    },
    "silence": []
+  },
+  "ResourcefulGrossLemurRaccAttack-fBgT5c5d23KdvOq2": {
+   "id": "ResourcefulGrossLemurRaccAttack-fBgT5c5d23KdvOq2",
+   "vod": "2940455712",
+   "vod_t": 7761,
+   "group": "ru",
+   "views": 1007,
+   "title": "13 лет рокстар",
+   "url": "https://www.twitch.tv/rejiboi/clip/ResourcefulGrossLemurRaccAttack-fBgT5c5d23KdvOq2",
+   "section": null,
+   "kind": "clip",
+   "hot": true,
+   "login": "rejiboi",
+   "name": "rejiboi",
+   "source": "Twitch clip made by a viewer, 1007 views: one of the most viewed GTA 6 clips on Twitch right now, titled \"13 лет рокстар\"",
+   "at": "2026-11-27T14:08:37.037865+00:00",
+   "cam": [
+    1492,
+    446,
+    411,
+    289
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 10.2,
+   "words": [
+    {
+     "word": " Вонючий,",
+     "start": 0.14,
+     "end": 0.98
+    },
+    {
+     "word": " мой",
+     "start": 1.02,
+     "end": 1.1
+    },
+    {
+     "word": " малыш",
+     "start": 1.1,
+     "end": 1.48
+    },
+    {
+     "word": " Алик,",
+     "start": 1.48,
+     "end": 1.8
+    },
+    {
+     "word": " сядь,",
+     "start": 1.84,
+     "end": 2.08
+    },
+    {
+     "word": " пожалуйста,",
+     "start": 2.08,
+     "end": 2.32
+    },
+    {
+     "word": " машинку.",
+     "start": 2.72,
+     "end": 3.04
+    },
+    {
+     "word": " Вонючка,",
+     "start": 4.06,
+     "end": 4.66
+    },
+    {
+     "word": " сядь",
+     "start": 4.96,
+     "end": 5.2
+    },
+    {
+     "word": " машину.",
+     "start": 5.2,
+     "end": 5.64
+    },
+    {
+     "word": " Что,",
+     "start": 5.78,
+     "end": 5.88
+    },
+    {
+     "word": " вы",
+     "start": 6.02,
+     "end": 6.08
+    },
+    {
+     "word": " видели",
+     "start": 6.08,
+     "end": 6.36
+    },
+    {
+     "word": " это?",
+     "start": 6.36,
+     "end": 6.78
+    },
+    {
+     "word": " А",
+     "start": 7.52,
+     "end": 7.84
+    },
+    {
+     "word": " куда",
+     "start": 7.84,
+     "end": 8.14
+    },
+    {
+     "word": " он",
+     "start": 8.14,
+     "end": 8.44
+    },
+    {
+     "word": " поехал?",
+     "start": 8.44,
+     "end": 9.22
+    }
+   ],
+   "metrics": {
+    "motion": 0.5179667282809612,
+    "motion_p90": 0.7228835489833642,
+    "static_share": 0.05,
+    "peak_db": 4.524324417114258,
+    "level_db": -21.32607650756836
+   },
+   "silence": []
+  },
+  "chat-2940859463-3003": {
+   "id": "chat-2940859463-3003",
+   "url": "https://www.twitch.tv/videos/2940859463",
+   "section": [
+    135103.967691,
+    135159.967691
+   ],
+   "kind": "chat",
+   "views": 64,
+   "title": "",
+   "vod": "2940859463",
+   "vod_t": 135103.967691,
+   "group": "ru",
+   "login": "frametamer666",
+   "name": "frametamer666",
+   "viewers": 6241,
+   "chat_score": 3.76,
+   "found_at": "2026-11-27T14:08:12.404618+00:00",
+   "spike_at": "2026-11-27T13:51:58.967691+00:00",
+   "chat": [
+    "3x отлично уже!",
+    "3x ЫВФХЫВФХЫВФ",
+    "2x ЫВФХЫВФХЫВФЫВФ",
+    "ХАХАХАХАХАХАХ",
+    "ХААХХВВХВХХВА",
+    "ХАХХАХАХАХАХАХАХАХАХАХАХА",
+    "ЫВФХВЫФХЫВФ",
+    "ХЗКАФХЭКАШЩЗЫШКАЩЗЫШЛКАЗЩЖЫВЩЗАЖДЫ",
+    "Не хуя вовремя зашел",
+    "АХАХАХАХАХХАХАХАХАХА",
+    "ВЫФХЫВФХВЫФ"
+   ],
+   "source": "cut from the live stream at a chat spike: 64 chatters in 15 s, 3.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-27T14:09:16.250321+00:00",
+   "cam": [
+    406,
+    476,
+    424,
+    298
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " Наш",
+     "start": 0.0,
+     "end": 0.48
+    },
+    {
+     "word": " еле",
+     "start": 0.48,
+     "end": 0.7
+    },
+    {
+     "word": "-танцующий",
+     "start": 0.7,
+     "end": 1.12
+    },
+    {
+     "word": " Сашка.",
+     "start": 1.12,
+     "end": 1.52
+    },
+    {
+     "word": " Это",
+     "start": 15.59,
+     "end": 15.95
+    },
+    {
+     "word": " если",
+     "start": 15.95,
+     "end": 16.67
+    },
+    {
+     "word": " бы",
+     "start": 16.67,
+     "end": 16.81
+    },
+    {
+     "word": " Уинс,",
+     "start": 16.81,
+     "end": 17.11
+    },
+    {
+     "word": " да,",
+     "start": 17.11,
+     "end": 17.21
+    },
+    {
+     "word": " снимали",
+     "start": 17.27,
+     "end": 17.59
+    },
+    {
+     "word": " в",
+     "start": 17.59,
+     "end": 17.69
+    },
+    {
+     "word": " России?",
+     "start": 17.69,
+     "end": 17.93
+    },
+    {
+     "word": " Подождите.",
+     "start": 20.23,
+     "end": 20.95
+    },
+    {
+     "word": " Я",
+     "start": 29.91,
+     "end": 30.63
+    },
+    {
+     "word": " забыл!",
+     "start": 47.78,
+     "end": 48.24
+    },
+    {
+     "word": " Тестовый",
+     "start": 49.88,
+     "end": 50.24
+    },
+    {
+     "word": " песенный.",
+     "start": 50.24,
+     "end": 50.7
+    },
+    {
+     "word": " Блять,",
+     "start": 51.74,
+     "end": 52.1
+    },
+    {
+     "word": " спасибо!",
+     "start": 52.36,
+     "end": 52.74
+    },
+    {
+     "word": " Я",
+     "start": 53.52,
+     "end": 53.64
+    },
+    {
+     "word": " всё",
+     "start": 53.64,
+     "end": 53.8
+    },
+    {
+     "word": " забыл",
+     "start": 53.8,
+     "end": 54.16
+    },
+    {
+     "word": " в",
+     "start": 54.16,
+     "end": 54.22
+    },
+    {
+     "word": " процессе,",
+     "start": 54.22,
+     "end": 54.62
+    },
+    {
+     "word": " нам",
+     "start": 54.62,
+     "end": 54.72
+    },
+    {
+     "word": " бы",
+     "start": 54.72,
+     "end": 54.84
+    },
+    {
+     "word": " больше",
+     "start": 54.84,
+     "end": 55.02
+    },
+    {
+     "word": " тренироваться.",
+     "start": 55.02,
+     "end": 55.38
+    }
+   ],
+   "metrics": {
+    "motion": 0.07173686560500074,
+    "motion_p90": 0.11961601428784047,
+    "static_share": 0.013452914798206279,
+    "peak_db": 8.823808670043945,
+    "level_db": -21.299755096435547
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -7230,7 +7561,7 @@
    "seconds": 19.1
   }
  },
- "checked_n": 412,
+ "checked_n": 415,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
