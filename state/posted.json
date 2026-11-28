@@ -1367,38 +1367,6 @@
   }
  },
  "rejected": {
-  "chat-2939770213-1041": {
-   "at": "2026-11-25T12:32:07.015782+00:00",
-   "why": "editor: 2/10, Scripted hotel mission: opening doors onto a group sex party and a candle-lit room. Sexual content, no gameplay event of the streamer's own",
-   "login": "kyedae",
-   "kind": "chat",
-   "vod": "2939770213",
-   "vod_t": 46807.14347
-  },
-  "chat-2939770213-1078": {
-   "at": "2026-11-25T12:32:07.016200+00:00",
-   "why": "editor: 5/10, Accidentally bails out of the seaplane mid-flight, funny, but the streamer is silent at the moment and the punchline plays over a static pause map for half of any tight cut; the same joke is already on the shelf",
-   "login": "kyedae",
-   "kind": "chat",
-   "vod": "2939770213",
-   "vod_t": 48477.293065
-  },
-  "chat-2939339874-1730": {
-   "at": "2026-11-25T12:32:07.016545+00:00",
-   "why": "editor: 2/10, Late-story cutscene (a spoiler), then the pause menu while a donation question about business ideas is answered. No gameplay event",
-   "login": "leva2k",
-   "kind": "chat",
-   "vod": "2939339874",
-   "vod_t": 77833.127876
-  },
-  "chat-2939339874-1750": {
-   "at": "2026-11-25T12:32:07.016929+00:00",
-   "why": "editor: 2/10, Cutscene and getting into a car while a vulgar donation message about a real streamer is read out, then the stats menu. Donation banter, no game event",
-   "login": "leva2k",
-   "kind": "chat",
-   "vod": "2939339874",
-   "vod_t": 78723.531563
-  },
   "chat-2939339874-1796": {
    "at": "2026-11-25T13:16:37.504522+00:00",
    "why": "editor: 2/10, Character in a thong bikini loads teddy bears into a van in the dark (thong close-up) while the streamer complains about the ending and money; no game event, sound very quiet",
@@ -4558,6 +4526,22 @@
    "kind": "chat",
    "vod": "2943003896",
    "vod_t": 21273.11069
+  },
+  "chat-2942704974-1065": {
+   "at": "2026-11-28T12:43:19.385546+00:00",
+   "why": "streamer fills the screen, no gameplay",
+   "login": "frametamer666",
+   "kind": "chat",
+   "vod": "2942704974",
+   "vod_t": 47917.684027
+  },
+  "chat-2942704974-1067": {
+   "at": "2026-11-28T12:44:15.918929+00:00",
+   "why": "streamer fills the screen, no gameplay",
+   "login": "frametamer666",
+   "kind": "chat",
+   "vod": "2942704974",
+   "vod_t": 48012.53543
   }
  },
  "pending": {
@@ -4734,6 +4718,82 @@
     "static_share": 0.017391304347826087,
     "peak_db": 16.13922119140625,
     "level_db": -41.5794563293457
+   },
+   "silence": []
+  },
+  "chat-2942704974-1063": {
+   "id": "chat-2942704974-1063",
+   "url": "https://www.twitch.tv/videos/2942704974",
+   "section": [
+    47822.551279,
+    47878.551279
+   ],
+   "kind": "chat",
+   "views": 37,
+   "title": "",
+   "vod": "2942704974",
+   "vod_t": 47822.551279,
+   "group": "ru",
+   "login": "frametamer666",
+   "name": "frametamer666",
+   "viewers": 5887,
+   "chat_score": 4.62,
+   "found_at": "2026-11-28T12:42:37.417055+00:00",
+   "spike_at": "2026-11-28T12:29:34.551279+00:00",
+   "chat": [
+    "20x BigSad",
+    "9x framet1Cry",
+    "2x framet1LUV",
+    "BigSad <3",
+    "мы играем или плачем?",
+    "Санечку потом не дождёмся на стрим?",
+    "@misaaO0 наебка",
+    "плачу",
+    "Эх.., 400 рублей за минуту, мы не потянем Александр",
+    "бля не надо было щас у нас ЛОК ИН framet1Zloy BigSad",
+    "ClapHands"
+   ],
+   "source": "cut from the live stream at a chat spike: 37 chatters in 15 s, 4.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-28T12:43:44.480993+00:00",
+   "cam": [
+    0,
+    354,
+    546,
+    384
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " Добирается.",
+     "start": 1.81,
+     "end": 2.83
+    },
+    {
+     "word": " Мы",
+     "start": 9.08,
+     "end": 9.18
+    },
+    {
+     "word": " пережили,",
+     "start": 9.18,
+     "end": 9.74
+    },
+    {
+     "word": " лишай.",
+     "start": 10.0,
+     "end": 10.26
+    }
+   ],
+   "metrics": {
+    "motion": 0.12730942400248407,
+    "motion_p90": 0.30841484241577394,
+    "static_share": 0.16143497757847533,
+    "peak_db": 3.6308822631835938,
+    "level_db": -18.89501190185547
    },
    "silence": []
   }
@@ -6507,6 +6567,6 @@
    "seconds": 31.1
   }
  },
- "checked_n": 588,
+ "checked_n": 591,
  "check_errors": {}
 }
