@@ -7,6 +7,9 @@ on:
       profile:
         description: "upload-post profile"
         default: "gta6en"
+      compare_with:
+        description: "say whether the accounts are the same as in this profile (no names are printed)"
+        default: "gta6"
 
 permissions:
   contents: read
@@ -20,4 +23,5 @@ jobs:
       - env:
           UPLOAD_POST_KEY: ${{ secrets.UPLOAD_POST_KEY }}
           PROFILE: ${{ inputs.profile }}
+          COMPARE_WITH: ${{ inputs.compare_with }}
         run: python3 tools/profile_check.py
