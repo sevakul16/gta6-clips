@@ -1,0 +1,40 @@
+[
+ {
+  "id": "chat-2942704974-1253",
+  "kind": "chat",
+  "login": "frametamer666",
+  "views": 89,
+  "url": "https://www.twitch.tv/videos/2942704974",
+  "section": [
+   56367.699402,
+   56423.699402
+  ],
+  "verdict": "pending",
+  "metrics": {
+   "motion": 0.25083664098373415,
+   "motion_p90": 0.67910343217371,
+   "static_share": 0.03587443946188341,
+   "peak_db": 7.070808410644531,
+   "level_db": -17.218305587768555
+  }
+ },
+ {
+  "id": "chat-2943237545-124",
+  "kind": "chat",
+  "login": "cohhcarnage",
+  "views": 39,
+  "url": "https://www.twitch.tv/videos/2943237545",
+  "section": [
+   5551.811734,
+   5607.811734
+  ],
+  "verdict": "pending",
+  "metrics": {
+   "motion": 0.4274849397590361,
+   "motion_p90": 0.6226656626506024,
+   "static_share": 0.03896103896103896,
+   "peak_db": 10.239999771118164,
+   "level_db": -29.991147994995117
+  }
+ }
+]
