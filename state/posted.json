@@ -4502,6 +4502,14 @@
    "kind": "chat",
    "vod": "2943003896",
    "vod_t": 21407.839973
+  },
+  "chat-2943003896-496": {
+   "at": "2026-11-28T11:59:47.528005+00:00",
+   "why": "picture is almost static (motion 0.03)",
+   "login": "ironmouse",
+   "kind": "chat",
+   "vod": "2943003896",
+   "vod_t": 22292.204656
   }
  },
  "pending": {
@@ -7994,6 +8002,6 @@
    "seconds": 31.1
   }
  },
- "checked_n": 585,
+ "checked_n": 586,
  "check_errors": {}
 }
