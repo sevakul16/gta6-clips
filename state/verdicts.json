@@ -1,28 +1,4 @@
 {
- "chat-2940736052-450": {
-  "at": "2026-11-26T04:13:30.397666+00:00",
-  "moment_score": 3,
-  "what_happens": "Drives a green coupe and asks chat to vote 1 or 2 on the character's blue hair. Chat poll, no game event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940864084-244": {
-  "at": "2026-11-26T04:13:30.433142+00:00",
-  "moment_score": 3,
-  "what_happens": "Peanut avatar instead of a webcam; loots a back office, picks up a collectible card and teases a joke without telling it. No event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940864084-266": {
-  "at": "2026-11-26T04:13:30.469875+00:00",
-  "moment_score": 3,
-  "what_happens": "Peanut avatar instead of a webcam; night police chase, says 'perfect' and crashes, then the last 20 s are the pause menu",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2940864084-331": {
   "at": "2026-11-26T05:13:21.944015+00:00",
   "moment_score": 3,
@@ -1949,6 +1925,73 @@
   "at": "2026-11-28T03:14:39.648271+00:00",
   "moment_score": 3,
   "what_happens": "Swimming at dusk, spots an eel and jokes the game took 13 years because of the eel guy; dark picture, low-key, no event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942641007-452": {
+  "at": "2026-11-28T04:16:49.648462+00:00",
+  "moment_score": 6,
+  "what_happens": "Lucia is stuck on a rooftop, the streamer refuses to switch characters and says 'No, no, no, I'm gonna get down', walks down a tiled roof, falls to the street, WASTED, he laughs. Verbal setup self-own, an accidental fall. Kept 28-49, ends on the laugh before the long black screen.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "\"I'm gonna get down.\" Technically correct, just faster than planned 💀",
+  "keep_start": 28.0,
+  "keep_end": 49.0,
+  "cam": [
+   0.76,
+   0.085,
+   0.24,
+   0.3
+  ],
+  "hook": "I'm gonna get down",
+  "cover_at": 36.8
+ },
+ "chat-2942641007-439": {
+  "at": "2026-11-28T04:16:49.684040+00:00",
+  "moment_score": 4,
+  "what_happens": "Lucia walks along an overpass with an NPC, a sudden mission fail (WASTED) because Jason died off screen; the streamer says almost nothing, the cause is not visible in the clip. Ordinary mission death, weak.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942641007-443": {
+  "at": "2026-11-28T04:16:49.722505+00:00",
+  "moment_score": 1,
+  "what_happens": "Drive home and then a sex scene cutscene (bed close-ups), chat spams about it. Sexual content, cutscene only.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942820363-170": {
+  "at": "2026-11-28T04:16:49.756652+00:00",
+  "moment_score": 3,
+  "what_happens": "Scripted story mission in a tanning salon (distract the receptionist, find and trap Nate), mostly game dialogue, the payoff is outside the clip, story spoiler and a cruelty theme.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942820363-179": {
+  "at": "2026-11-28T04:16:49.791924+00:00",
+  "moment_score": 2,
+  "what_happens": "Night arrival at a hotel, valet cutscene with bouncers and a donation question. No event, cutscene only.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "WanderingMoralBadgerStrawBeary-0NPoEzu9NLhnuM_w": {
+  "at": "2026-11-28T04:16:49.828042+00:00",
+  "moment_score": 1,
+  "what_happens": "Wardrobe menu bug that leaves Lucia without underwear, the last seconds show the character nude below the waist. Nudity is the whole point of the clip; sound near mute (-54.6 dB); captions burned in.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "",
+  "no_subs": true
+ },
+ "chat-2942477402-638": {
+  "at": "2026-11-28T04:16:49.876599+00:00",
+  "moment_score": 3,
+  "what_happens": "A short crash into another car while driving, then a long look at the character menu and talk about what the reputation stat does. Talk without a real event; webcam at left not detected.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
