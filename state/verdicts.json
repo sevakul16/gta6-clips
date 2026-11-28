@@ -1,36 +1,4 @@
 {
- "ImpossibleRealSwordCorgiDerp-vk-lFoxUWkn5RHRS": {
-  "at": "2026-11-26T08:13:45.800700+00:00",
-  "moment_score": 3,
-  "what_happens": "Mail van circles a gravel quarry and stalls by a dirt mound; no clear event in the frames, the speech is unintelligible singing",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "GoldenGlutenFreeJaguarPhilosoraptor-J_K4IASoUmzqCk9z": {
-  "at": "2026-11-26T08:13:45.842380+00:00",
-  "moment_score": 2,
-  "what_happens": "Strip club: 40 s of a pole dancer on stage with the streamer joking at her",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2941109160-108": {
-  "at": "2026-11-26T08:13:45.880950+00:00",
-  "moment_score": 4,
-  "what_happens": "Loots an office, drives off in a van and breaks down after running over a bike; ordinary getaway, almost no speech",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2941037224-306": {
-  "at": "2026-11-26T08:13:45.922006+00:00",
-  "moment_score": 2,
-  "what_happens": "Clothing store try-on with close-ups of the character's leggings and sexual banter; no game event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2940912874-560": {
   "at": "2026-11-26T09:13:32.986498+00:00",
   "moment_score": 4,
@@ -2073,6 +2041,64 @@
   "at": "2026-11-28T07:14:33.334178+00:00",
   "moment_score": 2,
   "what_happens": "Story cutscene in a bedroom: Lucia and Jason wrestle on the bed, chat sexualizes it. Cutscene only, sexual theme, dark picture.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942820363-493": {
+  "at": "2026-11-28T08:14:40.010925+00:00",
+  "moment_score": 7,
+  "what_happens": "After a shootout on a parking garage roof the passenger urges to leave, the streamer answers 'Relax, I got a plan', rides the bike off the roof, lands, clips a car and both fly off in slow motion; then the characters calmly go on talking ('So yeah'). Verbal setup self-own with a two stage payoff, chat roars. Kept 21-52; small webcam, wider box given.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "\"Relax, I got a plan.\" The plan: jump a bike off the parking garage roof 💀",
+  "keep_start": 21.0,
+  "keep_end": 52.0,
+  "cam": [
+   0.02,
+   0.297,
+   0.184,
+   0.23
+  ],
+  "hook": "I got a plan",
+  "cover_at": 40.9
+ },
+ "chat-2942791227-523": {
+  "at": "2026-11-28T08:14:40.046612+00:00",
+  "moment_score": 2,
+  "what_happens": "Four star shootout with police inside a hospital, dark red corridors, the character goes down once; the streamer says two words in a minute. A hospital shooting as the content, silent streamer, dark picture.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942791227-545": {
+  "at": "2026-11-28T08:14:40.080443+00:00",
+  "moment_score": 4,
+  "what_happens": "Shootout from behind a bakery counter until the wanted level reaches six stars ('Escape is impossible'). A milestone, but the six star notice and the stars sit outside both crops, half the clip is weapon wheel menus and the picture is dark.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942820363-497": {
+  "at": "2026-11-28T08:14:40.114560+00:00",
+  "moment_score": 2,
+  "what_happens": "Calm motorcycle ride through the city with game dialogue and a remark about wanting a burger. No event.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942820363-505": {
+  "at": "2026-11-28T08:14:40.152259+00:00",
+  "moment_score": 2,
+  "what_happens": "Cutscene outside a hotel, then a crude text message about a strip club that the streamer reads in disbelief, then the map. Sexual talk, no game event.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942820363-509": {
+  "at": "2026-11-28T08:14:40.187667+00:00",
+  "moment_score": 3,
+  "what_happens": "Highway drive in a sports car during a phone briefing, a few bumps and the car starts smoking. Generic driving, no real event.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
