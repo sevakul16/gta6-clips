@@ -4253,6 +4253,14 @@
    "kind": "chat",
    "vod": "2942641007",
    "vod_t": 2501.362941
+  },
+  "GorgeousWanderingKimchiVoteNay-V-v-hmgV8YmCA_Ff": {
+   "at": "2026-11-28T00:00:42.532963+00:00",
+   "why": "picture is almost static (motion 0.01)",
+   "login": "buster",
+   "kind": "clip",
+   "vod": "2942445595",
+   "vod_t": 1520
   }
  },
  "pending": {
@@ -9299,7 +9307,7 @@
    "seconds": 28.1
   }
  },
- "checked_n": 496,
+ "checked_n": 497,
  "check_errors": {
   "chat-2938542952-2399": {
    "n": 1,
