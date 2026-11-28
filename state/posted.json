@@ -4317,6 +4317,14 @@
    "kind": "chat",
    "vod": "2942654476",
    "vod_t": 15366.9442
+  },
+  "FantasticTriangularBeaverStrawBeary-vGcBiUD5vgDQg0bb": {
+   "at": "2026-11-28T04:08:07.691348+00:00",
+   "why": "picture is almost static (motion 0.02)",
+   "login": "buster",
+   "kind": "clip",
+   "vod": "2942445595",
+   "vod_t": 16468
   }
  },
  "pending": {
@@ -8499,6 +8507,6 @@
    "seconds": 25.1
   }
  },
- "checked_n": 525,
+ "checked_n": 526,
  "check_errors": {}
 }
