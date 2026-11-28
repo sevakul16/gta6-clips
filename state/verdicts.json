@@ -1,28 +1,4 @@
 {
- "chat-2940292392-947": {
-  "at": "2026-11-26T01:13:44.220443+00:00",
-  "moment_score": 5,
-  "what_happens": "Six-star stand in a giant mining dump truck wedged into wrecked cars on the highway, shot in the cab and dead; a striking picture, but the truck barely moves, the streamer is silent until the death screen and the rest is going-to-bed talk",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940574635-423": {
-  "at": "2026-11-26T01:13:44.270064+00:00",
-  "moment_score": 3,
-  "what_happens": "Chases a woman through dark streets at gunpoint demanding five dollars; cruelty as the joke, very dark footage",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940574635-440": {
-  "at": "2026-11-26T01:13:44.318557+00:00",
-  "moment_score": 3,
-  "what_happens": "Scripted night highway race with a radio change; dark, no event, slurs in the game subtitles",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2940553066-578": {
   "at": "2026-11-26T02:13:07.090153+00:00",
   "moment_score": 4,
@@ -1857,6 +1833,80 @@
   "at": "2026-11-28T00:14:54.971760+00:00",
   "moment_score": 3,
   "what_happens": "Cutscene only in the apartment (forgotten bag, underwear held up, the bag gets tossed out of the window); chat jokes about littering, no gameplay",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942439925-529": {
+  "at": "2026-11-28T01:14:43.316505+00:00",
+  "moment_score": 6,
+  "what_happens": "Helicopter chase mission: struggles to fly between towers, begs and thanks God when the game switches to Lucia on the bike, seconds later she goes over the handlebars at a tree, view snaps back to the helicopter, streamer laughs hard and the game line says: keep going, I'm not on the bike. Clear arc, strong reaction; detector box too wide, known cam box used",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Relieved to swap the helicopter for the bike, then lost the bike within seconds 😅",
+  "keep_start": 36.0,
+  "keep_end": 60.9,
+  "cam": [
+   0.0,
+   0.15,
+   0.26,
+   0.325
+  ],
+  "hook": "I'm not on the bike",
+  "cover_at": 46.8
+ },
+ "chat-2942439925-502": {
+  "at": "2026-11-28T01:14:43.350236+00:00",
+  "moment_score": 4,
+  "what_happens": "Scripted story mission: fight inside a helicopter with button prompts, very dark, then takes the controls and panics; the crash chat expects is not in the clip",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942654476-193": {
+  "at": "2026-11-28T01:14:43.383266+00:00",
+  "moment_score": 3,
+  "what_happens": "Bird-spotting challenge: finally finds a duck through binoculars, chat cheers. Needs the stream context, no funny event, sound quiet (level -45 dB)",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942477402-421": {
+  "at": "2026-11-28T01:14:43.416846+00:00",
+  "moment_score": 4,
+  "what_happens": "Random encounter: two women in bikinis locked in a jewelry store ask for help, he lets them out and drives off; scripted dialogue, streamer barely reacts. Webcam is at bottom-left though the detector missed it",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942477402-444": {
+  "at": "2026-11-28T01:14:43.449527+00:00",
+  "moment_score": 2,
+  "what_happens": "Phone banking app transfers and a quiet drive with story dialogue, chat discusses how much money is enough; no event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "CrepuscularBombasticDragonMikeHogu-nyPUq1N_KS90SILc": {
+  "at": "2026-11-28T01:14:43.481641+00:00",
+  "moment_score": 2,
+  "what_happens": "Ten seconds of a profane rant about couples who do not see each other for days during a plain night drive; no game event, captions burned in",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942254430-797": {
+  "at": "2026-11-28T01:14:43.513685+00:00",
+  "moment_score": 3,
+  "what_happens": "Running to a wrecked hypercar and driving it off while talking about drift cars; no event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942254430-806": {
+  "at": "2026-11-28T01:14:43.545635+00:00",
+  "moment_score": 3,
+  "what_happens": "Checks the phone bank balance, runs with a bag, takes an SUV and drives while talking about money arriving tomorrow; no event",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
