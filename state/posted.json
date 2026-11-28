@@ -7513,6 +7513,185 @@
     "level_db": -37.615272521972656
    },
    "silence": []
+  },
+  "chat-2942641007-377": {
+   "id": "chat-2942641007-377",
+   "url": "https://www.twitch.tv/videos/2942641007",
+   "section": [
+    16938.862847,
+    16994.862847
+   ],
+   "kind": "chat",
+   "views": 55,
+   "title": "",
+   "vod": "2942641007",
+   "vod_t": 16938.862847,
+   "group": "en",
+   "login": "penta",
+   "name": "PENTA",
+   "viewers": 2803,
+   "chat_score": 5.24,
+   "found_at": "2026-11-28T03:00:06.550600+00:00",
+   "spike_at": "2026-11-28T02:42:18.862847+00:00",
+   "chat": [
+    "5x om",
+    "4x LUL",
+    "3x D:",
+    "3x Lol",
+    "3x find anything?",
+    "2x jesus",
+    "2x lmao",
+    "2x KEKW",
+    "2x jasonW",
+    "2x OMEGALUOL",
+    "2x jasonW find anything?",
+    "KEKW find anything",
+    "jasonW You good, babe?",
+    "\"find anything?\"",
+    "find anything jasonW ?",
+    "find anything jasonW",
+    "Watches",
+    "I’m gonna get tetanus in that room NODDERS",
+    "he just watched LUL"
+   ],
+   "source": "cut from the live stream at a chat spike: 55 chatters in 15 s, 5.2x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-28T03:00:41.174751+00:00",
+   "cam": [
+    1357,
+    39,
+    562,
+    396
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 65.0,
+   "words": [
+    {
+     "word": " Jason,",
+     "start": 15.28,
+     "end": 16.72
+    },
+    {
+     "word": " help!",
+     "start": 39.76,
+     "end": 40.0
+    },
+    {
+     "word": " Jason!",
+     "start": 40.6,
+     "end": 40.94
+    },
+    {
+     "word": " Jason,",
+     "start": 41.6,
+     "end": 42.34
+    },
+    {
+     "word": " come",
+     "start": 42.5,
+     "end": 42.64
+    },
+    {
+     "word": " in",
+     "start": 42.64,
+     "end": 42.8
+    },
+    {
+     "word": " here",
+     "start": 42.8,
+     "end": 42.98
+    },
+    {
+     "word": " and",
+     "start": 42.98,
+     "end": 43.1
+    },
+    {
+     "word": " help",
+     "start": 43.1,
+     "end": 43.28
+    },
+    {
+     "word": " me!",
+     "start": 43.28,
+     "end": 43.54
+    },
+    {
+     "word": " Jason!",
+     "start": 44.14,
+     "end": 44.64
+    },
+    {
+     "word": " Jason!",
+     "start": 45.52,
+     "end": 46.2
+    },
+    {
+     "word": " Jason!",
+     "start": 47.02,
+     "end": 47.68
+    },
+    {
+     "word": " Jason,",
+     "start": 48.18,
+     "end": 48.4
+    },
+    {
+     "word": " help",
+     "start": 48.4,
+     "end": 48.86
+    },
+    {
+     "word": " me!",
+     "start": 48.86,
+     "end": 49.16
+    },
+    {
+     "word": " Jason,",
+     "start": 49.76,
+     "end": 50.16
+    },
+    {
+     "word": " help",
+     "start": 50.5,
+     "end": 50.7
+    },
+    {
+     "word": " me!",
+     "start": 50.7,
+     "end": 51.36
+    },
+    {
+     "word": " What?",
+     "start": 55.08,
+     "end": 55.34
+    },
+    {
+     "word": " Why",
+     "start": 62.05,
+     "end": 62.53
+    },
+    {
+     "word": " did",
+     "start": 62.53,
+     "end": 62.53
+    },
+    {
+     "word": "-",
+     "start": 62.53,
+     "end": 63.27
+    }
+   ],
+   "metrics": {
+    "motion": 0.25496016247461334,
+    "motion_p90": 0.641149820340572,
+    "static_share": 0.15444015444015444,
+    "peak_db": 26.63221549987793,
+    "level_db": -45.1856575012207
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -9015,6 +9194,6 @@
    "seconds": 27.6
   }
  },
- "checked_n": 517,
+ "checked_n": 518,
  "check_errors": {}
 }
