@@ -1,44 +1,4 @@
 {
- "chat-2940912874-560": {
-  "at": "2026-11-26T09:13:32.986498+00:00",
-  "moment_score": 4,
-  "what_happens": "VTuber avatar, no webcam. 35 s of reading lab notes on an in-game computer, then a giant crab jumps the character in a scripted scare; the scream is the only reaction",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940864084-663": {
-  "at": "2026-11-26T09:13:33.026563+00:00",
-  "moment_score": 2,
-  "what_happens": "Peanut avatar instead of a webcam; late story cutscene with a phone call, then 20 s of pause menu. Cutscene only, story spoiler",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2941109160-284": {
-  "at": "2026-11-26T10:13:48.244601+00:00",
-  "moment_score": 5,
-  "what_happens": "Night dirt-bike run from the police through a quarry: big jump, bad landing, thrown off next to a patrol car, laughs 'I really wanted to do a flip'. Fun line, but the picture is dark, the rider is tiny in the jump and the flip attempt is not readable",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2941037224-431": {
-  "at": "2026-11-26T10:13:48.282475+00:00",
-  "moment_score": 3,
-  "what_happens": "Night scooter escape from the police with blank loading frames and a map check in the middle; no clear event, the reaction line has a slur",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940864084-734": {
-  "at": "2026-11-26T10:13:48.334647+00:00",
-  "moment_score": 2,
-  "what_happens": "Peanut avatar instead of a webcam; a few rocket shots, then 20 s of pause menu while signing off for the night",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "FurtiveAntsyToadRiPepperonis-KULnCz1Bc74zLyej": {
   "at": "2026-11-26T11:13:59.953015+00:00",
   "moment_score": 2,
@@ -2139,6 +2099,56 @@
   "at": "2026-11-28T09:13:07.350965+00:00",
   "moment_score": 2,
   "what_happens": "Truck drive, then the character knocks down and beats a passerby 'as a test', then a fishing shop menu. No webcam and no avatar; hitting a bystander as the joke; betting sponsor widget at the left edge.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "DarkCutePangolinAMPEnergyCherry-LDu60-K9__WjixAZ": {
+  "at": "2026-11-28T10:14:19.258126+00:00",
+  "moment_score": 7,
+  "what_happens": "Twitch hit (1008 views). At night on a lighthouse Lucia points at the water, through binoculars a glowing green ghost ship appears, the streamer shouts that it is a ghost ship, the Flying Dutchman, then it vanishes. Rare easter egg, striking picture, real reaction. Webcam at left not detected, box given; a pizza promo widget sits in the top left corner outside both crops. Kept 4.5-29, before the later close looks at Lucia.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "С маяка в бинокль виден светящийся корабль-призрак. Через секунды он исчезает 👻",
+  "keep_start": 4.5,
+  "keep_end": 29.0,
+  "cam": [
+   0.02,
+   0.325,
+   0.23,
+   0.2875
+  ],
+  "hook": "Корабль-призрак в GTA 6",
+  "cover_at": 15.3
+ },
+ "chat-2943003896-288": {
+  "at": "2026-11-28T10:14:19.308693+00:00",
+  "moment_score": 3,
+  "what_happens": "Avatar streamer. Ride on a tractor with a manure trailer while the driver tells a crude story about his ex-boss; the payoff at the house is outside the clip. Dialogue only, crude sexual talk.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2943003896-311": {
+  "at": "2026-11-28T10:14:19.343598+00:00",
+  "moment_score": 4,
+  "what_happens": "Avatar streamer. Crop duster mission at sunset ends with a clean landing and applause in chat. A plain success, dark picture, no twist.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2943003896-323": {
+  "at": "2026-11-28T10:14:19.378269+00:00",
+  "moment_score": 4,
+  "what_happens": "Avatar streamer. Night porch talk with a creepy neighbor who admits listening through the walls and watching them sleep; funny scripted lines, but the picture is almost black silhouettes for a full minute and the reaction is mild.",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2943003896-344": {
+  "at": "2026-11-28T10:14:19.410829+00:00",
+  "moment_score": 3,
+  "what_happens": "Avatar streamer. Phone texts, a walk across a motel lot, petting a stray cat, driving off. Cute, no event.",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
