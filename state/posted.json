@@ -4470,6 +4470,14 @@
    "kind": "chat",
    "vod": "2943050203",
    "vod_t": 6661.057644
+  },
+  "chat-2942704974-870": {
+   "at": "2026-11-28T10:07:04.740044+00:00",
+   "why": "picture is almost static (motion 0.01)",
+   "login": "frametamer666",
+   "kind": "chat",
+   "vod": "2942704974",
+   "vod_t": 39131.645968
   }
  },
  "pending": {
@@ -6275,6 +6283,242 @@
     "level_db": -28.593307495117188
    },
    "silence": []
+  },
+  "chat-2943003896-344": {
+   "id": "chat-2943003896-344",
+   "url": "https://www.twitch.tv/videos/2943003896",
+   "section": [
+    15457.574338,
+    15513.574338
+   ],
+   "kind": "chat",
+   "views": 35,
+   "title": "",
+   "vod": "2943003896",
+   "vod_t": 15457.574338,
+   "group": "en",
+   "login": "ironmouse",
+   "name": "ironmouse",
+   "viewers": 8054,
+   "chat_score": 4.38,
+   "found_at": "2026-11-28T10:05:36.122057+00:00",
+   "spike_at": "2026-11-28T09:50:33.574338+00:00",
+   "chat": [
+    "12x meow",
+    "6x aww",
+    "2x SoCute",
+    "aww meow",
+    "CAT",
+    "Tryna double check my pulse and the pulse ox said 26 like blizzbSTARE I know it’",
+    "awwww",
+    "WhoaFace",
+    "awww",
+    "@scandy92 JAson cant go anywhere right now.... lol",
+    "donateplasma Please consider donating plasma to help not only people like me but"
+   ],
+   "source": "cut from the live stream at a chat spike: 35 chatters in 15 s, 4.4x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-28T10:06:13.632148+00:00",
+   "cam": null,
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 65.4,
+   "words": [
+    {
+     "word": " No,",
+     "start": 0.69,
+     "end": 1.29
+    },
+    {
+     "word": " not",
+     "start": 1.39,
+     "end": 1.53
+    },
+    {
+     "word": " yet",
+     "start": 1.53,
+     "end": 2.09
+    },
+    {
+     "word": " fucking",
+     "start": 8.62,
+     "end": 9.5
+    },
+    {
+     "word": " don't",
+     "start": 9.5,
+     "end": 10.04
+    },
+    {
+     "word": " dead",
+     "start": 10.04,
+     "end": 10.22
+    },
+    {
+     "word": " don't",
+     "start": 10.22,
+     "end": 10.86
+    },
+    {
+     "word": " mess",
+     "start": 10.86,
+     "end": 10.86
+    },
+    {
+     "word": " you",
+     "start": 10.86,
+     "end": 11.28
+    },
+    {
+     "word": " might",
+     "start": 11.28,
+     "end": 11.42
+    },
+    {
+     "word": " have",
+     "start": 11.42,
+     "end": 11.68
+    },
+    {
+     "word": " to",
+     "start": 11.68,
+     "end": 11.78
+    },
+    {
+     "word": " remind",
+     "start": 11.78,
+     "end": 12.06
+    },
+    {
+     "word": " them.",
+     "start": 12.06,
+     "end": 12.28
+    },
+    {
+     "word": " Yeah,",
+     "start": 12.28,
+     "end": 12.48
+    },
+    {
+     "word": " please",
+     "start": 12.5,
+     "end": 12.8
+    },
+    {
+     "word": " do",
+     "start": 12.8,
+     "end": 13.22
+    },
+    {
+     "word": " please",
+     "start": 13.22,
+     "end": 13.98
+    },
+    {
+     "word": " fucking",
+     "start": 18.84,
+     "end": 19.28
+    },
+    {
+     "word": " remind",
+     "start": 19.28,
+     "end": 19.74
+    },
+    {
+     "word": " him",
+     "start": 19.74,
+     "end": 20.06
+    },
+    {
+     "word": " Please",
+     "start": 20.06,
+     "end": 20.46
+    },
+    {
+     "word": " fucking",
+     "start": 20.46,
+     "end": 20.86
+    },
+    {
+     "word": " do",
+     "start": 20.86,
+     "end": 21.18
+    },
+    {
+     "word": " all",
+     "start": 21.18,
+     "end": 21.94
+    },
+    {
+     "word": " right.",
+     "start": 34.64,
+     "end": 34.76
+    },
+    {
+     "word": " Let's",
+     "start": 34.76,
+     "end": 34.92
+    },
+    {
+     "word": " get",
+     "start": 34.92,
+     "end": 35.1
+    },
+    {
+     "word": " out",
+     "start": 35.1,
+     "end": 35.28
+    },
+    {
+     "word": " of",
+     "start": 35.28,
+     "end": 35.34
+    },
+    {
+     "word": " here",
+     "start": 35.34,
+     "end": 35.9
+    },
+    {
+     "word": " Kitty",
+     "start": 37.36,
+     "end": 38.08
+    },
+    {
+     "word": " Thank",
+     "start": 45.1,
+     "end": 45.82
+    },
+    {
+     "word": " you",
+     "start": 45.82,
+     "end": 46.54
+    },
+    {
+     "word": " like",
+     "start": 46.54,
+     "end": 46.8
+    },
+    {
+     "word": " me",
+     "start": 46.8,
+     "end": 47.28
+    },
+    {
+     "word": " Okay",
+     "start": 52.33,
+     "end": 53.05
+    }
+   ],
+   "metrics": {
+    "motion": 0.4490277777777778,
+    "motion_p90": 0.7253333333333333,
+    "static_share": 0.07307692307692308,
+    "peak_db": 13.403068542480469,
+    "level_db": -35.31864547729492
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -7780,6 +8024,6 @@
    "seconds": 31.1
   }
  },
- "checked_n": 569,
+ "checked_n": 571,
  "check_errors": {}
 }
