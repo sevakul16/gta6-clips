@@ -1,0 +1,75 @@
+{
+ "id": "chat-2942704974-1253",
+ "kind": "chat",
+ "login": "frametamer666",
+ "name": "frametamer666",
+ "language": "ru",
+ "source": "cut from the live stream at a chat spike: 89 chatters in 15 s, 8.1x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+ "url": "https://www.twitch.tv/videos/2942704974",
+ "section": [
+  56367.699402,
+  56423.699402
+ ],
+ "duration": 56.0,
+ "frames": "3 columns x 5 rows, left to right then top to bottom",
+ "frame_times": [
+  1.9,
+  5.6,
+  9.3,
+  13.1,
+  16.8,
+  20.5,
+  24.3,
+  28.0,
+  31.7,
+  35.5,
+  39.2,
+  42.9,
+  46.7,
+  50.4,
+  54.1
+ ],
+ "video_size": [
+  1920,
+  1080
+ ],
+ "boxes": "lime = webcam crop (top of the vertical video), yellow = gameplay crop (bottom)",
+ "cam_box": [
+  0.0,
+  0.322,
+  0.289,
+  0.361
+ ],
+ "metrics": {
+  "motion": 0.251,
+  "motion_p90": 0.679,
+  "static_share": 0.036,
+  "peak_db": 7.071,
+  "level_db": -17.218
+ },
+ "found_at": "2026-11-28T14:58:59.415095+00:00",
+ "silent_stretches": null,
+ "chat_at_spike": [
+  "14x DinoDance",
+  "8x WW",
+  "6x wwww",
+  "5x WWWWWWW",
+  "5x Wwwww",
+  "5x WWW",
+  "5x ClapHands",
+  "5x WWWWWWWW",
+  "5x framet1LUV",
+  "4x WWWWWW",
+  "2x ЕБЕНЬ",
+  "2x WWWWWWWWW",
+  "PewPewPew",
+  "WWWWWWWWWW",
+  "framet1Wuw",
+  "LOCK IN 🔒 LOCK IN 🔒 LOCK IN 🔒 LOCK IN 🔒 LOCK IN 🔒 LOCK IN 🔒 LOCK IN 🔒 LOCK IN 🔒 ",
+  "оо даааааа",
+  "framet1Punch",
+  "я в чате",
+  "ХВХВВХАХХАВ"
+ ],
+ "transcript": "[4s] Он знает его, ты видел Андрея? Да,\n[9s] я не знаю Я не знаю Подайте\n[15s] ему микрофоны К нам заглянул, сука, до Нателла Ламбрини А\n[22s] это не он? Блять Шампанская\n[48s] сейчас чуть не уронила Просто она не выстрелила мне в ногу чуть Спасибо\n[54s] огромное, гражданская авиация"
+}

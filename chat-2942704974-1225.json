@@ -1,0 +1,69 @@
+{
+ "id": "chat-2942704974-1225",
+ "kind": "chat",
+ "login": "frametamer666",
+ "name": "frametamer666",
+ "language": "ru",
+ "source": "cut from the live stream at a chat spike: 54 chatters in 15 s, 3.2x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+ "url": "https://www.twitch.tv/videos/2942704974",
+ "section": [
+  55121.514516,
+  55177.514516
+ ],
+ "duration": 56.0,
+ "frames": "3 columns x 5 rows, left to right then top to bottom",
+ "frame_times": [
+  1.9,
+  5.6,
+  9.3,
+  13.1,
+  16.8,
+  20.5,
+  24.3,
+  28.0,
+  31.7,
+  35.5,
+  39.2,
+  42.9,
+  46.7,
+  50.4,
+  54.1
+ ],
+ "video_size": [
+  1920,
+  1080
+ ],
+ "boxes": "lime = webcam crop (top of the vertical video), yellow = gameplay crop (bottom)",
+ "cam_box": [
+  0.0,
+  0.326,
+  0.278,
+  0.347
+ ],
+ "metrics": {
+  "motion": 0.306,
+  "motion_p90": 0.808,
+  "static_share": 0.296,
+  "peak_db": 6.982,
+  "level_db": -18.806
+ },
+ "found_at": "2026-11-28T14:37:01.972484+00:00",
+ "silent_stretches": null,
+ "chat_at_spike": [
+  "7x DinoDance",
+  "5x YappingDuck",
+  "3x framet1Eben",
+  "2x ClapHands",
+  "2x Сиджей крендель",
+  "2x NotLikeThis",
+  "Хаха0а00а0а",
+  "@danya_doc_pororo прост упоминают ща ее больше всего)",
+  "ХАХАХХАВСХАЪХАХАЪВ",
+  "9вхахахахахахахаххахахах",
+  "ВХХВХВХВ",
+  "омг 13",
+  "ТИКАНЬЕ МЕШАЕТ",
+  "Хахаххаха"
+ ],
+ "transcript": "[0s] диджей крендель мой брательник диджей крендель если там\n[4s] диджей крендель то там вот такие должны треки играть иди\n[33s] позови за наш столик диджей\n[42s] крендель разъебует диджей крендель"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "chat-2943252066-47",
+ "kind": "chat",
+ "login": "ohnepixel",
+ "name": "ohnePixel",
+ "language": "en",
+ "source": "cut from the live stream at a chat spike: 178 chatters in 15 s, 2.5x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+ "url": "https://www.twitch.tv/videos/2943252066",
+ "section": [
+  2101.529636,
+  2157.529636
+ ],
+ "duration": 58.0,
+ "frames": "3 columns x 5 rows, left to right then top to bottom",
+ "frame_times": [
+  1.9,
+  5.8,
+  9.7,
+  13.5,
+  17.4,
+  21.3,
+  25.1,
+  29.0,
+  32.9,
+  36.7,
+  40.6,
+  44.5,
+  48.3,
+  52.2,
+  56.1
+ ],
+ "video_size": [
+  1920,
+  1080
+ ],
+ "boxes": "lime = webcam crop (top of the vertical video), yellow = gameplay crop (bottom)",
+ "cam_box": [
+  0.372,
+  0.556,
+  0.144,
+  0.181
+ ],
+ "metrics": {
+  "motion": 0.085,
+  "motion_p90": 0.125,
+  "static_share": 0.255,
+  "peak_db": 29.018,
+  "level_db": -48.797
+ },
+ "found_at": "2026-11-28T14:37:36.399029+00:00",
+ "silent_stretches": null,
+ "chat_at_spike": [
+  "24x dont",
+  "12x DO IT",
+  "7x No",
+  "4x KRILLION",
+  "3x DONT DO IT",
+  "3x we dont",
+  "2x react",
+  "2x then dont",
+  "2x DO ITT",
+  "2x ohne3",
+  "2x KRILLION Alarm KRILLION Alarm KRILLION Alarm KRILLION Alarm KRILLION Alarm KRILL",
+  "2x we don’t car",
+  "just ignore",
+  "who gives a fuck xdx",
+  "We don't care",
+  "don't not worth it",
+  "your stream your choice unc",
+  "love you bro",
+  "nah dont",
+  "Its not gonna go back and forth"
+ ],
+ "transcript": "[1s] I don't\n[14s] know\n[23s] if I want to react to the video. I\n[29s] don't want this to go back and forth you feel me But it feels\n[33s] weird underdressing it. I\n[40s] feel like y 'all are waiting for me to say something, but let me\n[48s] say Fuck what were the settings for these headphones"
+}

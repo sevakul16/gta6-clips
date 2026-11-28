@@ -1,0 +1,66 @@
+{
+ "id": "chat-2942704974-1192",
+ "kind": "chat",
+ "login": "frametamer666",
+ "name": "frametamer666",
+ "language": "ru",
+ "source": "cut from the live stream at a chat spike: 44 chatters in 15 s, 4.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+ "url": "https://www.twitch.tv/videos/2942704974",
+ "section": [
+  53642.997233,
+  53698.997233
+ ],
+ "duration": 56.0,
+ "frames": "3 columns x 5 rows, left to right then top to bottom",
+ "frame_times": [
+  1.9,
+  5.6,
+  9.3,
+  13.1,
+  16.8,
+  20.5,
+  24.3,
+  28.0,
+  31.7,
+  35.5,
+  39.2,
+  42.9,
+  46.7,
+  50.4,
+  54.1
+ ],
+ "video_size": [
+  1920,
+  1080
+ ],
+ "boxes": "lime = webcam crop (top of the vertical video), yellow = gameplay crop (bottom)",
+ "cam_box": [
+  0.0,
+  0.321,
+  0.269,
+  0.336
+ ],
+ "metrics": {
+  "motion": 0.114,
+  "motion_p90": 0.71,
+  "static_share": 0.26,
+  "peak_db": 22.062,
+  "level_db": -33.14
+ },
+ "found_at": "2026-11-28T14:15:45.392091+00:00",
+ "silent_stretches": null,
+ "chat_at_spike": [
+  "3x ХОРОШО БОСС",
+  "2x слушаю",
+  "2x Ахахахахах",
+  "@annus444 уже?? какими силами это было и терпением достигнуто пхахахахахах",
+  "Ого сегодня что конец донатофона",
+  "а пока соси соску",
+  "@drilb1t хуй пососи",
+  "ХХВХАХВААВХАЫВХЫВХАЫ",
+  "Хахахпхпхах",
+  "какой прогрес",
+  "Что"
+ ],
+ "transcript": "[26s] Я за три с половиной дня прошёл ГТА, он за 11 до сих пор\n[28s] не на пятой главе, еху ею. Так, Сиджей, можешь написать, вот, дри, дрил,\n[33s] бит, адрес мой, что он приехал отсосал мне на полной, на полной программе прям.\n[38s] И потом пошёл пол с полном ртом кондиции, помолчал в тени в стороночке. А\n[47s] то он сегодня дохуя говорит слишком. Бля, ебать она накачалась, это просто пиздец.\n[53s] А пока свосочку пусть достанет у себя там эскармаж."
+}

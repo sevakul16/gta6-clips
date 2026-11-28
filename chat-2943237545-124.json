@@ -1,0 +1,63 @@
+{
+ "id": "chat-2943237545-124",
+ "kind": "chat",
+ "login": "cohhcarnage",
+ "name": "CohhCarnage",
+ "language": "en",
+ "source": "cut from the live stream at a chat spike: 39 chatters in 15 s, 2.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+ "url": "https://www.twitch.tv/videos/2943237545",
+ "section": [
+  5551.811734,
+  5607.811734
+ ],
+ "duration": 58.0,
+ "frames": "3 columns x 5 rows, left to right then top to bottom",
+ "frame_times": [
+  1.9,
+  5.8,
+  9.7,
+  13.5,
+  17.4,
+  21.3,
+  25.1,
+  29.0,
+  32.9,
+  36.7,
+  40.6,
+  44.5,
+  48.3,
+  52.2,
+  56.1
+ ],
+ "video_size": [
+  1920,
+  1080
+ ],
+ "boxes": "lime = webcam crop (top of the vertical video), yellow = gameplay crop (bottom)",
+ "cam_box": [
+  0.0,
+  0.359,
+  0.245,
+  0.306
+ ],
+ "metrics": {
+  "motion": 0.427,
+  "motion_p90": 0.623,
+  "static_share": 0.039,
+  "peak_db": 10.24,
+  "level_db": -29.991
+ },
+ "found_at": "2026-11-28T15:00:11.726102+00:00",
+ "silent_stretches": null,
+ "chat_at_spike": [
+  "idk...im pretty high rn",
+  "Thats toxic",
+  "Crazy",
+  "thats dumb",
+  "clingy",
+  "i think you can just text the other to keep it up",
+  "it's crazy",
+  "its too much"
+ ],
+ "transcript": "[0s] Let's go. I'm gonna go out, get in\n[4s] this one. I'm so ready. You\n[8s] know Raul had me steal another car? This guy better know what he's doing.\n[13s] How are we, by the way? Damn,\n[17s] we're only three of four. Dude, I heard something about this. So apparently\n[21s] less than an hour of playing solo in\n[25s] this game is enough to lower your rank to three of four. So\n[31s] just playing solo. Can lower\n[35s] your rank all the way to three of four, regardless of how high you\n[38s] are. Like, I don't know how I feel about that, man. That's a\n[42s] little... Considering how many missions they have in the game that you have to\n[46s] do by yourself, that seems weird. Like,\n[53s] they forced you to do stuff by yourself, so. I don't know."
+}

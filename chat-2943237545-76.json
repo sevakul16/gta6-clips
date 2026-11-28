@@ -1,0 +1,67 @@
+{
+ "id": "chat-2943237545-76",
+ "kind": "chat",
+ "login": "cohhcarnage",
+ "name": "CohhCarnage",
+ "language": "en",
+ "source": "cut from the live stream at a chat spike: 37 chatters in 15 s, 4.6x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+ "url": "https://www.twitch.tv/videos/2943237545",
+ "section": [
+  3420.567247,
+  3476.567247
+ ],
+ "duration": 57.0,
+ "frames": "3 columns x 5 rows, left to right then top to bottom",
+ "frame_times": [
+  1.9,
+  5.7,
+  9.5,
+  13.3,
+  17.1,
+  20.9,
+  24.7,
+  28.5,
+  32.3,
+  36.1,
+  39.9,
+  43.7,
+  47.5,
+  51.3,
+  55.1
+ ],
+ "video_size": [
+  1920,
+  1080
+ ],
+ "boxes": "lime = webcam crop (top of the vertical video), yellow = gameplay crop (bottom)",
+ "cam_box": [
+  0.0,
+  0.372,
+  0.219,
+  0.273
+ ],
+ "metrics": {
+  "motion": 0.227,
+  "motion_p90": 0.442,
+  "static_share": 0.0,
+  "peak_db": 14.057,
+  "level_db": -39.511
+ },
+ "found_at": "2026-11-28T14:37:18.765297+00:00",
+ "silent_stretches": null,
+ "chat_at_spike": [
+  "4x KEKW",
+  "2x damn",
+  "2x Nice",
+  "2x LUL",
+  "damn lu",
+  "cohhGG",
+  "Happy Saturday",
+  "go to SLEEP",
+  "WWE move",
+  "Lucia is badass",
+  "Damn, that was fine!",
+  "out otu"
+ ],
+ "transcript": "[2s] No, whoa,\n[11s] what happened in knocking? Oh, who are you the corporate? Yeah got\n[15s] ours on the package I'm here to get you out. Grab your shit. We\n[19s] gotta go what wait. Hold on. What is this? Look? You're not safe here.\n[23s] You walking on my care in you Yeah, yeah, okay. Let\n[27s] me just grab a few things. She didn't alarm. What are you a fed?\n[31s] Sorry She\n[39s] out yep Pick her up we\n[43s] gotta go I'll lead\n[50s] so what happened?\n[54s] Let's get to the car"
+}

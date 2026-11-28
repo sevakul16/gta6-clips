@@ -1,0 +1,65 @@
+{
+ "id": "chat-2943237545-61",
+ "kind": "chat",
+ "login": "cohhcarnage",
+ "name": "CohhCarnage",
+ "language": "en",
+ "source": "cut from the live stream at a chat spike: 37 chatters in 15 s, 3.7x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+ "url": "https://www.twitch.tv/videos/2943237545",
+ "section": [
+  2711.681044,
+  2767.681044
+ ],
+ "duration": 58.0,
+ "frames": "3 columns x 5 rows, left to right then top to bottom",
+ "frame_times": [
+  1.9,
+  5.8,
+  9.7,
+  13.5,
+  17.4,
+  21.3,
+  25.1,
+  29.0,
+  32.9,
+  36.7,
+  40.6,
+  44.5,
+  48.3,
+  52.2,
+  56.1
+ ],
+ "video_size": [
+  1920,
+  1080
+ ],
+ "boxes": "lime = webcam crop (top of the vertical video), yellow = gameplay crop (bottom)",
+ "cam_box": [
+  0.015,
+  0.379,
+  0.192,
+  0.241
+ ],
+ "metrics": {
+  "motion": 0.453,
+  "motion_p90": 0.65,
+  "static_share": 0.013,
+  "peak_db": 6.079,
+  "level_db": -26.108
+ },
+ "found_at": "2026-11-28T14:15:12.205230+00:00",
+ "silent_stretches": null,
+ "chat_at_spike": [
+  "4x KEKW",
+  "2x cohhLUL",
+  "he kinda yielded",
+  "His fault",
+  "another one? people these days",
+  "that lasted only few min",
+  "Good morning everyone! cohhML",
+  "Hi all DinoDance MyAvatar DinoDance",
+  "@FlyingAznman hihi cohhL",
+  "that'll buff right out!"
+ ],
+ "transcript": "[22s] What's a yield lane shut up? I\n[29s] might need to repair this"
+}
