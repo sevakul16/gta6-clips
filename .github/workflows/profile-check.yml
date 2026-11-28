@@ -1,0 +1,23 @@
+name: profile check
+
+# Manual: prints which platforms have an account connected to an upload-post profile (platform names only).
+on:
+  workflow_dispatch:
+    inputs:
+      profile:
+        description: "upload-post profile"
+        default: "gta6en"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          UPLOAD_POST_KEY: ${{ secrets.UPLOAD_POST_KEY }}
+          PROFILE: ${{ inputs.profile }}
+        run: python3 tools/profile_check.py
