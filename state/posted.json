@@ -6165,6 +6165,1019 @@
     "level_db": -48.7967643737793
    },
    "silence": []
+  },
+  "chat-2942704974-1253": {
+   "id": "chat-2942704974-1253",
+   "url": "https://www.twitch.tv/videos/2942704974",
+   "section": [
+    56367.699402,
+    56423.699402
+   ],
+   "kind": "chat",
+   "views": 89,
+   "title": "",
+   "vod": "2942704974",
+   "vod_t": 56367.699402,
+   "group": "ru",
+   "login": "frametamer666",
+   "name": "frametamer666",
+   "viewers": 6092,
+   "chat_score": 8.09,
+   "found_at": "2026-11-28T14:58:22.429195+00:00",
+   "spike_at": "2026-11-28T14:51:59.699402+00:00",
+   "chat": [
+    "14x DinoDance",
+    "8x WW",
+    "6x wwww",
+    "5x WWWWWWW",
+    "5x Wwwww",
+    "5x WWW",
+    "5x ClapHands",
+    "5x WWWWWWWW",
+    "5x framet1LUV",
+    "4x WWWWWW",
+    "2x ЕБЕНЬ",
+    "2x WWWWWWWWW",
+    "PewPewPew",
+    "WWWWWWWWWW",
+    "framet1Wuw",
+    "LOCK IN 🔒 LOCK IN 🔒 LOCK IN 🔒 LOCK IN 🔒 LOCK IN 🔒 LOCK IN 🔒 LOCK IN 🔒 LOCK IN 🔒 ",
+    "оо даааааа",
+    "framet1Punch",
+    "я в чате",
+    "ХВХВВХАХХАВ"
+   ],
+   "source": "cut from the live stream at a chat spike: 89 chatters in 15 s, 8.1x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-28T14:58:59.415095+00:00",
+   "cam": [
+    0,
+    348,
+    554,
+    390
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 56.0,
+   "words": [
+    {
+     "word": " Он",
+     "start": 4.24,
+     "end": 4.76
+    },
+    {
+     "word": " знает",
+     "start": 4.76,
+     "end": 4.9
+    },
+    {
+     "word": " его,",
+     "start": 4.9,
+     "end": 5.18
+    },
+    {
+     "word": " ты",
+     "start": 5.72,
+     "end": 5.94
+    },
+    {
+     "word": " видел",
+     "start": 5.94,
+     "end": 6.4
+    },
+    {
+     "word": " Андрея?",
+     "start": 6.4,
+     "end": 6.84
+    },
+    {
+     "word": " Да,",
+     "start": 8.18,
+     "end": 8.74
+    },
+    {
+     "word": " я",
+     "start": 9.16,
+     "end": 9.16
+    },
+    {
+     "word": " не",
+     "start": 9.16,
+     "end": 9.18
+    },
+    {
+     "word": " знаю",
+     "start": 9.18,
+     "end": 9.28
+    },
+    {
+     "word": " Я",
+     "start": 9.28,
+     "end": 10.0
+    },
+    {
+     "word": " не",
+     "start": 10.0,
+     "end": 10.0
+    },
+    {
+     "word": " знаю",
+     "start": 10.0,
+     "end": 10.0
+    },
+    {
+     "word": " Подайте",
+     "start": 14.5,
+     "end": 15.06
+    },
+    {
+     "word": " ему",
+     "start": 15.06,
+     "end": 15.28
+    },
+    {
+     "word": " микрофоны",
+     "start": 15.28,
+     "end": 16.22
+    },
+    {
+     "word": " К",
+     "start": 16.22,
+     "end": 16.48
+    },
+    {
+     "word": " нам",
+     "start": 16.48,
+     "end": 16.64
+    },
+    {
+     "word": " заглянул,",
+     "start": 16.64,
+     "end": 17.0
+    },
+    {
+     "word": " сука,",
+     "start": 17.14,
+     "end": 17.22
+    },
+    {
+     "word": " до",
+     "start": 17.22,
+     "end": 17.38
+    },
+    {
+     "word": " Нателла",
+     "start": 17.38,
+     "end": 17.84
+    },
+    {
+     "word": " Ламбрини",
+     "start": 17.84,
+     "end": 18.62
+    },
+    {
+     "word": " А",
+     "start": 21.02,
+     "end": 21.58
+    },
+    {
+     "word": " это",
+     "start": 21.58,
+     "end": 22.14
+    },
+    {
+     "word": " не",
+     "start": 22.14,
+     "end": 22.22
+    },
+    {
+     "word": " он?",
+     "start": 22.22,
+     "end": 22.38
+    },
+    {
+     "word": " Блять",
+     "start": 22.96,
+     "end": 23.52
+    },
+    {
+     "word": " Шампанская",
+     "start": 47.56,
+     "end": 48.12
+    },
+    {
+     "word": " сейчас",
+     "start": 48.12,
+     "end": 48.28
+    },
+    {
+     "word": " чуть",
+     "start": 48.28,
+     "end": 48.46
+    },
+    {
+     "word": " не",
+     "start": 48.46,
+     "end": 48.92
+    },
+    {
+     "word": " уронила",
+     "start": 48.92,
+     "end": 49.3
+    },
+    {
+     "word": " Просто",
+     "start": 49.3,
+     "end": 49.58
+    },
+    {
+     "word": " она",
+     "start": 49.58,
+     "end": 49.72
+    },
+    {
+     "word": " не",
+     "start": 49.72,
+     "end": 49.84
+    },
+    {
+     "word": " выстрелила",
+     "start": 49.84,
+     "end": 50.3
+    },
+    {
+     "word": " мне",
+     "start": 50.3,
+     "end": 50.52
+    },
+    {
+     "word": " в",
+     "start": 50.52,
+     "end": 50.66
+    },
+    {
+     "word": " ногу",
+     "start": 50.66,
+     "end": 50.86
+    },
+    {
+     "word": " чуть",
+     "start": 50.86,
+     "end": 51.04
+    },
+    {
+     "word": " Спасибо",
+     "start": 52.4,
+     "end": 53.72
+    },
+    {
+     "word": " огромное,",
+     "start": 53.72,
+     "end": 54.38
+    },
+    {
+     "word": " гражданская",
+     "start": 54.64,
+     "end": 55.58
+    },
+    {
+     "word": " авиация",
+     "start": 55.58,
+     "end": 55.9
+    }
+   ],
+   "metrics": {
+    "motion": 0.25083664098373415,
+    "motion_p90": 0.67910343217371,
+    "static_share": 0.03587443946188341,
+    "peak_db": 7.070808410644531,
+    "level_db": -17.218305587768555
+   },
+   "silence": []
+  },
+  "chat-2943237545-124": {
+   "id": "chat-2943237545-124",
+   "url": "https://www.twitch.tv/videos/2943237545",
+   "section": [
+    5551.811734,
+    5607.811734
+   ],
+   "kind": "chat",
+   "views": 39,
+   "title": "",
+   "vod": "2943237545",
+   "vod_t": 5551.811734,
+   "group": "en",
+   "login": "cohhcarnage",
+   "name": "CohhCarnage",
+   "viewers": 9376,
+   "chat_score": 2.79,
+   "found_at": "2026-11-28T14:58:22.827817+00:00",
+   "spike_at": "2026-11-28T14:57:49.811734+00:00",
+   "chat": [
+    "idk...im pretty high rn",
+    "Thats toxic",
+    "Crazy",
+    "thats dumb",
+    "clingy",
+    "i think you can just text the other to keep it up",
+    "it's crazy",
+    "its too much"
+   ],
+   "source": "cut from the live stream at a chat spike: 39 chatters in 15 s, 2.8x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-28T15:00:11.726102+00:00",
+   "cam": [
+    0,
+    388,
+    470,
+    331
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 58.0,
+   "words": [
+    {
+     "word": " Let's",
+     "start": 0.0,
+     "end": 0.22
+    },
+    {
+     "word": " go.",
+     "start": 0.22,
+     "end": 0.44
+    },
+    {
+     "word": " I'm",
+     "start": 0.72,
+     "end": 1.1
+    },
+    {
+     "word": " gonna",
+     "start": 3.02,
+     "end": 3.02
+    },
+    {
+     "word": " go",
+     "start": 3.02,
+     "end": 3.16
+    },
+    {
+     "word": " out,",
+     "start": 3.16,
+     "end": 3.32
+    },
+    {
+     "word": " get",
+     "start": 3.7,
+     "end": 3.9
+    },
+    {
+     "word": " in",
+     "start": 3.9,
+     "end": 4.02
+    },
+    {
+     "word": " this",
+     "start": 4.02,
+     "end": 4.12
+    },
+    {
+     "word": " one.",
+     "start": 4.12,
+     "end": 4.24
+    },
+    {
+     "word": " I'm",
+     "start": 4.88,
+     "end": 5.3
+    },
+    {
+     "word": " so",
+     "start": 5.3,
+     "end": 5.54
+    },
+    {
+     "word": " ready.",
+     "start": 5.54,
+     "end": 5.9
+    },
+    {
+     "word": " You",
+     "start": 7.8,
+     "end": 8.32
+    },
+    {
+     "word": " know",
+     "start": 8.32,
+     "end": 8.52
+    },
+    {
+     "word": " Raul",
+     "start": 8.52,
+     "end": 8.9
+    },
+    {
+     "word": " had",
+     "start": 8.9,
+     "end": 9.16
+    },
+    {
+     "word": " me",
+     "start": 9.16,
+     "end": 9.34
+    },
+    {
+     "word": " steal",
+     "start": 9.34,
+     "end": 9.6
+    },
+    {
+     "word": " another",
+     "start": 9.6,
+     "end": 10.14
+    },
+    {
+     "word": " car?",
+     "start": 10.14,
+     "end": 10.56
+    },
+    {
+     "word": " This",
+     "start": 10.86,
+     "end": 11.02
+    },
+    {
+     "word": " guy",
+     "start": 11.02,
+     "end": 11.12
+    },
+    {
+     "word": " better",
+     "start": 11.12,
+     "end": 11.3
+    },
+    {
+     "word": " know",
+     "start": 11.3,
+     "end": 11.46
+    },
+    {
+     "word": " what",
+     "start": 11.46,
+     "end": 11.6
+    },
+    {
+     "word": " he's",
+     "start": 11.6,
+     "end": 11.7
+    },
+    {
+     "word": " doing.",
+     "start": 11.7,
+     "end": 11.82
+    },
+    {
+     "word": " How",
+     "start": 12.96,
+     "end": 13.26
+    },
+    {
+     "word": " are",
+     "start": 13.26,
+     "end": 13.44
+    },
+    {
+     "word": " we,",
+     "start": 13.44,
+     "end": 13.58
+    },
+    {
+     "word": " by",
+     "start": 13.6,
+     "end": 13.74
+    },
+    {
+     "word": " the",
+     "start": 13.74,
+     "end": 13.82
+    },
+    {
+     "word": " way?",
+     "start": 13.82,
+     "end": 14.0
+    },
+    {
+     "word": " Damn,",
+     "start": 16.8,
+     "end": 17.04
+    },
+    {
+     "word": " we're",
+     "start": 17.2,
+     "end": 17.24
+    },
+    {
+     "word": " only",
+     "start": 17.24,
+     "end": 17.34
+    },
+    {
+     "word": " three",
+     "start": 17.34,
+     "end": 17.68
+    },
+    {
+     "word": " of",
+     "start": 17.68,
+     "end": 17.8
+    },
+    {
+     "word": " four.",
+     "start": 17.8,
+     "end": 18.02
+    },
+    {
+     "word": " Dude,",
+     "start": 18.34,
+     "end": 18.6
+    },
+    {
+     "word": " I",
+     "start": 18.92,
+     "end": 19.14
+    },
+    {
+     "word": " heard",
+     "start": 19.14,
+     "end": 19.34
+    },
+    {
+     "word": " something",
+     "start": 19.34,
+     "end": 19.64
+    },
+    {
+     "word": " about",
+     "start": 19.64,
+     "end": 19.94
+    },
+    {
+     "word": " this.",
+     "start": 19.94,
+     "end": 20.24
+    },
+    {
+     "word": " So",
+     "start": 20.72,
+     "end": 20.82
+    },
+    {
+     "word": " apparently",
+     "start": 20.82,
+     "end": 21.28
+    },
+    {
+     "word": " less",
+     "start": 21.28,
+     "end": 22.4
+    },
+    {
+     "word": " than",
+     "start": 22.4,
+     "end": 22.76
+    },
+    {
+     "word": " an",
+     "start": 22.76,
+     "end": 22.92
+    },
+    {
+     "word": " hour",
+     "start": 22.92,
+     "end": 23.34
+    },
+    {
+     "word": " of",
+     "start": 24.12,
+     "end": 24.38
+    },
+    {
+     "word": " playing",
+     "start": 24.38,
+     "end": 24.7
+    },
+    {
+     "word": " solo",
+     "start": 24.7,
+     "end": 25.12
+    },
+    {
+     "word": " in",
+     "start": 25.12,
+     "end": 25.36
+    },
+    {
+     "word": " this",
+     "start": 25.36,
+     "end": 25.5
+    },
+    {
+     "word": " game",
+     "start": 25.5,
+     "end": 25.8
+    },
+    {
+     "word": " is",
+     "start": 25.8,
+     "end": 26.46
+    },
+    {
+     "word": " enough",
+     "start": 26.46,
+     "end": 26.78
+    },
+    {
+     "word": " to",
+     "start": 26.78,
+     "end": 27.26
+    },
+    {
+     "word": " lower",
+     "start": 27.26,
+     "end": 27.7
+    },
+    {
+     "word": " your",
+     "start": 27.7,
+     "end": 27.92
+    },
+    {
+     "word": " rank",
+     "start": 27.92,
+     "end": 28.2
+    },
+    {
+     "word": " to",
+     "start": 28.2,
+     "end": 28.44
+    },
+    {
+     "word": " three",
+     "start": 28.44,
+     "end": 28.7
+    },
+    {
+     "word": " of",
+     "start": 28.7,
+     "end": 28.82
+    },
+    {
+     "word": " four.",
+     "start": 28.82,
+     "end": 29.08
+    },
+    {
+     "word": " So",
+     "start": 30.02,
+     "end": 30.54
+    },
+    {
+     "word": " just",
+     "start": 30.54,
+     "end": 31.0
+    },
+    {
+     "word": " playing",
+     "start": 31.0,
+     "end": 31.48
+    },
+    {
+     "word": " solo.",
+     "start": 31.48,
+     "end": 32.22
+    },
+    {
+     "word": " Can",
+     "start": 34.1,
+     "end": 34.38
+    },
+    {
+     "word": " lower",
+     "start": 34.38,
+     "end": 34.68
+    },
+    {
+     "word": " your",
+     "start": 34.68,
+     "end": 34.92
+    },
+    {
+     "word": " rank",
+     "start": 34.92,
+     "end": 35.18
+    },
+    {
+     "word": " all",
+     "start": 35.18,
+     "end": 35.52
+    },
+    {
+     "word": " the",
+     "start": 35.52,
+     "end": 35.7
+    },
+    {
+     "word": " way",
+     "start": 35.7,
+     "end": 35.94
+    },
+    {
+     "word": " to",
+     "start": 35.94,
+     "end": 36.52
+    },
+    {
+     "word": " three",
+     "start": 36.52,
+     "end": 36.74
+    },
+    {
+     "word": " of",
+     "start": 36.74,
+     "end": 36.86
+    },
+    {
+     "word": " four,",
+     "start": 36.86,
+     "end": 37.12
+    },
+    {
+     "word": " regardless",
+     "start": 37.22,
+     "end": 37.58
+    },
+    {
+     "word": " of",
+     "start": 37.58,
+     "end": 37.92
+    },
+    {
+     "word": " how",
+     "start": 37.92,
+     "end": 38.04
+    },
+    {
+     "word": " high",
+     "start": 38.04,
+     "end": 38.24
+    },
+    {
+     "word": " you",
+     "start": 38.24,
+     "end": 38.36
+    },
+    {
+     "word": " are.",
+     "start": 38.36,
+     "end": 38.52
+    },
+    {
+     "word": " Like,",
+     "start": 40.56,
+     "end": 40.64
+    },
+    {
+     "word": " I",
+     "start": 40.72,
+     "end": 40.82
+    },
+    {
+     "word": " don't",
+     "start": 40.82,
+     "end": 40.9
+    },
+    {
+     "word": " know",
+     "start": 40.9,
+     "end": 40.98
+    },
+    {
+     "word": " how",
+     "start": 40.98,
+     "end": 41.06
+    },
+    {
+     "word": " I",
+     "start": 41.06,
+     "end": 41.14
+    },
+    {
+     "word": " feel",
+     "start": 41.14,
+     "end": 41.26
+    },
+    {
+     "word": " about",
+     "start": 41.26,
+     "end": 41.42
+    },
+    {
+     "word": " that,",
+     "start": 41.42,
+     "end": 41.62
+    },
+    {
+     "word": " man.",
+     "start": 41.7,
+     "end": 41.78
+    },
+    {
+     "word": " That's",
+     "start": 41.98,
+     "end": 42.34
+    },
+    {
+     "word": " a",
+     "start": 42.34,
+     "end": 42.42
+    },
+    {
+     "word": " little...",
+     "start": 42.42,
+     "end": 43.76
+    },
+    {
+     "word": " Considering",
+     "start": 43.76,
+     "end": 44.06
+    },
+    {
+     "word": " how",
+     "start": 44.06,
+     "end": 44.28
+    },
+    {
+     "word": " many",
+     "start": 44.28,
+     "end": 44.38
+    },
+    {
+     "word": " missions",
+     "start": 44.38,
+     "end": 44.76
+    },
+    {
+     "word": " they",
+     "start": 44.76,
+     "end": 45.02
+    },
+    {
+     "word": " have",
+     "start": 45.02,
+     "end": 45.22
+    },
+    {
+     "word": " in",
+     "start": 45.22,
+     "end": 45.3
+    },
+    {
+     "word": " the",
+     "start": 45.3,
+     "end": 45.38
+    },
+    {
+     "word": " game",
+     "start": 45.38,
+     "end": 45.56
+    },
+    {
+     "word": " that",
+     "start": 45.56,
+     "end": 45.68
+    },
+    {
+     "word": " you",
+     "start": 45.68,
+     "end": 45.78
+    },
+    {
+     "word": " have",
+     "start": 45.78,
+     "end": 46.12
+    },
+    {
+     "word": " to",
+     "start": 46.12,
+     "end": 46.42
+    },
+    {
+     "word": " do",
+     "start": 46.42,
+     "end": 46.7
+    },
+    {
+     "word": " by",
+     "start": 46.7,
+     "end": 46.98
+    },
+    {
+     "word": " yourself,",
+     "start": 46.98,
+     "end": 47.42
+    },
+    {
+     "word": " that",
+     "start": 47.58,
+     "end": 47.68
+    },
+    {
+     "word": " seems",
+     "start": 47.68,
+     "end": 47.88
+    },
+    {
+     "word": " weird.",
+     "start": 47.88,
+     "end": 48.28
+    },
+    {
+     "word": " Like,",
+     "start": 52.55,
+     "end": 52.71
+    },
+    {
+     "word": " they",
+     "start": 52.75,
+     "end": 52.83
+    },
+    {
+     "word": " forced",
+     "start": 52.83,
+     "end": 53.21
+    },
+    {
+     "word": " you",
+     "start": 53.21,
+     "end": 53.47
+    },
+    {
+     "word": " to",
+     "start": 53.47,
+     "end": 53.55
+    },
+    {
+     "word": " do",
+     "start": 53.55,
+     "end": 53.65
+    },
+    {
+     "word": " stuff",
+     "start": 53.65,
+     "end": 53.85
+    },
+    {
+     "word": " by",
+     "start": 53.85,
+     "end": 54.05
+    },
+    {
+     "word": " yourself,",
+     "start": 54.05,
+     "end": 54.35
+    },
+    {
+     "word": " so.",
+     "start": 54.53,
+     "end": 54.65
+    },
+    {
+     "word": " I",
+     "start": 54.65,
+     "end": 54.81
+    },
+    {
+     "word": " don't",
+     "start": 54.81,
+     "end": 55.93
+    },
+    {
+     "word": " know.",
+     "start": 55.93,
+     "end": 55.93
+    }
+   ],
+   "metrics": {
+    "motion": 0.4274849397590361,
+    "motion_p90": 0.6226656626506024,
+    "static_share": 0.03896103896103896,
+    "peak_db": 10.239999771118164,
+    "level_db": -29.991147994995117
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -7670,6 +8683,6 @@
    "seconds": 31.1
   }
  },
- "checked_n": 604,
+ "checked_n": 606,
  "check_errors": {}
 }
