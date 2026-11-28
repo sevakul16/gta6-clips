@@ -1,54 +1,4 @@
 {
- "FurryInquisitiveSwordBrokeBack-5SIOik-M_5vJpDsB": {
-  "at": "2026-11-26T03:14:27.548020+00:00",
-  "moment_score": 6,
-  "what_happens": "Night drive in first person: green fog rolls in, the car stalls, a long-haired ghost crawls onto the hood and vanishes; streamer leans in and grimaces. Rare spooky encounter, readable without context; picture is dark and the streamer says little, so no higher",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": "Туман, машина глохнет, и на капот заползает призрак 👻",
-  "keep_start": 10.0,
-  "keep_end": 34.0,
-  "cam": [
-   0.012,
-   0.43,
-   0.176,
-   0.22
-  ],
-  "hook": "Призрак на капоте",
-  "cover_at": 28.4
- },
- "chat-2940574635-577": {
-  "at": "2026-11-26T03:14:27.593553+00:00",
-  "moment_score": 4,
-  "what_happens": "Says 'no weapons', picks a lock for 20 s, then throws a knife at a guard and deadpans 'I killed that guy'. The kill is between frames, the sound is very quiet, the irony needs a long dull middle",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940574635-603": {
-  "at": "2026-11-26T03:14:27.632661+00:00",
-  "moment_score": 4,
-  "what_happens": "On the run with three stars, calls for backup, then stops in a fruit shop to eat an apple. Mild gag, streamer says nothing about it, dark night run for most of the clip",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940864084-168": {
-  "at": "2026-11-26T03:14:27.676090+00:00",
-  "moment_score": 3,
-  "what_happens": "Peanut avatar instead of a webcam; parked car on a lawn while the streamer quizzes chat on what a beach promenade is. Talk, no game event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940500640-732": {
-  "at": "2026-11-26T03:14:27.719265+00:00",
-  "moment_score": 3,
-  "what_happens": "Night drive and map browsing while asking chat whether the game is meant to be played by robbing shops. Talk, no event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "chat-2940736052-450": {
   "at": "2026-11-26T04:13:30.397666+00:00",
   "moment_score": 3,
@@ -1933,6 +1883,72 @@
   "at": "2026-11-28T02:14:09.745305+00:00",
   "moment_score": 3,
   "what_happens": "Browsing anime tattoos in a tattoo shop menu while talking about input lag; no event, shirtless character close-ups",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942519348-536": {
+  "at": "2026-11-28T03:14:39.450844+00:00",
+  "moment_score": 6,
+  "what_happens": "Verbal setup then self-own: gets the supercar delivered for 3k, says he can't crash, can't do anything wrong in this vehicle, about ten seconds later slams it into an SUV in front of a bus (slow-motion crash cam), throws his head back; chat writes famous last words. Cam is a cutout at the right edge, detector box too wide",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "\"I can't do anything wrong in this vehicle.\" Seconds later 😭",
+  "keep_start": 28.0,
+  "keep_end": 53.0,
+  "cam": [
+   0.76,
+   0.3,
+   0.24,
+   0.3
+  ],
+  "hook": "Can't do anything wrong",
+  "cover_at": 45.1
+ },
+ "chat-2942519348-543": {
+  "at": "2026-11-28T03:14:39.482173+00:00",
+  "moment_score": 5,
+  "what_happens": "Driving the mother's hatchback while an in-game motivational speech plays (if you are failing it is because you are waiting); the car flips onto the overpass rail in slow motion right on those words. Nice irony, but the streamer stays almost silent and the joke rests on game audio",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942641007-377": {
+  "at": "2026-11-28T03:14:39.514988+00:00",
+  "moment_score": 5,
+  "what_happens": "Lucia sneaks into a drug lab, a cook catches and beats her while the streamer screams for Jason to help, WASTED, respawn next to Jason. Funny in context, but ten seconds of a man beating a crouching woman, quiet sound (-45 dB) and the punchline line sits at the cut-off; bare-bottom dumpster shot earlier",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942519348-498": {
+  "at": "2026-11-28T03:14:39.548286+00:00",
+  "moment_score": 4,
+  "what_happens": "Street race through traffic with a few knocked pedestrians, wins and collects; plain race win, no twist",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "DeadSpikyDonkeyRuleFive-e0GrGpXt9WjyBYQD": {
+  "at": "2026-11-28T03:14:39.583848+00:00",
+  "moment_score": 1,
+  "what_happens": "Console dashboard and a social feed clip with a topless character, streamer shouts for editors to blur it; no gameplay, nudity",
+  "gameplay_visible": false,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942654476-338": {
+  "at": "2026-11-28T03:14:39.616777+00:00",
+  "moment_score": 3,
+  "what_happens": "Swimming at sunset while a long donation message is read out and answered; talk, no game event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942654476-342": {
+  "at": "2026-11-28T03:14:39.648271+00:00",
+  "moment_score": 3,
+  "what_happens": "Swimming at dusk, spots an eel and jokes the game took 13 years because of the eel guy; dark picture, low-key, no event",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
