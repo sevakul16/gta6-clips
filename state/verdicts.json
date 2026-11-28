@@ -1,36 +1,4 @@
 {
- "chat-2940553066-578": {
-  "at": "2026-11-26T02:13:07.090153+00:00",
-  "moment_score": 4,
-  "what_happens": "Late story heist: in the flashbang blur shoots an own crew member and fails the mission, then says it was not his fault; the act is unreadable in the blur, the reaction runs over fail and black screens, story spoiler",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940553066-562": {
-  "at": "2026-11-26T02:13:07.137663+00:00",
-  "moment_score": 3,
-  "what_happens": "Herding hostages through the bank lobby on a story heist with almost no speech; no event, story spoiler",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940749005-264": {
-  "at": "2026-11-26T02:13:07.172867+00:00",
-  "moment_score": 3,
-  "what_happens": "Loots an armoured truck, rides off, then half a minute of pause map asking chat about food; no event",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
- "chat-2940864084-105": {
-  "at": "2026-11-26T02:13:07.208919+00:00",
-  "moment_score": 3,
-  "what_happens": "Dark night boat defence that ends in a retry menu; the streamer is a cartoon avatar, not a webcam, and says almost nothing",
-  "gameplay_visible": true,
-  "gambling_ad": false,
-  "caption": ""
- },
  "FurryInquisitiveSwordBrokeBack-5SIOik-M_5vJpDsB": {
   "at": "2026-11-26T03:14:27.548020+00:00",
   "moment_score": 6,
@@ -1907,6 +1875,64 @@
   "at": "2026-11-28T01:14:43.545635+00:00",
   "moment_score": 3,
   "what_happens": "Checks the phone bank balance, runs with a bag, takes an SUV and drives while talking about money arriving tomorrow; no event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942641007-296": {
+  "at": "2026-11-28T02:14:09.570227+00:00",
+  "moment_score": 7,
+  "what_happens": "Self-own with a verbal setup: decides to torch an apartment, throws fire bottles inside while standing in it, the room and bathroom go up, the character burns, WASTED, streamer screams and then laughs uncontrollably; chat explodes. Webcam at top-right, detector box a bit wide. Cut starts after the earlier talk about a court case",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": "Decided to torch the apartment from the inside. Guess who did not make it out 🔥",
+  "keep_start": 30.0,
+  "keep_end": 57.5,
+  "cam": [
+   0.76,
+   0.035,
+   0.24,
+   0.3
+  ],
+  "hook": "Arson gone wrong",
+  "cover_at": 45.5
+ },
+ "chat-2942439925-558": {
+  "at": "2026-11-28T02:14:09.605048+00:00",
+  "moment_score": 5,
+  "what_happens": "Says let's see how fast this bike can go, crashes within seconds and is thrown far from the bike, chat salutes. Good setup, but it is a night ride, the crash itself falls in the dark and the aftermath is nearly black",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942439925-590": {
+  "at": "2026-11-28T02:14:09.642755+00:00",
+  "moment_score": 4,
+  "what_happens": "Story mission: a deal in an apartment turns into a shootout, an ally dies too, then looting bloodied bodies; mostly scripted, no clear funny beat",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942519348-481": {
+  "at": "2026-11-28T02:14:09.676275+00:00",
+  "moment_score": 4,
+  "what_happens": "Wins a street race by a nose and celebrates the 5K with chat; plain race win, no twist, then sub talk",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942477402-518": {
+  "at": "2026-11-28T02:14:09.711685+00:00",
+  "moment_score": 3,
+  "what_happens": "Drives a convertible over a bridge, checks the map, stops to stow bags in the trunk while chat tells him to read the prompt; no event",
+  "gameplay_visible": true,
+  "gambling_ad": false,
+  "caption": ""
+ },
+ "chat-2942477402-541": {
+  "at": "2026-11-28T02:14:09.745305+00:00",
+  "moment_score": 3,
+  "what_happens": "Browsing anime tattoos in a tattoo shop menu while talking about input lag; no event, shirtless character close-ups",
   "gameplay_visible": true,
   "gambling_ad": false,
   "caption": ""
