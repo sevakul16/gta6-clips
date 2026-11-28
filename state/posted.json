@@ -1334,14 +1334,6 @@
   }
  },
  "rejected": {
-  "chat-2939887842-394": {
-   "at": "2026-11-25T05:55:28.927429+00:00",
-   "why": "picture is almost static (motion 0.03)",
-   "login": "rdcgaming",
-   "kind": "chat",
-   "vod": "2939887842",
-   "vod_t": 17721.870678
-  },
   "chat-2939925318-387": {
    "at": "2026-11-25T06:17:21.270679+00:00",
    "why": "picture is almost static (motion 0.03)",
@@ -6090,6 +6082,98 @@
     "level_db": -31.13622283935547
    },
    "silence": []
+  },
+  "chat-2942641007-633": {
+   "id": "chat-2942641007-633",
+   "url": "https://www.twitch.tv/videos/2942641007",
+   "section": [
+    28487.225521,
+    28543.225521
+   ],
+   "kind": "chat",
+   "views": 47,
+   "title": "",
+   "vod": "2942641007",
+   "vod_t": 28487.225521,
+   "group": "en",
+   "login": "penta",
+   "name": "PENTA",
+   "viewers": 2562,
+   "chat_score": 5.88,
+   "found_at": "2026-11-28T06:00:19.585672+00:00",
+   "spike_at": "2026-11-28T05:54:47.225521+00:00",
+   "chat": [
+    "11x om",
+    "2x CLASSIC",
+    "2x AAAA",
+    "2x fuck",
+    "om ͏",
+    "Romantic",
+    "KEKL",
+    "jesus lol",
+    "MUY PICANTE",
+    "god so fucking hot",
+    "damn she getting her ass is the worst port",
+    "moon2CUTE"
+   ],
+   "source": "cut from the live stream at a chat spike: 47 chatters in 15 s, 5.9x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-28T06:00:46.410795+00:00",
+   "cam": [
+    1399,
+    60,
+    520,
+    366
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 63.0,
+   "words": [
+    {
+     "word": " You",
+     "start": 2.74,
+     "end": 2.96
+    },
+    {
+     "word": " think",
+     "start": 2.96,
+     "end": 3.06
+    },
+    {
+     "word": " this",
+     "start": 3.06,
+     "end": 3.22
+    },
+    {
+     "word": " is",
+     "start": 3.22,
+     "end": 3.34
+    },
+    {
+     "word": " funny?",
+     "start": 3.34,
+     "end": 3.56
+    },
+    {
+     "word": " Yes.",
+     "start": 10.18,
+     "end": 10.54
+    },
+    {
+     "word": " Shit!",
+     "start": 35.13,
+     "end": 35.59
+    }
+   ],
+   "metrics": {
+    "motion": 0.06305615219392452,
+    "motion_p90": 0.4022706351641608,
+    "static_share": 0.3665338645418327,
+    "peak_db": 24.208311080932617,
+    "level_db": -53.63828659057617
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -7644,6 +7728,6 @@
    "seconds": 21.1
   }
  },
- "checked_n": 540,
+ "checked_n": 541,
  "check_errors": {}
 }
