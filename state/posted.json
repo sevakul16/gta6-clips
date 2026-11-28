@@ -1334,14 +1334,6 @@
   }
  },
  "rejected": {
-  "chat-2939866004-626": {
-   "at": "2026-11-25T08:07:45.747089+00:00",
-   "why": "picture is almost static (motion 0.00)",
-   "login": "theburntpeanut",
-   "kind": "chat",
-   "vod": "2939866004",
-   "vod_t": 28160.502735
-  },
   "chat-2939339874-1440": {
    "at": "2026-11-25T08:29:42.126869+00:00",
    "why": "editor: 4/10, Night helicopter defence with a launcher: misses the pursuers and the helicopter is shot down. Almost black picture, tiny webcam, an ordinary mission failure.",
@@ -6717,6 +6709,231 @@
     "level_db": -28.83652687072754
    },
    "silence": []
+  },
+  "chat-2942791227-578": {
+   "id": "chat-2942791227-578",
+   "url": "https://www.twitch.tv/videos/2942791227",
+   "section": [
+    25993.24479,
+    26049.24479
+   ],
+   "kind": "chat",
+   "views": 41,
+   "title": "",
+   "vod": "2942791227",
+   "vod_t": 25993.24479,
+   "group": "en",
+   "login": "ludwig",
+   "name": "Ludwig",
+   "viewers": 6539,
+   "chat_score": 5.12,
+   "found_at": "2026-11-28T08:13:22.919019+00:00",
+   "spike_at": "2026-11-28T08:06:50.244790+00:00",
+   "chat": [
+    "17x o",
+    "2x MONKA",
+    "FOLOW THE LIGHT",
+    "you also need headlights",
+    "easter egg???",
+    "FOLLOW THE LIGHT",
+    "after seeing ohne drive,this looks much better LOL",
+    "@Glorpon i could be remembering it wrong but i think he mentioned both",
+    "this is a random event is cool",
+    "Is that car possessed?"
+   ],
+   "source": "cut from the live stream at a chat spike: 41 chatters in 15 s, 5.1x the usual pace; the chat reacted about 42 s into the clip, so the moment itself is usually 5-20 s before that",
+   "at": "2026-11-28T08:13:51.125224+00:00",
+   "cam": [
+    0,
+    422,
+    310,
+    218
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "dur": 63.0,
+   "words": [
+    {
+     "word": " They'll",
+     "start": 2.06,
+     "end": 2.56
+    },
+    {
+     "word": " see",
+     "start": 2.56,
+     "end": 2.66
+    },
+    {
+     "word": " never",
+     "start": 2.66,
+     "end": 2.88
+    },
+    {
+     "word": " mind",
+     "start": 2.88,
+     "end": 3.28
+    },
+    {
+     "word": " that",
+     "start": 3.28,
+     "end": 4.36
+    },
+    {
+     "word": " fire",
+     "start": 12.04,
+     "end": 12.48
+    },
+    {
+     "word": " Bro,",
+     "start": 21.14,
+     "end": 21.7
+    },
+    {
+     "word": " I",
+     "start": 21.78,
+     "end": 22.02
+    },
+    {
+     "word": " need",
+     "start": 22.02,
+     "end": 22.18
+    },
+    {
+     "word": " to",
+     "start": 22.18,
+     "end": 22.32
+    },
+    {
+     "word": " get",
+     "start": 22.32,
+     "end": 22.46
+    },
+    {
+     "word": " a",
+     "start": 22.46,
+     "end": 22.58
+    },
+    {
+     "word": " car",
+     "start": 22.58,
+     "end": 22.78
+    },
+    {
+     "word": " that",
+     "start": 22.78,
+     "end": 22.92
+    },
+    {
+     "word": " doesn't",
+     "start": 22.92,
+     "end": 23.18
+    },
+    {
+     "word": " have",
+     "start": 23.18,
+     "end": 23.3
+    },
+    {
+     "word": " racing",
+     "start": 23.3,
+     "end": 23.58
+    },
+    {
+     "word": " tires",
+     "start": 23.58,
+     "end": 24.08
+    },
+    {
+     "word": " Racing",
+     "start": 24.08,
+     "end": 24.9
+    },
+    {
+     "word": " tires",
+     "start": 24.9,
+     "end": 25.3
+    },
+    {
+     "word": " are",
+     "start": 25.3,
+     "end": 25.46
+    },
+    {
+     "word": " so",
+     "start": 25.46,
+     "end": 25.98
+    },
+    {
+     "word": " bad",
+     "start": 25.98,
+     "end": 26.3
+    },
+    {
+     "word": " the",
+     "start": 26.3,
+     "end": 26.46
+    },
+    {
+     "word": " moment",
+     "start": 26.46,
+     "end": 26.82
+    },
+    {
+     "word": " you",
+     "start": 26.82,
+     "end": 27.02
+    },
+    {
+     "word": " touch",
+     "start": 27.02,
+     "end": 27.18
+    },
+    {
+     "word": " grass.",
+     "start": 27.18,
+     "end": 27.52
+    },
+    {
+     "word": " Oh",
+     "start": 33.96,
+     "end": 34.52
+    },
+    {
+     "word": " That",
+     "start": 37.14,
+     "end": 37.7
+    },
+    {
+     "word": " person's",
+     "start": 37.7,
+     "end": 38.26
+    },
+    {
+     "word": " body,",
+     "start": 38.26,
+     "end": 38.54
+    },
+    {
+     "word": " who's",
+     "start": 38.68,
+     "end": 39.54
+    },
+    {
+     "word": " that?",
+     "start": 61.39,
+     "end": 61.65
+    }
+   ],
+   "metrics": {
+    "motion": 0.15748597727599598,
+    "motion_p90": 0.3901193729325471,
+    "static_share": 0.0199203187250996,
+    "peak_db": 11.174079895019531,
+    "level_db": -29.15074920654297
+   },
+   "silence": []
   }
  },
  "pool": {
@@ -8271,6 +8488,6 @@
    "seconds": 21.1
   }
  },
- "checked_n": 557,
+ "checked_n": 558,
  "check_errors": {}
 }
